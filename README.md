@@ -4,7 +4,7 @@ Human-led AI workflows for real B2B sales work.
 
 This repository shows practical ways salespeople can use AI to reduce administration, prepare more effectively and follow up consistently—without handing judgement or customer relationships over to automation.
 
-## Why this exists
+## Why This Exists
 
 Sales teams hear a lot about what AI *could* do. This project focuses on the work that actually fills a salesperson's day:
 
@@ -17,15 +17,15 @@ Sales teams hear a lot about what AI *could* do. This project focuses on the wor
 
 Each workflow starts with a real sales problem and provides a repeatable process, a reusable template and a fictional worked example.
 
-## The workflow library
+## The Workflow Library
 
 | Workflow | Problem | Status |
 | --- | --- | --- |
-| [AI pre-call preparation](workflows/01-pre-call-preparation.md) | Useful context is scattered and call preparation takes too long | Ready |
-| Post-call follow-up | Notes, actions and emails are inconsistent | Planned |
+| [AI Pre Call Preparation](workflows/01-pre-call-preparation.md) | Useful context is scattered and call preparation takes too long | Ready |
+| Post Call Follow Up | Notes, actions and emails are inconsistent | Planned |
 | Opportunity handover | Important context gets lost between stages or people | Planned |
 
-## How the approach works
+## How the Approach Works
 
 ```mermaid
 flowchart LR
@@ -37,10 +37,10 @@ flowchart LR
 
 AI is used to organise information, suggest useful questions and draft material. The salesperson remains responsible for accuracy, judgement and the decision to act.
 
-## Start here
+## Start Here
 
-1. Read the [AI pre-call preparation workflow](workflows/01-pre-call-preparation.md).
-2. Copy the [pre-call card template](templates/pre-call-card.md).
+1. Read the [AI Pre Call Preparation workflow](workflows/01-pre-call-preparation.md).
+2. Copy the [Pre Call Card template](templates/pre-call-card.md).
 3. Compare it with the [fictional worked example](examples/harbour-pine-pre-call.md).
 4. Adapt it to your role, sales motion and approved tools.
 
@@ -52,16 +52,15 @@ AI is used to organise information, suggest useful questions and draft material.
 - **Minimum necessary data.** Do not paste confidential customer or company information into unapproved tools.
 - **Measure the workflow.** Track whether it saves time or improves consistency.
 
-## About me
+## About Me
 
 I'm Shaun Marsden, a sales operator exploring practical ways AI can improve everyday B2B sales work. I share working processes, templates and lessons from building AI-assisted sales workflows.
 
 This is an independent learning project. All examples are fictional and should be adapted to your organisation's policies, systems and sales process.
 
-## What's next
+## What's Next
 
 - Post-call transcript to actions and follow-up
 - Opportunity handover pack
 - CRM hygiene and pipeline review
 - Responsible workflow measurement
-
