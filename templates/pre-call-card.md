@@ -1,4 +1,4 @@
-# Pre-call card
+# Pre Call Card
 
 ## Call
 
@@ -8,18 +8,18 @@
 - **Meeting purpose:**
 - **Good outcome:**
 
-## Confirmed context
+## Confirmed Context
 
 -
 -
 -
 
-## Assumptions to test
+## Assumptions to Test
 
 -
 -
 
-## Relevance hypothesis
+## Relevance Hypothesis
 
 If __________, then __________ may be worth exploring.
 
@@ -29,38 +29,37 @@ One natural sentence connecting the reason for the meeting to the contact's cont
 
 >
 
-## Discovery questions
+## Discovery Questions
 
 1.
 2.
 3.
 4.
 
-## Conversation paths
+## Conversation Paths
 
-### The problem is relevant
+### The Problem Is Relevant
 
 - Explore:
 - Evidence to listen for:
 - Sensible next step:
 
-### The hypothesis is wrong or not a priority
+### The Hypothesis Is Wrong or Not a Priority
 
 - Ask:
 - Alternative area to explore:
 - Sensible close:
 
-### Voicemail or no answer
+### Voicemail or No Answer
 
 >
 
-## Risks and unknowns
+## Risks and Unknowns
 
 -
 -
 
-## Sources checked
+## Sources Checked
 
 -
 -
-
