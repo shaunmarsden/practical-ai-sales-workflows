@@ -2,7 +2,7 @@
 
 Human-led AI workflows for real B2B sales work.
 
-This repository shows practical ways salespeople can use AI to reduce administration, prepare more effectively and follow up consistently—without handing judgement or customer relationships over to automation.
+This repository shows practical ways salespeople can use AI to reduce administration, prepare more effectively and follow up consistently, without handing judgement or customer relationships over to automation.
 
 ## Why This Exists
 
