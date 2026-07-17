@@ -23,7 +23,7 @@ Each workflow starts with a real sales problem and provides a repeatable process
 | --- | --- | --- |
 | [AI Pre Call Preparation](workflows/01-pre-call-preparation.md) | Useful context is scattered and call preparation takes too long | Ready |
 | Post Call Follow Up | Notes, actions and emails are inconsistent | Planned |
-| Opportunity handover | Important context gets lost between stages or people | Planned |
+| Opportunity Handover | Important context gets lost between stages or people | Planned |
 
 ## How the Approach Works
 
