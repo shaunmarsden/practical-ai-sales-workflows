@@ -1,12 +1,12 @@
-# Workflow 01: AI pre-call preparation
+# Workflow 01: AI Pre Call Preparation
 
-## The problem
+## The Problem
 
 Useful information is often spread across a CRM, company website, calendar invitation, previous emails and personal notes. Salespeople either spend too long pulling it together or join the call with an unfocused collection of facts.
 
 This workflow turns a small set of reliable inputs into a concise call card. It is designed to improve preparation, not automate the conversation.
 
-## Best used when
+## Best Used When
 
 - The meeting has a named contact and company.
 - There is a clear reason for the conversation.
@@ -27,11 +27,11 @@ Do not include passwords, payment information, special-category personal data, c
 
 ## Process
 
-### 1. Define the job of the call
+### 1. Define the Job of the Call
 
 Write one sentence describing what a good outcome looks like. For an early conversation, this may simply be confirming whether a problem is important enough to explore further.
 
-### 2. Build a compact account snapshot
+### 2. Build a Compact Account Snapshot
 
 Ask AI to organise the approved inputs into:
 
@@ -42,7 +42,7 @@ Ask AI to organise the approved inputs into:
 
 Require links or source labels for public claims. If something cannot be verified, label it as an assumption.
 
-### 3. Form a relevance hypothesis
+### 3. Form a Relevance Hypothesis
 
 Create a short, testable hypothesis connecting the prospect's likely situation to the problem you help solve.
 
@@ -52,7 +52,7 @@ Better: “If the revenue operations team is manually consolidating call notes a
 
 The hypothesis is a starting point for a question—not a claim to make about the prospect.
 
-### 4. Prepare the conversation paths
+### 4. Prepare the Conversation Paths
 
 Create three lightweight branches:
 
@@ -60,7 +60,7 @@ Create three lightweight branches:
 - **Alternative path:** the initial hypothesis is wrong or not a priority.
 - **Voicemail/no answer:** a short message with a clear and low-pressure next step.
 
-### 5. Run the human check
+### 5. Run the Human Check
 
 Before using the card, confirm:
 
@@ -72,9 +72,9 @@ Before using the card, confirm:
 
 ## Output
 
-Use the [pre-call card template](../templates/pre-call-card.md). Keep the finished card short enough to scan during the conversation.
+Use the [Pre Call Card template](../templates/pre-call-card.md). Keep the finished card short enough to scan during the conversation.
 
-## Suggested AI instruction
+## Suggested AI Instruction
 
 ```text
 Act as a sales preparation assistant. Use only the information I provide.
@@ -86,7 +86,7 @@ Keep the card practical enough to scan during a live call. The salesperson will 
 
 Attach the completed template and your approved source material beneath the instruction.
 
-## What to measure
+## What to Measure
 
 Test the workflow over several calls and record:
 
@@ -96,4 +96,3 @@ Test the workflow over several calls and record:
 - Which sections were actually used during the call
 
 The objective is not to generate more text. It is to produce better preparation with less avoidable effort.
-
