@@ -50,7 +50,7 @@ Bad: “They need AI.”
 
 Better: “If the revenue operations team is manually consolidating call notes and CRM updates, reducing that administration may be worth exploring.”
 
-The hypothesis is a starting point for a question—not a claim to make about the prospect.
+The hypothesis is a starting point for a question, not a claim to make about the prospect.
 
 ### 4. Prepare the Conversation Paths
 
