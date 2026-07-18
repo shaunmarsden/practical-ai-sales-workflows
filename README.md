@@ -44,7 +44,7 @@ AI can organise information, suggest questions and produce a useful first draft.
 
 1. Read the [AI Pre Call Preparation workflow](workflows/01-pre-call-preparation.md).
 2. Copy the [Pre Call Card template](templates/pre-call-card.md).
-3. Look at the [fictional worked example](examples/harbour-pine-pre-call.md).
+3. Look at the [fictional worked example](examples/northstar-pre-call.md).
 4. Adapt it to your job, your sales process and the tools your company allows.
 
 ## Things I Will Not Compromise On
@@ -110,7 +110,7 @@ AI is used to organise information, suggest useful questions and draft material.
 
 1. Read the [AI Pre Call Preparation workflow](workflows/01-pre-call-preparation.md).
 2. Copy the [Pre Call Card template](templates/pre-call-card.md).
-3. Compare it with the [fictional worked example](examples/harbour-pine-pre-call.md).
+3. Compare it with the [fictional worked example](examples/northstar-pre-call.md).
 4. Adapt it to your role, sales motion and approved tools.
 
 ## Principles
