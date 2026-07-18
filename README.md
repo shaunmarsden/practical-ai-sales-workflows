@@ -12,6 +12,8 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 > AI helps with the preparation. The salesperson is still responsible for the judgement.
 
+**New here?** [Find your starting point](guides/where-to-start.md) based on how much you have actually used AI already, from never touched it to already building your own workflows.
+
 ## 🎯 Choose a Sales Problem
 
 ### 🔎 Find the Next Prospect
