@@ -31,24 +31,26 @@ The tiers are ordered by how much still feels new, not by seniority or how it lo
 You have not used ChatGPT, Claude, or a similar tool seriously yet, or you tried once and did not get much out of it.
 
 1. [Getting Started with AI](getting-started-with-ai.md) — what these tools actually are, and how to get a useful answer out of one
-2. [Prepare for a Sales Call](../workflows/01-pre-call-preparation.md) — the simplest workflow here, a good first real task to try
-3. Come back to this page once that feels easy, not effortful
+2. [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md) — give it real context about you and your job, once, instead of starting from a blank page every time
+3. [Prepare for a Sales Call](../workflows/01-pre-call-preparation.md) — the simplest workflow here, a good first real task to try
+4. Come back to this page once that feels easy, not effortful
 
 ### 🌿 Used It a Bit
 
 You have used AI for the odd email or quick question, but have not built anything repeatable out of it yet.
 
-1. [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) — the idea of turning a one-off prompt into something repeatable
-2. [Follow Up After a Sales Call](../workflows/02-post-call-follow-up.md) and its [worked example](../examples/northstar-post-call-output.md) — see the quality bar before trying it on your own work
-3. [Writing Style and Formatting](writing-style-and-formatting.md) — paste this into your own AI tool as standing instructions so you stop re-explaining your tone every time
+1. [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md) — the single biggest jump from generic answers to useful ones is standing context, not a cleverer one-off prompt
+2. [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) — the idea of turning a one-off prompt into something repeatable
+3. [Follow Up After a Sales Call](../workflows/02-post-call-follow-up.md) and its [worked example](../examples/northstar-post-call-output.md) — see the quality bar before trying it on your own work
 
 ### 🌳 Used It a Lot
 
 AI is already part of your regular workflow. What you actually want is more consistency and less re-explaining yourself each time.
 
-1. The [skills library](what-is-a-sales-ai-skill.md#try-the-skills-library) — install one of these instead of writing the same prompt from scratch every time
-2. [Methodology](../METHODOLOGY.md) — the reasoning behind why the skills here are built the way they are, not just what they do
-3. [Sales AI Output Rubric](../evaluations/sales-ai-output-rubric.md) — start scoring your own results instead of trusting them because they read well
+1. If you have not already standardised your own setup, [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md) is worth the fifteen minutes
+2. The [skills library](what-is-a-sales-ai-skill.md#try-the-skills-library) — install one of these instead of writing the same prompt from scratch every time
+3. [Methodology](../METHODOLOGY.md) — the reasoning behind why the skills here are built the way they are, not just what they do
+4. [Sales AI Output Rubric](../evaluations/sales-ai-output-rubric.md) — start scoring your own results instead of trusting them because they read well
 
 ### 🌲 AI Wizard
 
