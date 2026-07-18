@@ -12,6 +12,12 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 > AI helps with the preparation. The salesperson is still responsible for the judgement.
 
+## 🧰 Set Up Your Own AI for Sales
+
+Before anything else, most people get a fraction of what a modern AI tool can do because every conversation starts from a blank page. This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions or system prompt field.
+
+**Start here:** [Fill in the About Me Worksheet](templates/about-me-worksheet.md) · [Copy the AI Sales Setup Prompt](templates/ai-sales-setup-prompt.md) · [Read where to paste it](guides/set-up-your-ai-for-sales.md)
+
 **New here?** [Find your starting point](guides/where-to-start.md) based on how much you have actually used AI already, from never touched it to already building your own workflows.
 
 ## 🎯 Choose a Sales Problem
