@@ -49,13 +49,14 @@ AI is already part of your regular workflow. What you actually want is more cons
 
 1. If you have not already standardised your own setup, [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md) is worth the fifteen minutes
 2. The [skills library](what-is-a-sales-ai-skill.md#try-the-skills-library) — install one of these instead of writing the same prompt from scratch every time
-3. [Methodology](../METHODOLOGY.md) — the reasoning behind why the skills here are built the way they are, not just what they do
+3. [Get More From Your AI](get-more-from-your-ai.md) — projects, skills, and connectors, once a single prompt has stopped being enough
 4. [Sales AI Output Rubric](../evaluations/sales-ai-output-rubric.md) — start scoring your own results instead of trusting them because they read well
 
 ### 🌲 AI Wizard
 
 You are already comfortable building and adapting AI workflows, and you might want to adapt this repository rather than just use it as-is.
 
-1. Read a couple of the [evaluations](../evaluations/) alongside their outputs, to see how the honest-review habit actually works in practice, including where a result fell short
-2. [Responsible Use](../RESPONSIBLE-USE.md) and [Methodology](../METHODOLOGY.md) — the guardrails and reasoning worth keeping if you adapt any of this for your own role
-3. Adapt a skill for yourself: the "How do I adapt one for my sales process?" section in [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) walks through it directly
+1. [Get More From Your AI](get-more-from-your-ai.md) — if you have not already, connect real reference material and live tools rather than working from a single prompt
+2. Read a couple of the [evaluations](../evaluations/) alongside their outputs, to see how the honest-review habit actually works in practice, including where a result fell short
+3. [Responsible Use](../RESPONSIBLE-USE.md) and [Methodology](../METHODOLOGY.md) — the guardrails and reasoning worth keeping if you adapt any of this for your own role
+4. Adapt a skill for yourself: the "How do I adapt one for my sales process?" section in [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) walks through it directly

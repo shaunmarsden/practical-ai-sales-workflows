@@ -18,6 +18,8 @@ Before anything else, most people get a fraction of what a modern AI tool can do
 
 **Start here:** [Fill in the About Me Worksheet](templates/about-me-worksheet.md) · [Copy the AI Sales Setup Prompt](templates/ai-sales-setup-prompt.md) · [Read where to paste it](guides/set-up-your-ai-for-sales.md)
 
+Once that stops being enough on its own: [Get More From Your AI](guides/get-more-from-your-ai.md) covers projects and knowledge bases, turning repeated prompts into skills, and connecting real tools like a CRM or a transcription app.
+
 **New here?** [Find your starting point](guides/where-to-start.md) based on how much you have actually used AI already, from never touched it to already building your own workflows.
 
 ## 🎯 Choose a Sales Problem
