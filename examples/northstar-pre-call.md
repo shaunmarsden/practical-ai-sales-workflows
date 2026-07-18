@@ -1,4 +1,4 @@
-# Fictional Example: Harbour & Pine Analytics
+# Fictional Example: Northstar Analytics
 
 > This example is entirely fictional. The company, contact and scenario were created to demonstrate the workflow.
 
@@ -6,9 +6,9 @@
 
 - **Contact:** Alex Morgan
 - **Role:** Head of Revenue Operations
-- **Company:** Harbour & Pine Analytics
+- **Company:** Northstar Analytics
 - **Meeting purpose:** Introductory conversation about improving sales workflow efficiency
-- **Good outcome:** Understand whether sales administration is a meaningful problem and agree a deeper workflow-mapping session if appropriate
+- **Good outcome:** Understand whether sales administration is a meaningful problem and agree a deeper workflow mapping session if appropriate
 
 ## Confirmed Context
 
@@ -23,7 +23,7 @@
 
 ## Relevance Hypothesis
 
-If the team is manually moving information between calls, email and its CRM, an AI-assisted process for structuring notes and next actions may be worth exploring.
+If the team is manually moving information between calls, email and its CRM, an AI assisted process for structuring notes and next actions may be worth exploring.
 
 ## Opening
 
@@ -41,7 +41,7 @@ If the team is manually moving information between calls, email and its CRM, an 
 ### The Problem Is Relevant
 
 - **Explore:** Frequency, people involved, current tools, failure points and business effect
-- **Evidence to listen for:** Rework, delayed follow-up, missing fields, inconsistent notes or unreliable handovers
+- **Evidence to listen for:** Rework, delayed follow up, missing fields, inconsistent notes or unreliable handovers
 - **Sensible next step:** Map one representative workflow using sample or sanitised data
 
 ### The Hypothesis Is Wrong or Not a Priority
