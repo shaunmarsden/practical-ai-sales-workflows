@@ -8,7 +8,8 @@ flowchart TB
     B["2. A project with real reference material"]
     C["3. Repeatable skills, not reworded prompts"]
     D["4. Live connections to your actual tools"]
-    A --> B --> C --> D
+    E["5. Automations and agents acting on your behalf"]
+    A --> B --> C --> D --> E
 ```
 
 ## Remember These Three Things
@@ -92,10 +93,35 @@ Availability changes often and varies a great deal by plan tier and company poli
 
 </details>
 
+## Layer 5: Automations and Agents
+
+An automation or an agent runs on a trigger, a schedule, a new CRM record, an email arriving, rather than waiting for you to start a conversation, and can chain together several steps on its own before coming back to you. This is the layer where AI moves from something you talk to, to something that does a piece of your job in the background.
+
+Examples worth trying: a daily brief that reads your calendar and CRM each morning and tells you what actually needs attention, an agent that drafts a first-touch email the moment a new lead lands in your CRM, ready for you to review, or a scheduled weekly check for pipeline records with no next step.
+
+This is also the layer with the least room for error, and the ground rules from the [setup prompt](../templates/ai-sales-setup-prompt.md) apply here with less slack, not more, because nobody is reviewing each step the way you would review a single reply:
+
+- Draft and prepare, do not let it send an email or write to your CRM on its own, unless you have deliberately set up that one specific action and you trust it after watching it work
+- Never let anything customer-facing run fully unsupervised until you have watched it do the task manually, correctly, several times first
+- Give it the narrowest trigger and the narrowest job you can. "Draft a reply when this specific kind of email arrives" is safer and more useful than "handle my inbox"
+
+<details>
+<summary><strong>Where is this in each tool?</strong></summary>
+
+- **Claude**: scheduled or multi-step agent runs, where available on your plan.
+- **ChatGPT**: scheduled tasks, or a Custom GPT with Actions triggered on your instruction.
+- **Gemini**: Workspace automation features, or a script built around it by your organisation.
+- **Copilot**: Power Automate flows connected to Copilot, almost always set up by IT rather than an individual user.
+
+This is the newest and fastest-changing layer of all four, so treat the exact names above as pointers to ask about, not a guarantee of what exists on your plan today.
+
+</details>
+
 ## Which Layer Is Worth Your Time Right Now
 
 - Re-explaining the same background information every time you start a conversation: set up a project.
 - Rewriting a version of the same prompt every week: turn it into a skill.
 - Constantly copying and pasting from another tool into your AI conversation, and your company allows it: look at a connector.
+- Doing the exact same multi-step task on a schedule or every time something specific happens, and you have already trusted the manual version several times: look at an automation or agent, with the guardrails above, not without them.
 
 Move up a layer when the one you are on stops saving you anything, not because the next one sounds more advanced.
