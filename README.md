@@ -30,9 +30,9 @@ Turn a transcript or clear notes into a summary, actions, email draft and CRM su
 
 ### 🤝 Hand Over an Opportunity
 
-Keep the important context when an opportunity moves between stages or people.
+Pass the current position, evidence, risks and next action to another person without making the deal sound further along than it is.
 
-**Status:** Coming next
+**Start here:** [Open the workflow](workflows/03-opportunity-handover.md) · [See the Northstar handover](examples/northstar-opportunity-handover.md) · [Use the prompt](templates/opportunity-handover-prompt.md)
 
 ## 🧭 How I Approach It
 
@@ -70,6 +70,6 @@ This is an independent learning project. Every company, person and conversation 
 ## What I Want to Try Next
 
 - Compare the same workflow in ChatGPT, Claude and Gemini
-- Build a better opportunity handover
 - Make CRM and pipeline reviews less painful
+- Test a handover with conflicting notes and a change of contact
 - Find sensible ways to measure time saved and output quality
