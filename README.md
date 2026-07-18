@@ -68,6 +68,14 @@ Pass the current position, evidence, risks and next action to another person wit
 
 **Start here:** [Open the workflow](workflows/03-opportunity-handover.md) · [See the Northstar handover](examples/northstar-opportunity-handover.md) · [Use the prompt](templates/opportunity-handover-prompt.md)
 
+### 📪 Review a Lost Opportunity
+
+Work out honestly whether a closed or stalled deal is actually over, or just blocked, before deciding whether there is a real way back in.
+
+**Start here:** [Open the workflow](workflows/04-lost-opportunity-review.md) · [See the Northstar analysis](examples/northstar-lost-opportunity-analysis.md) · [Use the prompt](templates/lost-opportunity-review-prompt.md)
+
+**Use with AI:** [Review a lost opportunity](.agents/skills/review-lost-opportunity/SKILL.md)
+
 ## 🧭 How I Approach It
 
 ```mermaid

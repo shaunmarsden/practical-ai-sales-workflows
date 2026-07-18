@@ -38,6 +38,7 @@ Most skills here use the same fictional Northstar conversation, so none of them 
 - [Plan Chase Sequence](../.agents/skills/plan-chase-sequence/SKILL.md) — decides what, if anything, to send a prospect who has gone quiet
 - [Respond to an Objection](../.agents/skills/objection-response/SKILL.md) — diagnoses what is actually driving a stated objection before answering it
 - [Plan Outbound Prospecting](../.agents/skills/outbound-prospecting/SKILL.md) — selects a cold target and drafts a first-touch message worth a reply
+- [Review a Lost Opportunity](../.agents/skills/review-lost-opportunity/SKILL.md) — works out if a closed or stalled deal is genuinely over, or just blocked
 
 ## Before You Use a Skill on Real Work
 
