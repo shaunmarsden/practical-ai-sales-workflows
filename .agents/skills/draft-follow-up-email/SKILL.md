@@ -5,6 +5,8 @@ description: Draft the fixed-template follow up email sent after a discovery cal
 
 # Draft a Follow-Up Email
 
+> Landed here directly rather than clicking through from a guide? This file is the instruction sheet an AI assistant follows, not written for a first read start to finish. [What is a sales AI skill?](../../../guides/what-is-a-sales-ai-skill.md) has the plain-English version.
+
 Send one consistent template, personalised with real detail from the call. The template exists so the only decision left is what to personalise, not how to restructure the email.
 
 ## Gather the Inputs
