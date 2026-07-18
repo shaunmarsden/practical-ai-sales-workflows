@@ -75,3 +75,5 @@ Explain the limitation and ask for the minimum missing detail instead.
 Before this goes to a prospect, a person must check that every commercial figure is one the business is actually prepared to honour, that the risk and data section is accurate, and that nothing reads as a guarantee of an outcome. Sending the document and updating the CRM stay subject to explicit human approval.
 
 Read [the audit checklist](references/audit-checklist.md) before presenting a finished or audited draft.
+
+For a fictional test, read [the Northstar example](references/northstar-example.md).
