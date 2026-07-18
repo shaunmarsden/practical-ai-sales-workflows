@@ -47,7 +47,7 @@ The same privacy rule applies here as everywhere else: check what your company a
 - **Claude**: Projects, with files attached to the project's knowledge.
 - **ChatGPT**: a Custom GPT's knowledge files, or Projects, depending on which you are using.
 - **Gemini**: a Gem with files attached, or a connected Workspace document.
-- **Copilot**: usually tied to files already stored in your organisation's SharePoint or OneDrive, so what is available depends heavily on your company's setup.
+- **Copilot**: often the least setup of the four here, since it already reads files you have stored in SharePoint or OneDrive without you attaching anything. Ask your IT team what is already connected before assuming you need to upload something new.
 
 Exact menu names and available storage change over time, so look for "knowledge," "files," or "attach" inside whichever project or assistant feature your tool offers.
 
@@ -67,9 +67,9 @@ To build your own, the "How do I adapt one for my sales process?" section in [Wh
 - **Claude**: Skills, uploaded to a Project's knowledge or added as a standalone skill depending on your plan.
 - **ChatGPT**: a Custom GPT's instructions, or a saved prompt you reuse deliberately rather than rewrite.
 - **Gemini**: a Gem built around one specific task.
-- **Copilot**: a custom agent, where your organisation allows building one.
+- **Copilot**: a custom agent, if your organisation has enabled building one. If not, a saved prompt you reuse deliberately works just as well as a starting point, the same as in any other tool.
 
-Whichever tool you use, the important thing is that the method lives somewhere reusable, not that it uses this exact terminology.
+Whichever tool you use, the important thing is that the method lives somewhere reusable, not that it uses this exact terminology. If Copilot is the only tool your organisation gives you, that is a completely normal starting point, not a lesser one, and everything in this layer still applies.
 
 </details>
 
@@ -87,7 +87,7 @@ The honest caveat: this is the layer most likely to need IT or admin approval, e
 - **Claude**: connectors, where available on your plan, for tools such as a CRM, calendar, or email.
 - **ChatGPT**: connectors or Actions, depending on your plan and what your organisation has enabled.
 - **Gemini**: Workspace integration, since Gemini already sits inside Gmail, Calendar, and Docs for many users.
-- **Copilot**: Microsoft Graph connectors, almost always configured centrally by your organisation rather than by an individual user.
+- **Copilot**: Microsoft Graph connectors, which is a genuine strength if your company already runs on Microsoft 365, since Outlook, Teams, and SharePoint data are often reachable with less setup than an equivalent third-party connector elsewhere. Ask whoever administers it what is already turned on.
 
 Availability changes often and varies a great deal by plan tier and company policy, so treat this section as a starting point for what to ask for, not a guarantee of what you already have.
 
@@ -111,7 +111,7 @@ This is also the layer with the least room for error, and the ground rules from 
 - **Claude**: scheduled or multi-step agent runs, where available on your plan.
 - **ChatGPT**: scheduled tasks, or a Custom GPT with Actions triggered on your instruction.
 - **Gemini**: Workspace automation features, or a script built around it by your organisation.
-- **Copilot**: Power Automate flows connected to Copilot, almost always set up by IT rather than an individual user.
+- **Copilot**: Power Automate flows connected to Copilot. Usually set up by IT rather than an individual user, but worth specifically requesting if your company already runs Power Automate for anything else, since the groundwork may already exist.
 
 This is the newest and fastest-changing layer of all four, so treat the exact names above as pointers to ask about, not a guarantee of what exists on your plan today.
 

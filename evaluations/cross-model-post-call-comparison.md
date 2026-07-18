@@ -8,6 +8,8 @@ This compares corrections needed, not which answer reads most polished. A fluent
 
 Claude was run in a brand new conversation, separate from the one used to build this repository, specifically so the result wasn't just Claude confirming something it had already been told the answer to. ChatGPT and Gemini were run by Shaun directly, since this environment's browser tooling is blocked from reaching either domain; the raw outputs were pasted back unedited before scoring.
 
+**Microsoft Copilot is not included in this run, and that gap is worth naming rather than leaving quiet.** A genuine comparison would cover it: it's frequently the only AI tool a salesperson has access to, since plenty of organisations lock the choice down to whatever their IT department has already rolled out, and Copilot users deserve the same evidence as everyone else, not an assumption that the other three are the default and Copilot is an afterthought. It's missing here for a plain reason: neither Shaun nor this environment currently has access to it to run the test honestly. If that changes, this is the first thing to add.
+
 ## Result
 
 | Model | Score |
