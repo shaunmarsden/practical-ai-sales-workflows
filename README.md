@@ -26,6 +26,8 @@ Turn a transcript or clear notes into a summary, actions, email draft and CRM su
 
 **Start here:** [Open the workflow](workflows/02-post-call-follow-up.md) · [See the finished output](examples/northstar-post-call-output.md) · [Use the prompt](templates/post-call-follow-up-prompt.md)
 
+**Use with AI:** [Learn what a sales AI skill is](guides/what-is-a-sales-ai-skill.md) · [View the portable evidence skill](.agents/skills/extract-post-call-evidence/SKILL.md)
+
 ### 🤝 Hand Over an Opportunity
 
 Keep the important context when an opportunity moves between stages or people.
