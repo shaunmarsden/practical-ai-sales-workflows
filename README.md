@@ -14,7 +14,7 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 ## 🧰 Set Up Your Own AI for Sales
 
-Before anything else, most people get a fraction of what a modern AI tool can do because every conversation starts from a blank page. This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions or system prompt field.
+Before anything else, most people get a fraction of what a modern AI tool can do because every conversation starts from a blank page. This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions or system prompt field. If Copilot is the only one your organisation gives you access to, that is a completely normal starting point, not a lesser one, and a lot of the people I actually speak with are in exactly that position.
 
 **Start here:** [Fill in the About Me Worksheet](templates/about-me-worksheet.md) · [Copy the AI Sales Setup Prompt](templates/ai-sales-setup-prompt.md) · [Read where to paste it](guides/set-up-your-ai-for-sales.md)
 

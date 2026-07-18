@@ -55,7 +55,7 @@ Saved information or a Gem's own instructions, depending on which Gemini surface
 <details>
 <summary><strong>Where do I paste this in Copilot?</strong></summary>
 
-Saved instructions or a custom agent's instructions, depending on your organisation's setup. Copilot's options vary more between companies than the others, since it is usually configured centrally, so check with whoever administers it if you can't find the setting yourself.
+Saved instructions or a custom agent's instructions, depending on your organisation's setup. If Copilot is the only AI tool your company gives you, that is genuinely common and everything in this guide still applies; the main difference is that whoever administers Copilot at your company controls more of the setup than you would in a personal ChatGPT or Claude account, so it is worth asking them directly what is already available rather than assuming the option does not exist.
 
 </details>
 
