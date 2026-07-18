@@ -98,6 +98,8 @@ The Northstar example follows one fictional sales conversation from the call to 
 
 You can also score your own result using the [sales AI output rubric](evaluations/sales-ai-output-rubric.md).
 
+Curious whether the model actually matters? [See the same test run cold in Claude, ChatGPT and Gemini](evaluations/cross-model-post-call-comparison.md), scored the same way.
+
 ## 🛡️ Rules That Matter
 
 - Keep facts, estimates and assumptions separate
@@ -113,7 +115,7 @@ This is an independent learning project. Every company, person and conversation 
 
 ## What I Want to Try Next
 
-- Compare the same workflow in ChatGPT, Claude and Gemini
+- ~~Compare the same workflow in ChatGPT, Claude and Gemini~~ — [done](evaluations/cross-model-post-call-comparison.md), worth repeating with a messier transcript before drawing a real conclusion
 - Make CRM and pipeline reviews less painful
 - Test a handover with conflicting notes and a change of contact
 - Find sensible ways to measure time saved and output quality
