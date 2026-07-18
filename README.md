@@ -14,16 +14,16 @@ This project is a collection of workflows for the everyday parts of B2B sales, s
 
 ## 🧭 How I Approach It
 
-```mermaid
-flowchart LR
-    A["Start with a real sales problem"] --> B["Use approved information"]
-    B --> C["Ask AI to structure the work"]
-    C --> D["Check facts and assumptions"]
-    D --> E["Decide and act"]
-    E --> F["Score the result and improve"]
-```
+| Step | What This Means |
+| --- | --- |
+| **1. Start with the problem** | Choose a real sales task that is taking too long or producing inconsistent results. |
+| **2. Use approved information** | Give the AI only the information that is useful and safe to use. |
+| **3. Let AI structure the work** | Use it to organise information, spot gaps and prepare a useful first draft. |
+| **4. Check the detail** | Separate facts from estimates and challenge anything that does not look right. |
+| **5. Decide and act** | A person makes the judgement and remains responsible for the outcome. |
+| **6. Score and improve** | Test the result, record what failed and make the workflow better next time. |
 
-AI can organise information, spot gaps and produce a useful first draft. The salesperson is still responsible for checking it and deciding what to do.
+AI helps with the preparation. The salesperson is still responsible for the judgement.
 
 The full approach is explained in the [methodology](METHODOLOGY.md), with the public data boundaries in [responsible use](RESPONSIBLE-USE.md).
 
