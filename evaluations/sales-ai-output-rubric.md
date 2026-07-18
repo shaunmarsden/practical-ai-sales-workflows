@@ -1,5 +1,7 @@
 # Sales AI Output Rubric
 
+A rubric is just a fixed checklist for scoring something the same way every time, instead of judging it by gut feel. "That email looks good" is not the same thing as "that email is accurate, safe, and ready to send." This rubric scores AI-generated sales output against the same ten checks every time, so two different results can be compared fairly, and a weak spot gets caught before it reaches a customer rather than after.
+
 Score each area from 1 to 5.
 
 | Score | Meaning |
