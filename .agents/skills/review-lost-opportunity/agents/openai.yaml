@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review a Lost Opportunity"
+  short_description: "Work out if it's genuinely over, or just blocked"
+  default_prompt: "Use $review-lost-opportunity to review this closed or stalled deal and tell me honestly whether it's over or just blocked, and what, if anything, would justify approaching it again."
