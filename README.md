@@ -8,52 +8,56 @@
 
 AI gets talked about a lot in sales. I wanted somewhere to document the things I have actually tried.
 
-This project is a collection of workflows for the everyday parts of B2B sales, such as preparing for calls, writing follow up and keeping CRM records useful.
+These are practical workflows for everyday sales jobs. Pick a problem, see what the workflow produces and use anything that helps.
 
-> The aim is simple: use AI where it genuinely helps, keep a person responsible for the important decisions and be honest about what works.
+> AI helps with the preparation. The salesperson is still responsible for the judgement.
+
+## 🎯 Choose a Sales Problem
+
+### 📞 Prepare for a Sales Call
+
+Pull scattered information into one short call card that you can scan during the conversation.
+
+**Start here:** [Open the workflow](workflows/01-pre-call-preparation.md) · [See the Northstar example](examples/northstar-pre-call.md) · [Use the card template](templates/pre-call-card.md)
+
+### ✉️ Follow Up After a Sales Call
+
+Turn a transcript or clear notes into a summary, actions, email draft and CRM suggestions without inventing momentum.
+
+**Start here:** [Open the workflow](workflows/02-post-call-follow-up.md) · [See the finished output](examples/northstar-post-call-output.md) · [Use the prompt](templates/post-call-follow-up-prompt.md)
+
+### 🤝 Hand Over an Opportunity
+
+Keep the important context when an opportunity moves between stages or people.
+
+**Status:** Coming next
 
 ## 🧭 How I Approach It
 
-| Step | What This Means |
-| --- | --- |
-| **1. Start with the problem** | Choose a real sales task that is taking too long or producing inconsistent results. |
-| **2. Use approved information** | Give the AI only the information that is useful and safe to use. |
-| **3. Let AI structure the work** | Use it to organise information, spot gaps and prepare a useful first draft. |
-| **4. Check the detail** | Separate facts from estimates and challenge anything that does not look right. |
-| **5. Decide and act** | A person makes the judgement and remains responsible for the outcome. |
-| **6. Score and improve** | Test the result, record what failed and make the workflow better next time. |
-
-AI helps with the preparation. The salesperson is still responsible for the judgement.
+```mermaid
+flowchart TB
+    A["1. Start with the problem<br/>Use safe, relevant information"]
+    B["2. Let AI prepare<br/>Organise, draft and spot gaps"]
+    C["3. Keep a person in control<br/>Check, decide, act and improve"]
+    A --> B --> C
+```
 
 The full approach is explained in the [methodology](METHODOLOGY.md), with the public data boundaries in [responsible use](RESPONSIBLE-USE.md).
 
-## 📚 Workflow Library
+## 🧪 See One Complete Test
 
-| Workflow | The Problem | What You Can Use | Status |
-| --- | --- | --- | --- |
-| [AI Pre Call Preparation](workflows/01-pre-call-preparation.md) | Useful information is scattered and preparation takes too long | [Card template](templates/pre-call-card.md) and [Northstar example](examples/northstar-pre-call.md) | Ready |
-| [Post Call Follow Up](workflows/02-post-call-follow-up.md) | Facts, actions, emails and CRM notes become inconsistent | [Reusable prompt](templates/post-call-follow-up-prompt.md), [transcript](examples/northstar-post-call-transcript.md) and [worked output](examples/northstar-post-call-output.md) | Ready to test |
-| Opportunity Handover | Important context gets lost between stages or people | Coming next | Planned |
+The Northstar example follows one fictional sales conversation from the call to the finished follow up.
 
-## 🧪 The First Post Call Test
+**[Read the transcript](examples/northstar-post-call-transcript.md)** → **[See the finished output](examples/northstar-post-call-output.md)** → **[Read the honest review](evaluations/northstar-post-call-review.md)**
 
-The Northstar example follows one fictional sales conversation from preparation to follow up.
+You can also score your own result using the [sales AI output rubric](evaluations/sales-ai-output-rubric.md).
 
-1. Read the [pre call example](examples/northstar-pre-call.md).
-2. Read the [fictional call transcript](examples/northstar-post-call-transcript.md).
-3. Try the [Post Call Follow Up prompt](templates/post-call-follow-up-prompt.md).
-4. Compare your result with the [worked output](examples/northstar-post-call-output.md).
-5. Score it using the [sales AI output rubric](evaluations/sales-ai-output-rubric.md).
-6. Read my [test review and lessons](evaluations/northstar-post-call-review.md).
+## 🛡️ Rules That Matter
 
-## 🛡️ Things I Will Not Compromise On
-
-- Start with a real problem
 - Keep facts, estimates and assumptions separate
 - Do not invent commitments, dates or customer intent
 - Keep sensitive information out of unapproved tools
 - Require a person to approve emails and CRM changes
-- Measure whether the new process is actually better
 
 ## About Me
 
