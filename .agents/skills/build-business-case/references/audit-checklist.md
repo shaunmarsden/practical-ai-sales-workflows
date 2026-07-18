@@ -15,6 +15,4 @@ Run a finished or inherited draft through every line before it goes to a prospec
 
 If a draft fails the same point more than once across different prospects, the fix belongs in this skill, not in another one-off correction to the draft.
 
-## Fictional worked example
-
-Northstar Analytics (see [the post call transcript](../../../../examples/northstar-post-call-transcript.md)) is a mid-size analytics company where the actual reader of the business case is Alex Morgan's own leadership team, not Alex alone. The applied examples in a real draft for Northstar would each name the specific administration gap Alex described: notes left in a notebook, inconsistent follow up, a CRM update lagging by a day or two, and what a consistent evidence to CRM workflow changes about the Monday pipeline meeting. A generic "improves sales productivity" paragraph would fail the audit; a paragraph anchored to the Monday pipeline meeting specifically would pass.
+For a fictional worked example to run this checklist against, see [the Northstar example](northstar-example.md).
