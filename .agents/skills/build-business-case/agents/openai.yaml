@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Business Case"
+  short_description: "Turn call evidence into a tailored business case"
+  default_prompt: "Use $build-business-case to draft or audit a business case for this prospect, grounded only in what the call and this conversation actually established."

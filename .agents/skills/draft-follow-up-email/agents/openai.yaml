@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Follow-Up Email"
+  short_description: "Personalise a fixed post-call email template"
+  default_prompt: "Use $draft-follow-up-email to write the post-call follow up email for this prospect, following the fixed template and personalising only from real call detail."

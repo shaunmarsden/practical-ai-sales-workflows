@@ -26,7 +26,19 @@ Turn a transcript or clear notes into a summary, actions, email draft and CRM su
 
 **Start here:** [Open the workflow](workflows/02-post-call-follow-up.md) · [See the finished output](examples/northstar-post-call-output.md) · [Use the prompt](templates/post-call-follow-up-prompt.md)
 
-**Use with AI:** [Learn what a sales AI skill is](guides/what-is-a-sales-ai-skill.md) · [View the portable evidence skill](.agents/skills/extract-post-call-evidence/SKILL.md)
+**Use with AI:** [Learn what a sales AI skill is](guides/what-is-a-sales-ai-skill.md) · [Extract evidence from the call](.agents/skills/extract-post-call-evidence/SKILL.md) · [Draft the follow-up email](.agents/skills/draft-follow-up-email/SKILL.md)
+
+### 📄 Build a Business Case
+
+Turn call evidence into a tailored business case for the person who was not on the call.
+
+**Use with AI:** [Build or audit a business case](.agents/skills/build-business-case/SKILL.md)
+
+### 🔁 Chase a Quiet Prospect
+
+Decide what, if anything, to send next, rather than working through a fixed run of increasingly persistent emails.
+
+**Use with AI:** [Plan the chase sequence](.agents/skills/plan-chase-sequence/SKILL.md)
 
 ### 🤝 Hand Over an Opportunity
 
@@ -45,6 +57,8 @@ flowchart TB
 ```
 
 The full approach is explained in the [methodology](METHODOLOGY.md), with the public data boundaries in [responsible use](RESPONSIBLE-USE.md).
+
+New to using AI at work at all? Start with [getting started with AI](guides/getting-started-with-ai.md). The [writing style guide](guides/writing-style-and-formatting.md) is the standing tone and formatting reference behind every draft in this repository.
 
 ## 🧪 See One Complete Test
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Chase Sequence"
+  short_description: "Decide the right next move on a quiet prospect"
+  default_prompt: "Use $plan-chase-sequence to work out what, if anything, to send this prospect next, and only then draft it."
