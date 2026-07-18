@@ -1,5 +1,7 @@
 # What Is a Sales AI Skill?
 
+New to using AI at work at all? Start with [getting started with AI](getting-started-with-ai.md) first, then come back here.
+
 A sales AI skill gives an AI assistant a repeatable way to handle one sales task.
 
 Think of it as a set of working instructions. It tells the AI what to look for, what a useful answer should contain and where a person must stay in control.
@@ -26,11 +28,14 @@ The AI can organise, check and draft. You still own the decision, customer relat
 
 A good skill says what the AI must not invent, decide or do without approval.
 
-## Try the First Example
+## Try the Skills Library
 
-The first portable skill in this repository [extracts evidence from a sales call](../.agents/skills/extract-post-call-evidence/SKILL.md).
+Every skill here uses the same fictional Northstar conversation, so none of them contain real customer or employer information.
 
-It separates facts from assumptions, spots missing information and suggests a next step. It uses a fictional Northstar conversation, so it contains no real customer or employer information.
+- [Extract Post Call Evidence](../.agents/skills/extract-post-call-evidence/SKILL.md) — separates facts from assumptions after a call and suggests a next step
+- [Build Business Case](../.agents/skills/build-business-case/SKILL.md) — turns call evidence into a tailored business case for the actual decision maker
+- [Draft Follow-Up Email](../.agents/skills/draft-follow-up-email/SKILL.md) — personalises a fixed post-call email template, including for multiple recipients
+- [Plan Chase Sequence](../.agents/skills/plan-chase-sequence/SKILL.md) — decides what, if anything, to send a prospect who has gone quiet
 
 ## Before You Use a Skill on Real Work
 
