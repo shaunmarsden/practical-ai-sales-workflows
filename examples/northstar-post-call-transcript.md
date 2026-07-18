@@ -1,4 +1,4 @@
-# Fictional Call Transcript: Harbour & Pine Analytics
+# Fictional Call Transcript: Northstar Analytics
 
 > This transcript is entirely fictional. The company, people and scenario were created to test the Post Call Follow Up workflow.
 
@@ -7,7 +7,7 @@
 - **Salesperson:** Shaun
 - **Contact:** Alex Morgan
 - **Role:** Head of Revenue Operations
-- **Company:** Harbour & Pine Analytics
+- **Company:** Northstar Analytics
 - **Meeting purpose:** Understand how information moves from sales calls into email and the CRM
 - **Call length:** 18 minutes
 
