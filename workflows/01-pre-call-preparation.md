@@ -1,19 +1,33 @@
-# Workflow 01: AI Pre Call Preparation
+# AI Pre Call Preparation
 
-## The Problem
+Turn scattered account information into one short call card you can use during the conversation.
 
-Useful information is often spread across a CRM, company website, calendar invitation, previous emails and personal notes. Salespeople either spend too long pulling it together or join the call with an unfocused collection of facts.
+## 👀 At a Glance
 
-This workflow turns a small set of reliable inputs into a concise call card. It is designed to improve preparation, not automate the conversation.
+| | |
+| --- | --- |
+| **Use this when** | You have a sales call and the useful context is spread across different places |
+| **What you need** | Contact details, meeting purpose, relevant notes and approved public information |
+| **What you get** | A concise call card with facts, gaps, questions and conversation paths |
+| **Your responsibility** | Check the facts and decide what is appropriate to use |
 
-## Best Used When
+## 🔄 How It Works
 
-- The meeting has a named contact and company.
-- There is a clear reason for the conversation.
-- You have access to approved sources of account context.
-- A better-prepared discovery conversation would improve the next step.
+```mermaid
+flowchart TB
+    A["1. Gather the useful context<br/>Use approved sources only"]
+    B["2. Let AI prepare the card<br/>Organise facts, gaps and questions"]
+    C["3. Check it before the call<br/>Correct, remove and decide what to use"]
+    A --> B --> C
+```
 
-## Inputs
+## 🚀 Start Here
+
+- [Use the Pre Call Card template](../templates/pre-call-card.md)
+- [See the completed Northstar example](../examples/northstar-pre-call.md)
+
+<details>
+<summary><strong>See the information you need</strong></summary>
 
 Use only information you are permitted to process:
 
@@ -23,9 +37,12 @@ Use only information you are permitted to process:
 4. Public company information from reliable sources
 5. Your offer and the outcome you want from the call
 
-Do not include passwords, payment information, special-category personal data, confidential documents or unnecessary customer information.
+Do not include passwords, payment information, sensitive personal data, confidential documents or unnecessary customer information.
 
-## Process
+</details>
+
+<details>
+<summary><strong>See the full method</strong></summary>
 
 ### 1. Define the Job of the Call
 
@@ -33,66 +50,62 @@ Write one sentence describing what a good outcome looks like. For an early conve
 
 ### 2. Build a Compact Account Snapshot
 
-Ask AI to organise the approved inputs into:
-
-- Confirmed company facts
-- Confirmed contact context
-- Relevant previous interactions
-- Missing information
+Organise the approved inputs into confirmed company facts, contact context, relevant previous interactions and missing information.
 
 Require links or source labels for public claims. If something cannot be verified, label it as an assumption.
 
 ### 3. Form a Relevance Hypothesis
 
-Create a short, testable hypothesis connecting the prospect's likely situation to the problem you help solve.
+Create a short, testable idea connecting the prospect's likely situation to the problem you help solve.
 
-Bad: “They need AI.”
+**Avoid:** “They need AI.”
 
-Better: “If the revenue operations team is manually consolidating call notes and CRM updates, reducing that administration may be worth exploring.”
+**Try:** “If the revenue operations team is manually consolidating call notes and CRM updates, reducing that administration may be worth exploring.”
 
-The hypothesis is a starting point for a question, not a claim to make about the prospect.
+The hypothesis is a starting point for a question, not a claim about the prospect.
 
 ### 4. Prepare the Conversation Paths
 
-Create three lightweight branches:
+Prepare three lightweight routes:
 
-- **Expected path:** the contact recognises the problem.
-- **Alternative path:** the initial hypothesis is wrong or not a priority.
-- **Voicemail/no answer:** a short message with a clear and low-pressure next step.
+- The contact recognises the problem
+- The initial idea is wrong or not a priority
+- You reach voicemail or get no answer
 
 ### 5. Run the Human Check
 
-Before using the card, confirm:
+Confirm the person and company are correct, factual claims have sources, assumptions are labelled and the questions invite discovery.
 
-- Are the named person and company correct?
-- Can every factual claim be traced to a source?
-- Have assumptions been labelled?
-- Do the questions invite discovery rather than force the hypothesis?
-- Is the desired next step appropriate for this stage?
+</details>
 
-## Output
-
-Use the [Pre Call Card template](../templates/pre-call-card.md). Keep the finished card short enough to scan during the conversation.
-
-## Suggested AI Instruction
+<details>
+<summary><strong>Copy the AI instruction</strong></summary>
 
 ```text
 Act as a sales preparation assistant. Use only the information I provide.
 
-Create a concise pre-call card using the supplied template. Separate confirmed facts from assumptions. Do not invent company initiatives, challenges, budgets, technologies or personal details. If evidence is missing, state "Unknown" and suggest a discovery question.
+Create a concise pre call card using the supplied template. Separate confirmed facts from assumptions. Do not invent company initiatives, challenges, budgets, technologies or personal details. If evidence is missing, state "Unknown" and suggest a discovery question.
 
 Keep the card practical enough to scan during a live call. The salesperson will verify the output and decide what to use.
 ```
 
 Attach the completed template and your approved source material beneath the instruction.
 
-## What to Measure
+</details>
 
-Test the workflow over several calls and record:
+## ✅ Check Before You Use It
 
-- Average preparation time
-- Number of factual corrections required
+- Is the named person and company correct?
+- Can you trace every factual claim to a source?
+- Are assumptions clearly labelled?
+- Do the questions sound natural?
+- Is the next step right for this stage?
+
+## 📏 What to Measure
+
+- Preparation time
+- Factual corrections needed
 - Whether the card helped produce a clear next step
-- Which sections were actually used during the call
+- Which parts you actually used during the call
 
-The objective is not to generate more text. It is to produce better preparation with less avoidable effort.
+The aim is better preparation with less avoidable effort, not more text.
