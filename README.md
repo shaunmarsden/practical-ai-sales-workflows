@@ -14,6 +14,12 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 ## 🎯 Choose a Sales Problem
 
+### 🔎 Find the Next Prospect
+
+Pick a target and draft a first-touch message worth a reply, without a generic hook or a meeting-led ask.
+
+**Use with AI:** [Plan outbound prospecting](.agents/skills/outbound-prospecting/SKILL.md)
+
 ### 📞 Prepare for a Sales Call
 
 Pull scattered information into one short call card that you can scan during the conversation.
@@ -39,6 +45,12 @@ Turn call evidence into a tailored business case for the person who was not on t
 Decide what, if anything, to send next, rather than working through a fixed run of increasingly persistent emails.
 
 **Use with AI:** [Plan the chase sequence](.agents/skills/plan-chase-sequence/SKILL.md)
+
+### 🙅 Handle an Objection
+
+Diagnose what is actually driving a stated objection before answering it, rather than arguing with the surface wording.
+
+**Use with AI:** [Respond to an objection](.agents/skills/objection-response/SKILL.md)
 
 ### 🤝 Hand Over an Opportunity
 

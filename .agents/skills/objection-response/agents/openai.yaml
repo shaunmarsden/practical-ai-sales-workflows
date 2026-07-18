@@ -1,0 +1,4 @@
+interface:
+  display_name: "Respond to an Objection"
+  short_description: "Diagnose the real blocker before answering"
+  default_prompt: "Use $objection-response to diagnose this objection and produce a response, using Acknowledge, Isolate, Reframe, Ask."

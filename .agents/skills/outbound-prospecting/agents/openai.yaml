@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Outbound Prospecting"
+  short_description: "Pick a target and draft a first-touch worth a reply"
+  default_prompt: "Use $outbound-prospecting to research a target and draft a first-touch message, with no invented hook and a low-friction next step."
