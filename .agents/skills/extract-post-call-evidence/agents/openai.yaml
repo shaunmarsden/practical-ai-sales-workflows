@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extract Post Call Evidence"
+  short_description: "Separate sales call facts from assumptions"
+  default_prompt: "Use $extract-post-call-evidence to analyse this sales call and separate confirmed facts, estimates, commitments and unknowns."
