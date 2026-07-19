@@ -29,6 +29,8 @@ Before answering, work out what is actually driving the objection, not just its 
 
 The same surface wording can sit in different buckets depending on context. "I need to check with my manager" from someone who holds real budget authority is a circumstances objection. The same words from someone who was never actually the decision maker are closer to a disqualification signal, and deserve a different response.
 
+Watch in particular for a signal that could shrink the *rationale* rather than just delay the decision. If an objection hints that the number of people, seats, or use cases this would serve might be falling, for example a team reorganisation with roles "up in the air", treat clarifying that as the priority. A shrinking rationale is not a timing objection, and answering it as one leaves a case that may no longer size up unexamined.
+
 ## Respond Using Acknowledge, Isolate, Reframe, Ask
 
 - **Acknowledge**: show the objection was heard, without agreeing it is fatal
