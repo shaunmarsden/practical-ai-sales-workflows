@@ -4,13 +4,16 @@ What is actually being worked on, in three honest buckets. Not a promise of date
 
 ## Now
 
-- Nothing currently in progress. The eight sales problems, the AI-enablement layer, the interactive demo, and the evaluation standard in this folder are the current [v1.0.0 release](https://github.com/shaunmarsden/practical-ai-sales-workflows/releases/tag/v1.0.0).
+- **A harder synthetic test**, not just a clean transcript: a genuinely ambiguous objection with real mixed signals, run three times per model instead of once, using the [test run template](evaluations/test-run-template.md), to check whether the diagnosis stays stable or swings between runs. A single clean pass proves a workflow can work, not that it reliably does.
+
+## Done Recently
+
+- **The objection-handling vertical is complete**: it now has a [workflow walkthrough](workflows/05-objection-handling.md), a [prompt template](templates/objection-handling-prompt.md), a [worked example](examples/northstar-objection-response.md), and a [scored review](evaluations/northstar-objection-review.md), alongside the existing [skill](.agents/skills/objection-response/SKILL.md), matching pre-call, post-call, handover, and lost-opportunity review.
+- **An evaluation standard** for repeated and cross-model runs: see the [evaluations README](evaluations/README.md) and templates.
 
 ## Next
 
-- **A harder synthetic test**, not just a clean transcript: conflicting notes, a change of contact, or an ambiguous objection, run three times per model instead of once, using the [test run template](evaluations/test-run-template.md). A single clean pass proves a workflow can work, not that it reliably does.
-- **Complete the objection-handling vertical**: it currently has a skill ([.agents/skills/objection-response](.agents/skills/objection-response/SKILL.md)) but no dedicated `workflows/*.md` walkthrough or scored worked example, unlike pre-call, post-call, handover, and lost-opportunity review.
-- **Real usability feedback**: get 3 to 5 actual salespeople to try a workflow and say honestly whether it saved time or just moved the work around, rather than relying on my own judgement of my own output.
+- **Real usability feedback**: get 3 to 5 actual salespeople to try a workflow and say honestly whether it saved time or just moved the work around, rather than relying on my own judgement of my own output. This is the highest-value item left and the one that needs real people, not more writing.
 
 ## Later
 
