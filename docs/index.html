@@ -78,7 +78,7 @@
     cursor: pointer;
   }
   button#play:disabled { opacity: 0.5; cursor: default; }
-  button#reset, button#voices {
+  button#reset {
     background: transparent;
     border: 1px solid var(--border);
     color: var(--ink-soft);
@@ -86,11 +86,6 @@
     border-radius: 8px;
     font-size: 14px;
     cursor: pointer;
-  }
-  button#voices[aria-pressed="true"] {
-    border-color: var(--accent);
-    color: var(--accent);
-    background: var(--accent-soft);
   }
   .status {
     font-size: 14px;
@@ -214,7 +209,6 @@
 <div class="controls">
   <button id="play">&#9654; Watch it work</button>
   <button id="reset">Reset</button>
-  <button id="voices" aria-pressed="false" title="Read the call aloud in British voices as it plays">&#128266; Voices: off</button>
   <span class="status" id="status">Ready when you are.</span>
 </div>
 
@@ -286,76 +280,7 @@
   var emailBodyEl = document.getElementById("email-body");
   var playBtn = document.getElementById("play");
   var resetBtn = document.getElementById("reset");
-  var voicesBtn = document.getElementById("voices");
   var statusEl = document.getElementById("status");
-  var runId = 0;
-  var voicesOn = false;
-  var voiceShaun = null;
-  var voiceAlex = null;
-
-  function loadVoices() {
-    return new Promise(function (resolve) {
-      var v = speechSynthesis.getVoices();
-      if (v.length) { resolve(v); return; }
-      var settled = false;
-      function finish() {
-        if (!settled) { settled = true; resolve(speechSynthesis.getVoices()); }
-      }
-      speechSynthesis.addEventListener("voiceschanged", finish, { once: true });
-      setTimeout(finish, 1500);
-    });
-  }
-
-  async function pickBritishVoices() {
-    var all = await loadVoices();
-    var gb = all.filter(function (v) { return /en[-_]GB/i.test(v.lang); });
-    var pool = gb.length ? gb : all.filter(function (v) { return /^en/i.test(v.lang); });
-    if (!pool.length) return null;
-    voiceShaun = pool.filter(function (v) { return /daniel|arthur|oliver|ryan|thomas|male/i.test(v.name); })[0] || pool[0];
-    voiceAlex = pool.filter(function (v) { return v !== voiceShaun && /kate|serena|sonia|libby|martha|hazel|susan|flo|sandy|shelley|female/i.test(v.name); })[0] ||
-                pool.filter(function (v) { return v !== voiceShaun; })[0] || voiceShaun;
-    return gb.length ? "british" : "english";
-  }
-
-  function speak(text, voice) {
-    return new Promise(function (resolve) {
-      var u = new SpeechSynthesisUtterance(text);
-      if (voice) u.voice = voice;
-      u.lang = (voice && voice.lang) || "en-GB";
-      u.rate = 1.05;
-      var settled = false;
-      function finish() { if (!settled) { settled = true; resolve(); } }
-      u.onend = finish;
-      u.onerror = finish;
-      speechSynthesis.speak(u);
-      setTimeout(finish, 2000 + text.length * 90);
-    });
-  }
-
-  if (!("speechSynthesis" in window)) {
-    voicesBtn.style.display = "none";
-  } else {
-    voicesBtn.addEventListener("click", async function () {
-      if (!voicesOn) {
-        var kind = await pickBritishVoices();
-        if (!kind) {
-          statusEl.textContent = "No speech voices available in this browser.";
-          return;
-        }
-        voicesOn = true;
-        voicesBtn.innerHTML = "&#128266; Voices: on";
-        voicesBtn.setAttribute("aria-pressed", "true");
-        statusEl.textContent = (kind === "british" ? "British voices ready: " : "No British voices found, using English voices: ") +
-          voiceShaun.name + " as Shaun, " + voiceAlex.name + " as Alex. Press play.";
-      } else {
-        voicesOn = false;
-        speechSynthesis.cancel();
-        voicesBtn.innerHTML = "&#128266; Voices: off";
-        voicesBtn.setAttribute("aria-pressed", "false");
-        statusEl.textContent = "Voices off.";
-      }
-    });
-  }
 
   function renderTranscript() {
     transcriptEl.innerHTML = "";
@@ -380,8 +305,6 @@
   }
 
   function reset() {
-    runId++;
-    if ("speechSynthesis" in window) speechSynthesis.cancel();
     renderTranscript();
     renderOutputShell();
     emailEl.classList.remove("show");
@@ -419,14 +342,13 @@
   }
 
   async function play() {
+    playBtn.disabled = true;
     reset();
-    var myRun = runId;
     playBtn.disabled = true;
     statusEl.textContent = "Reading the transcript...";
     await sleep(600);
 
     for (var i = 0; i < outputItems.length; i++) {
-      if (myRun !== runId) return;
       var item = outputItems[i];
       document.querySelectorAll(".line.lit").forEach(function (el) { el.classList.remove("lit"); el.classList.add("dim-lit"); });
       var src = document.getElementById("t-" + item.from);
@@ -435,35 +357,15 @@
         src.classList.add("lit");
         src.scrollIntoView({ block: "nearest", behavior: "smooth" });
       }
-      if (voicesOn) {
-        var line = null;
-        for (var t = 0; t < transcriptLines.length; t++) {
-          if (transcriptLines[t].id === item.from) { line = transcriptLines[t]; break; }
-        }
-        if (line) {
-          var isShaun = line.speaker.indexOf("Shaun") === 0;
-          statusEl.textContent = (isShaun ? "Shaun" : "Alex") + " speaking...";
-          await speak(line.text, isShaun ? voiceShaun : voiceAlex);
-          if (myRun !== runId) return;
-        }
-      }
       statusEl.textContent = "Extracting: " + item.tag + "...";
       await sleep(450);
-      if (myRun !== runId) return;
       document.getElementById("o-" + i).classList.add("show");
       await sleep(650);
     }
 
-    if (myRun !== runId) return;
     statusEl.textContent = "Drafting the follow-up email from confirmed facts only...";
     await sleep(500);
     await typeEmail();
-    if (myRun !== runId) return;
-    if (voicesOn) {
-      statusEl.textContent = "Reading the email aloud...";
-      await speak(emailHtml.replace(/<[^>]+>/g, ""), voiceShaun);
-      if (myRun !== runId) return;
-    }
     statusEl.textContent = "Done. Every line above traces back to the transcript on the left.";
     playBtn.disabled = false;
   }
