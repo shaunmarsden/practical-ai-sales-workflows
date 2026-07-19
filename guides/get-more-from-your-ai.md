@@ -22,9 +22,9 @@ A better-written prompt still only knows what fits in that one message. A projec
 
 If you are writing a new version of the same prompt every week, that is a sign the method should become a skill instead, not a sign you need a better prompt.
 
-### 🔌 Live Data Beats Pasted Data
+### 🔌 Live Connections Remove Copying, Not Judgement
 
-Copying and pasting a transcript or a CRM record works, but it is the slowest version of this. A live connection removes the copying, not the checking.
+Copying and pasting a transcript or a CRM record works, but it is the slowest version of this. A live connection removes the copying, not the checking: you still need to pick the right source, notice when the data is stale or irrelevant, and stay aware that a connection often exposes more than the one record you meant to pull. Treat a new connector as something to scope and permission deliberately, not a free upgrade.
 
 ## Layer 2: Projects and Knowledge Bases
 

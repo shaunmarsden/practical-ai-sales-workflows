@@ -12,17 +12,15 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 > AI helps with the preparation. The salesperson is still responsible for the judgement.
 
-**[Watch a skill actually work &rarr;](https://shaunmarsden.github.io/practical-ai-sales-workflows/)** See the real Northstar transcript turn into evidence-labelled output live, with every line traced back to where it came from, before reading anything else.
+## 🧭 Three Ways to Start
 
-## 🧰 Set Up Your Own AI for Sales
+**🌱 New to AI, or want to set it up properly first?** [Find your starting point](guides/where-to-start.md) based on how much you have actually used AI already, then [fill in the About Me Worksheet](templates/about-me-worksheet.md) and [copy the setup prompt](templates/ai-sales-setup-prompt.md). This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions field — if Copilot is the only one your organisation gives you access to, that is a completely normal starting point, not a lesser one.
 
-Before anything else, most people get a fraction of what a modern AI tool can do because every conversation starts from a blank page. This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions or system prompt field. If Copilot is the only one your organisation gives you access to, that is a completely normal starting point, not a lesser one, and a lot of the people I actually speak with are in exactly that position.
+**🎯 Know the sales problem you want help with?** Jump straight to [Choose a Sales Problem](#-choose-a-sales-problem) below and pick from prospecting, call prep, follow-up, business case, chasing, objections, handover, or a lost-opportunity review.
 
-**Start here:** [Fill in the About Me Worksheet](templates/about-me-worksheet.md) · [Copy the AI Sales Setup Prompt](templates/ai-sales-setup-prompt.md) · [Read where to paste it](guides/set-up-your-ai-for-sales.md)
+**🧪 Want to see it work before you read anything else?** [Watch a skill actually work &rarr;](https://shaunmarsden.github.io/practical-ai-sales-workflows/) — the real Northstar transcript turning into evidence-labelled output, live, with every line traced back to where it came from. Then check the [honest scores](evaluations/sales-ai-output-rubric.md) and the [cross-model comparison](evaluations/cross-model-post-call-comparison.md) rather than taking the demo's word for it.
 
-Once that stops being enough on its own: [Get More From Your AI](guides/get-more-from-your-ai.md) covers projects and knowledge bases, turning repeated prompts into skills, and connecting real tools like a CRM or a transcription app.
-
-**New here?** [Find your starting point](guides/where-to-start.md) based on how much you have actually used AI already, from never touched it to already building your own workflows.
+Once a single setup prompt stops being enough on its own, [Get More From Your AI](guides/get-more-from-your-ai.md) covers projects and knowledge bases, turning repeated prompts into skills, and connecting real tools like a CRM or a transcription app.
 
 ## 🎯 Choose a Sales Problem
 
@@ -119,7 +117,4 @@ This is an independent learning project. Every company, person and conversation 
 
 ## What I Want to Try Next
 
-- ~~Compare the same workflow in ChatGPT, Claude and Gemini~~ — [done](evaluations/cross-model-post-call-comparison.md), worth repeating with a messier transcript before drawing a real conclusion
-- Make CRM and pipeline reviews less painful
-- Test a handover with conflicting notes and a change of contact
-- Find sensible ways to measure time saved and output quality
+See [ROADMAP.md](ROADMAP.md) for what's actually next: a harder test case run repeatedly per model, completing the objection-handling vertical, and getting real usability feedback instead of just my own judgement.

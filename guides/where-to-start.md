@@ -47,7 +47,7 @@ You have used AI for the odd email or quick question, but have not built anythin
 
 AI is already part of your regular workflow. What you actually want is more consistency and less re-explaining yourself each time.
 
-1. If you have not already standardised your own setup, [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md) is worth the fifteen minutes
+1. If you have not already standardised your own setup, [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md) is worth doing in one sitting
 2. The [skills library](what-is-a-sales-ai-skill.md#try-the-skills-library) — install one of these instead of writing the same prompt from scratch every time
 3. [Get More From Your AI](get-more-from-your-ai.md) — projects, skills, and connectors, once a single prompt has stopped being enough
 4. [Sales AI Output Rubric](../evaluations/sales-ai-output-rubric.md) — start scoring your own results instead of trusting them because they read well
