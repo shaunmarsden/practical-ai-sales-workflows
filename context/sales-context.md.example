@@ -1,0 +1,107 @@
+# Private Sales Context
+
+> Copy this file to `context/sales-context.md`. The copied file is private and ignored by Git. Never put customer records, secrets or information your company does not allow into it.
+
+Use [the About Me Worksheet](../templates/about-me-worksheet.md) to gather the basics. Use [the AI Sales Setup Prompt](../templates/ai-sales-setup-prompt.md) if you want to reuse the confirmed context as standing instructions in another AI tool.
+
+## How to Mark Information
+
+Use one of these labels for each section:
+
+- `confirmed`: you or an approved source has verified it
+- `inferred`: drafted from public information and waiting for your confirmation
+- `unknown`: not supplied or not clear
+- `to confirm`: a specific item you plan to check
+
+Do not change an inference to confirmed until you have checked it.
+
+## About Me
+
+> Add your role, responsibilities and the sales work you actually do. Leave out passwords, personal identification and unnecessary employment records. Mark details you supply yourself as confirmed.
+
+- Status: unknown
+- Notes:
+
+## What the Company Sells
+
+> Add a short, plain English description of the product or service. Do not add confidential product plans, unapproved claims or private pricing. Public website wording remains inferred until you confirm it.
+
+- Status: unknown
+- Notes:
+
+## Who We Sell To
+
+> Add the general customer types, industries, company sizes and buyer roles you work with. Do not add named customer or prospect records. Mark the description as confirmed, inferred or unknown.
+
+- Status: unknown
+- Notes:
+
+## Problems We Solve
+
+> Add problems the company is genuinely equipped to solve. Do not present a public trend as proof that a specific prospect has the problem. Separate confirmed company positioning from assumptions about individual buyers.
+
+- Status: unknown
+- Notes:
+
+## Sales Process
+
+> Add permitted sales stages, qualification checks and normal handover points. Do not infer internal stages from a public website or add a private process your company does not allow here.
+
+- Status: unknown
+- Notes:
+
+## Typical Stakeholders
+
+> Add the roles commonly involved in a buying decision and what they usually need. Do not name real contacts or assume that a job title proves authority in a specific opportunity.
+
+- Status: unknown
+- Notes:
+
+## Products and Commercial Boundaries
+
+> Add confirmed products, approved public price ranges and boundaries the AI must respect. Do not add private pricing, discount authority, contract terms or promises unless your company explicitly permits it.
+
+- Status: unknown
+- Notes:
+
+## Approved Sources
+
+> List sources the agent may use, such as approved public pages, product guides or a permitted internal document. Do not list secrets, inaccessible private links or whole systems when one document is enough.
+
+- Status: unknown
+- Sources:
+
+## Tools and Systems
+
+> Add the general tools you use, such as a CRM, calendar or call recorder, and what each is the source of truth for. Do not add login details, API keys or private configuration.
+
+- Status: unknown
+- Notes:
+
+## Writing Style
+
+> Add your preferred tone, formatting and phrases to avoid. Use sanitised examples of your own writing. Do not paste confidential customer messages.
+
+- Status: unknown
+- Notes:
+
+## Actions Requiring Approval
+
+> List actions the AI may prepare but must not complete without you, such as sending a message, changing the CRM, booking a meeting, quoting a price or sharing a file.
+
+- Status: confirmed
+- Always require my approval before:
+
+## Information That Must Not Be Used
+
+> List information that is prohibited, restricted or unnecessary for AI tasks. Do not copy the prohibited information into this section. Describe the category only.
+
+- Status: confirmed
+- Do not use:
+
+## Unknowns and Items to Confirm
+
+> Keep unresolved questions here rather than filling gaps with plausible answers. Add the owner or source needed for confirmation when known.
+
+- Status: unknown
+- Items:

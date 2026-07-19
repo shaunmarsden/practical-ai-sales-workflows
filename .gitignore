@@ -1,0 +1,7 @@
+# Private local sales context
+context/sales-context.md
+
+# Local environment files
+.env
+.env.*
+!.env.example
