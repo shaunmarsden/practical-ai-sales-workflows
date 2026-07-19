@@ -50,6 +50,8 @@ Turn a transcript or clear notes into a summary, actions, email draft and CRM su
 
 Turn call evidence into a tailored business case for the person who was not on the call.
 
+**Start here:** [See the Northstar transcript](examples/northstar-business-case-transcript.md) · [See the finished business case](examples/northstar-business-case-output.md) · [Read the honest review](evaluations/northstar-business-case-review.md)
+
 **Use with AI:** [Build or audit a business case](.agents/skills/build-business-case/SKILL.md)
 
 ### 🔁 Chase a Quiet Prospect
