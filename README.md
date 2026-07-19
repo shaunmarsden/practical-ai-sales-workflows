@@ -62,6 +62,8 @@ Decide what, if anything, to send next, rather than working through a fixed run 
 
 Diagnose what is actually driving a stated objection before answering it, rather than arguing with the surface wording.
 
+**Start here:** [Open the workflow](workflows/05-objection-handling.md) · [See the Northstar response](examples/northstar-objection-response.md) · [Use the prompt](templates/objection-handling-prompt.md)
+
 **Use with AI:** [Respond to an objection](.agents/skills/objection-response/SKILL.md)
 
 ### 🤝 Hand Over an Opportunity
