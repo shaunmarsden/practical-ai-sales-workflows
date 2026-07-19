@@ -172,6 +172,13 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 - [Northstar response](examples/northstar-objection-response.md)
 - [Evaluation](evaluations/northstar-objection-review.md)
 
+### Buyer Indecision
+
+- [Workflow](workflows/07-buyer-indecision.md)
+- [Calderwood scenario](examples/calderwood-indecision-input.md)
+- [Calderwood response](examples/calderwood-indecision-response.md)
+- [Evaluation](evaluations/calderwood-indecision-review.md)
+
 ### Opportunity Handover
 
 - [Workflow](workflows/03-opportunity-handover.md)
