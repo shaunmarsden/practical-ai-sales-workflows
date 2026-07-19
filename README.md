@@ -12,6 +12,8 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 > AI helps with the preparation. The salesperson is still responsible for the judgement.
 
+**[Watch a skill actually work &rarr;](https://shaunmarsden.github.io/practical-ai-sales-workflows/)** See the real Northstar transcript turn into evidence-labelled output live, with every line traced back to where it came from, before reading anything else.
+
 ## 🧰 Set Up Your Own AI for Sales
 
 Before anything else, most people get a fraction of what a modern AI tool can do because every conversation starts from a blank page. This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions or system prompt field. If Copilot is the only one your organisation gives you access to, that is a completely normal starting point, not a lesser one, and a lot of the people I actually speak with are in exactly that position.
