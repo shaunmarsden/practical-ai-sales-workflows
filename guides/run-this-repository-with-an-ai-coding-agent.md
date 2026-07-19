@@ -22,15 +22,15 @@ If it is not, copy it from GitHub first:
 git clone https://github.com/shaunmarsden/practical-ai-sales-workflows.git
 ```
 
-Cloning means making a local working copy that can receive future updates. If you are not comfortable with the terminal, ask someone to help with this one step or use GitHub’s download option for a read only copy.
+Cloning means making a local working copy that can receive future updates. If you are not comfortable with the terminal, ask someone to help with this one step or use GitHub's download option for a read only copy.
 
 ### Codex
 
-Open the local repository folder in Codex as your workspace, start a conversation and say “help me get started”. Codex reads the root `AGENTS.md` as the repository’s standing guidance.
+Open the local repository folder in Codex as your workspace, start a conversation and say "help me get started". Codex reads the root `AGENTS.md` as the repository's standing guidance.
 
 ### Claude Code
 
-Open a terminal in the local repository folder, start Claude Code and say “help me get started”. The short `CLAUDE.md` points Claude to the same shared guidance in `AGENTS.md`.
+Open a terminal in the local repository folder, start Claude Code and say "help me get started". The short `CLAUDE.md` points Claude to the same shared guidance in `AGENTS.md`.
 
 ## Choose One of Four Routes
 
@@ -125,4 +125,4 @@ The agent should check the existing files, keep the change focused, validate lin
 
 ## Acknowledgement
 
-The conversational repository onboarding idea was inspired in part by [Akshat Thakur’s GTM Engine](https://github.com/akshathakurr/gtm-engine). No code or wording was copied, and the projects are not affiliated.
+The conversational repository onboarding idea was inspired in part by [Akshat Thakur's GTM Engine](https://github.com/akshathakurr/gtm-engine). No code or wording was copied, and the projects are not affiliated.
