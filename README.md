@@ -16,7 +16,7 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 ## 🧭 Three Ways to Start
 
-**🌱 New to AI, or want to set it up properly first?** [Find your starting point](guides/where-to-start.md) based on how much you have actually used AI already, then [fill in the About Me Worksheet](templates/about-me-worksheet.md) and [copy the setup prompt](templates/ai-sales-setup-prompt.md). This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions field. If Copilot is the only one your organisation gives you access to, that is a completely normal starting point, not a lesser one.
+**🌱 New to AI, or want to set it up properly first?** [Find your starting point](guides/where-to-start.md) based on how much you have actually used AI already, then [fill in the About Me Worksheet](templates/about-me-worksheet.md) and [copy the setup prompt](templates/ai-sales-setup-prompt.md), or skip the worksheet and use the [interactive setup prompt](templates/interactive-setup-prompt.md), which asks you the same questions in conversation and writes the finished prompt for you. This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions field. If Copilot is the only one your organisation gives you access to, that is a completely normal starting point, not a lesser one.
 
 **🎯 Know the sales problem you want help with?** Jump straight to [Choose a Sales Problem](#-choose-a-sales-problem) below and pick from prospecting, call prep, follow-up, business case, chasing, objections, handover, or a lost-opportunity review.
 
@@ -51,6 +51,8 @@ Turn a transcript or clear notes into a summary, actions, email draft and CRM su
 Turn call evidence into a tailored business case for the person who was not on the call.
 
 **Start here:** [See the Northstar transcript](examples/northstar-business-case-transcript.md) · [See the finished business case](examples/northstar-business-case-output.md) · [Read the honest review](evaluations/northstar-business-case-review.md)
+
+**A second, different test:** [See the Bramfield transcript](examples/bramfield-business-case-transcript.md) · [See the finished business case](examples/bramfield-business-case-output.md) · [Read the honest review](evaluations/bramfield-business-case-review.md): a conditional two-year price instead of a flat figure, and a Finance Director reader who was never on a call
 
 **Use with AI:** [Build or audit a business case](.agents/skills/build-business-case/SKILL.md)
 
@@ -133,4 +135,12 @@ This is an independent learning project. Every company, person and conversation 
 
 ## What I Want to Try Next
 
-See [ROADMAP.md](ROADMAP.md) for what is actually next: real usability feedback from salespeople, followed by evidence-led improvements to the workflows already here.
+**Right now:** real usability feedback, getting even one or two actual salespeople to try a workflow and say honestly whether it saved time or just moved the work around, rather than trusting my own judgement of my own output.
+
+**After that:**
+
+- CRM hygiene (duplicates, ownership, stale records), building on the pipeline evidence review already here
+- A genuine way to measure time saved and output quality, not just assume a workflow helps because it reads well
+- Purposeful visuals for sharing, a social preview card and a cross-model comparison graphic, best done as a concentrated session rather than squeezed in
+
+See [ROADMAP.md](ROADMAP.md) for the full picture, including the longer backlog of ideas still to validate.

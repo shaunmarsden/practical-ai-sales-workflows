@@ -158,7 +158,10 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 - [Build Business Case](.agents/skills/build-business-case/SKILL.md)
 - [Northstar transcript](examples/northstar-business-case-transcript.md)
 - [Northstar output](examples/northstar-business-case-output.md)
-- [Evaluation](evaluations/northstar-business-case-review.md)
+- [Northstar evaluation](evaluations/northstar-business-case-review.md)
+- [Bramfield transcript](examples/bramfield-business-case-transcript.md), a second test with conditional multi-year pricing and a Finance Director reader
+- [Bramfield output](examples/bramfield-business-case-output.md)
+- [Bramfield evaluation](evaluations/bramfield-business-case-review.md)
 
 ### Chase Planning
 

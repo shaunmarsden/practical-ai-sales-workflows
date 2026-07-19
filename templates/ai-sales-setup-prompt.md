@@ -4,6 +4,8 @@ This is different from the other prompts in this repository. It is not for one t
 
 Fill in your own answers using the [About Me Worksheet](about-me-worksheet.md) first, then replace every bracket below and paste the whole thing into your AI tool's standing instructions, not a one-off message. See [Set Up Your Own AI for Sales](../guides/set-up-your-ai-for-sales.md) for where that is in Claude, ChatGPT, Gemini and Copilot.
 
+Would rather answer questions than fill in a worksheet yourself? Use the [Interactive Setup Prompt](interactive-setup-prompt.md) instead. It asks you the same questions in conversation and writes this same structure for you.
+
 ```text
 You are my AI sales assistant. This is my standing context. Use it for every sales task I bring you, unless I say otherwise for that specific conversation.
 
