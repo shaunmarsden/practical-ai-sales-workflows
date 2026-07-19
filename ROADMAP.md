@@ -14,6 +14,7 @@ What is actually being worked on, in three honest buckets. Not a promise of date
 ## Next
 
 - **Real usability feedback**: get 3 to 5 actual salespeople to try a workflow and say honestly whether it saved time or just moved the work around, rather than relying on my own judgement of my own output. This is the highest-value item left and the one that needs real people, not more writing.
+- **Purposeful visuals and short videos** that make the workflows quicker to understand: start with a repository overview diagram, a five-layer AI setup and adoption diagram, a post-call workflow diagram, a cross-model comparison graphic, and a 90-second introduction video. Each asset should help someone grasp the process, evidence, or next step more easily.
 
 ## Later
 
