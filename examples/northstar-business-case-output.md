@@ -1,6 +1,6 @@
 # Northstar Business Case Output
 
-> This is a worked business case created from the [pilot review transcript](northstar-business-case-transcript.md) and the earlier [post-call transcript](northstar-post-call-transcript.md). It is written for Priya Chen, Northstar's Sales Director, who was not on either call. Nothing has been sent or approved.
+> This is a worked business case created from the fictional [pilot review transcript](northstar-business-case-transcript.md) and the earlier [post-call transcript](northstar-post-call-transcript.md). It is written for Priya Chen, Northstar's Sales Director, who was not on either call. Nothing has been sent or approved.
 
 ---
 
