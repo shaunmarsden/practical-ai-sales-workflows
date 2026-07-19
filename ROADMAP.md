@@ -8,6 +8,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A public quality bar**: [CONTRIBUTING.md](CONTRIBUTING.md) sets out the nine things that make a workflow or skill actually complete, the fictional content rules, honest scoring guidance, and house style. Complements [METHODOLOGY.md](METHODOLOGY.md) and [RESPONSIBLE-USE.md](RESPONSIBLE-USE.md) rather than duplicating them.
 - **A buyer indecision vertical**: a [workflow](workflows/07-buyer-indecision.md), [prompt template](templates/buyer-indecision-prompt.md), a [fictional scenario](examples/calderwood-indecision-input.md), a [worked response](examples/calderwood-indecision-response.md), and a [scored evaluation](evaluations/calderwood-indecision-review.md). Handles the willing buyer who keeps delaying, by reducing the risk of deciding rather than pushing, and only after confirming it is genuine indecision and not an objection, an approval gate or a disqualification.
 - **A pipeline evidence review vertical**: a [workflow](workflows/06-pipeline-evidence-review.md), [prompt template](templates/pipeline-evidence-review-prompt.md), a [fictional multi-deal pipeline snapshot](examples/fictional-pipeline-snapshot.md), a [worked review](examples/fictional-pipeline-review.md), and a [scored evaluation](evaluations/fictional-pipeline-review-eval.md). It separates the recorded CRM stage from the state the evidence actually supports, read-only, with every change left for a person to approve.
 - **Repository safety and quality checks**: a GitHub Actions workflow that catches broken links, malformed skill frontmatter, unlabelled examples, employer or private references, secret-like values and placeholder text before anything merges.
@@ -42,20 +43,6 @@ Before building one of these, check that it:
 - adds more value than improving an existing workflow.
 
 ### Quality and maintainability
-
-#### Public quality bar
-
-Create a short public standard explaining when a workflow or skill is complete. The standard should cover:
-
-- a plain-English guide;
-- a bounded AI instruction;
-- fictional source material;
-- a completed output;
-- an honest evaluation;
-- known failure conditions;
-- human approval points;
-- valid links and public-data checks;
-- evidence that the workflow has actually been tested.
 
 #### Standard skill package
 
