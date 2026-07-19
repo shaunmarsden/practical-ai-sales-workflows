@@ -214,6 +214,8 @@ If nothing fits, explain the gap before proposing a new category. Prefer testing
 
 ## When Modifying the Repository
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for what makes a new workflow or skill count as complete, and follow it when adding one.
+
 When the user asks you to improve the repository:
 
 1. Inspect the existing files first.
