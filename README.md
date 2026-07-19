@@ -121,4 +121,4 @@ This is an independent learning project. Every company, person and conversation 
 
 ## What I Want to Try Next
 
-See [ROADMAP.md](ROADMAP.md) for what's actually next: a harder test case run repeatedly per model, completing the objection-handling vertical, and getting real usability feedback instead of just my own judgement.
+See [ROADMAP.md](ROADMAP.md) for what is actually next: real usability feedback from salespeople, followed by evidence-led improvements to the workflows already here.

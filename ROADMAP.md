@@ -18,3 +18,16 @@ What is actually being worked on, in three honest buckets. Not a promise of date
 - Find a sensible way to actually measure time saved and output quality, not just assume a workflow helps because it reads well.
 - n8n or similar automation, once the underlying workflows are proven stable enough to hand to something unattended.
 - Better voices for the interactive demo, if a real (non-browser) TTS API is ever worth the cost and complexity for what is currently a one-page static demo.
+
+### Ideas to revisit after usability testing
+
+These are useful directions, but they should not displace testing and improving the workflows that already exist.
+
+- **Signal-to-hypothesis outbound**: turn public company signals into clearly labelled commercial hypotheses, including what the signal may suggest, what it does not prove, how to verify it and when not to use it.
+- **Pipeline evidence review**: check whether stages, close dates, stakeholders and next steps are supported by the available evidence, without accusing a salesperson or treating CRM data as automatically correct.
+- **Objection pattern review**: analyse recurring objections across several opportunities while keeping observed patterns separate from assumed root causes.
+- **Champion enablement package**: help an internal supporter explain a well-evidenced case to other stakeholders using confirmed problems, outcomes, proof, objections and missing information.
+- **Role-based routes**: provide short navigation guides for account executives, sales managers, RevOps, customer success and founder-led sales, pointing to existing material rather than duplicating it.
+- **Private sales-methodology overlay**: let users map their own approved qualification or sales framework onto the repository without publishing private company definitions, CRM rules or internal processes.
+
+Do not add these as committed delivery dates. They are backlog ideas only.
