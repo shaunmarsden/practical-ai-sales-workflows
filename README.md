@@ -82,6 +82,12 @@ Work out honestly whether a closed or stalled deal is actually over, or just blo
 
 **Use with AI:** [Review a lost opportunity](.agents/skills/review-lost-opportunity/SKILL.md)
 
+### 📊 Review Your Pipeline
+
+Check whether the stages, close dates and next steps in your CRM are actually supported by the evidence you hold, rather than trusting the pipeline because it is written down.
+
+**Start here:** [Open the workflow](workflows/06-pipeline-evidence-review.md) · [See the fictional pipeline snapshot](examples/fictional-pipeline-snapshot.md) · [See the completed review](examples/fictional-pipeline-review.md) · [Use the prompt](templates/pipeline-evidence-review-prompt.md)
+
 ## 🧭 How I Approach It
 
 ```mermaid
