@@ -1,6 +1,6 @@
 # Set Up Your Own AI for Sales
 
-Most people get a fraction of what a modern AI tool can do because every conversation starts from a blank page. Setting it up once with real context about you and your job changes that, and it takes about fifteen minutes.
+Most people get a fraction of what a modern AI tool can do because every conversation starts from a blank page. Setting it up once with real context about you and your job changes that, and it is a one-sitting task, not an ongoing commitment.
 
 ```mermaid
 flowchart TB
