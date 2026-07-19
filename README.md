@@ -68,6 +68,12 @@ Diagnose what is actually driving a stated objection before answering it, rather
 
 **Use with AI:** [Respond to an objection](.agents/skills/objection-response/SKILL.md)
 
+### 🕰️ Move a Stalled Decision
+
+Help a willing buyer who keeps delaying the final yes, by making the decision safer rather than selling harder, once you have confirmed it is genuine indecision and not something else.
+
+**Start here:** [Open the workflow](workflows/07-buyer-indecision.md) · [See the Calderwood scenario](examples/calderwood-indecision-input.md) · [See the completed response](examples/calderwood-indecision-response.md) · [Use the prompt](templates/buyer-indecision-prompt.md)
+
 ### 🤝 Hand Over an Opportunity
 
 Pass the current position, evidence, risks and next action to another person without making the deal sound further along than it is.
