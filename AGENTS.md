@@ -14,12 +14,12 @@ AI prepares the work. Customer messages, CRM updates, meeting bookings, file sha
 
 Treat requests such as these as onboarding requests:
 
-- “Help me get started”
-- “What can I do with this?”
-- “Give me a tour”
-- “Set this up for my sales role”
-- “Which workflow should I use?”
-- “How do I personalise this?”
+- "Help me get started"
+- "What can I do with this?"
+- "Give me a tour"
+- "Set this up for my sales role"
+- "Which workflow should I use?"
+- "How do I personalise this?"
 
 Keep the welcome short. Offer these four routes before giving a long explanation:
 
@@ -55,10 +55,10 @@ Allow these without setup:
 
 Recommend setup for:
 
-- Writing in the user’s preferred tone
+- Writing in the user's preferred tone
 - Preparing for a real sales call
 - Drafting general communications
-- Adapting terminology to the user’s role
+- Adapting terminology to the user's role
 
 The user may continue without a file by providing the minimum context manually for that conversation.
 
@@ -72,7 +72,7 @@ Require confirmed context before:
 - Making commercial recommendations based on company rules
 - Using private pricing, policy or process information
 
-Do not proceed from unconfirmed public inference. Ask for the minimum missing confirmation or offer a fictional route instead.
+Do not proceed from unconfirmed public inference. Ask for the minimum missing confirmation or offer a fictional route instead. Once the missing context is confirmed, carry on with the task the user originally asked for rather than making them ask again.
 
 ## Set Up Private Sales Context
 
@@ -89,10 +89,11 @@ When the user chooses setup:
 9. Label information from public sources as `inferred` until the user confirms it.
 10. Never infer internal sales stages, pricing, buying authority, private objections, customer commitments or company policy from a public website.
 11. Present the drafted context as a short, readable summary for confirmation.
-12. Treat the user’s corrections as authoritative.
+12. Treat the user's corrections as authoritative.
 13. Save only confirmed information as `confirmed`.
 14. Preserve unresolved items as `unknown` or `to confirm`.
 15. Remind the user that `context/sales-context.md` is private and ignored by Git.
+16. If setup was triggered by another request, return to that request once the minimum context is confirmed. Do not leave the user on the setup step when they came to do something else.
 
 ## Classify Evidence Clearly
 
@@ -114,15 +115,24 @@ Never turn public information into proof of an internal problem. Never hide conf
 - Never save secrets in Markdown.
 - Use the minimum necessary data.
 - Keep real customer records in approved systems.
-- Do not reproduce internal AiCore processes, programme details, pricing, funding logic, CRM configuration or private links.
-- Do not claim this repository is endorsed by Shaun’s employer.
+- Do not reproduce the user's internal employer processes, product details, pricing, CRM configuration or private links.
+- Do not claim this repository is endorsed by the user's employer.
 - Do not present public company information as proof of an internal problem.
 - Do not state that a message was sent or a CRM record changed unless a connected tool confirms it.
 - Require explicit approval before customer communication, CRM changes or external actions.
 
 ## Route to Existing Work
 
-Read the relevant available workflow, skill, example and evaluation before helping the user apply it.
+Read the relevant available workflow, skill, example and evaluation before helping the user apply it. For general orientation, tone and setup, point the user to the guides below rather than re-explaining them.
+
+### Guides
+
+- [Where to Start](guides/where-to-start.md), for choosing a first step by how much AI the user has used
+- [Getting Started With AI](guides/getting-started-with-ai.md), for someone new to using AI at work
+- [Set Up Your Own AI for Sales](guides/set-up-your-ai-for-sales.md), for standing setup in Claude, ChatGPT, Gemini or Copilot
+- [Get More From Your AI](guides/get-more-from-your-ai.md), for projects, skills and connectors once a single prompt is not enough
+- [What Is a Sales AI Skill](guides/what-is-a-sales-ai-skill.md), for understanding the skills before adapting one
+- [Writing Style and Formatting](guides/writing-style-and-formatting.md), the standing tone reference for reader facing copy
 
 ### Outbound Prospecting
 
@@ -201,6 +211,6 @@ When the user asks you to improve the repository:
 7. Validate relative links.
 8. Keep confirmed facts, estimates, inferences, unknowns and conflicting evidence separate.
 9. Prefer testing existing material over adding more categories.
-10. Never merge without Shaun’s explicit instruction.
+10. Never merge without Shaun's explicit instruction.
 
 For public changes, use fictional or sanitised material only. Keep private context and real customer work out of commits, pull requests and issues.
