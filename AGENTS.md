@@ -186,6 +186,13 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 - [Northstar analysis](examples/northstar-lost-opportunity-analysis.md)
 - [Evaluation](evaluations/northstar-lost-opportunity-review.md)
 
+### Pipeline Evidence Review
+
+- [Workflow](workflows/06-pipeline-evidence-review.md)
+- [Fictional pipeline snapshot](examples/fictional-pipeline-snapshot.md)
+- [Fictional pipeline review](examples/fictional-pipeline-review.md)
+- [Evaluation](evaluations/fictional-pipeline-review-eval.md)
+
 If nothing fits, explain the gap before proposing a new category. Prefer testing or extending existing material over adding more folders.
 
 ## Explain Things for Salespeople
