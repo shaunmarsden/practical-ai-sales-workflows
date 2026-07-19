@@ -33,7 +33,7 @@ You have not used ChatGPT, Claude, or a similar tool seriously yet, or you tried
 1. [Getting Started with AI](getting-started-with-ai.md) — what these tools actually are, and how to get a useful answer out of one
 2. [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md) — give it real context about you and your job, once, instead of starting from a blank page every time
 3. [Prepare for a Sales Call](../workflows/01-pre-call-preparation.md) — the simplest workflow here, a good first real task to try
-4. Come back to this page once that feels easy, not effortful
+4. Come back to this page once that feels easy, not like hard work
 
 ### 🌿 Used It a Bit
 
