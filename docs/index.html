@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch a Sales AI Skill Work — Practical AI Sales Workflows</title>
+<meta name="description" content="See extract-post-call-evidence turn a real fictional call transcript into evidence-labelled output, live, with every line traced back to its source.">
+<style>
+  :root {
+    --bg: #faf9f7;
+    --panel: #ffffff;
+    --border: #e5e1da;
+    --ink: #2a2620;
+    --ink-soft: #6b655a;
+    --accent: #b5541f;
+    --accent-soft: #f4e3d6;
+    --confirmed: #2f6b4f;
+    --confirmed-bg: #e6f0ea;
+    --estimate: #a8720b;
+    --estimate-bg: #f7edd9;
+    --unknown: #6b5b95;
+    --unknown-bg: #ece8f5;
+    --highlight: #ffe8a3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  a { color: var(--accent); }
+  header.top {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 48px 24px 8px;
+  }
+  header.top .kicker {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    margin-bottom: 10px;
+  }
+  header.top h1 {
+    font-size: 32px;
+    margin: 0 0 14px;
+    line-height: 1.2;
+  }
+  header.top p {
+    max-width: 640px;
+    color: var(--ink-soft);
+    font-size: 16px;
+  }
+  header.top .backlink {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 14px;
+  }
+  .controls {
+    max-width: 980px;
+    margin: 20px auto 0;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  button#play {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button#play:disabled { opacity: 0.5; cursor: default; }
+  button#reset {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--ink-soft);
+    padding: 11px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .status {
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  main.stage {
+    max-width: 980px;
+    margin: 24px auto 0;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 760px) {
+    main.stage { grid-template-columns: 1fr; }
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    min-height: 420px;
+  }
+  .panel h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    margin: 0 0 14px;
+  }
+  #transcript {
+    font-size: 14.5px;
+    white-space: pre-wrap;
+  }
+  #transcript .line { display: block; margin-bottom: 8px; padding: 2px 4px; border-radius: 4px; transition: background 0.4s ease; }
+  #transcript .speaker { font-weight: 600; }
+  #transcript .line.lit { background: var(--highlight); }
+  #transcript .line.dim-lit { background: #fdf4dc; }
+  #output .item {
+    opacity: 0;
+    transform: translateY(6px);
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    font-size: 14.5px;
+  }
+  #output .item.show {
+    animation: rise 0.45s ease forwards;
+  }
+  @keyframes rise {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-right: 8px;
+  }
+  .tag.confirmed { color: var(--confirmed); background: var(--confirmed-bg); }
+  .tag.estimate { color: var(--estimate); background: var(--estimate-bg); }
+  .tag.unknown { color: var(--unknown); background: var(--unknown-bg); }
+  #email-wrap {
+    max-width: 980px;
+    margin: 20px auto 0;
+    padding: 0 24px;
+  }
+  #email {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    font-size: 14.5px;
+    white-space: pre-wrap;
+    min-height: 60px;
+    opacity: 0;
+  }
+  #email.show { opacity: 1; transition: opacity 0.4s ease; }
+  #email h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    margin: 0 0 14px;
+  }
+  .placeholder { color: var(--accent); font-weight: 600; }
+  footer {
+    max-width: 980px;
+    margin: 40px auto 60px;
+    padding: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--ink-soft);
+    font-size: 14.5px;
+  }
+  footer a { font-weight: 600; }
+  footer ul { padding-left: 20px; }
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1em;
+    background: var(--ink);
+    vertical-align: text-bottom;
+    animation: blink 0.9s steps(1) infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="kicker">Practical AI Sales Workflows</div>
+  <h1>Watch a Sales AI Skill Work</h1>
+  <p>This is the real <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/extract-post-call-evidence/SKILL.md">extract-post-call-evidence</a> skill, run against the actual fictional Northstar call transcript from this repository. Press play and watch it separate confirmed facts from estimates and unknowns, then use only what's confirmed to draft the follow-up email. Every line on the right is traceable back to a line on the left, nothing here was invented for the demo.</p>
+  <a class="backlink" href="https://github.com/shaunmarsden/practical-ai-sales-workflows">&larr; Back to the repository</a>
+</header>
+
+<div class="controls">
+  <button id="play">&#9654; Watch it work</button>
+  <button id="reset">Reset</button>
+  <span class="status" id="status">Ready when you are.</span>
+</div>
+
+<main class="stage">
+  <section class="panel">
+    <h2>The call transcript</h2>
+    <div id="transcript"></div>
+  </section>
+  <section class="panel">
+    <h2>What the skill extracts</h2>
+    <div id="output"></div>
+  </section>
+</main>
+
+<div id="email-wrap">
+  <div id="email">
+    <h2>Follow-up email draft, built only from what's confirmed above</h2>
+    <div id="email-body"></div>
+  </div>
+</div>
+
+<footer>
+  <p><strong>Nothing above is a live AI call.</strong> A static page like this one can't call a real model without a backend, so this replays an already-computed result rather than generating a fresh one, the same output you'd get from actually running the skill. If you want to see it run for real:</p>
+  <ul>
+    <li>Read the <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/extract-post-call-evidence/SKILL.md">skill file</a> itself, or the plain-English <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/guides/what-is-a-sales-ai-skill.md">what is a sales AI skill</a> guide</li>
+    <li>Compare this against the <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/evaluations/northstar-post-call-review.md">honest scored review</a> of the full output, or the <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/evaluations/cross-model-post-call-comparison.md">cross-model comparison</a> against ChatGPT and Gemini on the same transcript</li>
+    <li>New to all this? Start with <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/guides/where-to-start.md">where to start</a></li>
+  </ul>
+</footer>
+
+<script>
+(function () {
+  var transcriptLines = [
+    { id: "role", speaker: "", text: "Contact: Alex Morgan, Head of Revenue Operations, Northstar Analytics. Call length: 18 minutes." },
+    { id: "s1", speaker: "Shaun:", text: "Thanks for making the time, Alex. What prompted you to look at this now?" },
+    { id: "a1", speaker: "Alex:", text: "It has been irritating people for a while. We have eight account executives now. After a customer call, everyone has their own way of doing things." },
+    { id: "a2", speaker: "Alex:", text: "The rep writes some notes, sends an email and updates the CRM. Sometimes the notes stay in a notebook. The CRM update can be a day or two later." },
+    { id: "a3", speaker: "Alex:", text: "I would guess somewhere between fifteen and thirty minutes on admin per call, but that is just my estimate. We have not measured it." },
+    { id: "a4", speaker: "Alex:", text: "HubSpot. We also record most calls in a meeting tool, although I need to check which package we are on." },
+    { id: "a5", speaker: "Alex:", text: "I do not want something sending emails automatically." },
+    { id: "a6", speaker: "Alex:", text: "I can send you an anonymised transcript. I should be able to do that by Thursday afternoon, but I need to confirm internally that it is safe to share." },
+    { id: "a7", speaker: "Alex:", text: "Could we hold thirty minutes next Tuesday morning to look at it?" },
+    { id: "s2", speaker: "Shaun:", text: "I need to check my diary before I confirm a time. I will include some options in my email today." },
+    { id: "a8", speaker: "Alex:", text: "Probably our Sales Director, Priya. She does not need to join the first test. I will check whether she wants anything specific included." }
+  ];
+
+  var outputItems = [
+    { tag: "confirmed", text: "Team size: eight account executives.", from: "a1" },
+    { tag: "confirmed", text: "CRM: HubSpot.", from: "a4" },
+    { tag: "confirmed", text: "CRM updates can lag a day or two behind the call.", from: "a2" },
+    { tag: "estimate", text: "Post-call admin time: 15–30 minutes per call — Alex's own unmeasured guess, not tracked data.", from: "a3" },
+    { tag: "confirmed", text: "No automatic email sending wanted.", from: "a5" },
+    { tag: "unknown", text: "Transcript share date: Thursday afternoon — conditional on internal approval, not a firm commitment.", from: "a6" },
+    { tag: "unknown", text: "Tuesday review meeting: proposed by Alex, not yet confirmed — Shaun still needs to check his diary.", from: "s2" },
+    { tag: "unknown", text: "Priya's requirements: unknown — Alex to check and confirm.", from: "a8" }
+  ];
+
+  var emailHtml =
+    "Hi Alex,\n\n" +
+    "Thanks for the time today. As discussed, I'll send a short outline of the test covering the call summary, actions, follow-up draft and suggested CRM updates.\n\n" +
+    "For the Tuesday morning review, <span class=\"placeholder\">[once I've checked my diary, I'll send over a couple of time options]</span>.\n\n" +
+    "Once you've confirmed internally that the transcript is safe to share, send it across — <span class=\"placeholder\">Thursday afternoon works if that's still realistic on your side</span>.\n\n" +
+    "Nothing gets sent automatically or added to HubSpot without you checking it first.\n\n" +
+    "Best,\nShaun";
+
+  var transcriptEl = document.getElementById("transcript");
+  var outputEl = document.getElementById("output");
+  var emailEl = document.getElementById("email");
+  var emailBodyEl = document.getElementById("email-body");
+  var playBtn = document.getElementById("play");
+  var resetBtn = document.getElementById("reset");
+  var statusEl = document.getElementById("status");
+
+  function renderTranscript() {
+    transcriptEl.innerHTML = "";
+    transcriptLines.forEach(function (line) {
+      var span = document.createElement("span");
+      span.className = "line";
+      span.id = "t-" + line.id;
+      span.innerHTML = (line.speaker ? "<span class=\"speaker\">" + line.speaker + "</span> " : "") + line.text;
+      transcriptEl.appendChild(span);
+    });
+  }
+
+  function renderOutputShell() {
+    outputEl.innerHTML = "";
+    outputItems.forEach(function (item, i) {
+      var div = document.createElement("div");
+      div.className = "item";
+      div.id = "o-" + i;
+      div.innerHTML = "<span class=\"tag " + item.tag + "\">" + item.tag + "</span>" + item.text;
+      outputEl.appendChild(div);
+    });
+  }
+
+  function reset() {
+    renderTranscript();
+    renderOutputShell();
+    emailEl.classList.remove("show");
+    emailBodyEl.innerHTML = "";
+    playBtn.disabled = false;
+    statusEl.textContent = "Ready when you are.";
+  }
+
+  function sleep(ms) {
+    return new Promise(function (resolve) { setTimeout(resolve, ms); });
+  }
+
+  async function typeEmail() {
+    emailEl.classList.add("show");
+    var i = 0;
+    var raw = emailHtml;
+    // Type in small chunks so HTML tags render correctly rather than character by character.
+    var chunks = raw.split(/(<span[^>]*>.*?<\/span>)/g);
+    var built = "";
+    for (var c = 0; c < chunks.length; c++) {
+      var chunk = chunks[c];
+      if (chunk.indexOf("<span") === 0) {
+        built += chunk;
+        emailBodyEl.innerHTML = built + "<span class=\"cursor\"></span>";
+        await sleep(220);
+      } else {
+        for (var k = 0; k < chunk.length; k++) {
+          built += chunk[k];
+          emailBodyEl.innerHTML = built + "<span class=\"cursor\"></span>";
+          if (k % 3 === 0) await sleep(8);
+        }
+      }
+    }
+    emailBodyEl.innerHTML = built;
+  }
+
+  async function play() {
+    playBtn.disabled = true;
+    reset();
+    playBtn.disabled = true;
+    statusEl.textContent = "Reading the transcript...";
+    await sleep(600);
+
+    for (var i = 0; i < outputItems.length; i++) {
+      var item = outputItems[i];
+      document.querySelectorAll(".line.lit").forEach(function (el) { el.classList.remove("lit"); el.classList.add("dim-lit"); });
+      var src = document.getElementById("t-" + item.from);
+      if (src) {
+        src.classList.remove("dim-lit");
+        src.classList.add("lit");
+        src.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+      statusEl.textContent = "Extracting: " + item.tag + "...";
+      await sleep(450);
+      document.getElementById("o-" + i).classList.add("show");
+      await sleep(650);
+    }
+
+    statusEl.textContent = "Drafting the follow-up email from confirmed facts only...";
+    await sleep(500);
+    await typeEmail();
+    statusEl.textContent = "Done. Every line above traces back to the transcript on the left.";
+    playBtn.disabled = false;
+  }
+
+  playBtn.addEventListener("click", play);
+  resetBtn.addEventListener("click", reset);
+  reset();
+})();
+</script>
+
+</body>
+</html>
