@@ -4,7 +4,7 @@ What is actually being worked on, in three honest buckets. Not a promise of date
 
 ## Now
 
-- **A harder synthetic test**, not just a clean transcript: a genuinely ambiguous objection with real mixed signals, run three times per model instead of once, using the [test run template](evaluations/test-run-template.md), to check whether the diagnosis stays stable or swings between runs. A single clean pass proves a workflow can work, not that it reliably does.
+- **A harder synthetic test** is underway: a genuinely ambiguous objection with real mixed signals, run three times per model, using the [test run template](evaluations/test-run-template.md). The three Claude runs are [done and written up](evaluations/northstar-objection-ambiguous-test.md); the ChatGPT and Gemini runs still need doing by hand before a cross-model conclusion can be drawn. Early finding: the guardrails hold every run, but which driver gets treated as primary swings, so the isolate step and human review are what make an ambiguous objection safe.
 
 ## Done Recently
 
