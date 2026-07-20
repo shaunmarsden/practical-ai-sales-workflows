@@ -62,4 +62,4 @@ Do not send a first-touch message when:
 
 This selects targets and drafts messages. Sending the message, and any CRM or tracker write, stays subject to explicit human approval unless standing permission for tracker updates has already been given.
 
-Read [the Cedarwell example](references/cedarwell-example.md) for a fictional test.
+Read [the Cedarwell example](references/cedarwell-example.md) for a fictional test, or the fuller [workflow, output and scored evaluation](../../../workflows/09-outbound-prospecting.md) for the complete worked version.
