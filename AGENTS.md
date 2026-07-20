@@ -204,6 +204,13 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 - [Fictional pipeline review](examples/fictional-pipeline-review.md)
 - [Evaluation](evaluations/fictional-pipeline-review-eval.md)
 
+### CRM Hygiene Review
+
+- [Workflow](workflows/08-crm-hygiene-review.md)
+- [Fictional CRM export](examples/fictional-crm-export.md)
+- [Fictional CRM hygiene review](examples/fictional-crm-hygiene-review.md)
+- [Evaluation](evaluations/fictional-crm-hygiene-review-eval.md)
+
 If nothing fits, explain the gap before proposing a new category. Prefer testing or extending existing material over adding more folders.
 
 ## Explain Things for Salespeople
