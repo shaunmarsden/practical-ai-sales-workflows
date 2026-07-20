@@ -98,6 +98,12 @@ Check whether the stages, close dates and next steps in your CRM are actually su
 
 **Start here:** [Open the workflow](workflows/06-pipeline-evidence-review.md) · [See the fictional pipeline snapshot](examples/fictional-pipeline-snapshot.md) · [See the completed review](examples/fictional-pipeline-review.md) · [Use the prompt](templates/pipeline-evidence-review-prompt.md)
 
+### 🧹 Keep Your CRM Honest
+
+Audit a CRM export for duplicates, missing fields and stale records, so you can trust it before using it for a total or a report, without touching anything yourself.
+
+**Start here:** [Open the workflow](workflows/08-crm-hygiene-review.md) · [See the fictional CRM export](examples/fictional-crm-export.md) · [See the completed review](examples/fictional-crm-hygiene-review.md) · [Use the prompt](templates/crm-hygiene-review-prompt.md)
+
 ## 🧭 How I Approach It
 
 ```mermaid
