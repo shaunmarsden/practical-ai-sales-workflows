@@ -459,19 +459,3 @@ Avoid a single opaque 0 to 100 score unless every component, weight and limitati
 Allow a user to compare two instruction versions against the same fictional case, preserving raw outputs, scores, differences and human review notes.
 
 This should support evaluation. It should not present model-generated scoring as independent proof.
-
-### Repositories reviewed for inspiration
-
-The ideas above were informed by reviewing these public repositories. Any implementation in this project should be written independently and tested against this repository's own standards.
-
-- [LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills): skill packaging, quality standards, progressive disclosure, validation and curated bundles.
-- [Salesably/salesably-marketplace](https://github.com/Salesably/salesably-marketplace): workflow routing, skill layers, handoff context and optional tool setup.
-- [keinsaasforever/gtm-pipeline-skills](https://github.com/keinsaasforever/gtm-pipeline-skills): company-first and signal-first pipelines, cost checkpoints, private local configuration and staged data handoffs.
-- [Othmane-Khadri/gtm-engineer-playbook](https://github.com/Othmane-Khadri/gtm-engineer-playbook): chained output files, read-only CRM hygiene, weekly reporting and separating orchestration from judgement.
-- [Prospeda/claude-gtm-skills](https://github.com/Prospeda/claude-gtm-skills): role-based navigation, signal-led prospecting, objection patterns, champion enablement and pipeline review concepts.
-- [gtmagents/gtm-agents](https://github.com/gtmagents/gtm-agents): beginner learning paths and quick recipe-card presentation. Its large productivity claims should not be reused without evidence.
-- [ericosiu/ai-marketing-skills](https://github.com/ericosiu/ai-marketing-skills): public-data scanning, pre-commit checks, experiment logs and explicit distinction between simulated scoring and real-world validation.
-- [sales-skills/sales](https://github.com/sales-skills/sales): route-only skill design, strategy-before-platform routing and downloadable cross-platform skill packages.
-- [chaitanyya/sales](https://github.com/chaitanyya/sales): visible job progress, cancellable research runs, editable instructions and explainable lead-research interfaces.
-- [filip-michalsky/SalesGPT](https://github.com/filip-michalsky/SalesGPT): conversation-state awareness, tool and model tests, and the possibility of fictional role-play. Autonomous selling and external actions do not fit this repository's current approval model.
-- [salesp07/salesp07](https://github.com/salesp07/salesp07): reviewed, but it is a personal developer-profile repository and did not produce a relevant sales-AI backlog item.
