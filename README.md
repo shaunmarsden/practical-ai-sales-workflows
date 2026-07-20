@@ -76,6 +76,8 @@ Help a willing buyer who keeps delaying the final yes, by making the decision sa
 
 **Start here:** [Open the workflow](workflows/07-buyer-indecision.md) · [See the Calderwood scenario](examples/calderwood-indecision-input.md) · [See the completed response](examples/calderwood-indecision-response.md) · [Use the prompt](templates/buyer-indecision-prompt.md)
 
+**Use with AI:** [Identify buyer indecision](.agents/skills/identify-buyer-indecision/SKILL.md), a diagnosis-only skill that pairs with the prompt above
+
 ### 🤝 Hand Over an Opportunity
 
 Pass the current position, evidence, risks and next action to another person without making the deal sound further along than it is.
