@@ -248,6 +248,12 @@ Record when a custom instruction was used. Do not hide the instruction that prod
 
 ### Sales workflow ideas
 
+#### Pre-call objection roleplay drill
+
+A short prompt addition to the existing [pre-call preparation workflow](workflows/01-pre-call-preparation.md): have the AI play a sceptical version of the actual prospect persona and push back on the planned pitch, using only what is already established about them, so the salesperson gets a few minutes of live pushback practice before a real call rather than rehearsing alone in their head.
+
+This is deliberately lightweight, a single prompt bolted onto the existing workflow, not the fuller practice environment described below under Learning tools and future interfaces. Build this one first if either gets picked up; it needs no new interface, no run history and no scoring, just a good prompt.
+
 #### Signal-to-hypothesis outbound
 
 Turn public company signals into clearly labelled commercial hypotheses:
@@ -416,7 +422,7 @@ These are distant ideas. They may become separate software projects if the simpl
 
 #### Fictional sales role-play simulator
 
-Create a safe practice environment where:
+A fuller version of the [pre-call objection roleplay drill](#pre-call-objection-roleplay-drill) above under Sales workflow ideas, as a proper practice environment where:
 
 - the AI plays a fictional prospect from fixed source material;
 - the salesperson responds;
