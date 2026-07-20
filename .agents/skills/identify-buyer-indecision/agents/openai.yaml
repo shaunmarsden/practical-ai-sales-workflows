@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Buyer Indecision"
+  short_description: "Diagnose whether a stalled buyer is genuinely indecisive, not something else"
+  default_prompt: "Use $identify-buyer-indecision to diagnose whether this stalled deal is genuine indecision, an objection, a timing issue, an approval dependency, a soft no, or a disqualification, using this evidence."

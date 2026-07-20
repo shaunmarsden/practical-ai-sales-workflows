@@ -58,6 +58,8 @@ templates/output-template.md
 checks/checklist.md
 ```
 
+**Piloted** on the [identify-buyer-indecision skill](.agents/skills/identify-buyer-indecision/SKILL.md), a diagnosis-only skill paired with the existing buyer indecision workflow and prompt. Not yet a repository-wide requirement; CONTRIBUTING.md's quality bar still only requires `SKILL.md` plus references where a fictional test genuinely helps. Decide whether this richer structure earns its way into that requirement, or stays optional, once it has been used on a second skill.
+
 Only add a script where a deterministic check is genuinely useful. A structure check can confirm that required sections exist. It cannot prove that the commercial judgement is correct.
 
 #### Source and evidence standards
