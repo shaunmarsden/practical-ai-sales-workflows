@@ -8,6 +8,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A CRM hygiene review vertical**: a [workflow](workflows/08-crm-hygiene-review.md), [prompt template](templates/crm-hygiene-review-prompt.md), a [fictional CRM export](examples/fictional-crm-export.md), a [worked review](examples/fictional-crm-hygiene-review.md), and a [scored evaluation](evaluations/fictional-crm-hygiene-review-eval.md) (45/50). Flags likely and possible duplicates, missing fields and stale records, read-only, and deliberately stays out of the stage-accuracy question the pipeline evidence review already covers. Building this one surfaced two real errors in its own worked example (a wrong "more recently active" claim, an undercounted set of blank-contact rows), both caught by checking the review line by line against its own source data before scoring it, which is exactly the discipline worth repeating on a real export.
 - **An interactive setup prompt**: [templates/interactive-setup-prompt.md](templates/interactive-setup-prompt.md), a standalone, tool-agnostic asset that interviews the user question by question in a fresh conversation and writes the finished, tailored setup prompt for them, as an alternative to filling in the About Me Worksheet by hand.
 - **A second business case test scenario**: [Bramfield Insurance Group](examples/bramfield-business-case-transcript.md), a distinct late-stage transcript with a conditional two-year price instead of a flat figure and a Finance Director reader who was never on a call, plus its [output](examples/bramfield-business-case-output.md), [evaluation](evaluations/bramfield-business-case-review.md), and a second [skill reference](.agents/skills/build-business-case/references/bramfield-example.md).
 - **A public quality bar**: [CONTRIBUTING.md](CONTRIBUTING.md) sets out the nine things that make a workflow or skill actually complete, the fictional content rules, honest scoring guidance, and house style. Complements [METHODOLOGY.md](METHODOLOGY.md) and [RESPONSIBLE-USE.md](RESPONSIBLE-USE.md) rather than duplicating them.
@@ -20,7 +21,6 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Later
 
-- Make CRM hygiene (duplicates, ownership, stale records) less painful to keep up to date, building on the pipeline evidence review now shipped.
 - Find a sensible way to actually measure time saved and output quality, not just assume a workflow helps because it reads well.
 - n8n or similar automation, once the underlying workflows are proven stable enough to hand to something unattended.
 - Better voices for the interactive demo, if a real (non-browser) TTS API is ever worth the cost and complexity for what is currently a one-page static demo.
@@ -310,16 +310,7 @@ These states must remain configurable and should not be treated as universal sal
 
 #### Read-only CRM hygiene review
 
-Audit an approved fictional or user-provided CRM export for:
-
-- missing critical fields;
-- exact and possible duplicates;
-- stale records;
-- unsupported close dates or stages;
-- missing owners or contacts;
-- cleanup priorities.
-
-The first version should be read-only and require a person to approve every merge, deletion or CRM update. Any scoring thresholds should be configurable rather than presented as universal facts.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/08-crm-hygiene-review.md).
 
 #### Weekly sales operating review
 
