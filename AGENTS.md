@@ -178,6 +178,7 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 ### Buyer Indecision
 
 - [Workflow](workflows/07-buyer-indecision.md)
+- [Identify Buyer Indecision skill](.agents/skills/identify-buyer-indecision/SKILL.md), diagnosis only; pairs with the prompt below for the response
 - [Calderwood scenario](examples/calderwood-indecision-input.md)
 - [Calderwood response](examples/calderwood-indecision-response.md)
 - [Evaluation](evaluations/calderwood-indecision-review.md)
