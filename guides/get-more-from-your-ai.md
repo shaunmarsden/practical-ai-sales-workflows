@@ -99,6 +99,12 @@ An automation or an agent runs on a trigger, a schedule, a new CRM record, an em
 
 Examples worth trying: a daily brief that reads your calendar and CRM each morning and tells you what actually needs attention, an agent that drafts a first-touch email the moment a new lead lands in your CRM, ready for you to review, or a scheduled weekly check for pipeline records with no next step.
 
+### When the Trigger and the Action Live in Different Tools
+
+Sometimes what you want to automate spans systems your AI tool cannot see into on its own: a new lead lands in the CRM, that should trigger an AI-drafted first-touch email, which then needs a person to approve it before anything sends. A dedicated automation or orchestration tool sits between those systems and chains the steps together, with an approval step built in before anything customer-facing happens.
+
+This is a genuinely bigger step than anything else on this page. It usually means self-hosting something or paying for a separate account, and building the connections yourself rather than ticking a setting inside a tool you already use. It is worth doing once the simpler layers above are already proven and trusted, not as a first move, and it is not something every reader of this guide needs, or should feel behind for not having.
+
 This is also the layer with the least room for error, and the ground rules from the [setup prompt](../templates/ai-sales-setup-prompt.md) apply here with less slack, not more, because nobody is reviewing each step the way you would review a single reply:
 
 - Draft and prepare, do not let it send an email or write to your CRM on its own, unless you have deliberately set up that one specific action and you trust it after watching it work
