@@ -30,6 +30,8 @@ Once a single setup prompt stops being enough on its own, [Get More From Your AI
 
 Pick a target and draft a first-touch message worth a reply, without a generic hook or a meeting-led ask.
 
+**Start here:** [Open the workflow](workflows/09-outbound-prospecting.md) · [See the Cedarwell signal](examples/cedarwell-outbound-input.md) · [See the completed output](examples/cedarwell-outbound-output.md) · [Use the prompt](templates/outbound-prospecting-prompt.md)
+
 **Use with AI:** [Plan outbound prospecting](.agents/skills/outbound-prospecting/SKILL.md)
 
 ### 📞 Prepare for a Sales Call

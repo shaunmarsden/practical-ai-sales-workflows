@@ -8,6 +8,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **The outbound prospecting vertical is complete**: it had only a skill, no workflow, worked example or evaluation, the one gap against [CONTRIBUTING.md](CONTRIBUTING.md)'s own completeness bar. Now has a [workflow](workflows/09-outbound-prospecting.md), a [prompt template](templates/outbound-prospecting-prompt.md), a full [Cedarwell signal](examples/cedarwell-outbound-input.md) and [output](examples/cedarwell-outbound-output.md) built from the skill's existing scenario, and a [scored evaluation](evaluations/cedarwell-outbound-review.md) (46/50), alongside the existing [skill](.agents/skills/outbound-prospecting/SKILL.md).
 - **A CRM hygiene review vertical**: a [workflow](workflows/08-crm-hygiene-review.md), [prompt template](templates/crm-hygiene-review-prompt.md), a [fictional CRM export](examples/fictional-crm-export.md), a [worked review](examples/fictional-crm-hygiene-review.md), and a [scored evaluation](evaluations/fictional-crm-hygiene-review-eval.md) (45/50). Flags likely and possible duplicates, missing fields and stale records, read-only, and deliberately stays out of the stage-accuracy question the pipeline evidence review already covers. Building this one surfaced two real errors in its own worked example (a wrong "more recently active" claim, an undercounted set of blank-contact rows), both caught by checking the review line by line against its own source data before scoring it, which is exactly the discipline worth repeating on a real export.
 - **An interactive setup prompt**: [templates/interactive-setup-prompt.md](templates/interactive-setup-prompt.md), a standalone, tool-agnostic asset that interviews the user question by question in a fresh conversation and writes the finished, tailored setup prompt for them, as an alternative to filling in the About Me Worksheet by hand.
 - **A second business case test scenario**: [Bramfield Insurance Group](examples/bramfield-business-case-transcript.md), a distinct late-stage transcript with a conditional two-year price instead of a flat figure and a Finance Director reader who was never on a call, plus its [output](examples/bramfield-business-case-output.md), [evaluation](evaluations/bramfield-business-case-review.md), and a second [skill reference](.agents/skills/build-business-case/references/bramfield-example.md).
@@ -77,32 +78,11 @@ The standard should also cover conflicting sources, estimates, vendor claims and
 
 #### Lightweight repository checks
 
-Consider a small GitHub Actions check for predictable repository errors:
-
-- broken relative links;
-- invalid skill frontmatter;
-- duplicate skill names;
-- missing limitations or human-review language;
-- examples not clearly labelled as fictional;
-- accidentally committed private context files;
-- internal or confidential references;
-- unfinished placeholder text.
-
-Keep this proportionate to the size of the repository.
+**Partially shipped**, see [.github/scripts/repo_checks.py](.github/scripts/repo_checks.py), which runs in CI on every push and pull request. Covered: broken relative links, invalid skill frontmatter, examples not labelled as fictional, accidentally committed private context files, unfinished placeholder text. Not yet covered: duplicate skill names, missing limitations or human-review language.
 
 #### Public-data pre-commit scanner
 
-Add a local check that flags possible confidential or personal information before it reaches a public commit.
-
-Potential checks include:
-
-- email addresses and phone numbers;
-- API keys, tokens and credentials in URLs;
-- private Google Docs, HubSpot or CRM links;
-- configured customer, employer and person names;
-- unexpected commercial figures;
-- private-context files or CRM exports;
-- custom blocklist patterns.
+**Partially shipped** by the same [repo_checks.py](.github/scripts/repo_checks.py), as a CI check rather than a local pre-commit hook. Covered: secret-like values (API keys, tokens), private links (Google Docs, HubSpot, SharePoint), the employer name. Not yet covered: email addresses and phone numbers, unexpected commercial figures, a configurable custom blocklist, and running locally as an actual pre-commit hook rather than only in CI.
 
 The first version should report possible issues for human review. It should not automatically rewrite or delete source material.
 
@@ -278,9 +258,7 @@ Both routes should include evidence checks before contact discovery or enrichmen
 
 #### Pipeline evidence review
 
-Check whether recorded stages, close dates, stakeholders and next steps are supported by available evidence.
-
-The output should flag unsupported or stale fields without accusing the salesperson or treating CRM data as automatically correct.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/06-pipeline-evidence-review.md).
 
 #### Evidence-supported opportunity state
 
@@ -335,9 +313,7 @@ Useful fields might include the exact objection, stage, speaker role, diagnosed 
 
 #### Buyer indecision
 
-Distinguish late-stage fear of making the wrong decision from an ordinary objection, missing information, timing issue, approval dependency, reduced business rationale, soft no or genuine disqualification.
-
-The workflow must not invent pilots, discounts, contract flexibility, implementation promises or risk-removal commitments.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/07-buyer-indecision.md) and the [identify-buyer-indecision skill](.agents/skills/identify-buyer-indecision/SKILL.md).
 
 #### Champion enablement and multithreading
 
