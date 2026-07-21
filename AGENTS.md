@@ -136,7 +136,11 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 
 ### Outbound Prospecting
 
+- [Workflow](workflows/09-outbound-prospecting.md)
 - [Plan Outbound Prospecting](.agents/skills/outbound-prospecting/SKILL.md)
+- [Cedarwell signal](examples/cedarwell-outbound-input.md)
+- [Cedarwell output](examples/cedarwell-outbound-output.md)
+- [Evaluation](evaluations/cedarwell-outbound-review.md)
 
 ### Pre Call Preparation
 
