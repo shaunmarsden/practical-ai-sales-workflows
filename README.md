@@ -40,6 +40,8 @@ Pull scattered information into one short call card that you can scan during the
 
 **Start here:** [Open the workflow](workflows/01-pre-call-preparation.md) · [See the Northstar example](examples/northstar-pre-call.md) · [Use the card template](templates/pre-call-card.md)
 
+**Optional practice:** [Roleplay pushback before the call](templates/pre-call-objection-roleplay-prompt.md) · [See what it produces](examples/northstar-pre-call-roleplay.md)
+
 ### ✉️ Follow Up After a Sales Call
 
 Turn a transcript or clear notes into a summary, actions, email draft and CRM suggestions without inventing momentum.

@@ -25,6 +25,7 @@ flowchart TB
 
 - [Use the Pre Call Card template](../templates/pre-call-card.md)
 - [See the completed Northstar example](../examples/northstar-pre-call.md)
+- Once your card is done, [practise pushback before the call](../templates/pre-call-objection-roleplay-prompt.md), optional, [see what it produces](../examples/northstar-pre-call-roleplay.md)
 
 <details>
 <summary><strong>See the information you need</strong></summary>
@@ -58,9 +59,9 @@ Require links or source labels for public claims. If something cannot be verifie
 
 Create a short, testable idea connecting the prospect's likely situation to the problem you help solve.
 
-**Avoid:** “They need AI.”
+**Avoid:** "They need AI."
 
-**Try:** “If the revenue operations team is manually consolidating call notes and CRM updates, reducing that administration may be worth exploring.”
+**Try:** "If the revenue operations team is manually consolidating call notes and CRM updates, reducing that administration may be worth exploring."
 
 The hypothesis is a starting point for a question, not a claim about the prospect.
 
