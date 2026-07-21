@@ -8,6 +8,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **An objection pattern review vertical**: a [workflow](workflows/11-objection-pattern-review.md), [prompt template](templates/objection-pattern-review-prompt.md), a [fictional objection log](examples/fictional-objection-pattern-log.md), a [worked analysis](examples/fictional-objection-pattern-review.md), and a [scored evaluation](evaluations/fictional-objection-pattern-review-eval.md) (47/50). Reuses two objections already on record (Northstar's Copilot and price objections) and adds four fresh ones, deliberately built so one surface pattern (Copilot mentioned three times) turns out not to be a real single issue, while a genuinely different one (a compliance question raised twice, in unrelated sectors) is. The point of the workflow is telling those two apart, not just counting recurrences.
 - **A way to measure time saved and output quality**: [guides/measure-time-and-quality.md](guides/measure-time-and-quality.md) and the [time and quality log](templates/time-and-quality-log.md). Logs manual, AI-assisted and checking time honestly (checking time counts, a workflow that did not help is real data too), used alongside the existing [output rubric](evaluations/sales-ai-output-rubric.md) rather than instead of it. This is the tool the "Now" priority above needs whenever a real workflow gets tried, by anyone, including Shaun himself on his own sanitised deal.
 - **A pre-call objection roleplay prompt**: [templates/pre-call-objection-roleplay-prompt.md](templates/pre-call-objection-roleplay-prompt.md), a short addition to the existing [pre-call preparation workflow](workflows/01-pre-call-preparation.md), not a new vertical. The AI plays a sceptical version of the actual prospect, grounded only in the completed call card, and gives an honest debrief afterwards. Includes one illustrative example, [a roleplay exchange built from the existing Northstar pre-call scenario](examples/northstar-pre-call-roleplay.md). Deliberately has no scored evaluation, matching the backlog item's own scope: this is practice, not something to score.
 - **A weekly operating review vertical**: a [workflow](workflows/10-weekly-operating-review.md), [prompt template](templates/weekly-operating-review-prompt.md), a [fictional input](examples/fictional-weekly-operating-review-input.md), a [worked report](examples/fictional-weekly-operating-review-output.md), and a [scored evaluation](evaluations/fictional-weekly-operating-review-eval.md) (46/50). Deliberately composes the pipeline evidence review and CRM hygiene review's findings into one weekly view rather than re-analysing anything, and refuses to invent a trend on a first report with no baseline to compare against. Building it surfaced a real error in the already-shipped CRM hygiene review (Harbourview's close date was wrongly listed as passed; it is five days in the future), fixed in both places, which is itself evidence that composing one workflow's output into another is a genuinely effective way to catch mistakes a single review misses.
@@ -296,9 +297,7 @@ These states must remain configurable and should not be treated as universal sal
 
 #### Objection pattern review
 
-Analyse repeated objections across several opportunities while keeping observed patterns separate from assumed root causes.
-
-Useful fields might include the exact objection, stage, speaker role, diagnosed driver, response, outcome and confidence.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/11-objection-pattern-review.md).
 
 #### Buyer indecision
 

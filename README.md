@@ -74,6 +74,12 @@ Diagnose what is actually driving a stated objection before answering it, rather
 
 **Use with AI:** [Respond to an objection](.agents/skills/objection-response/SKILL.md)
 
+### 📚 Spot a Real Objection Pattern
+
+Look across several deals for a repeated objection, and check whether it is genuinely one issue or several unrelated situations that just sound similar.
+
+**Start here:** [Open the workflow](workflows/11-objection-pattern-review.md) · [See the fictional objection log](examples/fictional-objection-pattern-log.md) · [See the completed analysis](examples/fictional-objection-pattern-review.md) · [Use the prompt](templates/objection-pattern-review-prompt.md)
+
 ### 🕰️ Move a Stalled Decision
 
 Help a willing buyer who keeps delaying the final yes, by making the decision safer rather than selling harder, once you have confirmed it is genuine indecision and not something else.
