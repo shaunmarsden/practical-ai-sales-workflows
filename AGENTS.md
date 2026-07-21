@@ -147,6 +147,8 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 - [Workflow](workflows/01-pre-call-preparation.md)
 - [Northstar example](examples/northstar-pre-call.md)
 - [Template](templates/pre-call-card.md)
+- [Objection roleplay prompt](templates/pre-call-objection-roleplay-prompt.md), optional practice once the card is done
+- [Northstar roleplay example](examples/northstar-pre-call-roleplay.md)
 
 ### Post Call Evidence and Follow Up
 
