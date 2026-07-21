@@ -133,6 +133,7 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 - [Get More From Your AI](guides/get-more-from-your-ai.md), for projects, skills and connectors once a single prompt is not enough
 - [What Is a Sales AI Skill](guides/what-is-a-sales-ai-skill.md), for understanding the skills before adapting one
 - [Writing Style and Formatting](guides/writing-style-and-formatting.md), the standing tone reference for reader facing copy
+- [Measure Time Saved and Output Quality](guides/measure-time-and-quality.md), for logging your own time honestly alongside scoring the output
 
 ### Outbound Prospecting
 

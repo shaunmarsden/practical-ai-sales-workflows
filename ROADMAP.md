@@ -8,6 +8,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A way to measure time saved and output quality**: [guides/measure-time-and-quality.md](guides/measure-time-and-quality.md) and the [time and quality log](templates/time-and-quality-log.md). Logs manual, AI-assisted and checking time honestly (checking time counts, a workflow that did not help is real data too), used alongside the existing [output rubric](evaluations/sales-ai-output-rubric.md) rather than instead of it. This is the tool the "Now" priority above needs whenever a real workflow gets tried, by anyone, including Shaun himself on his own sanitised deal.
 - **A pre-call objection roleplay prompt**: [templates/pre-call-objection-roleplay-prompt.md](templates/pre-call-objection-roleplay-prompt.md), a short addition to the existing [pre-call preparation workflow](workflows/01-pre-call-preparation.md), not a new vertical. The AI plays a sceptical version of the actual prospect, grounded only in the completed call card, and gives an honest debrief afterwards. Includes one illustrative example, [a roleplay exchange built from the existing Northstar pre-call scenario](examples/northstar-pre-call-roleplay.md). Deliberately has no scored evaluation, matching the backlog item's own scope: this is practice, not something to score.
 - **A weekly operating review vertical**: a [workflow](workflows/10-weekly-operating-review.md), [prompt template](templates/weekly-operating-review-prompt.md), a [fictional input](examples/fictional-weekly-operating-review-input.md), a [worked report](examples/fictional-weekly-operating-review-output.md), and a [scored evaluation](evaluations/fictional-weekly-operating-review-eval.md) (46/50). Deliberately composes the pipeline evidence review and CRM hygiene review's findings into one weekly view rather than re-analysing anything, and refuses to invent a trend on a first report with no baseline to compare against. Building it surfaced a real error in the already-shipped CRM hygiene review (Harbourview's close date was wrongly listed as passed; it is five days in the future), fixed in both places, which is itself evidence that composing one workflow's output into another is a genuinely effective way to catch mistakes a single review misses.
 - **The outbound prospecting vertical is complete**: it had only a skill, no workflow, worked example or evaluation, the one gap against [CONTRIBUTING.md](CONTRIBUTING.md)'s own completeness bar. Now has a [workflow](workflows/09-outbound-prospecting.md), a [prompt template](templates/outbound-prospecting-prompt.md), a full [Cedarwell signal](examples/cedarwell-outbound-input.md) and [output](examples/cedarwell-outbound-output.md) built from the skill's existing scenario, and a [scored evaluation](evaluations/cedarwell-outbound-review.md) (46/50), alongside the existing [skill](.agents/skills/outbound-prospecting/SKILL.md).
@@ -24,8 +25,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Later
 
-- Find a sensible way to actually measure time saved and output quality, not just assume a workflow helps because it reads well.
-- n8n or similar automation, once the underlying workflows are proven stable enough to hand to something unattended.
+- A worked example of a dedicated automation or orchestration tool, once the underlying workflows are proven stable enough to hand to something unattended. See the orchestrator section in [Get More From Your AI](guides/get-more-from-your-ai.md) for the concept; no specific tool has been named, since it is a bigger technical step than anything else in the repository and not every reader needs it.
 - Better voices for the interactive demo, if a real (non-browser) TTS API is ever worth the cost and complexity for what is currently a one-page static demo.
 - Purposeful visuals for sharing, best done in a concentrated session: a social preview card and a cross-model comparison graphic are the highest-value pieces. Several process diagrams already exist as Mermaid and render on GitHub, so they do not need rebuilding as static images.
 
@@ -346,7 +346,7 @@ Each recipe should include:
 - what a person must check;
 - what to do next.
 
-Do not publish unsupported time-saved claims. Encourage users to record their own manual, AI-assisted and checking time.
+Do not publish unsupported time-saved claims. Point to the [time and quality log](templates/time-and-quality-log.md), already built, rather than inventing a second way to record the same thing.
 
 #### Downloadable cross-platform skill packages
 
