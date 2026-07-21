@@ -106,6 +106,12 @@ Audit a CRM export for duplicates, missing fields and stale records, so you can 
 
 **Start here:** [Open the workflow](workflows/08-crm-hygiene-review.md) · [See the fictional CRM export](examples/fictional-crm-export.md) · [See the completed review](examples/fictional-crm-hygiene-review.md) · [Use the prompt](templates/crm-hygiene-review-prompt.md)
 
+### 📋 Get a Weekly View Without Building a Dashboard
+
+Pull pipeline, meetings, outreach and new signals into one honest weekly report, composing what other workflows already found rather than redoing the analysis, and marking anything missing instead of guessing it.
+
+**Start here:** [Open the workflow](workflows/10-weekly-operating-review.md) · [See what was available](examples/fictional-weekly-operating-review-input.md) · [See the completed report](examples/fictional-weekly-operating-review-output.md) · [Use the prompt](templates/weekly-operating-review-prompt.md)
+
 ## 🧭 How I Approach It
 
 ```mermaid

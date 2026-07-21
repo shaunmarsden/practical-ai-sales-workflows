@@ -215,6 +215,13 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 - [Fictional CRM hygiene review](examples/fictional-crm-hygiene-review.md)
 - [Evaluation](evaluations/fictional-crm-hygiene-review-eval.md)
 
+### Weekly Operating Review
+
+- [Workflow](workflows/10-weekly-operating-review.md)
+- [What was available](examples/fictional-weekly-operating-review-input.md)
+- [Completed report](examples/fictional-weekly-operating-review-output.md)
+- [Evaluation](evaluations/fictional-weekly-operating-review-eval.md)
+
 If nothing fits, explain the gap before proposing a new category. Prefer testing or extending existing material over adding more folders.
 
 ## Explain Things for Salespeople
