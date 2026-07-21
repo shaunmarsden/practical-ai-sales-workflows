@@ -78,7 +78,7 @@ The standard should also cover conflicting sources, estimates, vendor claims and
 
 #### Lightweight repository checks
 
-**Partially shipped**, see [.github/scripts/repo_checks.py](.github/scripts/repo_checks.py), which runs in CI on every push and pull request. Covered: broken relative links, invalid skill frontmatter, examples not labelled as fictional, accidentally committed private context files, unfinished placeholder text. Not yet covered: duplicate skill names, missing limitations or human-review language.
+**Shipped**, see [.github/scripts/repo_checks.py](.github/scripts/repo_checks.py), which runs in CI on every push and pull request. Covered: broken relative links, invalid skill frontmatter, examples not labelled as fictional, accidentally committed private context files, unfinished placeholder text, duplicate skill names, and a skill missing human-review or limitation language.
 
 #### Public-data pre-commit scanner
 
