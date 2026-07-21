@@ -14,7 +14,7 @@
 | Stale, no recent activity | Rows 9, 15 | 2 |
 | Contact recorded as departed, not blank | Row 5 | 1 |
 | Close date unsupported by stage | Row 13 | 1 |
-| Close date already passed | Rows 1, 4, 5, 7 | 4 |
+| Close date already passed | Rows 1, 4, 7 | 3 |
 | No issue found | Rows 6, 12 | 2 |
 
 Some records appear in more than one row above; Row 9, for example, is both stale and missing a contact and an owner.
@@ -55,7 +55,9 @@ Some records appear in more than one row above; Row 9, for example, is both stal
 
 ## Close Dates Already Passed
 
-Rows 1 (Northstar), 4 (Meridian), 5 (Harbourview) and 7 (Calderwood) all carry a close date that has already passed. This review flags the date itself as unsupported. It does not attempt to diagnose why each deal has not closed, whether it is paused, blocked, or simply overdue for an update; that is what the [pipeline evidence review](../workflows/06-pipeline-evidence-review.md) is for, and three of these four deals are examined there in detail.
+Rows 1 (Northstar) and 4 (Meridian) carry a close date that has already passed. Row 7 (Calderwood)'s close date, 15 August, has also passed. This review flags the date itself as unsupported. It does not attempt to diagnose why each deal has not closed, whether it is paused, blocked, or simply overdue for an update; that is what the [pipeline evidence review](../workflows/06-pipeline-evidence-review.md) is for, and two of these three deals are examined there in detail.
+
+Row 5 (Harbourview)'s recorded close date, 20 October, has not actually passed yet. Its issue is different: the only known contact appears to have left the company, which the recorded stage and next step both still depend on. See the "Missing Critical Fields" section above and the [pipeline evidence review](../workflows/06-pipeline-evidence-review.md) for that finding.
 
 ## No Issue Found
 
