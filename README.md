@@ -134,7 +134,7 @@ The Northstar example follows one fictional sales conversation from the call to 
 
 **[Read the transcript](examples/northstar-post-call-transcript.md)** → **[See the finished output](examples/northstar-post-call-output.md)** → **[Read the honest review](evaluations/northstar-post-call-review.md)**
 
-You can also score your own result using the [sales AI output rubric](evaluations/sales-ai-output-rubric.md).
+You can also score your own result using the [sales AI output rubric](evaluations/sales-ai-output-rubric.md), and [log your own time saved](guides/measure-time-and-quality.md) rather than assuming a workflow helps because it reads well.
 
 Curious whether the model actually matters? [See the same test run cold in Claude, ChatGPT and Gemini](evaluations/cross-model-post-call-comparison.md), scored the same way.
 
