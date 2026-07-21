@@ -10,7 +10,7 @@ This review scores the [worked CRM hygiene review](../examples/fictional-crm-hyg
 
 | Area | Score | Notes |
 | --- | ---: | --- |
-| Factual accuracy | 4 | Accurate against the export once corrected; the first draft of this worked example wrongly claimed Shaun's Northstar row was the more recently active one, when the export shows Marcus Webb's row is. Caught and fixed before scoring, not silently left. |
+| Factual accuracy | 4 | Accurate against the export once corrected. Two errors were found and fixed in this worked example: the first draft wrongly claimed Shaun's Northstar row was the more recently active one, when the export shows Marcus Webb's row is; a later correction found Harbourview's close date, 20 October, had been wrongly listed as already passed relative to the scenario's 15 October date, when it is five days in the future. Both are fixed, neither silently left. |
 | Evidence fidelity | 5 | The Northstar duplicate's shared contact name is treated as strong evidence; the Fenmoor/Fenmore possible duplicate is correctly treated as weak, since it shares no contact and only a similar name |
 | Fact separation | 5 | Cleanly separates a blank contact field (rows 3, 9, 10, 11) from a departed-but-recorded contact (row 5), rather than lumping both under "missing" |
 | Missing information | 4 | Good coverage of blank fields, though the first draft undercounted the blank-contact rows and miscounted row 5 as missing when it is stale, not blank; also fixed |
@@ -31,7 +31,7 @@ This review scores the [worked CRM hygiene review](../examples/fictional-crm-hyg
 
 ## What Needed Checking
 
-- This worked example needed a real correction before it was honest: the first draft claimed Shaun's Northstar row was more recently active, which the export contradicts. Building the review and then checking it line by line against the source data caught this, which is exactly why that checking step matters and should not be skipped on a real export.
+- This worked example needed two real corrections before it was honest: the first draft claimed Shaun's Northstar row was more recently active, which the export contradicts; a second error, found only later while building the weekly operating review that pulls this review's findings into a report, wrongly listed Harbourview's close date as already passed when it is still five days away. Neither was caught by re-reading the review for plausibility; both were caught by checking it, and later reusing it, against the source data directly. Composing a workflow's output into another workflow, as the weekly operating review does here, turned out to be a genuinely effective second check, not just a reuse of existing content.
 - The summary table originally undercounted the blank-contact rows (missed two of four) and conflated a stale contact with a missing one; both are fixed, but a first pass at a larger real export should expect to make the same kind of counting error and check it.
 - The suggested actions for stale records could be sharper; "re-engage or close" is directionally right but does not commit to a specific next step the way the duplicate and missing-field actions do.
 

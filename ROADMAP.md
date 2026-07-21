@@ -8,6 +8,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A weekly operating review vertical**: a [workflow](workflows/10-weekly-operating-review.md), [prompt template](templates/weekly-operating-review-prompt.md), a [fictional input](examples/fictional-weekly-operating-review-input.md), a [worked report](examples/fictional-weekly-operating-review-output.md), and a [scored evaluation](evaluations/fictional-weekly-operating-review-eval.md) (46/50). Deliberately composes the pipeline evidence review and CRM hygiene review's findings into one weekly view rather than re-analysing anything, and refuses to invent a trend on a first report with no baseline to compare against. Building it surfaced a real error in the already-shipped CRM hygiene review (Harbourview's close date was wrongly listed as passed; it is five days in the future), fixed in both places, which is itself evidence that composing one workflow's output into another is a genuinely effective way to catch mistakes a single review misses.
 - **The outbound prospecting vertical is complete**: it had only a skill, no workflow, worked example or evaluation, the one gap against [CONTRIBUTING.md](CONTRIBUTING.md)'s own completeness bar. Now has a [workflow](workflows/09-outbound-prospecting.md), a [prompt template](templates/outbound-prospecting-prompt.md), a full [Cedarwell signal](examples/cedarwell-outbound-input.md) and [output](examples/cedarwell-outbound-output.md) built from the skill's existing scenario, and a [scored evaluation](evaluations/cedarwell-outbound-review.md) (46/50), alongside the existing [skill](.agents/skills/outbound-prospecting/SKILL.md).
 - **A CRM hygiene review vertical**: a [workflow](workflows/08-crm-hygiene-review.md), [prompt template](templates/crm-hygiene-review-prompt.md), a [fictional CRM export](examples/fictional-crm-export.md), a [worked review](examples/fictional-crm-hygiene-review.md), and a [scored evaluation](evaluations/fictional-crm-hygiene-review-eval.md) (45/50). Flags likely and possible duplicates, missing fields and stale records, read-only, and deliberately stays out of the stage-accuracy question the pipeline evidence review already covers. Building this one surfaced two real errors in its own worked example (a wrong "more recently active" claim, an undercounted set of blank-contact rows), both caught by checking the review line by line against its own source data before scoring it, which is exactly the discipline worth repeating on a real export.
 - **An interactive setup prompt**: [templates/interactive-setup-prompt.md](templates/interactive-setup-prompt.md), a standalone, tool-agnostic asset that interviews the user question by question in a fresh conversation and writes the finished, tailored setup prompt for them, as an alternative to filling in the About Me Worksheet by hand.
@@ -292,18 +293,7 @@ These states must remain configurable and should not be treated as universal sal
 
 #### Weekly sales operating review
 
-Create a report from whatever approved data is available, while clearly marking missing sections.
-
-Potential sections include:
-
-- pipeline movement;
-- meetings and commitments;
-- outreach activity;
-- new signals;
-- items needing attention;
-- three evidence-backed priorities for the next week.
-
-Never fabricate a metric to complete a dashboard. Compare with earlier reports only when a genuine baseline exists.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/10-weekly-operating-review.md).
 
 #### Objection pattern review
 
