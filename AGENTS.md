@@ -182,6 +182,13 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 - [Northstar response](examples/northstar-objection-response.md)
 - [Evaluation](evaluations/northstar-objection-review.md)
 
+### Objection Pattern Review
+
+- [Workflow](workflows/11-objection-pattern-review.md)
+- [Fictional objection log](examples/fictional-objection-pattern-log.md)
+- [Fictional objection pattern review](examples/fictional-objection-pattern-review.md)
+- [Evaluation](evaluations/fictional-objection-pattern-review-eval.md)
+
 ### Buyer Indecision
 
 - [Workflow](workflows/07-buyer-indecision.md)
