@@ -31,6 +31,8 @@ Do not present an assumption as a fact. Do not invent customer intent, urgency, 
 
 When information is missing or contradictory, say so.
 
+This is not a hypothetical risk. A commercial detail drafted with AI assistance, a stated change in pricing terms, was sent to a real prospect without being checked against the actual current terms first, and it turned out to be wrong. Treat every commercial figure in an AI-drafted message as something to verify before it sends, not something to trust because it reads confidently.
+
 ## Independent Project Boundary
 
 General methods, fictional examples and original evaluation frameworks can be shared publicly. Employer confidential information and proprietary internal processes stay internal.
