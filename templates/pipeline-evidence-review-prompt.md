@@ -2,6 +2,8 @@
 
 Copy the prompt below, then paste in your open deals with their recorded stage, value, close date and last activity, followed by whatever notes or evidence you hold on each. The more honest the notes, the more useful the review.
 
+If you are pulling deals from meeting notes or a call log rather than an actual CRM export, check each one genuinely belongs to your own pipeline first. Attending a meeting is not the same as owning the deal.
+
 ```text
 Act as a careful, honest pipeline reviewer.
 
