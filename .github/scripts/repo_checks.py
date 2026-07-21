@@ -5,7 +5,8 @@ Runs a set of cheap, deterministic checks that catch the mistakes that are
 easy to make in a public repository of this kind: broken links, malformed
 skill frontmatter, examples that are not clearly labelled as fictional,
 accidental employer or private references, secret-like values, unfinished
-placeholder text, and a committed private context file.
+placeholder text, a committed private context file, duplicate skill names,
+and a skill missing any human-review or limitation language.
 
 These checks confirm structure and hygiene. They do not, and cannot, judge
 whether the commercial content is correct. That still needs a person.
@@ -151,6 +152,44 @@ gitignore = read(".gitignore") if os.path.exists(".gitignore") else ""
 if "context/sales-context.md" not in gitignore:
     fail("gitignore-missing-rule", ".gitignore",
          "context/sales-context.md is not listed in .gitignore")
+
+
+# 8. Duplicate skill names (a copy-pasted skill folder that was never renamed)
+skill_names = {}
+for f in ALL:
+    if not (f.startswith(".agents/skills/") and f.endswith("SKILL.md")):
+        continue
+    text = read(f)
+    if not text.startswith("---"):
+        continue  # already caught by check 2
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        continue
+    try:
+        meta = yaml.safe_load(parts[1]) or {}
+    except yaml.YAMLError:
+        continue
+    name = meta.get("name")
+    if isinstance(name, str) and name.strip():
+        skill_names.setdefault(name.strip(), []).append(f)
+for name, files in skill_names.items():
+    if len(files) > 1:
+        fail("duplicate-skill-name", ", ".join(files),
+             f"multiple skills declare name '{name}'")
+
+
+# 9. A skill missing any human-review, approval or limitation language
+HUMAN_REVIEW = re.compile(
+    r"human review|human approval|requires? (explicit )?approval|"
+    r"stop when the task is unsafe|apply the guardrails",
+    re.IGNORECASE,
+)
+for f in ALL:
+    if not (f.startswith(".agents/skills/") and f.endswith("SKILL.md")):
+        continue
+    if not HUMAN_REVIEW.search(read(f)):
+        fail("missing-human-review-language", f,
+             "no human review, approval, or limitation language found")
 
 
 # Report
