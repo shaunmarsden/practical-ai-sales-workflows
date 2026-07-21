@@ -43,11 +43,15 @@ flowchart TB
 <details>
 <summary><strong>See the full method</strong></summary>
 
-### 1. Separate the Record from the Evidence
+### 1. Confirm the Deal Is Actually Yours to Review
+
+Before analysing anything, check that each record genuinely belongs in your own pipeline. If the source is meeting notes or a call log rather than a proper CRM export, attending a meeting is not the same thing as owning the deal; a colleague's account can show up in your notes without ever being yours to act on. Drop anything you are not actually responsible for before it is treated as a gap in your own pipeline.
+
+### 2. Separate the Record from the Evidence
 
 The recorded stage is a claim, not a fact. Start by holding the CRM fields and the actual evidence apart, so you can see where they agree and where they have drifted. A deal is only as advanced as the evidence supports, not as advanced as the stage says.
 
-### 2. Check Each Field Against What You Hold
+### 3. Check Each Field Against What You Hold
 
 For every deal, ask whether the evidence actually supports the recorded stage, the close date, the named stakeholder and the next step. Common gaps:
 
@@ -57,15 +61,15 @@ For every deal, ask whether the evidence actually supports the recorded stage, t
 - A next step that is blank, stale, or impossible as written.
 - An action recorded as progress, such as "Proposal Sent", when the real state is silence.
 
-### 3. Name a Working State From the Evidence
+### 4. Name a Working State From the Evidence
 
 Separate from the recorded stage, say what state the evidence actually supports. Useful working states include exploring, qualification incomplete, problem confirmed, value case incomplete, stakeholder approval required, decision process unclear, paused with a dated reason, lost, or disqualified. These are a way to describe reality, not a replacement set of official stages, and they should match whatever your own CRM allows.
 
-### 4. Flag, Do Not Change
+### 5. Flag, Do Not Change
 
 The review is read-only. For each gap, say what to confirm and suggest a change, but leave the actual CRM edit to a person. Never treat the recorded stage as evidence, never accuse the salesperson, and never invent a reason, date or contact where the evidence only supports an unknown.
 
-### 5. Call the Healthy Deals Healthy
+### 6. Call the Healthy Deals Healthy
 
 A review that manufactures a problem on a sound deal will not be trusted on the deals that genuinely have one. Where the recorded fields match the evidence, say so plainly.
 
@@ -73,6 +77,7 @@ A review that manufactures a problem on a sound deal will not be trusted on the 
 
 ## ✅ Check Before You Update Anything
 
+- Does every record actually belong in your own pipeline, rather than showing up because you attended a meeting on someone else's account?
 - Is each recorded field judged against actual evidence, not against how the deal feels?
 - Are confirmed facts, inferences and unknowns kept separate, especially where a stakeholder change is only inferred?
 - Have overdue or unsupported close dates been flagged, since they quietly distort any pipeline total?
