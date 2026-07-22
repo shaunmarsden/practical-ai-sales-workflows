@@ -241,6 +241,25 @@ Record when a custom instruction was used. Do not hide the instruction that prod
 
 **Shipped**, see [Done Recently](#done-recently) above for the [prompt](templates/pre-call-objection-roleplay-prompt.md). The fuller practice environment described below under Learning tools and future interfaces remains unbuilt.
 
+#### Outbound campaign learning review
+
+Review an outbound campaign without treating reply rate as the result or changing several things at once and guessing what made the difference.
+
+The review should record:
+
+- the audience and why it was selected;
+- the signal or data source used;
+- the front-end offer, message and call to action;
+- the single variable being tested and what stayed the same;
+- messages delivered, total replies and positive replies;
+- meetings booked, meetings attended and qualified opportunities;
+- anything that makes the comparison uncertain;
+- what to keep, stop or test next.
+
+Do not present one campaign, a fixed sample size or somebody else's benchmark as proof of what should work everywhere. Compare like with like, mark small or mixed samples as inconclusive, and change one meaningful variable at a time where practical.
+
+Before building this as a full workflow, use the structure on a real campaign and check whether it leads to a better next test rather than merely producing a tidy report.
+
 #### Signal-to-hypothesis outbound
 
 Turn public company signals into clearly labelled commercial hypotheses:
