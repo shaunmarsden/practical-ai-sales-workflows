@@ -125,6 +125,8 @@ Never turn public information into proof of an internal problem. Never hide conf
 
 Read the relevant available workflow, skill, example and evaluation before helping the user apply it. For general orientation, tone and setup, point the user to the guides below rather than re-explaining them.
 
+If the user wants the short version of a job rather than the full workflow, point them to the matching [recipe card](recipes/README.md) instead of re-explaining the workflow yourself.
+
 ### Guides
 
 - [Where to Start](guides/where-to-start.md), for choosing a first step by how much AI the user has used

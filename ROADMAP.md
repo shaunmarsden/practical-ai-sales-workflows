@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Workflow recipe cards**: a [one-page card](recipes/README.md) per sales job, thirteen in total, each self-contained (what it helps with, what you need, what it produces, what the AI cannot decide, what you must check, what to do next) so a reader never has to open the full workflow to use one. Built from what already existed in each workflow's At a Glance table and check-before-you-send list, not new content, and linked from the main [README](README.md) and [AGENTS.md](AGENTS.md) alongside the existing routes rather than replacing them.
+
 - **Two more real usability tests, both earned real fixes.** Post-call follow-up was run against a real call and checked against the email actually sent afterwards: the sent version was genuinely richer than the draft in places a generic template could not reach, which led to two fixes now in [the draft-follow-up-email skill](.agents/skills/draft-follow-up-email/references/template-and-checklist.md). A chase-sequence test on a real, stalled deal turned up a sharper problem: Granola and Gmail alone showed a plausible stall, but the CRM's own activity timeline recorded an explicit decline and a since-corrected stage, something neither notes nor email ever surfaced. Nothing was sent on that deal. The general lesson, that meeting notes and email are not a substitute for the CRM and the CRM is not a substitute for them, is now a standing rule in [METHODOLOGY.md](METHODOLOGY.md).
 
 - **The first real usability tests are done, and both found something real.** Objection handling was run on a live objection: the diagnosis and response structure held up, but a commercial figure the draft treated as confirmed, because it came from an earlier real email, turned out to be wrong; that fix is now in [RESPONSIBLE-USE.md](RESPONSIBLE-USE.md). Pipeline evidence review was run on a real, meeting-notes-derived pipeline: 5 of 7 deals were accurate as flagged, 1 was correctly flagged as unconfirmed and has since resolved on its own (the review working as intended, not a miss), and 1 was a genuine error, a deal included that was not actually the reviewer's to manage, now fixed with a new ownership check in [the workflow](workflows/06-pipeline-evidence-review.md). Both fixes were earned from real use, not invented.
@@ -337,19 +339,7 @@ As the skill library grows, explain how to install or load only the skills neede
 
 #### Workflow recipe cards
 
-Create short routes into existing workflows for users who want to complete one job without reading the whole repository.
-
-Each recipe should include:
-
-- what the recipe helps with;
-- what information is needed;
-- what it will produce;
-- which guide, prompt or skill to open;
-- what the AI cannot decide;
-- what a person must check;
-- what to do next.
-
-Do not publish unsupported time-saved claims. Point to the [time and quality log](templates/time-and-quality-log.md), already built, rather than inventing a second way to record the same thing.
+**Shipped**, see [Done Recently](#done-recently) above for the [recipe cards](recipes/README.md).
 
 #### Downloadable cross-platform skill packages
 
