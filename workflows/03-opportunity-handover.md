@@ -24,8 +24,8 @@ flowchart TB
 ## 🚀 Start Here
 
 - [Use the Opportunity Handover prompt](../templates/opportunity-handover-prompt.md)
-- [See the completed Northstar handover](../examples/northstar-opportunity-handover.md)
-- [Read the honest review](../evaluations/northstar-opportunity-handover-review.md)
+- [See the completed Hartwell handover](../examples/hartwell-opportunity-handover.md)
+- [Read the honest review](../evaluations/hartwell-opportunity-handover-review.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

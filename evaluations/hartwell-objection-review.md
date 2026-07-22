@@ -1,6 +1,6 @@
-# Northstar Objection Review
+# Hartwell Objection Review
 
-This review scores the [worked response](../examples/northstar-objection-response.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
+This review scores the [worked response](../examples/hartwell-objection-response.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
 ## Result
 

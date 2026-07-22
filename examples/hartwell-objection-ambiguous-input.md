@@ -1,10 +1,10 @@
-# Fictional Objection: Northstar Analytics (Ambiguous)
+# Fictional Objection: Hartwell Analytics (Ambiguous)
 
-> This scenario is entirely fictional and continues the [Northstar Analytics business case story](northstar-business-case-transcript.md). Unlike the [clean objection example](northstar-objection-input.md), this one is deliberately ambiguous: the real driver is *not* cleanly resolvable from the context. It exists to stress-test whether the objection-handling workflow diagnoses consistently under genuine uncertainty, run several times per model using the [test run template](../evaluations/test-run-template.md).
+> This scenario is entirely fictional and continues the [Hartwell Analytics business case story](hartwell-business-case-transcript.md). Unlike the [clean objection example](hartwell-objection-input.md), this one is deliberately ambiguous: the real driver is *not* cleanly resolvable from the context. It exists to stress-test whether the objection-handling workflow diagnoses consistently under genuine uncertainty, run several times per model using the [test run template](../evaluations/test-run-template.md).
 
 ## Where This Sits in the Story
 
-The pilot succeeded (a measured drop from around twenty-five minutes to under ten minutes of post-call admin per account executive). Priya Chen, Northstar's Sales Director, took the business case into the quarterly business review. A week after the QBR, Shaun follows up to ask how it went. This is her reply.
+The pilot succeeded (a measured drop from around twenty-five minutes to under ten minutes of post-call admin per account executive). Priya Chen, Hartwell's Sales Director, took the business case into the quarterly business review. A week after the QBR, Shaun follows up to ask how it went. This is her reply.
 
 ## The Objection, As Stated
 

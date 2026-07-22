@@ -1,6 +1,6 @@
-# Northstar Post Call Review
+# Hartwell Post Call Review
 
-This review scores the [worked output](../examples/northstar-post-call-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
+This review scores the [worked output](../examples/hartwell-post-call-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
 ## Result
 

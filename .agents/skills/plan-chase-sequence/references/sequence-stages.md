@@ -47,6 +47,6 @@ Purpose: acknowledge the unanswered sequence directly and close it cleanly.
 ## What a strong anchor looks like
 
 Weak: "Just checking if you'd had a chance to review what I sent."
-Strong, using the [Northstar Analytics scenario](../../../../examples/northstar-post-call-transcript.md): "You mentioned the team spends fifteen to thirty minutes after every call on notes and CRM updates. That estimate is exactly what a first test would help you measure properly."
+Strong, using the [Hartwell Analytics scenario](../../../../examples/hartwell-post-call-transcript.md): "You mentioned the team spends fifteen to thirty minutes after every call on notes and CRM updates. That estimate is exactly what a first test would help you measure properly."
 
 The anchor should be specific enough that it could not be dropped unchanged into a different prospect's message. If it could, go back to the call and find something more specific.

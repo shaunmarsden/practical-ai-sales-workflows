@@ -61,4 +61,4 @@ Flag the gap and say what is needed before a confident answer can be given, rath
 
 This drafts the response and proposes the pipeline decision. Sending a message, and any resulting stage change, stays subject to explicit human approval.
 
-Read [the Northstar example](references/northstar-example.md) for a fictional test.
+Read [the Hartwell example](references/hartwell-example.md) for a fictional test.

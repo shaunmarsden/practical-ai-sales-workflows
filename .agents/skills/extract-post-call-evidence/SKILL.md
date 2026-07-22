@@ -86,4 +86,4 @@ Explain the limitation and request only the minimum additional information neede
 
 End with the points a salesperson must check before using the output. Keep emails, CRM changes, meeting bookings and other external actions subject to explicit human approval.
 
-For a fictional test, read [the Northstar example](references/northstar-example.md).
+For a fictional test, read [the Hartwell example](references/hartwell-example.md).

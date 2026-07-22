@@ -1,10 +1,10 @@
-# Fictional Objection: Northstar Analytics
+# Fictional Objection: Hartwell Analytics
 
-> This scenario is entirely fictional and continues the [Northstar Analytics business case story](northstar-business-case-transcript.md). It was created to test the Objection Handling workflow on an objection whose surface wording points one way and whose real driver points another.
+> This scenario is entirely fictional and continues the [Hartwell Analytics business case story](hartwell-business-case-transcript.md). It was created to test the Objection Handling workflow on an objection whose surface wording points one way and whose real driver points another.
 
 ## Where This Sits in the Story
 
-The pilot succeeded, with a measured drop from around twenty-five minutes to under ten minutes of post-call admin per account executive (see the [business case output](northstar-business-case-output.md)). Priya Chen, Northstar's Sales Director, requested a full business case ahead of the quarterly business review. She has now read it and replied by email.
+The pilot succeeded, with a measured drop from around twenty-five minutes to under ten minutes of post-call admin per account executive (see the [business case output](hartwell-business-case-output.md)). Priya Chen, Hartwell's Sales Director, requested a full business case ahead of the quarterly business review. She has now read it and replied by email.
 
 ## The Objection, As Stated
 

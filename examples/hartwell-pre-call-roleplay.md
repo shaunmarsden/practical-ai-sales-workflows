@@ -1,10 +1,10 @@
-# Fictional Example: Northstar Pre-Call Roleplay
+# Fictional Example: Hartwell Pre-Call Roleplay
 
-> This is a short, illustrative roleplay exchange, created to show what the [pre-call objection roleplay prompt](../templates/pre-call-objection-roleplay-prompt.md) actually produces. It uses only the confirmed context and assumptions already established in the [Northstar pre-call example](northstar-pre-call.md), and pushes back along the "hypothesis is wrong or not a priority" path that card already anticipated.
+> This is a short, illustrative roleplay exchange, created to show what the [pre-call objection roleplay prompt](../templates/pre-call-objection-roleplay-prompt.md) actually produces. It uses only the confirmed context and assumptions already established in the [Hartwell pre-call example](hartwell-pre-call.md), and pushes back along the "hypothesis is wrong or not a priority" path that card already anticipated.
 
 ## What Was Given to the Roleplay
 
-Only the confirmed context, assumptions and opening already in the Northstar pre-call card: Alex Morgan, Head of Revenue Operations, reviewing how information moves between calls, email and the CRM; the admin-time hypothesis is explicitly labelled an assumption to test, not a confirmed fact.
+Only the confirmed context, assumptions and opening already in the Hartwell pre-call card: Alex Morgan, Head of Revenue Operations, reviewing how information moves between calls, email and the CRM; the admin-time hypothesis is explicitly labelled an assumption to test, not a confirmed fact.
 
 ## The Exchange
 

@@ -57,4 +57,4 @@ Say so and name exactly what evidence would resolve the uncertainty, rather than
 
 This produces an analysis and a recommendation. Updating the CRM stage, setting a follow-up reminder, and any actual re-approach stay subject to explicit human decision.
 
-Read [the Northstar example](references/northstar-example.md) for a fictional test.
+Read [the Hartwell example](references/hartwell-example.md) for a fictional test.

@@ -1,14 +1,14 @@
-# Northstar Business Case Output
+# Hartwell Business Case Output
 
-> This is a worked business case created from the fictional [pilot review transcript](northstar-business-case-transcript.md) and the earlier [post-call transcript](northstar-post-call-transcript.md). It is written for Priya Chen, Northstar's Sales Director, who was not on either call. Nothing has been sent or approved.
+> This is a worked business case created from the fictional [pilot review transcript](hartwell-business-case-transcript.md) and the earlier [post-call transcript](hartwell-post-call-transcript.md). It is written for Priya Chen, Hartwell's Sales Director, who was not on either call. Nothing has been sent or approved.
 
 ---
 
-## Consistent Post-Call Follow-Up for Northstar Analytics' Account Executive Team
+## Consistent Post-Call Follow-Up for Hartwell Analytics' Account Executive Team
 
 ### Overview
 
-Northstar Analytics' eight account executives currently handle call notes, follow up and CRM updates inconsistently. CRM records can lag a call by a day or two, which reduces same-day visibility and makes the team's Monday pipeline meeting harder to run. A two-week pilot with three account executives tested a consistent process for turning call notes into a summary, an action list, a follow up draft and suggested CRM updates, with every output reviewed by the rep before anything is sent or saved.
+Hartwell Analytics' eight account executives currently handle call notes, follow up and CRM updates inconsistently. CRM records can lag a call by a day or two, which reduces same-day visibility and makes the team's Monday pipeline meeting harder to run. A two-week pilot with three account executives tested a consistent process for turning call notes into a summary, an action list, a follow up draft and suggested CRM updates, with every output reviewed by the rep before anything is sent or saved.
 
 ### The Pilot Result
 
@@ -30,7 +30,7 @@ The eight-seat team plan is £45 per seat per month, billed annually, for a tota
 
 ### Data and Compliance
 
-Call recordings and transcripts processed through this workflow are not stored or used to train any model beyond Northstar's own workspace. Written confirmation of this from the compliance team has been requested and is in progress; it has not yet been received; and it should be treated as outstanding until Northstar's IT lead has it in hand, not assumed to be already resolved.
+Call recordings and transcripts processed through this workflow are not stored or used to train any model beyond Hartwell's own workspace. Written confirmation of this from the compliance team has been requested and is in progress; it has not yet been received; and it should be treated as outstanding until Hartwell's IT lead has it in hand, not assumed to be already resolved.
 
 ### Time Commitment
 
