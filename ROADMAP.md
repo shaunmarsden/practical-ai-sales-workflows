@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Chase sequence follow-up structure**: the [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md) and its [sequence stages reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md) now state the shape across early, middle, late and final chases as an escalating-friction curve, not an escalating-urgency one: the earliest chase can carry the real ask, later ones ask for something smaller. Each chase should also stand alone rather than assume the earlier ones were read. A new rule against reminding a quiet prospect that previous messages were sent is scoped carefully to exclude the close-out stage, whose entire job is to acknowledge the sequence honestly, so the new rule does not quietly contradict guidance already there.
+
 - **Outbound message structure refinements are complete**: the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md) state the front-end-offer distinction explicitly, add a subject-line and preview-text rule, and add two anti-pattern guardrail lines against manufactured interest and invented scarcity. Applied, not just written: the subject line in the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) was updated to actually follow the new rule, with the change noted in [its evaluation](evaluations/cedarwell-outbound-review.md), and a new [deliberately weak version of the same message](examples/cedarwell-outbound-weak-example.md) breaks every guardrail on purpose, annotated point by point, alongside the good one.
 
 - **Skill handoff contracts**: a new [guide](guides/skill-handoff-contracts.md) stating the six things that should pass between two skills run in sequence on the same call (what's confirmed, what's inferred or estimated, what's missing, which source backs each point, what the next skill may do with it, what still requires a person). Grounded in a real worked example rather than an abstract rule: the extract-post-call-evidence to draft-follow-up-email handoff, annotated against the existing fictional [Hartwell post-call output](examples/hartwell-post-call-output.md), which already had to get every one of these six things right to be a finished example. A documentation and discipline standard, not new automation; nothing here proposes piping one skill's output into the next without a person in between.
@@ -285,11 +287,7 @@ Both routes should include evidence checks before contact discovery or enrichmen
 
 #### Chase sequence follow-up structure
 
-A structural refinement to the existing [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md), for the case where chasing is actually the right call:
-
-- An escalating-friction shape across chases, not a repeated reminder: the first chase can carry the real ask; if that goes quiet, the next one drops to something easier to say yes to (a shorter question, a smaller offer), rather than repeating the same ask with more urgency.
-- Each chase should stand alone. A prospect who only ever sees the second or third message should not need to scroll up to make sense of it, and each one should add exactly one new thing, an answer to a likely objection, one further piece of evidence, rather than just restating the last message.
-- A specific rule worth testing: do not remind a quiet prospect that you have already emailed them ("I've sent a couple of notes but haven't heard back"). It reads as pressure about your own pipeline, not something for the prospect, and plausibly reduces the odds of a reply rather than raising them.
+**Shipped**, see [Done Recently](#done-recently) above for the [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md).
 
 #### Channel-escalation sequencing for a stalled chase
 
