@@ -16,10 +16,13 @@ I generally use this order:
 
 1. Direct statements from the customer
 2. Agreed actions, dates and commitments
-3. Current email and CRM records
-4. Internal notes
-5. Public information
-6. AI interpretation
+3. Current CRM records, including stage history, not just the current stage
+4. Current email correspondence
+5. Meeting notes or call transcripts
+6. Public information
+7. AI interpretation
+
+Meeting notes and email are not a substitute for the CRM, and the CRM is not a substitute for them. Each can hold something the others do not: a CRM's own stage history can carry an explicit decline or a stage that was corrected, neither of which necessarily shows up in a meeting summary; an email thread can carry the customer's own exact words, which a CRM property rarely does. When more than one of these systems exists for a deal, check all of them before concluding what state it is actually in. Working from only the easiest system to query, rather than every one that exists, is how a confidently wrong conclusion gets built.
 
 If two sources disagree, the output should show the disagreement. It should not quietly choose the most convenient version.
 
