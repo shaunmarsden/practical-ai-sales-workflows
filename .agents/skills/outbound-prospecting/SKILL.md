@@ -37,6 +37,10 @@ Structure:
 3. One sentence on what that offer is actually worth to them in business terms
 4. A single, low-friction next step, usually a short reply, not a calendar booking, unless a meeting-led approach has been deliberately chosen for this prospect
 
+The offer in the message is a front-end offer, not the actual paid engagement: small enough to produce quickly, and useful to the reader on its own even if nothing else follows. Never let the first message ask for the real engagement itself.
+
+Treat the subject line and preview text as their own step, not an afterthought. Keep it short, a few words, lowercase, and never naming the actual offer or mechanism, since a subject line that gives away the pitch measurably reduces opens. It should read like an internal message, not a marketing send. The preview text (the line a reader sees next to the subject before opening) carries nearly as much weight as the subject line itself, so the message's first line should hold up as preview text on its own.
+
 ## Handle the Reply
 
 - A reply, positive or otherwise, stops the cold sequence immediately. Do not send the next scheduled touch into a live reply.
@@ -49,6 +53,8 @@ Structure:
 - Never lead the first-touch message with a meeting ask unless that is a deliberate choice for this specific prospect.
 - Keep the message short. A first-touch message that reads like a pitch deck gets deleted, not replied to.
 - Never claim a capability, statistic, or outcome that has not actually been confirmed, even to make the hook sharper.
+- Never imply the reader is already interested, already expecting this message, or already partway into a decision when nothing confirms that.
+- Never invent scarcity, a deadline, or a limited number of slots that is not real.
 
 ## Stop When the Task Is Unsafe
 
