@@ -12,6 +12,10 @@ Claude was run in a brand new conversation, separate from the one used to build 
 
 ## Result
 
+![Bar chart comparing ChatGPT, Claude and Gemini's overall scores out of 50, and their score on each of the ten rubric criteria, for the same post-call follow-up run.](assets/cross-model-comparison.svg)
+
+The chart shows the same numbers as the tables below; it does not replace them.
+
 | Model | Score |
 | --- | ---: |
 | ChatGPT | 49 / 50 |
