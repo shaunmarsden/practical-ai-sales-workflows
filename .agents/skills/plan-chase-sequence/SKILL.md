@@ -49,12 +49,15 @@ Strong anchor: a direct reference to the specific problem or detail the prospect
 
 **Close-out**: acknowledge the sequence directly rather than pretending this is the first message. State what happens next as fact, not a threat. Leave the door open in one short sentence, with no invitation to "reach out anytime."
 
+The shape across early, middle, late and final is an escalating friction curve, not an escalating urgency one: the earliest chase can carry the real, direct ask, and each one after that should ask for something easier to say yes to, a shorter question, a smaller ask, rather than repeating the same ask with more insistence. Each message should also stand alone. A prospect who only ever sees the middle or late chase should not need to have read the earlier ones to make sense of it, and each one should add exactly one new thing, an answer to a likely objection, one further piece of evidence, rather than restating the last message in different words.
+
 ## Apply the Guardrails
 
 - No stage sends automatically because a timer elapsed; each stage restates the decision in "Decide the Next Move."
 - If the prospect replies at any point, drop the sequence and respond to what they actually said. Do not send a scheduled chase into a live conversation.
 - No em dashes, no emojis, no manufactured urgency.
 - Dates always with an ordinal suffix.
+- Do not remind the prospect, in the early, middle, late or final chase, that previous messages were already sent ("I've sent a couple of notes but haven't heard back"). It reads as pressure about your own pipeline, not something for the prospect, and plausibly reduces the odds of a reply rather than raising them. The close-out stage is the deliberate exception: acknowledging the full sequence honestly is exactly its job.
 
 ## Stop When the Task Is Unsafe
 
