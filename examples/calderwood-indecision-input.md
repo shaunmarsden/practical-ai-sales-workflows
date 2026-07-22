@@ -1,6 +1,6 @@
 # Fictional Buyer Indecision: Calderwood Group
 
-> This scenario is entirely fictional, created to test the Buyer Indecision workflow. Calderwood Group, Tom Whitfield and every date and figure are invented. It is a fresh account, not part of the Northstar story, because it needs a late-stage deal where the buyer wants to proceed but keeps delaying.
+> This scenario is entirely fictional, created to test the Buyer Indecision workflow. Calderwood Group, Tom Whitfield and every date and figure are invented. It is a fresh account, not part of the Hartwell story, because it needs a late-stage deal where the buyer wants to proceed but keeps delaying.
 
 ## Where This Sits
 

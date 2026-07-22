@@ -6,7 +6,7 @@
 
 | Issue type | Records | Count |
 | --- | --- | --- |
-| Likely exact duplicate | Rows 1, 2 (Northstar Analytics) | 2 |
+| Likely exact duplicate | Rows 1, 2 (Hartwell Analytics) | 2 |
 | Possible duplicate, needs a human check | Rows 10, 11 (Fenmoor / Fenmore Retail Solutions) | 2 |
 | Missing value, stage, close date or last activity | Rows 8, 14 | 2 |
 | Blank contact field | Rows 3, 9, 10, 11 | 4 |
@@ -21,7 +21,7 @@ Some records appear in more than one row above; Row 9, for example, is both stal
 
 ## Likely Exact Duplicate
 
-**Rows 1 and 2, Northstar Analytics / Northstar Analytics Ltd.** Same contact, Priya Chen, at what reads as the same company with a suffix added. Different owners, stages and values suggest this was entered twice rather than updated once, most likely a marketing-sourced lead re-entered without checking for an existing record.
+**Rows 1 and 2, Hartwell Analytics / Hartwell Analytics Ltd.** Same contact, Priya Chen, at what reads as the same company with a suffix added. Different owners, stages and values suggest this was entered twice rather than updated once, most likely a marketing-sourced lead re-entered without checking for an existing record.
 
 - **Confidence:** high. Same named contact at what is very likely the same company is a strong signal.
 - **Suggested action:** merge, with Shaun's row kept as the primary since it is the more advanced of the two (Negotiation versus Qualification), though Marcus Webb's row is the more recently active and should be checked for anything worth carrying over, such as a newer contact detail, before it is archived. A person should confirm this is genuinely one company before merging.
@@ -55,7 +55,7 @@ Some records appear in more than one row above; Row 9, for example, is both stal
 
 ## Close Dates Already Passed
 
-Rows 1 (Northstar) and 4 (Meridian) carry a close date that has already passed. Row 7 (Calderwood)'s close date, 15 August, has also passed. This review flags the date itself as unsupported. It does not attempt to diagnose why each deal has not closed, whether it is paused, blocked, or simply overdue for an update; that is what the [pipeline evidence review](../workflows/06-pipeline-evidence-review.md) is for, and two of these three deals are examined there in detail.
+Rows 1 (Hartwell) and 4 (Meridian) carry a close date that has already passed. Row 7 (Calderwood)'s close date, 15 August, has also passed. This review flags the date itself as unsupported. It does not attempt to diagnose why each deal has not closed, whether it is paused, blocked, or simply overdue for an update; that is what the [pipeline evidence review](../workflows/06-pipeline-evidence-review.md) is for, and two of these three deals are examined there in detail.
 
 Row 5 (Harbourview)'s recorded close date, 20 October, has not actually passed yet. Its issue is different: the only known contact appears to have left the company, which the recorded stage and next step both still depend on. See the "Missing Critical Fields" section above and the [pipeline evidence review](../workflows/06-pipeline-evidence-review.md) for that finding.
 

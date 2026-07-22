@@ -1,13 +1,13 @@
-# Fictional Call Transcript: Northstar Analytics Pilot Review
+# Fictional Call Transcript: Hartwell Analytics Pilot Review
 
-> This transcript is entirely fictional and continues the [Northstar Analytics story](northstar-post-call-transcript.md). It was created to test the Build a Business Case skill on a later-stage call, once there is enough commercial detail for a real business case.
+> This transcript is entirely fictional and continues the [Hartwell Analytics story](hartwell-post-call-transcript.md). It was created to test the Build a Business Case skill on a later-stage call, once there is enough commercial detail for a real business case.
 
 ## Call Details
 
 - **Salesperson:** Shaun
 - **Contact:** Alex Morgan
 - **Role:** Head of Revenue Operations
-- **Company:** Northstar Analytics
+- **Company:** Hartwell Analytics
 - **Meeting purpose:** Review the two-week pilot and agree what Alex needs to take the rollout to Priya Chen, the Sales Director, for budget approval
 - **Call length:** 22 minutes
 

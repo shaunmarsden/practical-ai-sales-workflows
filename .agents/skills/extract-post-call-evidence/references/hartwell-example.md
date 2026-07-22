@@ -1,6 +1,6 @@
-# Northstar Example
+# Hartwell Example
 
-Use the fictional [Northstar transcript](../../../../examples/northstar-post-call-transcript.md) to test the skill.
+Use the fictional [Hartwell transcript](../../../../examples/hartwell-post-call-transcript.md) to test the skill.
 
 ## Task
 
@@ -20,7 +20,7 @@ Extract a reliable evidence pack that could support a follow up email and sugges
 
 ### Confirmed
 
-- Northstar uses HubSpot.
+- Hartwell uses HubSpot.
 - The team has eight account executives.
 - Alex wants a consistent summary, action list and follow up draft.
 - Alex does not want emails sent automatically.
@@ -46,7 +46,7 @@ Extract a reliable evidence pack that could support a follow up email and sugges
 - A review meeting has been booked.
 - Alex has unconditional approval to share the transcript.
 - Priya is part of the first test.
-- Northstar has committed to buy or implement anything.
+- Hartwell has committed to buy or implement anything.
 - The estimated administration time is measured evidence.
 
-Compare a full result with the existing [worked output](../../../../examples/northstar-post-call-output.md) and score it using the [sales AI output rubric](../../../../evaluations/sales-ai-output-rubric.md).
+Compare a full result with the existing [worked output](../../../../examples/hartwell-post-call-output.md) and score it using the [sales AI output rubric](../../../../evaluations/sales-ai-output-rubric.md).

@@ -1,6 +1,6 @@
-# Northstar Business Case Review
+# Hartwell Business Case Review
 
-This review scores the [worked business case](../examples/northstar-business-case-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
+This review scores the [worked business case](../examples/hartwell-business-case-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
 ## Result
 

@@ -28,7 +28,7 @@ Keep the welcome short. Offer these four routes before giving a long explanation
 2. **Set up my sales context**
    Help the user create a private `context/sales-context.md` from the supplied example.
 3. **Try a fictional example**
-   Recommend an existing Northstar example and explain what to inspect.
+   Recommend an existing Hartwell example and explain what to inspect.
 4. **Solve a sales problem**
    Ask what job the user needs help with, then route them to the relevant existing workflow or skill.
 
@@ -146,26 +146,26 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 ### Pre Call Preparation
 
 - [Workflow](workflows/01-pre-call-preparation.md)
-- [Northstar example](examples/northstar-pre-call.md)
+- [Hartwell example](examples/hartwell-pre-call.md)
 - [Template](templates/pre-call-card.md)
 - [Objection roleplay prompt](templates/pre-call-objection-roleplay-prompt.md), optional practice once the card is done
-- [Northstar roleplay example](examples/northstar-pre-call-roleplay.md)
+- [Hartwell roleplay example](examples/hartwell-pre-call-roleplay.md)
 
 ### Post Call Evidence and Follow Up
 
 - [Workflow](workflows/02-post-call-follow-up.md)
 - [Extract Post Call Evidence](.agents/skills/extract-post-call-evidence/SKILL.md)
 - [Draft Follow Up Email](.agents/skills/draft-follow-up-email/SKILL.md)
-- [Northstar transcript](examples/northstar-post-call-transcript.md)
-- [Northstar output](examples/northstar-post-call-output.md)
-- [Evaluation](evaluations/northstar-post-call-review.md)
+- [Hartwell transcript](examples/hartwell-post-call-transcript.md)
+- [Hartwell output](examples/hartwell-post-call-output.md)
+- [Evaluation](evaluations/hartwell-post-call-review.md)
 
 ### Business Cases
 
 - [Build Business Case](.agents/skills/build-business-case/SKILL.md)
-- [Northstar transcript](examples/northstar-business-case-transcript.md)
-- [Northstar output](examples/northstar-business-case-output.md)
-- [Northstar evaluation](evaluations/northstar-business-case-review.md)
+- [Hartwell transcript](examples/hartwell-business-case-transcript.md)
+- [Hartwell output](examples/hartwell-business-case-output.md)
+- [Hartwell evaluation](evaluations/hartwell-business-case-review.md)
 - [Bramfield transcript](examples/bramfield-business-case-transcript.md), a second test with conditional multi-year pricing and a Finance Director reader
 - [Bramfield output](examples/bramfield-business-case-output.md)
 - [Bramfield evaluation](evaluations/bramfield-business-case-review.md)
@@ -178,9 +178,9 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 
 - [Workflow](workflows/05-objection-handling.md)
 - [Respond to an Objection](.agents/skills/objection-response/SKILL.md)
-- [Northstar input](examples/northstar-objection-input.md)
-- [Northstar response](examples/northstar-objection-response.md)
-- [Evaluation](evaluations/northstar-objection-review.md)
+- [Hartwell input](examples/hartwell-objection-input.md)
+- [Hartwell response](examples/hartwell-objection-response.md)
+- [Evaluation](evaluations/hartwell-objection-review.md)
 
 ### Objection Pattern Review
 
@@ -200,16 +200,16 @@ Read the relevant available workflow, skill, example and evaluation before helpi
 ### Opportunity Handover
 
 - [Workflow](workflows/03-opportunity-handover.md)
-- [Northstar handover](examples/northstar-opportunity-handover.md)
-- [Evaluation](evaluations/northstar-opportunity-handover-review.md)
+- [Hartwell handover](examples/hartwell-opportunity-handover.md)
+- [Evaluation](evaluations/hartwell-opportunity-handover-review.md)
 
 ### Lost Opportunity Review
 
 - [Workflow](workflows/04-lost-opportunity-review.md)
 - [Review a Lost Opportunity](.agents/skills/review-lost-opportunity/SKILL.md)
-- [Northstar evidence](examples/northstar-lost-opportunity-evidence.md)
-- [Northstar analysis](examples/northstar-lost-opportunity-analysis.md)
-- [Evaluation](evaluations/northstar-lost-opportunity-review.md)
+- [Hartwell evidence](examples/hartwell-lost-opportunity-evidence.md)
+- [Hartwell analysis](examples/hartwell-lost-opportunity-analysis.md)
+- [Evaluation](evaluations/hartwell-lost-opportunity-review.md)
 
 ### Pipeline Evidence Review
 

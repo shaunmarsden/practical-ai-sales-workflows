@@ -41,7 +41,7 @@ You have used AI for the odd email or quick question, but have not built anythin
 
 1. [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md) — the single biggest jump from generic answers to useful ones is standing context, not a cleverer one-off prompt
 2. [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) — the idea of turning a one-off prompt into something repeatable
-3. [Follow Up After a Sales Call](../workflows/02-post-call-follow-up.md) and its [worked example](../examples/northstar-post-call-output.md) — see the quality bar before trying it on your own work
+3. [Follow Up After a Sales Call](../workflows/02-post-call-follow-up.md) and its [worked example](../examples/hartwell-post-call-output.md) — see the quality bar before trying it on your own work
 
 ### 🌳 Used It a Lot
 

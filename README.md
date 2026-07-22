@@ -20,7 +20,7 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 **🎯 Know the sales problem you want help with?** Jump straight to [Choose a Sales Problem](#-choose-a-sales-problem) below and pick from prospecting, call prep, follow-up, business case, chasing, objections, handover, or a lost-opportunity review.
 
-**🧪 Want to see it work before you read anything else?** [Watch a skill actually work &rarr;](https://shaunmarsden.github.io/practical-ai-sales-workflows/). It shows the fictional Northstar transcript turning into evidence-labelled output, live, with every line traced back to where it came from. Then check the [honest scores](evaluations/sales-ai-output-rubric.md) and the [cross-model comparison](evaluations/cross-model-post-call-comparison.md) rather than taking the demo's word for it.
+**🧪 Want to see it work before you read anything else?** [Watch a skill actually work &rarr;](https://shaunmarsden.github.io/practical-ai-sales-workflows/). It shows the fictional Hartwell transcript turning into evidence-labelled output, live, with every line traced back to where it came from. Then check the [honest scores](evaluations/sales-ai-output-rubric.md) and the [cross-model comparison](evaluations/cross-model-post-call-comparison.md) rather than taking the demo's word for it.
 
 Once a single setup prompt stops being enough on its own, [Get More From Your AI](guides/get-more-from-your-ai.md) covers projects and knowledge bases, turning repeated prompts into skills, and connecting real tools like a CRM or a transcription app.
 
@@ -38,15 +38,15 @@ Pick a target and draft a first-touch message worth a reply, without a generic h
 
 Pull scattered information into one short call card that you can scan during the conversation.
 
-**Start here:** [Open the workflow](workflows/01-pre-call-preparation.md) · [See the Northstar example](examples/northstar-pre-call.md) · [Use the card template](templates/pre-call-card.md)
+**Start here:** [Open the workflow](workflows/01-pre-call-preparation.md) · [See the Hartwell example](examples/hartwell-pre-call.md) · [Use the card template](templates/pre-call-card.md)
 
-**Optional practice:** [Roleplay pushback before the call](templates/pre-call-objection-roleplay-prompt.md) · [See what it produces](examples/northstar-pre-call-roleplay.md)
+**Optional practice:** [Roleplay pushback before the call](templates/pre-call-objection-roleplay-prompt.md) · [See what it produces](examples/hartwell-pre-call-roleplay.md)
 
 ### ✉️ Follow Up After a Sales Call
 
 Turn a transcript or clear notes into a summary, actions, email draft and CRM suggestions without inventing momentum.
 
-**Start here:** [Open the workflow](workflows/02-post-call-follow-up.md) · [See the finished output](examples/northstar-post-call-output.md) · [Use the prompt](templates/post-call-follow-up-prompt.md)
+**Start here:** [Open the workflow](workflows/02-post-call-follow-up.md) · [See the finished output](examples/hartwell-post-call-output.md) · [Use the prompt](templates/post-call-follow-up-prompt.md)
 
 **Use with AI:** [Learn what a sales AI skill is](guides/what-is-a-sales-ai-skill.md) · [Extract evidence from the call](.agents/skills/extract-post-call-evidence/SKILL.md) · [Draft the follow-up email](.agents/skills/draft-follow-up-email/SKILL.md)
 
@@ -54,7 +54,7 @@ Turn a transcript or clear notes into a summary, actions, email draft and CRM su
 
 Turn call evidence into a tailored business case for the person who was not on the call.
 
-**Start here:** [See the Northstar transcript](examples/northstar-business-case-transcript.md) · [See the finished business case](examples/northstar-business-case-output.md) · [Read the honest review](evaluations/northstar-business-case-review.md)
+**Start here:** [See the Hartwell transcript](examples/hartwell-business-case-transcript.md) · [See the finished business case](examples/hartwell-business-case-output.md) · [Read the honest review](evaluations/hartwell-business-case-review.md)
 
 **A second, different test:** [See the Bramfield transcript](examples/bramfield-business-case-transcript.md) · [See the finished business case](examples/bramfield-business-case-output.md) · [Read the honest review](evaluations/bramfield-business-case-review.md): a conditional two-year price instead of a flat figure, and a Finance Director reader who was never on a call
 
@@ -70,7 +70,7 @@ Decide what, if anything, to send next, rather than working through a fixed run 
 
 Diagnose what is actually driving a stated objection before answering it, rather than arguing with the surface wording.
 
-**Start here:** [Open the workflow](workflows/05-objection-handling.md) · [See the Northstar response](examples/northstar-objection-response.md) · [Use the prompt](templates/objection-handling-prompt.md)
+**Start here:** [Open the workflow](workflows/05-objection-handling.md) · [See the Hartwell response](examples/hartwell-objection-response.md) · [Use the prompt](templates/objection-handling-prompt.md)
 
 **Use with AI:** [Respond to an objection](.agents/skills/objection-response/SKILL.md)
 
@@ -92,13 +92,13 @@ Help a willing buyer who keeps delaying the final yes, by making the decision sa
 
 Pass the current position, evidence, risks and next action to another person without making the deal sound further along than it is.
 
-**Start here:** [Open the workflow](workflows/03-opportunity-handover.md) · [See the Northstar handover](examples/northstar-opportunity-handover.md) · [Use the prompt](templates/opportunity-handover-prompt.md)
+**Start here:** [Open the workflow](workflows/03-opportunity-handover.md) · [See the Hartwell handover](examples/hartwell-opportunity-handover.md) · [Use the prompt](templates/opportunity-handover-prompt.md)
 
 ### 📪 Review a Lost Opportunity
 
 Work out honestly whether a closed or stalled deal is actually over, or just blocked, before deciding whether there is a real way back in.
 
-**Start here:** [Open the workflow](workflows/04-lost-opportunity-review.md) · [See the Northstar analysis](examples/northstar-lost-opportunity-analysis.md) · [Use the prompt](templates/lost-opportunity-review-prompt.md)
+**Start here:** [Open the workflow](workflows/04-lost-opportunity-review.md) · [See the Hartwell analysis](examples/hartwell-lost-opportunity-analysis.md) · [Use the prompt](templates/lost-opportunity-review-prompt.md)
 
 **Use with AI:** [Review a lost opportunity](.agents/skills/review-lost-opportunity/SKILL.md)
 
@@ -136,9 +136,9 @@ New to using AI at work at all? Start with [getting started with AI](guides/gett
 
 ## 🧪 See One Complete Test
 
-The Northstar example follows one fictional sales conversation from the call to the finished follow up.
+The Hartwell example follows one fictional sales conversation from the call to the finished follow up.
 
-**[Read the transcript](examples/northstar-post-call-transcript.md)** → **[See the finished output](examples/northstar-post-call-output.md)** → **[Read the honest review](evaluations/northstar-post-call-review.md)**
+**[Read the transcript](examples/hartwell-post-call-transcript.md)** → **[See the finished output](examples/hartwell-post-call-output.md)** → **[Read the honest review](evaluations/hartwell-post-call-review.md)**
 
 You can also score your own result using the [sales AI output rubric](evaluations/sales-ai-output-rubric.md), and [log your own time saved](guides/measure-time-and-quality.md) rather than assuming a workflow helps because it reads well.
 

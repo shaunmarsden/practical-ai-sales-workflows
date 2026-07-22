@@ -24,8 +24,8 @@ flowchart TB
 ## 🚀 Start Here
 
 - [Use the Lost Opportunity Review prompt](../templates/lost-opportunity-review-prompt.md)
-- [See the completed Northstar analysis](../examples/northstar-lost-opportunity-analysis.md)
-- [Read the honest review](../evaluations/northstar-lost-opportunity-review.md)
+- [See the completed Hartwell analysis](../examples/hartwell-lost-opportunity-analysis.md)
+- [Read the honest review](../evaluations/hartwell-lost-opportunity-review.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

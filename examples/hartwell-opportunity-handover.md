@@ -1,10 +1,10 @@
-# Northstar Opportunity Handover
+# Hartwell Opportunity Handover
 
-> This is a fictional handover created from the [Northstar call transcript](northstar-post-call-transcript.md) and [Post Call Output](northstar-post-call-output.md). It contains no real customer information and no CRM changes have been made.
+> This is a fictional handover created from the [Hartwell call transcript](hartwell-post-call-transcript.md) and [Post Call Output](hartwell-post-call-output.md). It contains no real customer information and no CRM changes have been made.
 
 ## ⚡ 30 Second Brief
 
-- Northstar Analytics wants to test a more consistent way to turn sales calls into summaries, actions, email drafts and suggested HubSpot updates.
+- Hartwell Analytics wants to test a more consistent way to turn sales calls into summaries, actions, email drafts and suggested HubSpot updates.
 - Alex Morgan is the main contact. The test depends on Alex confirming that an anonymised transcript is safe to share.
 - Do not describe a review meeting as booked. Next Tuesday morning was discussed, but no time was agreed.
 - Immediate next action: Shaun sends the test outline and possible review times.
@@ -13,7 +13,7 @@
 
 | | |
 | --- | --- |
-| **Company** | Northstar Analytics |
+| **Company** | Hartwell Analytics |
 | **Main contact** | Alex Morgan, Head of Revenue Operations |
 | **Current position** | A small test has been discussed but cannot start until transcript sharing is approved |
 | **Business problem** | Inconsistent call notes, follow up and delayed CRM updates are reducing visibility |
@@ -36,7 +36,7 @@
 
 ## ✅ Confirmed Evidence
 
-- Northstar has eight account executives. **Source: call transcript**
+- Hartwell has eight account executives. **Source: call transcript**
 - HubSpot is the CRM. **Source: call transcript**
 - CRM updates can happen one or two days after a call. **Source: call transcript**
 - Alex wants consistent summaries, reliable actions and a sensible email draft. **Source: call transcript**
@@ -57,8 +57,8 @@
 
 ### Unknowns
 
-- Whether Northstar will approve sharing an anonymised transcript
-- Which recording package Northstar uses and whether it provides full transcripts
+- Whether Hartwell will approve sharing an anonymised transcript
+- Which recording package Hartwell uses and whether it provides full transcripts
 - Whether Priya wants anything specific included
 - The confirmed date and time of a review meeting
 - Budget, buying process and decision criteria
@@ -91,8 +91,8 @@ Send the test outline and two genuine meeting options after checking the diary. 
 
 ## 🔗 Useful Sources
 
-- [Northstar call transcript](northstar-post-call-transcript.md)
-- [Northstar Post Call Output](northstar-post-call-output.md)
+- [Hartwell call transcript](hartwell-post-call-transcript.md)
+- [Hartwell Post Call Output](hartwell-post-call-output.md)
 
 ## 🤝 Handover Check
 

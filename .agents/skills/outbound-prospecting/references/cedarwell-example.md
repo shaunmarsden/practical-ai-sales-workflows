@@ -1,6 +1,6 @@
 # Cedarwell Example
 
-A fictional cold-outbound scenario, separate from the Northstar Analytics story, since outbound prospecting happens before any call exists.
+A fictional cold-outbound scenario, separate from the Hartwell Analytics story, since outbound prospecting happens before any call exists.
 
 > This scenario is entirely fictional. Cedarwell Group, its people, and its job advert were created to test this skill.
 

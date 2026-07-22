@@ -8,8 +8,8 @@ This export covers the whole fictional sales team, not just Shaun's own deals, s
 
 | # | Company | Contact | Owner | Stage | Value | Close date | Last activity |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Northstar Analytics | Priya Chen | Shaun | Negotiation | £48,000 | 30 Sep | 12 Sep |
-| 2 | Northstar Analytics Ltd | Priya Chen | Marcus Webb | Qualification | £45,000 | 31 Dec | 2 Oct |
+| 1 | Hartwell Analytics | Priya Chen | Shaun | Negotiation | £48,000 | 30 Sep | 12 Sep |
+| 2 | Hartwell Analytics Ltd | Priya Chen | Marcus Webb | Qualification | £45,000 | 31 Dec | 2 Oct |
 | 3 | Cedarwell Group | (blank) | Shaun | Qualification | £30,000 | 31 Oct | 9 Oct |
 | 4 | Meridian Freight | Ops Lead | Shaun | Proposal Sent | £72,000 | 30 Sep | 2 Sep |
 | 5 | Harbourview Media | (departed) | Shaun | Verbal Commit | £55,000 | 20 Oct | 25 Sep |

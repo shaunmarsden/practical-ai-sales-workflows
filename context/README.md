@@ -2,7 +2,7 @@
 
 This folder lets the repository understand your sales role without putting your company information into the public project.
 
-The public Northstar examples are fictional and the same for everyone. Your private sales context describes how you work, what your company sells and which rules the AI should follow for your role.
+The public Hartwell examples are fictional and the same for everyone. Your private sales context describes how you work, what your company sells and which rules the AI should follow for your role.
 
 ## Create Your Private File
 

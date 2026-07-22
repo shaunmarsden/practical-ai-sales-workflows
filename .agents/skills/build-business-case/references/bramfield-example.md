@@ -1,6 +1,6 @@
 # Bramfield Example
 
-Use the fictional [Bramfield business case transcript](../../../../examples/bramfield-business-case-transcript.md) as a second test, distinct from the Northstar example: a different commercial shape (a conditional two-year term rather than a flat annual figure) and a different decision-maker dynamic (a Finance Director who was never on any call, rather than a Sales Director who requested the case herself).
+Use the fictional [Bramfield business case transcript](../../../../examples/bramfield-business-case-transcript.md) as a second test, distinct from the Hartwell example: a different commercial shape (a conditional two-year term rather than a flat annual figure) and a different decision-maker dynamic (a Finance Director who was never on any call, rather than a Sales Director who requested the case herself).
 
 ## Task
 

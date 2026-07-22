@@ -1,10 +1,10 @@
-# Northstar Example
+# Hartwell Example
 
-Use the fictional [Northstar business case transcript](../../../../examples/northstar-business-case-transcript.md) to test the skill. It follows on from the [original Northstar call](../../../../examples/northstar-post-call-transcript.md), once there is enough commercial detail for a real business case.
+Use the fictional [Hartwell business case transcript](../../../../examples/hartwell-business-case-transcript.md) to test the skill. It follows on from the [original Hartwell call](../../../../examples/hartwell-post-call-transcript.md), once there is enough commercial detail for a real business case.
 
 ## Task
 
-Build a business case for Priya Chen, Northstar's Sales Director, who was not on either call and controls the budget. Write it as a proposal she reads herself, not a message to Alex.
+Build a business case for Priya Chen, Hartwell's Sales Director, who was not on either call and controls the budget. Write it as a proposal she reads herself, not a message to Alex.
 
 ## Deliberate Traps
 
@@ -22,7 +22,7 @@ Build a business case for Priya Chen, Northstar's Sales Director, who was not on
 
 - The pilot measured admin time dropping from around twenty-five minutes to under ten, timed by the reps themselves.
 - The eight-seat plan is £45 per seat per month, billed annually.
-- Northstar does not have call recordings or transcripts used to train models beyond its own workspace.
+- Hartwell does not have call recordings or transcripts used to train models beyond its own workspace.
 
 ### Inference
 
@@ -42,4 +42,4 @@ Build a business case for Priya Chen, Northstar's Sales Director, who was not on
 - Expansion to the customer success team is part of this proposal.
 - Any individual account executive is named.
 
-Compare a full result with the existing [worked business case](../../../../examples/northstar-business-case-output.md) and score it using the [sales AI output rubric](../../../../evaluations/sales-ai-output-rubric.md), or read the [finished review](../../../../evaluations/northstar-business-case-review.md).
+Compare a full result with the existing [worked business case](../../../../examples/hartwell-business-case-output.md) and score it using the [sales AI output rubric](../../../../evaluations/sales-ai-output-rubric.md), or read the [finished review](../../../../evaluations/hartwell-business-case-review.md).

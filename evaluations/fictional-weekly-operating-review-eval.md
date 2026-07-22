@@ -14,7 +14,7 @@ This review scores the [worked weekly report](../examples/fictional-weekly-opera
 | Evidence fidelity | 5 | Pulls the pipeline evidence review and CRM hygiene review findings through without softening or overstating them |
 | Fact separation | 5 | Keeps "no baseline exists" and "outreach is missing, not zero" as explicit, separate statements rather than blending them into vaguer hedging |
 | Missing information | 5 | Outreach activity is correctly reported as unavailable rather than assumed to be zero, and the report says plainly that only one meeting was actually supplied |
-| Commercial usefulness | 5 | The three priorities are specific and drawn from real findings (the Northstar duplicate, the two stale records, the Cedarwell message), not generic advice that could apply to any week |
+| Commercial usefulness | 5 | The three priorities are specific and drawn from real findings (the Hartwell duplicate, the two stale records, the Cedarwell message), not generic advice that could apply to any week |
 | Next step clarity | 5 | Each priority names who or what needs to happen, not just that something should be reviewed |
 | Tone | 5 | Plain and direct, no invented energy or urgency around a first, necessarily thin report |
 | Privacy | 5 | Uses only what was actually supplied; no invented names or figures |

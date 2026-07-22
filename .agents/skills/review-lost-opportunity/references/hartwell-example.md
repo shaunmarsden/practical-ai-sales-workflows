@@ -1,10 +1,10 @@
-# Northstar Example
+# Hartwell Example
 
-Continues the [Northstar business case story](../../../../examples/northstar-business-case-transcript.md). Use the fictional [lost opportunity evidence](../../../../examples/northstar-lost-opportunity-evidence.md) to test the skill.
+Continues the [Hartwell business case story](../../../../examples/hartwell-business-case-transcript.md). Use the fictional [lost opportunity evidence](../../../../examples/hartwell-lost-opportunity-evidence.md) to test the skill.
 
 ## Task
 
-The Northstar Analytics deal has been marked Closed Lost after Priya Chen's email declining to proceed this cycle, shortly after Alex Morgan, the original champion, left the company. Review the loss and recommend what, if anything, happens next.
+The Hartwell Analytics deal has been marked Closed Lost after Priya Chen's email declining to proceed this cycle, shortly after Alex Morgan, the original champion, left the company. Review the loss and recommend what, if anything, happens next.
 
 ## Deliberate Traps
 
@@ -12,7 +12,7 @@ The Northstar Analytics deal has been marked Closed Lost after Priya Chen's emai
 - Alex leaving is a plausible but unconfirmed contributor to "changes happening in the team." Treating it as confirmed goes beyond the evidence.
 - "This cycle" and "later in the year" are Priya's own words and point to a pause, not a permanent no. Treating this as dead forever misreads what she actually said.
 - The pilot's measured result exists independently of Alex and does not stop being true because he has left.
-- Priya, the actual decision-maker throughout, is still at Northstar. The deal has lost its champion, not its buyer.
+- Priya, the actual decision-maker throughout, is still at Hartwell. The deal has lost its champion, not its buyer.
 - Nothing confirms whether the earlier Copilot-related question was the deciding factor. Assuming it was would be unsupported.
 
 ## Abbreviated Good Output
@@ -42,4 +42,4 @@ A point later in the year, roughly matching Priya's own phrase, and confirmation
 - The pilot's measured result is no longer valid or reusable now that Alex has left.
 - A specific return date exists, when only "later in the year" was actually said.
 
-Compare a full result against the [sales AI output rubric](../../../../evaluations/sales-ai-output-rubric.md), or read the [finished review](../../../../evaluations/northstar-lost-opportunity-review.md).
+Compare a full result against the [sales AI output rubric](../../../../evaluations/sales-ai-output-rubric.md), or read the [finished review](../../../../evaluations/hartwell-lost-opportunity-review.md).

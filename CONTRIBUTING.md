@@ -23,7 +23,7 @@ If you cannot point to all nine, it is not done yet. That is fine. Say what is m
 ## Fictional Content Rules
 
 - Every company, person, transcript, email and figure must be invented for this purpose. Do not adapt a real deal, even lightly disguised.
-- Reuse an existing fictional universe where the story genuinely continues (Northstar Analytics for anything post-call onward, Cedarwell Group for outbound with no call yet). Invent a new one only when the existing cast does not fit the scenario, as with the pipeline review's multi-deal snapshot or the buyer indecision example.
+- Reuse an existing fictional universe where the story genuinely continues (Hartwell Analytics for anything post-call onward, Cedarwell Group for outbound with no call yet). Invent a new one only when the existing cast does not fit the scenario, as with the pipeline review's multi-deal snapshot or the buyer indecision example.
 - Every example file should say plainly, near the top, that it is fictional and what it was created to test. The [repository checks](.github/scripts/repo_checks.py) enforce that examples contain the word "fictional".
 - A deliberate test point is more useful than a clean success. Build scenarios with a real trap in them (an objection that reads one way on the surface and means another, a deal whose recorded stage overstates the evidence) so the evaluation has something real to catch.
 
