@@ -8,7 +8,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
-- **Outbound message structure refinements, mostly shipped**: the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md) now state the front-end-offer distinction explicitly, add a subject-line and preview-text rule, and add two anti-pattern guardrail lines against manufactured interest and invented scarcity. Applied, not just written: the subject line in the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) was updated to actually follow the new rule, with the change and why the score did not need revisiting noted honestly in [its evaluation](evaluations/cedarwell-outbound-review.md). One piece of the original backlog idea is deliberately left open, a deliberately weak worked example for contrast, since it is a larger, separate piece of fictional content.
+- **Outbound message structure refinements are complete**: the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md) state the front-end-offer distinction explicitly, add a subject-line and preview-text rule, and add two anti-pattern guardrail lines against manufactured interest and invented scarcity. Applied, not just written: the subject line in the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) was updated to actually follow the new rule, with the change noted in [its evaluation](evaluations/cedarwell-outbound-review.md), and a new [deliberately weak version of the same message](examples/cedarwell-outbound-weak-example.md) breaks every guardrail on purpose, annotated point by point, alongside the good one.
 
 - **Skill handoff contracts**: a new [guide](guides/skill-handoff-contracts.md) stating the six things that should pass between two skills run in sequence on the same call (what's confirmed, what's inferred or estimated, what's missing, which source backs each point, what the next skill may do with it, what still requires a person). Grounded in a real worked example rather than an abstract rule: the extract-post-call-evidence to draft-follow-up-email handoff, annotated against the existing fictional [Hartwell post-call output](examples/hartwell-post-call-output.md), which already had to get every one of these six things right to be a finished example. A documentation and discipline standard, not new automation; nothing here proposes piping one skill's output into the next without a person in between.
 
@@ -281,9 +281,7 @@ Both routes should include evidence checks before contact discovery or enrichmen
 
 #### Outbound message structure refinements
 
-**Mostly shipped.** The front-end-offer distinction, the subject-line and preview-text rule, and the two anti-pattern guardrail lines are now in the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md). The subject-line rule was applied to the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) rather than left untested, with the change noted in [its evaluation](evaluations/cedarwell-outbound-review.md).
-
-Still open: a worked, deliberately weak example email, buries the ask, opens with "hope this finds you well," leads with who-you-are before value, uses jargon the buyer will not recognise, clearly labelled as the wrong example, alongside the existing good one. Genuinely useful for training the eye, but a separate, larger piece of fictional content than the rest of this item.
+**Shipped**, see [Done Recently](#done-recently) above.
 
 #### Chase sequence follow-up structure
 
