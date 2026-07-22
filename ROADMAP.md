@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Source and evidence standards**: a new section 4, "Weigh Every Kind of Source the Same Way," in [METHODOLOGY.md](METHODOLOGY.md), covering sources beyond a specific deal's own evidence, product documentation, public primary research, named sales methods, practitioner material, and model interpretation, in that order. Complements the existing deal-evidence order in section 3 rather than replacing it, and covers the standard's other requirements directly: a vendor's own product claim is not proof of a customer's confirmed need, public company context stays background rather than evidence of an internal problem, and a disagreement between two sources at different levels gets named rather than smoothed over. Required renumbering the rest of the file's sections; nothing else in the repository linked to a specific section anchor, so nothing else needed updating.
+
 - **A missing-workflow request template**: a [GitHub issue form](.github/ISSUE_TEMPLATE/missing-workflow.yml) asking what sales job someone was trying to complete, what they normally have to work with, what output they need, what would make it unsafe, what still needs a person, and how they do it today without AI. A checkbox up front asks whether the existing workflows and recipe cards were actually checked first, so a request is evidence for a real gap, not a broad suggestion with no context behind it.
 
 - **The public-data pre-commit scanner is complete**: [repo_checks.py](.github/scripts/repo_checks.py) now also flags email addresses and phone numbers, and reads an optional local, never-committed blocklist (`.github/private-blocklist.txt`) for project-specific private terms. A real local git hook at [.github/hooks/pre-commit](.github/hooks/pre-commit) runs the same checks on every commit once enabled with `git config core.hooksPath .github/hooks`, so this no longer depends on remembering to run it by hand or waiting for CI. Still not covered, and likely never will be: an unexpected commercial figure, which needs a person who actually knows what the real numbers should look like, not a regular expression.
@@ -81,16 +83,7 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Source and evidence standards
 
-Define which sources are acceptable and how they should affect an output. Prioritise:
-
-1. direct evidence supplied for the sales task;
-2. official product or platform documentation;
-3. public primary research;
-4. clearly named sales methods;
-5. identifiable practitioner material;
-6. model interpretation, labelled as interpretation.
-
-The standard should also cover conflicting sources, estimates, vendor claims and the difference between public company context and confirmed customer need.
+**Shipped**, see [Done Recently](#done-recently) above.
 
 #### Lightweight repository checks
 
