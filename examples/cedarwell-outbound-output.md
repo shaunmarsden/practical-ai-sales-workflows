@@ -15,7 +15,7 @@
 ## First-Touch Message
 
 ```text
-Subject: Manual reporting across three depot systems
+Subject: quick question
 
 Hi Marcus,
 
@@ -31,6 +31,7 @@ Best,
 
 ## Why This Message Is Shaped This Way
 
+- **The subject line** is short, lowercase, and does not name the reporting problem itself. Naming the mechanism in the subject line gives the pitch away before the message is even opened; a subject line that reads like an internal note gets opened, one that reads like a pitch gets deleted or filtered.
 - **The opener** quotes the job advert's own wording almost directly, rather than a generic industry observation, so it reads as specific to Cedarwell rather than sent to every logistics company this week.
 - **The offer** is a short first look, not a meeting request. It is small enough to actually produce quickly and genuinely useful on its own, which is the low-friction offer the skill calls for.
 - **The value line** is stated in the reader's own terms, coordinator time, not a generic productivity claim.

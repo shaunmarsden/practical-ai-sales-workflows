@@ -38,6 +38,8 @@ This review scores the [worked outbound output](../examples/cedarwell-outbound-o
 
 Nothing needed changing in the skill for this run. The existing guardrails (never fabricate a signal, never lead with a meeting ask, never claim an unconfirmed capability) were sufficient without a new rule.
 
+**Later addition:** the skill gained an explicit subject-line rule (short, lowercase, never naming the actual offer or mechanism) after a review of real cold-email technique. The subject line in the worked output above was updated from "Manual reporting across three depot systems" to "quick question" to actually demonstrate the rule rather than leave it untested against this scenario. Nothing else in the message changed, and none of the scores above depended on the subject line, so the score stands as originally given.
+
 ## Next Test
 
 Run a weaker-signal target, a company that only has a generic industry-fit reason and no specific, verifiable public signal, to confirm the skill correctly says so and declines to write a confident-sounding message anyway, rather than reaching for a softer version of the same hook.
