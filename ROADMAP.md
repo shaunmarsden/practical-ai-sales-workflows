@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Skill handoff contracts**: a new [guide](guides/skill-handoff-contracts.md) stating the six things that should pass between two skills run in sequence on the same call (what's confirmed, what's inferred or estimated, what's missing, which source backs each point, what the next skill may do with it, what still requires a person). Grounded in a real worked example rather than an abstract rule: the extract-post-call-evidence to draft-follow-up-email handoff, annotated against the existing fictional [Hartwell post-call output](examples/hartwell-post-call-output.md), which already had to get every one of these six things right to be a finished example. A documentation and discipline standard, not new automation; nothing here proposes piping one skill's output into the next without a person in between.
+
 - **A pull request template**: [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md), pre-loaded into every new PR, mirroring what [CONTRIBUTING.md](CONTRIBUTING.md) already asks for rather than a new bar. Prompted by a plain question worth recording here: even before any outside contributor shows up, forking and a pull request is already the only route into this repository; nobody can push or merge without it being reviewed and merged deliberately. The template makes the existing bar visible at the point someone opens a PR rather than something they have to go and find first.
 
 - **Source and evidence standards**: a new section 4, "Weigh Every Kind of Source the Same Way," in [METHODOLOGY.md](METHODOLOGY.md), covering sources beyond a specific deal's own evidence, product documentation, public primary research, named sales methods, practitioner material, and model interpretation, in that order. Complements the existing deal-evidence order in section 3 rather than replacing it, and covers the standard's other requirements directly: a vendor's own product claim is not proof of a customer's confirmed need, public company context stays background rather than evidence of an internal problem, and a disagreement between two sources at different levels gets named rather than smoothed over. Required renumbering the rest of the file's sections; nothing else in the repository linked to a specific section anchor, so nothing else needed updating.
@@ -161,16 +163,7 @@ It should route to existing skills rather than contain every method itself.
 
 #### Skill handoff contracts
 
-Define what one skill passes to the next. For example, a post-call evidence skill might pass confirmed facts, commitments, objections and unknowns to a follow-up skill.
-
-A handoff should state:
-
-- what is confirmed;
-- what is inferred;
-- what is missing;
-- which source supports each material point;
-- what the next skill is allowed to do;
-- what still requires a person.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/skill-handoff-contracts.md).
 
 #### Working folders and run history
 

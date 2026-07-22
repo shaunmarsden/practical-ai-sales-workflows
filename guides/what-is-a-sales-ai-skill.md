@@ -40,6 +40,8 @@ Most skills here use the same fictional Hartwell conversation, so none of them c
 - [Plan Outbound Prospecting](../.agents/skills/outbound-prospecting/SKILL.md) — selects a cold target and drafts a first-touch message worth a reply
 - [Review a Lost Opportunity](../.agents/skills/review-lost-opportunity/SKILL.md) — works out if a closed or stalled deal is genuinely over, or just blocked
 
+Running two of these in sequence on the same call? [Skill Handoff Contracts](skill-handoff-contracts.md) covers what should actually pass between them.
+
 ## Before You Use a Skill on Real Work
 
 - Start with a repeated business problem
