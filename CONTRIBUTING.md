@@ -51,7 +51,8 @@ The public repository stays vendor-neutral. Do not name Shaun's employer, reprod
 
 ## Before Opening a Pull Request
 
-- Run `python3 .github/scripts/repo_checks.py` locally. It also runs automatically in CI, but catching a failure before you push saves a round trip.
+- Run `python3 .github/scripts/repo_checks.py` locally. It also runs automatically in CI, but catching a failure before you push saves a round trip. To run it automatically on every commit instead of remembering by hand, enable the repository's local hook once with `git config core.hooksPath .github/hooks`.
+- If you want to flag your own project-specific private terms (a real client name, an internal codename) without editing the checker itself, list them one per line in `.github/private-blocklist.txt`. That file is gitignored and never committed; the checker reads it if it exists and silently skips this check if it does not.
 - Confirm every new or changed relative link resolves.
 - If you are extending an existing sales problem, check whether a guide already covers it (`guides/where-to-start.md`, `guides/get-more-from-your-ai.md`, `guides/getting-started-with-ai.md`) before writing a new explanation. Link to the existing guide rather than repeating it.
 - Keep the branch and pull request focused on one piece of work. A mixed pull request that touches unrelated files is harder to review honestly.
