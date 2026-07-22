@@ -2,6 +2,8 @@
 
 Timings below are a starting point. Adjust them to match your own sales cycle; what matters is the reasoning at each stage, not the exact day count.
 
+The stages below escalate in friction, not urgency: the earliest chase can carry the real, direct ask, and each stage after that should ask for something smaller and easier to say yes to, rather than the same ask restated more insistently. None of them, except close-out, should remind the prospect that earlier messages were sent; that reads as pressure about your own pipeline, not something that helps the prospect reply.
+
 ## Early chase (a few days after the last message)
 
 Purpose: confirm the last resource landed and nudge toward the next concrete step.
