@@ -1,10 +1,10 @@
-# Northstar Post Call Output
+# Hartwell Post Call Output
 
-> This is a worked output created from the fictional [Northstar transcript](northstar-post-call-transcript.md). Nothing has been sent or added to a CRM.
+> This is a worked output created from the fictional [Hartwell transcript](hartwell-post-call-transcript.md). Nothing has been sent or added to a CRM.
 
 ## 1. Call Summary
 
-- Northstar Analytics has eight account executives who currently handle call notes, follow up and CRM updates in different ways.
+- Hartwell Analytics has eight account executives who currently handle call notes, follow up and CRM updates in different ways.
 - CRM updates can happen one or two days after a call, which reduces visibility and makes the Monday pipeline meeting less useful.
 - Alex wants to test a more consistent call summary, action list, follow up draft and set of suggested CRM updates.
 - Alex does not want emails sent automatically and considers accuracy more important than a small additional time saving.
@@ -12,7 +12,7 @@
 
 ## 2. Confirmed Facts
 
-- Alex Morgan is Head of Revenue Operations at Northstar Analytics.
+- Alex Morgan is Head of Revenue Operations at Hartwell Analytics.
 - The team has eight account executives.
 - HubSpot is the CRM.
 - CRM updates can be delayed by one or two days.
@@ -45,7 +45,7 @@
 
 ## 5. Follow Up Email Draft
 
-**Subject:** Northstar follow up and next step
+**Subject:** Hartwell follow up and next step
 
 Hi Alex,
 

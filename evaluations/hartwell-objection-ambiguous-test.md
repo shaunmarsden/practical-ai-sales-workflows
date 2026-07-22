@@ -1,6 +1,6 @@
-# Northstar Ambiguous Objection: Repeated Run Test
+# Hartwell Ambiguous Objection: Repeated Run Test
 
-A stability test, not a single scored example. The same deliberately [ambiguous objection](../examples/northstar-objection-ambiguous-input.md) was run cold, three times each in Claude, ChatGPT and Gemini, to see whether the objection-handling workflow diagnoses the *same* driver each time or swings between readings under genuine uncertainty. It uses the [test run template](test-run-template.md) and scores against the [sales AI output rubric](sales-ai-output-rubric.md).
+A stability test, not a single scored example. The same deliberately [ambiguous objection](../examples/hartwell-objection-ambiguous-input.md) was run cold, three times each in Claude, ChatGPT and Gemini, to see whether the objection-handling workflow diagnoses the *same* driver each time or swings between readings under genuine uncertainty. It uses the [test run template](test-run-template.md) and scores against the [sales AI output rubric](sales-ai-output-rubric.md).
 
 ## Method Note
 
@@ -8,7 +8,7 @@ The three Claude runs were run by Claude in fresh, cold conversations. The ChatG
 
 ## Scenario
 
-An ambiguous post-QBR reply from Priya Chen that mixes timing, a possible shrinking rationale (AE roles "up in the air"), change-resistance ("a new tool they have to learn"), and a possible soft no ("let me sit with it"), with no date and no clear blocker. Full input, including what Shaun does and does not know, is in the [scenario file](../examples/northstar-objection-ambiguous-input.md). The point of the scenario is that the driver is genuinely not resolvable from context, so there is no single "correct" primary driver, only better and worse ways of handling not knowing.
+An ambiguous post-QBR reply from Priya Chen that mixes timing, a possible shrinking rationale (AE roles "up in the air"), change-resistance ("a new tool they have to learn"), and a possible soft no ("let me sit with it"), with no date and no clear blocker. Full input, including what Shaun does and does not know, is in the [scenario file](../examples/hartwell-objection-ambiguous-input.md). The point of the scenario is that the driver is genuinely not resolvable from context, so there is no single "correct" primary driver, only better and worse ways of handling not knowing.
 
 ## The Headline: Primary Driver Diagnosed, Per Run
 

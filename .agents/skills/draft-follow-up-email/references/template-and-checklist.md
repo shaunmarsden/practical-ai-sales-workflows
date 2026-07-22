@@ -64,6 +64,6 @@ Best,
 
 ## Fictional worked example
 
-Using the [Northstar Analytics transcript](../../../../examples/northstar-post-call-transcript.md): a generic opening line would be "It was great speaking about your sales process." A personalised one, grounded in what Alex Morgan actually said, would open with the Monday pipeline meeting problem: confirming visibility into what happened on a call is the specific thing worth naming, not a restatement of "sales process" in general.
+Using the [Hartwell Analytics transcript](../../../../examples/hartwell-post-call-transcript.md): a generic opening line would be "It was great speaking about your sales process." A personalised one, grounded in what Alex Morgan actually said, would open with the Monday pipeline meeting problem: confirming visibility into what happened on a call is the specific thing worth naming, not a restatement of "sales process" in general.
 
 For the forwarding case: if Alex needed a resource specifically to hand to Priya Chen ahead of budget sign-off, that block would be addressed as "For Priya, as Sales Director" and describe what it covers for her role, not repeat what was already said to Alex. It would not greet Priya directly or write as if she were reading the email, since she is not the recipient.

@@ -1,6 +1,6 @@
-# Northstar Example
+# Hartwell Example
 
-Continues the [Northstar business case story](../../../../examples/northstar-business-case-transcript.md). Priya Chen, Northstar's Sales Director, has now reviewed the business case ahead of the QBR and replied to Shaun by email.
+Continues the [Hartwell business case story](../../../../examples/hartwell-business-case-transcript.md). Priya Chen, Hartwell's Sales Director, has now reviewed the business case ahead of the QBR and replied to Shaun by email.
 
 ## Task
 
@@ -13,7 +13,7 @@ Diagnose the objection and produce an email reply.
 - The surface wording points to `competitor-or-tooling` (Copilot), but the phrase "right now" and "more spend" is also a `circumstances` signal, budget timing around the QBR, not just a tooling comparison. A response that only argues Copilot vs this solution, without checking the timing angle, has answered half the objection.
 - Priya has not said no. She has raised a real question, not disqualified the deal.
 - The pilot's own measured result (see the business case output) is the strongest evidence available and should be used, not a generic "we're different from Copilot" argument.
-- Northstar's QBR timing means "right now" may really mean "not this budget cycle," which changes the right next step from a rebuttal to a timing question.
+- Hartwell's QBR timing means "right now" may really mean "not this budget cycle," which changes the right next step from a rebuttal to a timing question.
 
 ## Abbreviated Good Output
 

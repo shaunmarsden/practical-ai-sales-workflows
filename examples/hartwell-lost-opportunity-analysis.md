@@ -1,6 +1,6 @@
-# Northstar Lost Opportunity Analysis
+# Hartwell Lost Opportunity Analysis
 
-> This is a worked analysis created from the [fictional evidence](northstar-lost-opportunity-evidence.md). Nothing has been sent or changed in any system.
+> This is a worked analysis created from the [fictional evidence](hartwell-lost-opportunity-evidence.md). Nothing has been sent or changed in any system.
 
 ## What Was Actually Said
 
@@ -8,7 +8,7 @@ Priya Chen's email gives three possible factors for not proceeding this cycle: a
 
 ## What's Being Inferred, Not Confirmed
 
-Alex Morgan, the account executive team's original point of contact and pilot champion, left Northstar Analytics for a role at another company shortly before this email arrived. It is a reasonable inference that Alex's departure is part of what Priya means by "changes happening in the team," but she did not say this directly, and it should be held as an inference, not stated as fact.
+Alex Morgan, the account executive team's original point of contact and pilot champion, left Hartwell Analytics for a role at another company shortly before this email arrived. It is a reasonable inference that Alex's departure is part of what Priya means by "changes happening in the team," but she did not say this directly, and it should be held as an inference, not stated as fact.
 
 Nothing in Priya's email confirms or denies whether the earlier Copilot-related question played any part in this decision. It should not be assumed to be the reason, since nothing here supports that.
 
@@ -29,11 +29,11 @@ This reads as **timing, with a secondary stakeholder change**, not a genuine dis
 ## What Not to Do Next
 
 - Do not chase again in the next few weeks; that would directly contradict what Priya said
-- Do not treat this as dead and remove Northstar from future consideration entirely
+- Do not treat this as dead and remove Hartwell from future consideration entirely
 - Do not assume the Copilot question was the reason for the loss without evidence
-- Do not let the pilot's measured result go unused; it is reusable evidence, for Northstar later or for a similarly-shaped prospect elsewhere
+- Do not let the pilot's measured result go unused; it is reusable evidence, for Hartwell later or for a similarly-shaped prospect elsewhere
 
 ## Notes for Human Review
 
 - A calendar reminder for later in the year is a reasonable next step for Shaun to set himself; no specific date has been invented here to hang it on
-- Worth periodically checking LinkedIn or Northstar's own site for whether a new Head of Revenue Operations has been announced
+- Worth periodically checking LinkedIn or Hartwell's own site for whether a new Head of Revenue Operations has been announced

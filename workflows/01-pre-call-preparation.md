@@ -24,8 +24,8 @@ flowchart TB
 ## 🚀 Start Here
 
 - [Use the Pre Call Card template](../templates/pre-call-card.md)
-- [See the completed Northstar example](../examples/northstar-pre-call.md)
-- Once your card is done, [practise pushback before the call](../templates/pre-call-objection-roleplay-prompt.md), optional, [see what it produces](../examples/northstar-pre-call-roleplay.md)
+- [See the completed Hartwell example](../examples/hartwell-pre-call.md)
+- Once your card is done, [practise pushback before the call](../templates/pre-call-objection-roleplay-prompt.md), optional, [see what it produces](../examples/hartwell-pre-call-roleplay.md)
 
 <details>
 <summary><strong>See the information you need</strong></summary>

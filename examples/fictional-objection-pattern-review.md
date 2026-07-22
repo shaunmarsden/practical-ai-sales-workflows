@@ -13,7 +13,7 @@
 
 Three entries mention Copilot by name, which would look like a single competitive problem if only counted. Read individually, they are not the same situation:
 
-- **Entry 1 (Northstar):** a genuine tooling comparison, but with a real secondary budget-timing signal. The deal progressed once both were addressed separately.
+- **Entry 1 (Hartwell):** a genuine tooling comparison, but with a real secondary budget-timing signal. The deal progressed once both were addressed separately.
 - **Entry 4 (Marlow):** the Copilot mention was surface-level. The actual blocker, confirmed in conversation, was that no budget existed at all this quarter, for anything, regardless of tool. This was never really a tooling comparison.
 - **Entry 5 (Ashcombe):** a genuine, final, company-wide standardisation decision already made before this conversation started. This is a real loss to Copilot, but it reflects a policy decision, not a feature or capability gap this deal could have addressed.
 

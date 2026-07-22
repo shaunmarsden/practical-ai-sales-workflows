@@ -24,8 +24,8 @@ flowchart TB
 ## 🚀 Start Here
 
 - [Use the Objection Handling prompt](../templates/objection-handling-prompt.md)
-- [See the completed Northstar response](../examples/northstar-objection-response.md)
-- [Read the honest review](../evaluations/northstar-objection-review.md)
+- [See the completed Hartwell response](../examples/hartwell-objection-response.md)
+- [Read the honest review](../evaluations/hartwell-objection-review.md)
 - [Use with AI: the objection-response skill](../.agents/skills/objection-response/SKILL.md)
 
 <details>

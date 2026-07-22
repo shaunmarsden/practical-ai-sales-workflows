@@ -1,6 +1,6 @@
 # Fictional Outbound Signal: Cedarwell Group
 
-> This scenario is entirely fictional, separate from the Northstar Analytics story, since outbound prospecting happens before any call exists. Cedarwell Group, Marcus Webb and every detail were created to test the outbound prospecting skill and workflow.
+> This scenario is entirely fictional, separate from the Hartwell Analytics story, since outbound prospecting happens before any call exists. Cedarwell Group, Marcus Webb and every detail were created to test the outbound prospecting skill and workflow.
 
 ## The Ideal Customer Profile
 

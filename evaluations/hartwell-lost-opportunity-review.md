@@ -1,6 +1,6 @@
-# Northstar Lost Opportunity Review
+# Hartwell Lost Opportunity Review
 
-This review scores the [worked analysis](../examples/northstar-lost-opportunity-analysis.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
+This review scores the [worked analysis](../examples/hartwell-lost-opportunity-analysis.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
 ## Result
 
@@ -31,7 +31,7 @@ This review scores the [worked analysis](../examples/northstar-lost-opportunity-
 
 ## What Needed Checking
 
-- Whether Priya's own role or authority at Northstar has changed is worth checking alongside the Head of Revenue Operations question.
+- Whether Priya's own role or authority at Hartwell has changed is worth checking alongside the Head of Revenue Operations question.
 - Shaun should decide for himself what "later in the year" should actually mean on his own calendar, since the analysis correctly declines to invent a date.
 - Worth periodically checking whether the underlying pilot evidence would still resonate with a new stakeholder, or whether it needs updating.
 

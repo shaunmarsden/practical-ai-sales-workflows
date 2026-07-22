@@ -15,4 +15,4 @@ Run a finished or inherited draft through every line before it goes to a prospec
 
 If a draft fails the same point more than once across different prospects, the fix belongs in this skill, not in another one-off correction to the draft.
 
-For a fictional worked example to run this checklist against, see [the Northstar example](northstar-example.md).
+For a fictional worked example to run this checklist against, see [the Hartwell example](hartwell-example.md).

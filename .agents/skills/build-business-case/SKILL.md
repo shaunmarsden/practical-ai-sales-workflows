@@ -76,4 +76,4 @@ Before this goes to a prospect, a person must check that every commercial figure
 
 Read [the audit checklist](references/audit-checklist.md) before presenting a finished or audited draft.
 
-For a fictional test, read [the Northstar example](references/northstar-example.md). For a second test with a different commercial shape and decision-maker dynamic, read [the Bramfield example](references/bramfield-example.md).
+For a fictional test, read [the Hartwell example](references/hartwell-example.md). For a second test with a different commercial shape and decision-maker dynamic, read [the Bramfield example](references/bramfield-example.md).

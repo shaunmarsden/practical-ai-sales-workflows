@@ -1,4 +1,4 @@
-# Fictional Example: Northstar Analytics
+# Fictional Example: Hartwell Analytics
 
 > This example is entirely fictional. The company, contact and scenario were created to demonstrate the workflow.
 
@@ -6,7 +6,7 @@
 
 - **Contact:** Alex Morgan
 - **Role:** Head of Revenue Operations
-- **Company:** Northstar Analytics
+- **Company:** Hartwell Analytics
 - **Meeting purpose:** Introductory conversation about improving sales workflow efficiency
 - **Good outcome:** Understand whether sales administration is a meaningful problem and agree a deeper workflow mapping session if appropriate
 

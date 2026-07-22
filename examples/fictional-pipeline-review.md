@@ -10,13 +10,13 @@ Each deal shows the **recorded** position (what the CRM says) next to the **evid
 
 | Deal | Recorded stage | Evidence-supported state | Main gap |
 | --- | --- | --- | --- |
-| Northstar Analytics | Negotiation | Paused, revisit later in year | Stage overstates; close date overdue |
+| Hartwell Analytics | Negotiation | Paused, revisit later in year | Stage overstates; close date overdue |
 | Cedarwell Group | Qualification | Early conversation, not yet qualified | Stage and close date ahead of evidence |
 | Meridian Freight | Proposal Sent | Unworked, likely stalled | Six weeks of silence, close date passed |
 | Harbourview Media | Verbal Commit | Blocked, champion has left | Recorded next step is impossible as written |
 | Oakline Dental Group | Discovery | Discovery, on track | None; recorded fields match the evidence |
 
-## Northstar Analytics
+## Hartwell Analytics
 
 - **Recorded**: Negotiation, £48,000, close date 30 September (passed).
 - **Evidence-supported**: paused. Priya confirmed in writing this is not proceeding this cycle, citing budget and a reorganisation, and pointed to "later in the year".
@@ -65,4 +65,4 @@ Each deal shows the **recorded** position (what the CRM says) next to the **evid
 ## Notes for Human Review
 
 - The only confirmed facts here are the recorded CRM fields and the dated events. Priya's pause is confirmed in writing; the Harbourview departure is an inference from LinkedIn and is labelled as such.
-- Two deals (Northstar, Meridian) have close dates that have already passed. Those are the most urgent to correct, because an overdue date quietly distorts any pipeline total built from this data.
+- Two deals (Hartwell, Meridian) have close dates that have already passed. Those are the most urgent to correct, because an overdue date quietly distorts any pipeline total built from this data.

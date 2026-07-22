@@ -1,6 +1,6 @@
 # Cross-Model Post-Call Comparison
 
-Run 19 July 2026: the same [Northstar transcript](../examples/northstar-post-call-transcript.md) and the same [post-call follow-up prompt](../templates/post-call-follow-up-prompt.md), pasted as one message into a completely fresh conversation in Claude, ChatGPT and Gemini, with no prior context in any of them. Each output is scored against the same [sales AI output rubric](sales-ai-output-rubric.md).
+Run 19 July 2026: the same [Hartwell transcript](../examples/hartwell-post-call-transcript.md) and the same [post-call follow-up prompt](../templates/post-call-follow-up-prompt.md), pasted as one message into a completely fresh conversation in Claude, ChatGPT and Gemini, with no prior context in any of them. Each output is scored against the same [sales AI output rubric](sales-ai-output-rubric.md).
 
 This compares corrections needed, not which answer reads most polished. A fluent answer that quietly invents a confirmed meeting is worse than a plainer one that correctly says the time is still pending.
 

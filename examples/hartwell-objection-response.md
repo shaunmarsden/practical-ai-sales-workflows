@@ -1,6 +1,6 @@
-# Northstar Objection Response
+# Hartwell Objection Response
 
-> This is a worked response created from the [fictional objection](northstar-objection-input.md). Nothing has been sent, and no discount or commitment has been offered or authorised.
+> This is a worked response created from the [fictional objection](hartwell-objection-input.md). Nothing has been sent, and no discount or commitment has been offered or authorised.
 
 ## The Objection, Restated
 

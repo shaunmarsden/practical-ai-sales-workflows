@@ -24,9 +24,9 @@ flowchart TB
 ## 🚀 Start Here
 
 - [Use the Post Call Follow Up prompt](../templates/post-call-follow-up-prompt.md)
-- [Read the fictional Northstar transcript](../examples/northstar-post-call-transcript.md)
-- [See the completed output](../examples/northstar-post-call-output.md)
-- [Read the scored review](../evaluations/northstar-post-call-review.md)
+- [Read the fictional Hartwell transcript](../examples/hartwell-post-call-transcript.md)
+- [See the completed output](../examples/hartwell-post-call-output.md)
+- [Read the scored review](../evaluations/hartwell-post-call-review.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

@@ -1,6 +1,6 @@
-# Northstar Opportunity Handover Review
+# Hartwell Opportunity Handover Review
 
-This review scores the [finished handover](../examples/northstar-opportunity-handover.md) against the [Sales AI Output Rubric](sales-ai-output-rubric.md).
+This review scores the [finished handover](../examples/hartwell-opportunity-handover.md) against the [Sales AI Output Rubric](sales-ai-output-rubric.md).
 
 ## Result
 

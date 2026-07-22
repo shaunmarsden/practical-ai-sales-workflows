@@ -1,6 +1,6 @@
 # Fictional Pipeline Snapshot
 
-> This is an entirely fictional pipeline export, created to test the Pipeline Evidence Review workflow. Every company, person, figure and date is invented. It reuses the [Northstar Analytics story](northstar-post-call-transcript.md) for one deal and adds four more. Nothing here is a real CRM record.
+> This is an entirely fictional pipeline export, created to test the Pipeline Evidence Review workflow. Every company, person, figure and date is invented. It reuses the [Hartwell Analytics story](hartwell-post-call-transcript.md) for one deal and adds four more. Nothing here is a real CRM record.
 
 The salesperson is Shaun, a fictional account executive. Below is a snapshot of his open pipeline as it currently reads in the CRM, followed by the notes and evidence actually available for each deal. The point of the scenario is that the CRM fields and the evidence do not always agree.
 
@@ -10,7 +10,7 @@ Today's date for this snapshot is 15 October.
 
 | Deal | Stage | Value | Close date | Last activity | Next step in CRM |
 | --- | --- | ---: | --- | --- | --- |
-| Northstar Analytics | Negotiation | £48,000 | 30 September | 12 September | (blank) |
+| Hartwell Analytics | Negotiation | £48,000 | 30 September | 12 September | (blank) |
 | Cedarwell Group | Qualification | £30,000 | 31 October | 9 October | Send case study |
 | Meridian Freight | Proposal Sent | £72,000 | 30 September | 2 September | Chase proposal |
 | Harbourview Media | Verbal Commit | £55,000 | 20 October | 25 September | Send contract |
@@ -18,9 +18,9 @@ Today's date for this snapshot is 15 October.
 
 ## What Is Actually Known, Per Deal
 
-### Northstar Analytics
+### Hartwell Analytics
 
-- The pilot succeeded, with a measured drop from around twenty-five minutes to under ten minutes of post-call admin per account executive (see the [business case output](northstar-business-case-output.md)).
+- The pilot succeeded, with a measured drop from around twenty-five minutes to under ten minutes of post-call admin per account executive (see the [business case output](hartwell-business-case-output.md)).
 - Priya Chen, the Sales Director and decision-maker, said in writing she was not proceeding "this cycle" because of a tighter budget and a team reorganisation, and would "keep this in mind for later in the year."
 - The recorded close date of 30 September has already passed. No activity since 12 September.
 - The stage still reads Negotiation. Nothing in the evidence shows an active negotiation. The last real event was a paused decision.
@@ -55,7 +55,7 @@ Today's date for this snapshot is 15 October.
 
 ## Deliberate Test Points
 
-- **Northstar**: the stage (Negotiation) overstates reality (a paused decision), and the close date is overdue. The evidence for the underlying problem still stands, which is separate from the deal being mis-staged.
+- **Hartwell**: the stage (Negotiation) overstates reality (a paused decision), and the close date is overdue. The evidence for the underlying problem still stands, which is separate from the deal being mis-staged.
 - **Cedarwell**: the stage and close date run ahead of the evidence. Qualification is recorded as done when it has barely begun.
 - **Meridian**: "Proposal Sent" is a true record of an action but not evidence of a live deal. Silence for six weeks is the real signal.
 - **Harbourview**: the recorded stage depends on a person who has left. The next step is impossible as written.

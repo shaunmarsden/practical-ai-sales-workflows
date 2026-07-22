@@ -21,4 +21,4 @@ This is deliberately an incomplete week, not a tidy one, since a real week rarel
 - **The report should synthesise, not re-derive.** The pipeline evidence review and CRM hygiene review have already done the underlying analysis; this workflow's job is to pull the headline findings into one weekly view, not repeat that analysis from scratch.
 - **The Cedarwell message has not been sent.** It should appear as a new signal and a planned next step, not as completed outreach activity.
 - **Only one meeting is confirmed.** The report should not imply a fuller calendar than the one entry actually supplied.
-- **The three priorities for next week should come from what has actually been found**, such as the Northstar duplicate needing confirmation before any pipeline total is trusted, rather than generic advice that could apply to any week.
+- **The three priorities for next week should come from what has actually been found**, such as the Hartwell duplicate needing confirmation before any pipeline total is trusted, rather than generic advice that could apply to any week.

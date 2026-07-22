@@ -41,7 +41,7 @@ The agent will offer:
 2. **Set up my sales context**
    Create a private local file describing your role, company and working rules.
 3. **Try a fictional example**
-   Walk through an existing Northstar example before using any real information.
+   Walk through an existing Hartwell example before using any real information.
 4. **Solve a sales problem**
    Choose the job you need help with and use the relevant existing workflow or skill.
 
@@ -65,17 +65,17 @@ You can skip this setup and give the minimum information manually for one conver
 
 ## Try a Fictional Example First
 
-The Northstar examples let you see the method without using customer data.
+The Hartwell examples let you see the method without using customer data.
 
 A good first request is:
 
-> Walk me through the fictional Northstar post call example. Show me what the workflow got right and what still needed checking.
+> Walk me through the fictional Hartwell post call example. Show me what the workflow got right and what still needed checking.
 
 The agent should read:
 
-- [The fictional transcript](../examples/northstar-post-call-transcript.md)
-- [The finished output](../examples/northstar-post-call-output.md)
-- [The honest evaluation](../evaluations/northstar-post-call-review.md)
+- [The fictional transcript](../examples/hartwell-post-call-transcript.md)
+- [The finished output](../examples/hartwell-post-call-output.md)
+- [The honest evaluation](../evaluations/hartwell-post-call-review.md)
 
 ## Personalise a Workflow
 
