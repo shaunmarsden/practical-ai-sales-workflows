@@ -1,6 +1,6 @@
 # Recipe Cards
 
-Thirteen sales jobs, one page each. Every card is self-contained: what it helps with, what you need, what you'll get, what the AI cannot decide, what you must check, and what to do next. You should never need to open anything else in the repository to use one.
+Fourteen sales jobs, one page each. Every card is self-contained: what it helps with, what you need, what you'll get, what the AI cannot decide, what you must check, and what to do next. You should never need to open anything else in the repository to use one.
 
 If you want the fuller method, the guardrails, or a second worked test for any of these, each card links to the full workflow, prompt, or skill behind it.
 
@@ -8,6 +8,7 @@ If you want the fuller method, the guardrails, or a second worked test for any o
 - [Prepare for a Sales Call](prepare-for-a-sales-call.md)
 - [Follow Up After a Sales Call](follow-up-after-a-sales-call.md)
 - [Build a Business Case](build-a-business-case.md)
+- [Help a Champion Carry Your Case](help-a-champion-carry-your-case.md)
 - [Chase a Quiet Prospect](chase-a-quiet-prospect.md)
 - [Handle an Objection](handle-an-objection.md)
 - [Spot a Real Objection Pattern](spot-a-real-objection-pattern.md)

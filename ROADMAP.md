@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A champion enablement vertical**: a [workflow](workflows/12-champion-enablement.md), [prompt template](templates/champion-enablement-prompt.md), a fictional [Hartwell scenario](examples/hartwell-champion-enablement-input.md) and [output](examples/hartwell-champion-enablement-output.md), a [scored evaluation](evaluations/hartwell-champion-enablement-review.md) (47/50), and a [skill](.agents/skills/champion-enablement/SKILL.md). Continues the Hartwell story rather than inventing a new one: Alex Morgan, the existing champion, needs to carry the already-built business case to Priya Chen at the QBR, plus a short internal note to Hartwell's Head of IT and Compliance chasing a still-outstanding data-handling confirmation. Built to deliberately test, and hold, the guardrail against assuming a stakeholder's priority from their job title: Priya's actual confirmed concern is CRM visibility, not the AE quota or deal velocity her Sales Director title might suggest. Built ahead of this repository's own usual bar of real-use evidence before a new vertical, as part of a deliberate pre-launch content push; it is fictional-tested only for now, same as every other vertical before its own first real test.
+
 - **Outbound message structure refinements, mostly shipped**: the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md) now state the front-end-offer distinction explicitly, add a subject-line and preview-text rule, and add two anti-pattern guardrail lines against manufactured interest and invented scarcity. Applied, not just written: the subject line in the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) was updated to actually follow the new rule, with the change and why the score did not need revisiting noted honestly in [its evaluation](evaluations/cedarwell-outbound-review.md). One piece of the original backlog idea is deliberately left open, a deliberately weak worked example for contrast, since it is a larger, separate piece of fictional content.
 
 - **Skill handoff contracts**: a new [guide](guides/skill-handoff-contracts.md) stating the six things that should pass between two skills run in sequence on the same call (what's confirmed, what's inferred or estimated, what's missing, which source backs each point, what the next skill may do with it, what still requires a person). Grounded in a real worked example rather than an abstract rule: the extract-post-call-evidence to draft-follow-up-email handoff, annotated against the existing fictional [Hartwell post-call output](examples/hartwell-post-call-output.md), which already had to get every one of these six things right to be a finished example. A documentation and discipline standard, not new automation; nothing here proposes piping one skill's output into the next without a person in between.
@@ -345,9 +347,7 @@ These states must remain configurable and should not be treated as universal sal
 
 #### Champion enablement and multithreading
 
-Help an internal supporter communicate a well-evidenced case to other stakeholders. Possible outputs include a decision summary, internal email, role-specific evidence and questions that remain unanswered.
-
-Do not assume a stakeholder's priorities from their job title. Do not contact additional stakeholders or go over the main contact's head without explicit approval and appropriate context.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/12-champion-enablement.md). Built ahead of the usual real-use-evidence bar for a new vertical, as part of a deliberate pre-launch push; it needs a real test like everything else here.
 
 #### Fit and limitations review
 
