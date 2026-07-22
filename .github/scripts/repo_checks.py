@@ -6,7 +6,13 @@ easy to make in a public repository of this kind: broken links, malformed
 skill frontmatter, examples that are not clearly labelled as fictional,
 accidental employer or private references, secret-like values, unfinished
 placeholder text, a committed private context file, duplicate skill names,
-and a skill missing any human-review or limitation language.
+a skill missing any human-review or limitation language, email addresses,
+phone numbers, and any term in an optional local, never-committed
+blocklist (.github/private-blocklist.txt).
+
+Not covered, and not realistically checkable by a deterministic script: an
+unexpected commercial figure. That needs a person who knows what the real
+numbers should look like.
 
 These checks confirm structure and hygiene. They do not, and cannot, judge
 whether the commercial content is correct. That still needs a person.
@@ -190,6 +196,54 @@ for f in ALL:
     if not HUMAN_REVIEW.search(read(f)):
         fail("missing-human-review-language", f,
              "no human review, approval, or limitation language found")
+
+
+# 10. Email addresses
+EMAIL = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
+for f in CONTENT:
+    for i, line in enumerate(read(f).splitlines(), 1):
+        for m in EMAIL.finditer(line):
+            fail("email-address", f"{f}:{i}", m.group())
+
+
+# 11. Phone numbers. A single regex for this is either too loose (catches
+# currency figures, scores, dates) or too strict (misses real formats), so
+# this finds digit-and-separator candidates first, then filters by total
+# digit count and a leading + or 0, which is what actually distinguishes a
+# phone number from a figure like "48,000" or a date like "19 July 2026".
+PHONE_CANDIDATE = re.compile(r"\+?\(?\d[\d\s().\-]{7,}\d")
+
+
+def looks_like_phone(candidate):
+    digits = re.sub(r"\D", "", candidate)
+    if not (9 <= len(digits) <= 15):
+        return False
+    return candidate.strip().startswith("+") or digits.startswith("0")
+
+
+for f in CONTENT:
+    for i, line in enumerate(read(f).splitlines(), 1):
+        for m in PHONE_CANDIDATE.finditer(line):
+            if looks_like_phone(m.group()):
+                fail("phone-number", f"{f}:{i}", m.group().strip())
+
+
+# 12. Optional local blocklist. Never committed (listed in .gitignore), so
+# this lets a reader flag their own project-specific private terms, a real
+# client name, an internal codename, without editing this script or the
+# public repository ever containing the term it is flagging.
+BLOCKLIST_PATH = ".github/private-blocklist.txt"
+if os.path.exists(BLOCKLIST_PATH):
+    terms = [
+        t.strip() for t in read(BLOCKLIST_PATH).splitlines()
+        if t.strip() and not t.strip().startswith("#")
+    ]
+    for f in CONTENT:
+        text = read(f)
+        for term in terms:
+            if term.lower() in text.lower():
+                fail("private-blocklist-term", f,
+                     f"matched blocklisted term '{term}'")
 
 
 # Report

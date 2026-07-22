@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Local pre-commit hook: run the repository's own safety and quality checks
+# before allowing a commit to complete.
+#
+# Not installed automatically; git only runs hooks from .git/hooks by
+# default; enable this one per clone with:
+#
+#   git config core.hooksPath .github/hooks
+#
+# To go back to git's default hooks location:
+#
+#   git config --unset core.hooksPath
+
+set -e
+repo_root="$(git rev-parse --show-toplevel)"
+python3 "$repo_root/.github/scripts/repo_checks.py"

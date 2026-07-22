@@ -1,6 +1,10 @@
 # Private local sales context
 context/sales-context.md
 
+# Local, never-committed list of project-specific terms to flag; read by
+# .github/scripts/repo_checks.py if present, ignored entirely if not
+.github/private-blocklist.txt
+
 # Local environment files
 .env
 .env.*
