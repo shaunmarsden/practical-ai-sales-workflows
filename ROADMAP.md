@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A GitHub social preview image**, so the repository shows something other than a blank card when the link is shared. Generated with Gemini rather than built by hand, since image generation is not something this repository's own tools do; set via the repository's Settings, not a tracked file, so it will not appear in any diff.
+
 - **Workflow recipe cards**: a [one-page card](recipes/README.md) per sales job, thirteen in total, each self-contained (what it helps with, what you need, what it produces, what the AI cannot decide, what you must check, what to do next) so a reader never has to open the full workflow to use one. Built from what already existed in each workflow's At a Glance table and check-before-you-send list, not new content, and linked from the main [README](README.md) and [AGENTS.md](AGENTS.md) alongside the existing routes rather than replacing them.
 
 - **Two more real usability tests, both earned real fixes.** Post-call follow-up was run against a real call and checked against the email actually sent afterwards: the sent version was genuinely richer than the draft in places a generic template could not reach, which led to two fixes now in [the draft-follow-up-email skill](.agents/skills/draft-follow-up-email/references/template-and-checklist.md). A chase-sequence test on a real, stalled deal turned up a sharper problem: Granola and Gmail alone showed a plausible stall, but the CRM's own activity timeline recorded an explicit decline and a since-corrected stage, something neither notes nor email ever surfaced. Nothing was sent on that deal. The general lesson, that meeting notes and email are not a substitute for the CRM and the CRM is not a substitute for them, is now a standing rule in [METHODOLOGY.md](METHODOLOGY.md).
@@ -34,7 +36,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 - A worked example of a dedicated automation or orchestration tool, once the underlying workflows are proven stable enough to hand to something unattended. See the orchestrator section in [Get More From Your AI](guides/get-more-from-your-ai.md) for the concept; no specific tool has been named, since it is a bigger technical step than anything else in the repository and not every reader needs it.
 - Better voices for the interactive demo, if a real (non-browser) TTS API is ever worth the cost and complexity for what is currently a one-page static demo.
-- Purposeful visuals for sharing, best done in a concentrated session: a social preview card and a cross-model comparison graphic are the highest-value pieces. Several process diagrams already exist as Mermaid and render on GitHub, so they do not need rebuilding as static images.
+- A cross-model comparison graphic, the remaining piece of the "purposeful visuals for sharing" idea. Several process diagrams already exist as Mermaid and render on GitHub, so they do not need rebuilding as static images.
 
 ## Backlog
 
