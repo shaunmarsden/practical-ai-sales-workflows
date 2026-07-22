@@ -10,7 +10,11 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 - **An outbound campaign learning review structure**: [a prompt](templates/outbound-campaign-learning-review-prompt.md) covering what to record after a real outbound campaign, audience, signal source, offer and message, the single variable actually tested, raw numbers through to qualified opportunities, and what makes the comparison uncertain. Deliberately not built as a full workflow with a fictional example and scored evaluation yet, following the backlog item's own explicit instruction to try the structure on a real campaign first and check whether it leads to a better next test, not just a tidy report, before it earns the same treatment as the tested verticals.
 
-- **Outbound message structure refinements, mostly shipped**: the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md) now state the front-end-offer distinction explicitly, add a subject-line and preview-text rule, and add two anti-pattern guardrail lines against manufactured interest and invented scarcity. Applied, not just written: the subject line in the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) was updated to actually follow the new rule, with the change and why the score did not need revisiting noted honestly in [its evaluation](evaluations/cedarwell-outbound-review.md). One piece of the original backlog idea is deliberately left open, a deliberately weak worked example for contrast, since it is a larger, separate piece of fictional content.
+- **A champion enablement vertical**: a [workflow](workflows/12-champion-enablement.md), [prompt template](templates/champion-enablement-prompt.md), a fictional [Hartwell scenario](examples/hartwell-champion-enablement-input.md) and [output](examples/hartwell-champion-enablement-output.md), a [scored evaluation](evaluations/hartwell-champion-enablement-review.md) (47/50), and a [skill](.agents/skills/champion-enablement/SKILL.md). Continues the Hartwell story rather than inventing a new one: Alex Morgan, the existing champion, needs to carry the already-built business case to Priya Chen at the QBR, plus a short internal note to Hartwell's Head of IT and Compliance chasing a still-outstanding data-handling confirmation. Built to deliberately test, and hold, the guardrail against assuming a stakeholder's priority from their job title: Priya's actual confirmed concern is CRM visibility, not the AE quota or deal velocity her Sales Director title might suggest. Built ahead of this repository's own usual bar of real-use evidence before a new vertical, as part of a deliberate pre-launch content push; it is fictional-tested only for now, same as every other vertical before its own first real test.
+
+- **Chase sequence follow-up structure**: the [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md) and its [sequence stages reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md) now state the shape across early, middle, late and final chases as an escalating-friction curve, not an escalating-urgency one: the earliest chase can carry the real ask, later ones ask for something smaller. Each chase should also stand alone rather than assume the earlier ones were read. A new rule against reminding a quiet prospect that previous messages were sent is scoped carefully to exclude the close-out stage, whose entire job is to acknowledge the sequence honestly, so the new rule does not quietly contradict guidance already there.
+
+- **Outbound message structure refinements are complete**: the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md) state the front-end-offer distinction explicitly, add a subject-line and preview-text rule, and add two anti-pattern guardrail lines against manufactured interest and invented scarcity. Applied, not just written: the subject line in the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) was updated to actually follow the new rule, with the change noted in [its evaluation](evaluations/cedarwell-outbound-review.md), and a new [deliberately weak version of the same message](examples/cedarwell-outbound-weak-example.md) breaks every guardrail on purpose, annotated point by point, alongside the good one.
 
 - **Skill handoff contracts**: a new [guide](guides/skill-handoff-contracts.md) stating the six things that should pass between two skills run in sequence on the same call (what's confirmed, what's inferred or estimated, what's missing, which source backs each point, what the next skill may do with it, what still requires a person). Grounded in a real worked example rather than an abstract rule: the extract-post-call-evidence to draft-follow-up-email handoff, annotated against the existing fictional [Hartwell post-call output](examples/hartwell-post-call-output.md), which already had to get every one of these six things right to be a finished example. A documentation and discipline standard, not new automation; nothing here proposes piping one skill's output into the next without a person in between.
 
@@ -268,17 +272,11 @@ Both routes should include evidence checks before contact discovery or enrichmen
 
 #### Outbound message structure refinements
 
-**Mostly shipped.** The front-end-offer distinction, the subject-line and preview-text rule, and the two anti-pattern guardrail lines are now in the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md). The subject-line rule was applied to the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) rather than left untested, with the change noted in [its evaluation](evaluations/cedarwell-outbound-review.md).
-
-Still open: a worked, deliberately weak example email, buries the ask, opens with "hope this finds you well," leads with who-you-are before value, uses jargon the buyer will not recognise, clearly labelled as the wrong example, alongside the existing good one. Genuinely useful for training the eye, but a separate, larger piece of fictional content than the rest of this item.
+**Shipped**, see [Done Recently](#done-recently) above.
 
 #### Chase sequence follow-up structure
 
-A structural refinement to the existing [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md), for the case where chasing is actually the right call:
-
-- An escalating-friction shape across chases, not a repeated reminder: the first chase can carry the real ask; if that goes quiet, the next one drops to something easier to say yes to (a shorter question, a smaller offer), rather than repeating the same ask with more urgency.
-- Each chase should stand alone. A prospect who only ever sees the second or third message should not need to scroll up to make sense of it, and each one should add exactly one new thing, an answer to a likely objection, one further piece of evidence, rather than just restating the last message.
-- A specific rule worth testing: do not remind a quiet prospect that you have already emailed them ("I've sent a couple of notes but haven't heard back"). It reads as pressure about your own pipeline, not something for the prospect, and plausibly reduces the odds of a reply rather than raising them.
+**Shipped**, see [Done Recently](#done-recently) above for the [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md).
 
 #### Channel-escalation sequencing for a stalled chase
 
@@ -332,9 +330,7 @@ These states must remain configurable and should not be treated as universal sal
 
 #### Champion enablement and multithreading
 
-Help an internal supporter communicate a well-evidenced case to other stakeholders. Possible outputs include a decision summary, internal email, role-specific evidence and questions that remain unanswered.
-
-Do not assume a stakeholder's priorities from their job title. Do not contact additional stakeholders or go over the main contact's head without explicit approval and appropriate context.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/12-champion-enablement.md). Built ahead of the usual real-use-evidence bar for a new vertical, as part of a deliberate pre-launch push; it needs a real test like everything else here.
 
 #### Fit and limitations review
 

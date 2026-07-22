@@ -32,7 +32,7 @@ Want the short version, one page per job, nothing else to read? [Open the recipe
 
 Pick a target and draft a first-touch message worth a reply, without a generic hook or a meeting-led ask.
 
-**Start here:** [Open the workflow](workflows/09-outbound-prospecting.md) · [See the Cedarwell signal](examples/cedarwell-outbound-input.md) · [See the completed output](examples/cedarwell-outbound-output.md) · [Use the prompt](templates/outbound-prospecting-prompt.md)
+**Start here:** [Open the workflow](workflows/09-outbound-prospecting.md) · [See the Cedarwell signal](examples/cedarwell-outbound-input.md) · [See the completed output](examples/cedarwell-outbound-output.md) · [See a deliberately weak version, for contrast](examples/cedarwell-outbound-weak-example.md) · [Use the prompt](templates/outbound-prospecting-prompt.md)
 
 **Use with AI:** [Plan outbound prospecting](.agents/skills/outbound-prospecting/SKILL.md)
 
@@ -69,6 +69,16 @@ Turn call evidence into a tailored business case for the person who was not on t
 **Use with AI:** [Build or audit a business case](.agents/skills/build-business-case/SKILL.md)
 
 **Just the one page:** [Recipe card](recipes/build-a-business-case.md)
+
+### 🗣️ Help a Champion Carry Your Case
+
+Prepare an internal champion to present or forward your case to other stakeholders, without assuming what they care about from their job title, and without contacting anyone beyond the champion yourself.
+
+**Start here:** [Open the workflow](workflows/12-champion-enablement.md) · [See the Hartwell scenario](examples/hartwell-champion-enablement-input.md) · [See the completed output](examples/hartwell-champion-enablement-output.md) · [Read the honest review](evaluations/hartwell-champion-enablement-review.md)
+
+**Use with AI:** [Champion enablement](.agents/skills/champion-enablement/SKILL.md)
+
+**Just the one page:** [Recipe card](recipes/help-a-champion-carry-your-case.md)
 
 ### 🔁 Chase a Quiet Prospect
 

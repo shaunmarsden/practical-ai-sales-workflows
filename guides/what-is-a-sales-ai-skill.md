@@ -34,6 +34,7 @@ Most skills here use the same fictional Hartwell conversation, so none of them c
 
 - [Extract Post Call Evidence](../.agents/skills/extract-post-call-evidence/SKILL.md) — separates facts from assumptions after a call and suggests a next step
 - [Build Business Case](../.agents/skills/build-business-case/SKILL.md) — turns call evidence into a tailored business case for the actual decision maker
+- [Champion Enablement](../.agents/skills/champion-enablement/SKILL.md) — prepares an internal champion to carry that case to other stakeholders, without guessing what they care about
 - [Draft Follow-Up Email](../.agents/skills/draft-follow-up-email/SKILL.md) — personalises a fixed post-call email template, including for multiple recipients
 - [Plan Chase Sequence](../.agents/skills/plan-chase-sequence/SKILL.md) — decides what, if anything, to send a prospect who has gone quiet
 - [Respond to an Objection](../.agents/skills/objection-response/SKILL.md) — diagnoses what is actually driving a stated objection before answering it
