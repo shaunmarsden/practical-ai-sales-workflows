@@ -26,6 +26,7 @@ flowchart TB
 - [Use the Outbound Prospecting prompt](../templates/outbound-prospecting-prompt.md)
 - [See the fictional Cedarwell signal](../examples/cedarwell-outbound-input.md)
 - [See the completed output](../examples/cedarwell-outbound-output.md)
+- [See a deliberately weak version of the same message, and exactly why](../examples/cedarwell-outbound-weak-example.md)
 - [Read the honest review](../evaluations/cedarwell-outbound-review.md)
 - [Use with AI: the outbound-prospecting skill](../.agents/skills/outbound-prospecting/SKILL.md)
 

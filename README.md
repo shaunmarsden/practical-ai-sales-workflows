@@ -32,7 +32,7 @@ Want the short version, one page per job, nothing else to read? [Open the recipe
 
 Pick a target and draft a first-touch message worth a reply, without a generic hook or a meeting-led ask.
 
-**Start here:** [Open the workflow](workflows/09-outbound-prospecting.md) · [See the Cedarwell signal](examples/cedarwell-outbound-input.md) · [See the completed output](examples/cedarwell-outbound-output.md) · [Use the prompt](templates/outbound-prospecting-prompt.md)
+**Start here:** [Open the workflow](workflows/09-outbound-prospecting.md) · [See the Cedarwell signal](examples/cedarwell-outbound-input.md) · [See the completed output](examples/cedarwell-outbound-output.md) · [See a deliberately weak version, for contrast](examples/cedarwell-outbound-weak-example.md) · [Use the prompt](templates/outbound-prospecting-prompt.md)
 
 **Use with AI:** [Plan outbound prospecting](.agents/skills/outbound-prospecting/SKILL.md)
 
