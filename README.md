@@ -70,6 +70,16 @@ Turn call evidence into a tailored business case for the person who was not on t
 
 **Just the one page:** [Recipe card](recipes/build-a-business-case.md)
 
+### 🗣️ Help a Champion Carry Your Case
+
+Prepare an internal champion to present or forward your case to other stakeholders, without assuming what they care about from their job title, and without contacting anyone beyond the champion yourself.
+
+**Start here:** [Open the workflow](workflows/12-champion-enablement.md) · [See the Hartwell scenario](examples/hartwell-champion-enablement-input.md) · [See the completed output](examples/hartwell-champion-enablement-output.md) · [Read the honest review](evaluations/hartwell-champion-enablement-review.md)
+
+**Use with AI:** [Champion enablement](.agents/skills/champion-enablement/SKILL.md)
+
+**Just the one page:** [Recipe card](recipes/help-a-champion-carry-your-case.md)
+
 ### 🔁 Chase a Quiet Prospect
 
 Decide what, if anything, to send next, rather than working through a fixed run of increasingly persistent emails.

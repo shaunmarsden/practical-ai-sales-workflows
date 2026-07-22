@@ -172,6 +172,14 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Bramfield output](examples/bramfield-business-case-output.md)
 - [Bramfield evaluation](evaluations/bramfield-business-case-review.md)
 
+### Champion Enablement
+
+- [Workflow](workflows/12-champion-enablement.md)
+- [Champion Enablement skill](.agents/skills/champion-enablement/SKILL.md)
+- [Hartwell scenario](examples/hartwell-champion-enablement-input.md)
+- [Hartwell output](examples/hartwell-champion-enablement-output.md)
+- [Evaluation](evaluations/hartwell-champion-enablement-review.md)
+
 ### Chase Planning
 
 - [Plan Chase Sequence](.agents/skills/plan-chase-sequence/SKILL.md)
