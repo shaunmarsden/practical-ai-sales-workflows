@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **An outbound campaign learning review structure**: [a prompt](templates/outbound-campaign-learning-review-prompt.md) covering what to record after a real outbound campaign, audience, signal source, offer and message, the single variable actually tested, raw numbers through to qualified opportunities, and what makes the comparison uncertain. Deliberately not built as a full workflow with a fictional example and scored evaluation yet, following the backlog item's own explicit instruction to try the structure on a real campaign first and check whether it leads to a better next test, not just a tidy report, before it earns the same treatment as the tested verticals.
+
 - **A champion enablement vertical**: a [workflow](workflows/12-champion-enablement.md), [prompt template](templates/champion-enablement-prompt.md), a fictional [Hartwell scenario](examples/hartwell-champion-enablement-input.md) and [output](examples/hartwell-champion-enablement-output.md), a [scored evaluation](evaluations/hartwell-champion-enablement-review.md) (47/50), and a [skill](.agents/skills/champion-enablement/SKILL.md). Continues the Hartwell story rather than inventing a new one: Alex Morgan, the existing champion, needs to carry the already-built business case to Priya Chen at the QBR, plus a short internal note to Hartwell's Head of IT and Compliance chasing a still-outstanding data-handling confirmation. Built to deliberately test, and hold, the guardrail against assuming a stakeholder's priority from their job title: Priya's actual confirmed concern is CRM visibility, not the AE quota or deal velocity her Sales Director title might suggest. Built ahead of this repository's own usual bar of real-use evidence before a new vertical, as part of a deliberate pre-launch content push; it is fictional-tested only for now, same as every other vertical before its own first real test.
 
 - **Chase sequence follow-up structure**: the [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md) and its [sequence stages reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md) now state the shape across early, middle, late and final chases as an escalating-friction curve, not an escalating-urgency one: the earliest chase can carry the real ask, later ones ask for something smaller. Each chase should also stand alone rather than assume the earlier ones were read. A new rule against reminding a quiet prospect that previous messages were sent is scoped carefully to exclude the close-out stage, whose entire job is to acknowledge the sequence honestly, so the new rule does not quietly contradict guidance already there.
@@ -244,22 +246,7 @@ Record when a custom instruction was used. Do not hide the instruction that prod
 
 #### Outbound campaign learning review
 
-Review an outbound campaign without treating reply rate as the result or changing several things at once and guessing what made the difference.
-
-The review should record:
-
-- the audience and why it was selected;
-- the signal or data source used;
-- the front-end offer, message and call to action;
-- the single variable being tested and what stayed the same;
-- messages delivered, total replies and positive replies;
-- meetings booked, meetings attended and qualified opportunities;
-- anything that makes the comparison uncertain;
-- what to keep, stop or test next.
-
-Do not present one campaign, a fixed sample size or somebody else's benchmark as proof of what should work everywhere. Compare like with like, mark small or mixed samples as inconclusive, and change one meaningful variable at a time where practical.
-
-Before building this as a full workflow, use the structure on a real campaign and check whether it leads to a better next test rather than merely producing a tidy report.
+**The structure is written**, see [Done Recently](#done-recently) above for [the prompt](templates/outbound-campaign-learning-review-prompt.md). Deliberately not a full workflow yet: use it on a real campaign first and check whether it actually leads to a better next test, not just a tidy report, before it earns a fictional example, an evaluation, and a place in the main problem list alongside the tested verticals.
 
 #### Signal-to-hypothesis outbound
 
