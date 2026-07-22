@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **An outbound campaign learning review structure**: [a prompt](templates/outbound-campaign-learning-review-prompt.md) covering what to record after a real outbound campaign, audience, signal source, offer and message, the single variable actually tested, raw numbers through to qualified opportunities, and what makes the comparison uncertain. Deliberately not built as a full workflow with a fictional example and scored evaluation yet, following the backlog item's own explicit instruction to try the structure on a real campaign first and check whether it leads to a better next test, not just a tidy report, before it earns the same treatment as the tested verticals.
+
 - **Outbound message structure refinements, mostly shipped**: the [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) and [workflow](workflows/09-outbound-prospecting.md) now state the front-end-offer distinction explicitly, add a subject-line and preview-text rule, and add two anti-pattern guardrail lines against manufactured interest and invented scarcity. Applied, not just written: the subject line in the existing [Cedarwell worked example](examples/cedarwell-outbound-output.md) was updated to actually follow the new rule, with the change and why the score did not need revisiting noted honestly in [its evaluation](evaluations/cedarwell-outbound-review.md). One piece of the original backlog idea is deliberately left open, a deliberately weak worked example for contrast, since it is a larger, separate piece of fictional content.
 
 - **Skill handoff contracts**: a new [guide](guides/skill-handoff-contracts.md) stating the six things that should pass between two skills run in sequence on the same call (what's confirmed, what's inferred or estimated, what's missing, which source backs each point, what the next skill may do with it, what still requires a person). Grounded in a real worked example rather than an abstract rule: the extract-post-call-evidence to draft-follow-up-email handoff, annotated against the existing fictional [Hartwell post-call output](examples/hartwell-post-call-output.md), which already had to get every one of these six things right to be a finished example. A documentation and discipline standard, not new automation; nothing here proposes piping one skill's output into the next without a person in between.
@@ -240,22 +242,7 @@ Record when a custom instruction was used. Do not hide the instruction that prod
 
 #### Outbound campaign learning review
 
-Review an outbound campaign without treating reply rate as the result or changing several things at once and guessing what made the difference.
-
-The review should record:
-
-- the audience and why it was selected;
-- the signal or data source used;
-- the front-end offer, message and call to action;
-- the single variable being tested and what stayed the same;
-- messages delivered, total replies and positive replies;
-- meetings booked, meetings attended and qualified opportunities;
-- anything that makes the comparison uncertain;
-- what to keep, stop or test next.
-
-Do not present one campaign, a fixed sample size or somebody else's benchmark as proof of what should work everywhere. Compare like with like, mark small or mixed samples as inconclusive, and change one meaningful variable at a time where practical.
-
-Before building this as a full workflow, use the structure on a real campaign and check whether it leads to a better next test rather than merely producing a tidy report.
+**The structure is written**, see [Done Recently](#done-recently) above for [the prompt](templates/outbound-campaign-learning-review-prompt.md). Deliberately not a full workflow yet: use it on a real campaign first and check whether it actually leads to a better next test, not just a tidy report, before it earns a fictional example, an evaluation, and a place in the main problem list alongside the tested verticals.
 
 #### Signal-to-hypothesis outbound
 
