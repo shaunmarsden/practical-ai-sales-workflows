@@ -252,6 +252,8 @@ Turn public company signals into clearly labelled commercial hypotheses:
 - a safe outreach angle;
 - reasons not to use it.
 
+Worth naming a few concrete, verifiable signal categories rather than leaving "a specific signal" abstract: audience or follower size as a proxy for growth intent, active ad spend as a proxy for investment intent, and active hiring for a role the offer would replace as a proxy for a live, current problem. All three are checkable facts, not a guess about internal state, so they fit the existing [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md)'s requirement for a real, verifiable signal rather than a generic industry trend.
+
 #### Company-first and signal-first prospecting
 
 Document two different starting routes:
@@ -260,6 +262,27 @@ Document two different starting routes:
 - signal-first, when accounts are discovered from a relevant public event.
 
 Both routes should include evidence checks before contact discovery or enrichment.
+
+#### Outbound message structure refinements
+
+A few sharper drafting rules for the existing [outbound prospecting workflow](workflows/09-outbound-prospecting.md) and [skill](.agents/skills/outbound-prospecting/SKILL.md), worth testing rather than assuming:
+
+- Separate the front-end ask from the actual offer explicitly: what the email asks for should be small and low-friction (a short comparison, a quick answer, a mini version of the real work), never the paid service itself. The skill already avoids a meeting-led ask; this sharpens why a smaller ask works, not just that one should exist.
+- Subject line and preview text as their own drafting step, not an afterthought: short, unstyled, never naming the actual offer or mechanism, since a subject line that gives away the pitch measurably reduces opens.
+- A worked, deliberately weak example email is at least as useful as another polished one for training the eye: buries the ask, opens with "hope this finds you well" or leads with who-you-are before value, uses jargon the buyer will not recognise. Keep it clearly fictional and clearly labelled as the wrong example, alongside a good one.
+- Two clean, safe-to-use anti-pattern lines for whichever guardrail section covers manufactured urgency: implying a buyer is "already interested" when nothing confirms that, and inventing scarcity ("only a couple of slots left") that is not real. Concrete, citable, and exactly what the skill's guardrails already forbid in principle.
+
+#### Chase sequence follow-up structure
+
+A structural refinement to the existing [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md), for the case where chasing is actually the right call:
+
+- An escalating-friction shape across chases, not a repeated reminder: the first chase can carry the real ask; if that goes quiet, the next one drops to something easier to say yes to (a shorter question, a smaller offer), rather than repeating the same ask with more urgency.
+- Each chase should stand alone. A prospect who only ever sees the second or third message should not need to scroll up to make sense of it, and each one should add exactly one new thing, an answer to a likely objection, one further piece of evidence, rather than just restating the last message.
+- A specific rule worth testing: do not remind a quiet prospect that you have already emailed them ("I've sent a couple of notes but haven't heard back"). It reads as pressure about your own pipeline, not something for the prospect, and plausibly reduces the odds of a reply rather than raising them.
+
+#### Channel-escalation sequencing for a stalled chase
+
+Flagged rather than recommended: the idea of a defined channel order (email, then a different channel, then a call) once a prospect has gone quiet on the first one. The underlying sequencing logic, do not escalate to a new channel before the first one has had a fair chance to be read, might be worth documenting as a principle. Most of the practical implementation of this (automated cross-channel triggers, auto-dialling) does not fit this repository's human-approval-first model and should not be built as described; if this moves forward at all, it should be the decision logic only, left for a person to act on.
 
 #### Pipeline evidence review
 
