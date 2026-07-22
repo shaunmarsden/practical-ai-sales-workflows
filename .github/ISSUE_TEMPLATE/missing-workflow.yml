@@ -1,0 +1,66 @@
+name: Request a missing sales workflow
+description: A sales job you need help with that nothing here already covers.
+title: "[Missing workflow] "
+labels:
+  - missing-workflow
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This isn't a bug report. It's a way to turn a real sales job into evidence for what gets built next, rather than a broad suggestion with no context behind it. See [ROADMAP.md](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/ROADMAP.md) for what's already planned and [CONTRIBUTING.md](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/CONTRIBUTING.md) for what "done" means here.
+
+  - type: checkboxes
+    id: checked-existing
+    attributes:
+      label: Before you file this
+      options:
+        - label: I've checked the [existing workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows#-choose-a-sales-problem) and [recipe cards](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/README.md), and this genuinely isn't covered.
+          required: true
+
+  - type: textarea
+    id: job
+    attributes:
+      label: What sales job are you trying to complete?
+      description: The actual job, not a tool you think should exist. "Decide whether to keep chasing a quiet prospect," not "an AI chase bot."
+    validations:
+      required: true
+
+  - type: textarea
+    id: inputs
+    attributes:
+      label: What information do you normally have when you're doing this?
+      description: Call notes, a CRM export, an email thread, whatever's actually available at that point, not what you'd have in an ideal world.
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: What output do you need at the end?
+      description: The thing you'd actually use afterwards. A draft, a decision, a flagged list, a diagnosis.
+    validations:
+      required: true
+
+  - type: textarea
+    id: unsafe
+    attributes:
+      label: What mistakes would make this unsafe or actively harmful?
+      description: An invented commitment, a manufactured deadline, treating an estimate as a fact, whatever's specific to this job.
+    validations:
+      required: true
+
+  - type: textarea
+    id: human
+    attributes:
+      label: What still has to stay with a person?
+      description: Sending anything, changing a CRM record, a judgement call nothing here should make for you.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: How do you do this today, without AI?
+      description: The actual current process, however manual or messy. This is what a new workflow has to genuinely improve on.
+    validations:
+      required: true
