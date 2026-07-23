@@ -47,6 +47,16 @@ Keep these in approved company systems:
 
 Use the minimum information needed. A useful role description is better than a copy of the entire CRM.
 
+## Optional: Map Your Own Qualification Method
+
+If you use a named qualification method (MEDDIC, BANT, a custom internal framework) or your own pipeline stage names, and your employer allows it, [the sales methodology overlay](sales-methodology-overlay.md.example) lets a workflow like pipeline evidence review or objection handling use your own language and criteria instead of a generic one. Copy it the same way:
+
+```text
+cp context/sales-methodology-overlay.md.example context/sales-methodology-overlay.md
+```
+
+This file is also ignored by Git and is entirely optional; every workflow in this repository works without it.
+
 ## How the Agent Uses It
 
 The agent reads the file when a task needs your company or role context. It uses confirmed information directly, keeps inferences labelled and leaves missing information as unknown.
@@ -67,12 +77,12 @@ Ask the agent to review the context when your role, product, process or writing 
 
 To remove it, delete `context/sales-context.md` from your local repository. The public example will remain available if you want to set it up again later.
 
-## Never Commit It
+## Never Commit These
 
-Do not add `context/sales-context.md` to a commit, pull request or public repository.
+Do not add `context/sales-context.md` or `context/sales-methodology-overlay.md` to a commit, pull request or public repository.
 
-Before publishing a change, check that Git still ignores it:
+Before publishing a change, check that Git still ignores them:
 
 ```text
-git check-ignore -v context/sales-context.md
+git check-ignore -v context/sales-context.md context/sales-methodology-overlay.md
 ```

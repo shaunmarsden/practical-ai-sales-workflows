@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A private sales-methodology overlay**: [a template](context/sales-methodology-overlay.md.example) alongside the existing `sales-context.md.example`, letting a reader map their own approved qualification method (MEDDIC, BANT, or their own framework) and pipeline stage names onto the public workflows without publishing internal definitions, stage rules or CRM configuration. Every field is labelled `evidence required` or `judgement call`, so the same discipline the public workflows already use carries into private, unpublished detail rather than being dropped once the file is private. `repo_checks.py` now checks this new private file the same way it already checked `sales-context.md`: never committed, always listed in `.gitignore`, tested by deliberately committing a copy and confirming the checker catches it before reverting.
+
 - **A pre-launch visual pass**: a new [repo-wide overview diagram](README.md) grouping all fourteen verticals by where they sit in a deal, placed right before the long per-problem list so a reader sees the shape of the whole repository before scrolling it. Audited all fourteen workflows' existing Mermaid diagrams for consistency first; found them already uniform (same flowchart style, three steps, same node and arrow syntax), so nothing needed fixing there. Also found and fixed six em dashes in [the interactive demo](docs/index.html), the one house-style rule that page had never actually been checked against, since `repo_checks.py` only scans Markdown, not HTML.
 
 - **An outbound campaign learning review structure**: [a prompt](templates/outbound-campaign-learning-review-prompt.md) covering what to record after a real outbound campaign, audience, signal source, offer and message, the single variable actually tested, raw numbers through to qualified opportunities, and what makes the comparison uncertain. Deliberately not built as a full workflow with a fictional example and scored evaluation yet, following the backlog item's own explicit instruction to try the structure on a real campaign first and check whether it leads to a better next test, not just a tidy report, before it earns the same treatment as the tested verticals.
@@ -348,9 +350,7 @@ If usability testing shows a need, add short routes for account executives, sale
 
 #### Private sales-methodology overlay
 
-Let users map their own approved qualification or sales method onto the repository without publishing internal definitions, stage rules or CRM configuration.
-
-The private template should distinguish fields requiring direct customer evidence from fields that permit salesperson judgement.
+**Shipped**, see [Done Recently](#done-recently) above for the [template](context/sales-methodology-overlay.md.example).
 
 #### Selective installation and platform guidance
 
