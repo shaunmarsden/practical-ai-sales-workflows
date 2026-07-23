@@ -28,39 +28,9 @@ Once a single setup prompt stops being enough on its own, [Get More From Your AI
 
 Want the short version, one page per job, nothing else to read? [Open the recipe cards](recipes/README.md) instead.
 
-```mermaid
-flowchart TB
-    subgraph S1["Before there is a deal"]
-        A1["Find the Next Prospect"]
-    end
-    subgraph S2["Around the call"]
-        A2["Prepare for a Sales Call"]
-        A3["Follow Up After a Sales Call"]
-    end
-    subgraph S3["Build the case"]
-        A15["Check Whether It Actually Fits"]
-        A4["Build a Business Case"]
-        A5["Help a Champion Carry Your Case"]
-    end
-    subgraph S4["Keep it moving"]
-        A6["Chase a Quiet Prospect"]
-        A7["Handle an Objection"]
-        A8["Spot a Real Objection Pattern"]
-        A9["Move a Stalled Decision"]
-    end
-    subgraph S5["Where it ends up"]
-        A10["Hand Over an Opportunity"]
-        A11["Review a Lost Opportunity"]
-    end
-    subgraph S6["Manage the whole pipeline, runs alongside"]
-        A12["Review Your Pipeline"]
-        A13["Keep Your CRM Honest"]
-        A14["Get a Weekly View"]
-    end
-    S1 --> S2 --> S3 --> S4 --> S5
-```
+![Five stage sales cycle showing how AI can help find prospects, prepare calls, progress opportunities, support closing and review outcomes. AI prepares the work, while the salesperson checks it and decides what happens next.](assets/diagrams/practical-ai-across-the-sales-cycle.png)
 
-Fifteen jobs, grouped by where they sit in a deal. Pipeline management runs alongside the others rather than after them; it is not a step every deal passes through in order.
+The visual shows the main sales cycle. The fifteen jobs below cover the work within and around it. Pipeline review, CRM hygiene and the weekly review run alongside the cycle rather than after it.
 
 ### 🔎 Find the Next Prospect
 
