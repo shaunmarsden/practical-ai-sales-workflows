@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A workflow router**: a [guide](guides/workflow-router.md), [skill](.agents/skills/workflow-router/SKILL.md), and [portable prompt](templates/workflow-router-prompt.md) that reads a plain-English description of a sales situation and hands off to whichever of the fifteen existing workflows actually fits, without solving the task itself. Grounded in the real "use this when" line already documented in each workflow, not a separately invented routing scheme, and names the confusions worth checking explicitly (stalled decision versus objection, chase versus lost-opportunity review, fit review versus business case). The worked example in the guide deliberately tests the first of those: a description that could read as an unstated objection but has no specific concern actually raised. Built as a guide and skill rather than a numbered workflow file, the same treatment as skill handoff contracts, since it is cross-cutting infrastructure, not a new sales problem in itself.
+
 - **A pre-launch visual pass**: a new [repo-wide overview diagram](README.md) grouping all fourteen verticals by where they sit in a deal, placed right before the long per-problem list so a reader sees the shape of the whole repository before scrolling it. Audited all fourteen workflows' existing Mermaid diagrams for consistency first; found them already uniform (same flowchart style, three steps, same node and arrow syntax), so nothing needed fixing there. Also found and fixed six em dashes in [the interactive demo](docs/index.html), the one house-style rule that page had never actually been checked against, since `repo_checks.py` only scans Markdown, not HTML.
 
 - **An outbound campaign learning review structure**: [a prompt](templates/outbound-campaign-learning-review-prompt.md) covering what to record after a real outbound campaign, audience, signal source, offer and message, the single variable actually tested, raw numbers through to qualified opportunities, and what makes the comparison uncertain. Deliberately not built as a full workflow with a fictional example and scored evaluation yet, following the backlog item's own explicit instruction to try the structure on a real campaign first and check whether it leads to a better next test, not just a tidy report, before it earns the same treatment as the tested verticals.
@@ -151,25 +153,7 @@ Start with a page that links the relevant files. Do not build an installer until
 
 #### Workflow router
 
-Build a lightweight router that recommends an existing workflow based on:
-
-- the user's goal;
-- the sales stage;
-- the evidence available;
-- the main blocker;
-- whether private company context is required.
-
-The router should not solve the underlying task. It should produce a clean handoff containing:
-
-- the objective;
-- evidence currently available;
-- important missing information;
-- the recommended workflow and skill;
-- why the route fits;
-- what the next skill may produce;
-- what still requires a person.
-
-It should route to existing skills rather than contain every method itself.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/workflow-router.md).
 
 #### Skill handoff contracts
 

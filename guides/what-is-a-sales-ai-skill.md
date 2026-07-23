@@ -43,6 +43,8 @@ Most skills here use the same fictional Hartwell conversation, so none of them c
 
 Running two of these in sequence on the same call? [Skill Handoff Contracts](skill-handoff-contracts.md) covers what should actually pass between them.
 
+Not sure which of these actually fits a situation you're describing? The [Workflow Router](../.agents/skills/workflow-router/SKILL.md) reads it in plain English and hands off to the right one, see the [full guide](workflow-router.md) for a worked example.
+
 ## Before You Use a Skill on Real Work
 
 - Start with a repeated business problem
