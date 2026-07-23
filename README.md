@@ -12,17 +12,19 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 > AI helps with the preparation. The salesperson is still responsible for the judgement.
 
-**Want the repository to guide you?** Open it in Codex or Claude Code and say "help me get started". The agent can give you a tour, set up private sales context, run a fictional example or route you to the right workflow. [See the simple guide](guides/run-this-repository-with-an-ai-coding-agent.md).
+**Not sure where to begin?** [Find the starting point that sounds most like you](guides/where-to-start.md). You can start from scratch, see a finished example or go straight to a sales problem. You do not need any technical knowledge.
 
 ## 🧭 Three Ways to Start
 
-**🌱 New to AI, or want to set it up properly first?** [Find your starting point](guides/where-to-start.md) based on how much you have actually used AI already, then [fill in the About Me Worksheet](templates/about-me-worksheet.md) and [copy the setup prompt](templates/ai-sales-setup-prompt.md), or skip the worksheet and use the [interactive setup prompt](templates/interactive-setup-prompt.md), which asks you the same questions in conversation and writes the finished prompt for you. This works in Claude, ChatGPT, Gemini, Copilot, or anything else with a custom instructions field. If Copilot is the only one your organisation gives you access to, that is a completely normal starting point, not a lesser one.
+**🌱 Want help setting up your AI for sales?** [Start with the simple setup guide](guides/set-up-your-ai-for-sales.md). It works with ChatGPT, Claude, Gemini, Copilot and other general AI tools.
 
 **🎯 Know the sales problem you want help with?** Jump straight to [Choose a Sales Problem](#-choose-a-sales-problem) below and pick from prospecting, call prep, follow-up, business case, chasing, objections, handover, or a lost-opportunity review. Not sure which one actually fits, or two sound similar? The [workflow router](guides/workflow-router.md) reads your situation in plain English and hands off to the right one.
 
 **🧪 Want to see it work before you read anything else?** [Watch a skill actually work &rarr;](https://shaunmarsden.github.io/practical-ai-sales-workflows/). It shows the fictional Hartwell transcript turning into evidence-labelled output, live, with every line traced back to where it came from. Then check the [honest scores](evaluations/sales-ai-output-rubric.md) and the [cross-model comparison](evaluations/cross-model-post-call-comparison.md) rather than taking the demo's word for it.
 
 Once a single setup prompt stops being enough on its own, [Get More From Your AI](guides/get-more-from-your-ai.md) covers projects and knowledge bases, turning repeated prompts into skills, and connecting real tools like a CRM or a transcription app.
+
+**Already use Codex or Claude Code?** The repository can guide you, set up private sales context, run a fictional example or route you to the right workflow. [See the coding agent guide](guides/run-this-repository-with-an-ai-coding-agent.md).
 
 ## 🎯 Choose a Sales Problem
 
