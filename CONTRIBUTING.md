@@ -61,3 +61,7 @@ The public repository stays vendor-neutral. Do not name Shaun's employer, reprod
 ## What Does Not Belong Here
 
 See [RESPONSIBLE-USE.md](RESPONSIBLE-USE.md) for the full list. In short: no real customer, prospect or employer data, no secrets or credentials, no confidential internal process, and nothing that assumes autonomous action. Every workflow prepares work for a person to check, approve and send.
+
+## Licence
+
+This repository is [MIT licensed](LICENSE). Use, adapt and share any of it, including in a commercial sales team, with attribution and without warranty.
