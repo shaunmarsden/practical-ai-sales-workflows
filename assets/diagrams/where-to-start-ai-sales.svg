@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Where Should I Start?</title>
+  <desc id="description">Four equal starting points for using AI in sales: Starting From Scratch, Used It a Bit, Used It a Lot and AI Wizard. Start where the work feels useful. More technical does not automatically mean more valuable.</desc>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <text x="800" y="78" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="700" fill="#152238">Where Should I Start?</text>
+
+  <rect x="70" y="115" width="1460" height="125" rx="22" fill="#f1fbf9" stroke="#2a9d8f" stroke-width="4"/>
+  <text x="800" y="166" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600" fill="#152238">
+    <tspan x="800">Choose the starting point that sounds most like you.</tspan>
+    <tspan x="800" dy="42">You do not need to begin with the most advanced option.</tspan>
+  </text>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#152238">
+    <rect x="70" y="290" width="335" height="390" rx="26" fill="#f4f6f8" stroke="#dce4e8" stroke-width="2"/>
+    <text x="237.5" y="337" text-anchor="middle" font-size="31" font-weight="700">
+      <tspan x="237.5">Starting From</tspan>
+      <tspan x="237.5" dy="36">Scratch</tspan>
+    </text>
+    <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="237.5" cy="448" r="43"/>
+      <path d="M237.5 390v58"/>
+      <path d="M207 420a43 43 0 1 0 61 0"/>
+    </g>
+    <text x="237.5" y="535" text-anchor="middle" font-size="27">
+      <tspan x="237.5">Set up your AI</tspan>
+      <tspan x="237.5" dy="62">Try one guided</tspan>
+      <tspan x="237.5" dy="34">example</tspan>
+    </text>
+
+    <rect x="445" y="290" width="335" height="390" rx="26" fill="#f4f6f8" stroke="#dce4e8" stroke-width="2"/>
+    <text x="612.5" y="355" text-anchor="middle" font-size="31" font-weight="700">Used It a Bit</text>
+    <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="612.5" cy="425" r="25"/>
+      <path d="M563 486c8-32 26-48 49.5-48s41.5 16 49.5 48"/>
+      <path d="M673 394l8 16 18 3-13 13 3 18-16-8-16 8 3-18-13-13 18-3z"/>
+    </g>
+    <text x="612.5" y="535" text-anchor="middle" font-size="27">
+      <tspan x="612.5">Add context about</tspan>
+      <tspan x="612.5" dy="34">your role</tspan>
+      <tspan x="612.5" dy="62">Use one real sales</tspan>
+      <tspan x="612.5" dy="34">workflow</tspan>
+    </text>
+
+    <rect x="820" y="290" width="335" height="390" rx="26" fill="#f4f6f8" stroke="#dce4e8" stroke-width="2"/>
+    <text x="987.5" y="355" text-anchor="middle" font-size="31" font-weight="700">Used It a Lot</text>
+    <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M925 397h94a18 18 0 0 1 18 18v44a18 18 0 0 1-18 18h-47l-26 24v-24h-21a18 18 0 0 1-18-18v-44a18 18 0 0 1 18-18z"/>
+      <path d="M1006 425l13 13 25-28"/>
+    </g>
+    <text x="987.5" y="535" text-anchor="middle" font-size="27">
+      <tspan x="987.5">Turn repeated prompts</tspan>
+      <tspan x="987.5" dy="34">into skills</tspan>
+      <tspan x="987.5" dy="62">Measure what</tspan>
+      <tspan x="987.5" dy="34">actually helps</tspan>
+    </text>
+
+    <rect x="1195" y="290" width="335" height="390" rx="26" fill="#f4f6f8" stroke="#dce4e8" stroke-width="2"/>
+    <text x="1362.5" y="355" text-anchor="middle" font-size="31" font-weight="700">AI Wizard</text>
+    <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="1362.5" cy="438" r="27"/>
+      <circle cx="1288" cy="395" r="14"/>
+      <circle cx="1437" cy="395" r="14"/>
+      <circle cx="1288" cy="481" r="14"/>
+      <circle cx="1437" cy="481" r="14"/>
+      <path d="M1338 424l-37-22M1387 424l37-22M1338 452l-37 22M1387 452l37 22"/>
+    </g>
+    <text x="1362.5" y="535" text-anchor="middle" font-size="27">
+      <tspan x="1362.5">Connect tools</tspan>
+      <tspan x="1362.5" dy="34">carefully</tspan>
+      <tspan x="1362.5" dy="62">Keep people</tspan>
+      <tspan x="1362.5" dy="34">in control</tspan>
+    </text>
+  </g>
+
+  <rect x="70" y="735" width="1460" height="110" rx="22" fill="#fff7e0" stroke="#e9c46a" stroke-width="4"/>
+  <g fill="none" stroke="#152238" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="125" cy="780" r="18"/>
+    <path d="M91 826c5-25 17-37 34-37s29 12 34 37"/>
+  </g>
+  <text x="190" y="785" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="600" fill="#152238">
+    <tspan x="190">Start where the work feels useful.</tspan>
+    <tspan x="190" dy="38">More technical does not automatically mean more valuable.</tspan>
+  </text>
+</svg>
