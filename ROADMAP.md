@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A fit and limitations review vertical**: a [workflow](workflows/13-fit-and-limitations-review.md), [prompt template](templates/fit-and-limitations-review-prompt.md), a fictional [Kellow scenario](examples/kellow-fit-review-input.md) and [output](examples/kellow-fit-review-output.md), a [scored evaluation](evaluations/kellow-fit-review-review.md) (47/50), and a [skill](.agents/skills/fit-and-limitations-review/SKILL.md). A new fictional company rather than a Hartwell continuation, since the scenario needed a genuine mixed result (one team a clean fit, one a real mismatch, one honestly undecided) that Hartwell's clean-success story could not credibly supply. Built to deliberately test the skill's core guardrail: a shared, ownerless team structure is tempting to describe as a rollout advantage, when the real story is an unresolved integration and ownership problem, and the worked output states the mismatch plainly instead. Also updates the [repo overview diagram](README.md) and recipe card count to fifteen. Built ahead of this repository's own usual bar of real-use evidence before a new vertical, as part of the same deliberate pre-launch push as champion enablement; fictional-tested only for now.
+
 - **A pre-launch visual pass**: a new [repo-wide overview diagram](README.md) grouping all fourteen verticals by where they sit in a deal, placed right before the long per-problem list so a reader sees the shape of the whole repository before scrolling it. Audited all fourteen workflows' existing Mermaid diagrams for consistency first; found them already uniform (same flowchart style, three steps, same node and arrow syntax), so nothing needed fixing there. Also found and fixed six em dashes in [the interactive demo](docs/index.html), the one house-style rule that page had never actually been checked against, since `repo_checks.py` only scans Markdown, not HTML.
 
 - **An outbound campaign learning review structure**: [a prompt](templates/outbound-campaign-learning-review-prompt.md) covering what to record after a real outbound campaign, audience, signal source, offer and message, the single variable actually tested, raw numbers through to qualified opportunities, and what makes the comparison uncertain. Deliberately not built as a full workflow with a fictional example and scored evaluation yet, following the backlog item's own explicit instruction to try the structure on a real campaign first and check whether it leads to a better next test, not just a tidy report, before it earns the same treatment as the tested verticals.
@@ -336,9 +338,7 @@ These states must remain configurable and should not be treated as universal sal
 
 #### Fit and limitations review
 
-Help a seller document where an offer is a good fit, a poor fit or still uncertain. Use approved product evidence and avoid turning limitations into disguised strengths.
-
-This could support honest discovery, objections, business cases and disqualification.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/13-fit-and-limitations-review.md). Built ahead of the usual real-use-evidence bar for a new vertical, as part of a deliberate pre-launch push; it needs a real test like everything else here.
 
 ### Navigation, packaging and private configuration
 

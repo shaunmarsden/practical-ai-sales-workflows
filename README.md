@@ -38,6 +38,7 @@ flowchart TB
         A3["Follow Up After a Sales Call"]
     end
     subgraph S3["Build the case"]
+        A15["Check Whether It Actually Fits"]
         A4["Build a Business Case"]
         A5["Help a Champion Carry Your Case"]
     end
@@ -59,7 +60,7 @@ flowchart TB
     S1 --> S2 --> S3 --> S4 --> S5
 ```
 
-Fourteen jobs, grouped by where they sit in a deal. Pipeline management runs alongside the others rather than after them; it is not a step every deal passes through in order.
+Fifteen jobs, grouped by where they sit in a deal. Pipeline management runs alongside the others rather than after them; it is not a step every deal passes through in order.
 
 ### 🔎 Find the Next Prospect
 
@@ -90,6 +91,16 @@ Turn a transcript or clear notes into a summary, actions, email draft and CRM su
 **Use with AI:** [Learn what a sales AI skill is](guides/what-is-a-sales-ai-skill.md) · [Extract evidence from the call](.agents/skills/extract-post-call-evidence/SKILL.md) · [Draft the follow-up email](.agents/skills/draft-follow-up-email/SKILL.md)
 
 **Just the one page:** [Recipe card](recipes/follow-up-after-a-sales-call.md)
+
+### 🔍 Check Whether It Actually Fits
+
+Work out where an offer is a good fit, a poor fit, or still uncertain for a specific prospect, before building a business case around a use case that was never going to work, without turning a real limitation into a disguised strength.
+
+**Start here:** [Open the workflow](workflows/13-fit-and-limitations-review.md) · [See the Kellow scenario](examples/kellow-fit-review-input.md) · [See the completed review](examples/kellow-fit-review-output.md) · [Read the honest review](evaluations/kellow-fit-review-review.md)
+
+**Use with AI:** [Fit and limitations review](.agents/skills/fit-and-limitations-review/SKILL.md)
+
+**Just the one page:** [Recipe card](recipes/check-whether-it-actually-fits.md)
 
 ### 📄 Build a Business Case
 
