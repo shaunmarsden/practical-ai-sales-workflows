@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **An instruction-change and regression history template**: [a template](templates/instruction-change-history-template.md) recording, every time a skill's actual instructions change because a test found something wrong, the original wording, the test case, the raw output, the specific failure, the exact change, the rerun result, and what improved against what did not. Includes a standing six-point regression checklist (an information request doesn't become an agreed meeting, a second-hand detail stays second-hand, a missing date stays unknown, an unauthorised commitment triggers a stop, a genuine disqualification isn't argued with, no external action is treated as completed without confirmation) to check on every change, not just the one being tested, so fixing one failure doesn't quietly reopen a guardrail that already worked. Linked from the [evaluations README](evaluations/README.md).
+
 - **A pre-launch visual pass**: a new [repo-wide overview diagram](README.md) grouping all fourteen verticals by where they sit in a deal, placed right before the long per-problem list so a reader sees the shape of the whole repository before scrolling it. Audited all fourteen workflows' existing Mermaid diagrams for consistency first; found them already uniform (same flowchart style, three steps, same node and arrow syntax), so nothing needed fixing there. Also found and fixed six em dashes in [the interactive demo](docs/index.html), the one house-style rule that page had never actually been checked against, since `repo_checks.py` only scans Markdown, not HTML.
 
 - **An outbound campaign learning review structure**: [a prompt](templates/outbound-campaign-learning-review-prompt.md) covering what to record after a real outbound campaign, audience, signal source, offer and message, the single variable actually tested, raw numbers through to qualified opportunities, and what makes the comparison uncertain. Deliberately not built as a full workflow with a fictional example and scored evaluation yet, following the backlog item's own explicit instruction to try the structure on a real campaign first and check whether it leads to a better next test, not just a tidy report, before it earns the same treatment as the tested verticals.
@@ -109,29 +111,7 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Instruction-change and regression history
 
-Create a repeatable record for improving a skill after testing:
-
-```text
-Original instruction version
-Test case
-Raw outputs
-Rubric scores
-Observed failure
-Instruction change
-Rerun outputs
-Score difference
-What improved
-What did not
-```
-
-Add regression checks for critical guardrails, such as:
-
-- an information request does not become an agreed meeting;
-- a second-hand objection remains second-hand;
-- a missing date remains unknown;
-- an unauthorised commitment triggers a stop;
-- a genuine disqualification is not argued with;
-- no external action is treated as completed without confirmation.
+**Shipped**, see [Done Recently](#done-recently) above for the [template](templates/instruction-change-history-template.md).
 
 #### Progressive disclosure
 
