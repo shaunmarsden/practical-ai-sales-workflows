@@ -211,12 +211,8 @@ This is an independent learning project. Every company, person and conversation 
 
 ## What I Want to Try Next
 
-**Right now:** real usability feedback, getting even one or two actual salespeople to try a workflow and say honestly whether it saved time or just moved the work around, rather than trusting my own judgement of my own output.
+**Right now:** keep testing these workflows against real sales work as it comes up, and get honest feedback from salespeople trying the repository for themselves.
 
-**After that:**
+The useful evidence now comes from seeing what holds up, what saves time and what still needs fixing, rather than adding more material before anyone has used what is already here.
 
-- CRM hygiene (duplicates, ownership, stale records), building on the pipeline evidence review already here
-- A genuine way to measure time saved and output quality, not just assume a workflow helps because it reads well
-- Purposeful visuals for sharing, a social preview card and a cross-model comparison graphic, best done as a concentrated session rather than squeezed in
-
-See [ROADMAP.md](ROADMAP.md) for the full picture, including the longer backlog of ideas still to validate.
+See [ROADMAP.md](ROADMAP.md) for what has been tested, what is still unproven and the longer list of ideas deliberately parked for later.

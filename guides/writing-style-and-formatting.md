@@ -82,3 +82,7 @@ This file is deliberately generic. The value is in having one consistent standin
 Copy it, adjust the specifics, your sign-off name, any banned phrases specific to your industry, currency and date conventions if you are not writing in British English, and keep it as the one place these rules live.
 
 </details>
+
+## Keep Diagrams Consistent
+
+Use the [Gemini Visual Style Prompt](../templates/gemini-visual-style-prompt.md) when creating a new diagram for this repository. It contains the approved colours, layout, accessibility rules and reference image, plus the checks to run before publishing anything generated.
