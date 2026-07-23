@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title description">
+  <title id="title">Practical AI Sales Workflows</title>
+  <desc id="description">Practical AI support for real B2B sales work. Choose a sales problem, let AI prepare the work and make the final decision yourself.</desc>
+
+  <rect width="1280" height="640" fill="#ffffff"/>
+
+  <rect x="48" y="48" width="12" height="152" rx="6" fill="#2a9d8f"/>
+  <text x="88" y="112" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="700" fill="#152238">Practical AI Sales Workflows</text>
+  <text x="88" y="174" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="500" fill="#334155">Useful help for real B2B sales work</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="48" y="254" width="356" height="230" rx="28" fill="#f4f6f8" stroke="#dce4e8" stroke-width="3"/>
+    <circle cx="226" cy="326" r="40" fill="#f1fbf9" stroke="#2a9d8f" stroke-width="6"/>
+    <path d="M208 326h36M226 308v36" fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round"/>
+    <text x="226" y="406" text-anchor="middle" font-size="28" font-weight="700" fill="#152238">Choose a sales problem</text>
+    <text x="226" y="448" text-anchor="middle" font-size="22" fill="#334155">Start with work you already do</text>
+
+    <path d="M416 369h34" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round"/>
+    <path d="M434 353l16 16-16 16" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="462" y="254" width="356" height="230" rx="28" fill="#f4f6f8" stroke="#dce4e8" stroke-width="3"/>
+    <rect x="601" y="292" width="78" height="72" rx="12" fill="#f1fbf9" stroke="#2a9d8f" stroke-width="6"/>
+    <path d="M620 316h40M620 338h28" fill="none" stroke="#2a9d8f" stroke-width="6" stroke-linecap="round"/>
+    <text x="640" y="406" text-anchor="middle" font-size="28" font-weight="700" fill="#152238">AI prepares the work</text>
+    <text x="640" y="448" text-anchor="middle" font-size="22" fill="#334155">Organise, draft and spot gaps</text>
+
+    <path d="M830 369h34" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round"/>
+    <path d="M848 353l16 16-16 16" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="876" y="254" width="356" height="230" rx="28" fill="#f4f6f8" stroke="#dce4e8" stroke-width="3"/>
+    <circle cx="1054" cy="326" r="40" fill="#fff7e0" stroke="#e9c46a" stroke-width="6"/>
+    <path d="M1034 326l14 14 28-30" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1054" y="406" text-anchor="middle" font-size="28" font-weight="700" fill="#152238">You make the call</text>
+    <text x="1054" y="448" text-anchor="middle" font-size="22" fill="#334155">Check it and decide what happens</text>
+  </g>
+
+  <rect x="48" y="530" width="1184" height="66" rx="20" fill="#fff7e0" stroke="#e9c46a" stroke-width="3"/>
+  <text x="640" y="573" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" fill="#152238">Built for salespeople. No technical knowledge needed.</text>
+</svg>
