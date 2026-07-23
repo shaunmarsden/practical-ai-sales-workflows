@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <style>
+      .title { font-family: Inter, Arial, sans-serif; font-size: 48px; font-weight: 700; fill: #152238; }
+      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 24px; font-weight: 400; fill: #152238; }
+      .card-heading { font-family: Inter, Arial, sans-serif; font-size: 26px; font-weight: 700; fill: #152238; }
+      .card-body { font-family: Inter, Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #152238; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1600" height="900" fill="#FFFFFF" />
+
+  <!-- Header Section -->
+  <text x="800" y="140" text-anchor="middle" class="title">How I Approach It</text>
+  <text x="800" y="195" text-anchor="middle" class="subtitle">AI prepares the work. A person stays in control of every decision.</text>
+
+  <!-- Step 1 Card -->
+  <g transform="translate(100, 270)">
+    <rect width="400" height="420" rx="16" fill="#F4F6F8" />
+    <path d="M 0 16 A 16 16 0 0 1 16 0 L 384 0 A 16 16 0 0 1 400 16 L 400 12 L 0 12 Z" fill="#2A9D8F" />
+    
+    <!-- Icon 1: Problem / Information -->
+    <g transform="translate(170, 90)" stroke="#2A9D8F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="0" width="60" height="75" rx="8" />
+      <line x1="15" y1="22" x2="45" y2="22" />
+      <line x1="15" y1="38" x2="45" y2="38" />
+      <line x1="15" y1="54" x2="32" y2="54" />
+    </g>
+
+    <text x="200" y="240" text-anchor="middle" class="card-heading">1. Start with the problem</text>
+    <text x="200" y="300" text-anchor="middle" class="card-body">Use safe, relevant information</text>
+  </g>
+
+  <!-- Connector Arrow 1 to 2 -->
+  <g transform="translate(515, 480)">
+    <path d="M 0 0 L 70 0" stroke="#152238" stroke-width="4" stroke-linecap="round" />
+    <path d="M 55 -12 L 72 0 L 55 12" stroke="#152238" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Step 2 Card -->
+  <g transform="translate(600, 270)">
+    <rect width="400" height="420" rx="16" fill="#F4F6F8" />
+    <path d="M 0 16 A 16 16 0 0 1 16 0 L 384 0 A 16 16 0 0 1 400 16 L 400 12 L 0 12 Z" fill="#2A9D8F" />
+
+    <!-- Icon 2: Organise / Draft -->
+    <g transform="translate(170, 90)" stroke="#2A9D8F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="10" y="0" width="50" height="65" rx="6" />
+      <path d="M 0 18 L 0 75 C 0 78 2 80 5 80 L 48 80" />
+      <line x1="22" y1="20" x2="48" y2="20" />
+      <line x1="22" y1="35" x2="48" y2="35" />
+      <line x1="22" y1="50" x2="38" y2="50" />
+    </g>
+
+    <text x="200" y="240" text-anchor="middle" class="card-heading">2. Let AI prepare</text>
+    <text x="200" y="300" text-anchor="middle" class="card-body">Organise, draft and spot gaps</text>
+  </g>
+
+  <!-- Connector Arrow 2 to 3 -->
+  <g transform="translate(1015, 480)">
+    <path d="M 0 0 L 70 0" stroke="#152238" stroke-width="4" stroke-linecap="round" />
+    <path d="M 55 -12 L 72 0 L 55 12" stroke="#152238" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Step 3 Card (Human Decision Point - Amber Accent & Border) -->
+  <g transform="translate(1100, 270)">
+    <rect width="400" height="420" rx="16" fill="#F4F6F8" stroke="#E9C46A" stroke-width="3" />
+    <path d="M 0 16 A 16 16 0 0 1 16 0 L 384 0 A 16 16 0 0 1 400 16 L 400 12 L 0 12 Z" fill="#E9C46A" />
+
+    <!-- Icon 3: Human Control / Decision -->
+    <g transform="translate(170, 85)" stroke="#E9C46A" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="30" cy="22" r="18" />
+      <path d="M 0 75 C 0 52 13 42 30 42 C 47 42 60 52 60 75" />
+    </g>
+
+    <text x="200" y="240" text-anchor="middle" class="card-heading">3. Keep a person in control</text>
+    <text x="200" y="300" text-anchor="middle" class="card-body">Check, decide, act and improve</text>
+  </g>
+</svg>

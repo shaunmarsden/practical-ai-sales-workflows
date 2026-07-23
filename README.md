@@ -177,13 +177,7 @@ Pull pipeline, meetings, outreach and new signals into one honest weekly report,
 
 ## 🧭 How I Approach It
 
-```mermaid
-flowchart TB
-    A["1. Start with the problem<br/>Use safe, relevant information"]
-    B["2. Let AI prepare<br/>Organise, draft and spot gaps"]
-    C["3. Keep a person in control<br/>Check, decide, act and improve"]
-    A --> B --> C
-```
+![How I approach it: start with the problem using safe, relevant information, let AI prepare by organising, drafting and spotting gaps, then keep a person in control who checks, decides, acts and improves.](assets/diagrams/how-i-approach-it.svg)
 
 The full approach is explained in the [methodology](METHODOLOGY.md), with the public data boundaries in [responsible use](RESPONSIBLE-USE.md). [Contributing](CONTRIBUTING.md) sets out when a workflow or skill actually counts as complete.
 
