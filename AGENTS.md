@@ -264,6 +264,19 @@ If nothing fits, explain the gap before proposing a new category. Prefer testing
 - Give one obvious next action.
 - Follow [the writing style guide](guides/writing-style-and-formatting.md) for reader facing copy.
 
+## Keep Visuals Consistent
+
+Before creating or changing a diagram, read [the Gemini visual style prompt](templates/gemini-visual-style-prompt.md) and inspect the approved examples in `assets/diagrams/`.
+
+- Keep visuals playful, warm and easy for a nontechnical salesperson to understand.
+- Avoid anything that resembles a consultancy slide, corporate process map or software architecture diagram.
+- Use the approved navy, teal, amber and warm neutral palette.
+- Prefer characterful native SVGs so text stays sharp and the artwork remains editable.
+- Gemini may help develop a concept, but never publish an image with a watermark, text error or unreadably small wording.
+- Check every diagram at approximately 700 pixels wide before publishing it.
+- Compare every word against the approved copy and add useful alt text.
+- Keep layouts varied but recognisably part of the same family. Sticky notes, speech bubbles, doodles, curved paths and slightly uneven shapes are welcome.
+
 ## When Modifying the Repository
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for what makes a new workflow or skill count as complete, and follow it when adding one.
