@@ -53,6 +53,8 @@ Important information should be labelled as one of these:
 - **Inference:** a reasonable interpretation that needs checking
 - **Unknown:** missing, unclear or contradictory
 
+![How this repository labels evidence: Confirmed is directly supported by the source material, Estimate is a number or view given without measurement, Inference is a reasonable interpretation that needs checking, and Unknown is missing, unclear or contradictory. These are not a quality score; a workflow can be done well and still contain an Unknown label.](assets/diagrams/how-this-repository-labels-evidence.svg)
+
 ## 6. Let AI Prepare the Work
 
 AI can organise information, find gaps, suggest questions and create first drafts. It is not the source of truth and it does not make the commercial decision.

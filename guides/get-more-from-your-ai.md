@@ -2,15 +2,7 @@
 
 The [setup prompt](../templates/ai-sales-setup-prompt.md) gets you a well-briefed assistant. This is what is on the other side of that, once a single prompt stops being enough.
 
-```mermaid
-flowchart TB
-    A["1. A single setup prompt"]
-    B["2. A project with real reference material"]
-    C["3. Repeatable skills, not reworded prompts"]
-    D["4. Live connections to your actual tools"]
-    E["5. Automations and agents acting on your behalf"]
-    A --> B --> C --> D --> E
-```
+![Get more from your AI, five stages: a single setup prompt, a project with real reference material, repeatable skills rather than reworded prompts, live connections to your actual tools, and automations and agents acting on your behalf, with the final stage marked for extra caution.](../assets/diagrams/get-more-from-your-ai.svg)
 
 ## Remember These Three Things
 
