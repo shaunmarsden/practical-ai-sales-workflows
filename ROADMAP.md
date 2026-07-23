@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A workflow router**: a [guide](guides/workflow-router.md), [skill](.agents/skills/workflow-router/SKILL.md), and [portable prompt](templates/workflow-router-prompt.md) that reads a plain-English description of a sales situation and hands off to whichever of the fifteen existing workflows actually fits, without solving the task itself. Grounded in the real "use this when" line already documented in each workflow, not a separately invented routing scheme, and names the confusions worth checking explicitly (stalled decision versus objection, chase versus lost-opportunity review, fit review versus business case). The worked example in the guide deliberately tests the first of those: a description that could read as an unstated objection but has no specific concern actually raised. Built as a guide and skill rather than a numbered workflow file, the same treatment as skill handoff contracts, since it is cross-cutting infrastructure, not a new sales problem in itself.
+
 - **A private sales-methodology overlay**: [a template](context/sales-methodology-overlay.md.example) alongside the existing `sales-context.md.example`, letting a reader map their own approved qualification method (MEDDIC, BANT, or their own framework) and pipeline stage names onto the public workflows without publishing internal definitions, stage rules or CRM configuration. Every field is labelled `evidence required` or `judgement call`, so the same discipline the public workflows already use carries into private, unpublished detail rather than being dropped once the file is private. `repo_checks.py` now checks this new private file the same way it already checked `sales-context.md`: never committed, always listed in `.gitignore`, tested by deliberately committing a copy and confirming the checker catches it before reverting.
 
 - **A fit and limitations review vertical**: a [workflow](workflows/13-fit-and-limitations-review.md), [prompt template](templates/fit-and-limitations-review-prompt.md), a fictional [Kellow scenario](examples/kellow-fit-review-input.md) and [output](examples/kellow-fit-review-output.md), a [scored evaluation](evaluations/kellow-fit-review-review.md) (47/50), and a [skill](.agents/skills/fit-and-limitations-review/SKILL.md). A new fictional company rather than a Hartwell continuation, since the scenario needed a genuine mixed result (one team a clean fit, one a real mismatch, one honestly undecided) that Hartwell's clean-success story could not credibly supply. Built to deliberately test the skill's core guardrail: a shared, ownerless team structure is tempting to describe as a rollout advantage, when the real story is an unresolved integration and ownership problem, and the worked output states the mismatch plainly instead. Also updates the [repo overview diagram](README.md) and recipe card count to fifteen. Built ahead of this repository's own usual bar of real-use evidence before a new vertical, as part of the same deliberate pre-launch push as champion enablement; fictional-tested only for now.
@@ -137,25 +139,7 @@ Start with a page that links the relevant files. Do not build an installer until
 
 #### Workflow router
 
-Build a lightweight router that recommends an existing workflow based on:
-
-- the user's goal;
-- the sales stage;
-- the evidence available;
-- the main blocker;
-- whether private company context is required.
-
-The router should not solve the underlying task. It should produce a clean handoff containing:
-
-- the objective;
-- evidence currently available;
-- important missing information;
-- the recommended workflow and skill;
-- why the route fits;
-- what the next skill may produce;
-- what still requires a person.
-
-It should route to existing skills rather than contain every method itself.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/workflow-router.md).
 
 #### Skill handoff contracts
 
