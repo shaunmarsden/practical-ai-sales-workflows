@@ -4,11 +4,19 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Now
 
-- **Keep testing against real work as it comes up.** Not a batch exercise, and not blocking anything else: when a real objection, a real pipeline check, or a real anything else comes up, run the matching workflow on it and see honestly whether it held up. Four verticals have real evidence behind them now; the rest do not yet, and that gap closes naturally through use rather than by scheduling more tests.
+- **Keep testing against real work as it comes up.** Not a batch exercise, and not blocking anything else: when a real objection, a real pipeline check, or a real anything else comes up, run the matching workflow on it and see honestly whether it held up. Five verticals have real evidence behind them now; the rest do not yet, and that gap closes naturally through use rather than by scheduling more tests.
 
 ## Done Recently
 
 - **A workflow router**: a [guide](guides/workflow-router.md), [skill](.agents/skills/workflow-router/SKILL.md), and [portable prompt](templates/workflow-router-prompt.md) that reads a plain-English description of a sales situation and hands off to whichever of the fifteen existing workflows actually fits, without solving the task itself. Grounded in the real "use this when" line already documented in each workflow, not a separately invented routing scheme, and names the confusions worth checking explicitly (stalled decision versus objection, chase versus lost-opportunity review, fit review versus business case). The worked example in the guide deliberately tests the first of those: a description that could read as an unstated objection but has no specific concern actually raised. Built as a guide and skill rather than a numbered workflow file, the same treatment as skill handoff contracts, since it is cross-cutting infrastructure, not a new sales problem in itself.
+
+- **A private sales-methodology overlay**: [a template](context/sales-methodology-overlay.md.example) alongside the existing `sales-context.md.example`, letting a reader map their own approved qualification method (MEDDIC, BANT, or their own framework) and pipeline stage names onto the public workflows without publishing internal definitions, stage rules or CRM configuration. Every field is labelled `evidence required` or `judgement call`, so the same discipline the public workflows already use carries into private, unpublished detail rather than being dropped once the file is private. `repo_checks.py` now checks this new private file the same way it already checked `sales-context.md`: never committed, always listed in `.gitignore`, tested by deliberately committing a copy and confirming the checker catches it before reverting.
+
+- **A fit and limitations review vertical**: a [workflow](workflows/13-fit-and-limitations-review.md), [prompt template](templates/fit-and-limitations-review-prompt.md), a fictional [Kellow scenario](examples/kellow-fit-review-input.md) and [output](examples/kellow-fit-review-output.md), a [scored evaluation](evaluations/kellow-fit-review-review.md) (47/50), and a [skill](.agents/skills/fit-and-limitations-review/SKILL.md). A new fictional company rather than a Hartwell continuation, since the scenario needed a genuine mixed result (one team a clean fit, one a real mismatch, one honestly undecided) that Hartwell's clean-success story could not credibly supply. Built to deliberately test the skill's core guardrail: a shared, ownerless team structure is tempting to describe as a rollout advantage, when the real story is an unresolved integration and ownership problem, and the worked output states the mismatch plainly instead. Also updates the [repo overview diagram](README.md) and recipe card count to fifteen. Built ahead of this repository's own usual bar of real-use evidence before a new vertical, as part of the same deliberate pre-launch push as champion enablement; fictional-tested only for now.
+
+- **An instruction-change and regression history template**: [a template](templates/instruction-change-history-template.md) recording, every time a skill's actual instructions change because a test found something wrong, the original wording, the test case, the raw output, the specific failure, the exact change, the rerun result, and what improved against what did not. Includes a standing six-point regression checklist (an information request doesn't become an agreed meeting, a second-hand detail stays second-hand, a missing date stays unknown, an unauthorised commitment triggers a stop, a genuine disqualification isn't argued with, no external action is treated as completed without confirmation) to check on every change, not just the one being tested, so fixing one failure doesn't quietly reopen a guardrail that already worked. Linked from the [evaluations README](evaluations/README.md).
+
+- **Outbound prospecting is real-tested, and the result was mixed in an interesting way.** A genuine first-touch message, sent for real, was checked against the [outbound-prospecting skill](.agents/skills/outbound-prospecting/SKILL.md): a company-specific analysis already produced for the target, shared directly in the message with a straight ask for time to discuss it, rather than a smaller front-end offer promised for later. It got a fast, positive reply. That structure was not one the skill described at all, so it now names both as valid shapes and says to match the shape to what is actually true, rather than blending them. The subject line used, on the other hand, directly broke the subject-line rule added last session (naming the analysis outright rather than reading as an internal message), and still got a reply within the hour. Recorded honestly as one data point against a rule written with real confidence, not as proof the rule is wrong; one real result is not enough to change it either way, and it needs more evidence before either happens.
 
 - **A pre-launch visual pass**: a new [repo-wide overview diagram](README.md) grouping all fourteen verticals by where they sit in a deal, placed right before the long per-problem list so a reader sees the shape of the whole repository before scrolling it. Audited all fourteen workflows' existing Mermaid diagrams for consistency first; found them already uniform (same flowchart style, three steps, same node and arrow syntax), so nothing needed fixing there. Also found and fixed six em dashes in [the interactive demo](docs/index.html), the one house-style rule that page had never actually been checked against, since `repo_checks.py` only scans Markdown, not HTML.
 
@@ -111,29 +119,7 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Instruction-change and regression history
 
-Create a repeatable record for improving a skill after testing:
-
-```text
-Original instruction version
-Test case
-Raw outputs
-Rubric scores
-Observed failure
-Instruction change
-Rerun outputs
-Score difference
-What improved
-What did not
-```
-
-Add regression checks for critical guardrails, such as:
-
-- an information request does not become an agreed meeting;
-- a second-hand objection remains second-hand;
-- a missing date remains unknown;
-- an unauthorised commitment triggers a stop;
-- a genuine disqualification is not argued with;
-- no external action is treated as completed without confirmation.
+**Shipped**, see [Done Recently](#done-recently) above for the [template](templates/instruction-change-history-template.md).
 
 #### Progressive disclosure
 
@@ -320,9 +306,7 @@ These states must remain configurable and should not be treated as universal sal
 
 #### Fit and limitations review
 
-Help a seller document where an offer is a good fit, a poor fit or still uncertain. Use approved product evidence and avoid turning limitations into disguised strengths.
-
-This could support honest discovery, objections, business cases and disqualification.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/13-fit-and-limitations-review.md). Built ahead of the usual real-use-evidence bar for a new vertical, as part of a deliberate pre-launch push; it needs a real test like everything else here.
 
 ### Navigation, packaging and private configuration
 
@@ -332,9 +316,7 @@ If usability testing shows a need, add short routes for account executives, sale
 
 #### Private sales-methodology overlay
 
-Let users map their own approved qualification or sales method onto the repository without publishing internal definitions, stage rules or CRM configuration.
-
-The private template should distinguish fields requiring direct customer evidence from fields that permit salesperson judgement.
+**Shipped**, see [Done Recently](#done-recently) above for the [template](context/sales-methodology-overlay.md.example).
 
 #### Selective installation and platform guidance
 
