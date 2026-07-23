@@ -116,9 +116,24 @@ PRIVATE_LINK = re.compile(
     r"atlassian\.net|notion\.so)",
     re.IGNORECASE,
 )
+# The employer name is otherwise blocked everywhere in this repository (see
+# CONTRIBUTING.md's vendor-neutral rule): no workflow, skill, example or
+# guide should name it. The one deliberate exception is the README's own
+# About Me section, where the real person behind this repository names
+# their real employer as part of their own personal bio, not as repository
+# content. Matched on the exact line so any future change to that line
+# requires a deliberate update here, rather than silently widening what is
+# allowed.
+EMPLOYER_ALLOWLIST = {
+    ("README.md", "I am Shaun Marsden, a solutions consultant at AiCore. "
+                  "I am using this project to learn what AI is genuinely "
+                  "useful for in the job and to share the things worth "
+                  "keeping."),
+}
 for f in CONTENT:
     for i, line in enumerate(read(f).splitlines(), 1):
-        if EMPLOYER.search(line):
+        stripped = line.strip()
+        if EMPLOYER.search(line) and (f, stripped) not in EMPLOYER_ALLOWLIST:
             fail("employer-reference", f"{f}:{i}", line.strip()[:120])
         if PRIVATE_LINK.search(line):
             fail("private-link", f"{f}:{i}", line.strip()[:120])
