@@ -150,14 +150,16 @@ for f in CONTENT:
             fail("placeholder-text", f"{f}:{i}", line.strip()[:120])
 
 
-# 7. Private context file must never be committed, and must stay ignored
-if "context/sales-context.md" in ALL:
-    fail("committed-private-context", "context/sales-context.md",
-         "private context file must never be committed")
+# 7. Private context files must never be committed, and must stay ignored
+PRIVATE_CONTEXT_FILES = ["context/sales-context.md", "context/sales-methodology-overlay.md"]
 gitignore = read(".gitignore") if os.path.exists(".gitignore") else ""
-if "context/sales-context.md" not in gitignore:
-    fail("gitignore-missing-rule", ".gitignore",
-         "context/sales-context.md is not listed in .gitignore")
+for private_file in PRIVATE_CONTEXT_FILES:
+    if private_file in ALL:
+        fail("committed-private-context", private_file,
+             "private context file must never be committed")
+    if private_file not in gitignore:
+        fail("gitignore-missing-rule", ".gitignore",
+             f"{private_file} is not listed in .gitignore")
 
 
 # 8. Duplicate skill names (a copy-pasted skill folder that was never renamed)
