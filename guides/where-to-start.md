@@ -2,13 +2,7 @@
 
 This repository has grown into workflows, guides, templates and portable skills. Where to start depends on how much you have actually used AI in your job already, not how much you would like to have used.
 
-```mermaid
-flowchart TB
-    A["1. Be honest about where you actually are"]
-    B["2. Follow that path, not the most impressive one"]
-    C["3. Come back for the next tier once this one feels easy"]
-    A --> B --> C
-```
+![Four equal starting points for using AI in sales: Starting From Scratch, Used It a Bit, Used It a Lot and AI Wizard. Start where the work feels useful. More technical does not automatically mean more valuable.](../assets/diagrams/where-to-start-ai-sales.svg)
 
 ## Remember These Three Things
 
