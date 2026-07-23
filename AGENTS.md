@@ -163,6 +163,14 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Hartwell output](examples/hartwell-post-call-output.md)
 - [Evaluation](evaluations/hartwell-post-call-review.md)
 
+### Fit and Limitations Review
+
+- [Workflow](workflows/13-fit-and-limitations-review.md)
+- [Fit and Limitations Review skill](.agents/skills/fit-and-limitations-review/SKILL.md)
+- [Kellow scenario](examples/kellow-fit-review-input.md)
+- [Kellow output](examples/kellow-fit-review-output.md)
+- [Evaluation](evaluations/kellow-fit-review-review.md)
+
 ### Business Cases
 
 - [Build Business Case](.agents/skills/build-business-case/SKILL.md)
