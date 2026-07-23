@@ -33,6 +33,7 @@ A good skill says what the AI must not invent, decide or do without approval.
 Most skills here use the same fictional Hartwell conversation, so none of them contain real customer or employer information. Outbound prospecting uses a separate fictional scenario, since outbound happens before any call exists.
 
 - [Extract Post Call Evidence](../.agents/skills/extract-post-call-evidence/SKILL.md) — separates facts from assumptions after a call and suggests a next step
+- [Fit and Limitations Review](../.agents/skills/fit-and-limitations-review/SKILL.md) — classifies each use case a prospect raised as a good fit, a poor fit, or genuinely uncertain, before a business case gets built around one that was never going to work
 - [Build Business Case](../.agents/skills/build-business-case/SKILL.md) — turns call evidence into a tailored business case for the actual decision maker
 - [Champion Enablement](../.agents/skills/champion-enablement/SKILL.md) — prepares an internal champion to carry that case to other stakeholders, without guessing what they care about
 - [Draft Follow-Up Email](../.agents/skills/draft-follow-up-email/SKILL.md) — personalises a fixed post-call email template, including for multiple recipients
