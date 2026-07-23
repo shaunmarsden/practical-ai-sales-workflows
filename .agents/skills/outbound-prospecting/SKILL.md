@@ -39,6 +39,8 @@ Structure:
 
 The offer in the message is a front-end offer, not the actual paid engagement: small enough to produce quickly, and useful to the reader on its own even if nothing else follows. Never let the first message ask for the real engagement itself.
 
+There are two valid shapes for this, not one. The structure above assumes the front-end offer is promised and produced only once the reader replies. Where a genuinely company-specific analysis already exists and can be shared immediately, in the same message rather than promised for later, a direct ask for time to walk through it is a reasonable next step, not a guardrail violation, since the value has already been delivered rather than dangled. Choose the shape that matches what is actually true: promise a small offer and ask for a reply if nothing exists yet, or deliver the real thing and ask for time if it does. Never blend the two by promising something that already exists, or asking for a meeting when nothing has actually been shared yet.
+
 Treat the subject line and preview text as their own step, not an afterthought. Keep it short, a few words, lowercase, and never naming the actual offer or mechanism, since a subject line that gives away the pitch measurably reduces opens. It should read like an internal message, not a marketing send. The preview text (the line a reader sees next to the subject before opening) carries nearly as much weight as the subject line itself, so the message's first line should hold up as preview text on its own.
 
 ## Handle the Reply

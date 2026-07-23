@@ -54,6 +54,8 @@ Open with a question tied to the buyer's actual role and the specific signal fou
 
 The offer is a front-end offer, never the actual paid engagement: small enough to produce quickly, and useful to the reader on its own even if nothing else follows. Give the subject line and preview text their own moment of attention too: a few words, lowercase, never naming the actual offer or mechanism, since a subject line that gives the pitch away measurably reduces opens. It should read like an internal message, not a marketing send.
 
+There are two valid shapes here, not one. Promise a small offer and ask for a reply if nothing exists yet for this target. Where a genuinely company-specific analysis already exists and can be shared immediately rather than promised for later, a direct ask for time to walk through it is reasonable, since the value has already been delivered rather than dangled. Match the shape to what is actually true; never promise something that already exists, and never ask for a meeting when nothing has actually been shared yet.
+
 ### 3. Handle Whatever Happens Next
 
 A reply, positive or otherwise, stops the cold sequence immediately; never let a second scheduled touch go out into a live reply. A positive reply means building whatever was offered next, not pushing straight for a meeting before it exists. Record every step, sent, bounced, replied, booked, so the same message never goes out twice to the same person.
