@@ -3,10 +3,10 @@
     <style>
       .title { font-family: Inter, Arial, sans-serif; font-size: 46px; font-weight: 800; fill: #152238; }
       .subtitle { font-family: Inter, Arial, sans-serif; font-size: 22px; font-weight: 400; fill: #152238; }
-      .card-heading { font-family: Inter, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #152238; }
-      .card-body { font-family: Inter, Arial, sans-serif; font-size: 18px; font-weight: 400; fill: #152238; }
-      .distinction { font-family: Inter, Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #152238; }
-      .distinction-heading { font-family: Inter, Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #152238; }
+      .card-heading { font-family: Inter, Arial, sans-serif; font-size: 26px; font-weight: 700; fill: #152238; }
+      .card-body { font-family: Inter, Arial, sans-serif; font-size: 21px; font-weight: 400; fill: #152238; }
+      .distinction { font-family: Inter, Arial, sans-serif; font-size: 22px; font-weight: 400; fill: #152238; }
+      .distinction-heading { font-family: Inter, Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #152238; }
     </style>
   </defs>
 
