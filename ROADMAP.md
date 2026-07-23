@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **A private sales-methodology overlay**: [a template](context/sales-methodology-overlay.md.example) alongside the existing `sales-context.md.example`, letting a reader map their own approved qualification method (MEDDIC, BANT, or their own framework) and pipeline stage names onto the public workflows without publishing internal definitions, stage rules or CRM configuration. Every field is labelled `evidence required` or `judgement call`, so the same discipline the public workflows already use carries into private, unpublished detail rather than being dropped once the file is private. `repo_checks.py` now checks this new private file the same way it already checked `sales-context.md`: never committed, always listed in `.gitignore`, tested by deliberately committing a copy and confirming the checker catches it before reverting.
+
 - **A fit and limitations review vertical**: a [workflow](workflows/13-fit-and-limitations-review.md), [prompt template](templates/fit-and-limitations-review-prompt.md), a fictional [Kellow scenario](examples/kellow-fit-review-input.md) and [output](examples/kellow-fit-review-output.md), a [scored evaluation](evaluations/kellow-fit-review-review.md) (47/50), and a [skill](.agents/skills/fit-and-limitations-review/SKILL.md). A new fictional company rather than a Hartwell continuation, since the scenario needed a genuine mixed result (one team a clean fit, one a real mismatch, one honestly undecided) that Hartwell's clean-success story could not credibly supply. Built to deliberately test the skill's core guardrail: a shared, ownerless team structure is tempting to describe as a rollout advantage, when the real story is an unresolved integration and ownership problem, and the worked output states the mismatch plainly instead. Also updates the [repo overview diagram](README.md) and recipe card count to fifteen. Built ahead of this repository's own usual bar of real-use evidence before a new vertical, as part of the same deliberate pre-launch push as champion enablement; fictional-tested only for now.
 
 - **An instruction-change and regression history template**: [a template](templates/instruction-change-history-template.md) recording, every time a skill's actual instructions change because a test found something wrong, the original wording, the test case, the raw output, the specific failure, the exact change, the rerun result, and what improved against what did not. Includes a standing six-point regression checklist (an information request doesn't become an agreed meeting, a second-hand detail stays second-hand, a missing date stays unknown, an unauthorised commitment triggers a stop, a genuine disqualification isn't argued with, no external action is treated as completed without confirmation) to check on every change, not just the one being tested, so fixing one failure doesn't quietly reopen a guardrail that already worked. Linked from the [evaluations README](evaluations/README.md).
@@ -330,9 +332,7 @@ If usability testing shows a need, add short routes for account executives, sale
 
 #### Private sales-methodology overlay
 
-Let users map their own approved qualification or sales method onto the repository without publishing internal definitions, stage rules or CRM configuration.
-
-The private template should distinguish fields requiring direct customer evidence from fields that permit salesperson judgement.
+**Shipped**, see [Done Recently](#done-recently) above for the [template](context/sales-methodology-overlay.md.example).
 
 #### Selective installation and platform guidance
 

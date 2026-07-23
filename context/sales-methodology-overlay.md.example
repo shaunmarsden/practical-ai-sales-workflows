@@ -1,0 +1,50 @@
+# Private Sales Methodology Overlay
+
+> Copy this file to `context/sales-methodology-overlay.md`. The copied file is private and ignored by Git. Check with whatever your employer allows before adding real qualification criteria, stage names or process detail here, even to a private, gitignored file; some organisations restrict this regardless of where it lives.
+
+This overlay lets you map your own approved qualification or sales method onto the workflows already in this repository, so a workflow like pipeline evidence review or objection handling can use your language and your criteria instead of guessing generic ones. It does not change any public workflow file, and nothing in it is ever committed.
+
+## How to Mark Each Field
+
+Every field below needs one of two labels, not just a value:
+
+- `evidence required`: this can only ever be filled from something the customer, or a confirmed internal source, actually said or provided. An AI assistant should never infer or guess this one, no matter how likely it seems.
+- `judgement call`: a reasonable assessment a salesperson may make even without a direct customer statement (for example, "does this stakeholder behave like a champion"), but it stays labelled as judgement, never treated as a confirmed fact.
+
+Getting this distinction right matters more than filling in every field. A method with three well-labelled fields is more useful here than ten fields with no label at all.
+
+## Your Qualification Method
+
+> Name your own approved method if you use one (MEDDIC, BANT, a custom internal framework), or describe your own qualification checks in your own words if you do not use a named one. Describe it yourself rather than pasting your employer's internal training material or confidential documentation.
+
+- Method name: unknown
+- Notes:
+
+## Your Fields, Labelled
+
+> List the specific things your method asks you to establish, for example "Economic buyer," "Budget confirmed," "Decision criteria," "Compelling event." For each one, add the evidence-required or judgement-call label, and a short note on what would actually count as evidence for it.
+
+| Field | Label | What counts as evidence |
+| --- | --- | --- |
+| | | |
+
+## Your Stage Names
+
+> If your employer allows it, list your own pipeline stage names here so a workflow can use your language instead of a generic placeholder like "Qualification" or "Proposal Sent." A plain description of what each stage means is enough; leave out whatever triggers an automated stage change in your CRM if that is considered confidential.
+
+- Status: unknown
+- Notes:
+
+## What This Overlay Actually Changes
+
+This file does not alter any workflow in the public repository. When you ask an AI assistant to run a workflow that involves a qualification judgement or a pipeline stage (pipeline evidence review, objection handling, a business case), point it to this file so it uses your method and stage language instead of a generic one or an invented one. It should still keep the same evidence-versus-judgement distinction the public workflows already use; this overlay changes the vocabulary, not the discipline.
+
+## Never Commit This
+
+Do not add `context/sales-methodology-overlay.md` to a commit, pull request or public repository.
+
+Before publishing a change, check that Git still ignores it:
+
+```text
+git check-ignore -v context/sales-methodology-overlay.md
+```

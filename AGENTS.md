@@ -94,6 +94,7 @@ When the user chooses setup:
 14. Preserve unresolved items as `unknown` or `to confirm`.
 15. Remind the user that `context/sales-context.md` is private and ignored by Git.
 16. If setup was triggered by another request, return to that request once the minimum context is confirmed. Do not leave the user on the setup step when they came to do something else.
+17. If the user uses a named qualification method or their own pipeline stage names, and their employer allows sharing that even privately, offer [the sales methodology overlay](context/sales-methodology-overlay.md.example) as a separate, optional step. It is not part of the base setup and should never be pushed on a user who has not asked for it.
 
 ## Classify Evidence Clearly
 

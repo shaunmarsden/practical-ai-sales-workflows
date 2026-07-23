@@ -1,6 +1,10 @@
 # Private local sales context
 context/sales-context.md
 
+# Private, optional mapping of a user's own qualification method and
+# stage names onto the public workflows; never committed
+context/sales-methodology-overlay.md
+
 # Local, never-committed list of project-specific terms to flag; read by
 # .github/scripts/repo_checks.py if present, ignored entirely if not
 .github/private-blocklist.txt
