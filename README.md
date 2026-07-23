@@ -4,6 +4,7 @@
   <img alt="Status: Building in public" src="https://img.shields.io/badge/status-building%20in%20public-2563eb">
   <img alt="Focus: B2B sales" src="https://img.shields.io/badge/focus-B2B%20sales-16a34a">
   <img alt="Examples: Fictional" src="https://img.shields.io/badge/examples-fictional-7c3aed">
+  <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-lightgrey"></a>
 </p>
 
 AI gets talked about a lot in sales. I wanted somewhere to document the things I have actually tried.
