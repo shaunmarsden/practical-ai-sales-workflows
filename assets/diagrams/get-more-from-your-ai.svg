@@ -1,131 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
-  <defs>
-    <style>
-      .title { font-family: Inter, Arial, sans-serif; font-size: 46px; font-weight: 800; fill: #152238; }
-      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #152238; }
-      .card-heading { font-family: Inter, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #FFFFFF; }
-      .card-body { font-family: Inter, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #152238; }
-    </style>
-    <marker id="arrow-teal" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2A9D8F" />
-    </marker>
-    <marker id="arrow-amber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 1 L 10 5 L 0 9 z" fill="#E9C46A" />
-    </marker>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img" aria-labelledby="title description">
+  <title id="title">Get More From Your AI</title>
+  <desc id="description">A playful winding path through five stages: a setup prompt, a project with reference material, repeatable skills, live connections, and finally automations and agents that need extra care.</desc>
 
-  <rect width="1600" height="900" fill="#FFFFFF" />
+  <rect width="1600" height="820" fill="#fffdf7"/>
+  <circle cx="115" cy="112" r="48" fill="#2a9d8f" opacity="0.12"/>
+  <circle cx="1490" cy="690" r="66" fill="#e9c46a" opacity="0.25"/>
 
-  <text x="800" y="65" text-anchor="middle" class="title">Get More From Your AI</text>
+  <text x="800" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="800" fill="#152238">Get More From Your AI</text>
+  <text x="800" y="120" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600" fill="#334155">Only move up when it actually helps.</text>
 
-  <rect x="60" y="100" width="1480" height="55" rx="10" fill="#F4F6F8" stroke="#2A9D8F" stroke-width="2" />
-  <text x="800" y="134" text-anchor="middle" class="subtitle">Move up a layer only when the one you are on stops saving you time, not because the next one sounds more advanced.</text>
+  <path d="M220 330C340 170 420 170 540 295S740 460 830 310s190-165 285-10 185 174 285 38" fill="none" stroke="#dbe5eb" stroke-width="38" stroke-linecap="round"/>
+  <path d="M220 330C340 170 420 170 540 295S740 460 830 310s190-165 285-10 185 174 285 38" fill="none" stroke="#2a9d8f" stroke-width="8" stroke-linecap="round" stroke-dasharray="13 18"/>
 
-  <!-- Row 1: Stages 1 to 3 -->
-  <g id="stage-1">
-    <rect x="60" y="195" width="435" height="280" rx="12" fill="#F4F6F8" stroke="#C1C9D2" stroke-width="1.5" />
-    <rect x="100" y="212" width="150" height="36" rx="18" fill="#2A9D8F" />
-    <text x="175" y="236" text-anchor="middle" class="card-heading">Stage 1</text>
-
-    <g transform="translate(90, 258)">
-      <path d="M 4 4 L 66 4 C 70 4 73 7 73 11 L 73 41 C 73 45 70 48 66 48 L 26 48 L 12 60 L 14 48 L 9 48 C 5 48 4 45 4 41 Z"
-            fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linejoin="round" />
-      <path d="M 80 6 L 84 15 L 93 19 L 84 23 L 80 32 L 76 23 L 67 19 L 76 15 Z" fill="#2A9D8F" stroke="none" />
-    </g>
-
-    <text x="175" y="380" text-anchor="middle" class="card-body">A single setup prompt</text>
-  </g>
-
-  <path d="M 495 335 L 527 335" stroke="#2A9D8F" stroke-width="3" fill="none" marker-end="url(#arrow-teal)" />
-
-  <g id="stage-2">
-    <rect x="583" y="195" width="435" height="280" rx="12" fill="#F4F6F8" stroke="#C1C9D2" stroke-width="1.5" />
-    <rect x="623" y="212" width="150" height="36" rx="18" fill="#2A9D8F" />
-    <text x="698" y="236" text-anchor="middle" class="card-heading">Stage 2</text>
-
-    <g transform="translate(658, 258)">
-      <rect x="10" y="8" width="42" height="18" rx="4" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="3.5" />
-      <path d="M 4 20 L 4 62 C 4 66 7 69 11 69 L 79 69 C 83 69 86 66 86 62 L 86 30 C 86 26 83 23 79 23 L 34 23 L 28 14 Z"
-            fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linejoin="round" />
-    </g>
-
-    <text x="698" y="380" text-anchor="middle" class="card-body">
-      <tspan x="698" dy="0">A project with real</tspan>
-      <tspan x="698" dy="28">reference material</tspan>
-    </text>
-  </g>
-
-  <path d="M 1018 335 L 1050 335" stroke="#2A9D8F" stroke-width="3" fill="none" marker-end="url(#arrow-teal)" />
-
-  <g id="stage-3">
-    <rect x="1106" y="195" width="435" height="280" rx="12" fill="#F4F6F8" stroke="#C1C9D2" stroke-width="1.5" />
-    <rect x="1146" y="212" width="150" height="36" rx="18" fill="#2A9D8F" />
-    <text x="1221" y="236" text-anchor="middle" class="card-heading">Stage 3</text>
-
-    <g transform="translate(1181, 258)" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 8 34 A 26 26 0 0 1 60 20" />
-      <path d="M 52 12 L 60 20 L 50 26" />
-      <path d="M 60 34 A 26 26 0 0 1 8 48" />
-      <path d="M 16 56 L 8 48 L 18 42" />
-      <path d="M 24 34 L 31 41 L 44 26" stroke-width="4.5" />
-    </g>
-
-    <text x="1221" y="380" text-anchor="middle" class="card-body">
-      <tspan x="1221" dy="0">Repeatable skills, not</tspan>
-      <tspan x="1221" dy="28">reworded prompts</tspan>
-    </text>
-  </g>
-
-  <!-- Connector down to row 2 -->
-  <path d="M 800 490 L 800 522" stroke="#152238" stroke-width="3" fill="none" marker-end="url(#arrow-teal)" />
-
-  <!-- Row 2: Stages 4 to 5, centred -->
-  <g id="stage-4">
-    <rect x="298" y="545" width="435" height="280" rx="12" fill="#F4F6F8" stroke="#C1C9D2" stroke-width="1.5" />
-    <rect x="338" y="562" width="150" height="36" rx="18" fill="#2A9D8F" />
-    <text x="413" y="586" text-anchor="middle" class="card-heading">Stage 4</text>
-
-    <g transform="translate(380, 610)" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="24" r="12" fill="#FFFFFF" />
-      <circle cx="76" cy="24" r="12" fill="#FFFFFF" />
-      <line x1="24" y1="24" x2="42" y2="24" />
-      <path d="M 42 24 L 48 12 L 54 34 L 60 24 L 64 24" />
-    </g>
-
-    <text x="413" y="730" text-anchor="middle" class="card-body">
-      <tspan x="413" dy="0">Live connections to</tspan>
-      <tspan x="413" dy="28">your actual tools</tspan>
-    </text>
-  </g>
-
-  <path d="M 733 685 L 765 685" stroke="#E9C46A" stroke-width="3" stroke-dasharray="7,5" fill="none" marker-end="url(#arrow-amber)" />
-
-  <g id="stage-5">
-    <rect x="821" y="545" width="435" height="280" rx="12" fill="#FFFCF0" stroke="#E9C46A" stroke-width="3" />
-    <rect x="861" y="562" width="150" height="36" rx="18" fill="#E9C46A" />
-    <text x="936" y="586" text-anchor="middle" class="card-heading" fill="#152238">Stage 5</text>
-
-    <g transform="translate(900, 610)">
-      <g fill="none" stroke="#E9C46A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="28" cy="28" r="15" />
-        <circle cx="28" cy="28" r="5" fill="#E9C46A" stroke="none" />
-        <line x1="28" y1="3" x2="28" y2="11" />
-        <line x1="28" y1="45" x2="28" y2="53" />
-        <line x1="3" y1="28" x2="11" y2="28" />
-        <line x1="45" y1="28" x2="53" y2="28" />
-        <line x1="9" y1="9" x2="15" y2="15" />
-        <line x1="41" y1="41" x2="47" y2="47" />
-        <line x1="47" y1="9" x2="41" y2="15" />
-        <line x1="15" y1="41" x2="9" y2="47" />
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="rotate(-3 220 330)">
+      <circle cx="220" cy="330" r="100" fill="#dff5f1" stroke="#2a9d8f" stroke-width="6"/>
+      <circle cx="155" cy="255" r="32" fill="#2a9d8f"/>
+      <text x="155" y="267" text-anchor="middle" font-size="32" font-weight="800" fill="#ffffff">1</text>
+      <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M173 310h85a18 18 0 0 1 18 18v42a18 18 0 0 1-18 18h-43l-25 23v-23h-17a18 18 0 0 1-18-18v-42a18 18 0 0 1 18-18z" fill="#ffffff"/>
+        <path d="M285 290l7 17 17 7-17 7-7 17-7-17-17-7 17-7z" fill="#e9c46a" stroke="none"/>
       </g>
-      <path d="M 58 46 L 78 46 L 68 28 Z" fill="#E9C46A" stroke="#152238" stroke-width="2.5" stroke-linejoin="round" />
-      <line x1="68" y1="36" x2="68" y2="41" stroke="#152238" stroke-width="2.5" stroke-linecap="round" />
-      <circle cx="68" cy="44.5" r="1.4" fill="#152238" />
+      <rect x="75" y="455" width="290" height="118" rx="24" fill="#ffffff" stroke="#dce4e8" stroke-width="3"/>
+      <text x="220" y="500" text-anchor="middle" font-size="31" font-weight="800" fill="#152238">A Setup Prompt</text>
+      <text x="220" y="540" text-anchor="middle" font-size="25" fill="#334155">Give your AI useful context</text>
     </g>
 
-    <text x="936" y="730" text-anchor="middle" class="card-body" fill="#152238">
-      <tspan x="936" dy="0">Automations and agents</tspan>
-      <tspan x="936" dy="28">acting on your behalf</tspan>
-    </text>
+    <g transform="rotate(2 520 250)">
+      <circle cx="520" cy="250" r="100" fill="#ffffff" stroke="#152238" stroke-width="6"/>
+      <circle cx="455" cy="175" r="32" fill="#152238"/>
+      <text x="455" y="187" text-anchor="middle" font-size="32" font-weight="800" fill="#ffffff">2</text>
+      <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M468 260h55l17-28h57a15 15 0 0 1 15 15v76a15 15 0 0 1-15 15H468a15 15 0 0 1-15-15v-48a15 15 0 0 1 15-15z" fill="#dff5f1"/>
+        <rect x="515" y="214" width="66" height="76" rx="9" fill="#ffffff"/>
+        <path d="M531 240h34M531 262h26"/>
+      </g>
+      <rect x="375" y="375" width="290" height="142" rx="24" fill="#ffffff" stroke="#dce4e8" stroke-width="3"/>
+      <text x="520" y="420" text-anchor="middle" font-size="31" font-weight="800" fill="#152238">A Project</text>
+      <text x="520" y="460" text-anchor="middle" font-size="25" fill="#334155">
+        <tspan x="520">Add real reference material</tspan>
+        <tspan x="520" dy="32">for repeated work</tspan>
+      </text>
+    </g>
+
+    <g transform="rotate(-2 820 360)">
+      <circle cx="820" cy="360" r="100" fill="#dff5f1" stroke="#2a9d8f" stroke-width="6"/>
+      <circle cx="755" cy="285" r="32" fill="#2a9d8f"/>
+      <text x="755" y="297" text-anchor="middle" font-size="32" font-weight="800" fill="#ffffff">3</text>
+      <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M762 365a54 54 0 0 1 96-28"/>
+        <path d="M842 316l17 20-24 10"/>
+        <path d="M858 386a54 54 0 0 1-96 28"/>
+        <path d="M778 435l-17-20 24-10"/>
+        <path d="M790 379l18 18 36-42" stroke="#2a9d8f"/>
+      </g>
+      <rect x="675" y="485" width="290" height="142" rx="24" fill="#ffffff" stroke="#dce4e8" stroke-width="3"/>
+      <text x="820" y="530" text-anchor="middle" font-size="31" font-weight="800" fill="#152238">Repeatable Skills</text>
+      <text x="820" y="570" text-anchor="middle" font-size="25" fill="#334155">
+        <tspan x="820">Reuse a tested process,</tspan>
+        <tspan x="820" dy="32">not a reworded prompt</tspan>
+      </text>
+    </g>
+
+    <g transform="rotate(2.5 1110 250)">
+      <circle cx="1110" cy="250" r="100" fill="#ffffff" stroke="#152238" stroke-width="6"/>
+      <circle cx="1045" cy="175" r="32" fill="#152238"/>
+      <text x="1045" y="187" text-anchor="middle" font-size="32" font-weight="800" fill="#ffffff">4</text>
+      <g fill="none" stroke="#2a9d8f" stroke-width="8" stroke-linecap="round">
+        <circle cx="1066" cy="260" r="24"/>
+        <circle cx="1160" cy="260" r="24"/>
+        <path d="M1090 260h46"/>
+        <path d="M1102 260l12-18 14 36 12-18"/>
+      </g>
+      <rect x="965" y="375" width="290" height="142" rx="24" fill="#ffffff" stroke="#dce4e8" stroke-width="3"/>
+      <text x="1110" y="420" text-anchor="middle" font-size="31" font-weight="800" fill="#152238">Live Connections</text>
+      <text x="1110" y="460" text-anchor="middle" font-size="25" fill="#334155">
+        <tspan x="1110">Connect approved tools</tspan>
+        <tspan x="1110" dy="32">to prepare real work</tspan>
+      </text>
+    </g>
+
+    <g transform="rotate(-2 1400 350)">
+      <circle cx="1400" cy="350" r="110" fill="#fff7e0" stroke="#e9c46a" stroke-width="8"/>
+      <circle cx="1328" cy="268" r="34" fill="#e9c46a"/>
+      <text x="1328" y="281" text-anchor="middle" font-size="34" font-weight="800" fill="#152238">5</text>
+      <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="1365" cy="350" r="37"/>
+        <circle cx="1365" cy="350" r="9" fill="#e9c46a"/>
+        <path d="M1365 298v17M1365 385v17M1313 350h17M1400 350h17M1328 313l13 13M1389 374l13 13M1402 313l-13 13M1341 374l-13 13"/>
+        <path d="M1410 402l34-58 34 58z" fill="#e9c46a"/>
+        <path d="M1444 365v18M1444 392h1"/>
+      </g>
+      <rect x="1245" y="500" width="310" height="152" rx="26" fill="#fff7e0" stroke="#e9c46a" stroke-width="5"/>
+      <text x="1400" y="535" text-anchor="middle" font-size="29" font-weight="800" fill="#152238">
+        <tspan x="1400">Automations</tspan>
+        <tspan x="1400" dy="32">and Agents</tspan>
+      </text>
+      <text x="1400" y="610" text-anchor="middle" font-size="24" fill="#334155">
+        <tspan x="1400">Extra care when AI can</tspan>
+        <tspan x="1400" dy="32">act on your behalf</tspan>
+      </text>
+    </g>
   </g>
+
+  <path d="M88 700c46-25 88-24 131 2" fill="none" stroke="#2a9d8f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M103 730c35-18 67-17 98 2" fill="none" stroke="#e9c46a" stroke-width="8" stroke-linecap="round"/>
+  <text x="800" y="765" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="700" fill="#152238">The most advanced option is not automatically the most useful one.</text>
 </svg>

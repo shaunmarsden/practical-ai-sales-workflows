@@ -1,79 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
-  <defs>
-    <style>
-      .title { font-family: Inter, Arial, sans-serif; font-size: 52px; font-weight: 800; fill: #152238; }
-      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 24px; font-weight: 400; fill: #152238; }
-      .card-heading { font-family: Inter, Arial, sans-serif; font-size: 29px; font-weight: 700; fill: #152238; }
-      .card-body { font-family: Inter, Arial, sans-serif; font-size: 23px; font-weight: 400; fill: #152238; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title description">
+  <title id="title">How I Approach It</title>
+  <desc id="description">Three playful illustrated steps: start with the problem using safe information, let AI prepare the work, then keep a person in control of decisions and actions.</desc>
 
-  <rect width="1600" height="900" fill="#FFFFFF" />
+  <rect width="1600" height="720" fill="#fffdf7"/>
+  <circle cx="90" cy="88" r="34" fill="#e9c46a" opacity="0.35"/>
+  <circle cx="1510" cy="620" r="52" fill="#2a9d8f" opacity="0.12"/>
+  <path d="M115 625c55-28 92-25 142 4" fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M132 650c42-20 75-18 112 3" fill="none" stroke="#e9c46a" stroke-width="7" stroke-linecap="round"/>
 
-  <text x="800" y="130" text-anchor="middle" class="title">How I Approach It</text>
-  <text x="800" y="185" text-anchor="middle" class="subtitle">AI prepares the work. A person stays in control of every decision.</text>
+  <text x="800" y="76" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="800" fill="#152238">How I Approach It</text>
+  <text x="800" y="126" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="29" fill="#334155">Start with the sales problem. The tech comes second.</text>
 
-  <!-- Step 1 Card -->
-  <g transform="translate(100, 260)">
-    <rect width="400" height="430" rx="16" fill="#F4F6F8" />
-    <path d="M 0 16 A 16 16 0 0 1 16 0 L 384 0 A 16 16 0 0 1 400 16 L 400 12 L 0 12 Z" fill="#2A9D8F" />
+  <path d="M458 366c80-64 110-62 190-4" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-dasharray="11 13"/>
+  <path d="M630 335l24 29-37 5" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M965 364c78 58 116 57 196-4" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-dasharray="11 13"/>
+  <path d="M1141 337l25 24-34 9" fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Icon: magnifying glass over a short stack of info lines -->
-    <g transform="translate(140, 60)" stroke="#152238" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="18" y="18" width="78" height="98" rx="8" fill="#FFFFFF" stroke="#C7CDD6" stroke-width="3" />
-      <line x1="34" y1="42" x2="82" y2="42" stroke="#C7CDD6" stroke-width="3" />
-      <line x1="34" y1="60" x2="82" y2="60" stroke="#C7CDD6" stroke-width="3" />
-      <line x1="34" y1="78" x2="66" y2="78" stroke="#C7CDD6" stroke-width="3" />
-      <circle cx="86" cy="96" r="30" fill="#FFFFFF" stroke="#152238" />
-      <line x1="107" y1="118" x2="126" y2="137" />
+  <g transform="rotate(-2 285 380)" font-family="Inter, Arial, sans-serif">
+    <rect x="75" y="190" width="430" height="390" rx="34" fill="#dff5f1"/>
+    <rect x="90" y="205" width="430" height="390" rx="34" fill="#ffffff" stroke="#2a9d8f" stroke-width="4"/>
+    <circle cx="140" cy="255" r="34" fill="#2a9d8f"/>
+    <text x="140" y="267" text-anchor="middle" font-size="34" font-weight="800" fill="#ffffff">1</text>
+    <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="220" y="250" width="100" height="128" rx="14" fill="#fffdf7"/>
+      <path d="M245 286h50M245 313h37"/>
+      <circle cx="322" cy="360" r="38" fill="#fffdf7"/>
+      <path d="M350 388l29 29"/>
     </g>
-
-    <text x="200" y="245" text-anchor="middle" class="card-heading">1. Start with the problem</text>
-    <text x="200" y="305" text-anchor="middle" class="card-body">Use safe, relevant information</text>
+    <path d="M360 255l8 18 19 8-19 8-8 19-8-19-19-8 19-8z" fill="#e9c46a"/>
+    <text x="305" y="470" text-anchor="middle" font-size="36" font-weight="800" fill="#152238">Start With the Problem</text>
+    <text x="305" y="520" text-anchor="middle" font-size="28" fill="#334155">Use safe, relevant information</text>
   </g>
 
-  <g transform="translate(515, 475)">
-    <path d="M 0 0 L 70 0" stroke="#152238" stroke-width="4" stroke-linecap="round" />
-    <path d="M 55 -12 L 72 0 L 55 12" stroke="#152238" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-  </g>
-
-  <!-- Step 2 Card -->
-  <g transform="translate(600, 260)">
-    <rect width="400" height="430" rx="16" fill="#F4F6F8" />
-    <path d="M 0 16 A 16 16 0 0 1 16 0 L 384 0 A 16 16 0 0 1 400 16 L 400 12 L 0 12 Z" fill="#2A9D8F" />
-
-    <!-- Icon: folder with a document peeking out, plus a small spark to signal AI drafting -->
-    <g transform="translate(148, 60)" stroke="#152238" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="16" y="30" width="70" height="30" rx="6" fill="#FFFFFF" stroke="#C7CDD6" stroke-width="3" />
-      <line x1="28" y1="40" x2="58" y2="40" stroke="#C7CDD6" stroke-width="3" />
-      <line x1="28" y1="50" x2="52" y2="50" stroke="#C7CDD6" stroke-width="3" />
-      <path d="M 6 46 L 6 108 C 6 112 9 115 13 115 L 91 115 C 95 115 98 112 98 108 L 98 62 C 98 58 95 55 91 55 L 56 55 L 46 46 Z" fill="#FFFFFF" />
-      <path d="M 118 40 L 123 52 L 135 57 L 123 62 L 118 74 L 113 62 L 101 57 L 113 52 Z" fill="#2A9D8F" stroke="none" />
+  <g transform="rotate(1.5 800 380)" font-family="Inter, Arial, sans-serif">
+    <rect x="585" y="202" width="430" height="390" rx="34" fill="#dbe5eb"/>
+    <rect x="575" y="190" width="430" height="390" rx="34" fill="#ffffff" stroke="#152238" stroke-width="4"/>
+    <circle cx="625" cy="242" r="34" fill="#152238"/>
+    <text x="625" y="254" text-anchor="middle" font-size="34" font-weight="800" fill="#ffffff">2</text>
+    <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M710 310h55l18-30h70a15 15 0 0 1 15 15v93a15 15 0 0 1-15 15H710a15 15 0 0 1-15-15v-63a15 15 0 0 1 15-15z" fill="#dff5f1"/>
+      <rect x="760" y="260" width="70" height="86" rx="9" fill="#ffffff"/>
+      <path d="M777 290h36M777 313h28"/>
     </g>
-
-    <text x="200" y="245" text-anchor="middle" class="card-heading">2. Let AI prepare</text>
-    <text x="200" y="305" text-anchor="middle" class="card-body">Organise, draft and spot gaps</text>
+    <path d="M893 266l9 21 21 9-21 9-9 21-9-21-21-9 21-9z" fill="#2a9d8f"/>
+    <text x="790" y="465" text-anchor="middle" font-size="36" font-weight="800" fill="#152238">Let AI Prepare</text>
+    <text x="790" y="515" text-anchor="middle" font-size="28" fill="#334155">Organise, draft and spot gaps</text>
   </g>
 
-  <g transform="translate(1015, 475)">
-    <path d="M 0 0 L 70 0" stroke="#152238" stroke-width="4" stroke-linecap="round" />
-    <path d="M 55 -12 L 72 0 L 55 12" stroke="#152238" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-  </g>
-
-  <!-- Step 3 Card: human decision point -->
-  <g transform="translate(1100, 260)">
-    <rect width="400" height="430" rx="16" fill="#FFFCF0" stroke="#E9C46A" stroke-width="3" />
-    <path d="M 0 16 A 16 16 0 0 1 16 0 L 384 0 A 16 16 0 0 1 400 16 L 400 12 L 0 12 Z" fill="#E9C46A" />
-
-    <!-- Icon: person with a checkmark badge, signalling human approval -->
-    <g transform="translate(150, 55)" stroke="#152238" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="45" cy="34" r="24" fill="#FFFFFF" />
-      <path d="M 4 118 C 4 88 21 68 45 68 C 69 68 86 88 86 118" fill="#FFFFFF" />
-      <circle cx="90" cy="94" r="26" fill="#E9C46A" stroke="#152238" stroke-width="3.5" />
-      <path d="M 78 94 L 87 103 L 103 84" stroke="#152238" stroke-width="4.5" fill="none" />
+  <g transform="rotate(-1.5 1300 380)" font-family="Inter, Arial, sans-serif">
+    <rect x="1090" y="200" width="430" height="390" rx="34" fill="#f5d982"/>
+    <path d="M1080 190h430a34 34 0 0 1 34 34v322a34 34 0 0 1-34 34h-166l-42 38-3-38h-219a34 34 0 0 1-34-34V224a34 34 0 0 1 34-34z" fill="#fff7e0" stroke="#e9c46a" stroke-width="5"/>
+    <circle cx="1130" cy="242" r="34" fill="#e9c46a"/>
+    <text x="1130" y="254" text-anchor="middle" font-size="34" font-weight="800" fill="#152238">3</text>
+    <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="1280" cy="300" r="38" fill="#ffffff"/>
+      <path d="M1216 410c10-49 32-73 64-73s54 24 64 73" fill="#ffffff"/>
+      <circle cx="1370" cy="374" r="39" fill="#e9c46a"/>
+      <path d="M1350 374l14 14 27-31"/>
     </g>
-
-    <text x="200" y="245" text-anchor="middle" class="card-heading">3. Keep a person in control</text>
-    <text x="200" y="305" text-anchor="middle" class="card-body">Check, decide, act and improve</text>
+    <text x="1295" y="475" text-anchor="middle" font-size="36" font-weight="800" fill="#152238">Keep a Person in Control</text>
+    <text x="1295" y="525" text-anchor="middle" font-size="28" fill="#334155">Check, decide, act and improve</text>
   </g>
+
+  <path d="M1455 118l8 18 19 8-19 8-8 19-8-19-19-8 19-8z" fill="#2a9d8f"/>
+  <path d="M1505 158l5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="#e9c46a"/>
 </svg>

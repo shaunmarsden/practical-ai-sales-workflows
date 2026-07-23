@@ -1,107 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
-  <defs>
-    <style>
-      .title { font-family: Inter, Arial, sans-serif; font-size: 46px; font-weight: 800; fill: #152238; }
-      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 22px; font-weight: 400; fill: #152238; }
-      .card-heading { font-family: Inter, Arial, sans-serif; font-size: 26px; font-weight: 700; fill: #152238; }
-      .card-body { font-family: Inter, Arial, sans-serif; font-size: 21px; font-weight: 400; fill: #152238; }
-      .distinction { font-family: Inter, Arial, sans-serif; font-size: 22px; font-weight: 400; fill: #152238; }
-      .distinction-heading { font-family: Inter, Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #152238; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title description">
+  <title id="title">How This Repository Labels Evidence</title>
+  <desc id="description">Four colourful sticky notes explain Confirmed, Estimate, Inference and Unknown evidence labels. Unknown is useful because it shows what needs checking next.</desc>
 
-  <rect width="1600" height="900" fill="#FFFFFF" />
+  <rect width="1600" height="760" fill="#fffdf7"/>
+  <path d="M70 140c80-28 165-28 248 0" fill="none" stroke="#e9c46a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1290 105c75 30 142 26 218-9" fill="none" stroke="#2a9d8f" stroke-width="8" stroke-linecap="round"/>
 
-  <text x="800" y="75" text-anchor="middle" class="title">How This Repository Labels Evidence</text>
-  <text x="800" y="115" text-anchor="middle" class="subtitle">Every important fact gets one of four honest labels, never treated as more certain than it is.</text>
+  <text x="800" y="72" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="#152238">How This Repository Labels Evidence</text>
+  <text x="800" y="121" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600" fill="#334155">Four labels. No pretending.</text>
 
-  <!-- Card 1: Confirmed -->
-  <g transform="translate(80, 160)">
-    <rect width="335" height="330" rx="14" fill="#F4F6F8" stroke="#E2E8F0" stroke-width="1.5" />
-    <path d="M 0 14 A 14 14 0 0 1 14 0 L 321 0 A 14 14 0 0 1 335 14 L 335 10 L 0 10 Z" fill="#2A9D8F" />
-
-    <!-- Icon: solid check in a circle -->
-    <g transform="translate(142, 30)">
-      <circle cx="25" cy="25" r="25" fill="#2A9D8F" />
-      <path d="M 13 26 L 21 34 L 38 15" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-    </g>
-
-    <text x="167.5" y="115" text-anchor="middle" class="card-heading">Confirmed</text>
-    <text x="167.5" y="150" text-anchor="middle" class="card-body">
-      <tspan x="167.5" dy="0">Directly supported by</tspan>
-      <tspan x="167.5" dy="26">the source material</tspan>
+  <g transform="rotate(-2 235 360)" font-family="Inter, Arial, sans-serif">
+    <rect x="65" y="190" width="355" height="365" rx="18" fill="#bfe8df"/>
+    <path d="M80 180h315l35 35v325a18 18 0 0 1-18 18H80a18 18 0 0 1-18-18V198a18 18 0 0 1 18-18z" fill="#dff5f1" stroke="#2a9d8f" stroke-width="4"/>
+    <path d="M395 180v35h35" fill="#ffffff" stroke="#2a9d8f" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="245" cy="285" r="46" fill="#2a9d8f"/>
+    <path d="M220 286l17 17 34-40" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="245" y="390" text-anchor="middle" font-size="38" font-weight="800" fill="#152238">Confirmed</text>
+    <text x="245" y="440" text-anchor="middle" font-size="28" fill="#334155">
+      <tspan x="245">Backed up directly</tspan>
+      <tspan x="245" dy="38">by a reliable source</tspan>
     </text>
   </g>
 
-  <!-- Card 2: Estimate -->
-  <g transform="translate(438, 160)">
-    <rect width="335" height="330" rx="14" fill="#F4F6F8" stroke="#E2E8F0" stroke-width="1.5" />
-    <path d="M 0 14 A 14 14 0 0 1 14 0 L 321 0 A 14 14 0 0 1 335 14 L 335 10 L 0 10 Z" fill="#2A9D8F" />
-
-    <!-- Icon: a simple gauge/dial signalling a measured guess -->
-    <g transform="translate(142, 30)" fill="none" stroke="#2A9D8F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 4 42 A 21 21 0 0 1 46 42" />
-      <line x1="25" y1="42" x2="35" y2="26" />
-      <circle cx="25" cy="42" r="4" fill="#2A9D8F" stroke="none" />
+  <g transform="rotate(1.5 610 360)" font-family="Inter, Arial, sans-serif">
+    <rect x="445" y="196" width="355" height="365" rx="18" fill="#f5d982"/>
+    <path d="M455 180h315l35 35v325a18 18 0 0 1-18 18H455a18 18 0 0 1-18-18V198a18 18 0 0 1 18-18z" fill="#fff7e0" stroke="#e9c46a" stroke-width="4"/>
+    <path d="M770 180v35h35" fill="#ffffff" stroke="#e9c46a" stroke-width="4" stroke-linejoin="round"/>
+    <g fill="none" stroke="#152238" stroke-width="8" stroke-linecap="round">
+      <path d="M560 320a50 50 0 0 1 100 0"/>
+      <path d="M610 320l27-42"/>
+      <circle cx="610" cy="320" r="8" fill="#e9c46a"/>
     </g>
-
-    <text x="167.5" y="115" text-anchor="middle" class="card-heading">Estimate</text>
-    <text x="167.5" y="150" text-anchor="middle" class="card-body">
-      <tspan x="167.5" dy="0">A number or view given</tspan>
-      <tspan x="167.5" dy="26">without measurement</tspan>
+    <text x="630" y="390" text-anchor="middle" font-size="38" font-weight="800" fill="#152238">Estimate</text>
+    <text x="630" y="440" text-anchor="middle" font-size="28" fill="#334155">
+      <tspan x="630">A number or view</tspan>
+      <tspan x="630" dy="38">without measurement</tspan>
     </text>
   </g>
 
-  <!-- Card 3: Inference -->
-  <g transform="translate(796, 160)">
-    <rect width="335" height="330" rx="14" fill="#F4F6F8" stroke="#E2E8F0" stroke-width="1.5" />
-    <path d="M 0 14 A 14 14 0 0 1 14 0 L 321 0 A 14 14 0 0 1 335 14 L 335 10 L 0 10 Z" fill="#2A9D8F" />
-
-    <!-- Icon: magnifying glass over a small question mark, signalling reasoned reading -->
-    <g transform="translate(142, 28)">
-      <circle cx="20" cy="20" r="16" fill="none" stroke="#2A9D8F" stroke-width="4" />
-      <line x1="31" y1="31" x2="42" y2="42" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round" />
-      <text x="20" y="26" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#2A9D8F">?</text>
+  <g transform="rotate(-1.2 990 360)" font-family="Inter, Arial, sans-serif">
+    <rect x="825" y="194" width="355" height="365" rx="18" fill="#dbe5eb"/>
+    <path d="M835 180h315l35 35v325a18 18 0 0 1-18 18H835a18 18 0 0 1-18-18V198a18 18 0 0 1 18-18z" fill="#f4f6f8" stroke="#152238" stroke-width="4"/>
+    <path d="M1150 180v35h35" fill="#ffffff" stroke="#152238" stroke-width="4" stroke-linejoin="round"/>
+    <g fill="none" stroke="#2a9d8f" stroke-width="8" stroke-linecap="round">
+      <circle cx="990" cy="290" r="42"/>
+      <path d="M1020 321l32 32"/>
     </g>
-
-    <text x="167.5" y="115" text-anchor="middle" class="card-heading">Inference</text>
-    <text x="167.5" y="150" text-anchor="middle" class="card-body">
-      <tspan x="167.5" dy="0">A reasonable interpretation</tspan>
-      <tspan x="167.5" dy="26">that needs checking</tspan>
+    <text x="990" y="305" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#2a9d8f">?</text>
+    <text x="1010" y="390" text-anchor="middle" font-size="38" font-weight="800" fill="#152238">Inference</text>
+    <text x="1010" y="440" text-anchor="middle" font-size="28" fill="#334155">
+      <tspan x="1010">A sensible interpretation</tspan>
+      <tspan x="1010" dy="38">that still needs checking</tspan>
     </text>
   </g>
 
-  <!-- Card 4: Unknown -->
-  <g transform="translate(1154, 160)">
-    <rect width="335" height="330" rx="14" fill="#F4F6F8" stroke="#E2E8F0" stroke-width="1.5" />
-    <path d="M 0 14 A 14 14 0 0 1 14 0 L 321 0 A 14 14 0 0 1 335 14 L 335 10 L 0 10 Z" fill="#2A9D8F" />
-
-    <!-- Icon: dashed circle with a question mark, signalling an open gap -->
-    <g transform="translate(142, 30)">
-      <circle cx="25" cy="25" r="24" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-dasharray="6,6" />
-      <text x="25" y="35" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#2A9D8F">?</text>
-    </g>
-
-    <text x="167.5" y="115" text-anchor="middle" class="card-heading">Unknown</text>
-    <text x="167.5" y="150" text-anchor="middle" class="card-body">
-      <tspan x="167.5" dy="0">Missing, unclear</tspan>
-      <tspan x="167.5" dy="26">or contradictory</tspan>
+  <g transform="rotate(2 1370 360)" font-family="Inter, Arial, sans-serif">
+    <rect x="1205" y="196" width="355" height="365" rx="18" fill="#f5d982"/>
+    <path d="M1215 180h315l35 35v325a18 18 0 0 1-18 18h-332a18 18 0 0 1-18-18V198a18 18 0 0 1 18-18z" fill="#ffffff" stroke="#e9c46a" stroke-width="5"/>
+    <path d="M1530 180v35h35" fill="#fff7e0" stroke="#e9c46a" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="1370" cy="290" r="48" fill="#fff7e0" stroke="#152238" stroke-width="7" stroke-dasharray="12 10"/>
+    <text x="1370" y="307" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800" fill="#152238">?</text>
+    <text x="1390" y="390" text-anchor="middle" font-size="38" font-weight="800" fill="#152238">Unknown</text>
+    <text x="1390" y="440" text-anchor="middle" font-size="28" fill="#334155">
+      <tspan x="1390">Missing, unclear</tspan>
+      <tspan x="1390" dy="38">or contradictory</tspan>
     </text>
   </g>
 
-  <!-- Important Distinction -->
-  <g transform="translate(80, 540)">
-    <rect width="1439" height="270" rx="14" fill="#FFFCF0" stroke="#E9C46A" stroke-width="2" />
-    <path d="M 0 14 A 14 14 0 0 1 14 0 L 14 0 L 14 270 L 14 270 A 14 14 0 0 1 0 256 Z" fill="#E9C46A" />
-
-    <g transform="translate(48, 50)">
-      <rect x="0" y="0" width="238" height="42" rx="10" fill="#E9C46A" fill-opacity="0.3" />
-      <text x="17" y="28" class="distinction-heading">Important Distinction</text>
-    </g>
-
-    <text x="48" y="150" class="distinction">
-      <tspan x="48" dy="0">These are not a quality score. A workflow can be done well and still contain an</tspan>
-      <tspan x="48" dy="34">Unknown label. That is honesty, not a defect.</tspan>
-    </text>
-  </g>
+  <path d="M103 610h1394a26 26 0 0 1 26 26v58a26 26 0 0 1-26 26H103a26 26 0 0 1-26-26v-58a26 26 0 0 1 26-26z" fill="#152238"/>
+  <circle cx="135" cy="665" r="31" fill="#e9c46a"/>
+  <text x="135" y="677" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="#152238">!</text>
+  <text x="190" y="678" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700" fill="#ffffff">Unknown is useful. It tells you what to check next.</text>
 </svg>
