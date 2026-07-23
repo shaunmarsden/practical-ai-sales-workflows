@@ -2,10 +2,10 @@
 
 Run a finished or inherited draft through every line before it goes to a prospect. Fix anything that fails.
 
-- Written as headed prose, not a table
+- The case itself is written as headed prose that reads as an argument; a compact summary table above it (company, role or sector, product or programme, start date) is fine, but the case is not just a second reference grid
 - Title personalised to the prospect's actual role and sector
 - Reader correctly identified: third person if someone other than the prospect reads it, second person only if the prospect is the sole decision maker
-- Three applied examples, each specific enough that it could not be dropped unchanged into a different prospect's document
+- Three applied examples, each specific enough that it could not be dropped unchanged into a different prospect's document, ideally with an expected impact and measurable early success indicators alongside the description
 - Commercial section uses figures the prospect has actually seen, with no internal pricing mechanics left in
 - Risk, data or compliance section present, with its own heading, and consistent with what the prospect said about their own systems
 - Time or resource commitment section present
