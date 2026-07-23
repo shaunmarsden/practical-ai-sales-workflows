@@ -2,7 +2,7 @@
 
 New to this repository entirely? Start with [Where to Start](where-to-start.md) or [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) first.
 
-Fifteen workflows now live here, and a real situation rarely arrives labelled with the right one. The [workflow router skill](../.agents/skills/workflow-router/SKILL.md) reads a plain-English description of what is actually going on and hands off to the workflow that fits, without trying to solve the underlying task itself.
+Fifteen workflows now live here, and a real situation rarely arrives labelled with the right one. The [workflow router skill](../.agents/skills/workflow-router/SKILL.md) reads a plain-English description of what is actually going on and hands off to the workflow that fits, without trying to solve the underlying task itself. Not using an AI agent directly? [The portable prompt](../templates/workflow-router-prompt.md) does the same job pasted straight into ChatGPT, Claude or Gemini.
 
 ## When to Use It
 
