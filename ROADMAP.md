@@ -392,3 +392,11 @@ Avoid a single opaque 0 to 100 score unless every component, weight and limitati
 Allow a user to compare two instruction versions against the same fictional case, preserving raw outputs, scores, differences and human review notes.
 
 This should support evaluation. It should not present model-generated scoring as independent proof.
+
+### Beyond this repository
+
+#### Sibling repositories for other business functions
+
+Not a plan for this repository, and not scoped. The same proven format here (fictional scenarios, evaluated workflows, honest real-use testing) could in principle apply to other functions such as finance, HR, operations or project management, as their own separate repositories rather than folders added to this one.
+
+The one hard condition: this only works with a genuine practitioner from that function driving it, the same way this repository only works because a real salesperson is testing real sales workflows against real deals. Do not start drafting one of these without that person in place.
