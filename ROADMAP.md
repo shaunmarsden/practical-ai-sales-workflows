@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added a selective installation guide, the per-platform mechanics of loading only a chosen subset of skills.** Built ahead of the usual real-use-evidence bar, on the project owner's own call. The new [guide](guides/selective-installation.md) covers Claude, ChatGPT, Gemini and Copilot, and is deliberately mechanical: it assumes the "which skills" decision is already made via [Choose Your Route by Role](guides/role-based-routes.md) or a curated bundle, and covers only how to actually load that subset without carrying the rest of the library's instructions into every conversation.
+
 - **Added the missing working state and an explicit structure to evidence-supported opportunity state.** The [pipeline evidence review workflow](workflows/06-pipeline-evidence-review.md) and [prompt](templates/pipeline-evidence-review-prompt.md) already separated the recorded CRM stage from the evidence-supported state; the backlog's own list of working states named one, commercial review, that the existing list was missing, so it is now added alongside the others. Both files now also state explicitly that the recorded stage and the evidence-supported state must be shown side by side, with any conflict named, before a next step is suggested, rather than that structure being implicit in how the review already happened to read.
 
 - **Promoted the outbound campaign learning review from a prompt-only structure to a full workflow, the sixteenth job in the repository.** Built ahead of its own stated bar, on the project owner's own call: the backlog item said to prove the structure helps on a real campaign first, before it earned a fictional example, an evaluation and a place in the main problem list. It now has all three: [workflows/14-outbound-campaign-learning-review.md](workflows/14-outbound-campaign-learning-review.md), a fictional Cedarwell-style campaign comparison with a deliberate trap (two variables changed at once, a small second sample), a [scored evaluation](evaluations/cedarwell-campaign-review-eval.md), and a [recipe card](recipes/review-an-outbound-campaign.md). Wired into the README's main problem list, recipes/README.md, AGENTS.md and role-based-routes.md, all updated from fifteen jobs to sixteen. The backlog note is honest that a fictional test and score are not a substitute for the real-campaign test its own prompt has always called for; that real test still has not happened.
@@ -273,7 +275,7 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Selective installation and platform guidance
 
-As the skill library grows, explain how to install or load only the skills needed for a role or task. Avoid forcing users to load a large catalogue that may crowd out the most relevant instructions.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/selective-installation.md).
 
 #### Workflow recipe cards
 
