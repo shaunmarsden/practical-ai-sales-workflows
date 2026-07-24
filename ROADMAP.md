@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added three outbound and chase-sequence backlog items: signal-to-hypothesis, company-first versus signal-first, and channel-escalation logic.** Built ahead of the usual real-use-evidence bar, on the project owner's own call. The [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) now links a new [signal-to-hypothesis reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md): a six-part structure (signal and source, possible relevance, what it does not prove, a verifying question, a safe outreach angle, reasons not to use it), three concrete signal categories that are checkable facts rather than guesses (follower size, ad spend, active hiring for a role the offer would replace), and the difference between starting company-first from a defined list versus signal-first from a public event. The [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md)'s [sequence-stages reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md) now documents channel-escalation as decision logic only, do not move channels before the first one has had a fair chance to be read, explicitly leaving out any automated cross-channel triggering or auto-dialling as not fitting this repository's human-approval-first model.
+
 - **Added a curated bundles guide, grouping existing recipe cards into three starting packs.** Built ahead of the usual real-use-evidence bar, on the project owner's own call, the same way role-based routes was: a Sales AI starter pack, a post-call pack, and a deal progression pack, each a page of links to [recipe cards](recipes/README.md) that already exist, no installer. The [guide](guides/curated-bundles.md) says plainly that the three groupings are a starting guess, worth revisiting once real use shows whether they are the ones people actually reach for.
 
 - **Added a progressive disclosure guide, naming a pattern already in use and auditing the current skill library against it.** The new [guide](guides/progressive-disclosure.md) states what belongs in a skill's core `SKILL.md` (the method itself, gathered on every run) versus a supporting file (a fictional example, an output contract, a template, a checklist, loaded only when that specific step needs it), then checks all eleven current skills against it. Every core file sits under ninety lines, and every skill with deeper material already keeps it in a separate file; nothing failed the audit. The guide's ongoing value is having a place to check the next skill against, so a `SKILL.md` that starts growing past this pattern gets caught at review time.
@@ -205,25 +207,11 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Signal-to-hypothesis outbound
 
-Turn public company signals into clearly labelled commercial hypotheses:
-
-- observed signal and source;
-- possible relevance;
-- what it does not prove;
-- a question that could verify it;
-- a safe outreach angle;
-- reasons not to use it.
-
-Worth naming a few concrete, verifiable signal categories rather than leaving "a specific signal" abstract: audience or follower size as a proxy for growth intent, active ad spend as a proxy for investment intent, and active hiring for a role the offer would replace as a proxy for a live, current problem. All three are checkable facts, not a guess about internal state, so they fit the existing [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md)'s requirement for a real, verifiable signal rather than a generic industry trend.
+**Shipped**, see [Done Recently](#done-recently) above for the [reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md).
 
 #### Company-first and signal-first prospecting
 
-Document two different starting routes:
-
-- company-first, when there is a defined account list or market;
-- signal-first, when accounts are discovered from a relevant public event.
-
-Both routes should include evidence checks before contact discovery or enrichment.
+**Shipped**, see [Done Recently](#done-recently) above for the same [reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md).
 
 #### Outbound message structure refinements
 
@@ -235,7 +223,7 @@ Both routes should include evidence checks before contact discovery or enrichmen
 
 #### Channel-escalation sequencing for a stalled chase
 
-Flagged rather than recommended: the idea of a defined channel order (email, then a different channel, then a call) once a prospect has gone quiet on the first one. The underlying sequencing logic, do not escalate to a new channel before the first one has had a fair chance to be read, might be worth documenting as a principle. Most of the practical implementation of this (automated cross-channel triggers, auto-dialling) does not fit this repository's human-approval-first model and should not be built as described; if this moves forward at all, it should be the decision logic only, left for a person to act on.
+**Shipped**, see [Done Recently](#done-recently) above for the [reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md), decision logic only, no automation.
 
 #### Pipeline evidence review
 
