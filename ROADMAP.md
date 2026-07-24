@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added a progressive disclosure guide, naming a pattern already in use and auditing the current skill library against it.** The new [guide](guides/progressive-disclosure.md) states what belongs in a skill's core `SKILL.md` (the method itself, gathered on every run) versus a supporting file (a fictional example, an output contract, a template, a checklist, loaded only when that specific step needs it), then checks all eleven current skills against it. Every core file sits under ninety lines, and every skill with deeper material already keeps it in a separate file; nothing failed the audit. The guide's ongoing value is having a place to check the next skill against, so a `SKILL.md` that starts growing past this pattern gets caught at review time.
+
 - **Piloted the standard skill package on a second skill, champion-enablement.** The [skill](.agents/skills/champion-enablement/SKILL.md) already had a fictional Hartwell example; it now also has an [output contract](.agents/skills/champion-enablement/references/output-contract.md) stating what the AI must and must not do, an [output template](.agents/skills/champion-enablement/templates/output-template.md) for the finished package, and a [human review checklist](.agents/skills/champion-enablement/checks/checklist.md), matching the structure already piloted on identify-buyer-indecision. Both pilots so far started from a skill that already had a working fictional example; the backlog note is updated to say the harder, more useful test is a skill without one yet, which is the case that would actually show whether the structure earns its way into CONTRIBUTING.md's baseline rather than staying optional.
 
 - **Added a composing-longer-workflows guide, covering the seven remaining backlog items under Workflow composition and traceability.** Built as a deliberate project-owner override of the usual real-use-evidence bar, the same way role-based routes was. The new [guide](guides/composing-longer-workflows.md) documents working folders and run logs, visible progress for longer runs, spend checkpoints before paid enrichment, keeping a manual route alongside any connector, choosing method before platform, separating AI judgement from code mechanics, and keeping instructions visible even when configurable. States plainly throughout that these are principles to build to, not a description of software that exists in this repository now; nothing here executes automatically today.
@@ -145,7 +147,7 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Progressive disclosure
 
-Keep core skill instructions short enough to load when needed. Put deeper examples, templates and reference notes in supporting files so every task does not load the entire repository.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/progressive-disclosure.md).
 
 #### Curated bundles
 
