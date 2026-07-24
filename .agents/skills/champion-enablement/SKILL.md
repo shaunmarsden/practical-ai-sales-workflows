@@ -27,6 +27,8 @@ For each further stakeholder, record only what is actually known about what they
 3. **Questions likely to come up, and an honest answer to each**, including "not yet confirmed" where that is genuinely the answer. An unconfirmed item stays unconfirmed here; it does not get quietly resolved to make the champion look more prepared.
 4. **An internal note, if the situation calls for one**, drafted for the champion to send in their own name to a specific further stakeholder, never addressed as though the seller were sending it directly.
 
+Load [the output contract](references/output-contract.md) for strict behavioural boundaries. Use [the output template](templates/output-template.md) to format the finished package. Run [the human review checklist](checks/checklist.md) before the champion uses any of it.
+
 ## Apply the Guardrails
 
 - Never contact, or draft something addressed to, a stakeholder beyond the champion without the champion's explicit involvement. Everything produced here is for the champion to use, send or present themselves.
