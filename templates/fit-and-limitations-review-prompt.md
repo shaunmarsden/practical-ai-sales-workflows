@@ -18,6 +18,7 @@ Rules:
 - State the actual reason for each classification, not just the label
 - Never claim a capability that has not actually been confirmed
 - Never let "uncertain" quietly become "good fit" because a decision is wanted sooner
+- If a stakeholder's general description of a role, such as calling it clinical or interpretive, conflicts with the specific, structured tasks described for that same role, name the conflict directly rather than quietly picking whichever version is more convenient
 ```
 
 ## Before You Use the Output
