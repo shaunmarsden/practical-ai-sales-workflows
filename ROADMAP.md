@@ -315,6 +315,26 @@ These are distant ideas. They may become separate software projects if the simpl
 
 **Shipped as a spec**, see [Done Recently](#done-recently) above for the same [design document](guides/future-interfaces.md).
 
+### AI literacy and tooling guides
+
+Raised from a rough brain dump, 24 July 2026. Checked first against everything already here: customer comms and chase sequencing, setting an AI up as a salesperson, connecting other systems, and getting started at all are already covered by the [Chase a Quiet Prospect recipe](recipes/chase-a-quiet-prospect.md) and the existing [Get More From Your AI](guides/get-more-from-your-ai.md), [Set Up Your Own AI for Sales](guides/set-up-your-ai-for-sales.md), [Getting Started With AI](guides/getting-started-with-ai.md) and [Where to Start](guides/where-to-start.md) guides. These four are the genuinely new ground once that overlap is removed.
+
+#### NotebookLM and Gemini Notebook
+
+A plain-English guide to source-grounded notebook tools specifically, distinct from the general project/knowledge-base pattern already covered in [Get More From Your AI](guides/get-more-from-your-ai.md): what they are actually good for (a bounded set of real sources, not a general assistant), and where that differs from a Project or a Gem.
+
+#### Notetaker and transcript tools
+
+A guide to call-transcript tools (Granola-style) as a category: what they capture, the manual-paste alternative for anyone without one, and how a transcript from one of these feeds directly into the existing [extract post call evidence](.agents/skills/extract-post-call-evidence/SKILL.md) skill.
+
+#### Agent orchestrators, explained
+
+A plain-English explainer: what an agent orchestrator actually is, what it can genuinely help with, and how someone would start using one, aimed at a reader who has heard the term but not used one. Distinct from [Composing Longer Workflows](guides/composing-longer-workflows.md), which is architecture principles for this repository's own future, not a tool explainer for the reader. Worth a short, related note on Google Apps Script as a lightweight, code-based alternative for someone who wants to script a specific integration without a full orchestration platform.
+
+#### Models and token management
+
+A guide to the actual practical differences between models (not a benchmark chase) and what token management means for a working salesperson: why a long conversation degrades, when to start a fresh one, and what actually belongs in a Project's knowledge versus in every single message.
+
 ### Beyond this repository
 
 #### Sibling repositories for other business functions
