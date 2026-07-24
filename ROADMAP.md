@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added a downloadable skill packages guide, documenting the structure without publishing an actual ZIP.** Built ahead of the usual real-use-evidence bar (the backlog item said wait for testing to show a bundle is useful), on the project owner's own call. The new [guide](guides/downloadable-skill-packages.md) lists what a package should contain (the skill, a plain-English guide, a fictional case, an output template, the evaluation rubric, per-platform installation notes) and demonstrates the structure once against [identify-buyer-indecision](.agents/skills/identify-buyer-indecision/SKILL.md), an existing skill that already has every required piece. Deliberately stops short of publishing an actual ZIP or building any packaging tooling, since a maintained duplicate would drift from the real skill files the moment either changed, and no installer has been asked for yet.
+
 - **Added role-based routes, a guide for readers who would rather start from their job title than a list of sales problems.** Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usability testing to show a need, the same way several other verticals were launched ahead of that bar. The new [guide](guides/role-based-routes.md) groups the same fifteen existing jobs by which ones actually come up for an account executive, a sales manager, RevOps, customer success, or someone doing founder-led sales, pointing only to recipe cards that already exist rather than duplicating any of them. Linked from the README's "Three Ways to Start" section and from AGENTS.md's guide list. It needs a real test like everything else here, specifically whether the five groupings actually match how people in those seats work.
 
 - **The weekly operating review is real-tested, composed entirely from this week's other real findings.** Built as a genuine composition rather than fresh analysis, exactly as the [workflow](workflows/10-weekly-operating-review.md) requires: pipeline movement correctly stated as not yet measurable, since this was the first report with no earlier snapshot to compare against; outreach activity correctly marked unmeasured rather than assumed to be zero, since only a couple of unrelated sends were visible from one inbox; and the items needing attention pulled directly from other real reviews already run this week, a CRM duplicate and stale test records, a stalled opportunity with an unresolved objection worth reviving, three funding objections that look similar but are not, rather than re-deriving any of it from scratch. Every guardrail held cleanly. No skill change needed; recorded as real evidence the composition model works when the underlying reviews genuinely exist, not just in the fictional worked example.
@@ -346,16 +348,7 @@ As the skill library grows, explain how to install or load only the skills neede
 
 #### Downloadable cross-platform skill packages
 
-Once testing shows that a bundle is useful, publish a small ZIP containing:
-
-- the skill;
-- a plain-English guide;
-- a fictional case;
-- an output template;
-- the evaluation rubric;
-- product-specific installation notes.
-
-Support a manual route for ChatGPT, Claude, Gemini and other assistants where practical. Do not claim identical behaviour across products.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/downloadable-skill-packages.md).
 
 #### Missing-workflow request template
 

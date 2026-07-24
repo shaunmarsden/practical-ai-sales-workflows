@@ -139,6 +139,7 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Measure Time Saved and Output Quality](guides/measure-time-and-quality.md), for logging your own time honestly alongside scoring the output
 - [Workflow Router](guides/workflow-router.md) and [its skill](.agents/skills/workflow-router/SKILL.md), the reference to use when a user describes a situation in their own words rather than naming a workflow, or when two workflows sound similar and it matters which one actually fits
 - [Choose Your Route by Role](guides/role-based-routes.md), for a user who would rather start from their job title (account executive, sales manager, RevOps, customer success, founder-led sales) than from a list of sales problems
+- [Downloadable Skill Packages](guides/downloadable-skill-packages.md), the structure for a single-skill package (the skill, a guide, a fictional case, a template, the rubric, per-platform notes), demonstrated once against identify-buyer-indecision without publishing an actual ZIP
 
 ### Outbound Prospecting
 
