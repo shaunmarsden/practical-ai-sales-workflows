@@ -1,6 +1,6 @@
 # Gemini Visual Style Prompt
 
-Use this prompt to create diagrams that match the visual style of [Practical AI Across the Sales Cycle](../assets/diagrams/practical-ai-across-the-sales-cycle.png).
+Use this prompt to create diagrams that match the visual style of [How I Approach It](../assets/diagrams/how-i-approach-it.svg).
 
 The reference image is the approved standard. Every new image still needs checking for missing words, spelling mistakes, small text and visual drift before it is published.
 
@@ -9,7 +9,7 @@ The reference image is the approved standard. Every new image still needs checki
 ```text
 Create a clear, playful diagram for a public GitHub repository called Practical AI Sales Workflows.
 
-Use the approved colours and typography from Practical AI Across the Sales Cycle, but do not copy its box-and-arrow layout every time. The repository should feel useful, warm and human, not like a corporate presentation. Change only the content supplied in the diagram brief.
+Use the approved colours, typography and playful illustrated style from How I Approach It, but do not copy its three-card layout every time. The repository should feel useful, warm and human, not like a corporate presentation. Change only the content supplied in the diagram brief.
 
 Audience
 
