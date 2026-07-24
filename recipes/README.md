@@ -1,6 +1,6 @@
 # Recipe Cards
 
-Fifteen sales jobs, one page each. Every card is self-contained: what it helps with, what you need, what you'll get, what the AI cannot decide, what you must check, and what to do next. You should never need to open anything else in the repository to use one.
+Sixteen sales jobs, one page each. Every card is self-contained: what it helps with, what you need, what you'll get, what the AI cannot decide, what you must check, and what to do next. You should never need to open anything else in the repository to use one.
 
 If you want the fuller method, the guardrails, or a second worked test for any of these, each card links to the full workflow, prompt, or skill behind it.
 
@@ -19,6 +19,7 @@ If you want the fuller method, the guardrails, or a second worked test for any o
 - [Review Your Pipeline](review-your-pipeline.md)
 - [Keep Your CRM Honest](keep-your-crm-honest.md)
 - [Get a Weekly View Without Building a Dashboard](get-a-weekly-view.md)
+- [Review an Outbound Campaign](review-an-outbound-campaign.md)
 
 Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead.
 

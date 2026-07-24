@@ -1,6 +1,6 @@
 # Outbound Campaign Learning Review Prompt
 
-> This is a structure to try on a real outbound campaign, not yet a full workflow with its own fictional test and scored evaluation. Use it, then decide honestly whether it actually led to a better next test or just produced a tidy-looking report. If it holds up, it is a candidate to become a proper workflow later; if it does not, that is useful to know too.
+> This is the prompt behind the [outbound campaign learning review workflow](../workflows/14-outbound-campaign-learning-review.md), which now has its own fictional test and scored evaluation. Use it on a real campaign, then decide honestly whether it actually led to a better next test or just produced a tidy-looking report; that judgement still matters more than the fictional test does.
 
 Copy the prompt below, then add what you actually have: the audience, the signal or list source used, the message and offer, what changed between this campaign and the last one, and the raw numbers.
 
