@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added a downloadable skill packages guide, documenting the structure without publishing an actual ZIP.** Built ahead of the usual real-use-evidence bar (the backlog item said wait for testing to show a bundle is useful), on the project owner's own call. The new [guide](guides/downloadable-skill-packages.md) lists what a package should contain (the skill, a plain-English guide, a fictional case, an output template, the evaluation rubric, per-platform installation notes) and demonstrates the structure once against [identify-buyer-indecision](.agents/skills/identify-buyer-indecision/SKILL.md), an existing skill that already has every required piece. Deliberately stops short of publishing an actual ZIP or building any packaging tooling, since a maintained duplicate would drift from the real skill files the moment either changed, and no installer has been asked for yet.
+
 - **Added a selective installation guide, the per-platform mechanics of loading only a chosen subset of skills.** Built ahead of the usual real-use-evidence bar, on the project owner's own call. The new [guide](guides/selective-installation.md) covers Claude, ChatGPT, Gemini and Copilot, and is deliberately mechanical: it assumes the "which skills" decision is already made via [Choose Your Route by Role](guides/role-based-routes.md) or a curated bundle, and covers only how to actually load that subset without carrying the rest of the library's instructions into every conversation.
 
 - **Added the missing working state and an explicit structure to evidence-supported opportunity state.** The [pipeline evidence review workflow](workflows/06-pipeline-evidence-review.md) and [prompt](templates/pipeline-evidence-review-prompt.md) already separated the recorded CRM stage from the evidence-supported state; the backlog's own list of working states named one, commercial review, that the existing list was missing, so it is now added alongside the others. Both files now also state explicitly that the recorded stage and the evidence-supported state must be shown side by side, with any conflict named, before a next step is suggested, rather than that structure being implicit in how the review already happened to read.
@@ -283,16 +285,7 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Downloadable cross-platform skill packages
 
-Once testing shows that a bundle is useful, publish a small ZIP containing:
-
-- the skill;
-- a plain-English guide;
-- a fictional case;
-- an output template;
-- the evaluation rubric;
-- product-specific installation notes.
-
-Support a manual route for ChatGPT, Claude, Gemini and other assistants where practical. Do not claim identical behaviour across products.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/downloadable-skill-packages.md).
 
 #### Missing-workflow request template
 
