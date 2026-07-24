@@ -9,7 +9,7 @@ If you want the fuller method, the guardrails, or a second worked test for any o
 - [Follow Up After a Sales Call](follow-up-after-a-sales-call.md)
 - [Check Whether It Actually Fits](check-whether-it-actually-fits.md)
 - [Build a Business Case](build-a-business-case.md)
-- [Help a Champion Carry Your Case](help-a-champion-carry-your-case.md)
+- [Brief Your Champion](brief-your-champion.md)
 - [Chase a Quiet Prospect](chase-a-quiet-prospect.md)
 - [Handle an Objection](handle-an-objection.md)
 - [Spot a Real Objection Pattern](spot-a-real-objection-pattern.md)
