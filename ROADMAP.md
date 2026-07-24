@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added role-based routes, a guide for readers who would rather start from their job title than a list of sales problems.** Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usability testing to show a need, the same way several other verticals were launched ahead of that bar. The new [guide](guides/role-based-routes.md) groups the same fifteen existing jobs by which ones actually come up for an account executive, a sales manager, RevOps, customer success, or someone doing founder-led sales, pointing only to recipe cards that already exist rather than duplicating any of them. Linked from the README's "Three Ways to Start" section and from AGENTS.md's guide list. It needs a real test like everything else here, specifically whether the five groupings actually match how people in those seats work.
+
 - **The weekly operating review is real-tested, composed entirely from this week's other real findings.** Built as a genuine composition rather than fresh analysis, exactly as the [workflow](workflows/10-weekly-operating-review.md) requires: pipeline movement correctly stated as not yet measurable, since this was the first report with no earlier snapshot to compare against; outreach activity correctly marked unmeasured rather than assumed to be zero, since only a couple of unrelated sends were visible from one inbox; and the items needing attention pulled directly from other real reviews already run this week, a CRM duplicate and stale test records, a stalled opportunity with an unresolved objection worth reviving, three funding objections that look similar but are not, rather than re-deriving any of it from scratch. Every guardrail held cleanly. No skill change needed; recorded as real evidence the composition model works when the underlying reviews genuinely exist, not just in the fictional worked example.
 
 - **Objection pattern review is real-tested, and it correctly refused to call a surface pattern real.** Checked against three real accounts where a funding-related objection came up in each. Surface pattern: all three mention the same funding mechanism. Actual driver in each: a specific compliance rule in one, an internal optics problem in another, a resource-prioritisation fight in the third, three genuinely different underlying causes, not one repeated issue. Concluding "one funding objection, one standard answer" would have been exactly the mistake this skill exists to prevent, and its existing guidance, checking the driver rather than the wording, using its own worked competitor-name example, handled this correctly with no gap found. No skill change needed; recorded as real evidence that the guardrail holds on genuinely messy, real data, not just a fictional case built to test it.
@@ -328,7 +330,7 @@ These states must remain configurable and should not be treated as universal sal
 
 #### Role-based routes
 
-If usability testing shows a need, add short routes for account executives, sales managers, RevOps, customer success and founder-led sales. These should point to existing material rather than duplicate it.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/role-based-routes.md).
 
 #### Private sales-methodology overlay
 

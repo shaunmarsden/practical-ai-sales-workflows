@@ -138,6 +138,7 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Writing Style and Formatting](guides/writing-style-and-formatting.md), the standing tone reference for reader facing copy
 - [Measure Time Saved and Output Quality](guides/measure-time-and-quality.md), for logging your own time honestly alongside scoring the output
 - [Workflow Router](guides/workflow-router.md) and [its skill](.agents/skills/workflow-router/SKILL.md), the reference to use when a user describes a situation in their own words rather than naming a workflow, or when two workflows sound similar and it matters which one actually fits
+- [Choose Your Route by Role](guides/role-based-routes.md), for a user who would rather start from their job title (account executive, sales manager, RevOps, customer success, founder-led sales) than from a list of sales problems
 
 ### Outbound Prospecting
 
