@@ -15,13 +15,16 @@ Flag likely duplicates (same or near-identical company, a shared contact name, e
 2. Missing critical fields
 Flag any record missing a value, a stage, an owner, a contact, or a close date.
 
-3. Stale records
+3. Records that are not real prospects at all
+Flag a record that reads like a test entry, a practice run, an internal course or demo, rather than a real prospect, such as a deal name that looks like a course title or an obvious placeholder, especially with no stage and no pipeline. Keep this separate from a real prospect that is merely missing a field, and suggest archiving or deleting it rather than filling it in.
+
+4. Stale records
 Flag records with no recent activity relative to today's date, including ones where every field looks complete but the close date has passed and nothing has moved in a long time. State the threshold you used to call something stale, and note that it is illustrative, not a fixed rule.
 
-4. Close dates that do not fit the stage
+5. Close dates that do not fit the stage
 Flag a close date that is unrealistic for how early or late the recorded stage is, such as an imminent date on a deal still in early discovery.
 
-5. What has no issue
+6. What has no issue
 Say plainly which records have every field present, a realistic close date for their stage, and recent activity, so this does not read as a list of only problems.
 
 Finish with a short summary table of issue types and how many records carry each one.
