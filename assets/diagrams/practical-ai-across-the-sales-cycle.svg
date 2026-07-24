@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Practical AI Across the Sales Cycle</title>
+  <desc id="description">Five playful illustrated cards show how AI can help a salesperson find prospects, prepare calls, progress opportunities, support closing and learn from outcomes. The salesperson checks the work and decides what happens next.</desc>
+
+  <rect width="1600" height="900" fill="#fffdf7"/>
+  <circle cx="84" cy="94" r="34" fill="#e9c46a" opacity="0.35"/>
+  <circle cx="1520" cy="730" r="54" fill="#2a9d8f" opacity="0.12"/>
+  <path d="M86 760c45-24 82-22 126 4" fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M100 786c35-17 66-15 98 4" fill="none" stroke="#e9c46a" stroke-width="7" stroke-linecap="round"/>
+
+  <text x="800" y="72" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="#152238">Practical AI Across the Sales Cycle</text>
+  <text x="800" y="122" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="29" fill="#334155">Practical support for real sales work, with the salesperson in control.</text>
+
+  <g fill="none" stroke="#152238" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 420c26-30 46-30 72 0" stroke-dasharray="9 12"/>
+    <path d="M357 402l18 20-25 5"/>
+    <path d="M610 420c26-30 46-30 72 0" stroke-dasharray="9 12"/>
+    <path d="M667 402l18 20-25 5"/>
+    <path d="M920 420c26-30 46-30 72 0" stroke-dasharray="9 12"/>
+    <path d="M977 402l18 20-25 5"/>
+    <path d="M1230 420c26-30 46-30 72 0" stroke-dasharray="9 12"/>
+    <path d="M1287 402l18 20-25 5"/>
+  </g>
+
+  <g transform="rotate(-2 175 410)" font-family="Inter, Arial, sans-serif">
+    <rect x="42" y="170" width="270" height="500" rx="30" fill="#dff5f1"/>
+    <rect x="52" y="180" width="270" height="500" rx="30" fill="#ffffff" stroke="#2a9d8f" stroke-width="4"/>
+    <circle cx="98" cy="226" r="29" fill="#2a9d8f"/>
+    <text x="98" y="237" text-anchor="middle" font-size="30" font-weight="800" fill="#ffffff">1</text>
+    <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="187" cy="308" r="49" fill="#fffdf7"/>
+      <circle cx="187" cy="295" r="14"/>
+      <path d="M157 337c6-22 16-33 30-33s24 11 30 33"/>
+      <path d="M222 343l36 36"/>
+    </g>
+    <path d="M260 244l8 18 19 8-19 8-8 19-8-19-19-8 19-8z" fill="#e9c46a"/>
+    <text x="187" y="420" text-anchor="middle" font-size="34" font-weight="800" fill="#152238">Find</text>
+    <text x="187" y="474" text-anchor="middle" font-size="26" fill="#334155">
+      <tspan x="187">Find the right</tspan>
+      <tspan x="187" dy="34">prospect</tspan>
+    </text>
+    <path d="M142 554c26 11 65 11 91 0" fill="none" stroke="#2a9d8f" stroke-width="6" stroke-linecap="round"/>
+    <text x="187" y="604" text-anchor="middle" font-size="26" fill="#334155">
+      <tspan x="187">Prepare useful</tspan>
+      <tspan x="187" dy="34">outreach</tspan>
+    </text>
+  </g>
+
+  <g transform="rotate(1.4 490 410)" font-family="Inter, Arial, sans-serif">
+    <rect x="362" y="186" width="270" height="500" rx="30" fill="#dbe5eb"/>
+    <rect x="352" y="176" width="270" height="500" rx="30" fill="#ffffff" stroke="#152238" stroke-width="4"/>
+    <circle cx="398" cy="222" r="29" fill="#152238"/>
+    <text x="398" y="233" text-anchor="middle" font-size="30" font-weight="800" fill="#ffffff">2</text>
+    <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M420 300h55l17-29h63a15 15 0 0 1 15 15v87a15 15 0 0 1-15 15H420a15 15 0 0 1-15-15v-58a15 15 0 0 1 15-15z" fill="#dff5f1"/>
+      <rect x="468" y="254" width="68" height="82" rx="9" fill="#ffffff"/>
+      <path d="M484 282h36M484 305h27"/>
+    </g>
+    <path d="M575 242l7 17 18 7-18 8-7 17-8-17-17-8 17-7z" fill="#e9c46a"/>
+    <text x="487" y="420" text-anchor="middle" font-size="34" font-weight="800" fill="#152238">Prepare</text>
+    <text x="487" y="474" text-anchor="middle" font-size="26" fill="#334155">
+      <tspan x="487">Prepare for</tspan>
+      <tspan x="487" dy="34">the call</tspan>
+    </text>
+    <path d="M442 554c26 11 65 11 91 0" fill="none" stroke="#e9c46a" stroke-width="6" stroke-linecap="round"/>
+    <text x="487" y="604" text-anchor="middle" font-size="26" fill="#334155">
+      <tspan x="487">Organise the</tspan>
+      <tspan x="487" dy="34">evidence</tspan>
+    </text>
+  </g>
+
+  <g transform="rotate(-1.2 800 410)" font-family="Inter, Arial, sans-serif">
+    <rect x="672" y="170" width="270" height="510" rx="30" fill="#bfe8e1"/>
+    <rect x="662" y="180" width="270" height="510" rx="30" fill="#ffffff" stroke="#2a9d8f" stroke-width="4"/>
+    <circle cx="708" cy="226" r="29" fill="#2a9d8f"/>
+    <text x="708" y="237" text-anchor="middle" font-size="30" font-weight="800" fill="#ffffff">3</text>
+    <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M731 279h76a16 16 0 0 1 16 16v48a16 16 0 0 1-16 16h-25l-20 21-1-21h-30a16 16 0 0 1-16-16v-48a16 16 0 0 1 16-16z" fill="#fffdf7"/>
+      <path d="M784 329h70a16 16 0 0 1 16 16v45a16 16 0 0 1-16 16h-27l-22 21-1-21h-20a16 16 0 0 1-16-16v-45a16 16 0 0 1 16-16z" fill="#dff5f1"/>
+      <path d="M745 309h47M797 360h43"/>
+    </g>
+    <path d="M870 245l8 18 19 8-19 8-8 19-8-19-19-8 19-8z" fill="#e9c46a"/>
+    <text x="797" y="468" text-anchor="middle" font-size="34" font-weight="800" fill="#152238">Progress</text>
+    <text x="797" y="520" text-anchor="middle" font-size="25" fill="#334155">Follow up properly</text>
+    <path d="M747 553c28 11 70 11 100 0" fill="none" stroke="#2a9d8f" stroke-width="6" stroke-linecap="round"/>
+    <text x="797" y="598" text-anchor="middle" font-size="25" fill="#334155">Handle objections</text>
+    <text x="797" y="640" text-anchor="middle" font-size="25" fill="#334155">Build the case</text>
+  </g>
+
+  <g transform="rotate(1.8 1110 410)" font-family="Inter, Arial, sans-serif">
+    <rect x="982" y="187" width="270" height="500" rx="30" fill="#f5d982"/>
+    <path d="M972 177h270a30 30 0 0 1 30 30v430a30 30 0 0 1-30 30h-92l-32 30-2-30H972a30 30 0 0 1-30-30V207a30 30 0 0 1 30-30z" fill="#fff7e0" stroke="#e9c46a" stroke-width="5"/>
+    <circle cx="988" cy="223" r="29" fill="#e9c46a"/>
+    <text x="988" y="234" text-anchor="middle" font-size="30" font-weight="800" fill="#152238">4</text>
+    <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1024 340l48 27 39-48 39 48 48-27"/>
+      <path d="M1024 340l-15 39 49 28 53-37 53 37 49-28-15-39"/>
+      <rect x="1080" y="260" width="62" height="78" rx="8" fill="#ffffff"/>
+      <path d="M1094 286h34M1094 309h25"/>
+    </g>
+    <path d="M1192 250l8 18 19 8-19 8-8 19-8-19-19-8 19-8z" fill="#2a9d8f"/>
+    <text x="1107" y="474" text-anchor="middle" font-size="34" font-weight="800" fill="#152238">Close</text>
+    <text x="1107" y="526" text-anchor="middle" font-size="26" fill="#334155">
+      <tspan x="1107">Support the</tspan>
+      <tspan x="1107" dy="34">decision</tspan>
+    </text>
+    <path d="M1062 602c26 11 65 11 91 0" fill="none" stroke="#e9c46a" stroke-width="6" stroke-linecap="round"/>
+    <text x="1107" y="646" text-anchor="middle" font-size="26" fill="#334155">Hand over clearly</text>
+  </g>
+
+  <g transform="rotate(-1.6 1420 410)" font-family="Inter, Arial, sans-serif">
+    <rect x="1292" y="170" width="270" height="500" rx="30" fill="#dff5f1"/>
+    <rect x="1282" y="180" width="270" height="500" rx="30" fill="#ffffff" stroke="#152238" stroke-width="4"/>
+    <circle cx="1328" cy="226" r="29" fill="#152238"/>
+    <text x="1328" y="237" text-anchor="middle" font-size="30" font-weight="800" fill="#ffffff">5</text>
+    <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1375 360h114v45h-114z" fill="#dff5f1"/>
+      <path d="M1375 360c20 0 38 5 57 19 19-14 37-19 57-19v-70c-20 0-38 5-57 19-19-14-37-19-57-19z" fill="#ffffff"/>
+      <path d="M1432 309v70"/>
+      <path d="M1432 244v27M1396 260l14 22M1468 260l-14 22"/>
+    </g>
+    <circle cx="1432" cy="232" r="18" fill="#e9c46a"/>
+    <text x="1417" y="474" text-anchor="middle" font-size="34" font-weight="800" fill="#152238">Learn</text>
+    <text x="1417" y="526" text-anchor="middle" font-size="26" fill="#334155">
+      <tspan x="1417">Review the</tspan>
+      <tspan x="1417" dy="34">outcome</tspan>
+    </text>
+    <path d="M1372 580c26 11 65 11 91 0" fill="none" stroke="#2a9d8f" stroke-width="6" stroke-linecap="round"/>
+    <text x="1417" y="622" text-anchor="middle" font-size="25" fill="#334155">
+      <tspan x="1417">Improve the next</tspan>
+      <tspan x="1417" dy="33">opportunity</tspan>
+    </text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <path d="M300 724h995a28 28 0 0 1 28 28v78a28 28 0 0 1-28 28H865l-34 27-3-27H300a28 28 0 0 1-28-28v-78a28 28 0 0 1 28-28z" fill="#fff7e0" stroke="#e9c46a" stroke-width="5"/>
+    <circle cx="332" cy="776" r="29" fill="#e9c46a"/>
+    <g fill="none" stroke="#152238" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="332" cy="767" r="9"/>
+      <path d="M315 796c4-14 9-21 17-21s13 7 17 21"/>
+      <path d="M357 787l10 10 20-23"/>
+    </g>
+    <text x="410" y="774" font-size="27" font-weight="700" fill="#152238">AI prepares the work. It does not contact customers or change systems.</text>
+    <text x="410" y="816" font-size="27" fill="#334155">The salesperson checks the output and decides what happens next.</text>
+  </g>
+
+  <path d="M1480 106l8 18 19 8-19 8-8 19-8-19-19-8 19-8z" fill="#2a9d8f"/>
+  <path d="M1524 144l5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="#e9c46a"/>
+</svg>

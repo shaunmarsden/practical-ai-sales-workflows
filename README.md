@@ -31,7 +31,7 @@ Once a single setup prompt stops being enough on its own, [Get More From Your AI
 
 Want the short version, one page per job, nothing else to read? [Open the recipe cards](recipes/README.md) instead.
 
-![Five stage sales cycle showing how AI can help find prospects, prepare calls, progress opportunities, support closing and review outcomes. AI prepares the work, while the salesperson checks it and decides what happens next.](assets/diagrams/practical-ai-across-the-sales-cycle.png)
+![Five stage sales cycle showing how AI can help find prospects, prepare calls, progress opportunities, support closing and review outcomes. AI prepares the work, while the salesperson checks it and decides what happens next.](assets/diagrams/practical-ai-across-the-sales-cycle.svg)
 
 The visual shows the main sales cycle. The fifteen jobs below cover the work within and around it. Pipeline review, CRM hygiene and the weekly review run alongside the cycle rather than after it.
 
