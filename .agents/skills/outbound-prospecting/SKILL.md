@@ -28,6 +28,8 @@ Score it down when:
 - The only available hook is a generic industry trend with nothing company-specific behind it
 - The company is large enough that procurement and internal politics will slow everything down, unless the specific contact route is unusually strong
 
+Read [Signal to Hypothesis](references/signal-to-hypothesis.md) for the structure that turns a public signal into a stated hypothesis rather than a treated-as-fact conclusion, three concrete signal categories to check against, and the difference between starting company-first from a defined list versus signal-first from a public event.
+
 ## Draft the First-Touch Message
 
 Structure:
