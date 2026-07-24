@@ -140,6 +140,10 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Workflow Router](guides/workflow-router.md) and [its skill](.agents/skills/workflow-router/SKILL.md), the reference to use when a user describes a situation in their own words rather than naming a workflow, or when two workflows sound similar and it matters which one actually fits
 - [Choose Your Route by Role](guides/role-based-routes.md), for a user who would rather start from their job title (account executive, sales manager, RevOps, customer success, founder-led sales) than from a list of sales problems
 - [Downloadable Skill Packages](guides/downloadable-skill-packages.md), the structure for a single-skill package (the skill, a guide, a fictional case, a template, the rubric, per-platform notes), demonstrated once against identify-buyer-indecision without publishing an actual ZIP
+- [Selective Installation](guides/selective-installation.md), the per-platform mechanics of loading only a chosen subset of skills into a Project, Custom GPT, Gem, or Copilot agent, once the user knows which subset they want
+- [Curated Bundles](guides/curated-bundles.md), three starting groupings of existing recipe cards (a starter pack, a post-call pack, a deal progression pack) for a first-time reader who does not want to read all fifteen cards to find their own job
+- [Progressive Disclosure](guides/progressive-disclosure.md), the standard for keeping a skill's core `SKILL.md` short and pushing deeper material into supporting files, with an audit of the current skill library against it
+- [Composing Longer Workflows](guides/composing-longer-workflows.md), principles for chaining workflows together (working folders, visible progress, spend checkpoints, a manual route, method before platform, judgement versus mechanics, visible instructions), not a description of software that exists here yet
 
 ### Outbound Prospecting
 
@@ -253,6 +257,14 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [What was available](examples/fictional-weekly-operating-review-input.md)
 - [Completed report](examples/fictional-weekly-operating-review-output.md)
 - [Evaluation](evaluations/fictional-weekly-operating-review-eval.md)
+
+### Outbound Campaign Learning Review
+
+- [Workflow](workflows/14-outbound-campaign-learning-review.md)
+- [Prompt](templates/outbound-campaign-learning-review-prompt.md)
+- [Fictional campaign data](examples/cedarwell-campaign-review-input.md)
+- [Completed review](examples/cedarwell-campaign-review-output.md)
+- [Evaluation](evaluations/cedarwell-campaign-review-eval.md)
 
 If nothing fits, explain the gap before proposing a new category. Prefer testing or extending existing material over adding more folders.
 
