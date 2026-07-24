@@ -30,7 +30,8 @@ Work out which of these is the closest fit, and say so honestly rather than defa
 - `disqualification`: the fit was never really there, or a hard blocker such as budget, compliance, or authority is real and unlikely to change
 - `timing`: the fit is real, but now is not the right moment. A stated cycle, a reorganisation, or a stated future point usually means exactly that, not a polite no
 - `stakeholder-change`: the specific person the deal ran through is no longer the route in, but the underlying evidence and problem may still be usable through someone else
-- `unresolved-objection`: something specific was never actually answered well enough, and might land differently with more evidence or a different approach next time
+- `unresolved-objection`: something specific was raised, an answer or a workaround was actually sent back, and it was rejected, or a genuine back-and-forth happened without landing
+- `no-decision`: something specific was raised, an answer or a workaround was sent back, and then contact from both sides simply stops. Nobody said no. This is not the prospect quietly deciding against it; it is a live thread nobody returned to. Do not fold this into `unresolved-objection` as if the prospect were unsatisfied; the difference matters because the next action is not waiting for an external trigger, it is following up on the answer that was already sent
 
 ## Decide What Would Justify Coming Back
 
@@ -41,6 +42,7 @@ Do not default to either extreme: silently writing it off forever, or scheduling
 - Never invent the reason for a loss beyond what was actually said or shown.
 - Never invent a specific future date or trigger where only a vague one was given; treat vague as vague.
 - Never assume an earlier, separate objection was the deciding factor without evidence that it was.
+- Never treat an internal, company-specific CRM stage label as evidence of why or how a deal was lost unless something in the record actually defines it. A stage name that reads as self-explanatory may not be; confirm what it means before using it to support a classification, or say plainly that it is unconfirmed.
 - Keep any reusable evidence, a pilot result, a proof point, flagged as reusable, since it does not expire just because this particular opportunity did not close.
 
 ## Stop When the Task Is Unsafe
