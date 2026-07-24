@@ -16,6 +16,16 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 **Not sure where to begin?** [Find the starting point that sounds most like you](guides/where-to-start.md). You can start from scratch, see a finished example or go straight to a sales problem. You do not need any technical knowledge.
 
+## 📑 Contents
+
+- [Three Ways to Start](#-three-ways-to-start)
+- [Choose a Sales Problem](#-choose-a-sales-problem)
+- [How I Approach It](#-how-i-approach-it)
+- [See One Complete Test](#-see-one-complete-test)
+- [Rules That Matter](#-rules-that-matter)
+- [About Me](#about-me)
+- [What I Want to Try Next](#what-i-want-to-try-next)
+
 ## 🧭 Three Ways to Start
 
 **🌱 Want help setting up your AI for sales?** [Start with the simple setup guide](guides/set-up-your-ai-for-sales.md). It works with ChatGPT, Claude, Gemini, Copilot and other general AI tools.
@@ -30,7 +40,7 @@ Once a single setup prompt stops being enough on its own, [Get More From Your AI
 
 ## 🎯 Choose a Sales Problem
 
-Want the short version, one page per job, nothing else to read? [Open the recipe cards](recipes/README.md) instead.
+Want the short version, one page per job, nothing else to read? [Open the recipe cards](recipes/README.md) instead. Want all sixteen on a single printable page? [Open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html), or print it straight to PDF.
 
 ![Five stage sales cycle showing how AI can help find prospects, prepare calls, progress opportunities, support closing and review outcomes. AI prepares the work, while the salesperson checks it and decides what happens next.](assets/diagrams/practical-ai-across-the-sales-cycle.svg)
 
@@ -222,3 +232,5 @@ This is an independent learning project. Every company, person and conversation 
 The useful evidence now comes from seeing what holds up, what saves time and what still needs fixing, rather than adding more material before anyone has used what is already here.
 
 See [ROADMAP.md](ROADMAP.md) for what has been tested, what is still unproven and the longer list of ideas deliberately parked for later.
+
+Got a use case this does not cover, or feedback on something that did not work for you? [Start a discussion](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) rather than keeping it to yourself. That is genuinely more useful to me than a comment saying it looks good.
