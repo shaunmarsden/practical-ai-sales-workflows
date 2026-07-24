@@ -126,9 +126,8 @@ PRIVATE_LINK = re.compile(
 # allowed.
 EMPLOYER_ALLOWLIST = {
     ("README.md", "I am Shaun Marsden, a solutions consultant at AiCore. "
-                  "I am using this project to learn what AI is genuinely "
-                  "useful for in the job and to share the things worth "
-                  "keeping."),
+                  "This project is where I keep track of what I've "
+                  "actually found useful, and share it."),
 }
 for f in CONTENT:
     for i, line in enumerate(read(f).splitlines(), 1):
