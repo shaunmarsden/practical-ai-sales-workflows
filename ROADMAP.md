@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added a progressive disclosure guide, naming a pattern already in use and auditing the current skill library against it.** The new [guide](guides/progressive-disclosure.md) states what belongs in a skill's core `SKILL.md` (the method itself, gathered on every run) versus a supporting file (a fictional example, an output contract, a template, a checklist, loaded only when that specific step needs it), then checks all eleven current skills against it. Every core file sits under ninety lines, and every skill with deeper material already keeps it in a separate file; nothing failed the audit. The guide's ongoing value is having a place to check the next skill against, so a `SKILL.md` that starts growing past this pattern gets caught at review time.
+
 - **Added role-based routes, a guide for readers who would rather start from their job title than a list of sales problems.** Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usability testing to show a need, the same way several other verticals were launched ahead of that bar. The new [guide](guides/role-based-routes.md) groups the same fifteen existing jobs by which ones actually come up for an account executive, a sales manager, RevOps, customer success, or someone doing founder-led sales, pointing only to recipe cards that already exist rather than duplicating any of them. Linked from the README's "Three Ways to Start" section and from AGENTS.md's guide list. It needs a real test like everything else here, specifically whether the five groupings actually match how people in those seats work.
 
 - **The weekly operating review is real-tested, composed entirely from this week's other real findings.** Built as a genuine composition rather than fresh analysis, exactly as the [workflow](workflows/10-weekly-operating-review.md) requires: pipeline movement correctly stated as not yet measurable, since this was the first report with no earlier snapshot to compare against; outreach activity correctly marked unmeasured rather than assumed to be zero, since only a couple of unrelated sends were visible from one inbox; and the items needing attention pulled directly from other real reviews already run this week, a CRM duplicate and stale test records, a stalled opportunity with an unresolved objection worth reviving, three funding objections that look similar but are not, rather than re-deriving any of it from scratch. Every guardrail held cleanly. No skill change needed; recorded as real evidence the composition model works when the underlying reviews genuinely exist, not just in the fictional worked example.
@@ -141,7 +143,7 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Progressive disclosure
 
-Keep core skill instructions short enough to load when needed. Put deeper examples, templates and reference notes in supporting files so every task does not load the entire repository.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/progressive-disclosure.md).
 
 #### Curated bundles
 
