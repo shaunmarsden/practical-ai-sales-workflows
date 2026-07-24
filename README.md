@@ -33,7 +33,7 @@ Want the short version, one page per job, nothing else to read? [Open the recipe
 
 ![Five stage sales cycle showing how AI can help find prospects, prepare calls, progress opportunities, support closing and review outcomes. AI prepares the work, while the salesperson checks it and decides what happens next.](assets/diagrams/practical-ai-across-the-sales-cycle.svg)
 
-The visual shows the main sales cycle. The fifteen jobs below cover the work within and around it. Pipeline review, CRM hygiene and the weekly review run alongside the cycle rather than after it.
+The visual shows the main sales cycle. The sixteen jobs below cover the work within and around it. Pipeline review, CRM hygiene, the weekly review and the outbound campaign learning review run alongside the cycle rather than after it.
 
 ### 🔎 Find the Next Prospect
 
@@ -174,6 +174,14 @@ Pull pipeline, meetings, outreach and new signals into one honest weekly report,
 **Start here:** [Open the workflow](workflows/10-weekly-operating-review.md) · [See what was available](examples/fictional-weekly-operating-review-input.md) · [See the completed report](examples/fictional-weekly-operating-review-output.md) · [Use the prompt](templates/weekly-operating-review-prompt.md)
 
 **Just the one page:** [Recipe card](recipes/get-a-weekly-view.md)
+
+### 📈 Review an Outbound Campaign
+
+Read what an outbound campaign's actual numbers support once it has run its course, rather than trusting the impression a good-looking reply rate leaves behind.
+
+**Start here:** [Open the workflow](workflows/14-outbound-campaign-learning-review.md) · [See the fictional campaign data](examples/cedarwell-campaign-review-input.md) · [See the completed review](examples/cedarwell-campaign-review-output.md) · [Use the prompt](templates/outbound-campaign-learning-review-prompt.md)
+
+**Just the one page:** [Recipe card](recipes/review-an-outbound-campaign.md)
 
 ## 🧭 How I Approach It
 

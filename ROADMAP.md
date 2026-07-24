@@ -10,6 +10,18 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 - **Added the missing working state and an explicit structure to evidence-supported opportunity state.** The [pipeline evidence review workflow](workflows/06-pipeline-evidence-review.md) and [prompt](templates/pipeline-evidence-review-prompt.md) already separated the recorded CRM stage from the evidence-supported state; the backlog's own list of working states named one, commercial review, that the existing list was missing, so it is now added alongside the others. Both files now also state explicitly that the recorded stage and the evidence-supported state must be shown side by side, with any conflict named, before a next step is suggested, rather than that structure being implicit in how the review already happened to read.
 
+- **Promoted the outbound campaign learning review from a prompt-only structure to a full workflow, the sixteenth job in the repository.** Built ahead of its own stated bar, on the project owner's own call: the backlog item said to prove the structure helps on a real campaign first, before it earned a fictional example, an evaluation and a place in the main problem list. It now has all three: [workflows/14-outbound-campaign-learning-review.md](workflows/14-outbound-campaign-learning-review.md), a fictional Cedarwell-style campaign comparison with a deliberate trap (two variables changed at once, a small second sample), a [scored evaluation](evaluations/cedarwell-campaign-review-eval.md), and a [recipe card](recipes/review-an-outbound-campaign.md). Wired into the README's main problem list, recipes/README.md, AGENTS.md and role-based-routes.md, all updated from fifteen jobs to sixteen. The backlog note is honest that a fictional test and score are not a substitute for the real-campaign test its own prompt has always called for; that real test still has not happened.
+
+- **Added three outbound and chase-sequence backlog items: signal-to-hypothesis, company-first versus signal-first, and channel-escalation logic.** Built ahead of the usual real-use-evidence bar, on the project owner's own call. The [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) now links a new [signal-to-hypothesis reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md): a six-part structure (signal and source, possible relevance, what it does not prove, a verifying question, a safe outreach angle, reasons not to use it), three concrete signal categories that are checkable facts rather than guesses (follower size, ad spend, active hiring for a role the offer would replace), and the difference between starting company-first from a defined list versus signal-first from a public event. The [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md)'s [sequence-stages reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md) now documents channel-escalation as decision logic only, do not move channels before the first one has had a fair chance to be read, explicitly leaving out any automated cross-channel triggering or auto-dialling as not fitting this repository's human-approval-first model.
+
+- **Added a curated bundles guide, grouping existing recipe cards into three starting packs.** Built ahead of the usual real-use-evidence bar, on the project owner's own call, the same way role-based routes was: a Sales AI starter pack, a post-call pack, and a deal progression pack, each a page of links to [recipe cards](recipes/README.md) that already exist, no installer. The [guide](guides/curated-bundles.md) says plainly that the three groupings are a starting guess, worth revisiting once real use shows whether they are the ones people actually reach for.
+
+- **Added a progressive disclosure guide, naming a pattern already in use and auditing the current skill library against it.** The new [guide](guides/progressive-disclosure.md) states what belongs in a skill's core `SKILL.md` (the method itself, gathered on every run) versus a supporting file (a fictional example, an output contract, a template, a checklist, loaded only when that specific step needs it), then checks all eleven current skills against it. Every core file sits under ninety lines, and every skill with deeper material already keeps it in a separate file; nothing failed the audit. The guide's ongoing value is having a place to check the next skill against, so a `SKILL.md` that starts growing past this pattern gets caught at review time.
+
+- **Piloted the standard skill package on a second skill, champion-enablement.** The [skill](.agents/skills/champion-enablement/SKILL.md) already had a fictional Hartwell example; it now also has an [output contract](.agents/skills/champion-enablement/references/output-contract.md) stating what the AI must and must not do, an [output template](.agents/skills/champion-enablement/templates/output-template.md) for the finished package, and a [human review checklist](.agents/skills/champion-enablement/checks/checklist.md), matching the structure already piloted on identify-buyer-indecision. Both pilots so far started from a skill that already had a working fictional example; the backlog note is updated to say the harder, more useful test is a skill without one yet, which is the case that would actually show whether the structure earns its way into CONTRIBUTING.md's baseline rather than staying optional.
+
+- **Added a composing-longer-workflows guide, covering the seven remaining backlog items under Workflow composition and traceability.** Built as a deliberate project-owner override of the usual real-use-evidence bar, the same way role-based routes was. The new [guide](guides/composing-longer-workflows.md) documents working folders and run logs, visible progress for longer runs, spend checkpoints before paid enrichment, keeping a manual route alongside any connector, choosing method before platform, separating AI judgement from code mechanics, and keeping instructions visible even when configurable. States plainly throughout that these are principles to build to, not a description of software that exists in this repository now; nothing here executes automatically today.
+
 - **Added role-based routes, a guide for readers who would rather start from their job title than a list of sales problems.** Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usability testing to show a need, the same way several other verticals were launched ahead of that bar. The new [guide](guides/role-based-routes.md) groups the same fifteen existing jobs by which ones actually come up for an account executive, a sales manager, RevOps, customer success, or someone doing founder-led sales, pointing only to recipe cards that already exist rather than duplicating any of them. Linked from the README's "Three Ways to Start" section and from AGENTS.md's guide list. It needs a real test like everything else here, specifically whether the five groupings actually match how people in those seats work.
 
 - **The weekly operating review is real-tested, composed entirely from this week's other real findings.** Built as a genuine composition rather than fresh analysis, exactly as the [workflow](workflows/10-weekly-operating-review.md) requires: pipeline movement correctly stated as not yet measurable, since this was the first report with no earlier snapshot to compare against; outreach activity correctly marked unmeasured rather than assumed to be zero, since only a couple of unrelated sends were visible from one inbox; and the items needing attention pulled directly from other real reviews already run this week, a CRM duplicate and stale test records, a stalled opportunity with an unresolved objection worth reviving, three funding objections that look similar but are not, rather than re-deriving any of it from scratch. Every guardrail held cleanly. No skill change needed; recorded as real evidence the composition model works when the underlying reviews genuinely exist, not just in the fictional worked example.
@@ -121,7 +133,7 @@ templates/output-template.md
 checks/checklist.md
 ```
 
-**Piloted** on the [identify-buyer-indecision skill](.agents/skills/identify-buyer-indecision/SKILL.md), a diagnosis-only skill paired with the existing buyer indecision workflow and prompt. Not yet a repository-wide requirement; CONTRIBUTING.md's quality bar still only requires `SKILL.md` plus references where a fictional test genuinely helps. Decide whether this richer structure earns its way into that requirement, or stays optional, once it has been used on a second skill.
+**Piloted on a second skill**, see [Done Recently](#done-recently) above for [champion-enablement](.agents/skills/champion-enablement/SKILL.md). Still not a repository-wide requirement; CONTRIBUTING.md's quality bar still only requires `SKILL.md` plus references where a fictional test genuinely helps. Two pilots in, both on skills that already had a fictional example to build the contract, template and checklist around; the harder test is a skill that does not yet have one, which would show whether the structure earns its own fictional example rather than only formalising one that already existed. Hold off on making it a blanket requirement until that harder case has been tried.
 
 Only add a script where a deterministic check is genuinely useful. A structure check can confirm that required sections exist. It cannot prove that the commercial judgement is correct.
 
@@ -143,17 +155,11 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Progressive disclosure
 
-Keep core skill instructions short enough to load when needed. Put deeper examples, templates and reference notes in supporting files so every task does not load the entire repository.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/progressive-disclosure.md).
 
 #### Curated bundles
 
-Once users show that they need them, group existing skills into simple packages such as:
-
-- Sales AI starter pack;
-- Post-call pack;
-- Deal progression pack.
-
-Start with a page that links the relevant files. Do not build an installer until the bundle itself has been tested.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/curated-bundles.md).
 
 ### Workflow composition and traceability
 
@@ -167,68 +173,31 @@ Start with a page that links the relevant files. Do not build an installer until
 
 #### Working folders and run history
 
-For longer workflows, consider a simple project structure that separates:
-
-```text
-input/
-intermediate/
-output/
-run-log.md
-```
-
-The run log should record what was used, what was produced, what was skipped, any corrections and which actions were actually completed.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Visible progress and cancellable runs
 
-For longer tasks, show the user where the workflow has reached:
-
-```text
-Sources loaded
-Evidence extracted
-Conflicts found
-Draft produced
-Human review required
-```
-
-Future integrated tools should let the user stop, retry or replace instructions before an external action occurs. Failed runs should leave enough information to understand what happened without pretending the task completed.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Cost and approval checkpoints
 
-Where a workflow may use paid enrichment, research or automation tools, add explicit review points before spending more credits or taking an external action.
-
-A useful pattern is:
-
-```text
-collect
-review quality
-filter
-review again
-enrich
-human approval
-act
-```
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Manual route first
 
-Every integrated workflow should retain a manual route using pasted or uploaded information. Providers and connectors should remain optional, with limitations and fallbacks stated clearly.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Method before platform
 
-Choose the sales method before choosing a product-specific tool.
-
-A platform adapter should implement an already understood workflow. It should not become the source of the sales method merely because the platform exposes an API or connector.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Separate judgement from orchestration
 
-Keep the AI responsible for tasks such as classification, drafting and identifying gaps. Keep code or automation responsible for repeatable mechanics such as file handling, scheduling and API calls.
-
-Do not automate a workflow until the manual version is stable and its failure conditions are understood.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Configurable but visible instructions
 
-Provide a safe default instruction for each workflow while allowing the user to inspect and adapt it.
-
-Record when a custom instruction was used. Do not hide the instruction that produced a recommendation, score or customer-facing draft.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 ### Sales workflow ideas
 
@@ -238,29 +207,15 @@ Record when a custom instruction was used. Do not hide the instruction that prod
 
 #### Outbound campaign learning review
 
-**The structure is written**, see [Done Recently](#done-recently) above for [the prompt](templates/outbound-campaign-learning-review-prompt.md). Deliberately not a full workflow yet: use it on a real campaign first and check whether it actually leads to a better next test, not just a tidy report, before it earns a fictional example, an evaluation, and a place in the main problem list alongside the tested verticals.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/14-outbound-campaign-learning-review.md). Promoted to a full workflow ahead of its own stated bar (a real campaign proving the structure actually helps first), on the project owner's own call. Still needs the real-campaign test its own prompt has always called for; a fictional test and an honest score are not a substitute for that.
 
 #### Signal-to-hypothesis outbound
 
-Turn public company signals into clearly labelled commercial hypotheses:
-
-- observed signal and source;
-- possible relevance;
-- what it does not prove;
-- a question that could verify it;
-- a safe outreach angle;
-- reasons not to use it.
-
-Worth naming a few concrete, verifiable signal categories rather than leaving "a specific signal" abstract: audience or follower size as a proxy for growth intent, active ad spend as a proxy for investment intent, and active hiring for a role the offer would replace as a proxy for a live, current problem. All three are checkable facts, not a guess about internal state, so they fit the existing [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md)'s requirement for a real, verifiable signal rather than a generic industry trend.
+**Shipped**, see [Done Recently](#done-recently) above for the [reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md).
 
 #### Company-first and signal-first prospecting
 
-Document two different starting routes:
-
-- company-first, when there is a defined account list or market;
-- signal-first, when accounts are discovered from a relevant public event.
-
-Both routes should include evidence checks before contact discovery or enrichment.
+**Shipped**, see [Done Recently](#done-recently) above for the same [reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md).
 
 #### Outbound message structure refinements
 
@@ -272,7 +227,7 @@ Both routes should include evidence checks before contact discovery or enrichmen
 
 #### Channel-escalation sequencing for a stalled chase
 
-Flagged rather than recommended: the idea of a defined channel order (email, then a different channel, then a call) once a prospect has gone quiet on the first one. The underlying sequencing logic, do not escalate to a new channel before the first one has had a fair chance to be read, might be worth documenting as a principle. Most of the practical implementation of this (automated cross-channel triggers, auto-dialling) does not fit this repository's human-approval-first model and should not be built as described; if this moves forward at all, it should be the decision logic only, left for a person to act on.
+**Shipped**, see [Done Recently](#done-recently) above for the [reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md), decision logic only, no automation.
 
 #### Pipeline evidence review
 
