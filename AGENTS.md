@@ -139,6 +139,7 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Measure Time Saved and Output Quality](guides/measure-time-and-quality.md), for logging your own time honestly alongside scoring the output
 - [Workflow Router](guides/workflow-router.md) and [its skill](.agents/skills/workflow-router/SKILL.md), the reference to use when a user describes a situation in their own words rather than naming a workflow, or when two workflows sound similar and it matters which one actually fits
 - [Choose Your Route by Role](guides/role-based-routes.md), for a user who would rather start from their job title (account executive, sales manager, RevOps, customer success, founder-led sales) than from a list of sales problems
+- [Composing Longer Workflows](guides/composing-longer-workflows.md), principles for chaining workflows together (working folders, visible progress, spend checkpoints, a manual route, method before platform, judgement versus mechanics, visible instructions), not a description of software that exists here yet
 
 ### Outbound Prospecting
 
