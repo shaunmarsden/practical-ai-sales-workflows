@@ -15,7 +15,7 @@ For each deal, work through the following:
 State the stage, value, close date and next step exactly as the CRM has them.
 
 2. Evidence-supported position
-Say what state the evidence I have actually supports. Keep confirmed facts, inferences and unknowns separate. If a stakeholder change or a departure is only inferred, label it as an inference, not a fact.
+Say what state the evidence I have actually supports, using a working state such as exploring, qualification incomplete, problem confirmed, value case incomplete, stakeholder approval required, decision process unclear, commercial review, paused with a dated reason, lost, or disqualified, whichever actually fits, not a replacement set of official CRM stages. Keep confirmed facts, inferences and unknowns separate. If a stakeholder change or a departure is only inferred, label it as an inference, not a fact.
 
 3. The gap
 Name the difference between the recorded position and the evidence-supported one, if any. Look in particular for:
@@ -29,7 +29,7 @@ Name the difference between the recorded position and the evidence-supported one
 List what I would need to check before the recorded fields can be trusted.
 
 5. Suggested next step
-Suggest one concrete next step, left for me to approve. Where the honest answer is that a deal is healthy and the fields match the evidence, say so plainly rather than manufacturing a problem.
+Before this step, show the recorded stage and the evidence-supported state side by side and name any conflict between them. Then suggest one concrete next step, left for me to approve. Where the honest answer is that a deal is healthy and the fields match the evidence, say so plainly rather than manufacturing a problem.
 
 Finish with a short summary table: each deal, its recorded stage, its evidence-supported state, and the main gap.
 

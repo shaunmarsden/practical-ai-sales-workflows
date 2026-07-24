@@ -63,7 +63,9 @@ For every deal, ask whether the evidence actually supports the recorded stage, t
 
 ### 4. Name a Working State From the Evidence
 
-Separate from the recorded stage, say what state the evidence actually supports. Useful working states include exploring, qualification incomplete, problem confirmed, value case incomplete, stakeholder approval required, decision process unclear, paused with a dated reason, lost, or disqualified. These are a way to describe reality, not a replacement set of official stages, and they should match whatever your own CRM allows.
+Separate from the recorded stage, say what state the evidence actually supports. Useful working states include exploring, qualification incomplete, problem confirmed, value case incomplete, stakeholder approval required, decision process unclear, commercial review, paused with a dated reason, lost, or disqualified. These are a way to describe reality, not a replacement set of official stages, and they should match whatever your own CRM allows.
+
+Before suggesting any next step, state the recorded stage and the evidence-supported state side by side, name any conflict between them, and say what would need to be confirmed before the deal could move. A suggested next step that skips straight past this, without the two states shown together, is getting ahead of what the review has actually established.
 
 ### 5. Flag, Do Not Change
 
@@ -84,6 +86,7 @@ A review that manufactures a problem on a sound deal will not be trusted on the 
 - Is every suggested change left for you to approve, with nothing presented as already done?
 - Does the review call out at least the genuinely healthy deals, rather than reading as a list of only problems?
 - Would any suggested next step contradict something a prospect actually said?
+- Does every deal show the recorded stage and the evidence-supported state side by side, with any conflict named, before a next step is suggested?
 
 ## 📏 What to Measure
 
