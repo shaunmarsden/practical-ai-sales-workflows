@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added three outbound and chase-sequence backlog items: signal-to-hypothesis, company-first versus signal-first, and channel-escalation logic.** Built ahead of the usual real-use-evidence bar, on the project owner's own call. The [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md) now links a new [signal-to-hypothesis reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md): a six-part structure (signal and source, possible relevance, what it does not prove, a verifying question, a safe outreach angle, reasons not to use it), three concrete signal categories that are checkable facts rather than guesses (follower size, ad spend, active hiring for a role the offer would replace), and the difference between starting company-first from a defined list versus signal-first from a public event. The [plan-chase-sequence skill](.agents/skills/plan-chase-sequence/SKILL.md)'s [sequence-stages reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md) now documents channel-escalation as decision logic only, do not move channels before the first one has had a fair chance to be read, explicitly leaving out any automated cross-channel triggering or auto-dialling as not fitting this repository's human-approval-first model.
+
 - **Added role-based routes, a guide for readers who would rather start from their job title than a list of sales problems.** Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usability testing to show a need, the same way several other verticals were launched ahead of that bar. The new [guide](guides/role-based-routes.md) groups the same fifteen existing jobs by which ones actually come up for an account executive, a sales manager, RevOps, customer success, or someone doing founder-led sales, pointing only to recipe cards that already exist rather than duplicating any of them. Linked from the README's "Three Ways to Start" section and from AGENTS.md's guide list. It needs a real test like everything else here, specifically whether the five groupings actually match how people in those seats work.
 
 - **The weekly operating review is real-tested, composed entirely from this week's other real findings.** Built as a genuine composition rather than fresh analysis, exactly as the [workflow](workflows/10-weekly-operating-review.md) requires: pipeline movement correctly stated as not yet measurable, since this was the first report with no earlier snapshot to compare against; outreach activity correctly marked unmeasured rather than assumed to be zero, since only a couple of unrelated sends were visible from one inbox; and the items needing attention pulled directly from other real reviews already run this week, a CRM duplicate and stale test records, a stalled opportunity with an unresolved objection worth reviving, three funding objections that look similar but are not, rather than re-deriving any of it from scratch. Every guardrail held cleanly. No skill change needed; recorded as real evidence the composition model works when the underlying reviews genuinely exist, not just in the fictional worked example.
@@ -240,25 +242,11 @@ Record when a custom instruction was used. Do not hide the instruction that prod
 
 #### Signal-to-hypothesis outbound
 
-Turn public company signals into clearly labelled commercial hypotheses:
-
-- observed signal and source;
-- possible relevance;
-- what it does not prove;
-- a question that could verify it;
-- a safe outreach angle;
-- reasons not to use it.
-
-Worth naming a few concrete, verifiable signal categories rather than leaving "a specific signal" abstract: audience or follower size as a proxy for growth intent, active ad spend as a proxy for investment intent, and active hiring for a role the offer would replace as a proxy for a live, current problem. All three are checkable facts, not a guess about internal state, so they fit the existing [outbound prospecting skill](.agents/skills/outbound-prospecting/SKILL.md)'s requirement for a real, verifiable signal rather than a generic industry trend.
+**Shipped**, see [Done Recently](#done-recently) above for the [reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md).
 
 #### Company-first and signal-first prospecting
 
-Document two different starting routes:
-
-- company-first, when there is a defined account list or market;
-- signal-first, when accounts are discovered from a relevant public event.
-
-Both routes should include evidence checks before contact discovery or enrichment.
+**Shipped**, see [Done Recently](#done-recently) above for the same [reference](.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md).
 
 #### Outbound message structure refinements
 
@@ -270,7 +258,7 @@ Both routes should include evidence checks before contact discovery or enrichmen
 
 #### Channel-escalation sequencing for a stalled chase
 
-Flagged rather than recommended: the idea of a defined channel order (email, then a different channel, then a call) once a prospect has gone quiet on the first one. The underlying sequencing logic, do not escalate to a new channel before the first one has had a fair chance to be read, might be worth documenting as a principle. Most of the practical implementation of this (automated cross-channel triggers, auto-dialling) does not fit this repository's human-approval-first model and should not be built as described; if this moves forward at all, it should be the decision logic only, left for a person to act on.
+**Shipped**, see [Done Recently](#done-recently) above for the [reference](.agents/skills/plan-chase-sequence/references/sequence-stages.md), decision logic only, no automation.
 
 #### Pipeline evidence review
 
