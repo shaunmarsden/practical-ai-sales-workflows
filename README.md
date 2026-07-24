@@ -202,7 +202,7 @@ Curious whether the model actually matters? [See the same test run cold in Claud
 
 ## About Me
 
-I am Shaun Marsden and I work in B2B sales. I am using this project to learn what AI is genuinely useful for in the job and to share the things worth keeping.
+I am Shaun Marsden, a solutions consultant at AiCore. This project is where I keep track of what I've actually found useful, and share it.
 
 This is an independent learning project. Every company, person and conversation in the examples is fictional.
 

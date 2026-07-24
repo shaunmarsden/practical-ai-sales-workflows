@@ -47,7 +47,7 @@ Reader-facing copy (guides, workflows, drafts inside examples) follows the [writ
 
 Repository-facing documentation (this file, `AGENTS.md`, evaluations) can be a little more procedural, but should still avoid corporate jargon, inflated claims, and unnecessary ceremony.
 
-The public repository stays vendor-neutral. Do not name Shaun's employer, reproduce its internal processes, pricing or programme detail, or imply the repository is endorsed by any employer.
+The public repository stays vendor-neutral. Do not name Shaun's employer, reproduce its internal processes, pricing or programme detail, or imply the repository is endorsed by any employer. The one deliberate exception is the README's own About Me section, where Shaun names his real employer as part of his own personal bio, not as repository content; `repo_checks.py` allowlists that exact line and nowhere else.
 
 ## Before Opening a Pull Request
 
