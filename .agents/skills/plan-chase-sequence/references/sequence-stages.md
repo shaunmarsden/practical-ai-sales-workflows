@@ -52,3 +52,9 @@ Weak: "Just checking if you'd had a chance to review what I sent."
 Strong, using the [Hartwell Analytics scenario](../../../../examples/hartwell-post-call-transcript.md): "You mentioned the team spends fifteen to thirty minutes after every call on notes and CRM updates. That estimate is exactly what a first test would help you measure properly."
 
 The anchor should be specific enough that it could not be dropped unchanged into a different prospect's message. If it could, go back to the call and find something more specific.
+
+## Channel Escalation, If the Channel Itself Changes
+
+Flagged as a principle, not a build: if a prospect has gone quiet on the channel a message was actually sent on, do not move to a different channel, a call after only emails, a message on another platform, before the first channel has had a fair chance to be read. A prospect on holiday, in a busy period, or simply slower to check one inbox than another can look unresponsive on the first channel while never actually having failed to respond at all. Moving channels too early reads as pressure, not persistence.
+
+This is decision logic for a person to apply, not a trigger for automated cross-channel sending or auto-dialling. Automatically escalating across channels on a timer does not fit this repository's human-approval-first model, the same as every other stage in this sequence; if channel escalation is ever built out further than this principle, it should stay a recommendation a person acts on, not a system that acts on its own.
