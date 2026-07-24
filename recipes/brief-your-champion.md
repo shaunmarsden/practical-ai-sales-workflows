@@ -1,4 +1,4 @@
-# Recipe: Help a Champion Carry Your Case
+# Recipe: Brief Your Champion
 
 One job, one page. Everything you need is here; nothing else in the repository is required to use this.
 
