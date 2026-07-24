@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added the missing working state and an explicit structure to evidence-supported opportunity state.** The [pipeline evidence review workflow](workflows/06-pipeline-evidence-review.md) and [prompt](templates/pipeline-evidence-review-prompt.md) already separated the recorded CRM stage from the evidence-supported state; the backlog's own list of working states named one, commercial review, that the existing list was missing, so it is now added alongside the others. Both files now also state explicitly that the recorded stage and the evidence-supported state must be shown side by side, with any conflict named, before a next step is suggested, rather than that structure being implicit in how the review already happened to read.
+
 - **Added role-based routes, a guide for readers who would rather start from their job title than a list of sales problems.** Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usability testing to show a need, the same way several other verticals were launched ahead of that bar. The new [guide](guides/role-based-routes.md) groups the same fifteen existing jobs by which ones actually come up for an account executive, a sales manager, RevOps, customer success, or someone doing founder-led sales, pointing only to recipe cards that already exist rather than duplicating any of them. Linked from the README's "Three Ways to Start" section and from AGENTS.md's guide list. It needs a real test like everything else here, specifically whether the five groupings actually match how people in those seats work.
 
 - **The weekly operating review is real-tested, composed entirely from this week's other real findings.** Built as a genuine composition rather than fresh analysis, exactly as the [workflow](workflows/10-weekly-operating-review.md) requires: pipeline movement correctly stated as not yet measurable, since this was the first report with no earlier snapshot to compare against; outreach activity correctly marked unmeasured rather than assumed to be zero, since only a couple of unrelated sends were visible from one inbox; and the items needing attention pulled directly from other real reviews already run this week, a CRM duplicate and stale test records, a stalled opportunity with an unresolved objection worth reviving, three funding objections that look similar but are not, rather than re-deriving any of it from scratch. Every guardrail held cleanly. No skill change needed; recorded as real evidence the composition model works when the underlying reviews genuinely exist, not just in the fictional worked example.
@@ -278,29 +280,7 @@ Flagged rather than recommended: the idea of a defined channel order (email, the
 
 #### Evidence-supported opportunity state
 
-Separate the recorded CRM stage from the state supported by current evidence.
-
-Possible working states include:
-
-- exploring;
-- qualification incomplete;
-- problem confirmed;
-- value case incomplete;
-- stakeholder approval required;
-- decision process unclear;
-- commercial review;
-- paused with a dated reason;
-- lost;
-- disqualified.
-
-Before proposing a next action, state:
-
-- the recorded stage;
-- the evidence-supported state;
-- any conflict between them;
-- what must be confirmed before progression.
-
-These states must remain configurable and should not be treated as universal sales stages.
+**Shipped**, see [Done Recently](#done-recently) above for the [workflow](workflows/06-pipeline-evidence-review.md) and [prompt](templates/pipeline-evidence-review-prompt.md).
 
 #### Read-only CRM hygiene review
 
