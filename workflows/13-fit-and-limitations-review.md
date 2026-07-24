@@ -51,6 +51,8 @@ Work from what the prospect actually described, team by team or role by role, in
 
 For each use case, check it against what the offer is actually confirmed to do, not against a reasonable-sounding extension of that capability. A good fit is a direct match. A poor fit is a specific, named mismatch. Uncertain means there is not yet enough evidence, and stays a real category rather than a euphemism for poor fit.
 
+Watch for a specific version of this: a stakeholder's general description of a role, such as calling it clinical or interpretive, sometimes conflicts with the specific, structured tasks described for that same role. Name that conflict directly rather than quietly picking whichever version makes the classification easier, the tasks that support a good fit or the characterisation that supports the objection.
+
 ### 3. Never Spin a Limitation Into a Strength
 
 The most common failure here is not missing a poor fit outright; it is describing one so favourably that it reads as a bonus. State the actual mismatch plainly. A team's shared, ownerless structure is a genuine integration problem to solve, not evidence that the offer's adoption will spread itself.
@@ -63,6 +65,7 @@ The most common failure here is not missing a poor fit outright; it is describin
 - Does every good fit trace to a direct match with confirmed capability, not an assumed one?
 - Is every poor fit stated as a real, specific mismatch, not reframed as a hidden advantage?
 - Is "uncertain" used honestly, for cases where the evidence genuinely does not exist yet, not as a softer way of saying no?
+- If a stakeholder's general description of a role conflicts with the specific tasks described for it, is that conflict named rather than quietly resolved one way?
 - Would anything here need contacting the prospect to confirm capability that was actually just assumed?
 
 ## 📏 What to Measure

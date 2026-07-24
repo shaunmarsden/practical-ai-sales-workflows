@@ -57,7 +57,8 @@ Work out which of these is the closest fit, and say so honestly rather than defa
 - **Genuine disqualification**: the fit was never really there, or a hard blocker such as budget, compliance, or authority is real and unlikely to change.
 - **Timing**: the fit is real, but now is not the right moment. A stated cycle, a reorganisation, or a stated future point often means exactly that, not a polite no.
 - **Stakeholder change**: the specific person the deal ran through is no longer the route in, but the underlying evidence and problem may still be usable through someone else.
-- **Unresolved objection or blocker**: something specific was never actually answered well enough, and might land differently with more evidence or a different approach next time.
+- **Unresolved objection or blocker**: something specific was raised, an answer or a workaround was actually sent back, and it was rejected, or a genuine back-and-forth happened without landing.
+- **No decision at all**: something specific was raised, an answer or a workaround was sent back, and then contact from both sides simply stops. Nobody said no. This is a live thread nobody returned to, not the prospect quietly deciding against it, and the right next action is following up on the answer already sent, not waiting for an external trigger.
 
 ### 4. Decide What Would Justify Coming Back
 
@@ -75,8 +76,10 @@ Anything measured, proven, or genuinely useful from the work already done, a pil
 - Does the reason blend more than one factor that should really be considered separately?
 - Have you checked whether the underlying business problem still exists, regardless of who raised it or who left?
 - Is this labelled a genuine disqualification only because the evidence actually supports that, not just because contact has gone quiet?
+- If contact went quiet after your side sent an answer or a workaround, have you checked whether the prospect ever actually replied, rather than assuming silence means no?
 - If there is a real reason to revisit this later, is it specific, not vague hope dressed up as a plan?
 - Would chasing this again right now contradict something the prospect actually said?
+- If the CRM stage itself is an internal or company-specific label, do you actually know what it means, or are you assuming from its name or position?
 
 ## 📏 What to Measure
 
