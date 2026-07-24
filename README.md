@@ -87,7 +87,7 @@ Turn call evidence into a tailored business case for the person who was not on t
 
 **Just the one page:** [Recipe card](recipes/build-a-business-case.md)
 
-### 🗣️ Help a Champion Carry Your Case
+### 🗣️ Brief Your Champion
 
 Prepare an internal champion to present or forward your case to other stakeholders, without assuming what they care about from their job title, and without contacting anyone beyond the champion yourself.
 
@@ -95,7 +95,7 @@ Prepare an internal champion to present or forward your case to other stakeholde
 
 **Use with AI:** [Champion enablement](.agents/skills/champion-enablement/SKILL.md)
 
-**Just the one page:** [Recipe card](recipes/help-a-champion-carry-your-case.md)
+**Just the one page:** [Recipe card](recipes/brief-your-champion.md)
 
 ### 🔁 Chase a Quiet Prospect
 

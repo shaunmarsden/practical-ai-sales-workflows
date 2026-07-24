@@ -12,7 +12,7 @@ The fifteen workflows, and when each applies:
 - Follow Up After a Sales Call: I just finished a call and need to follow up properly
 - Check Whether It Actually Fits: a discovery call surfaced more than one team, role or use case, and it matters which parts genuinely fit before I build anything around them
 - Build a Business Case: a call or notes have established enough detail to justify a tailored document for the decision maker
-- Help a Champion Carry Your Case: an internal champion has agreed to present or forward my case to a further stakeholder who was not on any call
+- Brief Your Champion: an internal champion has agreed to present or forward my case to a further stakeholder who was not on any call
 - Chase a Quiet Prospect: a prospect has gone quiet after a follow-up and enough time has passed to justify a next message
 - Handle an Objection: a prospect has raised a specific concern, pushback or blocker
 - Spot a Real Objection Pattern: I keep hearing what sounds like the same objection across several deals
