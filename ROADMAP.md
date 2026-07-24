@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Wrote full design specs for the four Learning Tools and Future Interfaces backlog ideas, still distant ideas, not software.** Built ahead of the usual bar, on the project owner's own call, the same override applied elsewhere tonight; unlike those other overrides, this one does not ship a working guide or workflow, since building any of the four as actual software is a genuinely separate project this repository does not undertake. The new [design document](guides/future-interfaces.md) expands each of the four short backlog stubs, the role-play simulator, the interactive evidence workspace, the explainable lead-qualification view, and the before-and-after instruction testing interface, into what it would do, what it must never do, and which existing repository material it would depend on rather than reinvent. Nothing here is built; the value is having a fuller spec to check a future build against, if one is ever started.
+
 - **Added a downloadable skill packages guide, documenting the structure without publishing an actual ZIP.** Built ahead of the usual real-use-evidence bar (the backlog item said wait for testing to show a bundle is useful), on the project owner's own call. The new [guide](guides/downloadable-skill-packages.md) lists what a package should contain (the skill, a plain-English guide, a fictional case, an output template, the evaluation rubric, per-platform installation notes) and demonstrates the structure once against [identify-buyer-indecision](.agents/skills/identify-buyer-indecision/SKILL.md), an existing skill that already has every required piece. Deliberately stops short of publishing an actual ZIP or building any packaging tooling, since a maintained duplicate would drift from the real skill files the moment either changed, and no installer has been asked for yet.
 
 - **Added a selective installation guide, the per-platform mechanics of loading only a chosen subset of skills.** Built ahead of the usual real-use-evidence bar, on the project owner's own call. The new [guide](guides/selective-installation.md) covers Claude, ChatGPT, Gemini and Copilot, and is deliberately mechanical: it assumes the "which skills" decision is already made via [Choose Your Route by Role](guides/role-based-routes.md) or a curated bundle, and covers only how to actually load that subset without carrying the rest of the library's instructions into every conversation.
@@ -297,49 +299,19 @@ These are distant ideas. They may become separate software projects if the simpl
 
 #### Fictional sales role-play simulator
 
-A fuller version of the [pre-call objection roleplay drill](#pre-call-objection-roleplay-drill) above under Sales workflow ideas, as a proper practice environment where:
-
-- the AI plays a fictional prospect from fixed source material;
-- the salesperson responds;
-- the system records which evidence was uncovered;
-- unsupported claims or invented commitments are flagged;
-- coaching is provided after the exercise.
-
-The simulator should test judgement and evidence gathering, not reward closing at any cost.
+**Shipped as a spec**, see [Done Recently](#done-recently) above for the [design document](guides/future-interfaces.md). Still a distant idea; nothing here is built as software.
 
 #### Interactive evidence workspace
 
-A future local interface could show:
-
-- sources loaded;
-- evidence and source links;
-- facts, inferences, unknowns and conflicts;
-- workflow progress;
-- the instruction used;
-- draft outputs;
-- approval still required;
-- run and correction history.
-
-The user should be able to cancel, rerun or change instructions before anything external happens.
+**Shipped as a spec**, see [Done Recently](#done-recently) above for the same [design document](guides/future-interfaces.md).
 
 #### Explainable lead-qualification view
 
-A future visual view could separate:
-
-- confirmed fit;
-- possible fit;
-- disqualifying evidence;
-- missing information;
-- public signals;
-- what those signals do not prove.
-
-Avoid a single opaque 0 to 100 score unless every component, weight and limitation is visible and configurable.
+**Shipped as a spec**, see [Done Recently](#done-recently) above for the same [design document](guides/future-interfaces.md).
 
 #### Before-and-after instruction testing interface
 
-Allow a user to compare two instruction versions against the same fictional case, preserving raw outputs, scores, differences and human review notes.
-
-This should support evaluation. It should not present model-generated scoring as independent proof.
+**Shipped as a spec**, see [Done Recently](#done-recently) above for the same [design document](guides/future-interfaces.md).
 
 ### Beyond this repository
 
