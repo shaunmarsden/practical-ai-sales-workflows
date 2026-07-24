@@ -25,6 +25,8 @@ For every team, role or use case raised, decide one of three things, and say why
 
 A single prospect can produce all three at once. Do not let a strong good-fit case anywhere in the same review pressure the others toward a more flattering answer.
 
+A stakeholder's general characterisation of a role and the specific tasks described for that same role do not always agree. If a stated objection describes a role one way, for example as clinical or interpretive, while the specific tasks described for it read as structured and repeatable, name the discrepancy plainly rather than resolving it toward whichever reading is more convenient, either the tasks that support a sale or the characterisation that supports the objection.
+
 ## Apply the Guardrails
 
 - Never turn a poor fit into a disguised strength. "Even better, because it forces adoption across the whole team at once" is exactly the move this skill exists to prevent when the real story is an unresolved integration or ownership gap.

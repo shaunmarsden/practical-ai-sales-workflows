@@ -28,7 +28,7 @@ Match the described situation against this table. Where two rows sound similar, 
 | Just finished a call and need to follow up properly | [Follow Up After a Sales Call](../../../workflows/02-post-call-follow-up.md) |
 | A discovery call surfaced more than one team, role or use case, and it matters which parts genuinely fit before building anything around them | [Check Whether It Actually Fits](../../../workflows/13-fit-and-limitations-review.md) |
 | A call or notes have established enough detail to justify a tailored document for the decision maker | [Build a Business Case](../../../.agents/skills/build-business-case/SKILL.md) |
-| An internal champion has agreed to present or forward your case to a further stakeholder who was not on any call | [Help a Champion Carry Your Case](../../../workflows/12-champion-enablement.md) |
+| An internal champion has agreed to present or forward your case to a further stakeholder who was not on any call | [Brief Your Champion](../../../workflows/12-champion-enablement.md) |
 | A prospect has gone quiet after a follow-up, and enough time has passed to justify a next message | [Chase a Quiet Prospect](../../../.agents/skills/plan-chase-sequence/SKILL.md) |
 | A prospect has raised a specific concern, pushback or blocker and you need to respond, not react | [Handle an Objection](../../../workflows/05-objection-handling.md) |
 | You keep hearing what sounds like the same objection across several deals and want to know if it is one real pattern | [Spot a Real Objection Pattern](../../../workflows/11-objection-pattern-review.md) |
