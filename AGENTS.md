@@ -256,6 +256,14 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Completed report](examples/fictional-weekly-operating-review-output.md)
 - [Evaluation](evaluations/fictional-weekly-operating-review-eval.md)
 
+### Outbound Campaign Learning Review
+
+- [Workflow](workflows/14-outbound-campaign-learning-review.md)
+- [Prompt](templates/outbound-campaign-learning-review-prompt.md)
+- [Fictional campaign data](examples/cedarwell-campaign-review-input.md)
+- [Completed review](examples/cedarwell-campaign-review-output.md)
+- [Evaluation](evaluations/cedarwell-campaign-review-eval.md)
+
 If nothing fits, explain the gap before proposing a new category. Prefer testing or extending existing material over adding more folders.
 
 ## Explain Things for Salespeople
