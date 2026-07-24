@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added a curated bundles guide, grouping existing recipe cards into three starting packs.** Built ahead of the usual real-use-evidence bar, on the project owner's own call, the same way role-based routes was: a Sales AI starter pack, a post-call pack, and a deal progression pack, each a page of links to [recipe cards](recipes/README.md) that already exist, no installer. The [guide](guides/curated-bundles.md) says plainly that the three groupings are a starting guess, worth revisiting once real use shows whether they are the ones people actually reach for.
+
 - **Added a progressive disclosure guide, naming a pattern already in use and auditing the current skill library against it.** The new [guide](guides/progressive-disclosure.md) states what belongs in a skill's core `SKILL.md` (the method itself, gathered on every run) versus a supporting file (a fictional example, an output contract, a template, a checklist, loaded only when that specific step needs it), then checks all eleven current skills against it. Every core file sits under ninety lines, and every skill with deeper material already keeps it in a separate file; nothing failed the audit. The guide's ongoing value is having a place to check the next skill against, so a `SKILL.md` that starts growing past this pattern gets caught at review time.
 
 - **Piloted the standard skill package on a second skill, champion-enablement.** The [skill](.agents/skills/champion-enablement/SKILL.md) already had a fictional Hartwell example; it now also has an [output contract](.agents/skills/champion-enablement/references/output-contract.md) stating what the AI must and must not do, an [output template](.agents/skills/champion-enablement/templates/output-template.md) for the finished package, and a [human review checklist](.agents/skills/champion-enablement/checks/checklist.md), matching the structure already piloted on identify-buyer-indecision. Both pilots so far started from a skill that already had a working fictional example; the backlog note is updated to say the harder, more useful test is a skill without one yet, which is the case that would actually show whether the structure earns its way into CONTRIBUTING.md's baseline rather than staying optional.
@@ -151,13 +153,7 @@ Only add a script where a deterministic check is genuinely useful. A structure c
 
 #### Curated bundles
 
-Once users show that they need them, group existing skills into simple packages such as:
-
-- Sales AI starter pack;
-- Post-call pack;
-- Deal progression pack.
-
-Start with a page that links the relevant files. Do not build an installer until the bundle itself has been tested.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/curated-bundles.md).
 
 ### Workflow composition and traceability
 
