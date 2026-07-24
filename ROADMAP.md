@@ -10,6 +10,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 - **Piloted the standard skill package on a second skill, champion-enablement.** The [skill](.agents/skills/champion-enablement/SKILL.md) already had a fictional Hartwell example; it now also has an [output contract](.agents/skills/champion-enablement/references/output-contract.md) stating what the AI must and must not do, an [output template](.agents/skills/champion-enablement/templates/output-template.md) for the finished package, and a [human review checklist](.agents/skills/champion-enablement/checks/checklist.md), matching the structure already piloted on identify-buyer-indecision. Both pilots so far started from a skill that already had a working fictional example; the backlog note is updated to say the harder, more useful test is a skill without one yet, which is the case that would actually show whether the structure earns its way into CONTRIBUTING.md's baseline rather than staying optional.
 
+- **Added a composing-longer-workflows guide, covering the seven remaining backlog items under Workflow composition and traceability.** Built as a deliberate project-owner override of the usual real-use-evidence bar, the same way role-based routes was. The new [guide](guides/composing-longer-workflows.md) documents working folders and run logs, visible progress for longer runs, spend checkpoints before paid enrichment, keeping a manual route alongside any connector, choosing method before platform, separating AI judgement from code mechanics, and keeping instructions visible even when configurable. States plainly throughout that these are principles to build to, not a description of software that exists in this repository now; nothing here executes automatically today.
+
 - **Added role-based routes, a guide for readers who would rather start from their job title than a list of sales problems.** Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usability testing to show a need, the same way several other verticals were launched ahead of that bar. The new [guide](guides/role-based-routes.md) groups the same fifteen existing jobs by which ones actually come up for an account executive, a sales manager, RevOps, customer success, or someone doing founder-led sales, pointing only to recipe cards that already exist rather than duplicating any of them. Linked from the README's "Three Ways to Start" section and from AGENTS.md's guide list. It needs a real test like everything else here, specifically whether the five groupings actually match how people in those seats work.
 
 - **The weekly operating review is real-tested, composed entirely from this week's other real findings.** Built as a genuine composition rather than fresh analysis, exactly as the [workflow](workflows/10-weekly-operating-review.md) requires: pipeline movement correctly stated as not yet measurable, since this was the first report with no earlier snapshot to compare against; outreach activity correctly marked unmeasured rather than assumed to be zero, since only a couple of unrelated sends were visible from one inbox; and the items needing attention pulled directly from other real reviews already run this week, a CRM duplicate and stale test records, a stalled opportunity with an unresolved objection worth reviving, three funding objections that look similar but are not, rather than re-deriving any of it from scratch. Every guardrail held cleanly. No skill change needed; recorded as real evidence the composition model works when the underlying reviews genuinely exist, not just in the fictional worked example.
@@ -167,68 +169,31 @@ Start with a page that links the relevant files. Do not build an installer until
 
 #### Working folders and run history
 
-For longer workflows, consider a simple project structure that separates:
-
-```text
-input/
-intermediate/
-output/
-run-log.md
-```
-
-The run log should record what was used, what was produced, what was skipped, any corrections and which actions were actually completed.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Visible progress and cancellable runs
 
-For longer tasks, show the user where the workflow has reached:
-
-```text
-Sources loaded
-Evidence extracted
-Conflicts found
-Draft produced
-Human review required
-```
-
-Future integrated tools should let the user stop, retry or replace instructions before an external action occurs. Failed runs should leave enough information to understand what happened without pretending the task completed.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Cost and approval checkpoints
 
-Where a workflow may use paid enrichment, research or automation tools, add explicit review points before spending more credits or taking an external action.
-
-A useful pattern is:
-
-```text
-collect
-review quality
-filter
-review again
-enrich
-human approval
-act
-```
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Manual route first
 
-Every integrated workflow should retain a manual route using pasted or uploaded information. Providers and connectors should remain optional, with limitations and fallbacks stated clearly.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Method before platform
 
-Choose the sales method before choosing a product-specific tool.
-
-A platform adapter should implement an already understood workflow. It should not become the source of the sales method merely because the platform exposes an API or connector.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Separate judgement from orchestration
 
-Keep the AI responsible for tasks such as classification, drafting and identifying gaps. Keep code or automation responsible for repeatable mechanics such as file handling, scheduling and API calls.
-
-Do not automate a workflow until the manual version is stable and its failure conditions are understood.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 #### Configurable but visible instructions
 
-Provide a safe default instruction for each workflow while allowing the user to inspect and adapt it.
-
-Record when a custom instruction was used. Do not hide the instruction that produced a recommendation, score or customer-facing draft.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/composing-longer-workflows.md).
 
 ### Sales workflow ideas
 
