@@ -21,6 +21,6 @@ If you want the fuller method, the guardrails, or a second worked test for any o
 - [Get a Weekly View Without Building a Dashboard](get-a-weekly-view.md)
 - [Review an Outbound Campaign](review-an-outbound-campaign.md)
 
-Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead.
+Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead. Want all sixteen on one printable page instead of sixteen separate ones? [Open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
 
 None of these claim a time saved. If you want to know whether one is actually worth using, log your own time honestly with the [time and quality log](../templates/time-and-quality-log.md) rather than trusting that a recipe helped because it reads well.

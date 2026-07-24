@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practical AI Sales Workflows: Cheat Sheet</title>
+<meta name="description" content="One printable page listing all sixteen jobs in Practical AI Sales Workflows, with a link to the full recipe card for each.">
+<style>
+  :root {
+    --bg: #faf9f7;
+    --panel: #ffffff;
+    --border: #e5e1da;
+    --ink: #2a2620;
+    --ink-soft: #6b655a;
+    --accent: #b5541f;
+    --accent-soft: #f4e3d6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  a { color: var(--accent); }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+  }
+  header.top h1 {
+    font-size: 26px;
+    margin: 0 0 6px;
+  }
+  header.top p.kicker {
+    color: var(--ink-soft);
+    font-size: 14px;
+    margin: 0 0 4px;
+  }
+  header.top p.note {
+    font-size: 13px;
+    color: var(--ink-soft);
+    border-top: 1px solid var(--border);
+    margin-top: 16px;
+    padding-top: 12px;
+  }
+  .print-hint {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: var(--accent-soft);
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--ink);
+  }
+  section.group {
+    margin-top: 28px;
+  }
+  section.group h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+  }
+  .job {
+    break-inside: avoid;
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .job:last-child { border-bottom: none; }
+  .job h3 {
+    font-size: 15px;
+    margin: 0 0 3px;
+  }
+  .job p {
+    margin: 0 0 4px;
+    font-size: 13.5px;
+    color: var(--ink);
+  }
+  .job a.card {
+    font-size: 12.5px;
+  }
+  footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+  @media print {
+    body { background: #ffffff; }
+    .print-hint { display: none; }
+    a { color: var(--ink); text-decoration: none; }
+    a.card[href]:after {
+      content: " (" attr(href) ")";
+      font-size: 10px;
+      color: var(--ink-soft);
+    }
+    main { max-width: none; padding: 0 12px; }
+    section.group { break-before: avoid; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <p class="kicker">Practical AI Sales Workflows</p>
+    <h1>Cheat Sheet: All Sixteen Jobs</h1>
+    <p>Every job this repository covers, one line each, with a link straight to its recipe card. Nothing here is new content; it is the existing <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/README.md">recipe cards</a> laid out on a single page.</p>
+    <span class="print-hint">Print this page (Ctrl or Cmd + P) and choose &quot;Save as PDF&quot; for an offline copy.</span>
+    <p class="note">Free and MIT licensed. Use, adapt or share any of it, including in a commercial sales team. Full repository: <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows">github.com/shaunmarsden/practical-ai-sales-workflows</a></p>
+  </header>
+
+  <section class="group">
+    <h2>Within the Sales Cycle</h2>
+
+    <div class="job">
+      <h3>Find the Next Prospect</h3>
+      <p>Pick a target and draft a first-touch message worth a reply, without a generic hook or a meeting-led ask.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/find-the-next-prospect.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Prepare for a Sales Call</h3>
+      <p>Pull scattered information into one short call card you can scan during the conversation.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/prepare-for-a-sales-call.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Follow Up After a Sales Call</h3>
+      <p>Turn a transcript or clear notes into a summary, actions, email draft and CRM suggestions without inventing momentum.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/follow-up-after-a-sales-call.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Check Whether It Actually Fits</h3>
+      <p>Classify each use case as a good fit, a poor fit, or genuinely uncertain, before a business case gets built around one that was never going to work.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/check-whether-it-actually-fits.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Build a Business Case</h3>
+      <p>Turn call evidence into a tailored business case for the person who was not on the call.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/build-a-business-case.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Brief Your Champion</h3>
+      <p>Prepare an internal champion to present or forward your case, without assuming what other stakeholders care about from their job title.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/brief-your-champion.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Chase a Quiet Prospect</h3>
+      <p>Decide what, if anything, to send next, rather than working through a fixed run of increasingly persistent emails.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/chase-a-quiet-prospect.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Handle an Objection</h3>
+      <p>Diagnose what is actually driving a stated objection before answering it, rather than arguing with the surface wording.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/handle-an-objection.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Move a Stalled Decision</h3>
+      <p>Help a willing buyer who keeps delaying the final yes, by making the decision safer rather than selling harder.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/move-a-stalled-decision.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Hand Over an Opportunity</h3>
+      <p>Pass the current position, evidence, risks and next action to another person without making the deal sound further along than it is.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/hand-over-an-opportunity.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Review a Lost Opportunity</h3>
+      <p>Work out honestly whether a closed or stalled deal is actually over, or just blocked, before deciding whether there is a real way back in.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/review-a-lost-opportunity.md">Recipe card &rarr;</a>
+    </div>
+  </section>
+
+  <section class="group">
+    <h2>Alongside the Cycle</h2>
+
+    <div class="job">
+      <h3>Spot a Real Objection Pattern</h3>
+      <p>Look across several deals for a repeated objection, and check whether it is genuinely one issue or several unrelated situations that just sound similar.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/spot-a-real-objection-pattern.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Review Your Pipeline</h3>
+      <p>Check whether the stages, close dates and next steps in your CRM are actually supported by the evidence you hold.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/review-your-pipeline.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Keep Your CRM Honest</h3>
+      <p>Audit a CRM export for duplicates, missing fields and stale records, so you can trust it before using it for a total or a report.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/keep-your-crm-honest.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Get a Weekly View Without Building a Dashboard</h3>
+      <p>Pull pipeline, meetings, outreach and new signals into one honest weekly report, composing what other workflows already found.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/get-a-weekly-view.md">Recipe card &rarr;</a>
+    </div>
+
+    <div class="job">
+      <h3>Review an Outbound Campaign</h3>
+      <p>Read what an outbound campaign's actual numbers support once it has run its course, rather than trusting a good-looking reply rate.</p>
+      <a class="card" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/review-an-outbound-campaign.md">Recipe card &rarr;</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Every example in this repository is fictional. AI prepares the work; the salesperson checks it, decides what happens next, and approves anything that leaves the building.</p>
+  </footer>
+</main>
+</body>
+</html>
