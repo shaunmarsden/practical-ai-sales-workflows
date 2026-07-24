@@ -4,7 +4,7 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Now
 
-- **Keep testing against real work as it comes up.** Not a batch exercise, and not blocking anything else: when a real objection, a real pipeline check, or a real anything else comes up, run the matching workflow on it and see honestly whether it held up. Twelve verticals have real evidence behind them now; the rest do not yet, and that gap closes naturally through use rather than by scheduling more tests.
+- **Keep testing against real work as it comes up.** Not a batch exercise, and not blocking anything else: when a real objection, a real pipeline check, or a real anything else comes up, run the matching workflow on it and see honestly whether it held up. Twelve verticals have real evidence behind them now. Two, hand over an opportunity and move a stalled decision, had no real material available as of 24 July 2026; check back on 7 August 2026 for whether a genuine case has turned up for either. Prepare for a sales call is deliberately excluded from this gap, since it is used live in a chat rather than as something tested and recorded this way.
 
 ## Done Recently
 
