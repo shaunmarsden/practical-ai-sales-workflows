@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added a curated bundles guide, grouping existing recipe cards into three starting packs.** Built ahead of the usual real-use-evidence bar, on the project owner's own call, the same way role-based routes was: a Sales AI starter pack, a post-call pack, and a deal progression pack, each a page of links to [recipe cards](recipes/README.md) that already exist, no installer. The [guide](guides/curated-bundles.md) says plainly that the three groupings are a starting guess, worth revisiting once real use shows whether they are the ones people actually reach for.
+
 - **Added role-based routes, a guide for readers who would rather start from their job title than a list of sales problems.** Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usability testing to show a need, the same way several other verticals were launched ahead of that bar. The new [guide](guides/role-based-routes.md) groups the same fifteen existing jobs by which ones actually come up for an account executive, a sales manager, RevOps, customer success, or someone doing founder-led sales, pointing only to recipe cards that already exist rather than duplicating any of them. Linked from the README's "Three Ways to Start" section and from AGENTS.md's guide list. It needs a real test like everything else here, specifically whether the five groupings actually match how people in those seats work.
 
 - **The weekly operating review is real-tested, composed entirely from this week's other real findings.** Built as a genuine composition rather than fresh analysis, exactly as the [workflow](workflows/10-weekly-operating-review.md) requires: pipeline movement correctly stated as not yet measurable, since this was the first report with no earlier snapshot to compare against; outreach activity correctly marked unmeasured rather than assumed to be zero, since only a couple of unrelated sends were visible from one inbox; and the items needing attention pulled directly from other real reviews already run this week, a CRM duplicate and stale test records, a stalled opportunity with an unresolved objection worth reviving, three funding objections that look similar but are not, rather than re-deriving any of it from scratch. Every guardrail held cleanly. No skill change needed; recorded as real evidence the composition model works when the underlying reviews genuinely exist, not just in the fictional worked example.
@@ -145,13 +147,7 @@ Keep core skill instructions short enough to load when needed. Put deeper exampl
 
 #### Curated bundles
 
-Once users show that they need them, group existing skills into simple packages such as:
-
-- Sales AI starter pack;
-- Post-call pack;
-- Deal progression pack.
-
-Start with a page that links the relevant files. Do not build an installer until the bundle itself has been tested.
+**Shipped**, see [Done Recently](#done-recently) above for the [guide](guides/curated-bundles.md).
 
 ### Workflow composition and traceability
 
