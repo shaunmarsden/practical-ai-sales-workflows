@@ -242,6 +242,7 @@ If the user wants the short version of a job rather than the full workflow, poin
 ### Pipeline Evidence Review
 
 - [Workflow](workflows/06-pipeline-evidence-review.md)
+- [Pipeline evidence review skill](.agents/skills/pipeline-evidence-review/SKILL.md)
 - [Fictional pipeline snapshot](examples/fictional-pipeline-snapshot.md)
 - [Fictional pipeline review](examples/fictional-pipeline-review.md)
 - [Evaluation](evaluations/fictional-pipeline-review-eval.md)
@@ -249,6 +250,7 @@ If the user wants the short version of a job rather than the full workflow, poin
 ### CRM Hygiene Review
 
 - [Workflow](workflows/08-crm-hygiene-review.md)
+- [CRM hygiene review skill](.agents/skills/crm-hygiene-review/SKILL.md)
 - [Fictional CRM export](examples/fictional-crm-export.md)
 - [Fictional CRM hygiene review](examples/fictional-crm-hygiene-review.md)
 - [Evaluation](evaluations/fictional-crm-hygiene-review-eval.md)
