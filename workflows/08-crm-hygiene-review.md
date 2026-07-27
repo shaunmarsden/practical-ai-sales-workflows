@@ -27,6 +27,7 @@ flowchart TB
 - [See the fictional CRM export](../examples/fictional-crm-export.md)
 - [See the completed review](../examples/fictional-crm-hygiene-review.md)
 - [Read the honest review](../evaluations/fictional-crm-hygiene-review-eval.md)
+- [Use with AI: the crm-hygiene-review skill](../.agents/skills/crm-hygiene-review/SKILL.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

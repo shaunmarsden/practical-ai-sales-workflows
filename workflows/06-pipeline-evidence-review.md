@@ -27,6 +27,7 @@ flowchart TB
 - [See the fictional pipeline snapshot](../examples/fictional-pipeline-snapshot.md)
 - [See the completed review](../examples/fictional-pipeline-review.md)
 - [Read the honest review](../evaluations/fictional-pipeline-review-eval.md)
+- [Use with AI: the pipeline-evidence-review skill](../.agents/skills/pipeline-evidence-review/SKILL.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

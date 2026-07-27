@@ -8,6 +8,8 @@ What is actually being worked on, in three honest buckets, followed by a longer 
 
 ## Done Recently
 
+- **Added AI skills for Pipeline Evidence Review and CRM Hygiene Review, the first two of seven prompt-only jobs to get one.** Raised after checking an AI-generated "roadmap" document against the actual repository: it correctly spotted that only nine of the sixteen jobs had a dedicated skill, once the maths were corrected (eleven skill files exist, but one, `workflow-router`, is cross-cutting rather than job-specific, and Follow Up After a Sales Call uses two). The [pipeline-evidence-review](.agents/skills/pipeline-evidence-review/SKILL.md) and [crm-hygiene-review](.agents/skills/crm-hygiene-review/SKILL.md) skills formalise the existing, already real-tested workflow methods into the standard skill shape, nothing new invented, just the proven method made available as a bounded AI instruction rather than a copy-paste prompt alone. Wired into both workflows, the README, and AGENTS.md; the progressive disclosure guide's skill audit updated to include them and to correct champion-enablement's now-stale line count.
+
 - **Added a sibling repositories scoping guide, still gated on its own hard condition.** Built ahead of the usual bar, on the project owner's own call, the same override applied elsewhere tonight. The new [guide](guides/sibling-repositories.md) is deliberately a scoping document, not a start: it names what would transfer directly to another function's version of this repository (the house style discipline, CONTRIBUTING.md's completeness bar, the repository-checks discipline, the public-data boundary) against what a genuine practitioner from that function would have to define from scratch (the real jobs, what a good output looks like, real evidence and testing), and restates the one hard condition unchanged: no sibling repository starts without that practitioner already in place. Names no specific function, practitioner, or timeline.
 
 - **Wrote full design specs for the four Learning Tools and Future Interfaces backlog ideas, still distant ideas, not software.** Built ahead of the usual bar, on the project owner's own call, the same override applied elsewhere tonight; unlike those other overrides, this one does not ship a working guide or workflow, since building any of the four as actual software is a genuinely separate project this repository does not undertake. The new [design document](guides/future-interfaces.md) expands each of the four short backlog stubs, the role-play simulator, the interactive evidence workspace, the explainable lead-qualification view, and the before-and-after instruction testing interface, into what it would do, what it must never do, and which existing repository material it would depend on rather than reinvent. Nothing here is built; the value is having a fuller spec to check a future build against, if one is ever started.
@@ -314,6 +316,14 @@ These are distant ideas. They may become separate software projects if the simpl
 #### Before-and-after instruction testing interface
 
 **Shipped as a spec**, see [Done Recently](#done-recently) above for the same [design document](guides/future-interfaces.md).
+
+### Skill library completeness
+
+Raised 26 July 2026, after checking an AI-generated "roadmap" document against the actual repository. Nine of the sixteen jobs currently have a dedicated AI skill; seven are prompt-only: Prepare for a Sales Call, Spot a Real Objection Pattern, Hand Over an Opportunity, Review Your Pipeline, Keep Your CRM Honest, Get a Weekly View Without Building a Dashboard, and Review an Outbound Campaign.
+
+#### Author skills for the remaining prompt-only jobs
+
+**Two shipped**, see [Done Recently](#done-recently) above for the [pipeline-evidence-review](.agents/skills/pipeline-evidence-review/SKILL.md) and [crm-hygiene-review](.agents/skills/crm-hygiene-review/SKILL.md) skills. These two were built first because both already have real-test findings behind their workflows, so the skill is formalising an already-proven method rather than speculating ahead of one. Five remain prompt-only: Prepare for a Sales Call, Spot a Real Objection Pattern, Hand Over an Opportunity, Get a Weekly View Without Building a Dashboard, and Review an Outbound Campaign. Build these in the same order of priority, real-tested workflows first, when picked up next.
 
 ### AI literacy and tooling guides
 
