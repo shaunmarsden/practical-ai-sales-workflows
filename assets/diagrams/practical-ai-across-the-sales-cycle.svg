@@ -140,8 +140,8 @@
       <path d="M315 796c4-14 9-21 17-21s13 7 17 21"/>
       <path d="M357 787l10 10 20-23"/>
     </g>
-    <text x="410" y="774" font-size="27" font-weight="700" fill="#152238">AI prepares the work. It does not contact customers or change systems.</text>
-    <text x="410" y="816" font-size="27" fill="#334155">The salesperson checks the output and decides what happens next.</text>
+    <text x="410" y="774" font-size="26" font-weight="700" fill="#152238">AI prepares the work. It does not contact customers or change systems.</text>
+    <text x="410" y="816" font-size="26" fill="#334155">The salesperson checks the output and decides what happens next.</text>
   </g>
 
   <path d="M1480 106l8 18 19 8-19 8-8 19-8-19-19-8 19-8z" fill="#2a9d8f"/>
