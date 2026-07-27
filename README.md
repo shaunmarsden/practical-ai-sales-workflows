@@ -39,163 +39,49 @@ Once a single setup prompt stops being enough on its own, [Get More From Your AI
 
 ## 🎯 Choose a Sales Problem
 
-Want the short version, one page per job, nothing else to read? [Open the recipe cards](recipes/README.md) instead. Want all sixteen on a single printable page? [Open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html), or print it straight to PDF.
+These are six useful places to begin, not a ranking. Want a different sales job? [Browse all sixteen one-page recipe cards](recipes/README.md), or [open the printable cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
 
 ![Five stage sales cycle showing how AI can help find prospects, prepare calls, progress opportunities, support closing and review outcomes. AI prepares the work, while the salesperson checks it and decides what happens next.](assets/diagrams/practical-ai-across-the-sales-cycle.svg)
 
-The visual shows the main sales cycle. The sixteen jobs below cover the work within and around it. Pipeline review, CRM hygiene, the weekly review and the outbound campaign learning review run alongside the cycle rather than after it.
+The visual shows the main sales cycle. Some jobs, including pipeline review, run alongside it rather than at one particular stage.
 
 ### 🔎 Find the Next Prospect
 
 Pick a target and draft a first-touch message worth a reply, without a generic hook or a meeting-led ask.
 
-**Start here:** [Open the workflow](workflows/09-outbound-prospecting.md) · [See the Cedarwell signal](examples/cedarwell-outbound-input.md) · [See the completed output](examples/cedarwell-outbound-output.md) · [See a deliberately weak version, for contrast](examples/cedarwell-outbound-weak-example.md) · [Use the prompt](templates/outbound-prospecting-prompt.md)
-
-**Use with AI:** [Plan outbound prospecting](.agents/skills/outbound-prospecting/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/find-the-next-prospect.md)
+**Start here:** [Open the one-page recipe card](recipes/find-the-next-prospect.md)
 
 ### 📞 Prepare for a Sales Call
 
 Pull scattered information into one short call card that you can scan during the conversation.
 
-**Start here:** [Open the workflow](workflows/01-pre-call-preparation.md) · [See the Hartwell example](examples/hartwell-pre-call.md) · [Use the card template](templates/pre-call-card.md)
-
-**Optional practice:** [Roleplay pushback before the call](templates/pre-call-objection-roleplay-prompt.md) · [See what it produces](examples/hartwell-pre-call-roleplay.md)
-
-**Just the one page:** [Recipe card](recipes/prepare-for-a-sales-call.md)
+**Start here:** [Open the one-page recipe card](recipes/prepare-for-a-sales-call.md)
 
 ### ✉️ Follow Up After a Sales Call
 
 Turn a transcript or clear notes into a summary, actions, email draft and CRM suggestions without inventing momentum.
 
-**Start here:** [Open the workflow](workflows/02-post-call-follow-up.md) · [See the finished output](examples/hartwell-post-call-output.md) · [Use the prompt](templates/post-call-follow-up-prompt.md)
-
-**Use with AI:** [Learn what a sales AI skill is](guides/what-is-a-sales-ai-skill.md) · [Extract evidence from the call](.agents/skills/extract-post-call-evidence/SKILL.md) · [Draft the follow-up email](.agents/skills/draft-follow-up-email/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/follow-up-after-a-sales-call.md)
-
-### 🔍 Check Whether It Actually Fits
-
-Work out where an offer is a good fit, a poor fit, or still uncertain for a specific prospect, before building a business case around a use case that was never going to work, without turning a real limitation into a disguised strength.
-
-**Start here:** [Open the workflow](workflows/13-fit-and-limitations-review.md) · [See the Kellow scenario](examples/kellow-fit-review-input.md) · [See the completed review](examples/kellow-fit-review-output.md) · [Read the honest review](evaluations/kellow-fit-review-review.md)
-
-**Use with AI:** [Fit and limitations review](.agents/skills/fit-and-limitations-review/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/check-whether-it-actually-fits.md)
+**Start here:** [Open the one-page recipe card](recipes/follow-up-after-a-sales-call.md)
 
 ### 📄 Build a Business Case
 
 Turn call evidence into a tailored business case for the person who was not on the call.
 
-**Start here:** [See the Hartwell transcript](examples/hartwell-business-case-transcript.md) · [See the finished business case](examples/hartwell-business-case-output.md) · [Read the honest review](evaluations/hartwell-business-case-review.md)
-
-**A second, different test:** [See the Bramfield transcript](examples/bramfield-business-case-transcript.md) · [See the finished business case](examples/bramfield-business-case-output.md) · [Read the honest review](evaluations/bramfield-business-case-review.md): a conditional two-year price instead of a flat figure, and a Finance Director reader who was never on a call
-
-**Use with AI:** [Build or audit a business case](.agents/skills/build-business-case/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/build-a-business-case.md)
-
-### 🗣️ Brief Your Champion
-
-Prepare an internal champion to present or forward your case to other stakeholders, without assuming what they care about from their job title, and without contacting anyone beyond the champion yourself.
-
-**Start here:** [Open the workflow](workflows/12-champion-enablement.md) · [See the Hartwell scenario](examples/hartwell-champion-enablement-input.md) · [See the completed output](examples/hartwell-champion-enablement-output.md) · [Read the honest review](evaluations/hartwell-champion-enablement-review.md)
-
-**Use with AI:** [Champion enablement](.agents/skills/champion-enablement/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/brief-your-champion.md)
-
-### 🔁 Chase a Quiet Prospect
-
-Decide what, if anything, to send next, rather than working through a fixed run of increasingly persistent emails.
-
-**Use with AI:** [Plan the chase sequence](.agents/skills/plan-chase-sequence/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/chase-a-quiet-prospect.md)
+**Start here:** [Open the one-page recipe card](recipes/build-a-business-case.md)
 
 ### 🙅 Handle an Objection
 
 Diagnose what is actually driving a stated objection before answering it, rather than arguing with the surface wording.
 
-**Start here:** [Open the workflow](workflows/05-objection-handling.md) · [See the Hartwell response](examples/hartwell-objection-response.md) · [Use the prompt](templates/objection-handling-prompt.md)
-
-**Use with AI:** [Respond to an objection](.agents/skills/objection-response/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/handle-an-objection.md)
-
-### 📚 Spot a Real Objection Pattern
-
-Look across several deals for a repeated objection, and check whether it is genuinely one issue or several unrelated situations that just sound similar.
-
-**Start here:** [Open the workflow](workflows/11-objection-pattern-review.md) · [See the fictional objection log](examples/fictional-objection-pattern-log.md) · [See the completed analysis](examples/fictional-objection-pattern-review.md) · [Use the prompt](templates/objection-pattern-review-prompt.md)
-
-**Just the one page:** [Recipe card](recipes/spot-a-real-objection-pattern.md)
-
-### 🕰️ Move a Stalled Decision
-
-Help a willing buyer who keeps delaying the final yes, by making the decision safer rather than selling harder, once you have confirmed it is genuine indecision and not something else.
-
-**Start here:** [Open the workflow](workflows/07-buyer-indecision.md) · [See the Calderwood scenario](examples/calderwood-indecision-input.md) · [See the completed response](examples/calderwood-indecision-response.md) · [Use the prompt](templates/buyer-indecision-prompt.md)
-
-**Use with AI:** [Identify buyer indecision](.agents/skills/identify-buyer-indecision/SKILL.md), a diagnosis-only skill that pairs with the prompt above
-
-**Just the one page:** [Recipe card](recipes/move-a-stalled-decision.md)
-
-### 🤝 Hand Over an Opportunity
-
-Pass the current position, evidence, risks and next action to another person without making the deal sound further along than it is.
-
-**Start here:** [Open the workflow](workflows/03-opportunity-handover.md) · [See the Hartwell handover](examples/hartwell-opportunity-handover.md) · [Use the prompt](templates/opportunity-handover-prompt.md)
-
-**Just the one page:** [Recipe card](recipes/hand-over-an-opportunity.md)
-
-### 📪 Review a Lost Opportunity
-
-Work out honestly whether a closed or stalled deal is actually over, or just blocked, before deciding whether there is a real way back in.
-
-**Start here:** [Open the workflow](workflows/04-lost-opportunity-review.md) · [See the Hartwell analysis](examples/hartwell-lost-opportunity-analysis.md) · [Use the prompt](templates/lost-opportunity-review-prompt.md)
-
-**Use with AI:** [Review a lost opportunity](.agents/skills/review-lost-opportunity/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/review-a-lost-opportunity.md)
+**Start here:** [Open the one-page recipe card](recipes/handle-an-objection.md)
 
 ### 📊 Review Your Pipeline
 
 Check whether the stages, close dates and next steps in your CRM are actually supported by the evidence you hold, rather than trusting the pipeline because it is written down.
 
-**Start here:** [Open the workflow](workflows/06-pipeline-evidence-review.md) · [See the fictional pipeline snapshot](examples/fictional-pipeline-snapshot.md) · [See the completed review](examples/fictional-pipeline-review.md) · [Use the prompt](templates/pipeline-evidence-review-prompt.md)
+**Start here:** [Open the one-page recipe card](recipes/review-your-pipeline.md)
 
-**Use with AI:** [Pipeline evidence review](.agents/skills/pipeline-evidence-review/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/review-your-pipeline.md)
-
-### 🧹 Keep Your CRM Honest
-
-Audit a CRM export for duplicates, missing fields and stale records, so you can trust it before using it for a total or a report, without touching anything yourself.
-
-**Start here:** [Open the workflow](workflows/08-crm-hygiene-review.md) · [See the fictional CRM export](examples/fictional-crm-export.md) · [See the completed review](examples/fictional-crm-hygiene-review.md) · [Use the prompt](templates/crm-hygiene-review-prompt.md)
-
-**Use with AI:** [CRM hygiene review](.agents/skills/crm-hygiene-review/SKILL.md)
-
-**Just the one page:** [Recipe card](recipes/keep-your-crm-honest.md)
-
-### 📋 Get a Weekly View Without Building a Dashboard
-
-Pull pipeline, meetings, outreach and new signals into one honest weekly report, composing what other workflows already found rather than redoing the analysis, and marking anything missing instead of guessing it.
-
-**Start here:** [Open the workflow](workflows/10-weekly-operating-review.md) · [See what was available](examples/fictional-weekly-operating-review-input.md) · [See the completed report](examples/fictional-weekly-operating-review-output.md) · [Use the prompt](templates/weekly-operating-review-prompt.md)
-
-**Just the one page:** [Recipe card](recipes/get-a-weekly-view.md)
-
-### 📈 Review an Outbound Campaign
-
-Read what an outbound campaign's actual numbers support once it has run its course, rather than trusting the impression a good-looking reply rate leaves behind.
-
-**Start here:** [Open the workflow](workflows/14-outbound-campaign-learning-review.md) · [See the fictional campaign data](examples/cedarwell-campaign-review-input.md) · [See the completed review](examples/cedarwell-campaign-review-output.md) · [Use the prompt](templates/outbound-campaign-learning-review-prompt.md)
-
-**Just the one page:** [Recipe card](recipes/review-an-outbound-campaign.md)
+Looking for chasing, fit checking, champion support, handover, CRM hygiene, weekly reporting or another job? [Browse all sixteen recipe cards](recipes/README.md).
 
 ## 🧭 How I Approach It
 
