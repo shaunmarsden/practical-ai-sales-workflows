@@ -23,8 +23,10 @@ Every `SKILL.md` in this repository, checked at the time of writing:
 | --- | --- | --- |
 | [identify-buyer-indecision](../.agents/skills/identify-buyer-indecision/SKILL.md) | 34 | Output contract, template, checklist, fictional example |
 | [fit-and-limitations-review](../.agents/skills/fit-and-limitations-review/SKILL.md) | 49 | Fictional example |
-| [champion-enablement](../.agents/skills/champion-enablement/SKILL.md) | 51 | Fictional example |
+| [champion-enablement](../.agents/skills/champion-enablement/SKILL.md) | 53 | Output contract, template, checklist, fictional example |
+| [crm-hygiene-review](../.agents/skills/crm-hygiene-review/SKILL.md) | 55 | Fictional example and evaluation, linked from the wider repository rather than duplicated locally |
 | [review-lost-opportunity](../.agents/skills/review-lost-opportunity/SKILL.md) | 62 | Fictional example |
+| [pipeline-evidence-review](../.agents/skills/pipeline-evidence-review/SKILL.md) | 62 | Fictional example and evaluation, linked from the wider repository rather than duplicated locally |
 | [objection-response](../.agents/skills/objection-response/SKILL.md) | 64 | Fictional example |
 | [workflow-router](../.agents/skills/workflow-router/SKILL.md) | 71 | None; the routing table itself is the core instruction |
 | [outbound-prospecting](../.agents/skills/outbound-prospecting/SKILL.md) | 73 | Fictional example |
