@@ -201,6 +201,9 @@ If the user wants the short version of a job rather than the full workflow, poin
 ### Chase Planning
 
 - [Plan Chase Sequence](.agents/skills/plan-chase-sequence/SKILL.md)
+- [Hartwell chase scenario](examples/hartwell-chase-input.md)
+- [Hartwell chase decision](examples/hartwell-chase-output.md)
+- [Evaluation](evaluations/hartwell-chase-review.md)
 
 ### Objection Handling
 
