@@ -13,3 +13,7 @@ One job, one page. Everything you need is here; nothing else in the repository i
 | **Then** | Decide yourself which use cases to build a case around, which to disqualify, and which need more evidence before either |
 
 Want the fuller method or how to classify a mixed case honestly? Open the [workflow](../workflows/13-fit-and-limitations-review.md) itself.
+
+---
+
+**Tried this recipe?** [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.

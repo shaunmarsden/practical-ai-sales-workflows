@@ -1,0 +1,84 @@
+title: "[Feedback] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying the repository. Blunt feedback is more useful than compliments.
+
+        Please do not include customer, employer or confidential information.
+  - type: dropdown
+    id: workflow
+    attributes:
+      label: Which sales job did you try?
+      options:
+        - Find the Next Prospect
+        - Prepare for a Sales Call
+        - Follow Up After a Sales Call
+        - Check Whether It Actually Fits
+        - Build a Business Case
+        - Brief Your Champion
+        - Chase a Quiet Prospect
+        - Handle an Objection
+        - Spot a Real Objection Pattern
+        - Move a Stalled Decision
+        - Hand Over an Opportunity
+        - Review a Lost Opportunity
+        - Review Your Pipeline
+        - Keep Your CRM Honest
+        - Get a Weekly View Without Building a Dashboard
+        - Review an Outbound Campaign
+        - Not sure
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: starting-point
+    attributes:
+      label: Could you find where to start?
+      options:
+        - "Yes"
+        - Sort of
+        - "No"
+    validations:
+      required: true
+  - type: dropdown
+    id: usefulness
+    attributes:
+      label: Was the result useful?
+      options:
+        - "1: Not useful"
+        - "2"
+        - "3"
+        - "4"
+        - "5: Very useful"
+    validations:
+      required: true
+  - type: textarea
+    id: stuck
+    attributes:
+      label: Where did you get stuck?
+      description: Tell me what was confusing, slow or harder than it needed to be.
+  - type: textarea
+    id: change
+    attributes:
+      label: What is the one thing you would change?
+      description: If I only fixed one thing, what should it be?
+    validations:
+      required: true
+  - type: dropdown
+    id: experience
+    attributes:
+      label: How experienced are you with AI?
+      options:
+        - New to it
+        - Use it occasionally
+        - Use it regularly
+        - Advanced
+  - type: checkboxes
+    id: safe-information
+    attributes:
+      label: Safe information only
+      options:
+        - label: I have not included customer, employer or confidential information.
+          required: true

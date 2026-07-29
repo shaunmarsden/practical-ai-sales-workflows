@@ -13,3 +13,7 @@ One job, one page. Everything you need is here; nothing else in the repository i
 | **Then** | Decide whether and when to re-approach yourself; do not let this become a reason to chase someone who has clearly said no |
 
 Want the fuller method or how to classify the type of loss? Open the [workflow](../workflows/04-lost-opportunity-review.md) itself.
+
+---
+
+**Tried this recipe?** [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.

@@ -13,3 +13,7 @@ One job, one page. Everything you need is here; nothing else in the repository i
 | **Then** | Confirm every commercial figure and the risk section are accurate, then send it and update the CRM yourself; sending stays under explicit human approval |
 
 Want the fuller method, the evidence classification rules, or a second worked test with a different commercial shape? Open the [skill](../.agents/skills/build-business-case/SKILL.md) itself.
+
+---
+
+**Tried this recipe?** [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.
