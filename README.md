@@ -88,7 +88,7 @@ Looking for chasing, fit checking, champion support, handover, CRM hygiene, week
 
 Tried one of the workflows? Tell me what worked, where you got stuck and the one thing you would change. The private form takes about two minutes and does not collect your email address automatically.
 
-**[Give Quick Private Feedback &rarr;](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform?usp=publish-editor)** · **[Share Public Feedback &rarr;](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback)**
+**[Give Quick Private Feedback &rarr;](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform)** · **[Share Public Feedback &rarr;](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback)**
 
 Please do not include customer, employer or confidential information.
 
@@ -135,7 +135,7 @@ The useful evidence now comes from seeing what holds up, what saves time and wha
 
 See [ROADMAP.md](ROADMAP.md) for what has been tested, what is still unproven and the longer list of ideas deliberately parked for later.
 
-Got a use case this does not cover? [Start a discussion](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions). Tried something that did not work for you? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform?usp=publish-editor) or [share it publicly](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). That is genuinely more useful to me than a comment saying it looks good.
+Got a use case this does not cover? [Start a discussion](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions). Tried something that did not work for you? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share it publicly](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). That is genuinely more useful to me than a comment saying it looks good.
 
 <p>
   <a href="https://patreon.com/c/ShaunMarsden"><img alt="Support on Patreon" src="https://img.shields.io/badge/support-Patreon-F96854"></a>

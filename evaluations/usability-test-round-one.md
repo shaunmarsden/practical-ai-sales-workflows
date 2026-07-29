@@ -4,7 +4,7 @@ This is a controlled test of whether a salesperson who did not help build this r
 
 It tests the repository experience, not the participant or their AI knowledge. Three to five participants can reveal usability problems. They cannot prove that the repository works reliably for every salesperson or organisation.
 
-Looking for the quickest route instead? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform?usp=publish-editor) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). This page is for volunteers happy to do a deeper test.
+Looking for the quickest route instead? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). This page is for volunteers happy to do a deeper test.
 
 ## What This Round Tests
 

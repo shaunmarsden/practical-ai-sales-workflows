@@ -132,7 +132,7 @@ EMPLOYER_ALLOWLIST = {
 PUBLIC_FORM_ALLOWLIST = {
     "https://docs.google.com/forms/d/e/"
     "1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/"
-    "viewform?usp=publish-editor",
+    "viewform",
 }
 for f in CONTENT:
     for i, line in enumerate(read(f).splitlines(), 1):
