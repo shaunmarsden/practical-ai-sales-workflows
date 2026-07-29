@@ -13,6 +13,7 @@ Release notes provide the fuller version summaries:
 - Added an evidence-status matrix so visitors can distinguish availability, fictional testing, real use and independent external testing.
 - Replaced the detailed project-history roadmap with a short Now, Next and Later view.
 - Made the interactive demonstration's fictional-data wording clearer and added a direct route to try the follow-up workflow.
+- Added a scored fictional test for Chase a Quiet Prospect, showing why current evidence should override a stale CRM reminder.
 
 ## v1.1.0, 27 July 2026
 
