@@ -21,6 +21,7 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 - [Choose a Sales Problem](#-choose-a-sales-problem)
 - [Give Me Blunt Feedback](#-give-me-blunt-feedback)
 - [How I Approach It](#-how-i-approach-it)
+- [What Has Actually Been Tested](#-what-has-actually-been-tested)
 - [See One Complete Test](#-see-one-complete-test)
 - [Rules That Matter](#-rules-that-matter)
 - [About Me](#about-me)
@@ -104,6 +105,12 @@ The full approach is explained in the [methodology](METHODOLOGY.md), with the pu
 
 New to using AI at work at all? Start with [getting started with AI](guides/getting-started-with-ai.md). The [writing style guide](guides/writing-style-and-formatting.md) is the standing tone and formatting reference behind every draft in this repository.
 
+## 🔬 What Has Actually Been Tested
+
+Available does not mean proven. The [evidence-status matrix](EVIDENCE-STATUS.md) shows which of the sixteen jobs has a workflow, a reusable skill, a fictional test, evidence from real sales work or an independent external user test.
+
+The biggest gap is visible on purpose: no outside participant test has been completed yet.
+
 ## 🧪 See One Complete Test
 
 The Hartwell example follows one fictional sales conversation from the call to the finished follow up.
@@ -133,7 +140,7 @@ This is an independent learning project. Every company, person and conversation 
 
 The useful evidence now comes from seeing what holds up, what saves time and what still needs fixing, rather than adding more material before anyone has used what is already here.
 
-See [ROADMAP.md](ROADMAP.md) for what has been tested, what is still unproven and the longer list of ideas deliberately parked for later.
+See the [roadmap](ROADMAP.md) for current priorities, the [evidence-status matrix](EVIDENCE-STATUS.md) for what has actually been tested and the [changelog](CHANGELOG.md) for completed work.
 
 Got a use case this does not cover? [Start a discussion](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions). Tried something that did not work for you? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share it publicly](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). That is genuinely more useful to me than a comment saying it looks good.
 
