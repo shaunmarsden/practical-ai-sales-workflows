@@ -21,6 +21,7 @@ Every `SKILL.md` in this repository, checked at the time of writing:
 
 | Skill | Lines | Supporting files |
 | --- | --- | --- |
+| [prepare-for-sales-call](../.agents/skills/prepare-for-sales-call/SKILL.md) | 82 | Source pack, template, output and evaluation, linked from the wider repository rather than duplicated locally |
 | [identify-buyer-indecision](../.agents/skills/identify-buyer-indecision/SKILL.md) | 34 | Output contract, template, checklist, fictional example |
 | [fit-and-limitations-review](../.agents/skills/fit-and-limitations-review/SKILL.md) | 49 | Fictional example |
 | [champion-enablement](../.agents/skills/champion-enablement/SKILL.md) | 53 | Output contract, template, checklist, fictional example |
