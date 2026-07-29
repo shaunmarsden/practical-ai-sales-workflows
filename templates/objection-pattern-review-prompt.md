@@ -1,5 +1,7 @@
 # Objection Pattern Review Prompt
 
+Want a reusable instruction instead of copying this prompt each time? Use the [Review Objection Patterns skill](../.agents/skills/review-objection-patterns/SKILL.md).
+
 Copy the prompt below, then paste in your objection log: the exact wording, the stage, who raised it, how it was handled, and the outcome, across as many deals as you have.
 
 ```text

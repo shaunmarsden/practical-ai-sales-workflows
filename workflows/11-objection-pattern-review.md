@@ -23,10 +23,12 @@ flowchart TB
 
 ## 🚀 Start Here
 
+- [Use the reusable Review Objection Patterns skill](../.agents/skills/review-objection-patterns/SKILL.md)
 - [Use the Objection Pattern Review prompt](../templates/objection-pattern-review-prompt.md)
 - [See the fictional objection log](../examples/fictional-objection-pattern-log.md)
 - [See the completed analysis](../examples/fictional-objection-pattern-review.md)
 - [Read the honest review](../evaluations/fictional-objection-pattern-review-eval.md)
+- [See the harder second test](../examples/fictional-objection-pattern-review-two.md) and its [honest review](../evaluations/fictional-objection-pattern-second-eval.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

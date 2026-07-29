@@ -220,9 +220,13 @@ If the user wants the short version of a job rather than the full workflow, poin
 ### Objection Pattern Review
 
 - [Workflow](workflows/11-objection-pattern-review.md)
+- [Review Objection Patterns skill](.agents/skills/review-objection-patterns/SKILL.md)
 - [Fictional objection log](examples/fictional-objection-pattern-log.md)
 - [Fictional objection pattern review](examples/fictional-objection-pattern-review.md)
 - [Evaluation](evaluations/fictional-objection-pattern-review-eval.md)
+- [Second fictional log](examples/fictional-objection-pattern-log-two.md)
+- [Second skill output](examples/fictional-objection-pattern-review-two.md)
+- [Second evaluation](evaluations/fictional-objection-pattern-second-eval.md)
 
 ### Buyer Indecision
 
