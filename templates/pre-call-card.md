@@ -8,13 +8,32 @@
 - **Meeting purpose:**
 - **Good outcome:**
 
+The good outcome is the salesperson's objective, not an agreed customer next step.
+
+## Source Ledger
+
+| Source | Checked | What It Supports |
+| --- | --- | --- |
+| | | |
+
 ## Confirmed Context
 
 -
 -
 -
 
+## Public Background
+
+-
+
+State what the public information does not prove.
+
 ## Assumptions to Test
+
+-
+-
+
+## Unknowns
 
 -
 -
@@ -54,12 +73,7 @@ One natural sentence connecting the reason for the meeting to the contact's cont
 
 >
 
-## Risks and Unknowns
-
--
--
-
-## Sources Checked
+## Human Check Before the Call
 
 -
 -

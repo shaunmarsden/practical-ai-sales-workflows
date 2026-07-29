@@ -14,6 +14,7 @@ Release notes provide the fuller version summaries:
 - Replaced the detailed project-history roadmap with a short Now, Next and Later view.
 - Made the interactive demonstration's fictional-data wording clearer and added a direct route to try the follow-up workflow.
 - Added a scored fictional test for Chase a Quiet Prospect, showing why current evidence should override a stale CRM reminder.
+- Added a reusable pre-call preparation skill, an inspectable fictional source pack and a scored Hartwell comparison.
 
 ## v1.1.0, 27 July 2026
 

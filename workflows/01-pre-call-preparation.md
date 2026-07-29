@@ -24,7 +24,8 @@ flowchart TB
 ## 🚀 Start Here
 
 - [Use the Pre Call Card template](../templates/pre-call-card.md)
-- [See the completed Hartwell example](../examples/hartwell-pre-call.md)
+- [Use the reusable Prepare for a Sales Call skill](../.agents/skills/prepare-for-sales-call/SKILL.md)
+- [See the completed Hartwell skill output](../examples/hartwell-pre-call-skill-output.md) and its [honest review](../evaluations/hartwell-pre-call-review.md)
 - Once your card is done, [practise pushback before the call](../templates/pre-call-objection-roleplay-prompt.md), optional, [see what it produces](../examples/hartwell-pre-call-roleplay.md)
 
 <details>
