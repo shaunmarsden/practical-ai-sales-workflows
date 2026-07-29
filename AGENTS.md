@@ -158,7 +158,11 @@ If the user wants the short version of a job rather than the full workflow, poin
 ### Pre Call Preparation
 
 - [Workflow](workflows/01-pre-call-preparation.md)
-- [Hartwell example](examples/hartwell-pre-call.md)
+- [Prepare for a Sales Call skill](.agents/skills/prepare-for-sales-call/SKILL.md)
+- [Hartwell source pack](examples/hartwell-pre-call-input.md)
+- [Original Hartwell example](examples/hartwell-pre-call.md)
+- [Hartwell skill output](examples/hartwell-pre-call-skill-output.md)
+- [Evaluation](evaluations/hartwell-pre-call-review.md)
 - [Template](templates/pre-call-card.md)
 - [Objection roleplay prompt](templates/pre-call-objection-roleplay-prompt.md), optional practice once the card is done
 - [Hartwell roleplay example](examples/hartwell-pre-call-roleplay.md)
