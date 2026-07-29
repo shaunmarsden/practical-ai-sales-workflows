@@ -15,6 +15,7 @@ Release notes provide the fuller version summaries:
 - Made the interactive demonstration's fictional-data wording clearer and added a direct route to try the follow-up workflow.
 - Added a scored fictional test for Chase a Quiet Prospect, showing why current evidence should override a stale CRM reminder.
 - Added a reusable pre-call preparation skill, an inspectable fictional source pack and a scored Hartwell comparison.
+- Added a reusable objection pattern skill and a second scored test covering duplicate deals, hidden shared drivers and misleading repeated wording.
 
 ## v1.1.0, 27 July 2026
 
