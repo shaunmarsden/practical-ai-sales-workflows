@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Watch a Sales AI Skill Work: Practical AI Sales Workflows</title>
-<meta name="description" content="See extract-post-call-evidence turn a real fictional call transcript into evidence-labelled output, live, with every line traced back to its source.">
+<meta name="description" content="See extract-post-call-evidence turn a full fictional call transcript into evidence-labelled output, live, with every line traced back to its source.">
 <style>
   :root {
     --bg: #faf9f7;
@@ -186,6 +186,26 @@
   }
   footer a { font-weight: 600; }
   footer ul { padding-left: 20px; }
+  .next-step {
+    max-width: 980px;
+    margin: 28px auto 0;
+    padding: 0 24px;
+    text-align: center;
+  }
+  .try-button {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 13px 22px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .next-step p {
+    color: var(--ink-soft);
+    margin: 10px auto 0;
+    max-width: 560px;
+  }
   .cursor {
     display: inline-block;
     width: 8px;
@@ -202,7 +222,7 @@
 <header class="top">
   <div class="kicker">Practical AI Sales Workflows</div>
   <h1>Watch a Sales AI Skill Work</h1>
-  <p>This is the real <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/extract-post-call-evidence/SKILL.md">extract-post-call-evidence</a> skill, run against the actual fictional Hartwell call transcript from this repository. Press play and watch it separate confirmed facts from estimates and unknowns, then use only what's confirmed to draft the follow-up email. Every line on the right is traceable back to a line on the left, nothing here was invented for the demo.</p>
+  <p>This is the real <a href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/extract-post-call-evidence/SKILL.md">extract-post-call-evidence</a> skill, run against the full fictional Hartwell call transcript from this repository. Press play and watch it separate confirmed facts from estimates and unknowns, then use only what's confirmed to draft the follow-up email. Every line on the right is traceable back to a line on the left, nothing here was invented for the demo.</p>
   <a class="backlink" href="https://github.com/shaunmarsden/practical-ai-sales-workflows">&larr; Back to the repository</a>
 </header>
 
@@ -228,6 +248,11 @@
     <h2>Follow-up email draft, built only from what's confirmed above</h2>
     <div id="email-body"></div>
   </div>
+</div>
+
+<div class="next-step">
+  <a class="try-button" href="https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/recipes/follow-up-after-a-sales-call.md">Try the Follow-up Workflow Yourself</a>
+  <p>Open the one-page recipe card, bring your own safe notes or transcript and keep the final decision with a person.</p>
 </div>
 
 <footer>
