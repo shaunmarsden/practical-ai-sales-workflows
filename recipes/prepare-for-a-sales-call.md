@@ -13,3 +13,7 @@ One job, one page. Everything you need is here; nothing else in the repository i
 | **Then** | Correct or remove anything wrong, decide what is actually appropriate to use, and optionally practise pushback with the roleplay prompt before the call |
 
 Want the fuller method or the full information checklist? Open the [workflow](../workflows/01-pre-call-preparation.md) itself.
+
+---
+
+**Tried this recipe?** [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform?usp=publish-editor) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.

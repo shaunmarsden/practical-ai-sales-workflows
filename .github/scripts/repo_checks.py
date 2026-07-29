@@ -112,8 +112,8 @@ for f in MD:
 # 4. Employer name and private links do not belong in the public repo
 EMPLOYER = re.compile(r"\b(aicore|theaicore|the management academy)\b", re.IGNORECASE)
 PRIVATE_LINK = re.compile(
-    r"https?://[^\s)]*(docs\.google\.com|hubspot\.com|\.sharepoint\.com|"
-    r"atlassian\.net|notion\.so)",
+    r"https?://[^\s)]*(?:docs\.google\.com|hubspot\.com|\.sharepoint\.com|"
+    r"atlassian\.net|notion\.so)[^\s)]*",
     re.IGNORECASE,
 )
 # The employer name is otherwise blocked everywhere in this repository (see
@@ -129,13 +129,20 @@ EMPLOYER_ALLOWLIST = {
                   "This project is where I keep track of what I've "
                   "actually found useful, and share it."),
 }
+PUBLIC_FORM_ALLOWLIST = {
+    "https://docs.google.com/forms/d/e/"
+    "1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/"
+    "viewform?usp=publish-editor",
+}
 for f in CONTENT:
     for i, line in enumerate(read(f).splitlines(), 1):
         stripped = line.strip()
         if EMPLOYER.search(line) and (f, stripped) not in EMPLOYER_ALLOWLIST:
             fail("employer-reference", f"{f}:{i}", line.strip()[:120])
-        if PRIVATE_LINK.search(line):
-            fail("private-link", f"{f}:{i}", line.strip()[:120])
+        for match in PRIVATE_LINK.finditer(line):
+            private_url = match.group().rstrip(".,;")
+            if private_url not in PUBLIC_FORM_ALLOWLIST:
+                fail("private-link", f"{f}:{i}", line.strip()[:120])
 
 
 # 5. Secret-like values

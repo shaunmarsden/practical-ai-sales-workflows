@@ -13,3 +13,7 @@ One job, one page. Everything you need is here; nothing else in the repository i
 | **Then** | Talk it through with the receiving person, confirm they have accepted ownership of the next action, and correct any gaps together before it is treated as complete |
 
 Want the fuller method or what a complete handover should actually contain? Open the [workflow](../workflows/03-opportunity-handover.md) itself.
+
+---
+
+**Tried this recipe?** [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform?usp=publish-editor) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.

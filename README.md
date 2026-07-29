@@ -19,6 +19,7 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 - [Three Ways to Start](#-three-ways-to-start)
 - [Choose a Sales Problem](#-choose-a-sales-problem)
+- [Give Me Blunt Feedback](#-give-me-blunt-feedback)
 - [How I Approach It](#-how-i-approach-it)
 - [See One Complete Test](#-see-one-complete-test)
 - [Rules That Matter](#-rules-that-matter)
@@ -83,6 +84,18 @@ Check whether the stages, close dates and next steps in your CRM are actually su
 
 Looking for chasing, fit checking, champion support, handover, CRM hygiene, weekly reporting or another job? [Browse all sixteen recipe cards](recipes/README.md).
 
+## 💬 Give Me Blunt Feedback
+
+Tried one of the workflows? Tell me what worked, where you got stuck and the one thing you would change. The private form takes about two minutes and does not collect your email address automatically.
+
+**[Give Quick Private Feedback &rarr;](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform?usp=publish-editor)** · **[Share Public Feedback &rarr;](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback)**
+
+Please do not include customer, employer or confidential information.
+
+Want to go deeper? The [structured usability test](evaluations/usability-test-round-one.md) is there for people happy to spend longer working through one task.
+
+**You Said, I Changed:** feedback should lead somewhere visible. I will keep a public [visitor feedback log](evaluations/visitor-feedback-log.md) showing what people found, what changed and anything I chose not to change.
+
 ## 🧭 How I Approach It
 
 ![How I approach it: start with the problem using safe, relevant information, let AI prepare by organising, drafting and spotting gaps, then keep a person in control who checks, decides, acts and improves.](assets/diagrams/how-i-approach-it.svg)
@@ -122,7 +135,7 @@ The useful evidence now comes from seeing what holds up, what saves time and wha
 
 See [ROADMAP.md](ROADMAP.md) for what has been tested, what is still unproven and the longer list of ideas deliberately parked for later.
 
-Got a use case this does not cover, or feedback on something that did not work for you? [Start a discussion](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) rather than keeping it to yourself. That is genuinely more useful to me than a comment saying it looks good.
+Got a use case this does not cover? [Start a discussion](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions). Tried something that did not work for you? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform?usp=publish-editor) or [share it publicly](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). That is genuinely more useful to me than a comment saying it looks good.
 
 <p>
   <a href="https://patreon.com/c/ShaunMarsden"><img alt="Support on Patreon" src="https://img.shields.io/badge/support-Patreon-F96854"></a>
