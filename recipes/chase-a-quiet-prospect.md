@@ -13,3 +13,7 @@ One job, one page. Everything you need is here; nothing else in the repository i
 | **Then** | Send only once you agree with the decision made, and check the CRM for the deal's actual current state before sending anything, not just the notes or last email |
 
 Want the fuller method, the sequence shapes, or the guardrails for when not to chase at all? Open the [skill](../.agents/skills/plan-chase-sequence/SKILL.md) itself.
+
+---
+
+**Tried this recipe?** [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.
