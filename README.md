@@ -107,9 +107,9 @@ New to using AI at work at all? Start with [getting started with AI](guides/gett
 
 ## 🔬 What Has Actually Been Tested
 
-Available does not mean proven. The [evidence-status matrix](EVIDENCE-STATUS.md) shows which of the sixteen jobs has a workflow, a reusable skill, a fictional test, evidence from real sales work or an independent external user test.
+Available does not mean proven. The [evidence-status matrix](EVIDENCE-STATUS.md) shows which of the sixteen jobs has a workflow, a reusable skill, a fictional test, evidence from real sales work or independent use.
 
-The biggest gap is visible on purpose: no outside participant test has been completed yet.
+The biggest gap is visible on purpose: nobody has used the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [Discussions](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) yet. A single honest line from someone who tried one workflow, however short, counts.
 
 ## 🧪 See One Complete Test
 

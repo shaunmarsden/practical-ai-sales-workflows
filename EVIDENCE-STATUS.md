@@ -37,6 +37,6 @@ For Build a Business Case and Chase a Quiet Prospect, the skill is the main reus
 
 ## What Is Missing
 
-The most important gap is independent use. The [visitor feedback log](evaluations/visitor-feedback-log.md) is empty because no outside participant test has been completed yet.
+The most important gap is independent use. The [visitor feedback log](evaluations/visitor-feedback-log.md) is empty because nobody has used the feedback form or Discussions yet, not because a formal test has to happen first. A single honest line from someone who tried one workflow, however short, is real evidence.
 
 If you try one workflow, [give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). Please do not include customer, employer or confidential information.
