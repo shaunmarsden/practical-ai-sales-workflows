@@ -7,6 +7,8 @@ description: Draft the fixed-template follow up email sent after a discovery cal
 
 > Landed here directly rather than clicking through from a guide? This file is the instruction sheet an AI assistant follows, not written for a first read start to finish. [What is a sales AI skill?](../../../guides/what-is-a-sales-ai-skill.md) has the plain-English version.
 
+You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then follow it with your actual inputs.
+
 Send one consistent template, personalised with real detail from the call. The template exists so the only decision left is what to personalise, not how to restructure the email.
 
 ## Gather the Inputs

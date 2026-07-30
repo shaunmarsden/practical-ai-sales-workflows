@@ -30,6 +30,8 @@ A good skill says what the AI must not invent, decide or do without approval.
 
 ## Try the Skills Library
 
+You do not need to set anything up to try one of these. Open any skill below, copy the whole file, and paste it as your first message in whatever AI tool you already use. [Selective Installation](selective-installation.md) covers loading a skill properly, into a Project or Custom GPT, once you know you want to use it regularly rather than once.
+
 Most skills here use the same fictional Hartwell conversation, so none of them contain real customer or employer information. Outbound prospecting uses a separate fictional scenario, since outbound happens before any call exists.
 
 - [Extract Post Call Evidence](../.agents/skills/extract-post-call-evidence/SKILL.md) — separates facts from assumptions after a call and suggests a next step
