@@ -2,6 +2,8 @@
 
 A rubric is just a fixed checklist for scoring something the same way every time, instead of judging it by gut feel. "That email looks good" is not the same thing as "that email is accurate, safe, and ready to send." This rubric scores AI-generated sales output against the same ten checks every time, so two different results can be compared fairly, and a weak spot gets caught before it reaches a customer rather than after.
 
+New to this and not sure what scoring an output actually looks like? [See it scored against a real output](hartwell-post-call-review.md) first: a real AI-generated follow-up email, scored area by area, with what worked, what needed checking, and the exact prompt change that came out of it.
+
 Score each area from 1 to 5.
 
 | Score | Meaning |
