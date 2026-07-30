@@ -4,6 +4,8 @@ A rubric is just a fixed checklist for scoring something the same way every time
 
 New to this and not sure what scoring an output actually looks like? [See it scored against a real output](hartwell-post-call-review.md) first: a real AI-generated follow-up email, scored area by area, with what worked, what needed checking, and the exact prompt change that came out of it.
 
+You do not have to score this by hand. Paste this rubric into your own AI tool, along with the output you want checked, and ask it to fill in a score and a one-line reason for each row below. Read what it comes back with yourself rather than trusting it outright, especially against the automatic failures; an AI scoring its own kind of output is not a substitute for your own judgement.
+
 Score each area from 1 to 5.
 
 | Score | Meaning |
