@@ -4,11 +4,11 @@ This page is deliberately short. It shows the current priority, what evidence co
 
 ## Now
 
-- **Get independent evidence from salespeople who did not build the repository.** Ask people to try one workflow without coaching, then record where they got stuck and whether the finished output justified the effort.
+- **Keep the feedback form and Discussions link visible wherever someone might actually be using a workflow.** That is the realistic way independent evidence arrives for a project like this, not a recruited, moderated session; log whatever comes in, even a single line.
 - **Keep testing against real sales work as it naturally comes up.** Log useful findings without publishing customer, employer or confidential information.
 - **Keep the proof visible.** Update the [evidence-status matrix](EVIDENCE-STATUS.md) and [visitor feedback log](evaluations/visitor-feedback-log.md) when the evidence changes.
 
-The current gaps are simple: no independent external user test has been completed, and three jobs still lack a logged real-work test.
+The current gaps are simple: nobody has used the feedback form or Discussions yet, and three jobs still lack a logged real-work test.
 
 ## Next, Based on User Evidence
 
