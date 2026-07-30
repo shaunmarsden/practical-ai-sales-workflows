@@ -7,6 +7,8 @@ description: Audit a CRM export for duplicates, missing fields, records that are
 
 > Landed here directly rather than clicking through from a guide? This file is the instruction sheet an AI assistant follows, not written for a first read start to finish. [What is a sales AI skill?](../../../guides/what-is-a-sales-ai-skill.md) has the plain-English version.
 
+You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then follow it with your actual inputs.
+
 This audits the structural problems that quietly make a CRM export unreliable, duplicates, missing fields, stale records, and dates that do not fit the stage, without touching anything or judging why a specific deal has stalled.
 
 ## Gather the Inputs

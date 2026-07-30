@@ -7,6 +7,8 @@ description: Decide what to send, or whether to send anything, when a prospect h
 
 > Landed here directly rather than clicking through from a guide? This file is the instruction sheet an AI assistant follows, not written for a first read start to finish. [What is a sales AI skill?](../../../guides/what-is-a-sales-ai-skill.md) has the plain-English version.
 
+You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then follow it with your actual inputs.
+
 A chase is a decision, not a template applied on a timer. Before drafting anything, work out what actually happened: has the deal gone quiet because of genuine disinterest, a change of circumstance, a busy period, or a stakeholder who was never going to reply? Each of those calls for something different, and some of them call for not chasing at all.
 
 ## Gather the Inputs
