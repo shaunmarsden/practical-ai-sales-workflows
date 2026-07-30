@@ -7,6 +7,8 @@ description: Help an internal champion carry a well-evidenced case to other stak
 
 > Landed here directly rather than clicking through from a guide? This file is the instruction sheet an AI assistant follows, not written for a first read start to finish. [What is a sales AI skill?](../../../guides/what-is-a-sales-ai-skill.md) has the plain-English version.
 
+You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then follow it with your actual inputs.
+
 A champion carrying a case to other stakeholders is doing work the seller cannot do directly: standing in a room, or sending an internal email, on the seller's behalf. This skill prepares what the champion needs to do that well. It does not replace the champion, contact anyone else, or assume what a stakeholder cares about just because of their job title.
 
 ## Gather the Inputs

@@ -7,6 +7,8 @@ description: Analyse B2B sales call transcripts or notes to extract confirmed fa
 
 > Landed here directly rather than clicking through from a guide? This file is the instruction sheet an AI assistant follows, not written for a first read start to finish. [What is a sales AI skill?](../../../guides/what-is-a-sales-ai-skill.md) has the plain-English version.
 
+You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then follow it with your actual inputs.
+
 Turn a sales transcript or clear notes into a reliable evidence pack for human review. Preserve uncertainty and avoid turning plausible interpretations into facts.
 
 ## Gather the Inputs

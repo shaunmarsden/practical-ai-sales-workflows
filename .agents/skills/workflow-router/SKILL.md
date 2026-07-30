@@ -7,6 +7,8 @@ description: Work out which existing workflow or skill in this repository actual
 
 > Landed here directly rather than clicking through from a guide? This file is the instruction sheet an AI assistant follows, not written for a first read start to finish. [What is a sales AI skill?](../../../guides/what-is-a-sales-ai-skill.md) has the plain-English version.
 
+You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then follow it with your actual inputs.
+
 Someone describing a real sales situation rarely names the workflow they need; they describe the problem. This skill reads that description and hands off to the right existing workflow, without trying to solve the task itself and without inventing a new method the fifteen workflows already here do not need.
 
 ## Gather the Inputs
