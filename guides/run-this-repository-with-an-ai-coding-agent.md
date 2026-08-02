@@ -122,7 +122,3 @@ If you want the agent to improve the public repository, say:
 A branch is a separate copy of the work where a change can be made safely. A pull request is the review page showing exactly what would change. Nothing should be merged into the main version until you have reviewed it and explicitly asked for the merge.
 
 The agent should check the existing files, keep the change focused, validate links and leave private context out of the pull request.
-
-## Acknowledgement
-
-The conversational repository onboarding idea was inspired in part by [Akshat Thakur's GTM Engine](https://github.com/akshathakurr/gtm-engine). No code or wording was copied, and the projects are not affiliated.
