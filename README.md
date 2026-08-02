@@ -134,6 +134,8 @@ I am Shaun Marsden, a solutions consultant at AiCore. This project is where I ke
 
 This is an independent learning project. Every company, person and conversation in the examples is fictional.
 
+Outside sales specifically, I also build [book-to-skill](https://github.com/shaunmarsden/book-to-skill), a free tool that turns a book you already own into a Claude skill, structured chapter by chapter instead of loaded all at once.
+
 ## What I Want to Try Next
 
 **Right now:** keep testing these workflows against real sales work as it comes up, and get honest feedback from salespeople trying the repository for themselves.
