@@ -16,7 +16,7 @@ These are not automatic delivery commitments. They move only when real use shows
 
 - Fix repeated navigation or wording problems that stop people finding and using a workflow.
 - Improve a workflow when a real or external test finds a specific failure.
-- Add a dedicated skill to one of the five prompt-only jobs if repeated use shows that the method deserves a reusable instruction.
+- Add a dedicated skill to a job that still lacks one, currently [Hand Over an Opportunity](recipes/hand-over-an-opportunity.md), [Get a Weekly View Without Building a Dashboard](recipes/get-a-weekly-view.md) and [Review an Outbound Campaign](recipes/review-an-outbound-campaign.md), if repeated use shows that the method deserves a reusable instruction.
 - Revisit the starting routes and curated bundles if people consistently choose a different route.
 - Package selected skills for download only if people actually need a maintained bundle rather than direct repository access.
 
