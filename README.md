@@ -136,6 +136,8 @@ This is an independent learning project. Every company, person and conversation 
 
 Outside sales specifically, I also build a family of similar free tools for other jobs; see [sibling-projects](https://github.com/shaunmarsden/sibling-projects) for the full list, including [book-to-skill](https://github.com/shaunmarsden/book-to-skill).
 
+Still inside sales, but at team rather than individual level: [AI for Commercial Teams](https://github.com/shaunmarsden/ai-for-commercial-teams), [Sales Conversation Gym](https://github.com/shaunmarsden/sales-conversation-gym), [Sales Proof Bench](https://github.com/shaunmarsden/sales-proof-bench), and [Sales Value Workshop](https://github.com/shaunmarsden/sales-value-workshop) generalise some of the same patterns here for commercial teams more broadly.
+
 ## What I Want to Try Next
 
 **Right now:** keep testing these workflows against real sales work as it comes up, and get honest feedback from salespeople trying the repository for themselves.
