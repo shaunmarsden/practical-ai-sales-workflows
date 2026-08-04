@@ -24,6 +24,5 @@ Conflicting feedback will stay visible rather than being averaged into a neat an
 
 | Date | What Someone Tried | What They Found | What Changed | Evidence |
 | --- | --- | --- | --- | --- |
-| | | | | |
 
 Want to add the first finding? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback).
