@@ -14,6 +14,8 @@ All scoring uses the same [Sales AI Output Rubric](sales-ai-output-rubric.md): t
 
 A single scored run tells you a workflow can produce a good result. It does not tell you a workflow reliably produces a good result. Treat single-run scores as "this worked once, under these conditions," not as a guarantee.
 
+An orchestration example is still a single run, but the review must also check whether the agent chose the right workflow, used the minimum necessary sources, preserved conflicts and kept every external action approval-gated. See the [fictional sales-copilot review](fictional-sales-copilot-review.md) for that shape.
+
 ## Changing a Skill's Instructions
 
 When a test finds a real failure and the fix is an actual change to a skill's instructions, use the [instruction change and regression history template](../templates/instruction-change-history-template.md) rather than just editing the skill and moving on. It records the original wording, the failure, the exact change, and the rerun result, and includes a standing regression checklist so a fix for one failure does not quietly reopen a guardrail that already worked.
