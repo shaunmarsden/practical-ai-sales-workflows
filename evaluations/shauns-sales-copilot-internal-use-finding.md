@@ -49,7 +49,9 @@ This supports classifying it as an **approval-gated orchestration agent**, not a
 - Customer communication, CRM changes and other writes require exact approval.
 - The agent is allowed to wait, stop or archive rather than default to another chase.
 
-### Hard Controls Adopted After Review
+### Hard Controls Added to the Public Method After Review
+
+These five controls are confirmed present in the public guide, template and fictional test that came out of this review. Shaun indicated that he believed he had also applied equivalent changes to the private agent's own instructions, but that private, saved configuration was not independently verified as part of this review.
 
 - Every named specialist route must be confirmed installed and available before use. A missing route must be reported explicitly, not hidden behind a generic fallback.
 - Written instructions and connected-app permissions must both be checked. Customer-facing, record-changing and difficult-to-reverse actions remain approval-gated even when a tool could technically perform them.
