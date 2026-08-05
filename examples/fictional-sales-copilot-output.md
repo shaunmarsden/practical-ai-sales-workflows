@@ -51,12 +51,19 @@ The meeting on 15th November is the next fixed commitment. Maya has already set 
 - CRM says Proposal Sent and records a close date of 18th November.
 - Email and activity history show that no proposal was sent and no decision is expected before the 2nd December budget review.
 
+## Route Availability Check
+
+- **Prepare for a Sales Call:** available and current.
+- **Select an Approved Proof Point:** available and current.
+- **Draft a Follow-Up Email:** is not available right now. It was not needed for this action and no generic substitute was used.
+- **Review Pipeline Evidence:** available and current.
+
 ## Selected Workflows
 
 1. **Prepare for a Sales Call** for the meeting structure and questions.
 2. **Select an Approved Proof Point** for the one-page internal example.
 
-A follow-up email workflow is not needed yet. Pipeline evidence review is used only to frame proposed corrections, not to change the record.
+Pipeline evidence review is used only to frame proposed corrections, not to change the record.
 
 ## Prepared Meeting Brief
 
@@ -90,6 +97,10 @@ Use the Bramfield weekly operations reporting example:
 
 > Based on what we have covered, who should join the next conversation, and should we agree that meeting now or wait until the budget review has happened?
 
+## Permission and Write Check
+
+The connected systems may technically support writes, but that does not change the approval boundary. No in-system email draft, CRM update, task, stage move, calendar change, message action or document edit was attempted. Each would require Alex to name and approve the exact action.
+
 ## Proposed CRM Review
 
 No changes have been made.
@@ -111,7 +122,7 @@ No changes have been made.
 - The old email draft was not used.
 - No proposal was created or sent.
 - No CRM value was changed.
-- No budget, authority, approval or qualification was invented.
+- No budget, authority, timeline, procurement, approval or qualification was invented. The opportunity remains a promising fit, subject to verification.
 - No outcome from Bramfield was presented as Alderwick's likely result.
 
 ## Follow-On Action

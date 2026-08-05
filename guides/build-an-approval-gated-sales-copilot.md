@@ -47,6 +47,14 @@ flowchart TD
 
 A connector makes retrieval faster. It does not make the connected record true. Calendar, meeting notes, email and CRM can disagree, so the copilot must show the conflict rather than silently choosing the convenient version.
 
+## Five Hard Controls
+
+1. **Verify every named route.** Before handing work to a specialist workflow, confirm that the route is installed, available and current. If it is not, say "[route name] is not available right now" rather than hiding the failure behind a generic answer.
+2. **Check real permissions, not only written rules.** A sentence saying "ask before sending" does not remove a write permission granted to a connected app. Treat every customer-facing, record-changing or difficult-to-reverse action as approval-gated even when the tool could technically perform it.
+3. **Keep qualification provisional.** Do not call an opportunity qualified, eligible, approved or ready while budget, authority, timeline, procurement or another material condition is open. Use "promising fit", "current evidence supports" or "subject to verification" instead.
+4. **Use the source hierarchy under disagreement.** Fixed commitments come first, then approved notes or transcripts, current correspondence, CRM fields, internal documents and finally public research. State the disagreement rather than silently picking the first source checked.
+5. **Ask for the exact write.** Sending, creating an in-system draft, changing a CRM record, creating a task, moving a stage, changing a calendar event, changing a message or editing a document all require an explicit instruction naming that exact action.
+
 ## Start With Five Clear Modes
 
 A useful copilot does not need dozens of commands. Five cover most of the coordination work:
@@ -102,7 +110,9 @@ Examples:
 
 Do not build a new router if a suitable one already exists. This repository's own [Workflow Router](workflow-router.md) already reads a plain-English description and hands off to the workflow that fits; a copilot working inside this repository should use it rather than inventing a second, less tested version of the same judgement.
 
-Keep the handoff visible using the same six fields as [Skill Handoff Contracts](skill-handoff-contracts.md): what is confirmed, what is inferred or estimated, what is missing, which source supports each point, what the next workflow is allowed to do with it, and what still requires a person. State which workflow was selected and what it returned in those terms, rather than a looser summary. If the route is missing, renamed or unsuitable, stop and say so instead of improvising a hidden replacement.
+Keep the handoff visible using the same six fields as [Skill Handoff Contracts](skill-handoff-contracts.md): what is confirmed, what is inferred or estimated, what is missing, which source supports each point, what the next workflow is allowed to do with it, and what still requires a person. State which workflow was selected and what it returned in those terms, rather than a looser summary.
+
+Verify that every named route is installed and available before using it, every time, rather than assuming a route that worked before is still current. If the route is missing, renamed or unsuitable, say "[route name] is not available right now" instead of improvising a hidden replacement.
 
 ## Keep Writes Behind Approval
 
@@ -118,7 +128,7 @@ Keep the handoff visible using the same six fields as [Skill Handoff Contracts](
 | Send, book, share, archive or delete | No | No |
 | Make a final commercial or eligibility decision | No | No |
 
-Before any approved write, show the exact record or destination, current value, proposed value and supporting evidence. Never describe an action as completed unless the connected tool confirms it.
+Before any approved write, check the tool's actual permission behaviour, then show the exact record or destination, current value, proposed value and supporting evidence. Stop and ask for approval naming the exact action, even if the connected tool would technically allow it without another prompt. Never describe an action as completed unless the connected tool confirms it.
 
 ## Give It Permission to Stop
 
