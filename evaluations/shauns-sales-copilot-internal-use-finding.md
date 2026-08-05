@@ -49,11 +49,17 @@ This supports classifying it as an **approval-gated orchestration agent**, not a
 - Customer communication, CRM changes and other writes require exact approval.
 - The agent is allowed to wait, stop or archive rather than default to another chase.
 
-### Controls That Need Ongoing Checking
+### Hard Controls Adopted After Review
 
-- Named specialist routes can be renamed, retired or unavailable. Two private route names could not be verified against the currently available specialist list during this review.
-- Written instructions and the agent builder's actual app permissions must match. A prose rule does not remove a permission granted in the interface.
-- Qualification and eligibility language needs a hard stop while material conditions remain unresolved.
+- Every named specialist route must be confirmed installed and available before use. A missing route must be reported explicitly, not hidden behind a generic fallback.
+- Written instructions and connected-app permissions must both be checked. Customer-facing, record-changing and difficult-to-reverse actions remain approval-gated even when a tool could technically perform them.
+- Qualification and eligibility language has a hard stop while budget, authority, timeline, procurement or another material condition remains unresolved.
+- When sources disagree, the agent must use the stated source hierarchy and show the contradiction rather than defaulting to the first source checked.
+- Every external write requires an instruction naming the exact action, including in-system drafts, CRM writes, tasks, stage moves, calendar changes, message actions and document edits.
+
+### Controls That Still Need Ongoing Checking
+
+- Two private route names could not be verified against the currently available specialist list during this review.
 - A formal regression pack is still needed for missing tools, conflicting records, near-starting meetings and unsupported proof claims.
 
 ## Public Method Extracted
