@@ -89,6 +89,8 @@ Availability changes often and varies a great deal by plan tier and company poli
 
 An automation or an agent runs on a trigger, a schedule, a new CRM record, an email arriving, rather than waiting for you to start a conversation, and can chain together several steps on its own before coming back to you. This is the layer where AI moves from something you talk to, to something that does a piece of your job in the background.
 
+Want a concrete, inspectable version of the coordination method? [Build an Approval-Gated Sales Copilot](build-an-approval-gated-sales-copilot.md) includes a reusable template, a difficult fictional source pack, the completed output and an honest score. It is based on builder-reported internal use, not independent validation.
+
 Examples worth trying: a daily brief that reads your calendar and CRM each morning and tells you what actually needs attention, an agent that drafts a first-touch email the moment a new lead lands in your CRM, ready for you to review, or a scheduled weekly check for pipeline records with no next step.
 
 ### When the Trigger and the Action Live in Different Tools

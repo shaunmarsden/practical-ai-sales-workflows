@@ -37,6 +37,8 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 Once a single setup prompt stops being enough on its own, [Get More From Your AI](guides/get-more-from-your-ai.md) covers projects and knowledge bases, turning repeated prompts into skills, and connecting real tools like a CRM or a transcription app.
 
+Already coordinating several workflows and approved connected tools? [Build an Approval-Gated Sales Copilot](guides/build-an-approval-gated-sales-copilot.md) shows the composition method, reusable template, fictional test and evidence boundary.
+
 **Already use Codex or Claude Code?** The repository can guide you, set up private sales context, run a fictional example or route you to the right workflow. [See the coding agent guide](guides/run-this-repository-with-an-ai-coding-agent.md).
 
 ## 🎯 Choose a Sales Problem
