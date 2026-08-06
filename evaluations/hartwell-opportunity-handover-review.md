@@ -2,7 +2,9 @@
 
 This review scores the [finished handover](../examples/hartwell-opportunity-handover.md) against the [Sales AI Output Rubric](sales-ai-output-rubric.md). It covers a harder scenario than the earlier, simpler test: an opportunity where a customer-side contact has changed and a CRM record overstates progress.
 
-**Published result: 46 out of 50. No automatic failure.** This is the score from the one run that was genuinely clean, unprompted, and free of every contamination this skill's testing history turned up. Reaching it took several discarded runs and one failed fix; the full account is in [the instruction change and regression history](opportunity-handover-instruction-change-history.md), which this review links to rather than repeats in full.
+**Published result: 38 out of 50. No automatic failure.** This is the score from the one run that was genuinely clean, unprompted, and free of every contamination this skill's testing history turned up. An earlier version of this review claimed 46, which was both an arithmetic error (the table it printed actually summed to 47) and too generous: a closer read of the same, untouched output against the source pack found three real evidence problems the first pass missed. Reaching a clean run at all took several discarded runs and one failed fix; the full account of that process is in [the instruction change and regression history](opportunity-handover-instruction-change-history.md), which this review links to rather than repeats in full.
+
+The person reference mechanism worked, and this run passed without an automatic failure. It is not, however, a document ready to act on unchecked: it still needs the same normal commercial judgement any AI-drafted handover needs before a person relies on it. The example itself has not been touched; every issue below is quoted from the model's own, unedited output.
 
 ## Runs Excluded Entirely, or Kept as Partial Evidence Only
 
@@ -42,20 +44,20 @@ Full wording and where it was added, `SKILL.md`, `references/output-contract.md`
 
 A fresh model context was given the same eight files as every clean run in this skill's history, the skill and its supporting files, the methodology, the now-cleaned transcript, the post-call output, and the update source, with no reminder about ownership, pronouns, or any other rule.
 
-**Score: 46 out of 50. No automatic failure.**
+**Score: 38 out of 50. No automatic failure.**
 
 | Area | Score | Notes |
 | --- | ---: | --- |
-| Factual accuracy | 5 | Every name, role, quote, table value and timing matches the source documents exactly. |
-| Evidence fidelity | 5 | Conditions are preserved precisely: Priya's willingness is flagged as Alex Morgan's characterisation, not her own words. |
-| Fact separation | 5 | Estimate, inference, unknown and conflict are kept in clearly labelled groups rather than blended into prose. |
-| Missing information | 5 | The unknowns list is genuinely exhaustive: exact dates, legal clearance status, Priya's own confirmation, budget, procurement and rollout timeline. |
+| Factual accuracy | 4 | Names, roles, quotes, CRM fields and timings all check out against the source documents, but Section 11 states "Shaun is no longer on the account," which contradicts the document's own Section 7, where the CRM record it cites still lists Shaun as owner. A document should not disagree with its own evidence. |
+| Evidence fidelity | 3 | The source email says Priya will take over "from here" while Alex Morgan's own move happens "next month," and does not resolve whether the handover to Priya is immediate or waits for that move. The output collapses this into a flat claim, "Alex Morgan remains the known point of contact until the role move," which is a real condition erased, not a nuance preserved. |
+| Fact separation | 3 | The same contact-transition claim, and the "time is limited... narrows the window" framing in the risks section, both present an interpretation as settled fact outside Section 8's labelled Inference group, where this kind of reasoning belongs. |
+| Missing information | 4 | The unknowns list is otherwise thorough, but it never lists whether Priya's takeover is immediate or tied to Alex Morgan's role change as an open question, even though the source material genuinely leaves this unresolved. |
 | Commercial usefulness | 4 | A real, usable diagnosis for Jordan Lee, but dense enough that a first read is slower than it needs to be. |
-| Next step clarity | 5 | Every action carries exactly one named owner and a timing note, even where the timing itself needs re-confirming. |
+| Next step clarity | 4 | Every action carries exactly one named owner, but Section 11's claim that "Jordan Lee currently owns this first check, since Shaun is no longer on the account" treats the handover as already effectively accepted. Nothing in the evidence confirms Jordan Lee has accepted ownership, or that Shaun's involvement has actually ended, only that Shaun is moving to different accounts and the CRM still names Shaun as owner. |
 | Tone | 3 | Reads stilted in a few places, for example the Priya paragraph in Section 4 and the recommended focus in Section 11, where full names are repeated four or five times in three sentences to avoid a pronoun. Correct, but noticeably unnatural. |
 | Privacy | 5 | No unnecessary personal detail; the document explicitly declines to guess Priya's surname or contact details rather than inventing them. |
-| Approval discipline | 5 | Every action is framed as open; nothing is described as done. |
-| Hallucination risk | 5 | No invented urgency, authority or commitment; every inference is explicitly labelled as an inference. |
+| Approval discipline | 5 | Every action is framed as open; nothing external, a message, a CRM write, a booked meeting, is described as done. |
+| Hallucination risk | 3 | "Time is limited" and "narrows the window" state an urgency the evidence does not establish. The role move next month is confirmed; the conclusion that this creates time pressure is the model's own inference, and it is presented as fact rather than labelled as one. |
 
 ## Did the Reference Mechanism Actually Work
 
@@ -64,6 +66,18 @@ Yes, on a full line-by-line check of every one of the thirteen sections. No thir
 ## What This Cost
 
 The fix is not free. Tone dropped to 3 out of 5 specifically because of the mechanism that fixed the automatic failure: repeating a full name several times in a short space reads mechanically rather than naturally. This is recorded as a genuine, if smaller, trade-off, not hidden alongside the win. A softer version worth testing later is allowing a neutral role-referent, "the outgoing owner", "the incoming contact", as a second-best substitute for a pronoun, to recover some fluency without reopening the risk of an invented attribute.
+
+## What Still Needs Human Judgement
+
+Fixing the pronoun problem did not make this handover something a person can act on without reading it carefully. Three issues survived the reference audit because none of them are about pronouns:
+
+**Contact transition, resolved rather than left open.** The source email says Priya will take over "from here" while Alex Morgan's own role change happens "next month." Read together, those two statements leave real ambiguity about whether the handover to Priya starts now or waits for Alex Morgan's move. The output settles this itself: "Until that move, Alex Morgan remains the known point of contact, but this is expected to end." That is the model's own resolution of an ambiguity the evidence does not actually resolve, and it should have been presented as unknown or conflicting instead.
+
+**Internal ownership, assumed rather than confirmed.** Section 11 states, "Jordan Lee currently owns this first check, since Shaun is no longer on the account." The evidence supports that Shaun is moving to different accounts, that Jordan Lee is taking over, and that Jordan Lee needs a handover before speaking to Hartwell Analytics, and it also states, in the document's own Confirmed Evidence section, that the CRM still records Shaun as owner. Nothing confirms Jordan Lee has actually accepted ownership, or that Shaun's involvement has fully ended. The document treats an in-progress handover as already complete.
+
+**Urgency, inferred rather than labelled.** The risks section states, "Time is limited: Alex Morgan is moving roles next month, exact date unknown, which narrows the window." The role move next month is confirmed; the conclusion that this creates a narrowing window of urgency is the model's own inference, dressed as a stated fact rather than tagged as one alongside the document's own Inference group in Section 8.
+
+**Most important human correction:** before accepting this handover, confirm whether Jordan Lee has formally accepted ownership, whether Shaun still owns any transition actions, and whether Priya's takeover is immediate or begins only once Alex Morgan changes roles.
 
 ## Regression Checks
 
