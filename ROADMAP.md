@@ -7,8 +7,9 @@ This page is deliberately short. It shows the current priority, what evidence co
 - **Keep the feedback form and Discussions link visible wherever someone might actually be using a workflow.** That is the realistic way independent evidence arrives for a project like this, not a recruited, moderated session; log whatever comes in, even a single line.
 - **Keep testing against real sales work as it naturally comes up.** Log useful findings without publishing customer, employer or confidential information.
 - **Keep the proof visible.** Update the [evidence-status matrix](EVIDENCE-STATUS.md) and [visitor feedback log](evaluations/visitor-feedback-log.md) when the evidence changes.
+- **Test the sales-copilot composition method before extending it.** The public example is one fictional scored run, while the private version has builder-reported internal use. The next useful evidence is a sanitised run finding or an independent attempt, not more command modes.
 
-The current gaps are simple: nobody has used the feedback form or Discussions yet, and three jobs still lack a logged real-work test.
+The current gaps are simple: nobody has used the feedback form or Discussions yet, three jobs still lack a logged real-work test, and the sales-copilot composition method has no independent test.
 
 ## Next, Based on User Evidence
 
@@ -22,8 +23,7 @@ These are not automatic delivery commitments. They move only when real use shows
 
 ## Later
 
-- Plain-English guides to transcript tools, source-grounded notebooks, agent orchestrators, model choice and token management.
-- A worked orchestration example, but only after the underlying workflows are stable enough for unattended steps.
+- Plain-English guides to transcript tools, source-grounded notebooks, model choice and token management.
 - Better voices for the interactive demonstration if the improvement justifies the cost and complexity.
 - The role-play simulator, evidence workspace, lead-qualification view and instruction-testing interface described in [Future Interfaces](guides/future-interfaces.md). These remain design ideas, not working software.
 - A harder test of the standard skill-package structure on a job that does not already have a fictional example.
