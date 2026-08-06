@@ -23,3 +23,4 @@ This contract defines the strict boundaries for this skill. The AI must adhere t
 - **No claim that a link was opened when only its address was supplied.** Say the source was named, not that its contents were checked.
 - **No sending a message, drafting inside an email system, updating a CRM, changing ownership, or creating tasks or calendar events.** Every one of these stays a proposed next action for a person to carry out.
 - **No external action described as completed without evidence.** A proposed action stays proposed unless something in the supplied evidence actually confirms it happened.
+- **No invented gender, pronouns or other personal characteristics.** If the evidence does not state a person's pronouns, use their name or neutral wording instead of guessing from a name, role or surrounding text. Never carry one stakeholder's stated pronouns over to a different stakeholder.

@@ -47,6 +47,7 @@ Include personal information only where it helps the receiving person carry on t
 - Never treat an internal suggestion, or a possible next step, as something the customer has agreed to.
 - Never resolve a material conflict between sources by silently picking one; show it.
 - Never describe an external action, a message sent, a CRM record changed, ownership transferred, as completed unless the evidence actually confirms it.
+- Never invent a person's gender, pronouns or other personal characteristics. If the evidence does not state someone's pronouns, use their name or neutral wording instead of guessing from a name, role or surrounding text, and never carry one person's stated pronouns over to someone else.
 
 Load [the output contract](references/output-contract.md) for the full list of what this skill must and must not do, including the sending, drafting and system-change restrictions. Use [the output template](templates/output-template.md) to format the finished handover. Run [the human review checklist](checks/checklist.md) before the receiving person accepts ownership.
 
