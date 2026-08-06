@@ -36,6 +36,17 @@ Preserve conditional wording exactly (subject to approval, if agreed) and keep r
 
 Give every action exactly one accountable owner, never a compound name or an external party alone. When the party who must actually act is external, uncertain, or not yet assigned, name the internal person responsible for chasing it, not "the customer" or "unassigned" by itself. A handover that leaves an action without one clear internal owner has not actually handed it over.
 
+## Build a Person Reference Ledger Before Drafting
+
+Before writing any prose, list every named person and record, for each one: their exact name, confirmed role, whether the supplied evidence explicitly states their pronouns, and the permitted way to refer to them in the output. Then apply this rule while drafting:
+
+- Outside a direct quotation, refer to a named person by their exact name or confirmed role, never a third-person personal pronoun.
+- Do not use an honorific (Mr, Mrs, Ms or similar) unless the evidence explicitly supplies one and it is genuinely needed.
+- Do not infer gender, seniority, nationality, location, age, relationship or any other personal attribute from a name, a role, or the surrounding text.
+- A pronoun or personal attribute that appears in one person's source material must never be applied to a different person.
+
+This intentionally accepts a small amount of repeated naming over inventing a personal detail nobody supplied. The ledger itself is a drafting step, not part of the finished handover; do not include it in the output unless a failure could not be resolved (see the audit below).
+
 ## Keep Only What the Next Person Needs
 
 Include personal information only where it helps the receiving person carry on the relationship: confirmed roles, stated preferences, agreed involvement. Leave out anything that does not serve continuity.
@@ -47,9 +58,15 @@ Include personal information only where it helps the receiving person carry on t
 - Never treat an internal suggestion, or a possible next step, as something the customer has agreed to.
 - Never resolve a material conflict between sources by silently picking one; show it.
 - Never describe an external action, a message sent, a CRM record changed, ownership transferred, as completed unless the evidence actually confirms it.
-- Never invent a person's gender, pronouns or other personal characteristics. If the evidence does not state someone's pronouns, use their name or neutral wording instead of guessing from a name, role or surrounding text, and never carry one person's stated pronouns over to someone else.
+- Never invent a person's gender, pronouns or other personal characteristic. Follow the person reference ledger and the reference audit, not a one-off reminder, to catch this.
 
 Load [the output contract](references/output-contract.md) for the full list of what this skill must and must not do, including the sending, drafting and system-change restrictions. Use [the output template](templates/output-template.md) to format the finished handover. Run [the human review checklist](checks/checklist.md) before the receiving person accepts ownership.
+
+## Run a Reference Audit Before Presenting the Handover
+
+Before showing the finished handover, reread the complete draft and check every occurrence of: he, him, his, himself, she, her, hers, herself, they, them, their, theirs, themselves, Mr, Mrs, Ms, and any other personal characteristic (age, nationality, seniority, location, relationship). Outside a direct source quotation, replace every one of these that refers to a named individual with that person's exact name or confirmed role.
+
+Do not include the ledger or this audit's working notes in the finished handover unless a failure could not be resolved. If an unsupported personal reference still remains after the audit, do not present the handover as complete: state plainly that the reference audit failed and name the exact line that still needs a person to fix, rather than publishing it anyway.
 
 ## Stop When the Task Is Unsafe
 

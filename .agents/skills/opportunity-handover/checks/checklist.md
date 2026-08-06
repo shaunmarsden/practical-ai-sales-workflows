@@ -7,7 +7,7 @@
 - [ ] Can someone understand the current position in 30 seconds?
 - [ ] Is every important claim supported by a source, with its date or relative position shown?
 - [ ] Has a CRM stage, or any other source, that reads further along than the evidence supports been flagged rather than accepted at face value?
-- [ ] Does the handover use only names, or neutral wording, for anyone whose pronouns the evidence does not actually state, rather than guessing or borrowing another person's pronouns?
+- [ ] Did the reference audit run: does the handover refer to every named person by their exact name or confirmed role throughout, with no third-person personal pronoun, no invented honorific, and no invented gender, seniority, nationality, location, age or relationship for anyone?
 
 ## Commercial Judgement
 

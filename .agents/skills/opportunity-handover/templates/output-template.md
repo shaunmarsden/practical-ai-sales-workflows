@@ -1,6 +1,6 @@
 # Output Template: Opportunity Handover
 
-> Instructions: the AI must output the handover using this exact Markdown structure. Use "Unknown" where a material point is missing rather than forcing an empty section to look complete.
+> Instructions: the AI must output the handover using this exact Markdown structure. Use "Unknown" where a material point is missing rather than forcing an empty section to look complete. Before filling in this template, run the skill's required person reference ledger and reference audit; refer to every named person throughout this document by their exact name or confirmed role, never a third-person personal pronoun, outside a direct quotation. The ledger and the audit's working notes do not appear in this output unless a failure could not be resolved.
 
 ## 1. 30 Second Brief
 
@@ -16,7 +16,7 @@ Why this handover is happening now, who it is for, and anything specific to what
 
 ## 4. People and Confirmed Roles
 
-For each person: name, confirmed role, involvement, and anything still uncertain. State plainly if a contact or owner has changed since the earlier evidence.
+For each person: name, confirmed role, involvement, and anything still uncertain. State plainly if a contact or owner has changed since the earlier evidence. Refer to each person by their exact name or confirmed role in every sentence that mentions them; do not use "he", "she", "they" or any other third-person personal pronoun for a named individual outside a direct quotation.
 
 ## 5. Customer Expectations and Confirmed Commitments
 
