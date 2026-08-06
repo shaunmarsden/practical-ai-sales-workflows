@@ -9,7 +9,7 @@ This page is deliberately short. It shows the current priority, what evidence co
 - **Keep the proof visible.** Update the [evidence-status matrix](EVIDENCE-STATUS.md) and [visitor feedback log](evaluations/visitor-feedback-log.md) when the evidence changes.
 - **Test the sales-copilot composition method before extending it.** The public example is one fictional scored run, while the private version has builder-reported internal use. The next useful evidence is a sanitised run finding or an independent attempt, not more command modes.
 
-The current gaps are simple: nobody has used the feedback form or Discussions yet, two jobs still lack a logged real-work test, and the sales-copilot composition method has no independent test.
+The current gaps are simple: nobody has used the feedback form or Discussions yet, one job, Review an Outbound Campaign, still lacks a logged real-work test, and the sales-copilot composition method has no independent test. Move a Stalled Decision now has a real-use finding, but it is a boundary case, a real delay correctly classified as *not* indecision, so a positive case involving a genuinely indecisive buyer is still needed. No sales job has yet completed a logged independent external user test.
 
 ## Next, Based on User Evidence
 

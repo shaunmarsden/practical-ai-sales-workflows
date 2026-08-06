@@ -236,6 +236,7 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Calderwood scenario](examples/calderwood-indecision-input.md)
 - [Calderwood response](examples/calderwood-indecision-response.md)
 - [Evaluation](evaluations/calderwood-indecision-review.md)
+- [Real-use boundary finding](evaluations/buyer-indecision-real-use-finding.md)
 
 ### Opportunity Handover
 
