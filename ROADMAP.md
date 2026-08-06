@@ -9,7 +9,7 @@ This page is deliberately short. It shows the current priority, what evidence co
 - **Keep the proof visible.** Update the [evidence-status matrix](EVIDENCE-STATUS.md) and [visitor feedback log](evaluations/visitor-feedback-log.md) when the evidence changes.
 - **Test the sales-copilot composition method before extending it.** The public example is one fictional scored run, while the private version has builder-reported internal use. The next useful evidence is a sanitised run finding or an independent attempt, not more command modes.
 
-The current gaps are simple: nobody has used the feedback form or Discussions yet, three jobs still lack a logged real-work test, and the sales-copilot composition method has no independent test.
+The current gaps are simple: nobody has used the feedback form or Discussions yet, two jobs still lack a logged real-work test, and the sales-copilot composition method has no independent test.
 
 ## Next, Based on User Evidence
 
@@ -17,7 +17,7 @@ These are not automatic delivery commitments. They move only when real use shows
 
 - Fix repeated navigation or wording problems that stop people finding and using a workflow.
 - Improve a workflow when a real or external test finds a specific failure.
-- Add a dedicated skill to a job that still lacks one, currently [Hand Over an Opportunity](recipes/hand-over-an-opportunity.md), [Get a Weekly View Without Building a Dashboard](recipes/get-a-weekly-view.md) and [Review an Outbound Campaign](recipes/review-an-outbound-campaign.md), if repeated use shows that the method deserves a reusable instruction.
+- Add a dedicated skill to a job that still lacks one, currently [Get a Weekly View Without Building a Dashboard](recipes/get-a-weekly-view.md) and [Review an Outbound Campaign](recipes/review-an-outbound-campaign.md), if repeated use shows that the method deserves a reusable instruction.
 - Revisit the starting routes and curated bundles if people consistently choose a different route.
 - Package selected skills for download only if people actually need a maintained bundle rather than direct repository access.
 
