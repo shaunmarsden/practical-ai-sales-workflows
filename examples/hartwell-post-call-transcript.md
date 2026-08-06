@@ -62,18 +62,3 @@
 **Alex:** Sounds good. Thanks, Shaun.
 
 **Shaun:** Thanks, Alex. I will send the outline and some meeting options later today.
-
-## Deliberate Test Points
-
-This fictional transcript includes information the workflow should handle carefully:
-
-- The team has eight account executives.
-- HubSpot is the confirmed CRM.
-- The current administration time is an estimate, not a measured fact.
-- Alex intends to send an anonymised transcript by Thursday afternoon, subject to internal approval.
-- Shaun promised to send a test outline and meeting options today.
-- A meeting next Tuesday morning was discussed but no time was confirmed.
-- Shaun needs to check his diary.
-- Alex needs to check the recording package and whether Priya wants anything included.
-- No automated email sending was agreed.
-- No pricing, purchase or implementation commitment was made.

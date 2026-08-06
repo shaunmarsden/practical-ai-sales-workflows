@@ -23,9 +23,11 @@ flowchart TB
 
 ## 🚀 Start Here
 
-- [Use the Opportunity Handover prompt](../templates/opportunity-handover-prompt.md)
+- [Use the Opportunity Handover prompt](../templates/opportunity-handover-prompt.md) for a one-off handover without installing anything
 - [See the completed Hartwell handover](../examples/hartwell-opportunity-handover.md)
 - [Read the honest review](../evaluations/hartwell-opportunity-handover-review.md)
+- [Use with AI: the opportunity-handover skill](../.agents/skills/opportunity-handover/SKILL.md) for a reusable instruction instead of pasting the prompt each time
+- [Read the real-use finding](../evaluations/opportunity-handover-real-use-finding.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

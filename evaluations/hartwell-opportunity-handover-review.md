@@ -1,44 +1,101 @@
 # Hartwell Opportunity Handover Review
 
-This review scores the [finished handover](../examples/hartwell-opportunity-handover.md) against the [Sales AI Output Rubric](sales-ai-output-rubric.md).
+This review scores the [finished handover](../examples/hartwell-opportunity-handover.md) against the [Sales AI Output Rubric](sales-ai-output-rubric.md). It covers a harder scenario than the earlier, simpler test: an opportunity where a customer-side contact has changed and a CRM record overstates progress.
 
-## Result
+**Published result: 38 out of 50. No automatic failure.** This is the score from the one run that was genuinely clean, unprompted, and free of every contamination this skill's testing history turned up. An earlier version of this review claimed 46, which was both an arithmetic error (the table it printed actually summed to 47) and too generous: a closer read of the same, untouched output against the source pack found three real evidence problems the first pass missed. Reaching a clean run at all took several discarded runs and one failed fix; the full account of that process is in [the instruction change and regression history](opportunity-handover-instruction-change-history.md), which this review links to rather than repeats in full.
 
-**Score: 48 out of 50**
+The person reference mechanism worked, and this run passed without an automatic failure. It is not, however, a document ready to act on unchecked: it still needs the same normal commercial judgement any AI-drafted handover needs before a person relies on it. The example itself has not been touched; every issue below is quoted from the model's own, unedited output.
 
-**Automatic failure: No**
+## Runs Excluded Entirely, or Kept as Partial Evidence Only
+
+Four earlier runs are not the published result, for four different reasons:
+
+- One run scored 47/50 against a source pack and a skill reference file that both stated the correct conclusions outright. Excluded entirely; not evidence of anything.
+- One run scored 46/50 clean of that answer key, but the shared Hartwell call transcript it read still carried its own `Deliberate Test Points` section, so it was not reading raw evidence either. Kept only because it surfaced a real defect: three of six actions had no single accountable owner.
+- One run scored 48/50 after an ownership fix, but it was run with a reminder to pay attention to ownership specifically, and against the same still-contaminated transcript. Kept only as confirmation that the ownership fix worked for that one behaviour.
+- One run scored 41 out of 50 with an automatic failure: fully clean and unprompted, but it invented Alex Morgan's gender four times, once inside its own Confirmed Evidence section, and did the same for Jordan Lee. See below.
+
+Full detail on all four, including the exact wording changed after each, is in [the instruction change and regression history](opportunity-handover-instruction-change-history.md).
+
+## Before Change: The 41/50 Automatic Failure
+
+The first fully clean, unprompted run after the transcript and the skill's own reference file were both freed of answer-key content still failed, on a different axis: it invented gendered pronouns for two of the four named people, neither of whom has a stated gender anywhere in the source material.
+
+**Score: 41 out of 50. Automatic failure: yes.**
 
 | Area | Score | Notes |
 | --- | ---: | --- |
-| Factual accuracy | 5 | Names, roles, systems, numbers and actions match the source material |
-| Evidence fidelity | 5 | Internal approval, conditional timing and the unconfirmed meeting are preserved |
-| Fact separation | 5 | Confirmed evidence, estimates, assumptions and unknowns are kept apart |
-| Missing information | 5 | Buying information, approval, tools and meeting details are shown as unknown |
-| Commercial usefulness | 5 | A receiving salesperson can understand the position and continue the work |
-| Next step clarity | 5 | The immediate action, current owner and required check are clear |
-| Tone | 4 | The language is direct, although some sections could be shortened after real use |
-| Privacy | 5 | The example is fictional and includes only relevant sales information |
-| Approval discipline | 5 | No message, ownership change or CRM update is treated as completed |
-| Hallucination risk | 4 | Relative timing could become misleading if the handover is read without the original call date |
+| Factual accuracy | 2 | Roles, company facts and CRM fields were correct, but Alex Morgan was repeatedly given the pronoun "he", including once inside the Confirmed Evidence section, framed as if it were sourced. |
+| Hallucination risk | 2 | A personal characteristic, Alex Morgan's gender, was hallucinated and repeated four times across the summary, the evidence list and the actions table. |
+| Every other area | 4 or 5 | The document's handling of the actual handover-risk content, the CRM conflict, the unaccepted meeting, the unconfirmed contact change, was otherwise strong. |
 
-## What Worked
+A general guardrail sentence, added to the skill after this run, telling the model plainly not to invent pronouns, did not fix it. A second clean rerun after that sentence still failed the same way. That failed attempt is recorded honestly in the instruction history rather than treated as progress.
 
-- The 30 second brief makes the current position and caution easy to find.
-- The handover does not turn a possible test into a qualified sales opportunity.
-- Priya remains a possible later stakeholder rather than a confirmed decision maker.
-- Conditional approval and timing are carried into the actions and risks.
-- The receiving person gets source links rather than being asked to trust the summary alone.
+## Instruction Change: From a Sentence to a Mechanism
 
-## What Needed Checking
+The fix that actually worked replaced the single sentence with a two-part, checkable process:
 
-- The call date is missing, so today and Thursday afternoon will lose meaning over time.
-- Completion of Shaun's actions cannot be confirmed from the supplied evidence.
-- The recommended next action must be checked against any newer email or CRM activity before use.
+- A required person reference ledger, built before drafting, recording each named person's exact name, confirmed role, whether their pronouns are actually supplied by the evidence, and the permitted way to refer to them.
+- A required reference audit, run before presenting the handover, scanning the complete draft for an explicit list of pronoun and honorific tokens and replacing any that refer to a named person, outside a direct quotation, with that person's name or role.
 
-## What I Changed in the Prompt
+Full wording and where it was added, `SKILL.md`, `references/output-contract.md`, `templates/output-template.md` and `checks/checklist.md`, is recorded in [the instruction change history](opportunity-handover-instruction-change-history.md).
 
-The prompt now asks for a status as well as an owner and timing for each action. It also requires source labels, a handover check and a warning not to claim that links have been opened when only their addresses were supplied.
+## Published Run: Fully Clean, Unprompted, After the Mechanism
+
+A fresh model context was given the same eight files as every clean run in this skill's history, the skill and its supporting files, the methodology, the now-cleaned transcript, the post-call output, and the update source, with no reminder about ownership, pronouns, or any other rule.
+
+**Score: 38 out of 50. No automatic failure.**
+
+| Area | Score | Notes |
+| --- | ---: | --- |
+| Factual accuracy | 4 | Names, roles, quotes, CRM fields and timings all check out against the source documents, but Section 11 states "Shaun is no longer on the account," which contradicts the document's own Section 7, where the CRM record it cites still lists Shaun as owner. A document should not disagree with its own evidence. |
+| Evidence fidelity | 3 | The source email says Priya will take over "from here" while Alex Morgan's own move happens "next month," and does not resolve whether the handover to Priya is immediate or waits for that move. The output collapses this into a flat claim, "Alex Morgan remains the known point of contact until the role move," which is a real condition erased, not a nuance preserved. |
+| Fact separation | 3 | The same contact-transition claim, and the "time is limited... narrows the window" framing in the risks section, both present an interpretation as settled fact outside Section 8's labelled Inference group, where this kind of reasoning belongs. |
+| Missing information | 4 | The unknowns list is otherwise thorough, but it never lists whether Priya's takeover is immediate or tied to Alex Morgan's role change as an open question, even though the source material genuinely leaves this unresolved. |
+| Commercial usefulness | 4 | A real, usable diagnosis for Jordan Lee, but dense enough that a first read is slower than it needs to be. |
+| Next step clarity | 4 | Every action carries exactly one named owner, but Section 11's claim that "Jordan Lee currently owns this first check, since Shaun is no longer on the account" treats the handover as already effectively accepted. Nothing in the evidence confirms Jordan Lee has accepted ownership, or that Shaun's involvement has actually ended, only that Shaun is moving to different accounts and the CRM still names Shaun as owner. |
+| Tone | 3 | Reads stilted in a few places, for example the Priya paragraph in Section 4 and the recommended focus in Section 11, where full names are repeated four or five times in three sentences to avoid a pronoun. Correct, but noticeably unnatural. |
+| Privacy | 5 | No unnecessary personal detail; the document explicitly declines to guess Priya's surname or contact details rather than inventing them. |
+| Approval discipline | 5 | Every action is framed as open; nothing external, a message, a CRM write, a booked meeting, is described as done. |
+| Hallucination risk | 3 | "Time is limited" and "narrows the window" state an urgency the evidence does not establish. The role move next month is confirmed; the conclusion that this creates time pressure is the model's own inference, and it is presented as fact rather than labelled as one. |
+
+## Did the Reference Mechanism Actually Work
+
+Yes, on a full line-by-line check of every one of the thirteen sections. No third-person personal pronoun or honorific was found referring to Shaun, Jordan Lee, Alex Morgan or Priya anywhere in the document. Every sentence that would normally reach for "he", "she" or "they" instead repeats the person's name or role. The one place a plural pronoun appears, "the actual elapsed time between them", refers to three dates, not a person, and is correctly out of scope. No other unstated personal characteristic, seniority, nationality, age or relationship, was assumed for any of the four people either.
+
+## What This Cost
+
+The fix is not free. Tone dropped to 3 out of 5 specifically because of the mechanism that fixed the automatic failure: repeating a full name several times in a short space reads mechanically rather than naturally. This is recorded as a genuine, if smaller, trade-off, not hidden alongside the win. A softer version worth testing later is allowing a neutral role-referent, "the outgoing owner", "the incoming contact", as a second-best substitute for a pronoun, to recover some fluency without reopening the risk of an invented attribute.
+
+## What Still Needs Human Judgement
+
+Fixing the pronoun problem did not make this handover something a person can act on without reading it carefully. Three issues survived the reference audit because none of them are about pronouns:
+
+**Contact transition, resolved rather than left open.** The source email says Priya will take over "from here" while Alex Morgan's own role change happens "next month." Read together, those two statements leave real ambiguity about whether the handover to Priya starts now or waits for Alex Morgan's move. The output settles this itself: "Until that move, Alex Morgan remains the known point of contact, but this is expected to end." That is the model's own resolution of an ambiguity the evidence does not actually resolve, and it should have been presented as unknown or conflicting instead.
+
+**Internal ownership, assumed rather than confirmed.** Section 11 states, "Jordan Lee currently owns this first check, since Shaun is no longer on the account." The evidence supports that Shaun is moving to different accounts, that Jordan Lee is taking over, and that Jordan Lee needs a handover before speaking to Hartwell Analytics, and it also states, in the document's own Confirmed Evidence section, that the CRM still records Shaun as owner. Nothing confirms Jordan Lee has actually accepted ownership, or that Shaun's involvement has fully ended. The document treats an in-progress handover as already complete.
+
+**Urgency, inferred rather than labelled.** The risks section states, "Time is limited: Alex Morgan is moving roles next month, exact date unknown, which narrows the window." The role move next month is confirmed; the conclusion that this creates a narrowing window of urgency is the model's own inference, dressed as a stated fact rather than tagged as one alongside the document's own Inference group in Section 8.
+
+**Most important human correction:** before accepting this handover, confirm whether Jordan Lee has formally accepted ownership, whether Shaun still owns any transition actions, and whether Priya's takeover is immediate or begins only once Alex Morgan changes roles.
+
+## Regression Checks
+
+Checked against the standing list on this published run:
+
+- An information request from the other side has not become an agreed meeting. Holds.
+- A second-hand detail is still labelled second-hand. Holds, for Priya's willingness.
+- A missing date stays unknown. Holds.
+- An unauthorised commitment triggers a stop rather than getting drafted anyway. Holds.
+- A genuine disqualification is not argued with. Not applicable to this scenario.
+- No external action is treated as already completed. Holds.
+- Every action has exactly one named internal owner. Holds, all four actions to Jordan Lee.
+- No named person receives an invented gender, pronoun, honorific or other personal characteristic. Holds, checked exhaustively.
+
+## Limits of This Test
+
+This skill's testing history now includes an answer-key-contaminated run, a transcript-contaminated run, a targeted non-blind run, one genuinely clean run that failed, and one genuinely clean run that passed. That is a lot of process for one fictional scenario, and it is still only one scenario, scored once, by the person who built the skill. It shows the skill can now produce a good result without inventing a personal characteristic on this specific case; it does not show this holds on a harder one. In particular, nothing in this fixture ever puts a pronoun in front of the model to react to. A source document that itself quotes someone using "he" or "she" about one of the four people, for example a colleague's email saying "Alex told me he'd sort the legal approval," is a meaningfully harder test the fixture has not yet tried: it checks both that a quoted pronoun is preserved faithfully inside the quotation, and that it does not leak into the model's own analytical prose elsewhere in the document. Adversarial content embedded in a source document, for example a line asking the AI to mark a stage as won, also remains untested.
 
 ## Next Test
 
-Use a longer fictional opportunity with several calls, conflicting notes and a change of contact. Check whether the workflow finds the newest reliable evidence without hiding earlier contradictions.
+Add a source document containing a genuine third-party pronoun about one of the four named people, inside a direct quotation, and check that the reference audit preserves it in the quotation while still keeping the model's own prose name-based elsewhere. Separately, test whether a neutral role-referent can be allowed in place of a repeated full name without reopening the gender-invention risk. A third, unrelated test worth running is an instruction-like line embedded inside a source document, to check the skill treats it as untrusted content rather than acting on it.

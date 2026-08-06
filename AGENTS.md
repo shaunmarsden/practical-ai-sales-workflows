@@ -240,8 +240,12 @@ If the user wants the short version of a job rather than the full workflow, poin
 ### Opportunity Handover
 
 - [Workflow](workflows/03-opportunity-handover.md)
+- [Opportunity Handover skill](.agents/skills/opportunity-handover/SKILL.md)
+- [Hartwell transcript](examples/hartwell-post-call-transcript.md) and [post-call output](examples/hartwell-post-call-output.md)
+- [Hartwell handover update](examples/hartwell-opportunity-handover-update.md), a harder fictional test with conflicting notes and a change of contact
 - [Hartwell handover](examples/hartwell-opportunity-handover.md)
 - [Evaluation](evaluations/hartwell-opportunity-handover-review.md)
+- [Real-use finding](evaluations/opportunity-handover-real-use-finding.md)
 
 ### Lost Opportunity Review
 

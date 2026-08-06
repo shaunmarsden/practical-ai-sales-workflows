@@ -2,6 +2,23 @@
 
 This review scores the [worked output](../examples/hartwell-post-call-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
+## What the Transcript Was Deliberately Built to Test
+
+This section used to live inside [the transcript itself](../examples/hartwell-post-call-transcript.md), as a "Deliberate Test Points" list. It has been moved here because it tells a reader, or a model being tested against this transcript, what the correct handling of the evidence looks like, which defeats the point of using the transcript as a blind test input for any skill, including ones built after this workflow. The design intent is worth keeping on record; it just does not belong inside the raw source material a model reads as evidence.
+
+The fictional transcript was built to include information a workflow should handle carefully:
+
+- The team has eight account executives.
+- HubSpot is the confirmed CRM.
+- The current administration time is an estimate, not a measured fact.
+- Alex intends to send an anonymised transcript by Thursday afternoon, subject to internal approval.
+- Shaun promised to send a test outline and meeting options today.
+- A meeting next Tuesday morning was discussed but no time was confirmed.
+- Shaun needs to check his diary.
+- Alex needs to check the recording package and whether Priya wants anything included.
+- No automated email sending was agreed.
+- No pricing, purchase or implementation commitment was made.
+
 ## Result
 
 **Score: 48 out of 50**
