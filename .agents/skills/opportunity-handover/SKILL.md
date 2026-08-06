@@ -34,6 +34,8 @@ Label every important point as confirmed, a customer estimate, a reasonable infe
 
 Preserve conditional wording exactly (subject to approval, if agreed) and keep relative and absolute dates as they were given rather than converting a discussed date into a booked one. Treat a change of contact or receiving owner on the customer side as itself something to report, not something to update quietly in the background. Distinguish what the customer has actually said they want from any AI-generated suggestion about what to do next; a suggested project or next step stays provisional until the receiving person and the customer have actually accepted it, not from the moment it is written down.
 
+Give every action exactly one accountable owner, never a compound name or an external party alone. When the party who must actually act is external, uncertain, or not yet assigned, name the internal person responsible for chasing it, not "the customer" or "unassigned" by itself. A handover that leaves an action without one clear internal owner has not actually handed it over.
+
 ## Keep Only What the Next Person Needs
 
 Include personal information only where it helps the receiving person carry on the relationship: confirmed roles, stated preferences, agreed involvement. Leave out anything that does not serve continuity.
