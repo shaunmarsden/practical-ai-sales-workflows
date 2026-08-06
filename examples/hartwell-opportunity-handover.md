@@ -1,160 +1,133 @@
-# Hartwell Opportunity Handover
+# Opportunity Handover: Hartwell Analytics, Shaun to Jordan Lee
 
 > This is a fictional handover produced by the [opportunity-handover skill](../.agents/skills/opportunity-handover/SKILL.md) from the [Hartwell call transcript](hartwell-post-call-transcript.md), [Post Call Output](hartwell-post-call-output.md) and [a fictional update](hartwell-opportunity-handover-update.md) showing conflicting notes and a change of contact. It contains no real customer information and no CRM changes have been made.
 
-## ⚡ 30 Second Brief
+## 1. 30 Second Brief
 
-- Hartwell Analytics is evaluating a post-call summary, follow-up and CRM-update workflow, still at an early, pre-test stage, with no pricing, purchase or implementation commitment.
-- No anonymised transcript has been shared and no test has started. Legal approval for sharing it is still pending, per Alex Morgan's most recent email.
-- The CRM (stage "Test in Progress," next step "Confirm final test results with Alex") materially overstates progress. Alex, the only contact spoken to so far, is leaving the relationship, and Priya has been named as the new main contact but has not yet been spoken to directly.
-- Immediate next action: before any substantive Hartwell conversation, confirm with Priya directly where things actually stand, and re-check the legal approval status, rather than working from the CRM's next step.
+- Hartwell Analytics (contact: Alex Morgan) is at an early discovery and test stage for a post-call summary, action-list, follow-up-draft and CRM-update workflow. Nothing has been purchased and no pricing or implementation date has been discussed.
+- The CRM records the stage as "Test in Progress," but the newest evidence, an email from Alex, shows the anonymised transcript needed to actually run the test still has not been shared, because Hartwell's internal legal approval has not come through. The CRM reads further along than the email supports.
+- Most important caution: Alex, the only contact to date, is moving into a new role next month and says Priya, Sales Director, will take over as the point of contact, but that is Alex's statement, not something Priya has confirmed directly.
+- Immediate next action: Jordan should confirm directly with Priya that she is taking this on and what she needs, and separately verify the real status of the legal approval, before relying on anything else in the CRM.
 
-## 📍 Current Position
+## 2. Current Position
 
-The newest reliable evidence is Alex Morgan's email, sent after the original discovery call. It states that transcript-sharing approval is still with Hartwell's legal team and has not cleared, that Alex is moving to a new role covering onboarding next month, and that Priya will take over as the main point of contact.
+The relationship is still at the discovery and test stage. Per the original call (earliest evidence), Alex agreed to test the workflow using an anonymised transcript, subject to internal approval to share it. Per a later email from Alex, undated but confirmed as sent after the original call, that approval had still not come through by the time she wrote, so the transcript has not been sent and the test has not actually run. Per a CRM snapshot, recorded the same day as this handover, the stage is listed as "Test in Progress" and the next step as "Confirm final test results with Alex," both of which describe a state of progress the email does not support. A calendar entry, no date given beyond "Tuesday," relative position to the email unclear, shows a "Hartwell test review" meeting for Tuesday 10:30 to 11:00, with Alex invited but not yet accepted.
 
-This directly conflicts with the CRM snapshot, taken the same day as this update, which records stage "Test in Progress" and next step "Confirm final test results with Alex." No test has actually begun, and Alex is not staying on as the contact. The CRM position should not be taken at face value.
+## 3. Recipient-Specific Context
 
-A calendar entry for Tuesday, 10:30 to 11:00 ("Hartwell test review") lists Alex as invited but not yet accepted. This is a proposed slot, not a confirmed meeting.
+Shaun is moving to a different set of accounts. Jordan Lee is taking over the Hartwell Analytics account and needs to speak to Hartwell directly. Because the contact on the account is itself in transition, Jordan's first priority is establishing who he is actually dealing with going forward before picking up any of the substantive next steps.
 
-## 🎯 Recipient-Specific Context
+## 4. People and Confirmed Roles
 
-Shaun is moving to a different set of accounts. Jordan Lee is taking over the Hartwell Analytics account and needs this handover before speaking to Hartwell directly. What Jordan specifically needs to know is that the customer-side contact is changing at the same time ownership is changing on our side, and that the CRM's recorded next step names a contact and a milestone that are both no longer accurate. Jordan has had no prior contact with Hartwell and will need to build a relationship with Priya from scratch, while also closing the loop with Alex on the transition if Alex is still reachable.
+| Name | Confirmed role | Involvement | Uncertain or changed |
+| --- | --- | --- | --- |
+| Alex Morgan | Head of Revenue Operations, Hartwell Analytics | Sole contact to date; ran the original discovery call, corresponded by email since | Confirmed, by Alex, in her own email, that she is moving into a new role covering onboarding next month and will stop being the point of contact for this account. Exact transition date not given |
+| Priya | Sales Director, Hartwell Analytics | Named by Alex, in the original call, as someone who might review test output later; later named by Alex, in her email, as the incoming main point of contact | Not confirmed directly by Priya herself in any source. Her willingness ("happy to pick it up") and what she wants included are both reported second-hand via Alex, not stated by Priya |
+| Shaun | Outgoing salesperson | Ran the original call, sent the later correspondence, is handing the account over | Leaving this account as part of moving to a different set of accounts |
+| Jordan Lee | Incoming salesperson | Receiving this handover, will speak to Hartwell directly | New to the account |
 
-## 👥 People and Confirmed Roles
+**This is a contact change that needs to be reported, not quietly updated.** The CRM snapshot still shows no owner-side change and continues to point at Alex as the working contact; the most recent email says that is no longer accurate going forward.
 
-### Alex Morgan
+## 5. Customer Expectations and Confirmed Commitments
 
-- **Confirmed role:** Head of Revenue Operations at Hartwell Analytics
-- **Involvement:** Originated the initial conversation and has been the sole point of contact through the discovery call and the follow-up email
-- **Caution:** Moving into a new role covering onboarding next month and stepping back from this relationship. Said he would chase legal again that week for transcript approval, but nothing confirms whether that happened or what it found
+What Alex has actually said, directly:
 
-### Priya
+- She wants a consistent call summary and a reliable list of next actions, and, ideally, a sensible first draft of the follow-up email.
+- She explicitly does not want emails sent automatically; a person must check everything before it is sent or added to HubSpot.
+- She considers accuracy more important than a small time saving, and specifically does not want a tool inventing pricing or implementation commitments.
+- She agreed, in principle, to test the process using an anonymised transcript, conditional on confirming internally that it is safe to share.
+- No pricing, purchase, or implementation commitment has been made by either side.
 
-- **Confirmed role:** Sales Director
-- **Involvement:** Per Alex's email, taking over as the main point of contact
-- **Caution:** Alex describes Priya as knowing the background and happy to pick it up, but this is Alex's characterisation, not something Priya has confirmed herself. Whether she shares Alex's priorities is unknown
+What has only been discussed or suggested, not agreed:
 
-### Shaun
+- Priya reviewing the test output "if it looks useful," Alex's words in the original call, not a commitment from Priya.
+- Any specific requirements Priya might have. Alex said she would check; nothing has come back confirming what those are.
 
-- **Confirmed role:** Outgoing salesperson, ran the original discovery call, currently the CRM-recorded owner
-- **Involvement:** Moving to a different set of accounts
+## 6. Desired Outcomes and Possible Measures
 
-### Jordan Lee
+Alex's stated business problem: with eight account executives handling call notes, follow-up and CRM updates inconsistently, and CRM updates sometimes lagging one to two days behind a call, she cannot always tell what happened on a given opportunity same-day, and it makes the Monday pipeline meeting less productive. The outcome she wants is consistency and same-day visibility.
 
-- **Confirmed role:** Incoming salesperson receiving this handover
+The only figure attached to this is an estimate: Alex guessed administration takes fifteen to thirty minutes per call, but said explicitly this has not been measured. It should not be treated as a baseline for any ROI or business-case figure without first getting a measured number.
 
-**Contact change to flag explicitly:** Alex, the only person spoken to so far, is being replaced by Priya as the account's main point of contact. This is a customer-side change, not an internal update. Jordan should treat Priya, not Alex, as the primary contact going forward, while recognising that Priya's engagement is currently only attested by Alex, not by Priya herself.
+## 7. Confirmed Evidence
 
-## 🗣️ Customer Expectations and Confirmed Commitments
+- Hartwell Analytics has eight account executives. **Source: original call**
+- HubSpot is the CRM. **Source: original call, consistent with CRM snapshot**
+- CRM updates can lag one to two days after a call. **Source: original call**
+- Alex wants a consistent summary, reliable actions and a first-draft follow-up email; she does not want automatic sending. **Source: original call**
+- Alex agreed to test the process with an anonymised transcript, conditional on internal confirmation it was safe to share. **Source: original call**
+- The transcript-sharing approval had not come through by the time of Alex's later email, so nothing has been sent. **Source: Alex's later email, after the original call**
+- Alex said she would chase legal again this week, relative to when she sent that email, not confirmed against today's date. **Source: Alex's later email**
+- Alex is moving into a new role covering onboarding next month and says Priya will take over as the point of contact. **Source: Alex's later email**
+- CRM currently records: stage "Test in Progress," owner Shaun, last activity the original discovery call, next step "Confirm final test results with Alex." **Source: CRM snapshot, taken the same day as this handover**
+- A "Hartwell test review" meeting is on the calendar for Tuesday 10:30 to 11:00, with Alex invited but not yet accepted. **Source: calendar entry**
 
-**Confirmed, from the original call:**
-
-- Alex wants a consistent post-call summary, a reliable action list and a sensible first-draft follow-up email.
-- Alex does not want emails sent automatically. Accuracy matters more than saving a few minutes.
-- Alex wants to test the approach on one anonymised transcript before involving the wider team.
-
-**Confirmed, from Alex's later email, and unchanged since:**
-
-- No automatic email sending has been agreed by Alex or, by extension, Priya.
-- No pricing, purchase or implementation commitment has been made at any point.
-
-**Discussed, not agreed:**
-
-- A thirty minute review meeting next Tuesday morning was raised on the call but never given a confirmed time. The resulting calendar invite has not been accepted.
-- Whether Priya wants anything specific included was raised on the call. Alex said he would check, and nothing confirms this was ever resolved.
-
-## 📈 Desired Outcomes and Possible Measures
-
-Alex's confirmed desired outcome is same-day visibility into what happened on a call and what was agreed, to reduce the one to two day lag in CRM updates and make the Monday pipeline meeting more useful across the team's eight account executives.
-
-Possible measure: Alex estimated post-call administration currently takes between fifteen and thirty minutes per call. This is an estimate, not a measured baseline. Alex was clear it has not been measured, and it must not be presented as a quantified benefit case.
-
-## ✅ Confirmed Evidence
-
-- Hartwell Analytics has eight account executives with inconsistent post-call note, follow-up and CRM-update habits. **Source: original transcript**
-- HubSpot is the confirmed CRM. **Source: original transcript**
-- CRM updates can lag one to two days after a call, reducing same-day visibility. **Source: original transcript**
-- Alex Morgan is Head of Revenue Operations at Hartwell Analytics. **Source: original transcript**
-- Alex does not want automated email sending and wants human-checked drafts. **Source: original transcript**
-- No pricing, purchase or implementation commitment has been made, at the original call or since. **Source: original transcript, reaffirmed in the update**
-- Transcript-sharing approval is still pending with Hartwell's legal team; nothing has been shared. **Source: Alex's later email**
-- Alex is moving to a new onboarding role next month, and Priya will take over as main contact. **Source: Alex's later email**
-- Priya holds the role of Sales Director. **Source: post-call output stakeholder list**
-- The Tuesday calendar entry lists Alex as invited but not yet accepted. **Source: calendar entry**
-- The CRM currently records stage "Test in Progress," owner Shaun, last activity as the original discovery call, and next step "Confirm final test results with Alex." **Source: CRM snapshot, taken the same day as this update**
-
-## ⚠️ Estimates, Inferences, Unknowns and Conflicts
+## 8. Estimates, Inferences, Unknowns and Conflicts
 
 ### Estimate
 
-- Alex's fifteen to thirty minute post-call admin-time figure, given without measurement.
+- Fifteen to thirty minutes of admin time per call, Alex's own estimate, explicitly unmeasured.
 
 ### Inference
 
-- Alex's statement that Priya knows the background and is happy to pick it up is Alex's own characterisation, not something Priya has confirmed, and needs direct verification.
-- Alex saying he would chase legal again that week implies the approval process was still active as of that email, but whether that follow-up happened, or what it found, is not evidenced.
+- The test has most likely not started in any real sense, since the transcript it depends on has not been sent. This is a reasonable reading of the email, not something either side has stated outright.
+- Priya will probably take over the account, but this rests on Alex's report of Priya's willingness, not on anything from Priya directly, and needs independent confirmation.
+- The Tuesday "test review" meeting may no longer have anything to review, given the transcript has not been shared, worth checking before treating the meeting as still fit for purpose.
 
 ### Unknown
 
-- Whether legal approval to share the anonymised transcript will be granted, or when.
-- Whether Priya's actual priorities match what Alex described. She has not yet been spoken to directly.
-- Whether the Tuesday calendar invite will be accepted, moved or declined.
-- What recording package Hartwell uses, and whether it produces full call transcripts.
-- Whether Shaun's promised outline and meeting-time options were ever actually sent to Alex.
-- Whether Alex ever answered what Priya wants included, raised on the original call.
-- The exact calendar dates of the original call and of Alex's later email; only their relative order is known.
+- The date of the original call, so relative timings ("Thursday afternoon," "next Tuesday morning," "this week") cannot be tied to firm calendar dates with confidence.
+- Whether the calendar entry for Tuesday is the same meeting discussed in the original call or a separate one, and whether it falls before or after Alex's email. No timestamp is given for the calendar entry itself.
+- The current, up-to-date status of the legal approval, only known as of Alex's email, itself undated relative to today.
+- Whether Alex has checked the recording package and transcript capability, and whether Priya has said what she wants included. Both were open as of the original call and are not mentioned again.
 
 ### Conflict
 
-- The CRM's "Test in Progress" stage and "Confirm final test results with Alex" next step both read materially further along than the evidence supports. Per Alex's own later email, no transcript has been shared, legal approval is still pending, and no test has actually started. The CRM should not be relied on at face value.
-- The CRM next step also names Alex as the ongoing contact, while Alex's own most recent email says Priya is taking over, a direct conflict between the CRM record and the customer's latest statement.
+- The CRM stage reads "Test in Progress," but Alex's email, the more recent, direct evidence, indicates the transcript needed to run the test has still not been shared and remains blocked on internal legal approval. The CRM overstates progress relative to the email.
+- The CRM's next step reads "Confirm final test results with Alex," but no test results exist since nothing has been sent yet, and Alex is stepping away from being the contact. This recorded next step does not match the newer evidence and should not be acted on as written.
+- The CRM's last activity is recorded as the original discovery call, but a later email from Alex exists that the CRM snapshot does not reflect. The CRM understates how recently there has been contact.
 
-## 📋 Actions and Ownership
+## 9. Actions and Ownership
 
 | Owner | Action | Timing | Status | Evidence |
 | --- | --- | --- | --- | --- |
-| Alex, Hartwell legal | Obtain legal approval to share the anonymised transcript | No confirmed date; Alex said he would chase again that week | Open, pending | Alex's later email |
-| Alex | Send the anonymised transcript once approved | Conditional on approval; the original Thursday afternoon timing has passed | Open, conditional | Original transcript; later email confirms still not sent |
-| Alex, or Hartwell, unresolved | Confirm the recording package and whether it produces full transcripts | No date agreed | Open, unresolved | Original transcript |
-| Jordan | Introduce herself to Priya and independently confirm Priya's priorities and willingness to continue | Before further substantive Hartwell contact | Not started | This handover; Alex's email naming Priya as replacement |
-| Shaun, Jordan | Close the loop with Alex on the ownership transition, if Alex is still reachable | Before Jordan engages Hartwell directly | Not started | Reason for this handover |
-| Jordan | Resolve the outstanding Tuesday calendar invite: confirm, reschedule or cancel it | As soon as practical | Open, unaccepted | Calendar entry |
-| CRM owner | Correct the CRM stage, next step and contact to reflect the actual position | Before the next pipeline review | Not done, proposed only | Conflict identified in this handover |
+| Jordan Lee | Confirm directly with Priya that she is taking over as the point of contact, and ask what she needs before the first direct conversation with Hartwell | Before speaking with Hartwell directly | Not started | Alex's email states Priya "is happy to pick it up," but this has not been confirmed by Priya herself |
+| Jordan Lee | Verify the real status of the transcript-sharing legal approval with the Hartwell side before treating the CRM's "Test in Progress" stage as accurate | Before relying on the CRM stage or next step | Not started | CRM snapshot versus Alex's email conflict |
+| Jordan Lee | Follow up on whether legal approval has cleared, since Alex said she would chase again this week, relative to her email | This week, relative to Alex's email, not yet mapped to a calendar date | Pending; external action sits with Alex and Hartwell legal | Alex's email: "I will chase legal again this week" |
+| Jordan Lee | Decide whether the Tuesday 10:30 to 11:00 "Hartwell test review" meeting should proceed, be rescheduled, or change attendees, given Alex has not accepted it, no test has actually run, and Alex may be transitioning out by then | Before the meeting time | Alex invited, not yet accepted | Calendar entry; Alex's later email |
+| Jordan Lee | Request that CRM owner be updated from Shaun to Jordan, and flag the stage, next step and last activity fields for correction so they reflect the evidence above rather than the pre-transcript-delay position | Before working the account as owner of record | Not started | CRM snapshot conflicts, Section 8 |
+| Shaun | Make a direct introduction of Jordan to Alex, and to Priya if she is confirmed, as part of the handover | Before Jordan's first direct conversation with Hartwell | Not started | Reason for this handover: Shaun moving to a different set of accounts |
 
-Dropped as stale: sending the test outline and meeting options today, and Alex confirming the transcript by Thursday afternoon. Both were tied to the original call's timeframe, which has passed, and have been overtaken by the later email's evidence that nothing has moved.
+Two items from the original test plan, checking the recording package and transcript capability, and what Priya specifically wants included, are not carried forward as standalone actions with a confirmed owner, since there is no evidence either has moved since the original call. They are listed as open questions in Section 13 instead.
 
-## 🚩 Risks, Cautions and Non-Standard Commitments
+## 10. Risks, Cautions and Non-Standard Commitments
 
-- The CRM significantly overstates progress. Reporting this deal from the CRM alone, without this handover's context, would misrepresent it as further along than it is.
-- No test has begun. This should not be described to Hartwell as being finalised.
-- Alex is departing this relationship. Stop treating Alex as the primary contact once the transition is confirmed, but note that Priya's engagement is currently only attested by Alex, not by Priya herself.
-- No automatic email sending has ever been agreed, by Alex or, by extension, Priya. This restriction stands for any future work with Hartwell.
-- No pricing, purchase or implementation commitment exists anywhere in the evidence. This should not be treated or reported as a qualified opportunity.
-- The Tuesday calendar invite is unaccepted and should not be treated as a scheduled, confirmed meeting.
-- Legal approval for transcript sharing sits with Hartwell's legal team, outside anyone's direct control on either side. Timing is unknown.
+- Do not report this account internally as being further along than it is. The CRM's "Test in Progress" stage is not supported by the most recent direct evidence: the transcript has not been sent and the test has not run.
+- Treat Priya's involvement as unconfirmed until she says so herself. Alex's email is a report of Priya's willingness, not Priya's own commitment.
+- The Tuesday meeting has not been accepted by Alex. Do not assume it will happen as scheduled, or that there is anything ready to review in it yet.
+- No pricing, purchase or implementation date has been discussed at any point. This is not a qualified opportunity in any commercial sense yet, and should not be described as one.
+- Alex was explicit that automatic email sending is not wanted and that accuracy matters more than speed. This is a standing customer preference, not a one-off comment, and should carry over to however Jordan runs the test.
+- The fifteen to thirty minute admin-time figure is Alex's own unmeasured guess. Do not present it as a quantified baseline in any business case or ROI discussion without first getting a real measurement.
 
-## ➡️ Recommended First Focus
+## 11. Recommended First Focus
 
-**Current owner:** Shaun, until the handover is formally accepted, then Jordan.
+Before doing anything else, Jordan should confirm who he is actually dealing with: reach out to Priya directly to establish whether she is genuinely taking over and what, if anything, she needs, since that has so far only come from Alex secondhand. At the same time, he should independently check the real status of the legal approval for the anonymised transcript, since the CRM's "Test in Progress" stage cannot currently be trusted at face value against the more recent email evidence. Both of these currently sit with Jordan Lee as the incoming owner.
 
-Jordan's first priority should be a direct introduction to Priya, to confirm in Priya's own words whether she wants to continue the proposed test and on what terms, rather than proceeding on Alex's secondhand account of her readiness. Before that conversation, Shaun (while still reachable) or Jordan should check with Alex on the actual current status of the legal approval, since that is the one blocking item standing between discussed and able to start.
+## 12. Useful Sources
 
-## 🔗 Useful Sources
+- Original Hartwell discovery call transcript, Shaun and Alex Morgan, the earliest source
+- Post-call output built from that transcript (summary, actions, follow-up draft, suggested CRM updates)
+- CRM snapshot, recorded the same day as this handover
+- Later email from Alex Morgan, sent after the original call, undated relative to today
+- Calendar entry: "Hartwell test review," Tuesday 10:30 to 11:00, Alex invited but not accepted
 
-- [Hartwell call transcript](hartwell-post-call-transcript.md)
-- [Hartwell Post Call Output](hartwell-post-call-output.md)
-- [Hartwell Opportunity Handover Update](hartwell-opportunity-handover-update.md)
+These were supplied as text and records directly, not independently opened or re-verified beyond what is stated in them.
 
-## 🤝 Questions to Answer Before Ownership Is Accepted
+## 13. Questions to Answer Before Ownership Is Accepted
 
-1. Has legal approval for sharing the anonymised transcript been granted, and if not, what is actually blocking it?
-2. Has Alex briefed Priya, and does Priya want to continue the proposed test in the same form, or with different requirements?
-3. Should the Tuesday invite be cancelled or rescheduled given Alex's role change, or does a new meeting need to be set up with Priya?
-4. What CRM corrections, to the stage, next step, owner and contact, need to be made, and who is making them?
-5. What recording package does Hartwell actually use, and can it produce a usable transcript for the proposed test?
-6. Is there a more recent update from Alex confirming whether the legal chase actually happened, and what it found?
-
----
-
-This is a draft handover for human review. Shaun must check every claim above against the actual sources before Jordan relies on it, and Jordan should not treat ownership as accepted until she has reviewed this document and had a real handover conversation. Nothing here has been sent to Hartwell, and no CRM record, ownership field, task or calendar event has been changed as part of preparing this document.
+1. Has Priya actually agreed to be the point of contact, and has she said what, if anything, she wants included?
+2. What is the current, up-to-date status of Hartwell's legal approval for sharing the anonymised transcript? Is "this week," per Alex's email, still accurate?
+3. Should the Tuesday 10:30 to 11:00 "Hartwell test review" meeting go ahead as scheduled, given Alex has not accepted it and there is nothing yet to review?
+4. Has the CRM ownership field been updated from Shaun to Jordan, and have the stage, next step and last activity fields been corrected to match the evidence above?
+5. Did Alex ever check the recording package and transcript capability she raised in the original call, and is that still an open item?
+6. Has Shaun made a direct introduction between Jordan and Alex or Priya as part of this transition?

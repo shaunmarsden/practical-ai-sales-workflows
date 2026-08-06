@@ -16,7 +16,7 @@
 
 ## Completeness
 
-- [ ] Does every action have the right owner, timing and status, with stale or superseded actions removed?
+- [ ] Does every action have one named internal owner, not a compound name, "the customer," or "unassigned," with the right timing and status, and stale or superseded actions removed?
 - [ ] Is the recommended next step appropriate for the evidence actually available?
 - [ ] Has the receiving person actually accepted ownership, rather than this being sent without a real handover conversation?
 

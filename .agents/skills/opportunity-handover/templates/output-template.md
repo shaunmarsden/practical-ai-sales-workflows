@@ -36,7 +36,7 @@ Four separate groups. Preserve uncertainty and show any material conflict betwee
 
 ## 9. Actions and Ownership
 
-A table with Owner, Action, Timing, Status and Evidence. Drop an action once it is stale or superseded rather than carrying it forward out of habit. Do not treat a suggestion or conditional statement as an agreement.
+A table with Owner, Action, Timing, Status and Evidence. Every row needs exactly one named internal owner, never a compound name, "the customer," or "unassigned." If the party who must actually act is external or not yet confirmed, the Owner column still names the internal person chasing it, and the Action or Evidence column can note who externally needs to respond. Drop an action once it is stale or superseded rather than carrying it forward out of habit. Do not treat a suggestion or conditional statement as an agreement.
 
 ## 10. Risks, Cautions and Non-Standard Commitments
 

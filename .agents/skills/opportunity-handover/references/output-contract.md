@@ -9,6 +9,7 @@ This contract defines the strict boundaries for this skill. The AI must adhere t
 - **Show a material disagreement between sources rather than picking one silently.** A CRM stage that reads further along than the emails support is exactly the kind of thing a handover exists to surface.
 - **Keep confirmed, estimate, inference, unknown and conflicting labels distinct throughout**, not folded into one confident narrative.
 - **Report any change in the receiving contact or customer-side owner explicitly**, rather than quietly updating a name in the background.
+- **Give every action one accountable internal owner.** Even where the party who must act is external, uncertain, or not yet assigned, name the internal person responsible for chasing it. "The customer," "unassigned," or a list of several names is not an owner.
 
 ## What the AI MUST NOT Do
 
