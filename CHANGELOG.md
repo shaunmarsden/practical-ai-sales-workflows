@@ -9,6 +9,7 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+- Added an approval-gated sales copilot guide, reusable composition template, fictional orchestration test, scored evaluation and sanitised internal-use finding based on Shaun's private agent.
 - Added a private two-minute feedback form, a public Feedback discussion route, a structured response template and a public visitor feedback log.
 - Added an evidence-status matrix so visitors can distinguish availability, fictional testing, real use and independent external testing.
 - Replaced the detailed project-history roadmap with a short Now, Next and Later view.
