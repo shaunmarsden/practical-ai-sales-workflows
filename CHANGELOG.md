@@ -4,6 +4,7 @@ This is the completed-work archive. The [roadmap](ROADMAP.md) now stays focused 
 
 Release notes provide the fuller version summaries:
 
+- [v1.2.0: Safer Orchestration and Better Evidence](https://github.com/shaunmarsden/practical-ai-sales-workflows/releases/tag/v1.2.0)
 - [v1.1.0: More Workflows, Better Routes and Real Evidence](https://github.com/shaunmarsden/practical-ai-sales-workflows/releases/tag/v1.1.0)
 - [v1.0.0: First Complete Set of Sales Workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows/releases/tag/v1.0.0)
 
