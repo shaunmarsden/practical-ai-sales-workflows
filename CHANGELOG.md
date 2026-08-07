@@ -9,6 +9,7 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+- Added the first sanitised live-run finding for the Sales Copilot composition method, a real request the public method handled by prioritising a fixed meeting, keeping retrieval narrow, verifying a specialist route and surfacing an attendee-identity ambiguity rather than guessing.
 - Added a sanitised real-use boundary finding for Move a Stalled Decision, showing that the method correctly stopped when a confirmed policy and timing blocker made an indecision tactic inappropriate.
 - Added a reusable opportunity-handover skill, a harder fictional Hartwell regression test with conflicting notes and a change of contact, a re-scored evaluation and a sanitised real-use finding based on Shaun's private handover method.
 - Added an approval-gated sales copilot guide, reusable composition template, fictional orchestration test, scored evaluation and sanitised internal-use finding based on Shaun's private agent.
