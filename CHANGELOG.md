@@ -9,17 +9,39 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
-- Added the first sanitised live-run finding for the Sales Copilot composition method, a real request the public method handled by prioritising a fixed meeting, keeping retrieval narrow, verifying a specialist route and surfacing an attendee-identity ambiguity rather than guessing.
-- Added a sanitised real-use boundary finding for Move a Stalled Decision, showing that the method correctly stopped when a confirmed policy and timing blocker made an indecision tactic inappropriate.
-- Added a reusable opportunity-handover skill, a harder fictional Hartwell regression test with conflicting notes and a change of contact, a re-scored evaluation and a sanitised real-use finding based on Shaun's private handover method.
-- Added an approval-gated sales copilot guide, reusable composition template, fictional orchestration test, scored evaluation and sanitised internal-use finding based on Shaun's private agent.
-- Added a private two-minute feedback form, a public Feedback discussion route, a structured response template and a public visitor feedback log.
-- Added an evidence-status matrix so visitors can distinguish availability, fictional testing, real use and independent external testing.
+## v1.2.0, 7 August 2026
+
+Moved beyond adding individual sales workflows into testing how they can be coordinated safely, and made the evidence behind every job easier to inspect.
+
+### Approval-Gated Sales Copilot
+
+- Added a public guide and a vendor-neutral composition template for an approval-gated sales copilot, an orchestration layer that chooses between existing bounded workflows rather than a new, seventeenth sales job.
+- Added a fictional multi-source orchestration test and its scored evaluation.
+- Added a sanitised finding describing Shaun's private sales copilot's reported internal use, kept clearly labelled as builder-reported, not independent evidence.
+- Added the method's first sanitised live-run finding: a real request where the public method prioritised a fixed meeting over a wider pipeline search, kept retrieval narrow, verified the relevant specialist route before using it, and surfaced an attendee-identity ambiguity across connected records rather than guessing. Nothing was sent, booked or changed; every external write stayed behind approval. One live run is not proof the method is reliable or that anyone outside the project has adopted it.
+
+### Stronger Skills and Harder Tests
+
+- Added a reusable opportunity-handover skill, alongside a harder fictional regression test built on a stalled handover with conflicting CRM and email evidence and a change of contact. Testing exposed two real problems along the way: actions without one clear accountable owner, and invented pronouns for people whose gender the evidence never stated. The first was fixed and confirmed working on a clean rerun. The second needed a checkable mechanism, a person reference ledger and a mandatory reference audit, rather than a guardrail sentence, and a careful re-read of the same output still found further interpretive overreach worth catching. The final, honestly scored result is 38 out of 50, not the higher scores an earlier, less careful pass produced.
+- Added a reusable pre-call preparation skill with an inspectable fictional source pack. A scored comparison showed the skill's structured, source-traced output scored notably higher than the earlier example, and an independent rerun against a different fictional company confirmed the improvement generalised rather than being specific to one wording.
+- Added a second scored test for the objection-pattern skill, covering duplicate deals, a hidden shared driver behind different wording, and a misleadingly similar phrase with a different actual cause. An independent rerun against a separate log confirmed the same discipline held.
+- Added a scored fictional test for Chase a Quiet Prospect, showing why current CRM evidence should override a stale reminder rather than triggering another chase.
+
+### Clearer Evidence
+
+- Added an evidence-status matrix so a visitor can see, for each of the sixteen sales jobs, whether a workflow, skill, fictional test, real use or independent test actually exists, rather than treating availability as proof of anything.
+- Logged sanitised real-use findings for Hand Over an Opportunity and Move a Stalled Decision. The stalled-decision finding is a negative-boundary case: a real delay correctly classified as a policy and timing blocker, not evidence the method can move a genuinely indecisive buyer.
+- Added a private two-minute feedback form, a public GitHub Discussions feedback route, a structured response template and a public visitor feedback log, so future feedback has somewhere to land and be tracked openly.
 - Replaced the detailed project-history roadmap with a short Now, Next and Later view.
 - Made the interactive demonstration's fictional-data wording clearer and added a direct route to try the follow-up workflow.
-- Added a scored fictional test for Chase a Quiet Prospect, showing why current evidence should override a stale CRM reminder.
-- Added a reusable pre-call preparation skill, an inspectable fictional source pack and a scored Hartwell comparison.
-- Added a reusable objection pattern skill and a second scored test covering duplicate deals, hidden shared drivers and misleading repeated wording.
+
+### Known Gaps
+
+- Review an Outbound Campaign still has no logged real-campaign test.
+- Move a Stalled Decision has a real negative-boundary finding, but still no positive real case involving genuine buyer indecision.
+- No sales job has a logged independent external user test yet.
+- The Sales Copilot has one sanitised builder-run live finding, but no independent attempt.
+- Feedback is being left to arrive organically through the existing feedback form and Discussions link, rather than being manufactured through a recruited session.
 
 ## v1.1.0, 27 July 2026
 
