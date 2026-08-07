@@ -33,7 +33,7 @@ This supports classifying it as an **approval-gated orchestration agent**, not a
 - No frequency of use is logged publicly.
 - No measured time saving is available.
 - No conversion, revenue or productivity outcome is attributed to the agent.
-- No sanitised live run has yet been published as a formal finding.
+- One sanitised live run has now been published as a formal finding, see below, but it is one run, by the builder, not a pattern of use.
 - No independent external user has tested the public template.
 - The instruction set alone does not prove that every connector, permission or specialist route works as written.
 
@@ -73,7 +73,8 @@ The general method is now documented in:
 - [Fictional source pack](../examples/fictional-sales-copilot-source-pack.md)
 - [Fictional output](../examples/fictional-sales-copilot-output.md)
 - [Scored evaluation](fictional-sales-copilot-review.md)
+- [Live-run finding](sales-copilot-live-run-finding.md)
 
 ## Next Evidence
 
-The next useful step is one sanitised run log showing the request, sources used, decision prepared, human correction and actions deliberately left unperformed. After that, an independent salesperson should try the public fictional pack or adapt the template with approved information and report where it helps or fails.
+The next major gap is an independent attempt: a salesperson outside this project adapting the public template with their own approved information and reporting where it helps or fails, rather than another internal run by the builder.
