@@ -9,6 +9,7 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+- Added a sanitised real-use boundary finding for Move a Stalled Decision, showing that the method correctly stopped when a confirmed policy and timing blocker made an indecision tactic inappropriate.
 - Added a reusable opportunity-handover skill, a harder fictional Hartwell regression test with conflicting notes and a change of contact, a re-scored evaluation and a sanitised real-use finding based on Shaun's private handover method.
 - Added an approval-gated sales copilot guide, reusable composition template, fictional orchestration test, scored evaluation and sanitised internal-use finding based on Shaun's private agent.
 - Added a private two-minute feedback form, a public Feedback discussion route, a structured response template and a public visitor feedback log.
