@@ -140,6 +140,8 @@ Outside sales specifically, I also build a family of similar free tools for othe
 
 Still inside sales, but at team rather than individual level: [AI for Commercial Teams](https://github.com/shaunmarsden/ai-for-commercial-teams), [Sales Conversation Gym](https://github.com/shaunmarsden/sales-conversation-gym), [Sales Proof Bench](https://github.com/shaunmarsden/sales-proof-bench), and [Sales Value Workshop](https://github.com/shaunmarsden/sales-value-workshop) generalise some of the same patterns here for commercial teams more broadly.
 
+Broader than sales entirely: [Practical AI Adoption](https://github.com/shaunmarsden/practical-ai-adoption) applies the same evidence-first approach to using AI well at work generally, not just in sales.
+
 ## What I Want to Try Next
 
 **Right now:** keep testing these workflows against real sales work as it comes up, and get honest feedback from salespeople trying the repository for themselves.
