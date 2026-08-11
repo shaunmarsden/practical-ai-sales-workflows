@@ -2,7 +2,11 @@
 
 Work out what is actually driving an objection before answering it, so you address the real concern rather than arguing with the surface wording.
 
-This workflow is for a stated objection. If a prospect has gone quiet without raising a specific concern, use the [chase sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md) instead.
+> **Choose the right route**
+>
+> - **Specific objection:** use this workflow.
+> - **Prospect has gone quiet:** use the [chase sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md).
+> - **Legal, unclear or unauthorised issue:** stop and check first.
 
 ## 👀 At a Glance
 
@@ -17,10 +21,12 @@ This workflow is for a stated objection. If a prospect has gone quiet without ra
 
 ```mermaid
 flowchart TB
-    A["1. Diagnose the real driver<br/>not just the surface wording"]
-    B["2. Respond to that driver<br/>Acknowledge, Isolate, Reframe, Ask"]
-    C["3. End with a clear next step<br/>progress, follow-up, nurture, or disqualify"]
-    A --> B --> C
+    A["1. Hear the objection<br/>use the words actually raised"]
+    B["2. Diagnose the driver<br/>not just the surface wording"]
+    C["3. Respond with Acknowledge,<br/>Isolate, Reframe, Ask"]
+    D["4. Human review<br/>check claims and commitments"]
+    E["5. Agree the next step<br/>progress, follow-up, nurture, or disqualify"]
+    A --> B --> C --> D --> E
 ```
 
 ## 🚀 Start Here
