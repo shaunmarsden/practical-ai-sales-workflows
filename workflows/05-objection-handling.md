@@ -2,13 +2,15 @@
 
 Work out what is actually driving an objection before answering it, so you address the real concern rather than arguing with the surface wording.
 
+This workflow is for a stated objection. If a prospect has gone quiet without raising a specific concern, use the [chase sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md) instead.
+
 ## 👀 At a Glance
 
 | | |
 | --- | --- |
 | **Use this when** | A prospect has raised a specific concern, pushback, or blocker, spoken or written, and you need to respond well rather than react |
 | **What you need** | The objection as stated, what you know about the person's role and authority, and whether you need a live spoken answer or a written reply |
-| **What you get** | A diagnosis of what is really driving the objection, a structured response, and an honest read on what the pipeline should do next |
+| **What you get** | A diagnosis of what is really driving the objection, a structured response, and a proposed pipeline decision |
 | **Your responsibility** | Decide what to actually say or send, and never let a stated objection be answered with an invented fact or an unauthorised commitment |
 
 ## 🔄 How It Works
@@ -73,13 +75,27 @@ The same surface wording can sit in different buckets depending on context. Work
 - Do not let a single-issue objection turn into a five-point pitch. Answer what was actually raised.
 - Keep any comparison to a named competitor or existing tool positioning-neutral. Never disparage it by name.
 
-### 5. End With a Real Next Step
+### 5. Stop When the Task Is Unsafe
+
+Do not produce a confident response when:
+
+- The objection involves a legal, compliance, or contractual question beyond what has already been confirmed
+- The real blocker is still unclear even after trying to identify the bucket
+- A full answer would require a commitment, such as a discount, a guarantee, or a timeline, that has not actually been authorised
+
+Flag the gap and say what is needed before a confident answer can be given, rather than answering around it.
+
+### 6. End With a Real Next Step
 
 Every objection response should end in one of four places: the conversation progresses, a dated follow-up is agreed, it moves to a longer nurture, or it is honestly disqualified. Answering the objection and then drifting with no next step at all is the most common way a handled objection still loses the deal.
 
 </details>
 
-## ✅ Check Before You Send
+## 👤 Human Review
+
+The AI drafts the response and proposes the pipeline decision. You decide what to actually say or send. Sending a message, and any resulting stage change, stays subject to your explicit approval.
+
+## ✅ Check Before You Send or Say It
 
 - Have you diagnosed the real driver, or just answered the surface words?
 - Does the bucket you chose actually fit this person's role and authority, not just their phrasing?
