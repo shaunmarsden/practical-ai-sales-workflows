@@ -83,3 +83,6 @@ Check every important statement, estimate, date and commitment before using the 
 - Invented or overstated claims
 - Whether every action has the right owner and timing
 - How much of the email and CRM draft you keep
+## 💬 Tried It?
+
+[Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
