@@ -87,3 +87,6 @@ Talk through important judgement, risks and gaps. Confirm who owns the next acti
 - Whether the next step happened with the right context
 
 The aim is continuity and good judgement, not a longer summary.
+## 💬 Tried It?
+
+[Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.

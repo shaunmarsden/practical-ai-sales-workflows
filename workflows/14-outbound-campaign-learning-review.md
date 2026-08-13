@@ -69,3 +69,6 @@ A small sample, a mixed audience, more than one variable changed at once, or a b
 - Whether a genuine like-for-like test, one variable changed, a large enough sample, ever gets run as a direct result of this review's "test next" suggestion
 - How often a flattering reply rate on a small sample turns out, once the sample grows, to have been noise rather than a real difference
 - Whether this structure actually led to a better next test, or just produced a tidy-looking report; log this honestly in the [time and quality log](../templates/time-and-quality-log.md)
+## 💬 Tried It?
+
+[Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.

@@ -71,3 +71,6 @@ Everything produced here is for the champion to use, present or send themselves.
 - Whether the champion reports feeling genuinely prepared for the questions that came up
 - How often an outstanding item was correctly left outstanding rather than assumed resolved
 - Whether the case actually progresses after the champion presents it, and what changed as a result
+## 💬 Tried It?
+
+[Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
