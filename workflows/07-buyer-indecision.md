@@ -87,3 +87,6 @@ End with a specific, low-stakes next step, not more pressure. If the buyer still
 - Whether offering a smaller first step moves stalled late-stage deals more than following up unchanged
 - How often a deal stuck in indecision closes after the decision is made smaller, versus after more pressure
 - How many late-stage deals sit unmoved for weeks with no specific blocker on record
+## 💬 Tried It?
+
+[Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
