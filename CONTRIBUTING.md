@@ -47,7 +47,7 @@ Reader-facing copy (guides, workflows, drafts inside examples) follows the [writ
 
 Repository-facing documentation (this file, `AGENTS.md`, evaluations) can be a little more procedural, but should still avoid corporate jargon, inflated claims, and unnecessary ceremony.
 
-The public repository stays vendor-neutral. Do not name Shaun's employer, reproduce its internal processes, pricing or programme detail, or imply the repository is endorsed by any employer. The one deliberate exception is the README's own About Me section, where Shaun names his real employer as part of his own personal bio, not as repository content; `repo_checks.py` allowlists that exact line and nowhere else.
+The public repository stays vendor-neutral. Do not name my employer, reproduce its internal processes, pricing or programme detail, or imply the repository is endorsed by any employer. The one deliberate exception is the README's own About Me section, where I name my real employer as part of my own personal bio, not as repository content; `repo_checks.py` allowlists that exact line and nowhere else.
 
 ## Before Opening a Pull Request
 
@@ -56,7 +56,7 @@ The public repository stays vendor-neutral. Do not name Shaun's employer, reprod
 - Confirm every new or changed relative link resolves.
 - If you are extending an existing sales problem, check whether a guide already covers it (`guides/where-to-start.md`, `guides/get-more-from-your-ai.md`, `guides/getting-started-with-ai.md`) before writing a new explanation. Link to the existing guide rather than repeating it.
 - Keep the branch and pull request focused on one piece of work. A mixed pull request that touches unrelated files is harder to review honestly.
-- Never merge your own pull request without explicit sign-off from Shaun. Draft pull requests are the default; leave them open for review.
+- Never merge your own pull request without my explicit sign-off. Draft pull requests are the default; leave them open for review.
 
 ## What Does Not Belong Here
 

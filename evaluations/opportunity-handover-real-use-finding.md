@@ -4,7 +4,7 @@
 
 **Internal real-use evidence for the underlying method. Not independent validation, and not yet a test of the new public skill unchanged.**
 
-Shaun used a private, repeatable AI-assisted handover method across 11 real sales-to-service handovers. A receiving colleague reported that the context was immediately useful and used one handover to challenge a material statement before relying on it. This is internal real-use evidence, not independent validation. The public skill is a sanitised reconstruction and has been tested only with fictional information.
+I used a private, repeatable AI-assisted handover method across 11 real sales-to-service handovers. A receiving colleague reported that the context was immediately useful and used one handover to challenge a material statement before relying on it. This is internal real-use evidence, not independent validation. The public skill is a sanitised reconstruction and has been tested only with fictional information.
 
 No real handover documents, names, employers, links or identifying details are reproduced here. This finding describes what repeated private use supports and does not support, at a level general enough to publish.
 
@@ -18,7 +18,7 @@ Across the documents reviewed, the handovers consistently carried useful sales c
 
 Later handovers, from the more recent batches, showed stronger handling of missing information, conflicting records, non-standard commitments, provisional recommendations, source traceability, data restrictions and measurable outcomes than the earlier ones. This pattern, of the method improving with repeated real use, is itself part of the evidence: it suggests the earlier gaps were genuine and worth fixing, not just noise.
 
-Shaun reports that he used a repeatable private Claude skill to create these handovers after deals closed. The public repository workflow was not necessarily run word for word against these deals. Treat this as real use of the underlying method, not as proof that the new public skill in this repository has already been used unchanged.
+I report that I used a repeatable private Claude skill to create these handovers after deals closed. The public repository workflow was not necessarily run word for word against these deals. Treat this as real use of the underlying method, not as proof that the new public skill in this repository has already been used unchanged.
 
 ## Internal Recipient Feedback
 

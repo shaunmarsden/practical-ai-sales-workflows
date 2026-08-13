@@ -1,10 +1,10 @@
-# Shaun's Sales Copilot: Internal Use Finding
+# My Sales Copilot: Internal Use Finding
 
 ## Status
 
 **Builder-reported internal use. Not independent validation.**
 
-Shaun reports that his private sales copilot is in use. This finding is based on that statement and a review of its current private instruction set on 5th August 2026. No real customer records, messages, transcripts, employer process or private agent instructions are reproduced here.
+I report that my private sales copilot is in use. This finding is based on that statement and a review of its current private instruction set on 5th August 2026. No real customer records, messages, transcripts, employer process or private agent instructions are reproduced here.
 
 ## What Was Directly Inspected
 
@@ -23,7 +23,7 @@ This supports classifying it as an **approval-gated orchestration agent**, not a
 ## What Internal Use Supports
 
 - A private agent exists.
-- Its builder reports using it in live sales work.
+- I report using it in live sales work.
 - The intended use covers more than one sales job and more than one evidence source.
 - The operating model keeps external actions under human approval.
 - The private method is mature enough to extract a public, vendor-neutral design pattern.
@@ -33,7 +33,7 @@ This supports classifying it as an **approval-gated orchestration agent**, not a
 - No frequency of use is logged publicly.
 - No measured time saving is available.
 - No conversion, revenue or productivity outcome is attributed to the agent.
-- One sanitised live run has now been published as a formal finding, see below, but it is one run, by the builder, not a pattern of use.
+- One sanitised live run has now been published as a formal finding, see below, but it is one run, by me, not a pattern of use.
 - No independent external user has tested the public template.
 - The instruction set alone does not prove that every connector, permission or specialist route works as written.
 
@@ -51,7 +51,7 @@ This supports classifying it as an **approval-gated orchestration agent**, not a
 
 ### Hard Controls Added to the Public Method After Review
 
-These five controls are confirmed present in the public guide, template and fictional test that came out of this review. Shaun indicated that he believed he had also applied equivalent changes to the private agent's own instructions, but that private, saved configuration was not independently verified as part of this review.
+These five controls are confirmed present in the public guide, template and fictional test that came out of this review. I believe I had also applied equivalent changes to the private agent's own instructions, but that private, saved configuration was not independently verified as part of this review.
 
 - Every named specialist route must be confirmed installed and available before use. A missing route must be reported explicitly, not hidden behind a generic fallback.
 - Written instructions and connected-app permissions must both be checked. Customer-facing, record-changing and difficult-to-reverse actions remain approval-gated even when a tool could technically perform them.
@@ -77,4 +77,4 @@ The general method is now documented in:
 
 ## Next Evidence
 
-The next major gap is an independent attempt: a salesperson outside this project adapting the public template with their own approved information and reporting where it helps or fails, rather than another internal run by the builder.
+The next major gap is an independent attempt: a salesperson outside this project adapting the public template with their own approved information and reporting where it helps or fails, rather than another internal run by me.

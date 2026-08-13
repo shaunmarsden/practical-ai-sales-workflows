@@ -146,7 +146,7 @@ If the user wants the short version of a job rather than the full workflow, poin
 - [Curated Bundles](guides/curated-bundles.md), three starting groupings of existing recipe cards (a starter pack, a post-call pack, a deal progression pack) for a first-time reader who does not want to read all fifteen cards to find their own job
 - [Progressive Disclosure](guides/progressive-disclosure.md), the standard for keeping a skill's core `SKILL.md` short and pushing deeper material into supporting files, with an audit of the current skill library against it
 - [Composing Longer Workflows](guides/composing-longer-workflows.md), principles for chaining workflows together (working folders, visible progress, spend checkpoints, a manual route, method before platform, judgement versus mechanics, visible instructions), not a description of software that exists here yet
-- [Build an Approval-Gated Sales Copilot](guides/build-an-approval-gated-sales-copilot.md), the composition method for an orchestrating agent that chooses between several bounded workflows, based on Shaun's own private sales copilot, with a reusable vendor-neutral template, a fictional multi-source test, a scored evaluation and a [sanitised live-run finding](evaluations/sales-copilot-live-run-finding.md)
+- [Build an Approval-Gated Sales Copilot](guides/build-an-approval-gated-sales-copilot.md), the composition method for an orchestrating agent that chooses between several bounded workflows, based on my own private sales copilot, with a reusable vendor-neutral template, a fictional multi-source test, a scored evaluation and a [sanitised live-run finding](evaluations/sales-copilot-live-run-finding.md)
 
 ### Outbound Prospecting
 
@@ -327,6 +327,6 @@ When the user asks you to improve the repository:
 7. Validate relative links.
 8. Keep confirmed facts, estimates, inferences, unknowns and conflicting evidence separate.
 9. Prefer testing existing material over adding more categories.
-10. Never merge without Shaun's explicit instruction.
+10. Never merge without my explicit instruction.
 
 For public changes, use fictional or sanitised material only. Keep private context and real customer work out of commits, pull requests and issues.
