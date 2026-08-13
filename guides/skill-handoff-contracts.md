@@ -27,7 +27,7 @@ Using the fictional [Hartwell post-call transcript](../examples/hartwell-post-ca
 
 **What draft follow-up email is allowed to do with this:** personalise the opening line and the resource summary using the confirmed facts and the labelled estimate. State that Thursday afternoon is conditional on Alex's internal approval, not a firm date. Leave a placeholder for the Tuesday review time rather than inventing one.
 
-**What still requires a person:** Shaun checking his own diary before those times go in the email. Alex's internal approval before the transcript is shared. Whether to actually send the email at all.
+**What still requires a person:** me checking my own diary before those times go in the email. Alex's internal approval before the transcript is shared. Whether to actually send the email at all.
 
 Every one of those six things is already present in the [worked output](../examples/hartwell-post-call-output.md)'s own Final Accuracy Check section. The contract here is not new content: it is making explicit, at the handoff point between the two skills, what the finished output already had to get right by the end.
 
