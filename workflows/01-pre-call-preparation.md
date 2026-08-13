@@ -111,3 +111,6 @@ Attach the completed template and your approved source material beneath the inst
 - Which parts you actually used during the call
 
 The aim is better preparation with less avoidable effort, not more text.
+## 💬 Tried It?
+
+[Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
