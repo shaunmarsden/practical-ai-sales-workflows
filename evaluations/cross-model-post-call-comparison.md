@@ -6,9 +6,9 @@ This compares corrections needed, not which answer reads most polished. A fluent
 
 ## Method Note
 
-Claude was run in a brand new conversation, separate from any prior conversation, specifically so the result wasn't just Claude confirming something it had already been told the answer to. ChatGPT and Gemini were run by Shaun directly, since this environment's browser tooling is blocked from reaching either domain; the raw outputs were pasted back unedited before scoring.
+Claude was run in a brand new conversation, separate from any prior conversation, specifically so the result wasn't just Claude confirming something it had already been told the answer to. I ran ChatGPT and Gemini directly, since this environment's browser tooling is blocked from reaching either domain; the raw outputs were pasted back unedited before scoring.
 
-**Microsoft Copilot is not included in this run, and that gap is worth naming rather than leaving quiet.** A genuine comparison would cover it: it's frequently the only AI tool a salesperson has access to, since plenty of organisations lock the choice down to whatever their IT department has already rolled out, and Copilot users deserve the same evidence as everyone else, not an assumption that the other three are the default and Copilot is an afterthought. It's missing here for a plain reason: neither Shaun nor this environment currently has access to it to run the test honestly. If that changes, this is the first thing to add.
+**Microsoft Copilot is not included in this run, and that gap is worth naming rather than leaving quiet.** A genuine comparison would cover it: it's frequently the only AI tool a salesperson has access to, since plenty of organisations lock the choice down to whatever their IT department has already rolled out, and Copilot users deserve the same evidence as everyone else, not an assumption that the other three are the default and Copilot is an afterthought. It's missing here for a plain reason: I did not have access to it, and this environment could not reach it, so I could not run the test honestly. If that changes, this is the first thing to add.
 
 ## Result
 
@@ -43,7 +43,7 @@ The chart shows the same numbers as the tables below; it does not replace them.
 
 - Correctly labelled the fifteen-to-thirty-minute admin figure as Alex's own unmeasured estimate, in every section where it appeared.
 - Preserved every conditional word: the transcript approval, Thursday afternoon, and Tuesday morning were all kept pending rather than upgraded into firm commitments.
-- Did not invent a product, price, or implementation date, correctly noticing the transcript never actually names what Shaun is selling.
+- Did not invent a product, price, or implementation date, correctly noticing the transcript never actually names what I am selling.
 - Framed every CRM update and email draft as a suggestion for human review, not a completed action.
 - No em dashes, no invented urgency, no filler phrases in any of the three follow-up emails.
 
@@ -59,11 +59,11 @@ Gemini's "Missing Information" section listed four items, against ChatGPT's ten 
 
 ### ChatGPT: most thorough, one minor clarity blur
 
-ChatGPT's actions table used "Shaun and Alex" as a joint owner for two rows (running the example together, reviewing the result together). That's an honest description of what those steps actually are, but it's less crisp for "who owns the next move" than a single-owner row, which is what cost it a point on next step clarity, the only criterion it didn't score a perfect 5 on. Otherwise this was the strongest run: it explicitly cited the prompt's own call-date rule, added an explicit "Inferences: none relied upon" line showing it had actively checked itself for smuggled-in assumptions, and its Final Accuracy Check used a consistent "this would overstate it, corrected to X" structure that mapped cleanly onto genuine risks rather than restating obvious rules.
+ChatGPT's actions table listed Alex and me as joint owners for two rows (running the example together, reviewing the result together). That's an honest description of what those steps actually are, but it's less crisp for "who owns the next move" than a single-owner row, which is what cost it a point on next step clarity, the only criterion it didn't score a perfect 5 on. Otherwise this was the strongest run: it explicitly cited the prompt's own call-date rule, added an explicit "Inferences: none relied upon" line showing it had actively checked itself for smuggled-in assumptions, and its Final Accuracy Check used a consistent "this would overstate it, corrected to X" structure that mapped cleanly onto genuine risks rather than restating obvious rules.
 
 ## What This Actually Suggests
 
-In this one run, ChatGPT needed the fewest corrections, Claude needed one real one, and Gemini needed a couple, including a self-check that missed the thing its own email got slightly wrong. That is not the same as "ChatGPT is better at this task." It is one transcript, one prompt, one run per model, with no control over each provider's default settings, reasoning effort, or model version at the time Shaun ran his two.
+In this one run, ChatGPT needed the fewest corrections, Claude needed one real one, and Gemini needed a couple, including a self-check that missed the thing its own email got slightly wrong. That is not the same as "ChatGPT is better at this task." It is one transcript, one prompt, one run per model, with no control over each provider's default settings, reasoning effort, or model version at the time I ran mine.
 
 ## Honest Caveat and Next Test
 
