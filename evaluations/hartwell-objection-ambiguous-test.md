@@ -4,7 +4,7 @@ A stability test, not a single scored example. The same deliberately [ambiguous 
 
 ## Method Note
 
-The three Claude runs were run by Claude in fresh, cold conversations. The ChatGPT and Gemini runs were run by hand by Shaun, using the identical input, and pasted back for scoring, because Claude cannot access chatgpt.com or gemini.google.com. This is the same split used in the [cross-model post-call comparison](cross-model-post-call-comparison.md). Copilot is again absent, since it was not available to test; see that comparison's caveat, which applies here too.
+The three Claude runs were run by Claude in fresh, cold conversations. I ran the ChatGPT and Gemini runs by hand, using the identical input, and pasted them back for scoring, because Claude cannot access chatgpt.com or gemini.google.com. This is the same split used in the [cross-model post-call comparison](cross-model-post-call-comparison.md). Copilot is again absent, since it was not available to test; see that comparison's caveat, which applies here too.
 
 ## Scenario
 

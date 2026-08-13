@@ -18,7 +18,7 @@ Moved beyond adding individual sales workflows into testing how they can be coor
 
 - Added a public guide and a vendor-neutral composition template for an approval-gated sales copilot, an orchestration layer that chooses between existing bounded workflows rather than a new, seventeenth sales job.
 - Added a fictional multi-source orchestration test and its scored evaluation.
-- Added a sanitised finding describing Shaun's private sales copilot's reported internal use, kept clearly labelled as builder-reported, not independent evidence.
+- Added a sanitised finding describing my private sales copilot's reported internal use, kept clearly labelled as builder-reported, not independent evidence.
 - Added the method's first sanitised live-run finding: a real request where the public method prioritised a fixed meeting over a wider pipeline search, kept retrieval narrow, verified the relevant specialist route before using it, and surfaced an attendee-identity ambiguity across connected records rather than guessing. Nothing was sent, booked or changed; every external write stayed behind approval. One live run is not proof the method is reliable or that anyone outside the project has adopted it.
 
 ### Stronger Skills and Harder Tests
