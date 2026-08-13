@@ -87,3 +87,6 @@ Anything measured, proven, or genuinely useful from the work already done, a pil
 - How often a stated reason turns out to be more than one factor once reviewed properly
 - Whether reusable evidence from a lost deal, such as a proof point or pilot result, actually gets reused elsewhere
 - Time between a deal closing lost and any honest review of it actually happening
+## 💬 Tried It?
+
+[Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
