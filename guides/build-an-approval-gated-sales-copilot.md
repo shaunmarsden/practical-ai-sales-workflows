@@ -4,7 +4,7 @@ A sales copilot is useful when one request needs more than one source or workflo
 
 The important word is **prepare**. The copilot can gather, compare, route and draft. A person still approves customer messages, CRM changes, meeting changes and commercial decisions.
 
-This guide is based on the method behind Shaun's private sales copilot, which he reports using in live work. The public version does not reproduce its private instructions, connected records or employer-specific process. See the [sanitised internal-use finding](../evaluations/shauns-sales-copilot-internal-use-finding.md) for the evidence boundary.
+This guide is based on the method behind my private sales copilot, which I use in live work. The public version does not reproduce its private instructions, connected records or employer-specific process. See the [sanitised internal-use finding](../evaluations/shauns-sales-copilot-internal-use-finding.md) for the evidence boundary.
 
 [Composing Longer Workflows](composing-longer-workflows.md) sets out the principles a more integrated tool should hold to before it exists. This copilot is a first concrete example moving toward some of them: it keeps a manual route, separates judgement from mechanics and gates every external action behind approval. It does not yet keep a working folder or run log, show progress mid-run, or need a spend checkpoint, since each command mode here is a single request and response rather than a longer unattended run.
 
@@ -30,7 +30,7 @@ These terms overlap across tools, so use the behaviour rather than the product l
 | Workflow | Connects several steps for one sales job |
 | Orchestrating agent | Interprets the request, gathers the right evidence, chooses the bounded workflow and assembles the result |
 
-Shaun's Sales Copilot fits the last category. Its main job is not writing every output itself. Its job is deciding what matters, which evidence is relevant and which specialist workflow should do the work.
+My Sales Copilot fits the last category. Its main job is not writing every output itself. Its job is deciding what matters, which evidence is relevant and which specialist workflow should do the work.
 
 ## The Method
 
