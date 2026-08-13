@@ -79,3 +79,6 @@ A reply, positive or otherwise, stops the cold sequence immediately; never let a
 - How often a target scored highly turns out to have a real, reachable buyer once contacted
 - How often the same prospect is contacted twice because a reply or an existing record was missed
 - How often a first-touch message needs a meeting-led approach instead of a low-friction reply, and why
+## 💬 Tried It?
+
+[Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
