@@ -30,7 +30,7 @@ These terms overlap across tools, so use the behaviour rather than the product l
 | Workflow | Connects several steps for one sales job |
 | Orchestrating agent | Interprets the request, gathers the right evidence, chooses the bounded workflow and assembles the result |
 
-Shaun's Sales Copilot fits the last category. Its main job is not writing every output itself. Its job is deciding what matters, which evidence is relevant and which specialist workflow should do the work.
+My Sales Copilot fits the last category. Its main job is not writing every output itself. Its job is deciding what matters, which evidence is relevant and which specialist workflow should do the work.
 
 ## The Method
 
