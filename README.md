@@ -89,7 +89,7 @@ Looking for chasing, fit checking, champion support, handover, CRM hygiene, week
 
 ## 💬 Give Me Blunt Feedback
 
-Tried one of the workflows? Tell me what worked, where you got stuck and the one thing you would change. The private form takes about two minutes and does not collect your email address automatically. For public feedback, you can now use the [structured feedback template](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) or start a discussion. For public feedback, you can now use the [structured feedback template](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) or start a discussion.
+Tried one of the workflows? Tell me what worked, where you got stuck and the one thing you would change. The private form takes about two minutes and does not collect your email address automatically. For public feedback, you can now use the [structured feedback template](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) or start a discussion.
 
 **[Give Quick Private Feedback &rarr;](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform)** · **[Share Public Feedback &rarr;](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback)**
 
