@@ -6,7 +6,7 @@ The important word is **prepare**. The copilot can gather, compare, route and dr
 
 This guide is based on the method behind my private sales copilot, which I report using in live work. The public version does not reproduce its private instructions, connected records or employer-specific process. See the [sanitised internal-use finding](../evaluations/sales-copilot-internal-use-finding.md) for the evidence boundary.
 
-[Composing Longer Workflows](composing-longer-workflows.md) sets out the principles a more integrated tool should hold to before it exists. This copilot is a first concrete example moving toward some of them: it keeps a manual route, separates judgement from mechanics and gates every external action behind approval. It does not yet keep a working folder or run log, show progress mid-run, or need a spend checkpoint, since each command mode here is a single request and response rather than a longer unattended run.
+[Composing Longer Workflows](composing-longer-workflows.md) sets out the wider principles a more integrated tool should hold to. This copilot is a first concrete step toward them: it keeps a manual route, separates judgement from mechanics and gates every external action behind approval.
 
 ## At a Glance
 
@@ -92,7 +92,7 @@ Use the same labels throughout the result:
 - **Unknown:** important information is missing.
 - **Conflicting:** reliable sources disagree.
 
-This adds one label to the repository's usual four from [Methodology](../METHODOLOGY.md), which folds a contradiction into Unknown. A single-source workflow rarely needs to tell the two apart. A copilot reading a calendar, CRM, email and meeting notes at once does: "nobody has said what the close date is" and "the CRM says the 18th and the email says otherwise" call for different next actions, so Conflicting stays a label of its own here rather than a kind of Unknown.
+This adds one label to the repository's usual four from [Methodology](../METHODOLOGY.md), which folds a contradiction into Unknown. A single-source workflow rarely needs to tell the two apart, but a copilot reading a calendar, CRM, email and meeting notes at once does. "Nobody has said what the close date is" and "the CRM says the 18th and the email says otherwise" call for different next actions, so Conflicting stays a label of its own here rather than a kind of Unknown.
 
 Do not turn a CRM stage into proof of progress, a discussed action into an agreed action or a likely stakeholder into a confirmed decision-maker.
 
@@ -161,5 +161,7 @@ Start with the [fictional source pack](../examples/fictional-sales-copilot-sourc
 ## What This Does Not Prove
 
 One fictional run shows that the method can produce a useful result under those conditions. Builder-reported internal use shows that a private version is being used. A [sanitised live-run finding](../evaluations/sales-copilot-live-run-finding.md) shows the public method handled one real request safely, prioritising a fixed commitment, keeping retrieval narrow and surfacing an identity ambiguity rather than guessing. None of this proves reliability, measured time saving or successful independent adoption.
+
+It also does not yet keep a working folder or run log, show progress mid-run, or need a spend checkpoint, since each command mode here is a single request and response rather than a longer unattended run. See [Composing Longer Workflows](composing-longer-workflows.md) for what a more integrated version would need to add.
 
 The next useful evidence is an honest attempt by someone outside the project, not more command modes.
