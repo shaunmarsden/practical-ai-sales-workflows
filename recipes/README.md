@@ -6,22 +6,22 @@ If you want the fuller method, the guardrails, or a second worked test for any o
 
 Tried a card? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.
 
-- [Find the Next Prospect](find-the-next-prospect.md)
-- [Prepare for a Sales Call](prepare-for-a-sales-call.md)
-- [Follow Up After a Sales Call](follow-up-after-a-sales-call.md)
-- [Check Whether It Actually Fits](check-whether-it-actually-fits.md)
-- [Build a Business Case](build-a-business-case.md)
-- [Brief Your Champion](brief-your-champion.md)
-- [Chase a Quiet Prospect](chase-a-quiet-prospect.md)
-- [Handle an Objection](handle-an-objection.md)
-- [Spot a Real Objection Pattern](spot-a-real-objection-pattern.md)
-- [Move a Stalled Decision](move-a-stalled-decision.md)
-- [Hand Over an Opportunity](hand-over-an-opportunity.md)
-- [Review a Lost Opportunity](review-a-lost-opportunity.md)
-- [Review Your Pipeline](review-your-pipeline.md)
-- [Keep Your CRM Honest](keep-your-crm-honest.md)
-- [Get a Weekly View Without Building a Dashboard](get-a-weekly-view.md)
-- [Review an Outbound Campaign](review-an-outbound-campaign.md)
+- 🔎 [Find the Next Prospect](find-the-next-prospect.md)
+- 📞 [Prepare for a Sales Call](prepare-for-a-sales-call.md)
+- ✉️ [Follow Up After a Sales Call](follow-up-after-a-sales-call.md)
+- 🧩 [Check Whether It Actually Fits](check-whether-it-actually-fits.md)
+- 📄 [Build a Business Case](build-a-business-case.md)
+- 🤝 [Brief Your Champion](brief-your-champion.md)
+- 🔁 [Chase a Quiet Prospect](chase-a-quiet-prospect.md)
+- 🙅 [Handle an Objection](handle-an-objection.md)
+- 📈 [Spot a Real Objection Pattern](spot-a-real-objection-pattern.md)
+- 🚦 [Move a Stalled Decision](move-a-stalled-decision.md)
+- 🤲 [Hand Over an Opportunity](hand-over-an-opportunity.md)
+- 📉 [Review a Lost Opportunity](review-a-lost-opportunity.md)
+- 📊 [Review Your Pipeline](review-your-pipeline.md)
+- 🧹 [Keep Your CRM Honest](keep-your-crm-honest.md)
+- 🗓️ [Get a Weekly View Without Building a Dashboard](get-a-weekly-view.md)
+- 📤 [Review an Outbound Campaign](review-an-outbound-campaign.md)
 
 Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead. Want all sixteen on one printable page instead of sixteen separate ones? [Open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
 
