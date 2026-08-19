@@ -160,7 +160,11 @@ Start with the [fictional source pack](../examples/fictional-sales-copilot-sourc
 
 ## What This Does Not Prove
 
-One fictional run shows that the method can produce a useful result under those conditions. Builder-reported internal use shows that a private version is being used. A [sanitised live-run finding](../evaluations/sales-copilot-live-run-finding.md) shows the public method handled one real request safely, prioritising a fixed commitment, keeping retrieval narrow and surfacing an identity ambiguity rather than guessing. None of this proves reliability, measured time saving or successful independent adoption.
+- **One fictional run** shows that the method can produce a useful result under those conditions.
+- **Builder-reported internal use** shows that a private version is being used.
+- **A [sanitised live-run finding](../evaluations/sales-copilot-live-run-finding.md)** shows the public method handled one real request safely, prioritising a fixed commitment, keeping retrieval narrow and surfacing an identity ambiguity rather than guessing.
+
+None of this proves reliability, measured time saving or successful independent adoption.
 
 It also does not yet keep a working folder or run log, show progress mid-run, or need a spend checkpoint, since each command mode here is a single request and response rather than a longer unattended run. See [Composing Longer Workflows](composing-longer-workflows.md) for what a more integrated version would need to add.
 
