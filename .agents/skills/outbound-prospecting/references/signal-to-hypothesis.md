@@ -6,20 +6,24 @@ A public signal is not evidence of an internal problem. It is a clue worth check
 
 For any signal used to justify an approach, state all six of the following, not just the parts that make the hook sound stronger:
 
-1. **Observed signal and source.** What was actually seen, and where. Not "the company is growing," but the specific, checkable fact and where it came from.
-2. **Possible relevance.** Why this signal might point at the problem the offer solves, stated as a hypothesis, not a conclusion.
-3. **What it does not prove.** The specific thing this signal cannot establish on its own, so the gap is visible rather than papered over.
-4. **A question that could verify it.** What would need to be true, or what a reply would need to confirm, for the hypothesis to hold.
-5. **A safe outreach angle.** How to reference the signal in the first-touch message without overclaiming what it proves.
-6. **Reasons not to use it.** When this particular signal is too weak, too generic, or too easily true of any company in the sector to justify an approach at all.
+| State this... | ...to capture |
+| --- | --- |
+| **Observed signal and source** | What was actually seen, and where. Not "the company is growing," but the specific, checkable fact and where it came from. |
+| **Possible relevance** | Why this signal might point at the problem the offer solves, stated as a hypothesis, not a conclusion. |
+| **What it does not prove** | The specific thing this signal cannot establish on its own, so the gap is visible rather than papered over. |
+| **A question that could verify it** | What would need to be true, or what a reply would need to confirm, for the hypothesis to hold. |
+| **A safe outreach angle** | How to reference the signal in the first-touch message without overclaiming what it proves. |
+| **Reasons not to use it** | When this particular signal is too weak, too generic, or too easily true of any company in the sector to justify an approach at all. |
 
 ## Three Concrete Signal Categories
 
 The [outbound prospecting skill](../SKILL.md) already requires a real, verifiable signal rather than a generic industry trend. These three are worth naming explicitly, because each is a checkable fact, not a guess about a company's internal state:
 
-- **Audience or follower size, as a proxy for growth intent.** A company visibly growing its public audience is not confirmed to have any specific internal problem, but it is a real, checkable fact worth a hypothesis about growth-related pressure.
-- **Active ad spend, as a proxy for investment intent.** Visible, ongoing paid activity is a real signal that budget is being committed somewhere, not proof of which problem that budget is meant to solve.
-- **Active hiring for a role the offer would replace or support, as a proxy for a live, current problem.** A live vacancy for a role connected to the offer is a real, checkable fact and one of the stronger available signals, not confirmation of the specific pain behind the hire.
+| Signal | What it does and does not establish |
+| --- | --- |
+| **Audience or follower size**, as a proxy for growth intent | A company visibly growing its public audience is not confirmed to have any specific internal problem, but it is a real, checkable fact worth a hypothesis about growth-related pressure. |
+| **Active ad spend**, as a proxy for investment intent | Visible, ongoing paid activity is a real signal that budget is being committed somewhere, not proof of which problem that budget is meant to solve. |
+| **Active hiring** for a role the offer would replace or support, as a proxy for a live, current problem | A live vacancy for a role connected to the offer is a real, checkable fact and one of the stronger available signals, not confirmation of the specific pain behind the hire. |
 
 Each of these is checkable directly, a follower count, an ad library entry, a job listing, rather than an inference about the business behind it. That is what keeps them inside the existing skill's guardrail against a generic industry observation standing in for a real signal.
 
