@@ -4,7 +4,7 @@ This review scores the [worked analysis](../examples/hartwell-lost-opportunity-a
 
 ## Result
 
-**Score: 46 out of 50**
+**Score: 47 out of 50**
 
 **Automatic failure: No**
 
