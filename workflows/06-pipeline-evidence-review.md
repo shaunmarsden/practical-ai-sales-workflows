@@ -95,6 +95,7 @@ A review that manufactures a problem on a sound deal will not be trusted on the 
 - How many open deals carry a close date that has already passed
 - How often a late-stage deal rests on a single stakeholder with no backup contact
 - Whether the corrected pipeline total differs materially from the recorded one
+
 ## 💬 Tried It?
 
 [Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.

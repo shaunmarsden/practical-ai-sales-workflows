@@ -116,6 +116,7 @@ The AI drafts the response and proposes the pipeline decision. You decide what t
 - How often an objection response actually moves to a clear next step rather than trailing off
 - How often the same objection has to be handled twice because the first answer addressed the wrong driver
 - How often a genuine disqualification is called honestly, rather than argued with
+
 ## 💬 Tried It?
 
 [Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.

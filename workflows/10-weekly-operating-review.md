@@ -79,6 +79,7 @@ The three priorities for next week should come from what this week's data actual
 - How often a section is reported missing rather than quietly filled with an assumption
 - How often this week's three priorities actually get addressed before the next report
 - How much this report actually saves compared with pulling the same view together by hand
+
 ## 💬 Tried It?
 
 [Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
