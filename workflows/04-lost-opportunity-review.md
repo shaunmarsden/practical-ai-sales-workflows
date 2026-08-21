@@ -26,6 +26,8 @@ flowchart TB
 - [Use the Lost Opportunity Review prompt](../templates/lost-opportunity-review-prompt.md)
 - [See the completed Hartwell analysis](../examples/hartwell-lost-opportunity-analysis.md)
 - [Read the honest review](../evaluations/hartwell-lost-opportunity-review.md)
+- [Use with AI: the review-lost-opportunity skill](../.agents/skills/review-lost-opportunity/SKILL.md)
+- [Read the real-use finding](../CHANGELOG.md#real-use-findings): a real stalled deal exposed a missing classification, no decision at all
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>
@@ -87,6 +89,7 @@ Anything measured, proven, or genuinely useful from the work already done, a pil
 - How often a stated reason turns out to be more than one factor once reviewed properly
 - Whether reusable evidence from a lost deal, such as a proof point or pilot result, actually gets reused elsewhere
 - Time between a deal closing lost and any honest review of it actually happening
+
 ## 💬 Tried It?
 
 [Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
