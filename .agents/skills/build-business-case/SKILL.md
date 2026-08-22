@@ -78,4 +78,4 @@ Before this goes to a prospect, a person must check that every commercial figure
 
 Read [the audit checklist](references/audit-checklist.md) before presenting a finished or audited draft.
 
-For a fictional test, read [the Hartwell example](references/hartwell-example.md). For a second test with a different commercial shape and decision-maker dynamic, read [the Bramfield example](references/bramfield-example.md).
+For a fictional test, read [the Hartwell example](references/hartwell-example.md). For a second test with a different commercial shape and decision-maker dynamic, read [the Bramfield example](references/bramfield-example.md). For a third test built entirely on pre-pilot projections, where an unmeasured time estimate and an unconfirmed future headcount are both live traps, read [the Aldercroft example](../../../examples/aldercroft-business-case-transcript.md).
