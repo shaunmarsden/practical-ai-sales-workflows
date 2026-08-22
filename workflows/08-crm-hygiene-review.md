@@ -92,6 +92,7 @@ Where a record has every field present, a realistic close date for its stage, an
 - How many records are missing a critical field at any given time, and whether that number falls after a review
 - How often a record that looked complete turns out to be stale once last-activity dates are checked
 - How much a pipeline total changes once confirmed duplicates and corrected fields are accounted for
+
 ## 💬 Tried It?
 
 [Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.

@@ -81,6 +81,7 @@ A small log can rule a pattern in with reasonable confidence but rarely rules on
 - How often a confirmed, high-confidence pattern actually leads to a useful change, such as a prepared answer or a playbook update
 - How the same pattern's confidence changes as the log grows from a handful of entries to a genuinely large sample
 - How often an objection type first seen as isolated turns out, later, to be part of a real pattern
+
 ## 💬 Tried It?
 
 [Share structured workflow feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new?template=workflow-feedback.md) about what worked, where you got stuck and what you would change. Please do not include customer, employer or confidential information.
