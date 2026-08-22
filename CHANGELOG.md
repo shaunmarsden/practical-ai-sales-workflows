@@ -10,6 +10,12 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Harder Objection-Handling Tests
+
+- Added a harder fictional test for Handle an Objection, built around the objection-response skill's own stop condition: a genuine contractual question nobody on the call has actually confirmed, rather than another diagnosis case. Scored 47 out of 50; the skill correctly refused to resolve the clause in either direction and reframed toward the specific unconfirmed question instead.
+- Wired in an existing but previously unlinked stability test that runs a deliberately ambiguous objection three times each across three different models and checks whether the diagnosed driver holds steady. It did not, by design: the point of the test is that a genuinely ambiguous objection can reasonably diagnose to more than one driver, and the test surfaces that rather than hiding it.
+- Updated the evidence-status matrix's Handle an Objection row to reflect three scored tests rather than one.
+
 ## v1.2.0, 7 August 2026
 
 Moved beyond adding individual sales workflows into testing how they can be coordinated safely, and made the evidence behind every job easier to inspect.
