@@ -10,6 +10,11 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Harder Buyer-Indecision Test
+
+- Added a harder fictional test for Move a Stalled Decision (Wrenmoor Analytics / Farrah Osei), where each stated reason to delay is individually legitimate and genuinely gets resolved, only for a new, unrelated reason to appear immediately after. Scored 46 out of 50; the skill correctly declined to read the first two reasons as indecision while they were still open, and correctly did not accept a dated, plausible-looking team offsite as a clean external blocker once it was the third reason in the same pattern.
+- Updated the evidence-status matrix's Move a Stalled Decision row to reflect two scored cases rather than one.
+
 ## v1.2.0, 7 August 2026
 
 Moved beyond adding individual sales workflows into testing how they can be coordinated safely, and made the evidence behind every job easier to inspect.

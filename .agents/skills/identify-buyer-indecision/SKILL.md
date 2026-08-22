@@ -33,4 +33,4 @@ Run [the human review checklist](checks/checklist.md) before anything from this 
 
 This skill diagnoses only. For drafting the actual customer-facing response once genuine indecision is confirmed, use the [buyer indecision workflow](../../../workflows/07-buyer-indecision.md) and its [prompt template](../../../templates/buyer-indecision-prompt.md).
 
-Read [the fictional example](references/fictional-example.md) for a test.
+Read [the fictional example](references/fictional-example.md) for a test, or [the Wrenmoor example](../../../examples/wrenmoor-indecision-input.md) for a harder test: a buyer whose stated reasons keep getting genuinely resolved, only for a new one to take each one's place.

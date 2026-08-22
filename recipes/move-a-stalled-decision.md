@@ -17,7 +17,7 @@ A diagnosis of whether this is genuine indecision, and if so, a response that sh
 ## Open
 
 **[Workflow](../workflows/07-buyer-indecision.md)**  
-Also: [Prompt](../templates/buyer-indecision-prompt.md) · [Skill](../.agents/skills/identify-buyer-indecision/SKILL.md) · [Worked example](../examples/calderwood-indecision-response.md) · [Real-use boundary finding](../evaluations/buyer-indecision-real-use-finding.md)
+Also: [Prompt](../templates/buyer-indecision-prompt.md) · [Skill](../.agents/skills/identify-buyer-indecision/SKILL.md) · [Worked example](../examples/calderwood-indecision-response.md) · [Harder test: reasons that resolve, then repeat as something new](../examples/wrenmoor-indecision-response.md) · [Real-use boundary finding](../evaluations/buyer-indecision-real-use-finding.md)
 
 ## The AI cannot decide
 
