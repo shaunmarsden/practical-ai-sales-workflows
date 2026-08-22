@@ -1,6 +1,6 @@
 # Recipe Cards
 
-Sixteen sales jobs, one page each. Every card is self-contained: what it helps with, what you need, what you'll get, what the AI cannot decide, what you must check, and what to do next. You should never need to open anything else in the repository to use one.
+Seventeen sales jobs, one page each. Every card is self-contained: what it helps with, what you need, what you'll get, what the AI cannot decide, what you must check, and what to do next. You should never need to open anything else in the repository to use one.
 
 If you want the fuller method, the guardrails, or a second worked test for any of these, each card links to the full workflow, prompt, or skill behind it.
 
@@ -22,7 +22,8 @@ Tried a card? [Give quick private feedback](https://docs.google.com/forms/d/e/1F
 - 🧹 [Keep Your CRM Honest](keep-your-crm-honest.md)
 - 🗓️ [Get a Weekly View Without Building a Dashboard](get-a-weekly-view.md)
 - 📤 [Review an Outbound Campaign](review-an-outbound-campaign.md)
+- 🕵️ [Spot the Real Blocker](spot-the-real-blocker.md)
 
-Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead. Want all sixteen on one printable page instead of sixteen separate ones? [Open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
+Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead. Want all seventeen on one printable page instead of seventeen separate ones? [Open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
 
 None of these claim a time saved. If you want to know whether one is actually worth using, log your own time honestly with the [time and quality log](../templates/time-and-quality-log.md) rather than trusting that a recipe helped because it reads well.
