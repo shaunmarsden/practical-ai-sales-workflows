@@ -28,6 +28,7 @@ flowchart TB
 - [See the fictional Rowcastle scenario](../examples/rowcastle-real-blocker-input.md)
 - [See the completed diagnosis](../examples/rowcastle-real-blocker-output.md)
 - [Read the honest review](../evaluations/rowcastle-real-blocker-review.md)
+- [See a harder test: enrolling by stealth](../examples/oakriven-real-blocker-output.md), [and its review](../evaluations/oakriven-real-blocker-review.md)
 - [Use with AI: the real-blocker-diagnosis skill](../.agents/skills/real-blocker-diagnosis/SKILL.md)
 
 <details>
