@@ -26,7 +26,7 @@ A headed, prose business case, with:
 ## Open
 
 **[Skill](../.agents/skills/build-business-case/SKILL.md)**  
-Also: [Audit checklist](../.agents/skills/build-business-case/references/audit-checklist.md) · [Hartwell example](../examples/hartwell-business-case-output.md) · [Bramfield example](../examples/bramfield-business-case-output.md)
+Also: [Audit checklist](../.agents/skills/build-business-case/references/audit-checklist.md) · [Hartwell example](../examples/hartwell-business-case-output.md) · [Bramfield example](../examples/bramfield-business-case-output.md) · [Harder test: a pre-pilot projection](../examples/aldercroft-business-case-output.md)
 
 ## The AI cannot decide
 
@@ -46,7 +46,7 @@ Confirm every commercial figure and the risk section are accurate, then send it 
 
 ---
 
-Want the fuller method, the evidence classification rules, or a second worked test with a different commercial shape? Open the [skill](../.agents/skills/build-business-case/SKILL.md) itself.
+Want the fuller method, the evidence classification rules, or further worked tests, including one built entirely on pre-pilot projections rather than measured results? Open the [skill](../.agents/skills/build-business-case/SKILL.md) itself.
 
 ---
 
