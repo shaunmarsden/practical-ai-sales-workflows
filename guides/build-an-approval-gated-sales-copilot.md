@@ -92,7 +92,7 @@ Use the same labels throughout the result:
 - **Unknown:** important information is missing.
 - **Conflicting:** reliable sources disagree.
 
-This adds one label to the repository's usual four from [Methodology](../METHODOLOGY.md), which folds a contradiction into Unknown. A single-source workflow rarely needs to tell the two apart, but a copilot reading a calendar, CRM, email and meeting notes at once does. "Nobody has said what the close date is" and "the CRM says the 18th and the email says otherwise" call for different next actions, so Conflicting stays a label of its own here rather than a kind of Unknown.
+This adds one label to the repository's usual four from [Methodology](../METHODOLOGY.md), which folds a contradiction into Unknown. A single-source workflow rarely needs to tell the two apart, but a copilot reading a calendar, CRM, email and meeting notes at once does. "Nobody has said what the close date is" and "the CRM says the 18th and the email says otherwise" call for different next actions, so Conflicting stays a label of its own here rather than a kind of Unknown. [Do These Actually Match?](https://github.com/shaunmarsden/do-these-actually-match) pulls this exact judgement out as its own standalone tool, for the more general case of two whole records that are supposed to agree.
 
 Do not turn a CRM stage into proof of progress, a discussed action into an agreed action or a likely stakeholder into a confirmed decision-maker.
 
