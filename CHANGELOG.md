@@ -10,6 +10,11 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Harder Business-Case Test
+
+- Added a third fictional test for Build a Business Case (Aldercroft Group / Tomasz Nowicki), built entirely from pre-pilot projections rather than measured pilot results. Scored 46 out of 50; the skill correctly asked for pilot approval rather than rollout approval, matching what was actually agreed, and correctly excluded an unconfirmed future headcount number that would have inflated the projected saving.
+- Updated the evidence-status matrix's Build a Business Case row to reflect three scored cases rather than two.
+
 ## v1.2.0, 7 August 2026
 
 Moved beyond adding individual sales workflows into testing how they can be coordinated safely, and made the evidence behind every job easier to inspect.
