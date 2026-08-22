@@ -10,6 +10,22 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Spot the Real Blocker
+
+- Added a seventeenth sales job: a workflow, skill, portable prompt, recipe card, fictional Rowcastle test and scored evaluation for checking whether the person on a call is actually the decision-maker, and whether their stated objection is the real one or standing in for something unstated. Added to the workflow router's table, alongside a fix for Review an Outbound Campaign, which had no route in that table at all.
+- One fictional test only. No independent or real-use evidence yet.
+
+### Harder Objection-Handling Tests
+
+- Added a harder fictional test for Handle an Objection, built around the objection-response skill's own stop condition: a genuine contractual question nobody on the call has actually confirmed, rather than another diagnosis case. Scored 47 out of 50; the skill correctly refused to resolve the clause in either direction and reframed toward the specific unconfirmed question instead.
+- Wired in an existing but previously unlinked stability test that runs a deliberately ambiguous objection three times each across three different models and checks whether the diagnosed driver holds steady. It did not, by design: the point of the test is that a genuinely ambiguous objection can reasonably diagnose to more than one driver, and the test surfaces that rather than hiding it.
+- Updated the evidence-status matrix's Handle an Objection row to reflect three scored tests rather than one.
+
+### Harder Buyer-Indecision Test
+
+- Added a harder fictional test for Move a Stalled Decision (Wrenmoor Analytics / Farrah Osei), where each stated reason to delay is individually legitimate and genuinely gets resolved, only for a new, unrelated reason to appear immediately after. Scored 46 out of 50; the skill correctly declined to read the first two reasons as indecision while they were still open, and correctly did not accept a dated, plausible-looking team offsite as a clean external blocker once it was the third reason in the same pattern.
+- Updated the evidence-status matrix's Move a Stalled Decision row to reflect two scored cases rather than one.
+
 ### Harder Business-Case Test
 
 - Added a third fictional test for Build a Business Case (Aldercroft Group / Tomasz Nowicki), built entirely from pre-pilot projections rather than measured pilot results. Scored 46 out of 50; the skill correctly asked for pilot approval rather than rollout approval, matching what was actually agreed, and correctly excluded an unconfirmed future headcount number that would have inflated the projected saving.
