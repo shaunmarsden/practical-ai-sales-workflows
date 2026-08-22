@@ -31,7 +31,7 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 
 **🌱 Want help setting up your AI for sales?** [Start with the simple setup guide](guides/set-up-your-ai-for-sales.md). It works with ChatGPT, Claude, Gemini, Copilot and other general AI tools.
 
-**🎯 Know the sales problem you want help with?** Jump straight to [Choose a Sales Problem](#-choose-a-sales-problem) below and pick from prospecting, call prep, follow-up, business case, objections, or pipeline review, the six featured there, or [browse all sixteen](recipes/README.md) for chasing, handover, a lost-opportunity review and more. Not sure which one actually fits, or two sound similar? The [workflow router](guides/workflow-router.md) reads your situation in plain English and hands off to the right one. Would rather start from your own job title? [Choose your route by role](guides/role-based-routes.md) instead.
+**🎯 Know the sales problem you want help with?** Jump straight to [Choose a Sales Problem](#-choose-a-sales-problem) below and pick from prospecting, call prep, follow-up, business case, objections, or pipeline review, the six featured there, or [browse all seventeen](recipes/README.md) for chasing, handover, a lost-opportunity review and more. Not sure which one actually fits, or two sound similar? The [workflow router](guides/workflow-router.md) reads your situation in plain English and hands off to the right one. Would rather start from your own job title? [Choose your route by role](guides/role-based-routes.md) instead.
 
 **🧪 Want to see it work before you read anything else?** [Watch a skill actually work &rarr;](https://shaunmarsden.github.io/practical-ai-sales-workflows/). It shows the fictional Hartwell transcript turning into evidence-labelled output, live, with every line traced back to where it came from. Then check the [honest scores](evaluations/sales-ai-output-rubric.md) and the [cross-model comparison](evaluations/cross-model-post-call-comparison.md) rather than taking the demo's word for it.
 
@@ -43,7 +43,7 @@ Already coordinating several workflows and approved connected tools? [Build an A
 
 ## 🎯 Choose a Sales Problem
 
-These are six useful places to begin, not a ranking. Want a different sales job? [Browse all sixteen one-page recipe cards](recipes/README.md), or [open the printable cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
+These are six useful places to begin, not a ranking. Want a different sales job? [Browse all seventeen one-page recipe cards](recipes/README.md), or [open the printable cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
 
 ![Five stage sales cycle showing how AI can help find prospects, prepare calls, progress opportunities, support closing and review outcomes. AI prepares the work, while the salesperson checks it and decides what happens next.](assets/diagrams/practical-ai-across-the-sales-cycle.svg)
 
@@ -85,7 +85,7 @@ Check whether the stages, close dates and next steps in your CRM are actually su
 
 **Start here:** [Open the one-page recipe card](recipes/review-your-pipeline.md)
 
-Looking for chasing, fit checking, champion support, handover, CRM hygiene, weekly reporting or another job? [Browse all sixteen recipe cards](recipes/README.md).
+Looking for chasing, fit checking, champion support, handover, CRM hygiene, weekly reporting or another job? [Browse all seventeen recipe cards](recipes/README.md).
 
 ## 💬 Give Me Blunt Feedback
 
@@ -109,7 +109,7 @@ New to using AI at work at all? Start with [getting started with AI](guides/gett
 
 ## 🔬 What Has Actually Been Tested
 
-Available does not mean proven. The [evidence-status matrix](EVIDENCE-STATUS.md) shows which of the sixteen jobs has a workflow, a reusable skill, a fictional test, evidence from real sales work or independent use.
+Available does not mean proven. The [evidence-status matrix](EVIDENCE-STATUS.md) shows which of the seventeen jobs has a workflow, a reusable skill, a fictional test, evidence from real sales work or independent use.
 
 The biggest gap is visible on purpose: nobody has used the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [Discussions](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) yet. A single honest line from someone who tried one workflow, however short, counts.
 

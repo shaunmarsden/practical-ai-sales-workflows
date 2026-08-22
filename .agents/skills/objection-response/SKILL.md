@@ -63,4 +63,4 @@ Flag the gap and say what is needed before a confident answer can be given, rath
 
 This drafts the response and proposes the pipeline decision. Sending a message, and any resulting stage change, stays subject to explicit human approval.
 
-Read [the Hartwell example](references/hartwell-example.md) for a fictional test.
+Read [the Hartwell example](references/hartwell-example.md) for a fictional test, or [the Wrenford example](../../../examples/wrenford-objection-input.md) for a harder test of the stop condition above, an objection that is genuinely a contractual question nobody has confirmed.
