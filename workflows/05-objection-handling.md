@@ -35,6 +35,7 @@ flowchart TB
 - [See the completed Hartwell response](../examples/hartwell-objection-response.md)
 - [Read the honest review](../evaluations/hartwell-objection-review.md)
 - [See a harder test: a contractual stop condition](../examples/wrenford-objection-response.md), [and its review](../evaluations/wrenford-objection-review.md)
+- [See a third test: the correct answer to the surface wording is the wrong move](../examples/thornbury-objection-response.md), [and its review](../evaluations/thornbury-objection-review.md)
 - [See a stability test across three models](../evaluations/hartwell-objection-ambiguous-test.md), run on a deliberately unresolvable objection
 - [Use with AI: the objection-response skill](../.agents/skills/objection-response/SKILL.md)
 
