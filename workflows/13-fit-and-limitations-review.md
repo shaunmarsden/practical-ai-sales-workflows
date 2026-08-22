@@ -27,6 +27,7 @@ flowchart TB
 - [See the fictional Kellow scenario](../examples/kellow-fit-review-input.md)
 - [See the completed review](../examples/kellow-fit-review-output.md)
 - [Read the honest review](../evaluations/kellow-fit-review-review.md)
+- [See a harder test: the same word means two different things](../examples/aldermere-fit-review-output.md), [and its review](../evaluations/aldermere-fit-review-review.md)
 - [Use with AI: the fit-and-limitations-review skill](../.agents/skills/fit-and-limitations-review/SKILL.md)
 
 <details>
