@@ -31,6 +31,11 @@ Release notes provide the fuller version summaries:
 - Added a third fictional test for Build a Business Case (Aldercroft Group / Tomasz Nowicki), built entirely from pre-pilot projections rather than measured pilot results. Scored 46 out of 50; the skill correctly asked for pilot approval rather than rollout approval, matching what was actually agreed, and correctly excluded an unconfirmed future headcount number that would have inflated the projected saving.
 - Updated the evidence-status matrix's Build a Business Case row to reflect three scored cases rather than two.
 
+### Harder Objection-Pattern Test
+
+- Added a third fictional test for Spot a Real Objection Pattern, an eight-entry log where five distinct applicants stall or withdraw after learning a personal enrolment actually requires an employer attestation, alongside two decoy entries that share the surface shape of the pattern, someone else's input being needed, but not its actual driver: a spouse and a household budget decision in one, an explicitly unrelated new job in the other. Scored 47 out of 50; the skill correctly excluded both decoys by reading what the applicants actually said, rather than grouping by stage or outcome shape alone.
+- Updated the evidence-status matrix's Spot a Real Objection Pattern row to reflect three scored tests rather than two.
+
 ## v1.2.0, 7 August 2026
 
 Moved beyond adding individual sales workflows into testing how they can be coordinated safely, and made the evidence behind every job easier to inspect.
