@@ -1,6 +1,6 @@
 ---
 name: workflow-router
-description: Work out which existing workflow or skill in this repository actually fits a described sales situation, and hand off to it cleanly. Use when someone describes a sales job in their own words and is not sure which of the fifteen existing workflows applies, or when two workflows sound similar and it matters which one is actually right. Do not use this to solve the underlying task yourself; it recommends a route, it does not do the work of the workflow it recommends.
+description: Work out which existing workflow or skill in this repository actually fits a described sales situation, and hand off to it cleanly. Use when someone describes a sales job in their own words and is not sure which of the seventeen existing routes applies, or when two workflows sound similar and it matters which one is actually right. Do not use this to solve the underlying task yourself; it recommends a route, it does not do the work of the workflow it recommends.
 ---
 
 # Workflow Router
@@ -9,7 +9,7 @@ description: Work out which existing workflow or skill in this repository actual
 
 You do not need to install anything to try this once. The lines between the dashes at the very top are just this file's label; leave them in. On GitHub, copy this using the **Raw** button near the top of the page rather than selecting the rendered text, so the tables and links below paste in cleanly. Send the whole file as your first message in any AI chat tool, then follow it with your actual inputs.
 
-Someone describing a real sales situation rarely names the workflow they need; they describe the problem. This skill reads that description and hands off to the right existing workflow, without trying to solve the task itself and without inventing a new method the fifteen workflows already here do not need.
+Someone describing a real sales situation rarely names the workflow they need; they describe the problem. This skill reads that description and hands off to the right existing workflow, without trying to solve the task itself and without inventing a new method the seventeen routes already here do not need.
 
 ## Gather the Inputs
 
@@ -40,10 +40,13 @@ Match the described situation against this table. Where two rows sound similar, 
 | Your pipeline has drifted, or a forecast feels optimistic, and you want an honest read | [Review Your Pipeline](../../../workflows/06-pipeline-evidence-review.md) |
 | You want to trust a CRM export before using it for a total or a report | [Keep Your CRM Honest](../../../workflows/08-crm-hygiene-review.md) |
 | You want a weekly view of your own patch without building a dashboard | [Get a Weekly View](../../../workflows/10-weekly-operating-review.md) |
+| An outbound campaign has run its course and you want an honest read on what the numbers actually support before the next one | [Review an Outbound Campaign](../../../workflows/14-outbound-campaign-learning-review.md) |
+| A call had an unplanned attendee, or someone's role and their stated concern do not obviously match, and it is not yet clear whether either actually matters | [Spot the Real Blocker](../../../workflows/15-real-blocker-diagnosis.md) |
 
 ### Common Confusions Worth Checking Explicitly
 
 - **Stalled decision versus objection**: a stalled decision has no specific stated concern, just soft delay; an objection names something concrete. If a specific concern exists, route to objection handling even if the person also describes general hesitation.
+- **Real blocker diagnosis versus objection handling**: objection handling assumes the stated concern is genuine and from the right person, and works out what is actually driving it. Real blocker diagnosis is the earlier check, whether the person raising it is even the decision-maker, and whether the concern itself is the one that matters or gave way to a different one once answered. Run this first when an unplanned attendee joined, or a stated concern does not fit someone's role; route to objection handling once that is settled.
 - **Chase versus lost opportunity review**: chase is for a prospect who has gone quiet after one follow-up; lost opportunity review is for a deal that has closed, or gone quiet long enough that another chase would be the wrong move. If several chases have already gone unanswered, check whether this has actually crossed into lost-opportunity territory rather than defaulting to another chase.
 - **Fit and limitations review versus business case**: if more than one team, role or use case is in scope and it is not yet clear which ones genuinely fit, route to the fit review first. Building a business case around a use case that was never going to work is the failure this ordering exists to prevent.
 - **None of these fit**: say so plainly rather than forcing the closest match. Point to the [missing-workflow request template](../../../.github/ISSUE_TEMPLATE/missing-workflow.yml) instead of inventing a method on the spot.
