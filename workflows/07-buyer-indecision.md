@@ -27,6 +27,7 @@ flowchart TB
 - [See the fictional Calderwood scenario](../examples/calderwood-indecision-input.md)
 - [See the completed response](../examples/calderwood-indecision-response.md)
 - [Read the honest review](../evaluations/calderwood-indecision-review.md)
+- [See a harder test: reasons that resolve, then repeat as something new](../examples/wrenmoor-indecision-response.md), [and its review](../evaluations/wrenmoor-indecision-review.md)
 - [Read the real-use boundary finding](../evaluations/buyer-indecision-real-use-finding.md)
 
 <details>
