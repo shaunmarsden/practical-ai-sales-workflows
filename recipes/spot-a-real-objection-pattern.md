@@ -17,7 +17,7 @@ Genuine patterns identified with a confidence level per pattern, and surface-lev
 ## Open
 
 **[Workflow](../workflows/11-objection-pattern-review.md)**  
-Also: [Skill](../.agents/skills/review-objection-patterns/SKILL.md) · [Prompt](../templates/objection-pattern-review-prompt.md) · [Worked example](../examples/fictional-objection-pattern-review.md) · [Harder test](../examples/fictional-objection-pattern-review-two.md)
+Also: [Skill](../.agents/skills/review-objection-patterns/SKILL.md) · [Prompt](../templates/objection-pattern-review-prompt.md) · [Worked example](../examples/fictional-objection-pattern-review.md) · [Harder test](../examples/fictional-objection-pattern-review-two.md) · [Decoy-entry test](../examples/fictional-objection-pattern-review-three.md)
 
 ## The AI cannot decide
 
