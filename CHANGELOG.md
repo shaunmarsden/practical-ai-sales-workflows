@@ -10,6 +10,11 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Fourth Objection-Pattern Test, Inverted
+
+- Added a fourth fictional log for Spot a Real Objection Pattern that inverts the series' usual trap: instead of similar wording hiding different drivers, two entries with opposite-looking behaviour, an abrupt call termination out of suspicion and a calm professional request for an NDA and a reference call, share the same underlying legitimacy driver. The pattern rests on exactly two distinct deals, the smallest sample this skill's own rules treat as a candidate at all, and the review correctly held it at low confidence rather than overstating it. Scored 47 out of 50.
+- Updated the evidence-status matrix's Spot a Real Objection Pattern row to reflect four scored tests rather than three.
+
 ### Spot the Real Blocker
 
 - Added a seventeenth sales job: a workflow, skill, portable prompt, recipe card, fictional Rowcastle test and scored evaluation for checking whether the person on a call is actually the decision-maker, and whether their stated objection is the real one or standing in for something unstated. Added to the workflow router's table, alongside a fix for Review an Outbound Campaign, which had no route in that table at all.
