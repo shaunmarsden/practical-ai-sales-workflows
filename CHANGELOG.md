@@ -10,6 +10,11 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Third Objection-Handling Test
+
+- Added a third fictional test for Handle an Objection (Thornbury Housing Association), where the surface wording of the objection matches an ordinary circumstances or budget objection exactly, and the standard, factually correct playbook answer to that bucket is precisely the wrong move, since the prospect already accepted the underlying fact and was raising something else entirely (internal optics during a sensitive period). Scored 47 out of 50; the skill correctly avoided re-arguing a settled point and avoided manufacturing urgency during a sensitive period.
+- Updated the evidence-status matrix's Handle an Objection row to reflect four scored tests rather than three.
+
 ### Spot the Real Blocker
 
 - Added a seventeenth sales job: a workflow, skill, portable prompt, recipe card, fictional Rowcastle test and scored evaluation for checking whether the person on a call is actually the decision-maker, and whether their stated objection is the real one or standing in for something unstated. Added to the workflow router's table, alongside a fix for Review an Outbound Campaign, which had no route in that table at all.
