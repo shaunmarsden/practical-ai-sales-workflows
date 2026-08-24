@@ -21,7 +21,7 @@ Working out what is actually driving a stated objection, so you respond to the r
 ## Open
 
 **[Workflow](../workflows/05-objection-handling.md)**  
-Also: [Prompt](../templates/objection-handling-prompt.md) · [Skill](../.agents/skills/objection-response/SKILL.md) · [Worked example](../examples/hartwell-objection-response.md) · [Harder test: a contractual stop condition](../examples/wrenford-objection-response.md) · [Stability test across models](../evaluations/hartwell-objection-ambiguous-test.md)
+Also: [Prompt](../templates/objection-handling-prompt.md) · [Skill](../.agents/skills/objection-response/SKILL.md) · [Worked example](../examples/hartwell-objection-response.md) · [Harder test: a contractual stop condition](../examples/wrenford-objection-response.md) · [Third test: the correct answer is the wrong move](../examples/thornbury-objection-response.md) · [Stability test across models](../evaluations/hartwell-objection-ambiguous-test.md)
 
 ## The AI cannot decide
 
