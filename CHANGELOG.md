@@ -15,6 +15,11 @@ Release notes provide the fuller version summaries:
 - Added a third fictional test for Handle an Objection (Thornbury Housing Association), where the surface wording of the objection matches an ordinary circumstances or budget objection exactly, and the standard, factually correct playbook answer to that bucket is precisely the wrong move, since the prospect already accepted the underlying fact and was raising something else entirely (internal optics during a sensitive period). Scored 47 out of 50; the skill correctly avoided re-arguing a settled point and avoided manufacturing urgency during a sensitive period.
 - Updated the evidence-status matrix's Handle an Objection row to reflect four scored tests rather than three.
 
+### A Harder Fit and Limitations Test
+
+- Added a second fictional test for Check Whether It Actually Fits (Aldermere Pharmaceuticals), where two teams both raise something described as a "compliance" issue, meaning genuinely different things: a structural capability gap (no GxP validation) for one, and an administrative step with a known precedent (a data processing agreement) for the other. Scored 47 out of 50; the skill correctly kept the two apart rather than generalising one word into one shared verdict.
+- Updated the evidence-status matrix's Check Whether It Actually Fits row to reflect two scored cases rather than one.
+
 ### Spot the Real Blocker
 
 - Added a seventeenth sales job: a workflow, skill, portable prompt, recipe card, fictional Rowcastle test and scored evaluation for checking whether the person on a call is actually the decision-maker, and whether their stated objection is the real one or standing in for something unstated. Added to the workflow router's table, alongside a fix for Review an Outbound Campaign, which had no route in that table at all.

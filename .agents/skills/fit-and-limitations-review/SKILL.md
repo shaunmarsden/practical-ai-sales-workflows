@@ -48,4 +48,4 @@ Do not produce a fit and limitations review when:
 
 This produces a classification and the reasoning behind it. Deciding what to actually build a business case around, what to disqualify, and what to tell the prospect stays with the seller.
 
-For a fictional test, read [the Kellow example](references/kellow-example.md).
+For a fictional test, read [the Kellow example](references/kellow-example.md). For a harder test where the word "compliance" means two genuinely different things for two different teams, a structural capability gap for one and an administrative step with a known precedent for the other, read [the Aldermere example](../../../examples/aldermere-fit-review-input.md).

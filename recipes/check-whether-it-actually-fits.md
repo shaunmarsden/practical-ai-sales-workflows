@@ -18,7 +18,7 @@ Each use case classified as a good fit, a poor fit, or genuinely uncertain, with
 ## Open
 
 **[Workflow](../workflows/13-fit-and-limitations-review.md)**  
-Also: [Prompt](../templates/fit-and-limitations-review-prompt.md) · [Skill](../.agents/skills/fit-and-limitations-review/SKILL.md) · [Worked example](../examples/kellow-fit-review-output.md)
+Also: [Prompt](../templates/fit-and-limitations-review-prompt.md) · [Skill](../.agents/skills/fit-and-limitations-review/SKILL.md) · [Worked example](../examples/kellow-fit-review-output.md) · [Harder test: the same word means two different things](../examples/aldermere-fit-review-output.md)
 
 ## The AI cannot decide
 
