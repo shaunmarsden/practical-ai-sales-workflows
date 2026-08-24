@@ -30,6 +30,7 @@ flowchart TB
 - [Read the honest review](../evaluations/fictional-objection-pattern-review-eval.md)
 - [See the harder second test](../examples/fictional-objection-pattern-review-two.md) and its [honest review](../evaluations/fictional-objection-pattern-second-eval.md)
 - [See a third test with two decoy entries](../examples/fictional-objection-pattern-review-three.md) and its [honest review](../evaluations/fictional-objection-pattern-third-eval.md)
+- [See a fourth test where opposite-looking behaviour shares one driver](../examples/fictional-objection-pattern-review-four.md) and its [honest review](../evaluations/fictional-objection-pattern-fourth-eval.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>
