@@ -52,4 +52,4 @@ Do not produce a full diagnosis when:
 
 This surfaces a mismatch worth checking, not a verified explanation. The seller decides whether and how to raise it, and who to actually contact next; nothing here contacts anyone or treats a diagnosis as confirmed.
 
-For a fictional test, read [the Rowcastle example](references/rowcastle-example.md).
+For a fictional test, read [the Rowcastle example](references/rowcastle-example.md). For a harder test where the enthusiastic contact himself proposes getting an enrolment far enough along that the actual decision-maker faces something already done rather than a genuine choice, read [the Oakriven example](../../../examples/oakriven-real-blocker-input.md).

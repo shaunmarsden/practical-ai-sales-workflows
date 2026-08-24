@@ -32,7 +32,7 @@ A workflow, skill or polished example is useful, but it is not the same as evide
 | [Keep Your CRM Honest](recipes/keep-your-crm-honest.md) | [Yes](workflows/08-crm-hygiene-review.md) | [Yes](.agents/skills/crm-hygiene-review/SKILL.md) | [Scored](evaluations/fictional-crm-hygiene-review-eval.md) | [Test logged](CHANGELOG.md#real-use-findings) | Not yet |
 | [Get a Weekly View Without Building a Dashboard](recipes/get-a-weekly-view.md) | [Yes](workflows/10-weekly-operating-review.md) | Not yet | [Scored](evaluations/fictional-weekly-operating-review-eval.md) | [Test logged](CHANGELOG.md#real-use-findings) | Not yet |
 | [Review an Outbound Campaign](recipes/review-an-outbound-campaign.md) | [Yes](workflows/14-outbound-campaign-learning-review.md) | Not yet | [Scored](evaluations/cedarwell-campaign-review-eval.md) | Not yet | Not yet |
-| [Spot the Real Blocker](recipes/spot-the-real-blocker.md) | [Yes](workflows/15-real-blocker-diagnosis.md) | [Yes](.agents/skills/real-blocker-diagnosis/SKILL.md) | [Scored](evaluations/rowcastle-real-blocker-review.md) | Not yet | Not yet |
+| [Spot the Real Blocker](recipes/spot-the-real-blocker.md) | [Yes](workflows/15-real-blocker-diagnosis.md) | [Yes](.agents/skills/real-blocker-diagnosis/SKILL.md) | [Two scored cases](evaluations/oakriven-real-blocker-review.md) | Not yet | Not yet |
 
 For Build a Business Case and Chase a Quiet Prospect, the skill is the main reusable method, so there is no separate workflow file.
 

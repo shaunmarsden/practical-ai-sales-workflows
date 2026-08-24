@@ -24,7 +24,7 @@ Checking whether the person on a call is actually the decision-maker, and whethe
 ## Open
 
 **[Workflow](../workflows/15-real-blocker-diagnosis.md)**  
-Also: [Prompt](../templates/real-blocker-diagnosis-prompt.md) · [Skill](../.agents/skills/real-blocker-diagnosis/SKILL.md) · [Worked example](../examples/rowcastle-real-blocker-output.md) · [Honest review](../evaluations/rowcastle-real-blocker-review.md)
+Also: [Prompt](../templates/real-blocker-diagnosis-prompt.md) · [Skill](../.agents/skills/real-blocker-diagnosis/SKILL.md) · [Worked example](../examples/rowcastle-real-blocker-output.md) · [Honest review](../evaluations/rowcastle-real-blocker-review.md) · [Harder test: enrolling by stealth](../examples/oakriven-real-blocker-output.md)
 
 ## The AI cannot decide
 

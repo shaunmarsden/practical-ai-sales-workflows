@@ -20,6 +20,11 @@ Release notes provide the fuller version summaries:
 - Added a second fictional test for Check Whether It Actually Fits (Aldermere Pharmaceuticals), where two teams both raise something described as a "compliance" issue, meaning genuinely different things: a structural capability gap (no GxP validation) for one, and an administrative step with a known precedent (a data processing agreement) for the other. Scored 47 out of 50; the skill correctly kept the two apart rather than generalising one word into one shared verdict.
 - Updated the evidence-status matrix's Check Whether It Actually Fits row to reflect two scored cases rather than one.
 
+### A Harder Real-Blocker Test
+
+- Added a second fictional test for Spot the Real Blocker (Oakriven Facilities Group), where the enthusiastic contact himself proposes a plan to get an enrolment far enough along that the actual decision-maker would face something already done rather than a genuine upfront choice. Scored 47 out of 50; the skill correctly named the proposed process itself as the thing to avoid, not only the underlying authority as unconfirmed, and correctly declined to treat the contact's optimism as bad faith.
+- Updated the evidence-status matrix's Spot the Real Blocker row to reflect two scored cases rather than one.
+
 ### Spot the Real Blocker
 
 - Added a seventeenth sales job: a workflow, skill, portable prompt, recipe card, fictional Rowcastle test and scored evaluation for checking whether the person on a call is actually the decision-maker, and whether their stated objection is the real one or standing in for something unstated. Added to the workflow router's table, alongside a fix for Review an Outbound Campaign, which had no route in that table at all.
