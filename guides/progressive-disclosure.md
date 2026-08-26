@@ -26,15 +26,17 @@ Every `SKILL.md` in this repository, checked at the time of writing:
 | [identify-buyer-indecision](../.agents/skills/identify-buyer-indecision/SKILL.md) | 36 | Output contract, template, checklist, fictional example |
 | [fit-and-limitations-review](../.agents/skills/fit-and-limitations-review/SKILL.md) | 51 | Fictional example |
 | [champion-enablement](../.agents/skills/champion-enablement/SKILL.md) | 55 | Output contract, template, checklist, fictional example |
+| [real-blocker-diagnosis](../.agents/skills/real-blocker-diagnosis/SKILL.md) | 55 | Fictional example |
 | [crm-hygiene-review](../.agents/skills/crm-hygiene-review/SKILL.md) | 57 | Fictional example and evaluation, linked from the wider repository rather than duplicated locally |
 | [review-lost-opportunity](../.agents/skills/review-lost-opportunity/SKILL.md) | 64 | Fictional example |
 | [pipeline-evidence-review](../.agents/skills/pipeline-evidence-review/SKILL.md) | 64 | Fictional example and evaluation, linked from the wider repository rather than duplicated locally |
 | [objection-response](../.agents/skills/objection-response/SKILL.md) | 66 | Fictional example |
-| [workflow-router](../.agents/skills/workflow-router/SKILL.md) | 73 | None; the routing table itself is the core instruction |
+| [workflow-router](../.agents/skills/workflow-router/SKILL.md) | 76 | None; the routing table itself is the core instruction |
 | [outbound-prospecting](../.agents/skills/outbound-prospecting/SKILL.md) | 77 | Fictional example |
 | [draft-follow-up-email](../.agents/skills/draft-follow-up-email/SKILL.md) | 76 | Template and checklist |
-| [plan-chase-sequence](../.agents/skills/plan-chase-sequence/SKILL.md) | 76 | Reference notes on sequence stages |
+| [plan-chase-sequence](../.agents/skills/plan-chase-sequence/SKILL.md) | 79 | Reference notes on sequence stages |
 | [build-business-case](../.agents/skills/build-business-case/SKILL.md) | 81 | Audit checklist, two fictional examples |
+| [opportunity-handover](../.agents/skills/opportunity-handover/SKILL.md) | 87 | Output contract, template, checklist, fictional example |
 | [extract-post-call-evidence](../.agents/skills/extract-post-call-evidence/SKILL.md) | 91 | Output schema, fictional example |
 
 Every core file sits close to or just past ninety lines, and every skill with deeper material, an example, a template, a checklist, keeps it in a separate file rather than folded into `SKILL.md` itself. The one file now just over ninety lines (extract-post-call-evidence, at 91) grew there because every skill in this repository picked up the same two-line raw-copy and front-matter instruction, not because a supporting file got folded back in; nothing here fails the pattern. The audit's actual value is in having a place to check the next skill against, so a longer, more elaborate `SKILL.md` gets caught at review time rather than growing unnoticed.

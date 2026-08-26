@@ -51,7 +51,10 @@ Strong anchor: a direct reference to the specific problem or detail the prospect
 
 **Close-out**: acknowledge the sequence directly rather than pretending this is the first message. State what happens next as fact, not a threat. Leave the door open in one short sentence, with no invitation to "reach out anytime."
 
-The shape across early, middle, late and final is an escalating friction curve, not an escalating urgency one: the earliest chase can carry the real, direct ask, and each one after that should ask for something easier to say yes to, a shorter question, a smaller ask, rather than repeating the same ask with more insistence. Each message should also stand alone. A prospect who only ever sees the middle or late chase should not need to have read the earlier ones to make sense of it, and each one should add exactly one new thing, an answer to a likely objection, one further piece of evidence, rather than restating the last message in different words.
+Two rules hold across all five stages:
+
+- **Friction escalates, urgency does not.** The earliest chase carries the real, direct ask. Each one after it asks for something smaller and easier to say yes to, rather than the same ask restated more insistently.
+- **Each message stands alone.** Someone who sees only the middle or late chase should still make sense of it without the earlier ones, and each message adds exactly one new thing, an answer to a likely objection or one further piece of evidence, rather than restating the last in different words.
 
 ## Apply the Guardrails
 
