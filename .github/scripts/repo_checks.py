@@ -7,8 +7,8 @@ skill frontmatter, examples that are not clearly labelled as fictional,
 accidental employer or private references, secret-like values, unfinished
 placeholder text, a committed private context file, duplicate skill names,
 a skill missing any human-review or limitation language, email addresses,
-phone numbers, and any term in an optional local, never-committed
-blocklist (.github/private-blocklist.txt).
+phone numbers, em dashes in reader-facing copy, and any term in an
+optional local, never-committed blocklist (.github/private-blocklist.txt).
 
 Not covered, and not realistically checkable by a deterministic script: an
 unexpected commercial figure. That needs a person who knows what the real
@@ -267,6 +267,27 @@ if os.path.exists(BLOCKLIST_PATH):
             if term.lower() in text.lower():
                 fail("private-blocklist-term", f,
                      f"matched blocklisted term '{term}'")
+
+
+# 13. Em dashes in reader-facing copy. CONTRIBUTING.md extends this specific
+# style rule to the repository's own prose ("no em dashes"), and
+# guides/writing-style-and-formatting.md states it outright: "No em dashes.
+# Rewrite using a comma, colon or full stop instead." It had been fixed by
+# hand in nineteen separate commits before this check existed, so it is the
+# one style rule worth enforcing automatically rather than re-fixing.
+#
+# Only the em dash is checked. Smart quotes and en dashes are deliberately
+# not, because this repository has never stated a rule about them; adding one
+# is a style decision, not a check. If a fictional example ever needs to quote
+# a model output that genuinely contained an em dash, that is a real false
+# positive: quote it in a fenced code block and exclude the path here.
+EM_DASH = "\u2014"
+for f in CONTENT:
+    for i, line in enumerate(read(f).splitlines(), 1):
+        if EM_DASH in line:
+            fail("em-dash", f"{f}:{i}",
+                 "replace with a comma, colon or full stop "
+                 "(guides/writing-style-and-formatting.md)")
 
 
 # Report
