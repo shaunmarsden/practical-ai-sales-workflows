@@ -34,18 +34,18 @@ You do not need to set anything up to try one of these. Open any skill below, co
 
 Most skills here use the same fictional Hartwell conversation, so none of them contain real customer or employer information. Outbound prospecting uses a separate fictional scenario, since outbound happens before any call exists.
 
-- [Extract Post Call Evidence](../.agents/skills/extract-post-call-evidence/SKILL.md) — separates facts from assumptions after a call and suggests a next step
+- [Extract Post Call Evidence](../.agents/skills/extract-post-call-evidence/SKILL.md): separates facts from assumptions after a call and suggests a next step
 - [Prepare for a Sales Call](../.agents/skills/prepare-for-sales-call/SKILL.md): turns approved account context into a concise, evidence-led call card
-- [Fit and Limitations Review](../.agents/skills/fit-and-limitations-review/SKILL.md) — classifies each use case a prospect raised as a good fit, a poor fit, or genuinely uncertain, before a business case gets built around one that was never going to work
-- [Build Business Case](../.agents/skills/build-business-case/SKILL.md) — turns call evidence into a tailored business case for the actual decision maker
-- [Champion Enablement](../.agents/skills/champion-enablement/SKILL.md) — prepares an internal champion to carry that case to other stakeholders, without guessing what they care about
-- [Draft Follow-Up Email](../.agents/skills/draft-follow-up-email/SKILL.md) — personalises a fixed post-call email template, including for multiple recipients
-- [Plan Chase Sequence](../.agents/skills/plan-chase-sequence/SKILL.md) — decides what, if anything, to send a prospect who has gone quiet
-- [Respond to an Objection](../.agents/skills/objection-response/SKILL.md) — diagnoses what is actually driving a stated objection before answering it
+- [Fit and Limitations Review](../.agents/skills/fit-and-limitations-review/SKILL.md): classifies each use case a prospect raised as a good fit, a poor fit, or genuinely uncertain, before a business case gets built around one that was never going to work
+- [Build Business Case](../.agents/skills/build-business-case/SKILL.md): turns call evidence into a tailored business case for the actual decision maker
+- [Champion Enablement](../.agents/skills/champion-enablement/SKILL.md): prepares an internal champion to carry that case to other stakeholders, without guessing what they care about
+- [Draft Follow-Up Email](../.agents/skills/draft-follow-up-email/SKILL.md): personalises a fixed post-call email template, including for multiple recipients
+- [Plan Chase Sequence](../.agents/skills/plan-chase-sequence/SKILL.md): decides what, if anything, to send a prospect who has gone quiet
+- [Respond to an Objection](../.agents/skills/objection-response/SKILL.md): diagnoses what is actually driving a stated objection before answering it
 - [Review Objection Patterns](../.agents/skills/review-objection-patterns/SKILL.md): separates repeated wording from genuine shared drivers across several deals
-- [Identify Buyer Indecision](../.agents/skills/identify-buyer-indecision/SKILL.md) — checks whether a delay is genuine indecision, an approval gate, or an objection in disguise, before deciding how to respond
-- [Plan Outbound Prospecting](../.agents/skills/outbound-prospecting/SKILL.md) — selects a cold target and drafts a first-touch message worth a reply
-- [Review a Lost Opportunity](../.agents/skills/review-lost-opportunity/SKILL.md) — works out if a closed or stalled deal is genuinely over, or just blocked
+- [Identify Buyer Indecision](../.agents/skills/identify-buyer-indecision/SKILL.md): checks whether a delay is genuine indecision, an approval gate, or an objection in disguise, before deciding how to respond
+- [Plan Outbound Prospecting](../.agents/skills/outbound-prospecting/SKILL.md): selects a cold target and drafts a first-touch message worth a reply
+- [Review a Lost Opportunity](../.agents/skills/review-lost-opportunity/SKILL.md): works out if a closed or stalled deal is genuinely over, or just blocked
 
 Running two of these in sequence on the same call? [Skill Handoff Contracts](skill-handoff-contracts.md) covers what should actually pass between them.
 
