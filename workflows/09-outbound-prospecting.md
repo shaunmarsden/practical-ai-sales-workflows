@@ -28,6 +28,7 @@ flowchart TB
 - [See the completed output](../examples/cedarwell-outbound-output.md)
 - [See a deliberately weak version of the same message, and exactly why](../examples/cedarwell-outbound-weak-example.md)
 - [Read the honest review](../evaluations/cedarwell-outbound-review.md)
+- [Turn a public signal into a stated hypothesis](../.agents/skills/outbound-prospecting/references/signal-to-hypothesis.md), rather than treating the signal as proof on its own
 - [Use with AI: the outbound-prospecting skill](../.agents/skills/outbound-prospecting/SKILL.md)
 
 <details>
@@ -59,6 +60,14 @@ There are two valid shapes here, not one. Promise a small offer and ask for a re
 ### 3. Handle Whatever Happens Next
 
 A reply, positive or otherwise, stops the cold sequence immediately; never let a second scheduled touch go out into a live reply. A positive reply means building whatever was offered next, not pushing straight for a meeting before it exists. Record every step, sent, bounced, replied, booked, so the same message never goes out twice to the same person.
+
+### 4. Apply the Guardrails
+
+- Never fabricate a company signal or hook. If nothing specific and verifiable was found, say so rather than writing a generic opener anyway.
+- Never claim a capability, statistic, or outcome that has not actually been confirmed, even to make the hook sharper.
+- Never imply the reader is already interested, already expecting this message, or already partway into a decision when nothing confirms that.
+- Never invent scarcity, a deadline, or a limited number of slots that is not real.
+- Keep the message short. A first-touch message that reads like a pitch deck gets deleted, not replied to.
 
 </details>
 
