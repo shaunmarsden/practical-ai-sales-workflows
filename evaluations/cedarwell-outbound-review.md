@@ -4,7 +4,7 @@ This review scores the [worked outbound output](../examples/cedarwell-outbound-o
 
 ## Result
 
-**Score: 46 out of 50**
+**Score: 48 out of 50**
 
 **Automatic failure: No**
 

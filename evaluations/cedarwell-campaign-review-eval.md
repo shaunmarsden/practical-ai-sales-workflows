@@ -4,7 +4,7 @@ This review scores the [worked campaign review output](../examples/cedarwell-cam
 
 ## Result
 
-**Score: 45 out of 50**
+**Score: 46 out of 50**
 
 **Automatic failure: No**
 

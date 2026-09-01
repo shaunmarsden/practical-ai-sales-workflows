@@ -4,7 +4,7 @@ This review scores the [worked response](../examples/calderwood-indecision-respo
 
 ## Result
 
-**Score: 46 out of 50**
+**Score: 47 out of 50**
 
 **Automatic failure: No**
 
