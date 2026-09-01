@@ -7,7 +7,8 @@ skill frontmatter, examples that are not clearly labelled as fictional,
 accidental employer or private references, secret-like values, unfinished
 placeholder text, a committed private context file, duplicate skill names,
 a skill missing any human-review or limitation language, email addresses,
-phone numbers, em dashes in reader-facing copy, and any term in an
+phone numbers, em dashes in reader-facing copy, a scored evaluation whose
+headline total disagrees with its own rubric table, and any term in an
 optional local, never-committed blocklist (.github/private-blocklist.txt).
 
 Not covered, and not realistically checkable by a deterministic script: an
@@ -288,6 +289,37 @@ for f in CONTENT:
             fail("em-dash", f"{f}:{i}",
                  "replace with a comma, colon or full stop "
                  "(guides/writing-style-and-formatting.md)")
+
+
+# 14. A scored evaluation's headline total must match its own rubric table.
+# Five evaluations disagreed with their own tables before this check existed,
+# by one or two points each, and the error survived for months because nobody
+# re-adds a column of ten numbers when the table above it looks reasonable.
+#
+# Each "Score: N out of M" line is paired with the table that follows it, so a
+# file holding more than one scored run is checked run by run rather than as a
+# whole. A table is only checked when it is fully itemised, meaning its row
+# count times five equals the stated maximum. A deliberately summarised table,
+# for example one row reading "Every other area | 4 or 5", cannot be added up
+# and is skipped rather than guessed at; hartwell-opportunity-handover-review.md
+# has one of each and only its itemised run is checked.
+SCORE_LINE = re.compile(r"^\*\*Score:\s*(\d+)\s+out of\s+(\d+)", re.M)
+RUBRIC_ROW = re.compile(r"^\|\s*([A-Za-z][^|]*?)\s*\|\s*(\d+)\s*\|", re.M)
+for f in CONTENT:
+    text = read(f)
+    marks = list(SCORE_LINE.finditer(text))
+    for i, mark in enumerate(marks):
+        stated, maximum = int(mark.group(1)), int(mark.group(2))
+        end = marks[i + 1].start() if i + 1 < len(marks) else len(text)
+        rows = RUBRIC_ROW.findall(text[mark.end():end])
+        if len(rows) * 5 != maximum:
+            continue
+        total = sum(int(value) for _, value in rows)
+        if total != stated:
+            line = text[:mark.start()].count("\n") + 1
+            fail("score-total", f"{f}:{line}",
+                 f"table sums to {total} but the line states {stated} "
+                 f"out of {maximum}")
 
 
 # Report
