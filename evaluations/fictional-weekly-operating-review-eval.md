@@ -4,7 +4,7 @@ This review scores the [worked weekly report](../examples/fictional-weekly-opera
 
 ## Result
 
-**Score: 46 out of 50**
+**Score: 48 out of 50**
 
 **Automatic failure: No**
 
