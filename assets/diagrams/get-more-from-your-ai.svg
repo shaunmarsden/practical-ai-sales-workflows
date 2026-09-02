@@ -1,135 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
-  <title id="title">Get More From Your AI</title>
-  <desc id="description">Five playful illustrated cards show a practical path from a setup prompt to a project, repeatable skills, live connections, and finally automations and agents that need extra care.</desc>
-
-  <rect width="1600" height="900" fill="#fffdf7"/>
-  <circle cx="104" cy="108" r="46" fill="#2a9d8f" opacity="0.12"/>
-  <circle cx="1494" cy="775" r="62" fill="#e9c46a" opacity="0.25"/>
-
-  <text x="800" y="72" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="800" fill="#152238">Get More From Your AI</text>
-  <text x="800" y="120" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600" fill="#334155">Only move up when it actually helps.</text>
-
-  <g fill="none" stroke="#152238" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M320 405h34"/>
-    <path d="M342 390l16 15-16 15"/>
-    <path d="M625 405h34"/>
-    <path d="M647 390l16 15-16 15"/>
-    <path d="M930 405h34"/>
-    <path d="M952 390l16 15-16 15"/>
-    <path d="M1235 405h34"/>
-    <path d="M1257 390l16 15-16 15"/>
-  </g>
-
-  <g font-family="Inter, Arial, sans-serif">
-    <g transform="rotate(-1.5 180 420)">
-      <rect x="42" y="166" width="276" height="520" rx="34" fill="#bfe8df"/>
-      <rect x="34" y="156" width="276" height="520" rx="34" fill="#ffffff" stroke="#2a9d8f" stroke-width="5"/>
-      <circle cx="82" cy="207" r="33" fill="#2a9d8f"/>
-      <text x="82" y="219" text-anchor="middle" font-size="32" font-weight="800" fill="#ffffff">1</text>
-
-      <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M102 284h115a18 18 0 0 1 18 18v64a18 18 0 0 1-18 18h-51l-33 28v-28h-31a18 18 0 0 1-18-18v-64a18 18 0 0 1 18-18z" fill="#dff5f1"/>
-        <path d="M247 262l8 19 19 8-19 8-8 19-8-19-19-8 19-8z" fill="#e9c46a" stroke="none"/>
-      </g>
-
-      <text x="172" y="474" text-anchor="middle" font-size="31" font-weight="800" fill="#152238">A Setup Prompt</text>
-      <text x="172" y="528" text-anchor="middle" font-size="27" fill="#334155">
-        <tspan x="172">Give your AI</tspan>
-        <tspan x="172" dy="36">useful context</tspan>
-      </text>
-    </g>
-
-    <g transform="rotate(1.2 485 420)">
-      <path d="M349 156h230l46 46v436a34 34 0 0 1-34 34H349a34 34 0 0 1-34-34V190a34 34 0 0 1 34-34z" fill="#f4f6f8" stroke="#152238" stroke-width="5"/>
-      <path d="M579 156v46h46" fill="#ffffff" stroke="#152238" stroke-width="5" stroke-linejoin="round"/>
-      <circle cx="365" cy="207" r="33" fill="#152238"/>
-      <text x="365" y="219" text-anchor="middle" font-size="32" font-weight="800" fill="#ffffff">2</text>
-
-      <g fill="none" stroke="#2a9d8f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M403 307h80l18-31h65a16 16 0 0 1 16 16v91a16 16 0 0 1-16 16H403a16 16 0 0 1-16-16v-60a16 16 0 0 1 16-16z" fill="#dff5f1"/>
-        <rect x="474" y="264" width="70" height="86" rx="9" fill="#ffffff"/>
-        <path d="M491 292h36M491 317h28"/>
-      </g>
-
-      <text x="470" y="474" text-anchor="middle" font-size="31" font-weight="800" fill="#152238">A Project</text>
-      <text x="470" y="523" text-anchor="middle" font-size="27" fill="#334155">
-        <tspan x="470">Add real reference</tspan>
-        <tspan x="470" dy="36">material for repeated</tspan>
-        <tspan x="470" dy="36">work</tspan>
-      </text>
-    </g>
-
-    <g transform="rotate(-1 790 420)">
-      <rect x="652" y="166" width="276" height="520" rx="34" fill="#bfe8df"/>
-      <rect x="644" y="156" width="276" height="520" rx="34" fill="#ffffff" stroke="#2a9d8f" stroke-width="5"/>
-      <circle cx="692" cy="207" r="33" fill="#2a9d8f"/>
-      <text x="692" y="219" text-anchor="middle" font-size="32" font-weight="800" fill="#ffffff">3</text>
-
-      <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M715 326a62 62 0 0 1 112-32"/>
-        <path d="M809 272l20 24-28 12"/>
-        <path d="M837 362a62 62 0 0 1-112 32"/>
-        <path d="M743 416l-20-24 28-12"/>
-        <path d="M755 350l20 20 42-48" stroke="#2a9d8f"/>
-      </g>
-
-      <text x="782" y="474" text-anchor="middle" font-size="31" font-weight="800" fill="#152238">Repeatable Skills</text>
-      <text x="782" y="523" text-anchor="middle" font-size="27" fill="#334155">
-        <tspan x="782">Reuse a tested</tspan>
-        <tspan x="782" dy="36">process, not a</tspan>
-        <tspan x="782" dy="36">reworded prompt</tspan>
-      </text>
-    </g>
-
-    <g transform="rotate(1.3 1095 420)">
-      <path d="M959 156h230l46 46v436a34 34 0 0 1-34 34H959a34 34 0 0 1-34-34V190a34 34 0 0 1 34-34z" fill="#f4f6f8" stroke="#152238" stroke-width="5"/>
-      <path d="M1189 156v46h46" fill="#ffffff" stroke="#152238" stroke-width="5" stroke-linejoin="round"/>
-      <circle cx="975" cy="207" r="33" fill="#152238"/>
-      <text x="975" y="219" text-anchor="middle" font-size="32" font-weight="800" fill="#ffffff">4</text>
-
-      <g fill="none" stroke="#2a9d8f" stroke-width="8" stroke-linecap="round">
-        <circle cx="1038" cy="335" r="32"/>
-        <circle cx="1148" cy="335" r="32"/>
-        <path d="M1070 335h46"/>
-        <path d="M1077 335l15-22 18 44 15-22"/>
-      </g>
-
-      <text x="1095" y="474" text-anchor="middle" font-size="31" font-weight="800" fill="#152238">Live Connections</text>
-      <text x="1095" y="523" text-anchor="middle" font-size="27" fill="#334155">
-        <tspan x="1095">Connect approved</tspan>
-        <tspan x="1095" dy="36">tools to prepare</tspan>
-        <tspan x="1095" dy="36">real work</tspan>
-      </text>
-    </g>
-
-    <g transform="rotate(-1.4 1400 420)">
-      <path d="M1264 156h230l46 46v436a34 34 0 0 1-34 34h-95l-38 34-3-34h-106a34 34 0 0 1-34-34V190a34 34 0 0 1 34-34z" fill="#fff7e0" stroke="#e9c46a" stroke-width="6"/>
-      <path d="M1494 156v46h46" fill="#ffffff" stroke="#e9c46a" stroke-width="5" stroke-linejoin="round"/>
-      <circle cx="1280" cy="207" r="33" fill="#e9c46a"/>
-      <text x="1280" y="219" text-anchor="middle" font-size="32" font-weight="800" fill="#152238">5</text>
-
-      <g fill="none" stroke="#152238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="1362" cy="330" r="40"/>
-        <circle cx="1362" cy="330" r="10" fill="#e9c46a"/>
-        <path d="M1362 276v18M1362 366v18M1308 330h18M1398 330h18M1324 292l14 14M1386 354l14 14M1400 292l-14 14M1338 354l-14 14"/>
-        <path d="M1407 393l38-65 38 65z" fill="#e9c46a"/>
-        <path d="M1445 352v20M1445 382h1"/>
-      </g>
-
-      <text x="1385" y="460" text-anchor="middle" font-size="29" font-weight="800" fill="#152238">
-        <tspan x="1385">Automations</tspan>
-        <tspan x="1385" dy="34">and Agents</tspan>
-      </text>
-      <text x="1385" y="548" text-anchor="middle" font-size="26" fill="#334155">
-        <tspan x="1385">Extra care when AI</tspan>
-        <tspan x="1385" dy="35">can act on your</tspan>
-        <tspan x="1385" dy="35">behalf</tspan>
-      </text>
-    </g>
-  </g>
-
-  <path d="M100 760c48-24 88-23 130 3" fill="none" stroke="#2a9d8f" stroke-width="8" stroke-linecap="round"/>
-  <path d="M116 790c36-17 68-16 100 3" fill="none" stroke="#e9c46a" stroke-width="8" stroke-linecap="round"/>
-  <rect x="275" y="744" width="1050" height="92" rx="28" fill="#152238"/>
-  <text x="800" y="802" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="700" fill="#ffffff">The most advanced option is not automatically the most useful one.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title description">
+  <title id="title">Get more from your AI</title>
+  <desc id="description">A five-layer progression from a setup prompt to projects, reusable skills, connected tools and carefully controlled automations.</desc>
+  <style>
+    :root{--ink:#1f2937;--muted:#57606a;--line:#d0d7de;--card:#f6f8fa;--blue:#0969da;--blue-bg:#ddf4ff;--amber:#9a6700;--amber-bg:#fff8c5}
+    @media (prefers-color-scheme:dark){:root{--ink:#f0f6fc;--muted:#a9b1bb;--line:#30363d;--card:#161b22;--blue:#58a6ff;--blue-bg:#0d419d;--amber:#e3b341;--amber-bg:#3d2e00}}
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}text:not([fill]){fill:var(--ink)}.card{fill:var(--card);stroke:var(--line);stroke-width:2}.tag{font-size:13px;font-weight:700}.head{font-size:20px;font-weight:700}.body{font-size:14px;fill:var(--muted)}.top{font-size:23px;font-weight:700}.sub{font-size:16px;fill:var(--muted)}.arrow{stroke:var(--line);stroke-width:3;fill:none}.warning{font-size:15px;font-weight:700}
+  </style>
+  <text class="top" x="20" y="36">Move up only when the layer you have stops saving you time.</text><text class="sub" x="20" y="62">Each layer should be useful and safe before you add the next one.</text>
+  <rect class="card" x="20" y="104" width="174" height="178" rx="14"/><text class="tag" x="42" y="133" fill="var(--blue)">LAYER 1</text><text class="head" x="42" y="168">Setup prompt</text><text class="body" x="42" y="201">Give the tool useful</text><text class="body" x="42" y="222">standing context.</text>
+  <rect class="card" x="214" y="104" width="174" height="178" rx="14"/><text class="tag" x="236" y="133" fill="var(--blue)">LAYER 2</text><text class="head" x="236" y="168">Project</text><text class="body" x="236" y="201">Add approved</text><text class="body" x="236" y="222">reference material.</text>
+  <rect class="card" x="408" y="104" width="174" height="178" rx="14"/><text class="tag" x="430" y="133" fill="var(--blue)">LAYER 3</text><text class="head" x="430" y="168">Skill</text><text class="body" x="430" y="201">Reuse a proven</text><text class="body" x="430" y="222">method for a task.</text>
+  <rect class="card" x="602" y="104" width="174" height="178" rx="14"/><text class="tag" x="624" y="133" fill="var(--blue)">LAYER 4</text><text class="head" x="624" y="168">Connection</text><text class="body" x="624" y="201">Use live context</text><text class="body" x="624" y="222">from approved tools.</text>
+  <rect class="card" x="796" y="104" width="184" height="178" rx="14"/><text class="tag" x="818" y="133" fill="var(--amber)">LAYER 5</text><text class="head" x="818" y="168">Automation</text><text class="body" x="818" y="201">Use narrow triggers</text><text class="body" x="818" y="222">and approval gates.</text>
+  <path class="arrow" d="M194 193H214M388 193H408M582 193H602M776 193H796"/>
+  <rect x="20" y="320" width="960" height="42" rx="10" fill="var(--amber-bg)"/><text class="warning" x="500" y="347" text-anchor="middle" fill="var(--amber)">More connected does not mean less human checking.</text>
 </svg>
