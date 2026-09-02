@@ -62,6 +62,8 @@ Work out which of these is the closest fit, and say so honestly rather than defa
 - **Unresolved objection or blocker**: something specific was raised, an answer or a workaround was actually sent back, and it was rejected, or a genuine back-and-forth happened without landing.
 - **No decision at all**: something specific was raised, an answer or a workaround was sent back, and then contact from both sides simply stops. Nobody said no. This is a live thread nobody returned to, not the prospect quietly deciding against it, and the right next action is following up on the answer already sent, not waiting for an external trigger.
 
+Never let an internal, company-specific CRM stage label stand in as evidence for one of these classifications unless something in the record actually defines it. A stage name that reads as self-explanatory often is not; confirm what it means before using it to support a classification, or say plainly that it is unconfirmed.
+
 ### 4. Decide What Would Justify Coming Back
 
 Do not default to either extreme: silently writing it off forever, or scheduling another chase straight away. If there is a real trigger, a stated future cycle, a new stakeholder in the role, new evidence, name it specifically. If there genuinely is not one, say that plainly instead of inventing a hopeful plan to soften the loss.

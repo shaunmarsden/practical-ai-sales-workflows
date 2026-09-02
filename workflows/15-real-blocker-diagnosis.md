@@ -61,6 +61,8 @@ State each concern exactly as given, then note, separately, what would actually 
 
 Do not treat enthusiasm, or being the point of contact, as confirmation of authority. If nobody has explicitly confirmed holding it, say so, and name anyone else mentioned as a further approver, without assuming they are definitely the real blocker.
 
+Recommend the next question rather than sending it. Never contact anyone who is not already on the thread in order to test any of this, including a further approver whose name has just come up.
+
 </details>
 
 ## ✅ Check Before You Use It
