@@ -43,7 +43,7 @@ For a single worked example, one honest run is enough. Before treating a workflo
 
 ## House Style
 
-Reader-facing copy (guides, workflows, drafts inside examples) follows the [writing style guide](guides/writing-style-and-formatting.md): plain and direct, contractions, no filler ("just checking in", "hope you're well"), no em dashes, ordinal dates, prose over lists except for genuine enumeration.
+Reader-facing copy (guides, workflows, drafts inside examples) follows the [writing style guide](guides/writing-style-and-formatting.md): plain and direct, contractions, no filler ("just checking in", "hope you're well"), no em dashes, no smart quotes or curly apostrophes, ordinal dates, prose over lists except for genuine enumeration.
 
 Repository-facing documentation (this file, `AGENTS.md`, evaluations) can be a little more procedural, but should still avoid corporate jargon, inflated claims, and unnecessary ceremony.
 

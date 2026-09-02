@@ -42,6 +42,7 @@ Same sign-off, same date style, same link style, in every draft, not just the on
 <summary><strong>What are the exact formatting rules?</strong></summary>
 
 - No em dashes. Rewrite using a comma, colon or full stop instead.
+- No smart quotes or curly apostrophes. Use the straight ASCII forms. Word processors and some note apps substitute the curly versions silently, so this is worth checking after pasting anything in.
 - No emojis in customer-facing writing, unless the recipient uses them first.
 - No bold-colon formatting in bullet lists.
 - Dates always with an ordinal suffix: 21st May, 3rd July, 20th August. Never "May 21st" or "21 May".

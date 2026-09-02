@@ -7,9 +7,10 @@ skill frontmatter, examples that are not clearly labelled as fictional,
 accidental employer or private references, secret-like values, unfinished
 placeholder text, a committed private context file, duplicate skill names,
 a skill missing any human-review or limitation language, email addresses,
-phone numbers, em dashes in reader-facing copy, a scored evaluation whose
-headline total disagrees with its own rubric table, and any term in an
-optional local, never-committed blocklist (.github/private-blocklist.txt).
+phone numbers, em dashes and smart quotes in reader-facing copy, a scored
+evaluation whose headline total disagrees with its own rubric table, and
+any term in an optional local, never-committed blocklist
+(.github/private-blocklist.txt).
 
 Not covered, and not realistically checkable by a deterministic script: an
 unexpected commercial figure. That needs a person who knows what the real
@@ -270,25 +271,38 @@ if os.path.exists(BLOCKLIST_PATH):
                      f"matched blocklisted term '{term}'")
 
 
-# 13. Em dashes in reader-facing copy. CONTRIBUTING.md extends this specific
-# style rule to the repository's own prose ("no em dashes"), and
-# guides/writing-style-and-formatting.md states it outright: "No em dashes.
-# Rewrite using a comma, colon or full stop instead." It had been fixed by
-# hand in nineteen separate commits before this check existed, so it is the
-# one style rule worth enforcing automatically rather than re-fixing.
+# 13. Punctuation that reader-facing copy is not meant to contain.
+# guides/writing-style-and-formatting.md states both rules outright ("No em
+# dashes. Rewrite using a comma, colon or full stop instead." and "No smart
+# quotes or curly apostrophes. Use the straight ASCII forms.") and
+# CONTRIBUTING.md extends both to the repository's own prose.
 #
-# Only the em dash is checked. Smart quotes and en dashes are deliberately
-# not, because this repository has never stated a rule about them; adding one
-# is a style decision, not a check. If a fictional example ever needs to quote
-# a model output that genuinely contained an em dash, that is a real false
-# positive: quote it in a fenced code block and exclude the path here.
-EM_DASH = "\u2014"
+# The em dash half exists because it had been fixed by hand in nineteen
+# separate commits before any check did it. The smart quote half exists
+# because a stated rule with nothing enforcing it is exactly how the em dash
+# kept coming back; six were removed by hand shortly before the rule was
+# written down, and word processors reintroduce them silently on paste.
+#
+# En dashes are still not checked, because no rule here mentions them.
+# Characters are referred to by escape rather than literal so this file never
+# flags itself, and .github/ is outside CONTENT in any case.
+#
+# If a fictional example ever needs to quote a model output that genuinely
+# contained one of these, that is a real false positive: put it in a fenced
+# code block and exclude the path here.
+BANNED_PUNCTUATION = {
+    "\u2014": ("em-dash", "replace with a comma, colon or full stop"),
+    "\u201c": ("smart-quote", "replace with a straight double quote"),
+    "\u201d": ("smart-quote", "replace with a straight double quote"),
+    "\u2018": ("smart-quote", "replace with a straight single quote"),
+    "\u2019": ("smart-quote", "replace with a straight apostrophe"),
+}
 for f in CONTENT:
     for i, line in enumerate(read(f).splitlines(), 1):
-        if EM_DASH in line:
-            fail("em-dash", f"{f}:{i}",
-                 "replace with a comma, colon or full stop "
-                 "(guides/writing-style-and-formatting.md)")
+        for character, (label, remedy) in BANNED_PUNCTUATION.items():
+            if character in line:
+                fail(label, f"{f}:{i}",
+                     f"{remedy} (guides/writing-style-and-formatting.md)")
 
 
 # 14. A scored evaluation's headline total must match its own rubric table.
