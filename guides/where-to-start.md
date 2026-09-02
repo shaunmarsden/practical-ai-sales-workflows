@@ -2,7 +2,7 @@
 
 This repository has grown into workflows, guides, templates and portable skills. Where to start depends on how much you have actually used AI in your job already, not how much you would like to have used.
 
-![Four equal starting points for using AI in sales: Starting From Scratch, Used It a Bit, Used It a Lot and AI Wizard. Start where the work feels useful. More technical does not automatically mean more valuable.](../assets/diagrams/where-to-start-ai-sales.svg)
+![Four starting routes: starting from scratch, used it a bit, used it a lot and ready to adapt it. Start where the work feels useful. More technical does not automatically mean more useful.](../assets/diagrams/where-to-start-ai-sales.svg)
 
 ## Remember These Three Things
 

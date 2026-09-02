@@ -2,7 +2,7 @@
 
 The [setup prompt](../templates/ai-sales-setup-prompt.md) gets you a well-briefed assistant. This is what is on the other side of that, once a single prompt stops being enough.
 
-![Get more from your AI, five stages: a single setup prompt, a project with real reference material, repeatable skills rather than reworded prompts, live connections to your actual tools, and automations and agents acting on your behalf, with the final stage marked for extra caution.](../assets/diagrams/get-more-from-your-ai.svg)
+![Five layers for getting more from AI: a setup prompt, a project, a skill, a connection and an automation. Move up only when the current layer saves time, and keep human checking throughout.](../assets/diagrams/get-more-from-your-ai.svg)
 
 ## Remember These Three Things
 

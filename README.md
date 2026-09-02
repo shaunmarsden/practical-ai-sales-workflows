@@ -45,7 +45,7 @@ Already coordinating several workflows and approved connected tools? [Build an A
 
 These are six useful places to begin, not a ranking. Want a different sales job? [Browse all seventeen one-page recipe cards](recipes/README.md), or [open the printable cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
 
-![Five stage sales cycle showing how AI can help find prospects, prepare calls, progress opportunities, support closing and review outcomes. AI prepares the work, while the salesperson checks it and decides what happens next.](assets/diagrams/practical-ai-across-the-sales-cycle.svg)
+![Five sales stages: find, prepare, progress, decide and learn. At every stage AI can prepare the work, while a person checks before acting.](assets/diagrams/practical-ai-across-the-sales-cycle.svg)
 
 The visual shows the main sales cycle. Some jobs, including pipeline review, run alongside it rather than at one particular stage.
 
@@ -101,7 +101,7 @@ Want to go deeper? The [structured usability test](evaluations/usability-test-ro
 
 ## 🧭 How I Approach It
 
-![How I approach it: start with the problem using safe, relevant information, let AI prepare by organising, drafting and spotting gaps, then keep a person in control who checks, decides, acts and improves.](assets/diagrams/how-i-approach-it.svg)
+![Four evidence-led steps: collect approved context, label the evidence, let AI prepare, then let a person decide and approve action.](assets/diagrams/how-i-approach-it.svg)
 
 The full approach is explained in the [methodology](METHODOLOGY.md), with the public data boundaries in [responsible use](RESPONSIBLE-USE.md). [Contributing](CONTRIBUTING.md) sets out when a workflow or skill actually counts as complete.
 
