@@ -19,7 +19,7 @@ This review scores the [worked CRM hygiene review](../examples/fictional-crm-hyg
 | Tone | 5 | Matter-of-fact, no accusation, consistent with the rest of the repository |
 | Privacy | 5 | All fictional; no real company or person |
 | Approval discipline | 5 | Explicitly read-only throughout; every merge, correction and reassignment is left for a person |
-| Hallucination risk | 4 | No invented figures or dates, and the duplicate confidence levels are honestly graded (high versus low), but see below |
+| Hallucination risk | 4 | No invented figures or dates, and the duplicate confidence levels are honestly graded (high versus low). Docked for the two errors also scored under factual accuracy above: which Hartwell row was more recently active, and whether Harbourview's close date had passed, both stated confidently and both contradicted by the export |
 
 ## What Worked
 
