@@ -19,7 +19,7 @@ This review scores the [worked weekly report](../examples/fictional-weekly-opera
 | Tone | 5 | Plain and direct, no invented energy or urgency around a first, necessarily thin report |
 | Privacy | 5 | Uses only what was actually supplied; no invented names or figures |
 | Approval discipline | 5 | Nothing is presented as sent, merged or booked; every action is explicitly left for a person |
-| Hallucination risk | 4 | No invented metric or comparison, and the "no baseline yet" discipline holds throughout, but see below |
+| Hallucination risk | 4 | No invented metric or comparison, and the "no baseline yet" discipline holds throughout. Docked for the record-count error also scored under factual accuracy above: a confidently stated figure the export contradicted, which is exactly what this row exists to catch |
 
 ## What Worked
 
