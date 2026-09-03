@@ -452,6 +452,30 @@ for f in CONTENT:
                      f"says {word.lower()} {noun.lower()}, but there are {actual}")
 
 
+# 19. A job the evidence matrix shows as untested must be named in the roadmap.
+#
+# The roadmap says "The current gaps are simple" and then lists them, so it is
+# making a claim about being complete. It said one job lacked a logged
+# real-work test when the matrix showed two: the sentence was written on 6
+# August and Spot the Real Blocker arrived on 22 August, so the roadmap
+# understated its own gap list for four weeks. The matrix is the source of
+# truth; this only checks the roadmap has not fallen behind it.
+MATRIX, ROADMAP = "EVIDENCE-STATUS.md", "ROADMAP.md"
+if os.path.exists(MATRIX) and os.path.exists(ROADMAP):
+    roadmap = read(ROADMAP)
+    for line in read(MATRIX).splitlines():
+        if not line.startswith("| ["):
+            continue
+        cells = [x.strip() for x in line.strip().strip("|").split("|")]
+        if len(cells) < 5 or not cells[4].startswith("Not yet"):
+            continue
+        job = re.match(r"\[([^\]]+)\]", cells[0])
+        if job and job.group(1) not in roadmap:
+            fail("roadmap-gap-missing", ROADMAP,
+                 f"'{job.group(1)}' has no logged real use in {MATRIX} "
+                 f"but is not named here")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")
