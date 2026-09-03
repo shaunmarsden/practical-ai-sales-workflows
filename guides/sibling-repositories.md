@@ -19,7 +19,7 @@ This condition is not a formality to note and move past. It is the actual bottle
 
 ## What Does Not Transfer, and Needs the Practitioner to Define
 
-- **What the real jobs actually are.** This repository's sixteen jobs came from an actual salesperson's actual week, not from a generic list of sales activities. A finance, HR, operations, or project management sibling needs its own practitioner naming its own real, recurring jobs the same way, not a sales list relabelled with different words.
+- **What the real jobs actually are.** This repository's jobs came from an actual salesperson's actual week, not from a generic list of sales activities. A finance, HR, operations, or project management sibling needs its own practitioner naming its own real, recurring jobs the same way, not a sales list relabelled with different words.
 - **What a good output looks like.** The [sales AI output rubric](../evaluations/sales-ai-output-rubric.md)'s ten areas are generic enough to adapt, but what counts as a strong answer to "did this correctly separate confirmed information from an inference" looks different in a finance reconciliation than in a sales pipeline review. The practitioner defines that, not an adaptation of this repository's own worked examples.
 - **What real evidence and real testing mean in that function.** This repository tests workflows against a practitioner's actual deals. A sibling repository needs its own equivalent real material, real accounts, real requests, real decisions, from someone who actually does that job, not a fictional scenario dressed up as evidence.
 

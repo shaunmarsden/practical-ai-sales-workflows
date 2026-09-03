@@ -1,15 +1,15 @@
 # Selective Installation
 
-Eleven skills, sixteen workflows, and growing. Loading the entire `.agents/skills/` folder into one assistant, project, or Custom GPT works, but it means every conversation carries instructions for jobs that conversation was never going to need, which can crowd out the instruction that actually matters for the task at hand. This guide is about loading less, deliberately, rather than everything by default.
+Seventeen skills, fifteen workflows, and growing. Loading the entire `.agents/skills/` folder into one assistant, project, or Custom GPT works, but it means every conversation carries instructions for jobs that conversation was never going to need, which can crowd out the instruction that actually matters for the task at hand. This guide is about loading less, deliberately, rather than everything by default.
 
 This is a mechanical, per-platform question, not a "which skills should I use" one. For that decision, use [Choose Your Route by Role](role-based-routes.md) if you want a subset grouped by job title. Once a specific set of skills is chosen, this guide covers how to actually load only those into a given tool.
 
 ## Why This Matters More As the Library Grows
 
-A single skill's core `SKILL.md`, kept short and pushing deeper material into supporting files, is not the problem on its own. The problem is loading all eleven at once into a context a single conversation will only ever use one or two of. Two concrete costs:
+A single skill's core `SKILL.md`, kept short and pushing deeper material into supporting files, is not the problem on its own. The problem is loading all seventeen at once into a context a single conversation will only ever use one or two of. Two concrete costs:
 
-- **Relevance dilution.** An assistant asked to draft a follow-up email, with all eleven skills loaded, has ten irrelevant instruction sets competing for attention against the one that actually applies.
-- **A skill meant to stop a task can get missed.** A guardrail buried in skill six of eleven is easier to miss than one in the only skill loaded for this specific job.
+- **Relevance dilution.** An assistant asked to draft a follow-up email, with all seventeen skills loaded, has sixteen irrelevant instruction sets competing for attention against the one that actually applies.
+- **A skill meant to stop a task can get missed.** A guardrail buried in skill six of seventeen is easier to miss than one in the only skill loaded for this specific job.
 
 ## How to Load a Subset, by Platform
 

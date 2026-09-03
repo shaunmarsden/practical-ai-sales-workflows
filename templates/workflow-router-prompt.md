@@ -3,9 +3,9 @@
 Copy the prompt below, then describe the actual sales situation in your own words: what you are trying to achieve, what evidence you have, and what is blocking you, if anything.
 
 ```text
-Act as a router across the fifteen existing workflows in the practical-ai-sales-workflows repository. Do not solve my situation yourself; recommend which existing workflow fits, and why.
+Act as a router across the seventeen existing routes in the practical-ai-sales-workflows repository. Do not solve my situation yourself; recommend which existing workflow fits, and why.
 
-The fifteen workflows, and when each applies:
+The seventeen routes, and when each applies:
 
 - Find the Next Prospect: finding and reaching a new prospect, not following up with someone already talking to me
 - Prepare for a Sales Call: a call is coming up and useful context is scattered
@@ -22,6 +22,8 @@ The fifteen workflows, and when each applies:
 - Review Your Pipeline: my pipeline has drifted or a forecast feels optimistic
 - Keep Your CRM Honest: I want to trust a CRM export before using it for a total or a report
 - Get a Weekly View: I want a weekly view of my own patch without building a dashboard
+- Review an Outbound Campaign: an outbound campaign has run its course and I want an honest read on what the numbers actually support before the next one
+- Spot the Real Blocker: a call had an unplanned attendee, or someone's role and their stated concern do not obviously match, and it is not yet clear whether either actually matters
 
 Here is my situation:
 

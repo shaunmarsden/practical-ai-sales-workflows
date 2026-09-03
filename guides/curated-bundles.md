@@ -1,6 +1,6 @@
 # Curated Bundles
 
-Fifteen recipe cards is enough to need a starting point, especially for someone new to the repository. A bundle is not new content. It is a short page grouping existing [recipe cards](../recipes/README.md) around one common situation, so a first-time reader does not have to read all fifteen to work out where their own job actually sits.
+Seventeen recipe cards is enough to need a starting point, especially for someone new to the repository. A bundle is not new content. It is a short page grouping existing [recipe cards](../recipes/README.md) around one common situation, so a first-time reader does not have to read all seventeen to work out where their own job actually sits.
 
 Built ahead of the usual real-use-evidence bar, on the project owner's own call rather than waiting for usage to show which groupings matter most. Nothing below is an installer or a downloadable package; each bundle is a page of links to files that already exist. A separate backlog idea, a portable, downloadable version of a bundle for use outside this repository, is tracked on its own in ROADMAP.md.
 
