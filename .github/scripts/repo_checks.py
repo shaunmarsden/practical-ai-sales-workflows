@@ -336,6 +336,122 @@ for f in CONTENT:
                  f"out of {maximum}")
 
 
+# 15. Every skill must be reachable from the library guide.
+#
+# The guide is the plain-English page a new reader is sent to first, and it says
+# "Open any skill below" as though its list were complete. It stopped being
+# maintained: four skills existed for weeks with their own workflow and recipe
+# card while appearing nowhere on it. Each was reachable elsewhere, so nothing
+# looked broken from any single page.
+LIBRARY_GUIDE = "guides/what-is-a-sales-ai-skill.md"
+if os.path.isdir(".agents/skills") and os.path.exists(LIBRARY_GUIDE):
+    guide = read(LIBRARY_GUIDE)
+    for skill in sorted(os.listdir(".agents/skills")):
+        if not os.path.isfile(f".agents/skills/{skill}/SKILL.md"):
+            continue
+        if f"skills/{skill}/SKILL.md" not in guide:
+            fail("skill-not-in-library", LIBRARY_GUIDE,
+                 f"{skill} exists but is not linked from the skills library")
+
+
+# 16. The portable router prompt must offer the same routes as the router skill.
+#
+# The prompt is advertised as doing the same job as the skill, pasted straight
+# into a chat tool. It drifted to fifteen routes while the skill had seventeen,
+# so anyone using the portable version could not be routed to two workflows
+# that exist. Nothing pointed the two files at each other.
+ROUTER_SKILL = ".agents/skills/workflow-router/SKILL.md"
+ROUTER_PROMPT = "templates/workflow-router-prompt.md"
+if os.path.exists(ROUTER_SKILL) and os.path.exists(ROUTER_PROMPT):
+    skill_routes = set(re.findall(
+        r"^\|[^|]+\|\s*\[([^\]]+)\]\([^)]+\)\s*\|$", read(ROUTER_SKILL), re.M))
+    prompt_routes = set(re.findall(r"^- ([^:]+):", read(ROUTER_PROMPT), re.M))
+    if skill_routes and prompt_routes:
+        for missing in sorted(skill_routes - prompt_routes):
+            fail("router-drift", ROUTER_PROMPT,
+                 f"the router skill offers '{missing}' but this prompt does not")
+        for extra in sorted(prompt_routes - skill_routes):
+            fail("router-drift", ROUTER_PROMPT,
+                 f"this prompt offers '{extra}' but the router skill does not")
+
+
+# 17. Every recipe card must be reachable from at least one role route.
+#
+# The role guide claims to group "the same seventeen jobs" by which come up in
+# each seat. It reached sixteen: one card appeared under no role at all, so the
+# claim was false while the number in it was still right.
+ROLE_GUIDE = "guides/role-based-routes.md"
+if os.path.isdir("recipes") and os.path.exists(ROLE_GUIDE):
+    roles = read(ROLE_GUIDE)
+    for card in sorted(os.listdir("recipes")):
+        if not card.endswith(".md") or card == "README.md":
+            continue
+        if f"recipes/{card}" not in roles:
+            fail("card-not-in-any-role", ROLE_GUIDE,
+                 f"recipes/{card} is reachable from no role route")
+
+
+# 18. A stated count of skills, workflows or recipe cards must be the real one.
+#
+# One guide opened with "Eleven skills, sixteen workflows" when it was seventeen
+# and fifteen, and built its whole argument on the wrong figure. Another opened
+# with "Seventeen workflows" and said "fifteen" twice further down the same
+# page. Prose counts go stale the moment anything is added, and nobody recounts
+# a directory to check a sentence.
+NUMBER_WORDS = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+    "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
+    "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15,
+    "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19,
+    "twenty": 20,
+}
+
+
+def _count_dir(path, predicate):
+    return sum(1 for e in os.listdir(path) if predicate(e)) if os.path.isdir(path) else None
+
+
+_SKILLS = _count_dir(".agents/skills",
+                     lambda e: os.path.isfile(f".agents/skills/{e}/SKILL.md"))
+_WORKFLOWS = _count_dir("workflows",
+                        lambda e: e.endswith(".md") and e != "README.md")
+_RECIPES = _count_dir("recipes",
+                      lambda e: e.endswith(".md") and e != "README.md")
+# "jobs" and "cards" are the reader-facing words for a recipe card, and are
+# counted the same way. One card is one sales job, which is also one row of the
+# evidence matrix.
+ACTUAL = {
+    "skills": _SKILLS,
+    "workflows": _WORKFLOWS,
+    "recipe cards": _RECIPES,
+    "cards": _RECIPES,
+    "jobs": _RECIPES,
+    "sales jobs": _RECIPES,
+}
+# Only a number of ten or more is treated as a total. Below that the same
+# words are doing a different job: "two workflows sound similar", "two skills
+# in sequence" mean a pair, not a count of everything here. That leaves a
+# genuine total under ten unchecked, which is the right trade while this
+# repository has seventeen of one and fifteen of the other.
+COUNT_FLOOR = 10
+COUNT_CLAIM = re.compile(
+    r"\b(%s)\s+(recipe cards|sales jobs|skills|workflows|cards|jobs)\b"
+    % "|".join(w for w, n in NUMBER_WORDS.items() if n >= COUNT_FLOOR),
+    re.I)
+for f in CONTENT:
+    # The changelog records what was true when each entry was written, so its
+    # counts are history rather than claims about the repository now.
+    if f == "CHANGELOG.md":
+        continue
+    for i, line in enumerate(read(f).splitlines(), 1):
+        for word, noun in COUNT_CLAIM.findall(line):
+            actual = ACTUAL.get(noun.lower())
+            stated = NUMBER_WORDS[word.lower()]
+            if actual is not None and stated != actual:
+                fail("stale-count", f"{f}:{i}",
+                     f"says {word.lower()} {noun.lower()}, but there are {actual}")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")
