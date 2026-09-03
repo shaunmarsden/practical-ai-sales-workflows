@@ -1,6 +1,6 @@
 # Hartwell Example
 
-Continues the [Hartwell business case story](../../../../examples/hartwell-business-case-transcript.md). Alex Morgan has the finished business case ready for the QBR with Priya Chen, and needs help preparing to present it, plus a short internal note to Nadia Osei, Hartwell's Head of IT and Compliance, chasing the still-outstanding data-handling confirmation.
+Continues the [Hartwell business case story](../../../../examples/hartwell-business-case-transcript.md). The full inputs for this test, including what is actually established about each stakeholder, are in the [champion enablement input](../../../../examples/hartwell-champion-enablement-input.md). Alex Morgan has the finished business case ready for the QBR with Priya Chen, and needs help preparing to present it, plus a short internal note to Nadia Osei, Hartwell's Head of IT and Compliance, chasing the still-outstanding data-handling confirmation.
 
 ## Task
 
@@ -27,4 +27,4 @@ Build an enablement package: a decision summary Alex can speak from, role-specif
 - The customer success extension is part of this rollout conversation.
 - The seller can contact Nadia or Priya directly instead of preparing material for Alex.
 
-Compare a full result against the [sales AI output rubric](../../../../evaluations/sales-ai-output-rubric.md), checking in particular that every stakeholder's evidence is grounded in something actually said, not inferred from a job title.
+Compare a full result with the [worked enablement package](../../../../examples/hartwell-champion-enablement-output.md) and score it using the [sales AI output rubric](../../../../evaluations/sales-ai-output-rubric.md), or read the [finished review](../../../../evaluations/hartwell-champion-enablement-review.md). Check in particular that every stakeholder's evidence is grounded in something actually said, not inferred from a job title.
