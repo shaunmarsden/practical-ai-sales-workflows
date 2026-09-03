@@ -36,6 +36,15 @@ A workflow, skill or polished example is useful, but it is not the same as evide
 
 For Build a Business Case and Chase a Quiet Prospect, the skill is the main reusable method, so there is no separate workflow file.
 
+## Evidence That Is Not Per Job
+
+The matrix above covers the seventeen sales jobs. Two tested things sit outside it, and a reader treating the table as the whole picture would miss both.
+
+- **[Cross-model post-call comparison](evaluations/cross-model-post-call-comparison.md).** The same Hartwell transcript and the same post-call prompt, run across several AI tools on 19 July 2026, compared on corrections needed rather than on which answer reads best. It is the only evidence here about whether a method holds when the tool changes.
+- **The sales copilot composition method**, which chains several skills rather than running one. It has [a scored fictional review](evaluations/fictional-sales-copilot-review.md) against the same rubric, [a builder-reported internal-use finding](evaluations/sales-copilot-internal-use-finding.md) and [a live-run finding](evaluations/sales-copilot-live-run-finding.md) covering one real request. Independent testing is the gap the [roadmap](ROADMAP.md) names for it.
+
+Both are builder-run, like everything else on this page.
+
 ## What Is Missing
 
 The most important gap is independent use. The [visitor feedback log](evaluations/visitor-feedback-log.md) is empty because nobody has used the feedback form or Discussions yet, not because a formal test has to happen first. A single honest line from someone who tried one workflow, however short, is real evidence.

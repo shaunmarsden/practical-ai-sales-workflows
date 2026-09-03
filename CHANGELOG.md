@@ -96,7 +96,7 @@ Expanded the repository from eight sales jobs to sixteen, added clearer routes f
 
 ### Real Use Findings
 
-Twelve jobs have a logged finding from sanitised real sales work:
+Fourteen jobs have a logged finding from sanitised real sales work. Twelve are summarised here; two are recorded in their own files because each carries a caveat worth reading in full.
 
 - **Find the Next Prospect:** a real first-touch message earned a quick positive reply, while also challenging one confident subject-line rule.
 - **Follow Up After a Sales Call:** comparison with the email actually sent exposed where a generic draft missed useful detail.
@@ -110,6 +110,11 @@ Twelve jobs have a logged finding from sanitised real sales work:
 - **Review Your Pipeline:** a real review found five accurate flags, one correctly unconfirmed deal and one ownership error.
 - **Keep Your CRM Honest:** a real export exposed test and demo records that were neither prospects nor ordinary missing-data cases.
 - **Get a Weekly View Without Building a Dashboard:** a real weekly view composed existing findings without inventing trends where no baseline existed.
+
+The other two:
+
+- **Move a Stalled Decision:** [a real-use boundary finding](evaluations/buyer-indecision-real-use-finding.md). A real opportunity was correctly classified as a policy and timing blocker rather than buyer indecision, so this shows the method declining to fire rather than firing well.
+- **Hand Over an Opportunity:** [a real-use finding across eleven handovers](evaluations/opportunity-handover-real-use-finding.md). Evidence for the underlying method, and explicitly not yet a test of the current public skill unchanged.
 
 Real inputs remain private. Only the sanitised finding and any resulting method change are recorded publicly.
 

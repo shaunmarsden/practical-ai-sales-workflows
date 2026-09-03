@@ -476,6 +476,27 @@ if os.path.exists(MATRIX) and os.path.exists(ROADMAP):
                  f"but is not named here")
 
 
+# 20. The changelog's real-use count must match the evidence matrix.
+#
+# The matrix marks a job "Test logged" in its real-use column; the changelog
+# states how many jobs have one. Those two numbers drifted apart: the changelog
+# said twelve while the matrix marked fourteen, because two jobs have their
+# finding in a dedicated file rather than in the changelog summary, and nobody
+# re-counted. The repository was understating its own evidence.
+MATRIX_FILE, CHANGELOG_FILE = "EVIDENCE-STATUS.md", "CHANGELOG.md"
+if os.path.exists(MATRIX_FILE) and os.path.exists(CHANGELOG_FILE):
+    logged = len(re.findall(r"^\|.*\|\s*\[Test logged\]\([^)]+\)\s*\|",
+                            read(MATRIX_FILE), re.M))
+    claim = re.search(r"\b(%s)\s+jobs have a logged finding"
+                      % "|".join(NUMBER_WORDS), read(CHANGELOG_FILE), re.I)
+    if logged and claim:
+        stated = NUMBER_WORDS[claim.group(1).lower()]
+        if stated != logged:
+            fail("real-use-count", CHANGELOG_FILE,
+                 f"says {claim.group(1).lower()} jobs have a logged finding, "
+                 f"but {MATRIX_FILE} marks {logged} as Test logged")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")
