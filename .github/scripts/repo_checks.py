@@ -514,6 +514,25 @@ if os.path.exists(COMPARISON):
              "star counts and structure claims are")
 
 
+# 22. A repeated-run test must be linked from the evidence matrix.
+#
+# This exists because of a specific mistake. COMPARISON.md claimed no test in
+# this repository had ever been run twice, while a nine-run stability test sat
+# in evaluations/ linked from neither the matrix nor the comparison. The claim
+# was published and wrong. A test that measures whether a score holds on a
+# second attempt is the strongest evidence here about how much any single score
+# is worth, so the page that tells a reader what has been tested has to name it.
+REPEAT_MARK = re.compile(r"repeated run|stability test|run again|repeat-run", re.I)
+if os.path.exists("EVIDENCE-STATUS.md"):
+    matrix = read("EVIDENCE-STATUS.md")
+    for f in sorted(f for f in MD if f.startswith("evaluations/")):
+        head = "\n".join(read(f).splitlines()[:6])
+        if REPEAT_MARK.search(head) and os.path.basename(f) not in matrix:
+            fail("repeat-test-unlisted", "EVIDENCE-STATUS.md",
+                 f"{f} is a repeated-run test the evidence matrix does not link, "
+                 f"so a claim about repetition can be made without seeing it")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")

@@ -45,6 +45,17 @@ The matrix above covers the seventeen sales jobs. Two tested things sit outside 
 
 Both are builder-run, like everything else on this page.
 
+## Which Tests Have Been Run Twice
+
+Two pieces of work, and this page did not link either of them until now, which is why I was able to claim in the [comparison](COMPARISON.md) that no test had ever been repeated. It had.
+
+- **[The ambiguous objection stability test](evaluations/hartwell-objection-ambiguous-test.md)** is the substantial one: one input, nine runs, three each on three models. Claude scored 46 to 49 and promoted a different primary diagnosis in each of its three runs. ChatGPT scored 47 three times and Gemini 45, 45, 46, both staying on the same diagnosis. Higher peaks from Claude, lower consistency.
+- **[Three single repeats](evaluations/repeat-run-findings.md)** of the chase decision, CRM hygiene review and post-call evidence tests. One held exactly, two came out higher.
+
+Every other scored test on this page is a single run. Where a job above shows two, three or four scored cases, those are separate scenarios rather than repeats of the same one.
+
+Read the two together rather than separately. Claude's measured spread on this rubric is about three points, so a three-point rise on a repeat is inside the range the nine-run test already found, and the more interesting result there is that a stable total hid an unstable judgement.
+
 ## What Is Missing
 
 The most important gap is independent use. The [visitor feedback log](evaluations/visitor-feedback-log.md) is empty because nobody has used the feedback form or Discussions yet, not because a formal test has to happen first. A single honest line from someone who tried one workflow, however short, is real evidence.

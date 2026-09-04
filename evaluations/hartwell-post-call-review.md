@@ -2,6 +2,8 @@
 
 This review scores the [worked output](../examples/hartwell-post-call-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
+> This test has since been [run again, blind](repeat-run-findings.md), and the repeat scored 50 out of 50, two higher than this one. That page explains why two of the three repeats came out higher than their published scores.
+
 ## What the Transcript Was Deliberately Built to Test
 
 This section used to live inside [the transcript itself](../examples/hartwell-post-call-transcript.md), as a "Deliberate Test Points" list. It has been moved here because it tells a reader, or a model being tested against this transcript, what the correct handling of the evidence looks like, which defeats the point of using the transcript as a blind test input for any skill, including ones built after this workflow. The design intent is worth keeping on record; it just does not belong inside the raw source material a model reads as evidence.

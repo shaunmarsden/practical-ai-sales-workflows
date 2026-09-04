@@ -38,7 +38,7 @@ The two repositories overlap less than I first assumed, and I checked rather tha
 
 **Fewer jobs than most.** Seventeen against 21, 166, 168 and about 200. If you want coverage, this is not the repository with the most of it.
 
-**No fictional test here has been run twice.** Every scored evaluation in this repository is a single run. Where a job shows two, three or four scored cases, those are different scenarios, not repeats of the same one, so none of them tells you whether a score would hold on a second attempt. That matters because I have measured what a single run is worth, on a sibling project rather than here: repeating one identical prompt on identical input moved its score by up to five points, and a seven-point gap turned out to be as little as two. Not one score in this repository has had that check.
+**Most of the fictional tests here are single runs.** An earlier version of this page said none had ever been run twice. That was wrong, and it is worth leaving the correction visible: the [ambiguous objection stability test](evaluations/hartwell-objection-ambiguous-test.md) had already run one input nine times, three each across three models, and found Claude scoring 46 to 49 while promoting a different primary diagnosis in every run, where ChatGPT and Gemini stayed on the same one. Three more tests have since been [repeated once each](evaluations/repeat-run-findings.md): one held exactly, two came out higher. Everything else is a single run, and where a job shows two, three or four scored cases those are separate scenarios rather than repeats.
 
 ## What This Repository Has That the Others Do Not
 
