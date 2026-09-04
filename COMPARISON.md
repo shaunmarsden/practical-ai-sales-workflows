@@ -4,7 +4,7 @@ Public repositories offering reusable AI instructions for B2B sales are not scar
 
 So this page compares by structure rather than by quality: whether a repository publishes a worked example, a score for its own output, the rubric behind that score, evidence from real work, and a score from somebody other than its author. Those are checkable. Whether the writing is any good is not something I can fairly judge about other people's work.
 
-Star counts and structure as I found them on 4 September 2026. A dash means I could not find it by reading the repository, not that it does not exist.
+Star counts and structure as I found them on 4 September 2026. Method: I read each repository's file tree, then opened up to eight of its skill files and searched the text inside them, because a first pass that only looked at file and folder names got one of these rows wrong. A dash means I could not find it, not that it does not exist.
 
 | Project | Stars | Shape | Worked example | Published score | Stated rubric | Real-use log | Outside scoring |
 | --- | ---: | --- | --- | --- | --- | --- | --- |
@@ -12,19 +12,23 @@ Star counts and structure as I found them on 4 September 2026. A dash means I co
 | [OneWave-AI/claude-skills](https://github.com/OneWave-AI/claude-skills) | 285 | About 200 skills across sales, marketing, design, engineering | Reference material inside skills | Not found | Rubrics the skills apply, not for scoring output | Not found | Not found |
 | [w95/awesome-claude-corporate-skills](https://github.com/w95/awesome-claude-corporate-skills) | 189 | 166 skills grouped by corporate role | `examples/` folders, holding instructions rather than outputs | Not found | Not found | Not found | Not found |
 | [vonarmen-wq/forward-deployed-selling](https://github.com/vonarmen-wq/forward-deployed-selling) | 74 | Enterprise sales methodology, capabilities and references | **Yes, a labelled teaching artifact on a fictional company** | Not found | Not found | Not found | Not found |
-| [matteotitta/genesys-skills](https://github.com/matteotitta/genesys-skills) | 35 | 168 skills for B2B SaaS go-to-market | Output templates per skill | Not found | **Yes, a per-skill `rubric.json` with a scoring harness** | Not found | Not found |
-| [TheCraigHewitt/sales-skills](https://github.com/TheCraigHewitt/sales-skills) | 21 | 21 skills across the B2B sales lifecycle | Not found | Not found | Not found | Not found | Not found |
+| [matteotitta/genesys-skills](https://github.com/matteotitta/genesys-skills) | 35 | 168 skills for B2B SaaS go-to-market | Output templates per skill | Not found | **A scoring harness, though no rubric files ship with it** | Not found | Not found |
+| [TheCraigHewitt/sales-skills](https://github.com/TheCraigHewitt/sales-skills) | 21 | 21 skills across the B2B sales lifecycle | **Yes, inline in the skill files, 4 of 8 I sampled** | Not found | Not found | Not found | Not found |
 | [Prospeda/gtm-skills](https://github.com/Prospeda/gtm-skills) | 21 | About 2,500 prompts for sales and go-to-market | Not found | Not found | Not found | Not found | Not found |
 
 ## Honest Notes
 
 **vonarmen-wq/forward-deployed-selling** does the worked-example discipline properly, and in one respect better than I do. Its canonical example labels itself a teaching artifact, states that the company is fictional, and says outright that its citations are placeholders showing where real sources would attach. That last sentence is more careful than most of what is published in this space, mine included in places.
 
-**matteotitta/genesys-skills** is the only other project here with a rubric and a way to apply it: a deterministic harness that scores a finished artifact out of 100 against a per-skill `rubric.json` and returns pass or fail. It scores a different thing from my rubric, structure rather than evidence fidelity, and I could not find published results from it. But a repeatable gate on output quality is a real piece of engineering that most of this niche, including this repository, does not have.
+**matteotitta/genesys-skills** ships the only scoring machinery in the table: a deterministic harness that scores a finished artifact out of 100 and returns pass or fail. Two honest qualifications. It expects a per-skill `rubric.json` that you supply, and I found no rubric files in the repository, so the criteria are yours rather than published. And it scores a different thing from my rubric, structural completeness rather than evidence fidelity. A repeatable gate on output shape is still a real piece of engineering that this repository does not have.
 
-**OneWave-AI/claude-skills** and **w95/awesome-claude-corporate-skills** are far larger and far more used than this repository, by two orders of magnitude on stars. Breadth is a real service: somebody looking for a skill they can use today is better served by 200 than by 17.
+**OneWave-AI/claude-skills** and **w95/awesome-claude-corporate-skills** are far larger and far more used than this repository, roughly a hundredfold on stars. Breadth is a real service: somebody looking for a skill they can use today is better served by 200 than by 17.
 
-**Prospeda/gtm-skills** and **TheCraigHewitt/sales-skills** are the closest in intent to this one, a set of sales jobs with reusable instructions for each. TheCraigHewitt's 21 skills map onto almost exactly the same sales lifecycle as my 17.
+**TheCraigHewitt/sales-skills** is the closest in shape to this one, a set of named sales jobs with an instruction for each, and it does the worked-example discipline inside its skill files rather than in a separate folder. One of its examples is explicitly labelled the quality bar for the output, which is a good idea I have not used.
+
+The two repositories overlap less than I first assumed, and I checked rather than guessing. Clear equivalents are objection handling, pipeline review and win-loss against my lost-opportunity review, with call debrief close to my post-call follow up. Theirs then goes wider than mine on outbound channels and commercial mechanics: cold call, direct mail, event networking, referral intros, negotiation, proposal pricing, sales comp, forecasting and demo scripts have no equivalent here. Mine goes deeper into mid-deal diagnosis: briefing a champion, CRM honesty, spotting the real blocker, a stalled decision, an opportunity handover and a fit check have no equivalent there. About a third of either list maps onto the other.
+
+**Prospeda/gtm-skills** is the volume play, about 2,500 prompts across sales and go-to-market.
 
 ## Where This Repository Loses
 
@@ -44,4 +48,4 @@ That is worth exactly what one person's scoring is worth, which is the point of 
 
 ## If I Have Got Something Wrong
 
-If your project is in this table and I have mischaracterised it, or it belongs here and is missing, [open an issue](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new) or [say so in Discussions](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) and I will correct it. I assessed these by reading public repository structure, which is a shallow method: it can miss something held in a place I did not look.
+If your project is in this table and I have mischaracterised it, or it belongs here and is missing, [open an issue](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new) or [say so in Discussions](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) and I will correct it. My method is described at the top and it is still a sample: a file tree plus up to eight skill files read per repository. A first version of this page looked only at file and folder names and got a row wrong, marking a repository as having no worked example when four of its eight skill files carried one inline. If I have made the same kind of mistake somewhere I have not looked, tell me and I will fix it rather than defend it.
