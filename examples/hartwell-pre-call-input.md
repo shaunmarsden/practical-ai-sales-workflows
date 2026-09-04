@@ -46,6 +46,8 @@ The vacancies are a public signal only. They do not prove the current size of th
 
 Shaun can help a sales team test an AI-assisted process for structuring call notes, next actions and first drafts. Nothing is sent or added to a CRM without a person checking it.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - Alex has confirmed a review of information flow, but has not confirmed a specific problem.

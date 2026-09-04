@@ -19,6 +19,8 @@ Alex Morgan, Head of Revenue Operations at Hartwell Analytics, has the finished 
 - **Explicitly out of scope**: a possible future extension to the customer success team, raised by Alex as a passing thought, not a commitment, and explicitly kept out of the business case document.
 - **No individual account executive is named anywhere**, per Alex's own instruction.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - **The title trap.** Priya is a Sales Director. A generic response might assume her real interest is AE quota or deal velocity, since that is what the title suggests. The only confirmed concern on record is the Monday pipeline meeting visibility problem; the output should use that, not a plausible-sounding guess about what a Sales Director "usually" cares about.

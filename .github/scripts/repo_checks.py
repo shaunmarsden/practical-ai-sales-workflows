@@ -533,6 +533,31 @@ if os.path.exists("EVIDENCE-STATUS.md"):
                  f"so a claim about repetition can be made without seeing it")
 
 
+# 23. An answer key in a published input must carry a re-run warning.
+#
+# Twenty-four example inputs end with a "Deliberate Test Points" section
+# naming every trap the scenario contains. That is useful for understanding
+# what an example is for, and ruinous for anybody repeating the test by
+# pasting the file: they sit an open-book exam and score better for reasons
+# unrelated to the method. Found while running three repeats, where the key
+# had to be stripped by hand first. The warning has to sit above the key, so
+# somebody copying from the top meets it before they reach the answers.
+ANSWER_KEY = "## Deliberate Test Points"
+WARNING = "Re-running this yourself"
+for f in sorted(f for f in CONTENT if f.startswith("examples/")):
+    text = read(f)
+    if ANSWER_KEY not in text:
+        continue
+    if WARNING not in text:
+        fail("answer-key-unwarned", f,
+             "ends with a Deliberate Test Points answer key but does not warn "
+             "a reader to stop copying before it")
+    elif text.index(WARNING) > text.index(ANSWER_KEY):
+        fail("answer-key-warning-late", f,
+             "the re-run warning sits below the answer key, so somebody "
+             "copying from the top meets the answers first")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")

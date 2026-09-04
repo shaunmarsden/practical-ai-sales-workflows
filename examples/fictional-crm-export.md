@@ -24,6 +24,8 @@ This export covers the whole fictional sales team, not just Shaun's own deals, s
 | 14 | Westgate Analytics | Ops Director | Marcus Webb | Qualification | (blank) | 15 Dec | 8 Oct |
 | 15 | Bellcross Insurance | Head of Claims | Priti Shah | Negotiation | £20,000 | 30 Jun | 2 Apr |
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - **Row 1 and 2: a likely exact duplicate.** Same company (one entered with "Ltd" appended), same named contact, two different owners, two different stages and values. Reads as the same account entered twice, most likely by a rep who did not check for an existing record before a marketing-sourced lead came in.

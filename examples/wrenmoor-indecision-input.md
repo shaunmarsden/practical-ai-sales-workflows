@@ -21,6 +21,8 @@ Farrah Osei, Head of People Ops at Wrenmoor Analytics, is the economic buyer for
 
 Shaun needs to decide how to respond.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - Each individual reason, sign-off, headcount, an offsite, is genuinely reasonable on its own and would be a mistake to diagnose as indecision in isolation. The skill should not label reason one or two, read alone, as indecision: a real budget sign-off and a real headcount dependency are legitimate gates while they are still open.

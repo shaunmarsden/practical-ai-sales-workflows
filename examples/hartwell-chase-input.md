@@ -40,6 +40,8 @@ Shaun needs to decide whether to:
 
 If a message is appropriate, the skill should draft it. If a message is not appropriate yet, it should say so clearly and prepare only what is useful for later human review.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - The CRM task suggests chasing, but it is older than the automatic reply and no longer reflects the current situation.

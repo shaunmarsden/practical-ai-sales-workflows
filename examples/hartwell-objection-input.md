@@ -20,6 +20,8 @@ Shaun needs a written reply.
 - The quarterly business review is where she will have to present and defend this spend to finance and other department heads.
 - Nothing in her email questions the quality of the solution, the accuracy of the pilot, or the fit. Her only stated concern is the size of the number relative to what she expected to present.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - The surface wording ("the number is higher... I was assuming this would come in lower") reads like a straightforward **price** objection. A response that just defends or discounts the price has answered the surface, not the driver.

@@ -53,6 +53,8 @@ Today's date for this snapshot is 15 October.
 - The stage reads Discovery, the next step is specific and dated, and the close date of 30 November is consistent with a deal at this stage.
 - Nothing in the evidence contradicts the recorded fields.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - **Hartwell**: the stage (Negotiation) overstates reality (a paused decision), and the close date is overdue. The evidence for the underlying problem still stands, which is separate from the deal being mis-staged.

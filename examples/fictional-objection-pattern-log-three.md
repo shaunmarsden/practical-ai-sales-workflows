@@ -15,6 +15,8 @@
 | 7 | Corvane Digital | Proposal | Individual applicant, self-funded | "Let me check with my other half about the cost before I commit." | Circumstances and household budget: a personal spending decision involving a partner, not the employer attestation requirement, and not raised anywhere in this conversation | Agreed to follow up the following week | Progressed; said she would come back after checking |
 | 8 | Priya Anand | Discovery | Individual applicant, self-funded | "Sorry for going quiet, I've just started a new job and don't have the bandwidth right now. Nothing to do with the programme itself." | Circumstances: applicant explicitly stated the reason and explicitly ruled out the programme's own terms as the cause | Agreed to check back in a month | Deferred with a stated, unrelated timing reason |
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - Entries 4 and 5 are two occurrences from one deal, Bellhaven Group, not two independent examples. Counting them separately would inflate the pattern from five distinct deals to six.

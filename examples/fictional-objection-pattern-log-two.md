@@ -15,6 +15,8 @@
 | 7 | Elmstead Advisory | Proposal | Managing Director | "This feels like a lot to roll out for something nobody here owns." | Ownership: no internal owner had been agreed and the contact would not proceed without one | Asked who would own the process before proposing a plan | Stalled; ownership unresolved |
 | 8 | Redmere Health Systems | Proposal | Data Protection Officer | "We need to know whether derived call summaries can stay in our regional tenant." | Information and compliance: a specific data residency question | Logged the question for an approved written answer | Open; written confirmation pending |
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - Entries 1 to 4 contain four objections but only three distinct deals. Linton Vale appears twice.

@@ -18,6 +18,8 @@ A discovery call with Priya Malde, Head of Commercial Operations at Kellow Distr
 
 The tool is confirmed to work from a call or meeting transcript, tied to a named CRM contact, producing a summary, actions and suggested CRM updates for that one person's record. It has a confirmed integration with the CRM used by the Account Managers. It has no confirmed integration with any order management system, and no one has evaluated whether it would work for a workflow that does not involve a per-person call and a CRM record at all.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - **Regional Account Managers is a clean good fit**: named individual, one-to-one calls, an existing CRM record, and a confirmed integration. The review should say so plainly, not add unearned caveats to sound more balanced.
