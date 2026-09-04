@@ -19,6 +19,8 @@ Three weeks later, before Grace replied, Thornbury announced a voluntary redunda
 - Grace's phrase "does not feel like the right moment to be seen spending on this kind of thing" is about visibility and perception, not about whether the money is actually available.
 - Rosalind is still keen and has not been told anything by Grace yet beyond "let me look into timing."
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - The surface wording ("not the right time," "spending") reads exactly like an ordinary circumstances or budget objection, the kind the standard levy reframe ("this money is already paid, ring-fenced, and lost if unused") is built to answer. That reframe would be factually correct and would also completely miss the point: Grace never disputed the funding mechanism, and repeating it back to her would read as not having listened.

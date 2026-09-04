@@ -47,6 +47,8 @@
 
 **Shaun:** Makes sense. I'll build the case around a pilot approval, with the projected numbers clearly labelled as estimates to justify running it, not as the reason to skip straight to a full rollout.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 This fictional transcript includes information the skill should handle carefully:

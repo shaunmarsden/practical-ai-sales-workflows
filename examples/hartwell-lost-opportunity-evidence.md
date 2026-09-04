@@ -14,6 +14,8 @@
 
 6. Shaun updates the HubSpot deal stage to Closed Lost.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - Priya's email blends at least three possible factors into one message: a tighter budget, general timing, and unspecified "changes happening in the team." Treating this as one single, simple reason is too tidy for what she actually said.

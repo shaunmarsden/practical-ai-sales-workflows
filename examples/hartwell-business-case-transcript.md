@@ -57,6 +57,8 @@
 
 **Alex:** Perfect. Send me a draft once you've got the compliance confirmation, or a note on where that stands.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 This fictional transcript includes information the skill should handle carefully:

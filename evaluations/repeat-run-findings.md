@@ -115,7 +115,9 @@ The published inputs are not clean test material. Two of the three carry a secti
 
 That is useful for a reader trying to understand what the example is for. It also means anybody who repeats one of these tests by pasting the published input is running an open-book exam, and will get a better result than the original run did for reasons that have nothing to do with the method.
 
-For these three runs I removed that section, and any line stating that the file exists to test a skill, before the input went anywhere. The runner received the skill instruction and the scenario only. If you repeat this yourself, do the same, or your numbers will not mean what you think they mean.
+For these three runs I removed that section, and any line stating that the file exists to test a skill, before the input went anywhere. The runner received the skill instruction and the scenario only.
+
+All twenty-four inputs that carry an answer key now say so directly, in a line above it telling you to stop copying there. A check keeps that warning present and keeps it above the key, so a file cannot quietly lose it. That is the fix for the next person; it does not change the three runs recorded here, which were stripped by hand.
 
 ## Method
 

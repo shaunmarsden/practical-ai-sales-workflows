@@ -59,6 +59,8 @@
 
 **Shaun:** Understood, I'll keep this scoped to the claims team rollout only. I'll send a draft once I have the compliance confirmation, or an honest note on where that stands.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 This fictional transcript includes information the skill should handle carefully:

@@ -17,6 +17,8 @@
 - **What changed since campaign one:** both the audience source and the message opener changed at the same time; nothing was deliberately held constant between the two campaigns.
 - **Raw numbers:** 12 delivered, 5 replies, 2 positive replies, 1 meeting booked, 1 meeting attended, 0 qualified opportunities yet, still early in the follow-up window.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - Reply rate looks higher in campaign two (5 of 12, over 40 percent) than campaign one (9 of 40, just over 20 percent), which is the kind of number that invites a "the new approach works better" conclusion.

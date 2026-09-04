@@ -13,6 +13,8 @@ The company sells the same generic AI-assisted post-call and admin workflow that
 - **Contact:** Marcus Webb, Operations Director, named in a recent local business press piece about the company's depot expansion.
 - **CRM check:** no existing record for Cedarwell Group; this would be a new entry, not a duplicate contact.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - The job advert is a real, specific, verifiable signal: it names the actual manual, cross-system process. A generic "logistics companies are adopting AI" observation would not be grounded in anything Cedarwell-specific, and using it instead of the advert's own wording would fail the guardrail against a generic hook.

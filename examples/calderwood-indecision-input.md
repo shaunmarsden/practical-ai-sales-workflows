@@ -23,6 +23,8 @@ Tom Whitfield, Operations Director at Calderwood Group, is the economic buyer fo
 
 Shaun needs to decide how to respond.
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - This is **indecision, not an objection**. There is no stated concern to answer. Tom keeps generating new, soft reasons to delay rather than naming a real blocker. Diagnosing this as an objection and "handling" it would miss the point.

@@ -14,6 +14,8 @@
 | 6 | Yarrowfield Council | Discovery | Individual applicant, public sector | Asked whether a standard background check requirement was normal for this kind of programme. | Information: a specific, narrow factual question about a standard process step, unconnected to any wider hesitation | Confirmed the requirement is standard and explained the process | Progressed; no further questions raised |
 | 7 | Halloway Finch | Discovery | Individual applicant, self-funded | After some initial back and forth, sent a single message: "This isn't for me," and did not respond to a follow-up asking why. | Unknown: no reason was given, and nothing in the earlier exchange points to a specific cause | Sent one follow-up offering to answer any question; no reply | Withdrawn; driver not established |
 
+> **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
+
 ## Deliberate Test Points
 
 - Entries 1 and 2 are the genuine pattern this log is built to test, and they look nothing alike. Fenmore Cross ends the call abruptly out of alarm; Bellcross Analytics calmly asks for an NDA and a reference. Both are the same underlying need, confirming the programme is genuine and does what it claims, before proceeding, expressed at opposite ends of the same spectrum: panic versus professional diligence. Grouping them requires reading past the surface behaviour to the shared driver, the reverse of the earlier tests in this series, which grouped similar wording with different drivers.
