@@ -22,6 +22,7 @@ These are practical workflows for everyday sales jobs. Pick a problem, see what 
 - [Give Me Blunt Feedback](#-give-me-blunt-feedback)
 - [How I Approach It](#-how-i-approach-it)
 - [What Has Actually Been Tested](#-what-has-actually-been-tested)
+- [Comparison With Similar Projects](COMPARISON.md)
 - [See One Complete Test](#-see-one-complete-test)
 - [Rules That Matter](#-rules-that-matter)
 - [About Me](#about-me)
@@ -112,6 +113,8 @@ New to using AI at work at all? Start with [getting started with AI](guides/gett
 Available does not mean proven. The [evidence-status matrix](EVIDENCE-STATUS.md) shows which of the seventeen jobs has a workflow, a reusable skill, a fictional test, evidence from real sales work or independent use.
 
 The biggest gap is visible on purpose: nobody has used the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [Discussions](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) yet. A single honest line from someone who tried one workflow, however short, counts.
+
+Wondering how this compares with the other public AI sales repositories? [Comparison With Similar Projects](COMPARISON.md) puts it in a table with six of them, including the columns where this one loses: two stars, fewer jobs than most, and no score from anybody but me.
 
 ## 🧪 See One Complete Test
 

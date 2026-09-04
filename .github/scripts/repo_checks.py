@@ -497,6 +497,23 @@ if os.path.exists(MATRIX_FILE) and os.path.exists(CHANGELOG_FILE):
                  f"but {MATRIX_FILE} marks {logged} as Test logged")
 
 
+# 21. The comparison page must stay reachable and dated.
+#
+# It makes claims about other people's repositories, including star counts and
+# whether a thing exists, all of which drift. Two things keep that honest: a
+# reader has to be able to find it from the README, and it has to say when it
+# was assessed so a stale figure reads as stale rather than as current.
+COMPARISON = "COMPARISON.md"
+if os.path.exists(COMPARISON):
+    if "COMPARISON.md" not in read("README.md"):
+        fail("comparison-unlinked", "README.md",
+             "COMPARISON.md exists but the README does not link it")
+    if not re.search(r"\b\d{1,2}\s+\w+\s+20\d\d\b", read(COMPARISON)):
+        fail("comparison-undated", COMPARISON,
+             "no assessment date found, so a reader cannot tell how old the "
+             "star counts and structure claims are")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")
