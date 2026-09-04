@@ -2,6 +2,8 @@
 
 This review scores the [worked CRM hygiene review](../examples/fictional-crm-hygiene-review.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
+> This test has since been [run again, blind](repeat-run-findings.md), and the repeat scored 49 out of 50, three higher than this one. That page explains why two of the three repeats came out higher than their published scores.
+
 ## Result
 
 **Score: 46 out of 50**

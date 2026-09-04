@@ -2,6 +2,8 @@
 
 This review scores the [worked decision](../examples/hartwell-chase-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
+> This test has since been [run again, blind](repeat-run-findings.md), and the repeat held exactly at 48 out of 50. That page explains why two of the three repeats came out higher than their published scores.
+
 ## Result
 
 **Score: 48 out of 50**
