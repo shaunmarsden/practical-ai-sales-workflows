@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Second Lost-Opportunity Real-Use Finding
+
+- Logged a [real-use recovery finding](evaluations/lost-opportunity-recovery-real-use-finding.md) for Review a Lost Opportunity. A real opportunity that had stopped responding was reviewed against the method, a different and more senior route was identified, and outreach the salesperson approved was followed by a positive reply and a booked call. The finding states plainly that one case does not show the method or the AI caused either, and that nothing is known about whether the opportunity closed. It sits alongside the earlier no-decision finding rather than replacing it, since that one records the review correctly refusing to act.
+
 ### A Third Objection-Handling Test
 
 - Added a third fictional test for Handle an Objection (Thornbury Housing Association), where the surface wording of the objection matches an ordinary circumstances or budget objection exactly, and the standard, factually correct playbook answer to that bucket is precisely the wrong move, since the prospect already accepted the underlying fact and was raising something else entirely (internal optics during a sensitive period). Scored 47 out of 50; the skill correctly avoided re-arguing a settled point and avoided manufacturing urgency during a sensitive period.
