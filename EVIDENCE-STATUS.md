@@ -10,7 +10,7 @@ A workflow, skill or polished example is useful, but it is not the same as evide
 - **Skill** means a reusable AI instruction exists for that specific sales job.
 - **Fictional test** means there is a public worked case or scored evaluation using fictional information.
 - **Real use** means the method has been used against sanitised real sales work. Real customer or employer material is never published.
-- **External user test** means somebody outside this project has tried it independently.
+- **External user test** means somebody outside this project has tried it independently. Nobody has, for any job. The smallest useful version of that is one person scoring one output against the rubric, which takes about fifteen minutes: [score this yourself](evaluations/score-this-yourself.md).
 
 ## The Current Picture
 
