@@ -114,6 +114,8 @@ Available does not mean proven. The [evidence-status matrix](EVIDENCE-STATUS.md)
 
 The biggest gap is visible on purpose: nobody has used the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [Discussions](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) yet. A single honest line from someone who tried one workflow, however short, counts.
 
+Willing to spend fifteen minutes disagreeing with me? [Score one output yourself](evaluations/score-this-yourself.md). Every score here is one person's, and one outside score would be the most useful thing anybody could add.
+
 Wondering how this compares with the other public AI sales repositories? [Comparison With Similar Projects](COMPARISON.md) puts it in a table with six of them, including the columns where this one loses: two stars, fewer jobs than most, and no score from anybody but me.
 
 ## 🧪 See One Complete Test
