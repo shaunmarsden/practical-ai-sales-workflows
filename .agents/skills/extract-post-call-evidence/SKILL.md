@@ -88,4 +88,6 @@ Explain the limitation and request only the minimum additional information neede
 
 End with the points a salesperson must check before using the output. Keep emails, CRM changes, meeting bookings and other external actions subject to explicit human approval.
 
-For a fictional test, read [the Hartwell example](references/hartwell-example.md).
+For a fictional test, read [the Hartwell example](references/hartwell-example.md). Its [worked output](../../../examples/hartwell-post-call-output.md) is scored in the [honest evaluation](../../../evaluations/hartwell-post-call-review.md), and the same transcript with a fixed prompt was also run [across Claude, ChatGPT and Gemini](../../../evaluations/cross-model-post-call-comparison.md), which compares corrections needed rather than which answer reads best.
+
+[Sales Proof Bench](https://github.com/shaunmarsden/sales-proof-bench) gives the same job to several models with no method attached. Its fictional [Hartwell follow-up case](https://github.com/shaunmarsden/sales-proof-bench/blob/main/cases/hartwell-follow-up-case.md) also asks for CRM update suggestions, and one run turned a stated worry into a rating, logging an account risk level of high from a comment that was caution rather than a score. Every model on that case added something the source notes never said. Those runs used the bench's bare task request rather than this skill, so they show what the job looks like without a method rather than testing this one.

@@ -74,3 +74,7 @@ Ask for the missing piece rather than guessing at it.
 This drafts the email. Sending it, and any resulting CRM update, stays subject to explicit human approval.
 
 Read [the template and checklist](references/template-and-checklist.md) before presenting a draft.
+
+Read the fictional [Hartwell transcript](../../../examples/hartwell-post-call-transcript.md) and [worked post-call output](../../../examples/hartwell-post-call-output.md), whose fifth section is this email, for a worked test, and the [honest evaluation](../../../evaluations/hartwell-post-call-review.md) for how it scored. The same transcript with a fixed prompt was also run [across Claude, ChatGPT and Gemini](../../../evaluations/cross-model-post-call-comparison.md), which compares corrections needed rather than which answer reads best.
+
+[Sales Proof Bench](https://github.com/shaunmarsden/sales-proof-bench) gives the same job to several models with no method attached. On its fictional [Hartwell follow-up case](https://github.com/shaunmarsden/sales-proof-bench/blob/main/cases/hartwell-follow-up-case.md), every model added something the source notes never said. One stated a two to three week timeline as fact with nothing behind it, and another run's email narrated its own compliance, "I have not assumed...", rather than reading like something a person would actually send. Those runs used the bench's bare task request rather than this skill, so they show what the job looks like without a method rather than testing this one.

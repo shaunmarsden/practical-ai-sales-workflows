@@ -82,3 +82,5 @@ Stop and ask for clarification when:
 The salesperson checks every source, removes anything inappropriate and decides which questions or conversation path to use. This skill does not contact the prospect, book a meeting or change the CRM.
 
 Read the fictional [Hartwell source pack](../../../examples/hartwell-pre-call-input.md), [skill output](../../../examples/hartwell-pre-call-skill-output.md) and [honest evaluation](../../../evaluations/hartwell-pre-call-review.md) for a worked test.
+
+[Sales Proof Bench](https://github.com/shaunmarsden/sales-proof-bench) gives the same job to several models with no method attached. On its fictional [Marlow case](https://github.com/shaunmarsden/sales-proof-bench/blob/main/cases/marlow-pre-call-case.md), every run spotted the core trap, a secondhand comment being read as a confirmed priority, but two Claude runs signed the outreach message with a name the case never supplied, and Gemini named a fix its own notes had just flagged as unconfirmed. Those runs used the bench's bare task request rather than this skill, so they show what the job looks like without a method rather than testing this one.
