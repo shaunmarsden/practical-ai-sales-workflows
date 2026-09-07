@@ -14,6 +14,10 @@ Release notes provide the fuller version summaries:
 
 - Logged a [real-use recovery finding](evaluations/lost-opportunity-recovery-real-use-finding.md) for Review a Lost Opportunity. A real opportunity that had stopped responding was reviewed against the method, a different and more senior route was identified, and outreach the salesperson approved was followed by a positive reply and a booked call. The finding states plainly that one case does not show the method or the AI caused either, and that nothing is known about whether the opportunity closed. It sits alongside the earlier no-decision finding rather than replacing it, since that one records the review correctly refusing to act.
 
+### The Outbound Campaign Review, Tested on Real Work
+
+- Reviewed a real, completed three-round outbound campaign against [the outbound campaign learning review](workflows/14-outbound-campaign-learning-review.md) and logged the [finding](evaluations/outbound-campaign-real-use-finding.md). The campaign produced no replies and no calls from 45 prospects, and roughly a fifth of the addresses bounced, so the list failed before the messages could be tested. Nearly every variable moved on nearly every prospect, 43 distinct angles across 45 prospects, which means the messaging is untested rather than disproved and nothing is attributable. Reviewing real records also exposed three gaps a fictional example cannot: delivery is not recorded, only bounces; meetings attended and qualified opportunities have no column; and the call to action is not captured at all. What to keep, stop or test next stays a human decision, as the method requires.
+
 ### A Third Objection-Handling Test
 
 - Added a third fictional test for Handle an Objection (Thornbury Housing Association), where the surface wording of the objection matches an ordinary circumstances or budget objection exactly, and the standard, factually correct playbook answer to that bucket is precisely the wrong move, since the prospect already accepted the underlying fact and was raising something else entirely (internal optics during a sensitive period). Scored 47 out of 50; the skill correctly avoided re-arguing a settled point and avoided manufacturing urgency during a sensitive period.
@@ -100,7 +104,7 @@ Expanded the repository from eight sales jobs to sixteen, added clearer routes f
 
 ### Real Use Findings
 
-Fourteen jobs have a logged finding from sanitised real sales work. Twelve are summarised here; two are recorded in their own files because each carries a caveat worth reading in full.
+Fifteen jobs have a logged finding from sanitised real sales work. Twelve are summarised below, and four have a dedicated file because each carries a caveat worth reading in full. Those do not add to fifteen because Review a Lost Opportunity appears in both: the earlier no-decision summary is below, and the later recovery case has its own file.
 
 - **Find the Next Prospect:** a real first-touch message earned a quick positive reply, while also challenging one confident subject-line rule.
 - **Follow Up After a Sales Call:** comparison with the email actually sent exposed where a generic draft missed useful detail.
@@ -115,10 +119,12 @@ Fourteen jobs have a logged finding from sanitised real sales work. Twelve are s
 - **Keep Your CRM Honest:** a real export exposed test and demo records that were neither prospects nor ordinary missing-data cases.
 - **Get a Weekly View Without Building a Dashboard:** a real weekly view composed existing findings without inventing trends where no baseline existed.
 
-The other two:
+The four with a dedicated file:
 
 - **Move a Stalled Decision:** [a real-use boundary finding](evaluations/buyer-indecision-real-use-finding.md). A real opportunity was correctly classified as a policy and timing blocker rather than buyer indecision, so this shows the method declining to fire rather than firing well.
 - **Hand Over an Opportunity:** [a real-use finding across eleven handovers](evaluations/opportunity-handover-real-use-finding.md). Evidence for the underlying method, and explicitly not yet a test of the current public skill unchanged.
+- **Review a Lost Opportunity:** [a recovery finding](evaluations/lost-opportunity-recovery-real-use-finding.md), where the review identified a different route and the approved outreach was followed by a reply and a booked call. The no-decision summary above is the same job's earlier finding.
+- **Review an Outbound Campaign:** [a real campaign reviewed against the method](evaluations/outbound-campaign-real-use-finding.md). No replies and no calls from 45 prospects, with roughly a fifth of the addresses bouncing, so the finding is mostly about the list and the records rather than the messages.
 
 Real inputs remain private. Only the sanitised finding and any resulting method change are recorded publicly.
 
