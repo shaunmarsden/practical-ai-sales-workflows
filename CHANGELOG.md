@@ -10,6 +10,14 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Every Recipe Card Now Has a Prompt on It
+
+- The [Build a Business Case card](recipes/build-a-business-case.md) was the last of the seventeen with nothing to paste. A [business case prompt](templates/business-case-prompt.md) now exists, condensed from the skill, and the card carries it. All seventeen cards are now genuinely one page.
+- It was [scored on its own](evaluations/aldercroft-business-case-prompt-review.md) on Aldercroft, the hardest of the three business case scenarios: **49 out of 50**, run blind in an isolated context with the answer key stripped first. The skill scored 46 on the same scenario.
+- **That three point gap is not a result, and the record says so twice.** One to three points is inside the run-to-run movement already measured here. More importantly, one of the three points is plausibly my own design choice rather than the model's judgement: the prompt makes a human-check section a required numbered part listing every figure needing confirmation, and the skill leaves it to be produced voluntarily. The skill's run produced one anyway and it did not flag the missing pilot cost; the prompt's run did. That is testable by adding the same requirement to the skill, which the review names as the next change and the skill file now says out loud.
+- The run also caught something the scenario's own answer key does not list: no solution or product name was ever established on the call, and it said so rather than quietly naming one. It declined to multiply two unmeasured figures into a headline saving, which is exactly what cost the skill's run a mark. And it produced one applied example instead of the three asked for, explaining why rather than padding, which is the place a second scorer is most likely to disagree with me.
+- Reviewing this turned up a gap in my earlier scoring rather than in either output: neither run produced the three applied examples both artefacts ask for, and the skill's review never flagged it.
+
 ### A Prompt for the Chase Card, Written and Scored
 
 - The [Chase a Quiet Prospect card](recipes/chase-a-quiet-prospect.md) had nothing to paste. It is the most-visited card in this repository and its only route to doing the job was a skill file that opens by saying it is not written to be read start to finish. A [chase sequence prompt](templates/chase-sequence-prompt.md) now exists, condensed from the skill, and the card carries it.
