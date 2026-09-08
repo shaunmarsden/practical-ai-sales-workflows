@@ -79,3 +79,5 @@ This proposes what to send and why. Sending it, and any resulting CRM stage chan
 Read [the sequence stages in detail](references/sequence-stages.md) before drafting a specific chase.
 
 Read the fictional [chase scenario](../../../examples/hartwell-chase-input.md) and [worked decision](../../../examples/hartwell-chase-output.md) for a worked test, and the [honest evaluation](../../../evaluations/hartwell-chase-review.md) for how it scored. That test was later [run again, blind](../../../evaluations/repeat-run-findings.md), and held at exactly the same score.
+
+A [shorter prompt](../../../templates/chase-sequence-prompt.md) condensed from this file is what the recipe card carries, for anyone who wants one block to paste rather than a whole instruction sheet. It was [scored separately](../../../evaluations/hartwell-chase-prompt-review.md) on the same scenario and missed one thing this file's own run caught.

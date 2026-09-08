@@ -636,6 +636,27 @@ for f in CARDS:
                  f"the text on the card no longer matches {source}, so the "
                  "card would hand a reader something unpublished")
 
+# And any page stating how many cards carry a prompt must state the real
+# number. "Fifteen of the seventeen carry the prompt" was true for one day.
+# Check 18 counts skills, workflows and cards, not cards that carry a prompt,
+# so this count had nothing watching it, which is how the sibling repository's
+# scoring pack ended up still saying twenty runs after the twenty-first landed.
+CARRY_COUNT = re.compile(
+    r"\b(fifteen|sixteen|seventeen|\d+) of the (?:fifteen|sixteen|seventeen|\d+) "
+    r"carry the prompt", re.I)
+WORDS = {"fifteen": 15, "sixteen": 16, "seventeen": 17}
+for f in sorted(CONTENT):
+    for i, line in enumerate(read(f).splitlines(), 1):
+        found = CARRY_COUNT.search(line)
+        if not found:
+            continue
+        token = found.group(1).lower()
+        stated = WORDS.get(token, int(token) if token.isdigit() else None)
+        if stated is not None and stated != len(INLINED):
+            fail("prompt-count", f"{f}:{i}",
+                 f"says {found.group(1)} cards carry the prompt but "
+                 f"{len(INLINED)} do")
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")

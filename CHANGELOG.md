@@ -10,6 +10,13 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Prompt for the Chase Card, Written and Scored
+
+- The [Chase a Quiet Prospect card](recipes/chase-a-quiet-prospect.md) had nothing to paste. It is the most-visited card in this repository and its only route to doing the job was a skill file that opens by saying it is not written to be read start to finish. A [chase sequence prompt](templates/chase-sequence-prompt.md) now exists, condensed from the skill, and the card carries it.
+- It was [scored on its own](evaluations/hartwell-chase-prompt-review.md) rather than borrowing the skill's result: **46 out of 50** on the fictional Hartwell scenario, run blind in an isolated context with the scenario's answer key stripped first. The skill scored 48 twice on the same scenario. That two point gap is inside the run-to-run movement this repository has already measured, so it is not evidence the prompt is worse, and the record says so.
+- What the prompt's run missed is worth more than the total. Alex promised the transcript by Thursday and then went away from the 8th, and the case is built so those two conflict. The run handled the conditional approval well and repeatedly, and never mentioned Thursday. The skill's run did. Whether the prompt's stale-date instruction reads too narrowly or one run was unlucky needs a second run to separate, and the review names that as the next change to test rather than guessing.
+- Build a Business Case is now the only card without a prompt, and a new check keeps the stated count honest. Check 18 counts skills, workflows and cards, not cards carrying a prompt, so "sixteen of the seventeen" had nothing watching it.
+
 ### The Evidence Now Links From the Skills People Actually Open
 
 - Twelve skill files now link the scored evidence behind them. Repository traffic showed that the skills are what visitors open, while the evidence status page, the comparison and the evaluations folder pull almost nothing, so the evidence was sitting where nobody looks. Eleven of those twelve link a scored evaluation they did not link before. This adds no new evidence, it makes what already existed reachable from the instruction sheet rather than two clicks away or not at all.
