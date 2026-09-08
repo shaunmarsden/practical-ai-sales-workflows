@@ -61,4 +61,4 @@ Say so and name exactly what evidence would resolve the uncertainty, rather than
 
 This produces an analysis and a recommendation. Updating the CRM stage, setting a follow-up reminder, and any actual re-approach stay subject to explicit human decision.
 
-Read [the Hartwell example](references/hartwell-example.md) for a fictional test.
+Read [the Hartwell example](references/hartwell-example.md) for a fictional test. Its [worked analysis](../../../examples/hartwell-lost-opportunity-analysis.md) is scored in the [honest evaluation](../../../evaluations/hartwell-lost-opportunity-review.md), and a separate [real use finding](../../../evaluations/lost-opportunity-recovery-real-use-finding.md) records what happened on a real one.

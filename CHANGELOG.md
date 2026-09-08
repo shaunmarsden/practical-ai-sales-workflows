@@ -10,6 +10,12 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Evidence Now Links From the Skills People Actually Open
+
+- Twelve skill files now link the scored evidence behind them. Repository traffic showed that the skills are what visitors open, while the evidence status page, the comparison and the evaluations folder pull almost nothing, so the evidence was sitting where nobody looks. Eleven of those twelve link a scored evaluation they did not link before. This adds no new evidence, it makes what already existed reachable from the instruction sheet rather than two clicks away or not at all.
+- Five skills also link [Sales Proof Bench](https://github.com/shaunmarsden/sales-proof-bench) where one of its fictional cases covers the same job: pre-call prep, the follow-up email, the post-call evidence pack, objection diagnosis and the business case. Those bench runs used a bare task request with no method attached, so each link says plainly that it shows what the job looks like without a skill rather than testing the skill. The bench has never tested a skill, and none of these lines claim it has.
+- Every skill except the Workflow Router now reaches a scored evaluation from its own file or its worked example. No evaluation of the router exists yet.
+
 ### A Second Lost-Opportunity Real-Use Finding
 
 - Logged a [real-use recovery finding](evaluations/lost-opportunity-recovery-real-use-finding.md) for Review a Lost Opportunity. A real opportunity that had stopped responding was reviewed against the method, a different and more senior route was identified, and outreach the salesperson approved was followed by a positive reply and a booked call. The finding states plainly that one case does not show the method or the AI caused either, and that nothing is known about whether the opportunity closed. It sits alongside the earlier no-decision finding rather than replacing it, since that one records the review correctly refusing to act.

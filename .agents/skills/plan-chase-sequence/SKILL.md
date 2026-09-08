@@ -77,3 +77,5 @@ Do not draft a chase when:
 This proposes what to send and why. Sending it, and any resulting CRM stage change, stays subject to explicit human approval.
 
 Read [the sequence stages in detail](references/sequence-stages.md) before drafting a specific chase.
+
+Read the fictional [chase scenario](../../../examples/hartwell-chase-input.md) and [worked decision](../../../examples/hartwell-chase-output.md) for a worked test, and the [honest evaluation](../../../evaluations/hartwell-chase-review.md) for how it scored. That test was later [run again, blind](../../../evaluations/repeat-run-findings.md), and held at exactly the same score.
