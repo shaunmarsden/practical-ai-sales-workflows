@@ -1,6 +1,6 @@
 # 📤 Recipe: Review an Outbound Campaign
 
-One job, one page. Everything you need is here; nothing else in the repository is required to use this.
+One job, one page, with the prompt on it. Nothing else in the repository is required to use this.
 
 ## Helps with
 
@@ -18,6 +18,38 @@ Reading what an outbound campaign's actual numbers support once it has run its c
 - The raw numbers read straight
 - Whether the comparison is genuinely conclusive
 - What to keep, stop, or test next
+
+<!-- prompts:begin -->
+
+## Paste this into your AI tool
+
+<!-- prompt:begin source=templates/outbound-campaign-learning-review-prompt.md -->
+```text
+Act as a careful reviewer of an outbound campaign's actual result, not its impression.
+
+Use only the numbers and detail I give you. Do not treat reply rate alone as the result, and do not imply a conclusion my sample size cannot actually support.
+
+Record the following, exactly as I have described it, not a tidied-up version:
+
+1. The audience: who this went to, and why it was selected.
+2. The signal or data source used to build the list or angle.
+3. The front-end offer, the message itself, and the call to action.
+4. The single variable actually being tested here, and what was deliberately kept the same as the last comparable campaign. If more than one thing changed at once, say so plainly rather than picking one to credit.
+5. The raw numbers: messages delivered, total replies, positive replies, meetings booked, meetings attended, and qualified opportunities that came from them.
+6. Anything that makes this comparison uncertain: a small sample, a mixed audience, a data source that changed partway through, a benchmark from somewhere else being used as if it were this campaign's own baseline.
+7. What to keep, stop, or test next, based only on what these numbers actually support.
+
+Rules:
+- Never present one campaign, a small sample, or someone else's benchmark as proof of what should work everywhere.
+- Compare like with like. A change in audience and a change in message at the same time cannot be credited to either one alone.
+- Mark a small or mixed sample as inconclusive rather than reading a trend into it.
+- If reply rate looks good but meetings or qualified opportunities do not follow, say so rather than stopping the review at the more flattering number.
+```
+<!-- prompt:end -->
+
+Then paste your own notes underneath it. Everything the prompt needs is listed under **You need** above.
+
+<!-- prompts:end -->
 
 ## Open
 

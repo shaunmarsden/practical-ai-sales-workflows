@@ -1,6 +1,6 @@
 # 🧩 Recipe: Check Whether It Actually Fits
 
-One job, one page. Everything you need is here; nothing else in the repository is required to use this.
+One job, one page, with the prompt on it. Nothing else in the repository is required to use this.
 
 ## Helps with
 
@@ -14,6 +14,35 @@ Working out where an offer is a good fit, a poor fit, or still uncertain for a s
 ## You'll get
 
 Each use case classified as a good fit, a poor fit, or genuinely uncertain, with the specific reason stated plainly rather than softened.
+
+<!-- prompts:begin -->
+
+## Paste this into your AI tool
+
+<!-- prompt:begin source=templates/fit-and-limitations-review-prompt.md -->
+```text
+Act as a careful reviewer of whether an offer genuinely fits a prospect's actual use cases, not a generic pitch writer.
+
+Use only the use cases I describe and only the product capability I confirm. Do not assume a capability is likely to work just because it seems like a reasonable extension of something confirmed.
+
+For every use case I describe, classify it as one of:
+
+1. Good fit: the confirmed need matches confirmed capability directly.
+2. Poor fit: state the specific mismatch plainly. Never reframe a real limitation as a hidden advantage.
+3. Uncertain: there is not yet enough evidence to call it either way. Use this honestly, not as a softer way of saying poor fit.
+
+Rules:
+- Classify each use case separately; do not let a strong good fit anywhere pull a weaker one toward a more flattering answer
+- State the actual reason for each classification, not just the label
+- Never claim a capability that has not actually been confirmed
+- Never let "uncertain" quietly become "good fit" because a decision is wanted sooner
+- If a stakeholder's general description of a role, such as calling it clinical or interpretive, conflicts with the specific, structured tasks described for that same role, name the conflict directly rather than quietly picking whichever version is more convenient
+```
+<!-- prompt:end -->
+
+Then paste your own notes underneath it. Everything the prompt needs is listed under **You need** above.
+
+<!-- prompts:end -->
 
 ## Open
 

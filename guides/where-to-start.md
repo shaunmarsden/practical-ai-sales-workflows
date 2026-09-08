@@ -2,6 +2,8 @@
 
 This repository has grown into workflows, guides, templates and portable skills. Where to start depends on how much you have actually used AI in your job already, not how much you would like to have used.
 
+If you already know the sales job you want help with, skip all of this: open the [recipe cards](../recipes/README.md), pick the job and paste the prompt that is on the card. Fifteen of the seventeen carry the prompt itself. The routes below are for working out what to learn next, not for getting one task done today.
+
 ![Four starting routes: starting from scratch, used it a bit, used it a lot and ready to adapt it. Start where the work feels useful. More technical does not automatically mean more useful.](../assets/diagrams/where-to-start-ai-sales.svg)
 
 ## Remember These Three Things
@@ -26,7 +28,7 @@ You have not used ChatGPT, Claude, or a similar tool seriously yet, or you tried
 
 1. [Getting Started with AI](getting-started-with-ai.md): what these tools actually are, and how to get a useful answer out of one
 2. [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md): give it real context about you and your job, once, instead of starting from a blank page every time
-3. [Prepare for a Sales Call](../workflows/01-pre-call-preparation.md): the simplest workflow here, a good first real task to try
+3. [Prepare for a Sales Call](../recipes/prepare-for-a-sales-call.md): the simplest job here and a good first real task, with the prompt on the card so there is nothing else to open
 4. Come back to this page once that feels easy, not like hard work
 
 ### 🌿 Used It a Bit
@@ -35,7 +37,8 @@ You have used AI for the odd email or quick question, but have not built anythin
 
 1. [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md): the single biggest jump from generic answers to useful ones is standing context, not a cleverer one-off prompt
 2. [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md): the idea of turning a one-off prompt into something repeatable
-3. [Follow Up After a Sales Call](../workflows/02-post-call-follow-up.md) and its [worked example](../examples/hartwell-post-call-output.md): see the quality bar before trying it on your own work
+3. [Follow Up After a Sales Call](../recipes/follow-up-after-a-sales-call.md) and its [worked example](../examples/hartwell-post-call-output.md): see the quality bar before trying it on your own work
+4. Come back here when repeating a job stops feeling like effort
 
 ### 🌳 Used It a Lot
 
@@ -45,8 +48,9 @@ AI is already part of your regular workflow. What you actually want is more cons
 2. The [skills library](what-is-a-sales-ai-skill.md#try-the-skills-library): install one of these instead of writing the same prompt from scratch every time
 3. [Get More From Your AI](get-more-from-your-ai.md): projects, skills, and connectors, once a single prompt has stopped being enough
 4. [Sales AI Output Rubric](../evaluations/sales-ai-output-rubric.md): start scoring your own results instead of trusting them because they read well
+5. Come back here when scoring your own output has become routine
 
-### 🌲 AI Wizard
+### 🌲 Ready to Adapt It
 
 You are already comfortable building and adapting AI workflows, and you might want to adapt this repository rather than just use it as-is.
 
@@ -54,3 +58,4 @@ You are already comfortable building and adapting AI workflows, and you might wa
 2. Read a couple of the [evaluations](../evaluations/) alongside their outputs, to see how the honest-review habit actually works in practice, including where a result fell short
 3. [Responsible Use](../RESPONSIBLE-USE.md) and [Methodology](../METHODOLOGY.md): the guardrails and reasoning worth keeping if you adapt any of this for your own role
 4. Adapt a skill for yourself: the "How do I adapt one for my sales process?" section in [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) walks through it directly
+5. Nothing left to come back for on this page. [Contributing](../CONTRIBUTING.md) is where to go if you want to change something here rather than only adapt it

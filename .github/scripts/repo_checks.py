@@ -558,6 +558,84 @@ for f in sorted(f for f in CONTENT if f.startswith("examples/")):
              "copying from the top meets the answers first")
 
 
+# 24. A recipe card's inlined prompt must match the prompt it was copied from,
+# and only a card that actually carries one may claim to be self-contained.
+#
+# Every card opened by saying "everything you need is here" and then sent the
+# reader to another file for the one thing they needed, the prompt. Fifteen
+# cards now carry the prompt itself, copied in by
+# scripts/build_recipe_prompts.py from its single home, so a card can no
+# longer disagree with the prompt this repository publishes. Each block names
+# its own source, so adding a card does not mean editing this check.
+#
+# The rule for what counts as a source's pasteable text is imported from the
+# build script rather than written again here. Two implementations of it would
+# be a drift risk of exactly the kind this check exists to catch.
+#
+# The second half is what stops the original defect coming back: the
+# self-contained sentence is only allowed on a card that has the prompt on it.
+# Two cards have no standalone prompt anywhere yet, only a skill, and say so.
+BUILDER = "scripts/build_recipe_prompts.py"
+SELF_CONTAINED = "nothing else in the repository is required to use this"
+PROMPT_BEGIN = re.compile(r"<!-- prompt:begin source=(\S+) -->")
+PROMPT_END = "<!-- prompt:end -->"
+TEXT_FENCE = re.compile(r"^```text\n(.*?)^```$", re.M | re.S)
+
+CARDS = sorted(f for f in MD
+               if f.startswith("recipes/") and os.path.basename(f) != "README.md")
+INLINED = [f for f in CARDS if "<!-- prompt:begin" in read(f)]
+
+canonical_prompt = None
+if INLINED:
+    if not os.path.exists(BUILDER):
+        fail("prompt-unbuildable", BUILDER,
+             f"{len(INLINED)} cards carry an inlined prompt and the script "
+             "that regenerates them from their source is missing")
+    else:
+        sys.path.insert(0, os.path.dirname(BUILDER))
+        try:
+            from build_recipe_prompts import canonical_prompt
+        except Exception as exc:  # noqa: BLE001 - report, do not crash the run
+            fail("prompt-unbuildable", BUILDER,
+                 f"cannot import the rule for a source's pasteable text: {exc}")
+
+for f in CARDS:
+    text = read(f)
+    blocks = list(PROMPT_BEGIN.finditer(text))
+    if len(blocks) != text.count(PROMPT_END):
+        fail("prompt-block-unclosed", f,
+             f"{len(blocks)} inlined prompt block(s) opened but "
+             f"{text.count(PROMPT_END)} closed")
+        continue
+    if not blocks:
+        if SELF_CONTAINED in text:
+            fail("self-contained-overclaim", f,
+                 "claims nothing else in the repository is needed, but "
+                 "carries no prompt, so the reader has to open another file "
+                 "to do the job")
+        continue
+    if canonical_prompt is None:
+        continue
+    for i, begun in enumerate(blocks):
+        source = begun.group(1)
+        closes = text.index(PROMPT_END, begun.end())
+        if not os.path.exists(source):
+            fail("prompt-source-missing", f,
+                 f"an inlined block names {source}, which does not exist")
+            continue
+        want = canonical_prompt(source)
+        got = TEXT_FENCE.search(text[begun.end():closes])
+        if want is None:
+            fail("prompt-source-shape", source,
+                 f"publishes no pasteable text for {f} to copy")
+        elif got is None:
+            fail("prompt-block-shape", f,
+                 f"inlined block {i + 1} holds no text-fenced prompt")
+        elif got.group(1).strip() != want.strip():
+            fail("prompt-drift", f,
+                 f"the text on the card no longer matches {source}, so the "
+                 "card would hand a reader something unpublished")
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")

@@ -1,6 +1,6 @@
 # 🚦 Recipe: Move a Stalled Decision
 
-One job, one page. Everything you need is here; nothing else in the repository is required to use this.
+One job, one page, with the prompt on it. Nothing else in the repository is required to use this.
 
 ## Helps with
 
@@ -13,6 +13,54 @@ The recent exchanges, what you know about the buyer's actual authority, and any 
 ## You'll get
 
 A diagnosis of whether this is genuine indecision, and if so, a response that shrinks the decision instead of pushing on it, plus a low-stakes next step.
+
+<!-- prompts:begin -->
+
+## Paste this into your AI tool
+
+<!-- prompt:begin source=templates/buyer-indecision-prompt.md -->
+```text
+Act as a careful sales adviser who understands the difference between an objection and indecision.
+
+Use only the information I provide. Do not invent a discount, a guarantee, a pilot extension, a contractual escape clause, an implementation promise or a deadline that I have not told you is available or real.
+
+Work through the following:
+
+1. Diagnose what this actually is
+Decide which of these best fits, and explain why using the buyer's authority and behaviour, not just their words:
+- indecision (a willing, unblocked buyer who keeps generating soft reasons to delay, with no specific concern)
+- an objection (a specific stated concern to answer)
+- an approval gate (they genuinely need someone else's sign-off)
+- gone quiet (they have stopped replying)
+- a timing issue with a real, stated reason
+- a disqualification (the fit or value was never really there)
+
+Only continue to steps 2 to 4 if this is genuine indecision. If it is one of the others, say so and stop.
+
+2. Reduce the risk of deciding, do not increase the pressure
+Explain that pushing harder, adding urgency, or offering a discount tends to deepen a fearful buyer's worry. Then give:
+- a clear recommendation of what I would do in their position, grounded in their own evidence
+- a smaller, reversible first step (only if such a term is genuinely available to me)
+- the hesitation named gently, with a direct question about what would make deciding now feel safe
+
+3. Draft a reply
+Write a short, warm reply that does the above. Keep the buyer's own evidence, such as what their team or pilot reported, in front of them.
+
+4. Pipeline decision
+Say honestly what should happen next, including when to stop pushing if a genuine attempt to shrink the decision still does not move it.
+
+Rules:
+- Do not invent a discount, guarantee, pilot extension, escape clause or deadline
+- Do not manufacture urgency
+- Do not treat a vague deferral as a firm date
+- Only offer terms I have confirmed are available
+- If this is not actually indecision, say so rather than forcing the indecision playbook onto it
+```
+<!-- prompt:end -->
+
+Then paste your own notes underneath it. Everything the prompt needs is listed under **You need** above.
+
+<!-- prompts:end -->
 
 ## Open
 
