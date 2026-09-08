@@ -2,11 +2,11 @@
 
 New to this repository entirely? Start with [Where to Start](where-to-start.md) or [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) first.
 
-Fifteen workflows now live here, and a real situation rarely arrives labelled with the right one. The [workflow router skill](../.agents/skills/workflow-router/SKILL.md) reads a plain-English description of what is actually going on and hands off to the workflow that fits, without trying to solve the underlying task itself. Not using an AI agent directly? [The portable prompt](../templates/workflow-router-prompt.md) does the same job pasted straight into ChatGPT, Claude or Gemini.
+Seventeen routes now live here, fifteen workflows and two jobs that exist only as a skill, and a real situation rarely arrives labelled with the right one. The [workflow router skill](../.agents/skills/workflow-router/SKILL.md) reads a plain-English description of what is actually going on and hands off to the route that fits, without trying to solve the underlying task itself. Not using an AI agent directly? [The portable prompt](../templates/workflow-router-prompt.md) does the same job pasted straight into ChatGPT, Claude or Gemini.
 
 ## When to Use It
 
-Use it when you are not sure which of the fifteen workflows applies, or when two sound similar and it genuinely matters which one is right. If you already know the job you need, [Choose a Sales Problem](../README.md#-choose-a-sales-problem) or the [recipe cards](../recipes/README.md) get you there faster than routing through this first.
+Use it when you are not sure which of the seventeen routes applies, or when two sound similar and it genuinely matters which one is right. If you already know the job you need, [Choose a Sales Problem](../README.md#-choose-a-sales-problem) or the [recipe cards](../recipes/README.md) get you there faster than routing through this first.
 
 ## A Worked Example
 
@@ -26,4 +26,4 @@ This is a genuine test of the confusion the router's own guardrails call out: "w
 
 ## What This Does Not Do
 
-The router does not draft the follow-up, diagnose the objection, or build the business case itself. It hands off to the workflow that does, with enough context that the next step does not start from a blank slate. If nothing in the existing fifteen workflows actually fits what was described, it says so and points to the [missing-workflow request template](../.github/ISSUE_TEMPLATE/missing-workflow.yml) instead of forcing a route that does not belong.
+The router does not draft the follow-up, diagnose the objection, or build the business case itself. It hands off to the workflow or skill that does, with enough context that the next step does not start from a blank slate. If none of the seventeen existing routes actually fits what was described, it says so and points to the [missing-workflow request template](../.github/ISSUE_TEMPLATE/missing-workflow.yml) instead of forcing a route that does not belong.

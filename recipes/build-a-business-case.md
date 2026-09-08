@@ -1,6 +1,6 @@
 # 📄 Recipe: Build a Business Case
 
-One job, one page. Everything you need is here; nothing else in the repository is required to use this.
+One job, one page. There is no standalone prompt for this job yet, only the skill, so the one thing you will need to open is the skill under **Open** below.
 
 ## Helps with
 

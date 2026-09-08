@@ -1,6 +1,6 @@
 # Recipe Cards
 
-Seventeen sales jobs, one page each. Every card is self-contained: what it helps with, what you need, what you'll get, what the AI cannot decide, what you must check, and what to do next. You should never need to open anything else in the repository to use one.
+Seventeen sales jobs, one page each. Every card covers the same seven things: what it helps with, what you need, what you'll get, the prompt to paste, what the AI cannot decide, what you must check, and what to do next. Fifteen of the seventeen carry the prompt on the card itself, so you never need to open anything else to use one. Build a Business Case and Chase a Quiet Prospect have no standalone prompt yet, only a skill, and each says so at the top rather than claiming otherwise.
 
 If you want the fuller method, the guardrails, or a second worked test for any of these, each card links to the full workflow, prompt, or skill behind it.
 

@@ -1,6 +1,6 @@
 # 🕵️ Recipe: Spot the Real Blocker
 
-One job, one page. Everything you need is here; nothing else in the repository is required to use this.
+One job, one page, with the prompt on it. Nothing else in the repository is required to use this.
 
 ## Helps with
 
@@ -20,6 +20,44 @@ Checking whether the person on a call is actually the decision-maker, and whethe
 - The stated reason kept separate from what would actually resolve it
 - An honest read on who actually decides
 - A specific next question, not a generic follow-up
+
+<!-- prompts:begin -->
+
+## Paste this into your AI tool
+
+<!-- prompt:begin source=templates/real-blocker-diagnosis-prompt.md -->
+```text
+Act as a careful sales call diagnostician.
+
+Use only the information I provide. Do not invent a hidden motive, a reason, or a decision-maker that I have not actually described.
+
+Produce the following sections:
+
+1. Who was actually on the call
+Compare who was expected with who actually attended. Name any unplanned or last-minute attendee explicitly.
+
+2. Role against stated concern
+For each attendee, compare their role or title against what they actually said. Flag any mismatch plainly. If someone's stated concern shifted partway through, say what changed and which concern stayed open.
+
+3. Stated reason versus checkable fact
+For each concern raised, state it exactly as given, then note separately what would actually resolve it. Do not guess at an underlying motive with nothing behind it.
+
+4. Who actually decides
+Do not treat enthusiasm or being the point of contact as confirmation of authority. If nobody has explicitly confirmed holding budget or sign-off authority, say so, and name anyone else who was mentioned as a further approver, without assuming they are definitely the real blocker.
+
+5. Recommended next step
+Name the specific next question or person to identify, not a generic follow-up.
+
+Rules:
+- Do not assert a hidden motive the evidence does not support; flag the mismatch, do not invent the explanation for it
+- Do not treat a plausible-sounding answer as proof an objection is fully resolved if the underlying authority or motive question was never tested
+- Do not contact anyone not already on the thread; recommend the next question, do not draft it as if sending it
+```
+<!-- prompt:end -->
+
+Then paste your own notes underneath it. Everything the prompt needs is listed under **You need** above.
+
+<!-- prompts:end -->
 
 ## Open
 
