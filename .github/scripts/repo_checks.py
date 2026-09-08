@@ -641,9 +641,13 @@ for f in CARDS:
 # Check 18 counts skills, workflows and cards, not cards that carry a prompt,
 # so this count had nothing watching it, which is how the sibling repository's
 # scoring pack ended up still saying twenty runs after the twenty-first landed.
+# "All seventeen" needs catching as much as "sixteen of the seventeen" does,
+# because the sentence that is true today becomes the wrong one the moment an
+# eighteenth card lands without a prompt.
 CARRY_COUNT = re.compile(
-    r"\b(fifteen|sixteen|seventeen|\d+) of the (?:fifteen|sixteen|seventeen|\d+) "
-    r"carry the prompt", re.I)
+    r"\b(all|every one of the|fifteen|sixteen|seventeen|\d+)\s+"
+    r"(?:of the\s+)?(?:fifteen|sixteen|seventeen|\d+)?\s*"
+    r"carr(?:y|ies) the prompt", re.I)
 WORDS = {"fifteen": 15, "sixteen": 16, "seventeen": 17}
 for f in sorted(CONTENT):
     for i, line in enumerate(read(f).splitlines(), 1):
@@ -651,6 +655,13 @@ for f in sorted(CONTENT):
         if not found:
             continue
         token = found.group(1).lower()
+        if token in ("all", "every one of the"):
+            # A claim about all of them is a claim that none is missing one.
+            if len(INLINED) != len(CARDS):
+                fail("prompt-count", f"{f}:{i}",
+                     f"says every card carries the prompt but "
+                     f"{len(CARDS) - len(INLINED)} of {len(CARDS)} do not")
+            continue
         stated = WORDS.get(token, int(token) if token.isdigit() else None)
         if stated is not None and stated != len(INLINED):
             fail("prompt-count", f"{f}:{i}",

@@ -1,33 +1,7 @@
-# 📄 Recipe: Build a Business Case
+# Business Case Prompt
 
-One job, one page, with the prompt on it. Nothing else in the repository is required to use this.
+Copy the prompt below, then add your call transcript or discovery notes, any commercial detail already confirmed, and who will actually read the document.
 
-## Helps with
-
-Turning call evidence into a tailored business case for the decision maker who was not on the call, built or audited so it could not apply unchanged to a different prospect.
-
-## You need
-
-- The current call transcript or discovery notes
-- Any existing draft to audit
-- Confirmed commercial detail already agreed (pricing tier, start date, named contact)
-
-## You'll get
-
-A headed, prose business case, with:
-
-- A personalised title
-- Applied examples grounded in the actual call
-- A commercial section
-- A risk or data section
-- A time commitment section
-- Honest next steps
-
-<!-- prompts:begin -->
-
-## Paste this into your AI tool
-
-<!-- prompt:begin source=templates/business-case-prompt.md -->
 ```text
 Act as a careful business case writer for a B2B sale.
 
@@ -86,37 +60,15 @@ Rules:
 - Do not send the document, and do not treat it as approved. Prepare it for a person
 - If the confirmed detail is too thin to personalise the examples, say so and ask for the minimum missing detail instead of writing a generic case
 ```
-<!-- prompt:end -->
 
-Then paste your own notes underneath it. Everything the prompt needs is listed under **You need** above.
+## Before You Use the Output
 
-<!-- prompts:end -->
+- Check every commercial figure is one your business is actually prepared to honour
+- Check the risk and data section against what the prospect really said about their systems, not against what sounds reassuring
+- Check nothing reads as a guarantee of an outcome
+- Check any projection is still described as a projection, and that the more flattering end of an estimate has not quietly become the headline
+- Confirm who the reader is before sending, and send nothing until you have approved it yourself
 
-## Open
+## Honest Note on This Prompt
 
-**[Skill](../.agents/skills/build-business-case/SKILL.md)**  
-Also: [Audit checklist](../.agents/skills/build-business-case/references/audit-checklist.md) · [Hartwell example](../examples/hartwell-business-case-output.md) · [Bramfield example](../examples/bramfield-business-case-output.md) · [Harder test: a pre-pilot projection](../examples/aldercroft-business-case-output.md)
-
-## The AI cannot decide
-
-- Which commercial figures the business is actually prepared to honour
-- Whether the risk or data section is accurate for this prospect's real systems
-- Who the actual reader is, if it is not the prospect
-
-## You must check
-
-- Every figure, quote, date or commitment is one that was actually established, not invented
-- The applied examples are specific to this call, not generic enough to fit any prospect
-- Nothing reads as a guarantee of an outcome
-
-## Then
-
-Confirm every commercial figure and the risk section are accurate, then send it and update the CRM yourself. Sending stays under explicit human approval.
-
----
-
-Want the fuller method, the evidence classification rules, or further worked tests, including one built entirely on pre-pilot projections rather than measured results? Open the [skill](../.agents/skills/build-business-case/SKILL.md) itself.
-
----
-
-**Tried this recipe?** [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.
+This is condensed from the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md), which is the fuller version and carries the [audit checklist](../.agents/skills/build-business-case/references/audit-checklist.md) this leaves out. The skill and this prompt are separate artefacts, tested separately. The skill scored 47, 46 and 46 on three different fictional scenarios; this prompt has its own [scored test](../evaluations/aldercroft-business-case-prompt-review.md) on the hardest of the three. Do not read either score as evidence for the other.
