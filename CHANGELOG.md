@@ -10,6 +10,15 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Guardrail That a Test Actually Supported
+
+- The previous test found a real defect: four of six runs of Build a Business Case multiplied an untimed estimate by an approximate planning rate into one pound figure, and one annualised it. A [guardrail](.agents/skills/build-business-case/SKILL.md) against combining two unmeasured figures was written for it and then [tested over nineteen runs](evaluations/business-case-stacked-figure-test.md) in a two by two, criterion fixed in writing first.
+- **Supported and kept.** None of the ten runs carrying the guardrail produced a combined figure. Four of the nine without it did. Guardrail alone against the plain baseline is zero of five against three of five; collapsing over the other variable it is zero of ten against four of nine, one-tailed p of 0.033. This is the first change to this repository that a test has supported rather than rejected or failed to separate from noise.
+- **The design had to change partway through, because of something I had written myself.** The note added in the previous test warns a human reader that this defect exists, and these files are pasted into a model as instructions, so it was also instructing the model. Ten further runs were added to separate the two. The warning's own effect turned out to be indistinguishable from noise and no claim is made for it.
+- **A mistake inside the test is recorded on the page.** After the first nine runs I reported that the warning had probably suppressed the defect on its own. That rested on a three-run baseline of two of three; two more baseline runs moved it to three of five and the comparison evaporated. Over-reading a three-run baseline is the exact error this line of testing exists to avoid.
+- The worst of the nineteen runs came from the skill as it stood: £2,520 a week, annualised to £131,000, plus £65,000 a year of projected reclaimed capacity, all from two unmeasured inputs and one gut feel, put in front of a CFO as illustrative.
+- Named next: whether the guardrail is too blunt. The scored run kept the two inputs in separate sections rather than adjacent with their labels, which is more than the instruction asks and leaves a reader with no sense of scale.
+
 ### A Test That Rejected Its Own Hypothesis, and Corrected a Published Claim
 
 - The [business case prompt review](evaluations/aldercroft-business-case-prompt-review.md) said the prompt outscored the skill partly because it requires a human-check section and the skill did not. One line was added to the skill to test that, and then it was actually tested: [six blind runs](evaluations/business-case-check-requirement-test.md) of the same scenario, three on the skill as published and three with the line, with the criterion and the falsification condition written down before any run.
