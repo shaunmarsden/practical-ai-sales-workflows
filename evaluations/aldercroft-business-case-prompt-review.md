@@ -1,5 +1,7 @@
 # Aldercroft Business Case Prompt Review
 
+> **Correction.** This review argued that the prompt's required human-check section was the most likely reason it caught a gap the skill missed. That was [tested over six runs](business-case-check-requirement-test.md) and rejected. Two of three fresh runs of the unmodified skill caught the same gap, so the published skill record's miss was inside its own variation, and all three produced a check section without being told to. The section was never the variable. The section below headed "Why This Scored Higher Than the Skill" is wrong on that point and is corrected there.
+
 This review scores the [worked business case](../examples/aldercroft-business-case-prompt-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md). It tests the [business case prompt](../templates/business-case-prompt.md), which is a different artefact from the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md) scored in the [Aldercroft business case review](aldercroft-business-case-review.md). The prompt is condensed from the skill, so neither score is evidence for the other.
 
 The prompt exists because the [Build a Business Case recipe card](../recipes/build-a-business-case.md) had nothing to paste. It was the last of the seventeen cards in that position.
@@ -44,9 +46,11 @@ The skill scored 46 on this same scenario. Three of its four lost marks are the 
 
 **A three point gap is not evidence the prompt is better than the skill.** This repository has measured identical prompts on identical inputs moving by one to three points between runs, and a [nine-run test](hartwell-objection-ambiguous-test.md) in which the same model reached a different primary diagnosis each time. One run of each artefact on one scenario cannot separate a real difference from that.
 
-**And one of the three is plausibly my own design choice, not the model's judgement.** The skill lists eight things a document must contain and a human-review section is not among them; its run produced notes for human review anyway, and those notes did not mention the missing pilot cost. My prompt makes it a numbered, required section with an explicit instruction to list every figure, claim and section needing confirmation, and anything marked unknown. That is the most likely reason the pilot-cost gap got caught here and not there.
+**I thought one of the three was my own design choice rather than the model's judgement,** because the skill lists eight things a document must contain and a human-review section was not among them, while my prompt makes it a numbered, required section. I wrote that this was the most likely reason the pilot-cost gap got caught here and not there, and that it was testable by adding the same requirement to the skill.
 
-If that holds, the useful finding is not about prompts versus skills at all. It is that **requiring the check list explicitly, rather than leaving it to be produced voluntarily, caught a gap that the voluntary version missed.** That is testable on the skill by adding the same requirement to it, which is the change worth making next.
+**It was tested, over [six blind runs](business-case-check-requirement-test.md), and it was wrong.** Two of three fresh runs of the unmodified skill named the absent pilot cost, so the published record's miss was inside the skill's own variation rather than caused by a missing instruction. All three unmodified runs also produced a human-check section unprompted, so the section was never the variable; what varies is what goes into it.
+
+What that leaves is the honest and duller reading: **three points between one run of each artefact, on one scenario, is not separable from noise, and I do not have an explanation for it that survived testing.**
 
 ## What Worked
 

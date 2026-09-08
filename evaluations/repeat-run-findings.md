@@ -2,6 +2,8 @@
 
 Three of the scored tests in this repository were run again, blind, and scored against the same rubric. This page records what happened.
 
+> A later, larger test sits alongside this one: [the business case check requirement test](business-case-check-requirement-test.md) ran the same scenario six times, three on each side of a one-line change, and used the result to reject a claim this repository had already published. It is the better example of what repeat runs are actually for.
+
 It also corrects something. [Comparison With Similar Projects](../COMPARISON.md) said, in my name, that no fictional test here had ever been run twice. That was wrong when I published it. The [ambiguous objection stability test](hartwell-objection-ambiguous-test.md) had already run the same input nine times, three each across three models, and neither the evidence matrix nor the comparison page linked it, which is how I came to assert an absence that was sitting in this folder. Its results matter for reading mine, so they are set out below before my own.
 
 ## Result
