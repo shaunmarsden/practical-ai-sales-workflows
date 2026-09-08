@@ -10,6 +10,14 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Test That Rejected Its Own Hypothesis, and Corrected a Published Claim
+
+- The [business case prompt review](evaluations/aldercroft-business-case-prompt-review.md) said the prompt outscored the skill partly because it requires a human-check section and the skill did not. One line was added to the skill to test that, and then it was actually tested: [six blind runs](evaluations/business-case-check-requirement-test.md) of the same scenario, three on the skill as published and three with the line, with the criterion and the falsification condition written down before any run.
+- **The hypothesis was rejected.** Two of three unmodified runs already named the absent pilot cost, so the published record's miss was inside the skill's own variation rather than caused by a missing instruction. All three unmodified runs also produced a human-check section without being told to, so the section was never the variable. The prompt review and the skill file are both corrected in place rather than quietly left standing.
+- **The added line is kept and labelled as weakly evidenced, not as a fix.** Three runs each cannot separate three from three against two from three. It stays because one unmodified run is a real instance of the failure it describes, and the page says plainly that reverting one line is the whole cost of preferring no unevidenced changes at all.
+- Two better-evidenced findings came out of the same six runs. **Four of six runs multiplied an untimed estimate by an approximate planning rate into a single pound figure**, one annualised to £131,000, and the worst run of the six came from the published version of the skill. That is a replicated defect rather than a hypothesis, and it is named as the next change to test with the criterion already fixed.
+- **Every one of the six runs used em dashes**, between thirteen and twenty-three each. Only four of seventeen skills and four of twenty-one prompt templates tell the model not to, and this skill is not one of them. The chase prompt, which does carry the rule, produced none. Since the style check forbids the character in every tracked file including published outputs, and no example here discloses a punctuation conversion, the [new output](examples/aldercroft-business-case-check-requirement-output.md) discloses its own and says which replacements were judgement rather than a mechanical swap.
+
 ### Every Recipe Card Now Has a Prompt on It
 
 - The [Build a Business Case card](recipes/build-a-business-case.md) was the last of the seventeen with nothing to paste. A [business case prompt](templates/business-case-prompt.md) now exists, condensed from the skill, and the card carries it. All seventeen cards are now genuinely one page.
