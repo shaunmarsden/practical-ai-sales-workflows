@@ -2,7 +2,7 @@
 
 This repository has grown into workflows, guides, templates and portable skills. Where to start depends on how much you have actually used AI in your job already, not how much you would like to have used.
 
-If you already know the sales job you want help with, skip all of this: open the [recipe cards](../recipes/README.md), pick the job and paste the prompt that is on the card. Fifteen of the seventeen carry the prompt itself. The routes below are for working out what to learn next, not for getting one task done today.
+If you already know the sales job you want help with, skip all of this: open the [recipe cards](../recipes/README.md), pick the job and paste the prompt that is on the card. Sixteen of the seventeen carry the prompt itself. The routes below are for working out what to learn next, not for getting one task done today.
 
 ![Four starting routes: starting from scratch, used it a bit, used it a lot and ready to adapt it. Start where the work feels useful. More technical does not automatically mean more useful.](../assets/diagrams/where-to-start-ai-sales.svg)
 

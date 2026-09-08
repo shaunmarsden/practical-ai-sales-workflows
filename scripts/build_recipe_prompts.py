@@ -11,10 +11,11 @@ a card's prompt by hand and no card can quietly disagree with the prompt the
 repository publishes. Check 24 in .github/scripts/repo_checks.py enforces that,
 reading the source path out of the marker itself.
 
-Two cards are deliberately absent from SOURCES. Build a Business Case and
-Chase a Quiet Prospect have no standalone prompt anywhere in the repository,
-only a skill, so there is nothing to inline for them yet and their opening
-line says so instead of claiming otherwise.
+One card is deliberately absent from SOURCES. Build a Business Case has no
+standalone prompt anywhere in the repository, only a skill, so there is nothing
+to inline for it yet and its opening line says so instead of claiming
+otherwise. Chase a Quiet Prospect was in the same position until its prompt was
+written and scored.
 
 Run from the repository root:
 
@@ -30,6 +31,7 @@ import sys
 # card -> the file that holds the canonical prompt for that job
 SOURCES = {
     "brief-your-champion": "templates/champion-enablement-prompt.md",
+    "chase-a-quiet-prospect": "templates/chase-sequence-prompt.md",
     "check-whether-it-actually-fits": "templates/fit-and-limitations-review-prompt.md",
     "find-the-next-prospect": "templates/outbound-prospecting-prompt.md",
     "follow-up-after-a-sales-call": "templates/post-call-follow-up-prompt.md",

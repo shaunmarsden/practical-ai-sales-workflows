@@ -1,28 +1,7 @@
-# 🔁 Recipe: Chase a Quiet Prospect
+# Chase Sequence Prompt
 
-One job, one page, with the prompt on it. Nothing else in the repository is required to use this.
+Copy the prompt below, then add what the prospect said on the original call, what you have already sent and when, anything that has happened since (an out of office reply, a changed role, a public event at the company, silence with no signal either way), and how many chases have already gone out.
 
-## Helps with
-
-Deciding what, if anything, to send next when a prospect has gone quiet, rather than working through a fixed run of increasingly persistent emails on a timer.
-
-## You need
-
-- The original call detail
-- What has already been sent and when
-- Anything that has happened since (an out-of-office reply, a changed role, silence with no signal)
-- How many chases have already gone out
-
-## You'll get
-
-- A decision: chase now, wait, change the stakeholder, add evidence first, reframe, close the loop, or stop pursuing
-- Only once that decision is made, a message anchored to something real from the call
-
-<!-- prompts:begin -->
-
-## Paste this into your AI tool
-
-<!-- prompt:begin source=templates/chase-sequence-prompt.md -->
 ```text
 Act as a careful sales chase adviser.
 
@@ -71,36 +50,15 @@ Rules:
 - Do not send anything, schedule anything or change any record. Prepare it for a person to approve
 - Where evidence is missing, write Unknown rather than filling the gap
 ```
-<!-- prompt:end -->
 
-Then paste your own notes underneath it. Everything the prompt needs is listed under **You need** above.
+## Before You Use the Output
 
-<!-- prompts:end -->
+- Check the decision against what you actually know, especially whether any task or date it relied on is still current
+- Check the anchor is something real from the prospect's side, not your own pipeline
+- Confirm a second contact is genuinely a route before switching to them, rather than someone who was mentioned once
+- Check the message does not remind the prospect you have already emailed, unless it is the close-out
+- Send nothing, and change no record, until you have approved it yourself
 
-## Open
+## Honest Note on This Prompt
 
-**[Skill](../.agents/skills/plan-chase-sequence/SKILL.md)**  
-Also: [Sequence stages in detail](../.agents/skills/plan-chase-sequence/references/sequence-stages.md) · [Worked example](../examples/hartwell-chase-output.md) · [Honest review](../evaluations/hartwell-chase-review.md)
-
-## The AI cannot decide
-
-Whether a signal (a stated reorganisation, a quiet stretch, an explicit no) is genuinely a reason to wait, change tack or stop, when the evidence itself is ambiguous.
-
-## You must check
-
-- The anchor is something real from the prospect's side, never your own pipeline pressure
-- There is no manufactured urgency or scarcity
-- It does not remind the prospect you have already emailed them, unless this is the final close-out message
-- A live reply has not been mistaken for silence
-
-## Then
-
-Send only once you agree with the decision made, and check the CRM for the deal's actual current state before sending anything, not just the notes or last email.
-
----
-
-Want the fuller method, the sequence shapes, or the guardrails for when not to chase at all? Open the [skill](../.agents/skills/plan-chase-sequence/SKILL.md) itself.
-
----
-
-**Tried this recipe?** [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.
+This is condensed from the [Plan a Chase Sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md), which is the fuller version and carries the sequence detail this leaves out. The skill and this prompt are separate artefacts and were tested separately: the skill scored 48 out of 50 on the fictional Hartwell scenario and held at 48 on a blind repeat, and this prompt has its own [scored test](../evaluations/hartwell-chase-prompt-review.md) on the same scenario. Do not read either score as evidence for the other.
