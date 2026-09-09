@@ -48,6 +48,7 @@ Every objection response ends in one of: the conversation progresses, a dated fo
 - Never argue with a genuine disqualification. A prospect who does not fit is not a harder sell, they are the wrong conversation.
 - Do not let a single-issue objection turn into a five-point pitch. Answer what was actually raised.
 - Keep any comparison to a named competitor or existing tool positioning-neutral. Never disparage it by name.
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

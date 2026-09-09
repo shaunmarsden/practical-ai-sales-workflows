@@ -668,6 +668,26 @@ for f in sorted(CONTENT):
                  f"says {found.group(1)} cards carry the prompt but "
                  f"{len(INLINED)} do")
 
+# 25. Every skill must tell the model not to use em dashes.
+#
+# The style rule forbids them and check 13 enforces that on every tracked file,
+# published model outputs included. For a long time only four of the seventeen
+# skills passed the rule on to the model, so an output from any of the other
+# thirteen had to be hand-converted before it could be committed. That is how a
+# record ended up saying "reproduced unedited" after a silent edit. A skill
+# added later without the rule would quietly reintroduce that, so this is
+# enforced rather than remembered.
+#
+# Tested over thirty-three runs: twenty-eight without the rule all contained em
+# dashes, five with it contained none. See evaluations/em-dash-rule-test.md.
+SKILL_FILES = [f for f in ALL if f.startswith(".agents/skills/") and f.endswith("SKILL.md")]
+for f in sorted(SKILL_FILES):
+    if "em dash" not in read(f).lower():
+        fail("skill-allows-em-dashes", f,
+             "does not tell the model to avoid em dashes, so its output will "
+             "need hand-converting before it can be committed")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")

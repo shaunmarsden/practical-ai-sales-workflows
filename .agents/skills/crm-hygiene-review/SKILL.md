@@ -41,6 +41,7 @@ Flag a close date that has passed, or that does not fit the stage, as a structur
 - Keep confident and uncertain duplicate findings visibly separate at all times.
 - Never diagnose why a specific deal has stalled or whether it is still alive; only flag that a date or field is structurally unsupported.
 - Where a record has every field present, a realistic close date for its stage, and recent activity, say so. A review that finds a problem on every record will not be trusted on the ones that genuinely have one.
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

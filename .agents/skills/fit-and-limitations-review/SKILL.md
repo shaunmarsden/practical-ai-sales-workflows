@@ -35,6 +35,7 @@ A stakeholder's general characterisation of a role and the specific tasks descri
 - Never claim a capability that has not actually been confirmed, even when it seems like a reasonable extension of something the offer does do.
 - Never let "uncertain" quietly become "good fit" because a decision is wanted sooner rather than later.
 - Keep the reasoning specific to what was actually said or confirmed. "This team is probably fine" is not a classification; a stated reason is.
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

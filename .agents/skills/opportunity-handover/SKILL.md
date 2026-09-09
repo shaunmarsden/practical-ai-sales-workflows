@@ -61,6 +61,7 @@ Include personal information only where it helps the receiving person carry on t
 - Never invent a person's gender, pronouns or other personal characteristic. Follow the person reference ledger and the reference audit, not a one-off reminder, to catch this.
 
 Load [the output contract](references/output-contract.md) for the full list of what this skill must and must not do, including the sending, drafting and system-change restrictions. Use [the output template](templates/output-template.md) to format the finished handover. Run [the human review checklist](checks/checklist.md) before the receiving person accepts ownership.
+- No em dashes, no emojis.
 
 ## Run a Reference Audit Before Presenting the Handover
 

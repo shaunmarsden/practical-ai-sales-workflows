@@ -37,6 +37,7 @@ Load [the output contract](references/output-contract.md) for strict behavioural
 - Never assume a stakeholder's priority from their job title alone. If nothing is actually known, say so.
 - Never resolve an outstanding item, a pending confirmation, an unconfirmed figure, into a settled fact to make the champion's case look stronger than it is.
 - Never invent a question a stakeholder is likely to ask; base anticipated questions on what the evidence itself leaves open.
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

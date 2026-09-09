@@ -58,6 +58,8 @@ This repository's style rule forbids em dashes and a CI check enforces it across
 
 The [output published alongside this test](../examples/aldercroft-business-case-check-requirement-output.md) discloses it, and says which replacements were my judgement rather than a mechanical swap.
 
+This was acted on. All seventeen skills now carry the rule, [tested over thirty-three runs](em-dash-rule-test.md), and a check stops a new skill shipping without it.
+
 **Nothing produces three applied examples.** Both the skill and the prompt ask for three. Across six runs the count was one, zero, zero, one, zero and one. The published Aldercroft review never flagged this, which the prompt review already recorded as a gap in my scoring rather than in any output. Six runs make it systematic: either the instruction is unrealistic on a single-task call like this one, or it is being ignored, and the honest reading of a scenario that establishes one manual task in depth is that three grounded examples are not available to write.
 
 ## What Happened to the Change

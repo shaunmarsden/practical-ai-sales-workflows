@@ -68,6 +68,7 @@ Once a route is chosen, state:
 - Never solve the underlying task in place of the workflow being recommended. A router that also does the work stops being a clean handoff and starts guessing at a method the actual workflow already owns.
 - Never force a fit when the described situation does not actually match anything in the table. Say so, and suggest the missing-workflow request template instead.
 - Never assume private company context is required by default. Most fictional-example and diagnostic workflows work without it; only recommend setting it up when the actual task genuinely needs it.
+- No em dashes, no emojis.
 
 ## Require Human Review
 

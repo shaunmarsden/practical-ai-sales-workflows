@@ -24,6 +24,7 @@ Distinguish genuine late-stage fear of making the wrong decision from an ordinar
 2. **Reduce Risk, Don't Push.** If it is genuine indecision, the goal is to make the decision feel safer, not to apply pressure.
 3. **Separate Fact from Inference.** Clearly label what the buyer explicitly said versus what you are inferring from their tone or context.
 4. **No Invented Commercials.** Never invent pilots, discounts, contract flexibility, or implementation promises to soothe the buyer.
+5. **No Em Dashes or Emojis.** Use plain ASCII punctuation.
 
 ## Execution
 
