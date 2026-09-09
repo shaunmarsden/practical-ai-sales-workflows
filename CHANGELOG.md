@@ -19,6 +19,14 @@ Release notes provide the fuller version summaries:
 - **"All five guardrail runs engaged with both figures" implied there were five.** There were ten. Five of them were read in full rather than only checked against the criterion, and the sentence now says that instead. The scored output called itself "the first of the five" for the same reason and no longer does.
 - Three pages were left saying that the Build a Business Case skill lets em dashes through, which stopped being true when all seventeen skills got the rule. Both published business case outputs and the check requirement test now put it in the past tense, where it is accurate about the state at the time of those runs, and a new check catches the present tense version. Retro-tested against the state before this change: it fires on exactly those three lines.
 
+### Which AI Mistakes Actually Get Through
+
+- A new guide, [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md), catalogues every real defect found across the scored runs in these three repositories, sorted by whether a careful reader would have noticed. Nothing on it is illustrative and every row links to the evaluation it came from.
+- The argument is that the mistakes worth building a habit around are not the ones that are easy to laugh at. A compliance-narrating email, a spelling error and thirty em dashes cost nothing, because you see them. An invented pronoun repeated four times inside a Confirmed Evidence section, a price that appears nowhere in the source, and two unmeasured figures multiplied into £131,000 all read as sourced fact.
+- It needed no new tests. Forty-two of the fifty evaluations here already named a specific invented or unsupported detail; nobody had ever sorted them by how easy they are to catch.
+- Writing it turned up the best example in either table, from a run recorded months ago: a general instruction telling the model not to invent pronouns did not work, and a second clean rerun scored the same 41 out of 50 with the same automatic failure. What fixed it was a mechanism, a person reference ledger plus a required audit pass. That whole sequence including the failed attempt was already recorded, and this is the first page to draw the lesson out of it.
+- The page carries its own weaknesses rather than only the successes: the stacked figure ran four times in six before anything stopped it, one prompt here missed a conflict its own skill caught, an instruction asking for three applied examples has never once been followed in six runs, and every score is still one person's.
+
 ### All Seventeen Skills Now Tell the Model Not to Use Em Dashes
 
 - Only four of seventeen did. The style rule forbids them and a check enforces it on every tracked file including published outputs, so every output from the other thirteen had to be hand-converted before it could be committed. That is where a record saying "reproduced unedited" after a silent edit came from.

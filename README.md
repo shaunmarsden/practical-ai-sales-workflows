@@ -126,6 +126,8 @@ The Hartwell example follows one fictional sales conversation from the call to t
 
 You can also score your own result using the [sales AI output rubric](evaluations/sales-ai-output-rubric.md), and [log your own time saved](guides/measure-time-and-quality.md) rather than assuming a workflow helps because it reads well.
 
+**Wondering which AI mistakes are actually worth guarding against?** [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md) catalogues every real defect found across the scored runs here, sorted by whether a careful reader would have noticed. The ones that are easy to laugh at cost nothing. An invented pronoun repeated four times inside a Confirmed Evidence section is the expensive kind.
+
 Curious whether the model actually matters? [See the same test run cold in Claude, ChatGPT and Gemini](evaluations/cross-model-post-call-comparison.md), scored the same way.
 
 ## 🛡️ Rules That Matter
