@@ -10,6 +10,16 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Applied Examples Test, and the Claim It Corrected
+
+- The [stacked figure test](evaluations/business-case-stacked-figure-test.md) named this as the next question about Build a Business Case: across six runs it never produced the three applied examples the artefacts ask for. **Reading the wording before running anything showed that only the prompt asks for three.** The skill says "three is a good number", in a list where other items say "always present", and all six of those runs were runs of the skill. Four pages had turned that into an instruction being ignored. All four are corrected.
+- The gap left after that correction was real and worth testing: three of those six runs produced no applied example at all, and a business case without one has dropped the part connecting a cost to the work.
+- **[Tested over twelve runs](evaluations/business-case-applied-examples-test.md), six a side, and the change was not adopted.** Both arms produced at least one grounded example in all six, so the falsification condition written down beforehand was met. No run produced a second or third example either, which is the padding the guardrail exists to prevent. Nothing in the skill changed.
+- **The runs were scored blind to which version each came from**, using a mapping generated and never displayed until scoring finished. That is new here: every earlier comparison was scored by someone who knew which arm he was reading. A first attempt printed the mapping and was thrown away.
+- **A post-hoc cell is recorded with no claim attached.** Six of twelve said explicitly why there is only one example, four of six with the changed line against two of six without, one-tailed p of 0.28. It was not the criterion and six a side cannot separate it from nothing. It is on the page because the last test on this skill published a claim from exactly this kind of cell and had to be corrected.
+- The page also records why the earlier three in six cannot be rechecked: five of those six outputs were never published, and the skill has changed since.
+- **A defect in this repository's own re-run instruction turned up while following it.** The Aldercroft transcript's fictional-disclosure blockquote names two of the scenario's traps and sits above the line the re-run warning tells you to copy up to, so anyone re-running it is handed part of the answer key. It affects every earlier test on that transcript. Being fixed separately.
+
 ### The Mistakes Guide Is Now Linked From Where People Land
 
 - [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md) was reachable from one line, at 129 of a 164 line README, and from nothing else. That is close to how the bench ended up with almost no readership: published once, linked once, a long way down a long page.
