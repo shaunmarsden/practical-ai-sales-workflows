@@ -61,6 +61,7 @@ Treat the subject line and preview text as their own step, not an afterthought. 
 - Never claim a capability, statistic, or outcome that has not actually been confirmed, even to make the hook sharper.
 - Never imply the reader is already interested, already expecting this message, or already partway into a decision when nothing confirms that.
 - Never invent scarcity, a deadline, or a limited number of slots that is not real.
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

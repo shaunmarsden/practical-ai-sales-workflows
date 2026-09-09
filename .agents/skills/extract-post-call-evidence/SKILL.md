@@ -71,6 +71,7 @@ Read [the output schema](references/output-schema.md) before producing the final
 - Mark CRM information as potentially stale when current evidence differs.
 - State when the available evidence is insufficient.
 - Recommend actions, but do not send messages or alter CRM data.
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

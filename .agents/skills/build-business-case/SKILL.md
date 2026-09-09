@@ -63,6 +63,7 @@ Work through every point below, whether writing a first draft or reviewing one a
 - Never let the risk or data section contradict something specific the prospect said about their own tools or data handling.
 - Keep the applied examples grounded in this call. If two prospects in the same sector would get the same paragraph unchanged, the paragraph is doing no work.
 - Never multiply two unmeasured figures together and present the product. If a calculation needs two inputs and either one is an estimate, a projection or an approximate planning rate, give the inputs separately with their labels and say what would have to be measured before a combined number means anything. Labelling the product as an estimate does not fix this: one number reads as more solid than the two guesses behind it, and a reader who skims will carry the number and leave the labels behind.
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

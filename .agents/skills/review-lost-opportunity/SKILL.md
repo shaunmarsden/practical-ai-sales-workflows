@@ -46,6 +46,7 @@ Do not default to either extreme: silently writing it off forever, or scheduling
 - Never assume an earlier, separate objection was the deciding factor without evidence that it was.
 - Never treat an internal, company-specific CRM stage label as evidence of why or how a deal was lost unless something in the record actually defines it. A stage name that reads as self-explanatory may not be; confirm what it means before using it to support a classification, or say plainly that it is unconfirmed.
 - Keep any reusable evidence, a pilot result, a proof point, flagged as reusable, since it does not expire just because this particular opportunity did not close.
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

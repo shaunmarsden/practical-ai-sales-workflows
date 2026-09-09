@@ -40,6 +40,7 @@ Do not treat enthusiasm, or being the point of contact, as confirmation of budge
 - Never treat the most talkative or most senior-sounding attendee as the decision-maker without an explicit confirmation
 - Never treat a stated objection as fully resolved just because a plausible-sounding answer was given, if the underlying authority or motive question was never actually tested
 - Never contact anyone not already on the thread to test any of this; recommend the next question, do not send it
+- No em dashes, no emojis.
 
 ## Stop When the Task Is Unsafe
 

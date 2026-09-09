@@ -10,6 +10,15 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### All Seventeen Skills Now Tell the Model Not to Use Em Dashes
+
+- Only four of seventeen did. The style rule forbids them and a check enforces it on every tracked file including published outputs, so every output from the other thirteen had to be hand-converted before it could be committed. That is where a record saying "reproduced unedited" after a silent edit came from.
+- **[Tested over thirty-three runs](evaluations/em-dash-rule-test.md).** Twenty-eight earlier runs of Build a Business Case, none carrying the rule, all contained em dashes, between ten and thirty-one each. Five runs with the rule contained none, and no en dashes either. One-tailed p of 0.0000042. The baseline came free from three earlier tests, so no control arm was needed.
+- The stacked-figure guardrail still holds alongside it. All five runs cited Finance's thirty-five pound rate, one in words, and none combined it with the untimed estimate. The two instructions do not interfere.
+- A new check stops a skill added later shipping without the rule. Retro-tested against the state before this change: it fires on exactly the thirteen.
+- **This is a maintenance and disclosure fix, not an output-quality one**, and the page says so. Nothing about a business case is worse for containing an em dash. It also says plainly that one skill was tested while thirteen were changed, which is a weaker claim than the guardrail's.
+- In Identify Buyer Indecision the rule is a numbered, bold-labelled directive rather than a bullet, because that file's list is numbered and bold-labelled. A first pass appended a plain bullet and broke the format.
+
 ### The Guardrail Is Not Too Blunt
 
 - The [stacked figure test](evaluations/business-case-stacked-figure-test.md) named one worry about the guardrail it had just supported: the scored run refused so thoroughly that a CFO got no sense of scale. Six more blind runs tested whether it also suppresses arithmetic that is sound, three each on Hartwell and Bramfield, the two business case scenarios that carry a confirmed seat count and a confirmed per-seat price.
