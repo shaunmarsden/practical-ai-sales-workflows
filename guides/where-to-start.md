@@ -48,14 +48,15 @@ AI is already part of your regular workflow. What you actually want is more cons
 2. The [skills library](what-is-a-sales-ai-skill.md#try-the-skills-library): install one of these instead of writing the same prompt from scratch every time
 3. [Get More From Your AI](get-more-from-your-ai.md): projects, skills, and connectors, once a single prompt has stopped being enough
 4. [Sales AI Output Rubric](../evaluations/sales-ai-output-rubric.md): start scoring your own results instead of trusting them because they read well
-5. Come back here when scoring your own output has become routine
+5. [Which AI Mistakes Actually Get Through](which-ai-mistakes-get-through.md): what to look for while you score, since the defects that cost you read like sourced fact rather than looking wrong
+6. Come back here when scoring your own output has become routine
 
 ### 🌲 Ready to Adapt It
 
 You are already comfortable building and adapting AI workflows, and you might want to adapt this repository rather than just use it as-is.
 
 1. [Get More From Your AI](get-more-from-your-ai.md): if you have not already, connect real reference material and live tools rather than working from a single prompt
-2. Read a couple of the [evaluations](../evaluations/) alongside their outputs, to see how the honest-review habit actually works in practice, including where a result fell short
+2. Read a couple of the [evaluations](../evaluations/) alongside their outputs, to see how the honest-review habit actually works in practice, including where a result fell short, or [Which AI Mistakes Actually Get Through](which-ai-mistakes-get-through.md) for what every one of them found put in one place
 3. [Responsible Use](../RESPONSIBLE-USE.md) and [Methodology](../METHODOLOGY.md): the guardrails and reasoning worth keeping if you adapt any of this for your own role
 4. Adapt a skill for yourself: the "How do I adapt one for my sales process?" section in [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) walks through it directly
 5. Nothing left to come back for on this page. [Contributing](../CONTRIBUTING.md) is where to go if you want to change something here rather than only adapt it
