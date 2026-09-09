@@ -2,9 +2,9 @@
 
 > This is a worked output created from the fictional [Aldercroft pre-pilot transcript](aldercroft-business-case-transcript.md) using the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md) with the guardrail against combining two unmeasured figures. Aldercroft Group, Tomasz Nowicki, Priya Deshmukh and every figure are invented. Nothing has been sent, approved or changed in a CRM.
 
-This is the first of the five guardrail runs in the [stacked figure test](../evaluations/business-case-stacked-figure-test.md), chosen by the same rule used last time, the first run rather than the best. The skill and the transcript went into a fresh isolated context with the transcript's answer key removed first, as its own warning instructs.
+This is the first of the guardrail runs in the [stacked figure test](../evaluations/business-case-stacked-figure-test.md), chosen by the same rule used last time, the first run rather than the best. The skill and the transcript went into a fresh isolated context with the transcript's answer key removed first, as its own warning instructs.
 
-**One edit was made.** The raw output contained thirty em dashes, which this repository's style rule and CI check forbid, so they were converted to colons, commas and full stops. The choice in each place is mine and four would have left a splice, so those became full stops. No words were added, removed or reordered. That the model produces them at all is [a finding from the previous test](../evaluations/business-case-check-requirement-test.md); this skill still does not tell it not to.
+**One edit was made.** The raw output contained thirty em dashes, which this repository's style rule and CI check forbid, so they were converted to colons, commas and full stops. The choice in each place is mine and four would have left a splice, so those became full stops. No words were added, removed or reordered. That the model produces them at all is [a finding from the previous test](../evaluations/business-case-check-requirement-test.md), and the skill did not tell it not to when this run was made. All seventeen skills now carry that rule, [tested over thirty-three runs](../evaluations/em-dash-rule-test.md).
 
 ---
 

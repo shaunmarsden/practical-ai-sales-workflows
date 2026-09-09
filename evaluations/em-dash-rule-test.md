@@ -12,7 +12,7 @@ So every output from the other thirteen had to be converted by hand before it co
 
 ## The Baseline, Which Came Free
 
-Twenty-eight runs of Build a Business Case were made across the [check requirement test](business-case-check-requirement-test.md), the [stacked figure test](business-case-stacked-figure-test.md) and its bluntness follow-up. **Every one of the twenty-eight contains em dashes**, between ten and thirty-one each. No control arm was needed.
+Twenty-eight runs of Build a Business Case were made across three earlier tests: six in the [check requirement test](business-case-check-requirement-test.md), sixteen in the [stacked figure test](business-case-stacked-figure-test.md), whose other three runs are the check requirement test's own, and six in its bluntness follow-up. **Every one of the twenty-eight contains em dashes**, between ten and thirty-one each. No control arm was needed.
 
 ## The Change
 
