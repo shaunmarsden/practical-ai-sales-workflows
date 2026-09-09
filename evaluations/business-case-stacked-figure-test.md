@@ -79,6 +79,33 @@ The usefulness mark is where a second scorer is most likely to disagree with me.
 - It says nothing about the other two business case scenarios, where the pilot has actually run and measured figures exist, so there may be nothing unmeasured to combine.
 - It says nothing about whether the guardrail costs anything elsewhere. The usefulness mark above is one run's worth of a hint that it might.
 
+## Follow-Up: Is the Guardrail Too Blunt?
+
+The section above named this as the next thing to test, and it has been tested.
+
+**The worry.** The scored Aldercroft run refused so thoroughly that it kept the two inputs in separate sections and left a CFO with no sense of scale. If the guardrail also suppresses arithmetic that is perfectly sound, it costs more than it saves.
+
+**Why Hartwell and Bramfield test it.** Aldercroft had nothing measured. These two both carry a confirmed seat count and a confirmed per-seat price, and the skill's own reference file for Hartwell says outright that "the annual total can be calculated from it", so the arithmetic is expected by this repository rather than by me.
+
+**The criterion, fixed before any run:** does the output state a total cost derived from the confirmed seat count and the confirmed per-seat price? A run that gives both numbers and never combines them is a no. The contingency was fixed in advance too: if any run omitted the arithmetic, control runs without the guardrail would be added, because otherwise an omission cannot be pinned on the guardrail.
+
+**Six blind runs of the published skill, guardrail included, three on each scenario.**
+
+| Scenario | Confirmed arithmetic produced | Figures given |
+| --- | ---: | --- |
+| Hartwell | 3 of 3 | £4,320 a year in all three, £360 a month in one |
+| Bramfield | 3 of 3 | £18,720 year one in all three, £16,200 year two in two, £1,560 a month in two, £34,920 across both years in two |
+
+**The guardrail is not too blunt.** Every one of the six produced the combined total, and every figure is arithmetically correct: eight at forty five is £360 a month and £4,320 a year; thirty at fifty two is £1,560 and £18,720; thirty at forty five is £1,350 and £16,200; the two years together are £34,920.
+
+No control arm was needed, and by the contingency set beforehand none was run.
+
+**Two things checked while the outputs were open, neither of them the criterion.** All three Bramfield runs attached the two-year condition to the year-two rate, which is that scenario's headline trap and the thing its reference file warns misrepresents the commercial terms if dropped. And none of the six combined an unmeasured figure with money, so the guardrail still bites where it should.
+
+**What this says about the earlier usefulness mark.** The Aldercroft run scored 4 for commercial usefulness because a CFO got no sense of scale. On this evidence that was the scenario, not the guardrail. Aldercroft has nothing measured to combine, so refusing was correct and the missing scale is the source material's fault. I attributed it to the instruction and that looks wrong.
+
+**Limits.** Six runs, one model, scored by me against a criterion I wrote, though the Hartwell arithmetic expectation is the repository's own rather than mine. The six outputs are not published: the finding is the counts, and five more business case documents in `examples/` would be clutter rather than evidence. Raw outputs were retained while scoring.
+
 ## The Change to Test Next
 
-Whether the guardrail is too blunt. The scored run above kept the two inputs in separate sections rather than adjacent with their labels, which is more than the instruction asks for and leaves a CFO with no sense of scale. Run the other two business case scenarios, where measured figures exist, and check the guardrail does not suppress arithmetic that is perfectly sound.
+Nothing on this thread. The guardrail blocks what it was written to block and permits what it should permit, over twenty-five runs in total. The next question about this skill is elsewhere: across six runs in the previous test it never produced the three applied examples both it and its prompt ask for, which is either an unrealistic instruction or one being ignored.

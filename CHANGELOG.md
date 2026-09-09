@@ -10,6 +10,15 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Guardrail Is Not Too Blunt
+
+- The [stacked figure test](evaluations/business-case-stacked-figure-test.md) named one worry about the guardrail it had just supported: the scored run refused so thoroughly that a CFO got no sense of scale. Six more blind runs tested whether it also suppresses arithmetic that is sound, three each on Hartwell and Bramfield, the two business case scenarios that carry a confirmed seat count and a confirmed per-seat price.
+- **All six produced the combined total, and every figure is correct.** £4,320 a year on Hartwell in three of three; £18,720 for year one on Bramfield in three of three, with £16,200 for year two, £1,560 a month and £34,920 across both years appearing in two each. The criterion and the contingency were both fixed before any run, and by that contingency no control arm was needed.
+- The criterion was not mine to choose. Hartwell's own reference file already says "the annual total can be calculated from it", so the repository had already decided that arithmetic is expected there.
+- Two checks made while the outputs were open, neither of them the criterion: all three Bramfield runs attached the two-year condition to the discounted year-two rate, which is that scenario's headline trap, and none of the six combined an unmeasured figure with money.
+- **This corrects an attribution rather than a claim.** The Aldercroft run scored four for commercial usefulness because a CFO got no sense of scale, and I put that down to the instruction. On this evidence it was the scenario: Aldercroft has nothing measured to combine, so refusing was correct and the missing scale is the source material's fault.
+- Twenty-five runs across the two tests. The guardrail blocks what it was written to block and permits what it should permit, so this thread is closed.
+
 ### A Guardrail That a Test Actually Supported
 
 - The previous test found a real defect: four of six runs of Build a Business Case multiplied an untimed estimate by an approximate planning rate into one pound figure, and one annualised it. A [guardrail](.agents/skills/build-business-case/SKILL.md) against combining two unmeasured figures was written for it and then [tested over nineteen runs](evaluations/business-case-stacked-figure-test.md) in a two by two, criterion fixed in writing first.
