@@ -27,3 +27,5 @@ Tried a card? [Give quick private feedback](https://docs.google.com/forms/d/e/1F
 Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead. Want all seventeen on one printable page instead of seventeen separate ones? [Open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
 
 None of these claim a time saved. If you want to know whether one is actually worth using, log your own time honestly with the [time and quality log](../templates/time-and-quality-log.md) rather than trusting that a recipe helped because it reads well.
+
+Every card has a "What you must check" section, and they differ by job rather than repeating one list. [Which AI Mistakes Actually Get Through](../guides/which-ai-mistakes-get-through.md) is why those sections say what they say: it lists the real defects found across every scored run here, sorted by whether a careful reader would have caught them. The ones worth checking for are the ones that read like sourced fact.

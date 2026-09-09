@@ -4,6 +4,8 @@ This page separates what is available from what has actually been tested.
 
 A workflow, skill or polished example is useful, but it is not the same as evidence that another salesperson can use it successfully. The final column will only change when somebody outside this project completes a test and their finding is logged.
 
+Every evaluation linked below names what actually went wrong in the run it scored. [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md) collects those defects in one place and sorts them by whether a careful reader would have noticed, which is a different question from how a run scored.
+
 ## How to Read the Matrix
 
 - **Workflow** means a plain-English method exists.

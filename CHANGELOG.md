@@ -10,6 +10,13 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Mistakes Guide Is Now Linked From Where People Land
+
+- [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md) was reachable from one line, at 129 of a 164 line README, and from nothing else. That is close to how the bench ended up with almost no readership: published once, linked once, a long way down a long page.
+- **Five skills now cite it where their own recorded defect belongs.** Build a Business Case for the stacked figure, Hand Over an Opportunity for the general instruction that failed against the mechanism that worked, and Follow Up After a Sales Call, Prepare for a Sales Call and Handle an Objection for the invented detail each of them has on record. The traffic lands on the skills rather than on the evidence pages, so that is where the citation goes.
+- Each sentence names that job's actual defect rather than pointing vaguely at a guide, and none of them claims the skill itself was what got tested. Three of the five defects came from the bench running the same job, and both the guide and the sentence say so.
+- Also linked from the recipe card index, next to the line about not trusting a card because it reads well, from Where Should You Start? for anyone already scoring their own output, and from the top of Evidence Status.
+
 ### Where Three of the Nineteen Runs Came From
 
 - The [stacked figure test](evaluations/business-case-stacked-figure-test.md) reported nineteen runs without saying that three of them were the previous test's unmodified runs, reused because they carried neither the guardrail nor the warning note and so belonged in the plain baseline cell. Sixteen were made for it. The page now says so in the method and again in its limits.
