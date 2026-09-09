@@ -1,6 +1,6 @@
 # Score This Yourself
 
-Every score in this repository was given by one person, me, using a rubric I wrote, on outputs I produced. The [evidence status](../EVIDENCE-STATUS.md) page marks Outside scoring as "Not yet" for all seventeen sales jobs, and every evaluation here ends by asking for the same thing: somebody else scoring the same output against the same rubric, without seeing my numbers first.
+Every score in this repository was given by one person, me, using a rubric I wrote, on outputs I produced. The [evidence status](../EVIDENCE-STATUS.md) page marks External User Test as "Not yet" for all seventeen sales jobs, and every evaluation here ends by asking for the same thing: somebody else scoring the same output against the same rubric, without seeing my numbers first.
 
 This page is that request, made as small as I can make it. It should take about fifteen minutes.
 
@@ -10,11 +10,13 @@ You do not need to be a sales expert, use the workflows, install anything or agr
 
 Three files, in this order.
 
-1. **The source material:** [the fictional Kellow scenario](../examples/kellow-fit-review-input.md). Around 600 words. It is entirely invented, so there is nothing confidential in it.
+1. **The source material:** [the fictional Kellow scenario](../examples/kellow-fit-review-input.md). Around 400 words, plus a 200 word answer key at the end that you should also read, for the reason below. It is entirely invented, so there is nothing confidential in it.
 2. **The output being scored:** [the Kellow fit and limitations review](../examples/kellow-fit-review-output.md). Around 500 words.
 3. **The rubric:** [the sales AI output rubric](sales-ai-output-rubric.md). Ten areas, one to five each, out of 50.
 
 The scenario file ends with a section headed "Deliberate Test Points" that names the traps built into it. **Read that section.** It is the context I had when I scored this, and the point of the exercise is to compare two people scoring the same thing with the same information, not to test whether you can spot traps unaided.
+
+That section carries a warning telling you to stop before it. **The warning is not for you.** It is for somebody re-running the scenario through an AI tool, where seeing the traps first would flatter the result. You are scoring an output that already exists, so the traps are context rather than answers.
 
 **Do not open `kellow-fit-review-review.md` until you have finished.** That file holds my scores. Reading it first turns this into agreeing with me, which is worth nothing.
 

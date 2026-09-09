@@ -45,19 +45,23 @@ The matrix above covers the seventeen sales jobs. Two tested things sit outside 
 
 Both are builder-run, like everything else on this page.
 
-## Which Tests Have Been Run Twice
+## Tests With More Than One Run
 
-Two pieces of work, and this page did not link either of them until now, which is why I was able to claim in the [comparison](COMPARISON.md) that no test had ever been repeated. It had.
+Five of them. Two ran the same input repeatedly to measure how much a score moves on its own, and three compared a skill with and without one added line, to test whether a change did anything. The third of those three reused runs from the other two as its baseline rather than running its own.
+
+The first two went unlinked from this page for a long time, which is why I was able to claim in the [comparison](COMPARISON.md) that no test had ever been repeated. It had.
 
 - **[The ambiguous objection stability test](evaluations/hartwell-objection-ambiguous-test.md)** is the substantial one: one input, nine runs, three each on three models. Claude scored 46 to 49 and promoted a different primary diagnosis in each of its three runs. ChatGPT scored 47 three times and Gemini 45, 45, 46, both staying on the same diagnosis. Higher peaks from Claude, lower consistency.
 - **[Three single repeats](evaluations/repeat-run-findings.md)** of the chase decision, CRM hygiene review and post-call evidence tests. One held exactly, two came out higher.
-- **[The em dash rule test](evaluations/em-dash-rule-test.md)**: thirty-three runs on the least interesting defect here. Twenty-eight runs without the rule all produced em dashes; five with it produced none. It is a maintenance and disclosure fix rather than an output-quality one, and one skill was tested while thirteen were changed, which the page labels as the extrapolation it is.
 - **[The business case stacked figure test](evaluations/business-case-stacked-figure-test.md)**: nineteen runs across a two by two, testing a guardrail against multiplying two unmeasured figures together. Supported and kept: none of the ten runs carrying it produced such a figure, against four of the nine without. A six-run follow-up then checked it was not too blunt, and all six produced the confirmed arithmetic the two measured scenarios support. It is the first change to this repository a test has actually supported, and the page records a mistake I made partway through by over-reading a three-run baseline.
 - **[The business case check requirement test](evaluations/business-case-check-requirement-test.md)**: six runs of the same scenario, three on the skill as published and three with one line added, to test a claim this repository had already published about why a prompt outscored the skill. The claim was rejected. It also found that four of six runs multiply two unmeasured figures into a single pound total, one of them annualised to £131,000, and that the published version of the skill produced the worst run of the six.
+- **[The em dash rule test](evaluations/em-dash-rule-test.md)**: thirty-three runs on the least interesting defect here. Twenty-eight runs without the rule all produced em dashes; five with it produced none. It is a maintenance and disclosure fix rather than an output-quality one, and one skill was tested while thirteen were changed, which the page labels as the extrapolation it is.
 
 Every other scored test on this page is a single run. Where a job above shows two, three or four scored cases, those are separate scenarios rather than repeats of the same one.
 
-Read the two together rather than separately. Claude's measured spread on this rubric is about three points, so a three-point rise on a repeat is inside the range the nine-run test already found, and the more interesting result there is that a stable total hid an unstable judgement.
+Read the first two together rather than separately. Claude's measured spread on this rubric is about three points, so a three-point rise on a repeat is inside the range the nine-run test already found, and the more interesting result there is that a stable total hid an unstable judgement.
+
+The three comparisons are worth reading for a different reason: one supported the change it tested, one rejected it, and one found the change was fixing a maintenance problem rather than an output problem. All three record what they got wrong along the way.
 
 ## What Is Missing
 
