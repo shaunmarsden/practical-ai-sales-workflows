@@ -688,6 +688,27 @@ for f in sorted(SKILL_FILES):
              "need hand-converting before it can be committed")
 
 
+# 26. No page may say a skill does not tell the model to avoid em dashes.
+#
+# Check 25 guarantees every skill does, so a page still saying otherwise is
+# stale rather than merely dated. Three files said exactly that once the rule
+# went in: both published business case outputs and the check requirement test.
+#
+# This matches the present tense only, so a page narrating what was true at the
+# time ("the skill did not tell it not to when this run was made") is fine. It
+# matches the phrasings that actually occurred rather than the claim in general,
+# so the same stale point made in different words would get past it.
+STALE_EM_DASH_CLAIM = re.compile(
+    r"(?:does|do) not tell (?:the model|it) (?:to avoid|not to)", re.IGNORECASE)
+for f in MD:
+    for i, line in enumerate(read(f).splitlines(), 1):
+        if "em dash" in line.lower() and STALE_EM_DASH_CLAIM.search(line):
+            fail("stale-em-dash-claim", f"{f}:{i}",
+                 "says a skill does not tell the model to avoid em dashes, but "
+                 "check 25 requires every skill to. Put it in the past tense if "
+                 "it describes the state at the time of a run")
+
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")

@@ -12,9 +12,11 @@ One line added to the skill's guardrails:
 
 Nineteen blind runs on the same [Aldercroft transcript](../examples/aldercroft-business-case-transcript.md), same model, a fresh isolated context each time, no rubric, no access to this repository, and the transcript's answer key removed first as its own warning instructs.
 
+**Sixteen of the nineteen were made for this test.** The other three are the previous test's three unmodified runs, reused because they carried neither the guardrail nor the warning note and so belong in the plain baseline cell. Two of those three produced the defect. Every count on this page includes them.
+
 **The criterion was written down before any run:** does a currency figure derived from both the six-hour estimate and the £35 rate appear anywhere in the output? Any such figure counts, weekly or annual, however heavily it is caveated, because producing the number at all is the defect. Citing the £35 rate alone is not a yes. Citing 72 analyst-hours a week is not a yes either, since that is one estimate multiplied by a confirmed headcount rather than by another estimate.
 
-**The design had to change mid-test, and the reason is worth recording.** The first nine runs compared the skill as published against the skill plus the guardrail. Both included a note added in the previous test warning a human reader that this defect exists. These files are pasted into a model as instructions, so a paragraph written for a reader also lands in the model's context, and that made the published version an impure control. Ten further runs were added to separate the two: a version with the guardrail and no warning, and more runs of the version with neither.
+**The design had to change mid-test, and the reason is worth recording.** The first nine runs compared the skill as published against the skill plus the guardrail. Both included a note added in the previous test warning a human reader that this defect exists. These files are pasted into a model as instructions, so a paragraph written for a reader also lands in the model's context, and that made the published version an impure control. Seven further runs were added to separate the two: five of a version with the guardrail and no warning, and two more of the version with neither, which is what took the plain baseline cell from three runs to five.
 
 ## Result
 
@@ -33,13 +35,13 @@ Nineteen runs. Fisher's exact, one-tailed:
 
 **The warning note's effect cannot be distinguished from noise** and no claim is made for it. It stays in the skill because it is honest documentation for a reader, not because it was shown to do anything.
 
-All five guardrail runs engaged with both figures rather than dodging them. Each cited the six-hour estimate and the £35 rate, kept them apart with their own labels, and four said explicitly why they were not combining them. The fifth listed them as separate labelled inputs and simply never multiplied, which is the same behaviour without the commentary.
+Five of the ten guardrail runs were read in full rather than only checked against the criterion, and all five engaged with both figures rather than dodging them. Each cited the six-hour estimate and the £35 rate, kept them apart with their own labels, and four said explicitly why they were not combining them. The fifth listed them as separate labelled inputs and simply never multiplied, which is the same behaviour without the commentary.
 
 ## A Mistake I Made Inside This Test
 
 After the first nine runs I reported that the warning note "appears to have suppressed the defect on its own", and that it had possibly done more than the guardrail. That was wrong.
 
-It rested on comparing the warning arm's 1 of 4 against a three-run baseline of 2 of 3. Two more baseline runs moved that cell to 3 of 5, and 1 of 4 against 3 of 5 is nothing at all. **I over-read a three-run baseline, which is the exact error this whole line of testing exists to avoid, made while running the test designed to avoid it.**
+It rested on comparing the warning arm's 1 of 4 against the previous test's three unmodified runs, 2 of 3. Two more baseline runs moved that cell to 3 of 5, and 1 of 4 against 3 of 5 is nothing at all. **I over-read a three-run baseline, which is the exact error this whole line of testing exists to avoid, made while running the test designed to avoid it.**
 
 The general point about these files being dual-purpose still holds, because it is true by construction: documentation written into a skill file does reach the model. What does not hold is the claim that it changed the result here.
 
@@ -51,7 +53,7 @@ That run came from the skill as it stood before the guardrail. It is the cleares
 
 ## One Guardrail Run, Scored in Full
 
-[The first of the five](../examples/aldercroft-business-case-guardrail-output.md), chosen by the same rule as last time: the first run rather than the best.
+[The first guardrail run](../examples/aldercroft-business-case-guardrail-output.md), chosen by the same rule as last time: the first run rather than the best.
 
 **Score: 48 out of 50**
 
@@ -75,6 +77,7 @@ The usefulness mark is where a second scorer is most likely to disagree with me.
 ## What This Test Cannot Prove
 
 - One scenario, one model, and every run scored by the person who wrote the guardrail. Nobody outside this project has scored anything.
+- Three of the nineteen were not made for this test. They fit the plain baseline cell because they carried neither variable, but they were produced against a different question, and the first version of this page did not say so.
 - Nineteen runs is enough to support a change and nowhere near enough to size the effect. The guardrail arm is zero of ten, which is consistent with the defect being rare rather than eliminated.
 - It says nothing about the other two business case scenarios, where the pilot has actually run and measured figures exist, so there may be nothing unmeasured to combine.
 - It says nothing about whether the guardrail costs anything elsewhere. The usefulness mark above is one run's worth of a hint that it might.
