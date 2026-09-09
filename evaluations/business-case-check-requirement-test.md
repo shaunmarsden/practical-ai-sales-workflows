@@ -60,7 +60,9 @@ The [output published alongside this test](../examples/aldercroft-business-case-
 
 This was acted on. All seventeen skills now carry the rule, [tested over thirty-three runs](em-dash-rule-test.md), and a check stops a new skill shipping without it.
 
-**Nothing produces three applied examples.** Both the skill and the prompt ask for three. Across six runs the count was one, zero, zero, one, zero and one. The published Aldercroft review never flagged this, which the prompt review already recorded as a gap in my scoring rather than in any output. Six runs make it systematic: either the instruction is unrealistic on a single-task call like this one, or it is being ignored, and the honest reading of a scenario that establishes one manual task in depth is that three grounded examples are not available to write.
+**Nothing produces three applied examples.** Across six runs the count was one, zero, zero, one, zero and one. The published Aldercroft review never flagged this, which the prompt review already recorded as a gap in my scoring rather than in any output.
+
+> **Correction.** This section originally said that both the skill and the prompt ask for three, and treated the counts as an instruction being ignored. Only the prompt asks for three. The skill says "three is a good number", and all six of these runs were runs of the skill. Six fresh runs of the published skill later produced at least one grounded example every time, so the gap the counts pointed at did not reproduce. See the [applied examples test](business-case-applied-examples-test.md).
 
 ## What Happened to the Change
 

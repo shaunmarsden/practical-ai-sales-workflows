@@ -62,7 +62,7 @@ What that leaves is the honest and duller reading: **three points between one ru
 ## What Needed Checking
 
 - Nobody owns agreeing the pilot's length and measures. The document says it must happen before the pilot starts and leaves it there.
-- Neither this run nor the skill's run produced the three applied examples both artefacts ask for. The skill's review did not flag that, and it should have. That is a gap in my earlier scoring rather than in either output.
+- Neither this run nor the skill's run produced three applied examples. The prompt asks for three; the skill only says three is a good number, so this is a gap against the prompt rather than against both. The skill's review did not flag it either way, and it should have. [Twelve later runs](business-case-applied-examples-test.md) found the skill producing the one grounded example this scenario supports every time.
 - The out-of-scope accounts payable aside appears in the check list, as a confirmation that it has been kept out. The case itself is clean, and the skill's run did the same thing and scored 5, so this is consistent rather than lenient, but a document forwarded without its check list stripped would carry that line.
 
 ## What This Test Cannot Prove

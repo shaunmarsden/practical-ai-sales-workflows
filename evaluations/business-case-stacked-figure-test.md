@@ -111,4 +111,4 @@ No control arm was needed, and by the contingency set beforehand none was run.
 
 ## The Change to Test Next
 
-Nothing on this thread. The guardrail blocks what it was written to block and permits what it should permit, over twenty-five runs in total. The next question about this skill is elsewhere: across six runs in the previous test it never produced the three applied examples both it and its prompt ask for, which is either an unrealistic instruction or one being ignored.
+Nothing on this thread. The guardrail blocks what it was written to block and permits what it should permit, over twenty-five runs in total. The next question about this skill was elsewhere: across six runs in the previous test it never produced three applied examples. That was [tested over twelve runs](business-case-applied-examples-test.md) and came to nothing. The skill only ever said three was a good number, the prompt is the artefact that asks for three, and six fresh runs of the published skill each produced the one grounded example the scenario supports.
