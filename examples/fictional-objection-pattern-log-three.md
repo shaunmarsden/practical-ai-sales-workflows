@@ -1,6 +1,6 @@
 # Fictional Objection Pattern Log: Third Test
 
-> This log is entirely fictional, created to test whether the Review Objection Patterns skill can find a genuine recurring driver behind mostly individual applicants going quiet, while correctly excluding two entries that sound similar on the surface, someone else's approval being involved, but have a genuinely different underlying cause. Every company, person and outcome is invented.
+> This log is entirely fictional, created to test the Review Objection Patterns skill, as the third in that series. What it tests is named below the re-run line. Every company, person and outcome is invented.
 
 ## The Log
 

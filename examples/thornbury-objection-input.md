@@ -1,6 +1,6 @@
 # Fictional Objection: Thornbury Housing Association
 
-> This scenario is entirely fictional, created to test the objection-response skill against a harder pattern than either the Hartwell or Wrenford tests. Thornbury Housing Association, Rosalind Kemp, Grace Odusanya and every detail are invented. The objection here sounds exactly like a standard circumstances or budget objection, and the standard, factually correct playbook answer to that objection is precisely the wrong move.
+> This scenario is entirely fictional, created to test the objection-response skill against a harder pattern than either the Hartwell or Wrenford tests. Thornbury Housing Association, Rosalind Kemp, Grace Odusanya and every detail are invented. What it tests is named below the re-run line.
 
 ## Where This Sits in the Story
 

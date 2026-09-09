@@ -1,6 +1,6 @@
 # Fictional Scenario: Aldermere Fit and Limitations Review
 
-> This scenario is entirely fictional. Aldermere Pharmaceuticals, its people and every detail were created to test the fit-and-limitations-review skill on a prospect where the word "compliance" comes up for two different teams, meaning two genuinely different things, and correctly telling them apart is the actual test.
+> This scenario is entirely fictional. Aldermere Pharmaceuticals, its people and every detail were created to test the fit-and-limitations-review skill. What it tests is named below the re-run line.
 
 ## The Situation
 

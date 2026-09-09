@@ -1,6 +1,6 @@
 # Fictional Scenario: Oakriven Real Blocker Diagnosis
 
-> This scenario is entirely fictional. Oakriven Facilities Group and every person and detail were created to test a harder pattern than the Rowcastle test: the enthusiastic contact is not just unconfirmed on authority, he is actively proposing a plan that would get the enrolment far enough along that his manager would face a decision already half made, rather than a genuine upfront choice.
+> This scenario is entirely fictional. Oakriven Facilities Group and every person and detail were created to test a harder pattern than the Rowcastle test. What makes it harder is set out in [its evaluation](../evaluations/oakriven-real-blocker-review.md) rather than here, so that re-running this input is not an open-book exam.
 
 ## The Situation
 

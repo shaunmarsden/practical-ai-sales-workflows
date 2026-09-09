@@ -1,6 +1,6 @@
 # Fictional Objection Pattern Log
 
-> This is an entirely fictional log, created to test the Objection Pattern Review workflow. It reuses two objections already on record from the Hartwell Analytics and Bramfield Insurance Group stories, and adds four fresh fictional entries (Marlow Consulting, Ashcombe Underwriting, Drayton Manufacturing) to give a genuine pattern something real to work with. Every new company, person and detail is invented.
+> This is an entirely fictional log, created to test the Objection Pattern Review workflow. It reuses two objections already on record from the Hartwell Analytics and Bramfield Insurance Group stories, and adds four fresh fictional entries (Marlow Consulting, Ashcombe Underwriting, Drayton Manufacturing). What it tests is named below the re-run line. Every new company, person and detail is invented.
 
 The point of this log is that it contains one real, useful pattern and one misleading one that only looks like a pattern until it is checked properly.
 

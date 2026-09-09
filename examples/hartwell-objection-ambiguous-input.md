@@ -1,6 +1,6 @@
 # Fictional Objection: Hartwell Analytics (Ambiguous)
 
-> This scenario is entirely fictional and continues the [Hartwell Analytics business case story](hartwell-business-case-transcript.md). Unlike the [clean objection example](hartwell-objection-input.md), this one is deliberately ambiguous: the real driver is *not* cleanly resolvable from the context. It exists to stress-test whether the objection-handling workflow diagnoses consistently under genuine uncertainty, run several times per model using the [test run template](../evaluations/test-run-template.md).
+> This scenario is entirely fictional and continues the [Hartwell Analytics business case story](hartwell-business-case-transcript.md). It is the input for a [repeated run test](../evaluations/hartwell-objection-ambiguous-test.md), run several times per model using the [test run template](../evaluations/test-run-template.md). What that test is looking for is described there rather than here, so that re-running this input is not an open-book exam.
 
 ## Where This Sits in the Story
 

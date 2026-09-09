@@ -6,6 +6,8 @@ A stability test, not a single scored example. The same deliberately [ambiguous 
 
 The three Claude runs were run by Claude in fresh, cold conversations. I ran the ChatGPT and Gemini runs by hand, using the identical input, and pasted them back for scoring, because Claude cannot access chatgpt.com or gemini.google.com. This is the same split used in the [cross-model post-call comparison](cross-model-post-call-comparison.md). Copilot is again absent, since it was not available to test; see that comparison's caveat, which applies here too.
 
+**One thing this page cannot establish.** The input file's own description used to say that the scenario is deliberately ambiguous and that the real driver is not cleanly resolvable from the context. The point belongs here, and it is in the section below. It has now been taken out of the input, because this page never recorded where the pasted input started and stopped, so whether the nine runs were handed that sentence cannot be determined now. If they were, the models were told the driver was unresolvable before being asked to resolve it, which is the thing this test was measuring.
+
 ## Scenario
 
 An ambiguous post-QBR reply from Priya Chen that mixes timing, a possible shrinking rationale (AE roles "up in the air"), change-resistance ("a new tool they have to learn"), and a possible soft no ("let me sit with it"), with no date and no clear blocker. Full input, including what Shaun does and does not know, is in the [scenario file](../examples/hartwell-objection-ambiguous-input.md). The point of the scenario is that the driver is genuinely not resolvable from context, so there is no single "correct" primary driver, only better and worse ways of handling not knowing.

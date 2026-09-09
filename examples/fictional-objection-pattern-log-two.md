@@ -1,6 +1,6 @@
 # Fictional Objection Pattern Log: Second Test
 
-> This log is entirely fictional, created to test whether the Review Objection Patterns skill can count distinct deals correctly and separate a real shared driver from repeated wording that hides different causes. Every company, person, objection and outcome is invented.
+> This log is entirely fictional, created to test the Review Objection Patterns skill. What it tests is named below the re-run line. Every company, person, objection and outcome is invented.
 
 ## The Log
 

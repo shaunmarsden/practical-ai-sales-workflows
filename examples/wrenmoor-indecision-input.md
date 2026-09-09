@@ -1,6 +1,6 @@
 # Fictional Buyer Indecision: Wrenmoor Analytics
 
-> This scenario is entirely fictional, created to test the Buyer Indecision workflow against a harder pattern than the Calderwood test. Wrenmoor Analytics, Farrah Osei and every date and figure are invented. It is a fresh account, not part of the Hartwell or Calderwood stories, because it needs a buyer whose soft reasons actually get resolved, one after another, rather than repeating unresolved.
+> This scenario is entirely fictional, created to test the Buyer Indecision workflow against a harder pattern than the Calderwood test. Wrenmoor Analytics, Farrah Osei and every date and figure are invented. It is a fresh account, not part of the Hartwell or Calderwood stories. What it tests is named below the re-run line.
 
 ## Where This Sits
 
