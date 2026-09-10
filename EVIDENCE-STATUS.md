@@ -49,7 +49,7 @@ Both are builder-run, like everything else on this page.
 
 ## Tests With More Than One Run
 
-Six of them. Two ran the same input repeatedly to measure how much a score moves on its own, and four compared a skill with and without one changed line, to test whether a change did anything. The third of those four reused runs from the other two as its baseline rather than running its own, and the fourth was scored without knowing which version each run came from.
+Seven of them. Two ran the same input repeatedly to measure how much a score moves on its own, and five compared an instruction with and without one changed line, to test whether a change did anything. The third of those five reused runs from the other two as its baseline rather than running its own, and the last two were scored without knowing which version each run came from.
 
 The first two went unlinked from this page for a long time, which is why I was able to claim in the [comparison](COMPARISON.md) that no test had ever been repeated. It had.
 
@@ -58,13 +58,14 @@ The first two went unlinked from this page for a long time, which is why I was a
 - **[The business case stacked figure test](evaluations/business-case-stacked-figure-test.md)**: nineteen runs across a two by two, testing a guardrail against multiplying two unmeasured figures together. Supported and kept: none of the ten runs carrying it produced such a figure, against four of the nine without. A six-run follow-up then checked it was not too blunt, and all six produced the confirmed arithmetic the two measured scenarios support. It is the first change to this repository a test has actually supported, and the page records a mistake I made partway through by over-reading a three-run baseline.
 - **[The business case check requirement test](evaluations/business-case-check-requirement-test.md)**: six runs of the same scenario, three on the skill as published and three with one line added, to test a claim this repository had already published about why a prompt outscored the skill. The claim was rejected. It also found that four of six runs multiply two unmeasured figures into a single pound total, one of them annualised to £131,000, and that the published version of the skill produced the worst run of the six.
 - **[The applied examples test](evaluations/business-case-applied-examples-test.md)**: twelve runs, six a side, on whether the business case skill drops its worked example. Both arms produced one every time, so the change was not adopted, and checking the wording first showed that half the premise was my own reporting error: only the prompt asks for three examples, and the six earlier runs behind that claim were all runs of the skill. It is the first test here scored blind to which version each run came from.
+- **[The chase stale-date test](evaluations/chase-stale-date-test.md)**: twelve runs, six a side, on whether the chase prompt's stale-date wording was too narrow to cover a commitment the prospect made themselves. Four of six runs of the published prompt named it, which met the falsification condition and puts the original miss inside the prompt's own variation, so the change was not adopted. It also found that the scenario's answer key claims a date conflict the input never actually states, which three runs spotted.
 - **[The em dash rule test](evaluations/em-dash-rule-test.md)**: thirty-three runs on the least interesting defect here. Twenty-eight runs without the rule all produced em dashes; five with it produced none. It is a maintenance and disclosure fix rather than an output-quality one, and one skill was tested while thirteen were changed, which the page labels as the extrapolation it is.
 
 Every other scored test on this page is a single run. Where a job above shows two, three or four scored cases, those are separate scenarios rather than repeats of the same one.
 
 Read the first two together rather than separately. Claude's measured spread on this rubric is about three points, so a three-point rise on a repeat is inside the range the nine-run test already found, and the more interesting result there is that a stable total hid an unstable judgement.
 
-The four comparisons are worth reading for a different reason: one supported the change it tested, one rejected it, one found the change was fixing a maintenance problem rather than an output problem, and one found the defect it was written for did not reproduce at all. All four record what they got wrong along the way.
+The five comparisons are worth reading for a different reason. One supported the change it tested. One was fixing a maintenance problem rather than an output problem. The other three ended with the change not adopted: one hypothesis rejected, one defect that did not reproduce, and one instruction that turned out not to be the cause of the miss it was blamed for. All five record what they got wrong along the way.
 
 ## What Is Missing
 
