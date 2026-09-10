@@ -10,6 +10,15 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Same Step on the Skill, and a Prediction I Got Wrong
+
+- The ledger step adopted into the chase prompt yesterday was in the prompt only, and its page named the limit. **[Tested on the skill over twelve runs](evaluations/chase-skill-ledger-test.md), six a side: six of six against zero of six, one-tailed p of 0.0011.** Neither failure condition fired, so it is adopted there too.
+- **I wrote down a prediction beforehand and it was wrong.** I expected the published skill to do better at this than the published prompt, on the strength of the repeat run findings. It scored zero of six where the prompt scored two of six, so the stronger result comes from the skill being worse to begin with rather than from the step working better there.
+- **The apparent contradiction was checked rather than reasoned about.** The repeat run findings say the skill "showed the conflict"; the published output actually says the leave dates "suggest" the Thursday timing does not stand, under a heading of things to confirm, which is the hedged form this criterion counts as a no. The earlier scoring was looser, not a different result, and that page now says so.
+- **The step worked and half its instruction did not.** Five of the six ledger runs printed the ledger as a dated list and a collisions section, despite being told it is a working step and not part of the output. In the prompt test none of the six did. The same words sit as a paragraph above the output sections in the prompt and as a section among them in the skill, and that placement flipped the behaviour. Named as an open question rather than quietly reworded, since no test here supports either choice.
+- **Forty-eight runs across four tests on this thread, and every one decided to wait rather than chase.** All of this has been about one supporting fact inside a correct decision.
+- Still untested after both ledger tests: whether the step costs anything on a scenario where no dates collide, which is the case the instruction's "including when nothing collides" clause was written for.
+
 ### A Required Step Beat a Principle, on the Third Attempt
 
 - Three tests have now gone at the chase prompt missing the clash between the transcript Alex promised by Thursday afternoon and the leave he announced the next day. Widening the instruction was rejected. Naming the weekday in the scenario, which turned out to be necessary before the clash could be established at all, was rejected too.

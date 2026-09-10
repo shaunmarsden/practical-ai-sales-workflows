@@ -18,6 +18,10 @@ A chase is a decision, not a template applied on a timer. Before drafting anythi
 - Anything since the last message: an out of office reply, a changed role, a public event at the company, silence with no signal either way
 - How many chases, if any, have already gone out
 
+## Build a Dated Commitment Ledger Before Deciding
+
+Before choosing a move, list every date, deadline or commitment in the supplied material, including any the prospect set for themselves, and separately list every period anyone is stated to be away, unavailable or not monitoring messages. Then check each date in the first list against each period in the second and note which of them fall inside one. Carry that result into the output in words, including when nothing collides. The ledger is a working step, not part of the finished output.
+
 ## Decide the Next Move
 
 Before drafting, choose one:
