@@ -2,6 +2,8 @@
 
 > This is a worked output created from the fictional [Hartwell chase scenario](hartwell-chase-input.md). Nothing has been sent, scheduled or changed in a CRM.
 
+> **The scenario has changed since this run.** The chase scenario now names the weekdays, so the promised Thursday is 9th July and its clash with the leave is checkable rather than inferable. This output was produced from the version without them.
+
 ## Decision
 
 **Wait. Do not chase Alex on 10th July.**

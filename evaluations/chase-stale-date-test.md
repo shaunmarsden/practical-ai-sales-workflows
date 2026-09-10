@@ -53,9 +53,9 @@ The two runs that missed it, both of the published prompt, did not ignore the tr
 
 **Three of the twelve runs noticed that the scenario never says which weekday 7th July was**, so they declined to state whether the promised Thursday actually fell inside the leave. One put it as an unknown to confirm rather than assume. A fourth run asserted flatly that the commitment "falls inside that away period".
 
-They are right that it is not stated. The conflict follows from the dates on every reading except 7th July having been a Thursday itself, which the scenario never rules out, so the inference is strong rather than certain. **The answer key claims more than the input establishes**, and it now carries that qualification.
+They were right that it was not stated. The conflict followed from the dates on every reading except 7th July having been a Thursday itself, which the scenario never ruled out, so the inference was strong rather than certain. **The answer key claimed more than the input established**, which is why the input has been fixed rather than the answer key softened.
 
-Whether to fix the input instead, by naming the weekday and making the conflict checkable, is a judgement about cost rather than accuracy. It would change published test material that three existing records were scored against, and that would need disclosing on each. It is named at the bottom of this page rather than done here.
+**The input has since been fixed.** It now names the weekdays, so the call is Tuesday 7th July, the promised Thursday afternoon is 9th July, two days into a leave that began on the 8th, and the CRM task fell due the day after it. That changed published test material, so the four records scored against the earlier version each say so: this test, the [chase decision review](hartwell-chase-review.md), the [chase prompt review](hartwell-chase-prompt-review.md) and the [repeat run findings](repeat-run-findings.md). All twelve runs on this page were made against the version without weekdays.
 
 ## What This Test Cannot Prove
 
@@ -68,8 +68,8 @@ Whether to fix the input instead, by naming the weekday and making the conflict 
 
 **Nothing in the prompt.** The widened sentence is not adopted, and the published wording stays.
 
-The chase input's answer key now says the Thursday conflict follows from the dates rather than being stated outright. The [chase prompt review's](hartwell-chase-prompt-review.md) closing section records that its proposed change was made, tested and rejected.
+**The scenario now names its weekdays**, so the Thursday clash is established by the dates rather than inferred from them, and its answer key says so. The [chase prompt review's](hartwell-chase-prompt-review.md) closing section records that its proposed change was made, tested and rejected.
 
 ## The Change to Test Next
 
-Nothing on this thread. The one thing left to decide is not a test: whether to name the weekday in the chase scenario so the conflict is checkable rather than inferable, accepting that three published records were scored against the version without it.
+Nothing on this thread. The scenario is worth re-running once now that it names its weekdays, since every run recorded against it was made without them, but that would measure the scenario rather than any change to an instruction, and there is no hypothesis worth pre-registering for it yet.
