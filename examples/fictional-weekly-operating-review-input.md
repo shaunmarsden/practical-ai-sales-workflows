@@ -2,7 +2,6 @@
 
 > This is an entirely fictional scenario, created to test the Weekly Operating Review workflow. It deliberately reuses the [fictional CRM export](fictional-crm-export.md), the [fictional pipeline snapshot](fictional-pipeline-snapshot.md), the [pipeline evidence review](fictional-pipeline-review.md), the [CRM hygiene review](fictional-crm-hygiene-review.md), and the [Cedarwell outbound scenario](cedarwell-outbound-input.md), to show this workflow pulling together what other workflows already produced rather than redoing their analysis. Today's date is still 15 October, the same as those scenarios.
 
-This is deliberately an incomplete week, not a tidy one, since a real week rarely supplies every section cleanly.
 
 ## What Shaun Actually Has This Week
 

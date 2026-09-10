@@ -72,7 +72,7 @@ What can be checked is that all three published Aldercroft outputs contain an ap
 Both arms carried them identically, so neither is a differential confound, and neither mentions applied examples.
 
 - **The skill's own evidence footer** tells the model that the Aldercroft scenario's live traps are an unmeasured time estimate and an unconfirmed future headcount, and describes the stacked figure defect and its guardrail. This is the dual-purpose problem the [stacked figure test](business-case-stacked-figure-test.md) already recorded: documentation written for a human reader reaches the model.
-- **The transcript's fictional-disclosure blockquote names those same two traps, and it sits above the re-run line.** Anyone following the instruction to copy everything above that line hands the model part of the answer key. That is a defect in the re-run instruction rather than in the skill, it affects every earlier test on this transcript too, and it is being fixed separately.
+- **The transcript's fictional-disclosure blockquote names those same two traps, and it sits above the re-run line.** Anyone following the instruction to copy everything above that line hands the model part of the answer key. That is a defect in the re-run instruction rather than in the skill, and it affects every earlier test on this transcript. Scoping it properly afterwards found the same thing in fifteen published inputs and six skill footers, all now fixed.
 
 ## What This Test Cannot Prove
 

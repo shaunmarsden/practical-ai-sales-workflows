@@ -1,6 +1,6 @@
 # Fictional Objection: Hartwell Analytics
 
-> This scenario is entirely fictional and continues the [Hartwell Analytics business case story](hartwell-business-case-transcript.md). It was created to test the Objection Handling workflow on an objection whose surface wording points one way and whose real driver points another.
+> This scenario is entirely fictional and continues the [Hartwell Analytics business case story](hartwell-business-case-transcript.md). It was created to test the Objection Handling workflow. What it tests is named below the re-run line.
 
 ## Where This Sits in the Story
 

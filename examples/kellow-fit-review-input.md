@@ -1,6 +1,6 @@
 # Fictional Scenario: Kellow Fit and Limitations Review
 
-> This scenario is entirely fictional. Kellow Distribution Group, its people and every detail were created to test the fit-and-limitations-review skill on a prospect where more than one team is in scope, and they do not all fit equally well.
+> This scenario is entirely fictional. Kellow Distribution Group, its people and every detail were created to test the fit-and-limitations-review skill. What it tests is named below the re-run line.
 
 ## The Situation
 

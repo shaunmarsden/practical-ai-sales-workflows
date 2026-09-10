@@ -1,6 +1,6 @@
 # Fictional Objection: Wrenford Logistics
 
-> This scenario is entirely fictional. Wrenford Logistics, its people and its client contract were created to test the objection-handling workflow against a stop condition, not another diagnosis case.
+> This scenario is entirely fictional. Wrenford Logistics, its people and its client contract were created to test the objection-handling workflow. What it tests is named below the re-run line.
 
 ## The Situation
 

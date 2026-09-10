@@ -1,6 +1,6 @@
 # Fictional Objection Pattern Log: Fourth Test
 
-> This log is entirely fictional, created to test whether the Review Objection Patterns skill can find a genuine pattern hiding behind two opposite-looking behaviours, rather than only behind similar wording. The first three tests each involve similar words masking different drivers, or a driver spanning several similarly-worded entries. This one inverts that: two entries that look nothing alike on the surface, one an abrupt call termination, one a calm, professional request, share the same underlying driver. The log also includes an entry with a stated alternative reason for the same surface trigger, and an entry with no stated reason at all. Every company, person and outcome is invented.
+> This log is entirely fictional, created to test the Review Objection Patterns skill, as the fourth in that series. What it tests is named below the re-run line. Every company, person and outcome is invented.
 
 ## The Log
 

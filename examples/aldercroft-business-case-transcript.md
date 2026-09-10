@@ -1,6 +1,6 @@
 # Fictional Call Transcript: Aldercroft Group Pre-Pilot Discovery
 
-> This transcript is entirely fictional. The company, people and scenario were created to give the Build a Business Case skill a third, distinct test: a business case built entirely from pre-pilot projections rather than measured pilot results, where the champion's own time estimate and an unconfirmed future headcount number are both live traps.
+> This transcript is entirely fictional. The company, people and scenario were created to give the Build a Business Case skill a third, distinct test. What it tests is named below the re-run line.
 
 ## Call Details
 
