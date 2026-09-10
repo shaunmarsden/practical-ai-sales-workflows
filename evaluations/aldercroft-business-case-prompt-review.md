@@ -73,4 +73,6 @@ What that leaves is the honest and duller reading: **three points between one ru
 
 ## The Change to Test Next
 
-Add the explicit human-check requirement to the skill and re-run the skill on this scenario. If the pilot-cost gap gets caught, the difference was the instruction rather than the artefact, and the skill should keep it.
+**This one was tested and rejected.** The change was to add the explicit human-check requirement to the skill and re-run the skill on this scenario, on the theory that catching the pilot-cost gap would show the difference was the instruction rather than the artefact. [Six blind runs](business-case-check-requirement-test.md) rejected it: two of three unmodified runs already caught the gap, and all three produced a check section without being told to. The line was kept as a clarification with weak evidence behind it rather than as a demonstrated fix.
+
+The other open question about this skill, whether it drops its applied examples, was [also closed](business-case-applied-examples-test.md). What is still open is about this prompt rather than the skill: whether its hard requirement for three applied examples causes padding on a source that supports one. This run did not pad, and one run is not evidence either way.

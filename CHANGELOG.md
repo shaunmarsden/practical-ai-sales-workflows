@@ -10,6 +10,11 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Review That Still Told You to Run a Test That Had Failed
+
+- The [Aldercroft business case prompt review](evaluations/aldercroft-business-case-prompt-review.md) carried a correction banner at the top and a corrected section in the middle, and then closed by telling a reader to go and run the test that had already been run and rejected. Its last words were the open proposal.
+- Fixed the same way the [check requirement test](evaluations/business-case-check-requirement-test.md) was yesterday, and found by sweeping every "Change to Test Next" section on the evaluation pages rather than only the one in front of me. Three of the five were stale: two were fixed yesterday and this is the third. Of the remaining two, one names the padding question this prompt raises, and the [chase prompt review](evaluations/hartwell-chase-prompt-review.md) names a change that has genuinely never been made.
+
 ### Fifteen Published Inputs Were Foreshadowing Their Own Answer Key
 
 - Every fictional input here carries a note near the top saying it is fictional and what it was created to test, and the ones with an answer key carry a warning saying "copy everything above this line" for a re-run. **The note is above the line.** So a re-runner following the instruction was handed a compressed version of the answer key along with the scenario.
