@@ -10,6 +10,16 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Naming the Weekday Did Not Fix the Behaviour Either
+
+- The chase scenario was changed yesterday to name its weekdays, because its answer key claimed a date conflict the input never established. **[Re-run twelve times, six a side](evaluations/chase-weekday-rerun.md), and the fix did not produce the behaviour the answer key asks for.** One of six runs stated that the promised Thursday falls inside Alex's leave, against none of six on the version without weekdays. The interest condition set beforehand was met.
+- **The change stays**, because it fixed an over-claim rather than a behaviour. An input a reader cannot verify is a defect whether or not fixing it moves a model.
+- **Both candidate causes for the original miss are now eliminated.** The [stale-date test](evaluations/chase-stale-date-test.md) rejected the instruction being too narrow, and this rejects the input being unstateable. The requirement still goes unmet five times in six, and nobody has found why.
+- A post-hoc cell, labelled as one: three of the six runs with weekdays stated the promised date as 9th July, which none of the six without them could. One-tailed p of 0.09, not the pre-registered observation, and no claim attached. If it is real it says only that stating a date is not the same as noticing what it collides with.
+- The pre-registered observation came back clean: no run miscomputed the date, and all twelve decided to wait rather than chase, which is the decision the scenario asks for. This is a failure to surface one supporting fact, not a wrong answer.
+- **The judgement call inside the scoring cuts against the result rather than for it.** One run reads close to the criterion without meeting it, and it is in the arm without weekdays, so a looser reading makes the comparison one of six against one of six.
+- [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md) said the cause of this miss was unknown. It still is, and the bullet now names both eliminated explanations rather than leaving the question open in the abstract.
+
 ### The Chase Scenario Now Names Its Weekdays
 
 - The [stale-date test](evaluations/chase-stale-date-test.md) found that the chase scenario's answer key claimed a date conflict the input never established: it gave dates without weekdays, so nobody could tell whether the Thursday Alex promised actually fell inside his later leave. Three of twelve runs said so and a fourth asserted the conflict as fact.

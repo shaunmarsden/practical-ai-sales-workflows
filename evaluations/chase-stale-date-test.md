@@ -72,4 +72,4 @@ They were right that it was not stated. The conflict followed from the dates on 
 
 ## The Change to Test Next
 
-Nothing on this thread. The scenario is worth re-running once now that it names its weekdays, since every run recorded against it was made without them, but that would measure the scenario rather than any change to an instruction, and there is no hypothesis worth pre-registering for it yet.
+The scenario was re-run once it named its weekdays, [twelve more runs, six a side](chase-weekday-rerun.md). Naming the weekday did not produce the behaviour the answer key asks for either: one of six stated that the promised date falls inside the leave, against none of six without the weekdays. So the instruction was not the cause and neither was the input, and the next hypothesis has to be more specific than either.
