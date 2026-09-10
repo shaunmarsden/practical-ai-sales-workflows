@@ -10,6 +10,15 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Ledger Step Does Not Invent Collisions
+
+- Both ledger tests named the same gap: nothing had tested what a step requiring a collision check does when there is no collision. **[Tested over twelve runs](evaluations/chase-no-collision-test.md), six a side, and neither arm invented one.** The harm condition set beforehand did not fire and the step is kept.
+- **It needed a new scenario.** All twenty-one published inputs were checked and only the Hartwell chase has dates and a stated absence, where they overlap by construction. [Tarnside Freight](examples/tarnside-chase-input.md) was written as its mirror: a promise on 5th June, today the 11th, and two unavailability windows that are both later and cover nothing. Its fictional calendar was checked for internal consistency, and its disclosure names the job rather than the difficulty.
+- On the secondary measure the step does what it says. Five of six runs carrying it stated plainly that nothing collides, against none of the six without it, p of 0.0076. The sixth said the same thing in different words, so the wording count is the strict version of six of six.
+- **The decision flipped and both arms agree.** All twelve chose to chase now, where all forty-eight runs on the earlier tests chose to wait. The scenario was built to do that, and it shows the step does not distort the decision on a case that is the opposite of the one it was developed on.
+- **The printing behaviour replicated.** Five of six runs printed the ledger against an instruction saying it is a working step, the same five of six as the skill test and on a different scenario. Two tests now agree that the section form gets printed and the paragraph form does not, so that is a property of the instruction rather than a one-off, and deciding whether it is a defect is the change named next.
+- The page says plainly that this closes the gap for false positives only. It measures nothing about whether the step wastes a reader's attention.
+
 ### The Same Step on the Skill, and a Prediction I Got Wrong
 
 - The ledger step adopted into the chase prompt yesterday was in the prompt only, and its page named the limit. **[Tested on the skill over twelve runs](evaluations/chase-skill-ledger-test.md), six a side: six of six against zero of six, one-tailed p of 0.0011.** Neither failure condition fired, so it is adopted there too.

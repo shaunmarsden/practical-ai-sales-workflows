@@ -58,6 +58,8 @@ In the prompt test, none of the six did that. The difference is placement: in th
 
 Whether that matters is a judgement rather than a finding. A collision table is arguably useful to a reader, and the instruction not to print it was written to keep the output clean. It is named at the bottom of this page rather than quietly reworded, since no test here supports either choice.
 
+**This has since replicated.** The [no-collision test](chase-no-collision-test.md) found the same five of six printing it, on a different scenario, so it is a property of the section form of the instruction rather than a one-off.
+
 ## What Did Not Move
 
 **All twelve runs decided to wait rather than chase**, which makes it forty-eight for forty-eight across the four tests on this thread. Every one of these tests has been about one supporting fact inside a correct decision.
@@ -70,4 +72,6 @@ Whether that matters is a judgement rather than a finding. A collision table is 
 
 ## The Change to Test Next
 
-Two things, in order of value. Whether the step costs anything on a scenario with no colliding dates, which both this test and the prompt test have now left open. And whether the ledger should be printed, which needs a criterion about output quality rather than about a fact appearing at all.
+The first of the two things this page named has been done: on a [scenario with no colliding dates](chase-no-collision-test.md), neither arm invented one and the step's own clause about saying nothing collides was followed five times in six.
+
+What is left is whether the ledger should be printed. Two tests now show five of six runs printing it against an instruction saying not to, which needs a criterion about the output a person has to read rather than about a fact appearing at all.

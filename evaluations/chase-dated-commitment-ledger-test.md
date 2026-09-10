@@ -60,6 +60,6 @@ The published prompt produced one of six on this scenario yesterday and two of s
 
 ## The Change to Test Next
 
-Whether it costs anything on a scenario where no dates collide at all, which is still untested.
+Both halves of this question have now been answered. On a [scenario built with no collision in it](chase-no-collision-test.md), neither arm invented one, so the step does not manufacture a conflict where there is none.
 
 The first half of this question has been answered: the step was [tested on the skill](chase-skill-ledger-test.md) and separated it completely, six of six against zero of six, p of 0.0011. The published skill turned out to be worse at this than the published prompt, which is the opposite of what I predicted in writing beforehand.
