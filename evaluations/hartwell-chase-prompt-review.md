@@ -4,6 +4,8 @@ This review scores the [worked decision](../examples/hartwell-chase-prompt-outpu
 
 The prompt exists because the [Chase a Quiet Prospect recipe card](../recipes/chase-a-quiet-prospect.md) had nothing to paste. It said everything a reader needed was on the card and then sent them to a skill file that opens by saying it is not written to be read start to finish.
 
+> **The scenario has changed since this was scored.** It now names the weekdays, so the promised Thursday is 9th July and its clash with the leave is checkable rather than inferable. This record was scored against the version without them. The [stale-date test](chase-stale-date-test.md) says why they were added.
+
 ## Method Note
 
 The prompt was pasted into a fresh, isolated context with only the [scenario](../examples/hartwell-chase-input.md) below it, and the scenario's answer key was removed first, as its own warning instructs. The run did not know it was a test, did not see the rubric, and had no access to this repository. The output is reproduced unedited.

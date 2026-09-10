@@ -10,6 +10,13 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Chase Scenario Now Names Its Weekdays
+
+- The [stale-date test](evaluations/chase-stale-date-test.md) found that the chase scenario's answer key claimed a date conflict the input never established: it gave dates without weekdays, so nobody could tell whether the Thursday Alex promised actually fell inside his later leave. Three of twelve runs said so and a fourth asserted the conflict as fact.
+- **The call is now Tuesday 7th July.** That puts the promised Thursday afternoon at 9th July, two days into a leave that began on the 8th, with the CRM task falling due the day after it. The clash is established by the dates rather than inferred from them, and the answer key says so instead of over-claiming.
+- **This changed published test material, so every record scored against the earlier version says so.** The [chase decision review](evaluations/hartwell-chase-review.md), the [chase prompt review](evaluations/hartwell-chase-prompt-review.md), the [repeat run findings](evaluations/repeat-run-findings.md), the stale-date test itself and both worked outputs each carry a line saying they were scored or produced without the weekdays. The scenario carries its own history section too.
+- Worth noting on the repeat runs: both of them showed the Thursday clash anyway, on the version where it could only be inferred.
+
 ### The Chase Prompt's Stale-Date Wording Was Not the Problem
 
 - The [chase prompt review](evaluations/hartwell-chase-prompt-review.md) found that its run never mentioned Alex's own commitment to share the transcript by Thursday, blamed the stale-date instruction for reading as though it covered only internally set reminders, named the fix and the re-run, and then nothing happened. It was the one live proposal left on any evaluation page here.

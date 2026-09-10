@@ -50,7 +50,7 @@ What is not in doubt is the direction. None of the three went down, and the two 
 
 The three fresh runs caught every deliberate trap in their inputs.
 
-**Chase decision.** Declined to chase on a CRM task that predated the automatic reply, treated the out of office as a reason for silence rather than lost interest, refused to switch to Priya on the grounds that an out of office does not say a contact is the wrong route, and showed the conflict between the promised Thursday transcript and the leave dates rather than calling the transcript overdue.
+**Chase decision.** Declined to chase on a CRM task that predated the automatic reply, treated the out of office as a reason for silence rather than lost interest, refused to switch to Priya on the grounds that an out of office does not say a contact is the wrong route, and showed the conflict between the promised Thursday transcript and the leave dates rather than calling the transcript overdue. That scenario has since been changed to name its weekdays, so the Thursday clash is now checkable rather than inferable; both runs above were scored against the version without them, and both showed the clash anyway.
 
 **CRM hygiene review.** Graded the Hartwell duplicate as confident on a shared contact and the Fenmoor/Fenmore pair as uncertain with nothing to verify it, refused to merge on a name, kept the departed contact separate from the blanks, named the records that are structurally clean, and raised then dismissed a false duplicate on the word "Analytics" alone. It also stayed out of the stage-accuracy judgement and pointed at the pipeline evidence review for it, which is the boundary that skill is supposed to hold.
 

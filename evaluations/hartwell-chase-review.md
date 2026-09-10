@@ -2,6 +2,8 @@
 
 This review scores the [worked decision](../examples/hartwell-chase-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md).
 
+> **The scenario has changed since this was scored.** The chase scenario now names the weekdays, so the promised Thursday is 9th July and its clash with the leave is checkable rather than inferable. This record was scored against the version without them. See the [stale-date test](chase-stale-date-test.md) for why the weekdays were added.
+
 > This test has since been [run again, blind](repeat-run-findings.md), and the repeat held exactly at 48 out of 50. That page explains why two of the three repeats came out higher than their published scores.
 
 ## Result

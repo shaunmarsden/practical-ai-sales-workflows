@@ -4,6 +4,8 @@
 
 The prompt was pasted into a fresh, isolated context with only the scenario below it. The scenario's answer key was removed first, as its own warning instructs, so the run did not see the traps it was being tested on. The output is reproduced unedited.
 
+> **The scenario has changed since this run.** It now names the weekdays, so the promised Thursday is 9th July and its clash with the leave is checkable rather than inferable. This output was produced from the version without them.
+
 ---
 
 # Chase Decision: Alex Morgan, Hartwell Analytics
