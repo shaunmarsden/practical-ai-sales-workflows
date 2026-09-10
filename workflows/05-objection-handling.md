@@ -36,7 +36,7 @@ flowchart TB
 - [Read the honest review](../evaluations/hartwell-objection-review.md)
 - [See a harder test: a contractual stop condition](../examples/wrenford-objection-response.md), [and its review](../evaluations/wrenford-objection-review.md)
 - [See a third test: the correct answer to the surface wording is the wrong move](../examples/thornbury-objection-response.md), [and its review](../evaluations/thornbury-objection-review.md)
-- [See a stability test across three models](../evaluations/hartwell-objection-ambiguous-test.md), run on a deliberately unresolvable objection
+- [See a stability test across three models](../evaluations/hartwell-objection-ambiguous-test.md), run nine times on a deliberately unresolvable objection: the guardrails held every time and the diagnosis did not, with one model promoting a different primary driver in each of its three runs
 - [Use with AI: the objection-response skill](../.agents/skills/objection-response/SKILL.md)
 
 <details>
@@ -69,6 +69,10 @@ The same surface wording can sit in different buckets depending on context. Work
 - **Disqualification**: this genuinely does not fit, and is the wrong conversation
 
 "I need to check with my manager" from someone who holds real budget authority is a circumstances objection. The same words from someone who was never the decision-maker is closer to a disqualification signal, and deserves a completely different response.
+
+Watch in particular for a signal that the *rationale* is shrinking rather than the decision being delayed. An objection that hints the case itself may no longer size up is a different problem from one about timing, and on the nine-run test above it was the sharpest reading available and only one run in nine surfaced it.
+
+**Treat the bucket as a hypothesis the reply can test, not a settled answer.** Run the same ambiguous objection twice and the primary driver can move, which is why the response below isolates whether this is the only thing in the way rather than assuming the diagnosis is right.
 
 ### 3. Respond Using Acknowledge, Isolate, Reframe, Ask
 
