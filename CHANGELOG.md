@@ -10,6 +10,15 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Chase Prompt's Stale-Date Wording Was Not the Problem
+
+- The [chase prompt review](evaluations/hartwell-chase-prompt-review.md) found that its run never mentioned Alex's own commitment to share the transcript by Thursday, blamed the stale-date instruction for reading as though it covered only internally set reminders, named the fix and the re-run, and then nothing happened. It was the one live proposal left on any evaluation page here.
+- **[Tested over twelve runs](evaluations/chase-stale-date-test.md), six a side, and the change was not adopted.** Four of six runs of the prompt as published named the commitment, which met the falsification condition set beforehand exactly at its threshold and puts the original miss inside the prompt's own variation. Fisher's exact on the misses gives p of 0.45, and the condition was written to fire regardless of the arithmetic.
+- **That is the second wording hypothesis here rejected by running the baseline properly** rather than reasoning about the instruction. All ten runs that named the commitment treated it as overtaken by the leave rather than broken, which is what the scenario asks for.
+- Scored blind to which arm each run came from, as the [applied examples test](evaluations/business-case-applied-examples-test.md) was.
+- **The more useful finding was not the criterion.** Three of the twelve runs noticed that the scenario never says which weekday 7th July was, so they declined to state whether the promised Thursday actually fell inside Alex's leave, and a fourth asserted that it did. They are right: the conflict follows from the dates on every reading except 7th July having been a Thursday itself, which the scenario never rules out. The answer key claimed more than the input establishes and now carries the qualification.
+- Naming the weekday in the scenario would make the conflict checkable rather than inferable, and it would change published test material that three existing records were scored against. That is left as a decision rather than done quietly.
+
 ### A Review That Still Told You to Run a Test That Had Failed
 
 - The [Aldercroft business case prompt review](evaluations/aldercroft-business-case-prompt-review.md) carried a correction banner at the top and a corrected section in the middle, and then closed by telling a reader to go and run the test that had already been run and rejected. Its last words were the open proposal.

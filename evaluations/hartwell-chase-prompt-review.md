@@ -51,4 +51,6 @@ The skill's run on the same scenario did surface it, and its review scored evide
 
 ## The Change to Test Next
 
-Widen the stale-date instruction so it names a commitment the prospect made themselves, not only a task or reminder that was set. Then run this scenario again and see whether Thursday appears.
+**This was done, and it was rejected.** The instruction was widened to name a commitment the prospect made themselves, and the scenario was [run twelve times](chase-stale-date-test.md), six a side, blind to which version each run came from. Four of six runs of the prompt as published named Alex's Thursday commitment, which met the falsification condition set before the runs and puts the miss recorded above inside the prompt's own variation. The widened wording is not adopted.
+
+That test also found something this review got slightly wrong. It says the case is built so the promised Thursday falls inside the leave. The scenario never states which weekday 7th July was, so the conflict follows from the dates rather than being established by them, and three of the twelve runs said so.
