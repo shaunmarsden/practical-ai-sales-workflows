@@ -60,4 +60,6 @@ The published prompt produced one of six on this scenario yesterday and two of s
 
 ## The Change to Test Next
 
-Whether the same step helps the skill, which is a different artefact and a longer instruction sheet, and whether it costs anything on a scenario where no dates collide at all.
+Whether it costs anything on a scenario where no dates collide at all, which is still untested.
+
+The first half of this question has been answered: the step was [tested on the skill](chase-skill-ledger-test.md) and separated it completely, six of six against zero of six, p of 0.0011. The published skill turned out to be worse at this than the published prompt, which is the opposite of what I predicted in writing beforehand.
