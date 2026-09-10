@@ -10,6 +10,13 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Objection Workflow Linked Its Stability Test and Carried None of It
+
+- [Objection Handling](workflows/05-objection-handling.md) promised "a diagnosis of what is really driving the objection" and linked the [nine-run stability test](evaluations/hartwell-objection-ambiguous-test.md) as further reading, without carrying anything that test found. A reader who never clicked got no hint that the diagnosis is the unstable part.
+- **What it found is that the guardrails held on all nine runs and the diagnosis did not.** One model promoted a different primary driver in each of its three runs while the other two stayed on one. The method section now says to treat the bucket as a hypothesis the reply can test rather than a settled answer, and the link text says what the test showed instead of only that it exists.
+- **It also dropped the one signal the skill singles out.** The [skill](.agents/skills/objection-response/SKILL.md) says to watch for an objection that shrinks the rationale rather than delaying the decision. The workflow's six buckets had no room for it, and on the nine-run test that reading was the sharpest one available and only one run in nine surfaced it. It is now in the method.
+- The six buckets themselves match the skill exactly, which was the first thing checked.
+
 ### Naming the Weekday Did Not Fix the Behaviour Either
 
 - The chase scenario was changed yesterday to name its weekdays, because its answer key claimed a date conflict the input never established. **[Re-run twelve times, six a side](evaluations/chase-weekday-rerun.md), and the fix did not produce the behaviour the answer key asks for.** One of six runs stated that the promised Thursday falls inside Alex's leave, against none of six on the version without weekdays. The interest condition set beforehand was met.
