@@ -10,6 +10,18 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Required Step Beat a Principle, on the Third Attempt
+
+- Three tests have now gone at the chase prompt missing the clash between the transcript Alex promised by Thursday afternoon and the leave he announced the next day. Widening the instruction was rejected. Naming the weekday in the scenario, which turned out to be necessary before the clash could be established at all, was rejected too.
+- **[Tested over twelve runs](evaluations/chase-dated-commitment-ledger-test.md), six a side, and this one is adopted.** One paragraph asks for a dated commitment ledger before drafting: list every date and commitment including the ones the prospect set themselves, list every stated period of absence separately, compare them, and carry the result into the first section in words. Five of six runs stated the clash, against two of six without it.
+- **The page says plainly that the evidence is weaker than the table looks.** One-tailed p of 0.12 does not reach the level treated as a result elsewhere here, and the pre-registered condition was a threshold rather than a significance test. What holds is that the mechanism was not falsified on a thread where two previous changes were.
+- A pooled figure of three of twelve against five of six, p of 0.032, is on the page as a post-hoc calculation with a warning attached, since pooling arms across sessions was not pre-registered and is the move criticised on the stacked figure test.
+- **This is the second time a principle failed here and a required step worked**, after the invented-pronoun failure, and the second time I reached for the rule first. Both are now on [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md).
+- Four of the six ledger runs visibly did the comparison, one stated the clash without showing the working, and **one skipped the step entirely**, which is worth knowing about required steps. No run printed the ledger, which was the pre-registered observation.
+- **Thirty-six runs across the three tests, and every one of them decided to wait rather than chase.** This whole thread has been about one supporting fact inside a correct answer.
+- The baseline moved from one of six to two of six between sessions on the same prompt and the same input, which is the run-to-run movement this repository keeps measuring showing up inside a six-run cell. The void condition written into the pre-registration existed for exactly that.
+- The step is in the [prompt](templates/chase-sequence-prompt.md) and the recipe card only. The skill does not carry it and has not been tested with it.
+
 ### The Objection Workflow Linked Its Stability Test and Carried None of It
 
 - [Objection Handling](workflows/05-objection-handling.md) promised "a diagnosis of what is really driving the objection" and linked the [nine-run stability test](evaluations/hartwell-objection-ambiguous-test.md) as further reading, without carrying anything that test found. A reader who never clicked got no hint that the diagnosis is the unstable part.

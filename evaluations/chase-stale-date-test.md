@@ -72,4 +72,4 @@ They were right that it was not stated. The conflict followed from the dates on 
 
 ## The Change to Test Next
 
-The scenario was re-run once it named its weekdays, [twelve more runs, six a side](chase-weekday-rerun.md). Naming the weekday did not produce the behaviour the answer key asks for either: one of six stated that the promised date falls inside the leave, against none of six without the weekdays. So the instruction was not the cause and neither was the input, and the next hypothesis has to be more specific than either.
+The scenario was re-run once it named its weekdays, [twelve more runs, six a side](chase-weekday-rerun.md). Naming the weekday did not produce the behaviour the answer key asks for either: one of six stated that the promised date falls inside the leave, against none of six without the weekdays. So the instruction was not the cause and neither was the input. What did move it was a [required step rather than a principle](chase-dated-commitment-ledger-test.md), which is the third test on this thread and the first change it has not rejected.
