@@ -77,6 +77,7 @@ The usefulness mark is where a second scorer is most likely to disagree with me.
 ## What This Test Cannot Prove
 
 - One scenario, one model, and every run scored by the person who wrote the guardrail. Nobody outside this project has scored anything.
+- **The input was not as clean as the method above claims.** Removing the answer key at the line the transcript's own warning names left its fictional-disclosure blockquote in place, and that blockquote said the champion's time estimate was a live trap. The time estimate is one of the two figures this test is about. It was constant across all four cells, so the comparison holds, but the absolute rates may not be what a genuinely blind input would give. This page never recorded where the pasted input started and stopped, so whether these nineteen runs carried that sentence cannot be confirmed now, only inferred from the procedure they followed. The [blockquote has since been fixed](../examples/aldercroft-business-case-transcript.md).
 - Three of the nineteen were not made for this test. They fit the plain baseline cell because they carried neither variable, but they were produced against a different question, and the first version of this page did not say so.
 - Nineteen runs is enough to support a change and nowhere near enough to size the effect. The guardrail arm is zero of ten, which is consistent with the defect being rare rather than eliminated.
 - It says nothing about the other two business case scenarios, where the pilot has actually run and measured figures exist, so there may be nothing unmeasured to combine.
@@ -111,4 +112,8 @@ No control arm was needed, and by the contingency set beforehand none was run.
 
 ## The Change to Test Next
 
-Nothing on this thread. The guardrail blocks what it was written to block and permits what it should permit, over twenty-five runs in total. The next question about this skill was elsewhere: across six runs in the previous test it never produced three applied examples. That was [tested over twelve runs](business-case-applied-examples-test.md) and came to nothing. The skill only ever said three was a good number, the prompt is the artefact that asks for three, and six fresh runs of the published skill each produced the one grounded example the scenario supports.
+Nothing on this thread. The guardrail blocks what it was written to block and permits what it should permit, over twenty-five runs in total.
+
+The one question left open about this skill was the applied examples count, and it was [tested over twelve runs](business-case-applied-examples-test.md) and came to nothing. The skill only ever said three was a good number, the prompt is the artefact that asks for three, and six fresh runs of the published skill each produced the one grounded example the scenario supports.
+
+**The next change to test is on the prompt rather than the skill:** whether its hard requirement for three applied examples causes padding on a source that supports one. Its single run did not pad, and one run is not evidence either way.

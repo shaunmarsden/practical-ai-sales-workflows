@@ -102,3 +102,5 @@ Scored for the record, on the run named in advance rather than the best of the t
 ## The Change to Test Next, With Evidence Behind It
 
 Four of six runs multiplied an untimed estimate by an approximate planning rate to produce a pound figure, and one annualised it to £131,000. That is a replicated defect rather than a hypothesis. Add a guardrail against combining two unmeasured inputs into a single headline figure, and re-run this scenario. The criterion is already obvious and should be written down before running: does a pound figure derived from both estimates appear at all.
+
+**That was done.** [Nineteen runs](business-case-stacked-figure-test.md) with the criterion fixed in advance: none of the ten carrying the guardrail produced a combined figure, against four of the nine without, and a six-run follow-up confirmed it does not suppress arithmetic that is sound. It is the one change to this skill that a test has supported.
