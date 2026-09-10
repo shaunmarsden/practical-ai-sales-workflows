@@ -69,4 +69,4 @@ Every one of the twelve runs decided to wait rather than chase, which is the dec
 
 ## The Change to Test Next
 
-The two obvious causes are eliminated, so the next hypothesis has to be more specific than "the wording is too narrow". The candidate worth pre-registering is an instruction to check every dated commitment against every known absence or unavailability window, as a step rather than a principle, on the pattern of the [person reference ledger](../.agents/skills/opportunity-handover/SKILL.md) that fixed the invented-pronoun failure when a plain instruction did not.
+That hypothesis was the next one tested: a required step rather than a principle, on the pattern of the [person reference ledger](../.agents/skills/opportunity-handover/SKILL.md) that fixed the invented-pronoun failure when a plain instruction did not. **It is the first change on this thread not to be rejected**, at five of six against two of six, [recorded here](chase-dated-commitment-ledger-test.md) with the reasons its evidence is weaker than that table looks.

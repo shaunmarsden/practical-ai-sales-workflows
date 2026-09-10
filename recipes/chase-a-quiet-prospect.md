@@ -30,6 +30,8 @@ Use only the information I provide. Do not invent interest, disinterest, urgency
 
 A chase is a decision, not a template on a timer. Decide what to do before drafting anything.
 
+Before writing any of the sections below, build a dated commitment ledger. List every date, deadline or commitment in what I have given you, including any the prospect set for themselves, and separately list every period anyone is stated to be away, unavailable or not monitoring messages. Then check each date in the first list against each period in the second and note which of them fall inside one. Carry that result into section 1 in words, including when nothing collides. The ledger itself is a working step, not part of the output.
+
 Produce the following sections:
 
 1. What the silence actually tells us
