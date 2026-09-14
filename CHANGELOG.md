@@ -10,6 +10,15 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Padding Worry Was Unfounded, and the Test Found a Live Defect Instead
+
+- The business case prompt makes "Three applied examples" a required numbered part, on a scenario that establishes one manual task. **[Tested over twelve runs](evaluations/business-case-padding-test.md), six a side: no ungrounded example in either arm.** The falsification condition was met and no change is made.
+- All twelve produced exactly one grounded example and said in the document why there were not three, correctly excluding the accounts payable aside that the call rules out of scope. The single run the prompt review worried about was not luck.
+- **Nine of the twelve produced the stacked figure.** Seven annualised it to about £131,000 and two projected roughly £65,000 of reclaimed capacity from an untested gut feel. That is the defect this repository tested over nineteen runs and wrote a guardrail for, and **the guardrail is in the skill and not in the prompt**, which is the artefact the recipe card carries.
+- It was not the pre-registered criterion, it is balanced across the arms as an unrelated defect would be, and it is a count rather than a comparison. It is reported as what it is: nine of twelve, with no p value offered.
+- Named next with its baseline already measured: add the guardrail to the prompt and re-run, on the criterion the stacked figure test already fixed in writing.
+- **A fourth incomplete search in two days is recorded on the page.** Two runs were first marked as not saying why there were only one example; both do, in wording my pattern did not match. Four wrong counts in two days, every one caught by reading the text rather than by a better pattern.
+
 ### The Ledger Instruction Now Holds
 
 - Two tests found five of six runs printing the dated commitment ledger despite the skill saying it is a working step and not part of the output. Both named the next question as one about output quality. **[Tested instead as a question about the instruction](evaluations/chase-ledger-printing-test.md)**, because one that is ignored five times in six is wrong as written whichever way the quality question goes.
