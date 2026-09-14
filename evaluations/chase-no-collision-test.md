@@ -58,4 +58,4 @@ Five of the six ledger runs printed the ledger, as a dated list under its own he
 
 ## The Change to Test Next
 
-Whether the ledger should be printed. Two tests now show that it is, five of six times, against an instruction saying it should not be, and the honest position is that nobody has decided whether that is a defect or an improvement. That needs a criterion about the output a person has to read, which is a different kind of measure from anything on this thread so far.
+This was [tested next](chase-ledger-printing-test.md), by asking first whether the instruction could be made to hold rather than whether the printing is good. It can: zero of six against six of six, with the date clash still stated in every run of both arms, so the strengthened wording is adopted. What that does not settle is whether the shorter output is the better one, and the test puts a number on the trade rather than making the judgement: the ledger is about 139 words, roughly a quarter of the output.
