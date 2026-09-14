@@ -20,13 +20,13 @@ One sentence widened, nothing else altered:
 
 **The criterion, written down before any run:** does the output mention Alex's own commitment to share the transcript by Thursday afternoon? It has to refer to that commitment. The word Thursday appearing as a proposed send date for a new message does not count.
 
-**The falsification condition, also fixed in advance:** if the prompt as published mentions the commitment in four or more of its six runs, the wording was not the cause, the original miss was a one-run event, and the change is not adopted.
+**The falsification condition, also fixed in advance:** if the prompt without the widened sentence mentions the commitment in four or more of its six runs, the wording was not the cause, the original miss was a one-run event, and the change is not adopted.
 
 **Contingencies, fixed in advance:** if both arms came out six of six or zero of six, the criterion could not separate them and no runs would be added to rescue a result. Whether a run also states that the promised Thursday conflicts with the leave was recorded as an observation, not as the criterion.
 
 ## Method
 
-Twelve blind runs on the [Hartwell chase scenario](../examples/hartwell-chase-input.md) with its answer key removed at the line its own warning names, same model, a fresh isolated context each time, no rubric and no access to this repository. Six of the prompt as published, six with that one sentence widened. Every run made for this test.
+Twelve blind runs on the [Hartwell chase scenario](../examples/hartwell-chase-input.md) with its answer key removed at the line its own warning names, same model, a fresh isolated context each time, no rubric and no access to this repository. Six of the prompt as it then stood, six with that one sentence widened. **The prompt has since changed for a different reason**, so the arms here are named for the sentence under test rather than for what was published at the time. Every run made for this test.
 
 Scored without knowing which arm each run came from, as in the [applied examples test](business-case-applied-examples-test.md): the twelve inputs were copied to neutrally named files under a mapping generated and never displayed, opened only after all twelve had been scored.
 
@@ -34,10 +34,10 @@ Scored without knowing which arm each run came from, as in the [applied examples
 
 | | Runs | Named Alex's Thursday commitment |
 | --- | ---: | ---: |
-| Prompt as published | 6 | **4** |
+| Prompt without the widened sentence | 6 | **4** |
 | Prompt with the sentence widened | 6 | **6** |
 
-**The falsification condition was met exactly at its threshold, so the change is not adopted.** Four of six runs of the published prompt named the commitment, which puts the original miss inside the prompt's own variation rather than making it a consequence of the wording.
+**The falsification condition was met exactly at its threshold, so the change is not adopted.** Four of six runs without the widened sentence named the commitment, which puts the original miss inside the prompt's own variation rather than making it a consequence of the wording.
 
 Fisher's exact on the misses, zero of six against two of six, one-tailed: p = 0.45. There is nothing there, and the falsification condition was written to fire regardless of what the arithmetic said.
 
@@ -47,7 +47,7 @@ Fisher's exact on the misses, zero of six against two of six, one-tailed: p = 0.
 
 Every one of the ten treated the commitment as overtaken by the leave rather than as broken or overdue, which is what the scenario's answer key asks for. Two of them made the point sharply: one wrote that treating "he said Thursday" as a missed deadline worth raising would be wrong, and another that the commitment "cannot currently be read as met, broken, or lapsed".
 
-The two runs that missed it, both of the published prompt, did not ignore the transcript. Both raised whether internal approval was ever granted, and both named the CRM task as predating the auto-reply. What neither did was connect Alex's own date to anything.
+The two runs that missed it, both without the widened sentence, did not ignore the transcript. Both raised whether internal approval was ever granted, and both named the CRM task as predating the auto-reply. What neither did was connect Alex's own date to anything.
 
 ## The More Interesting Finding, Which Was Not the Criterion
 
