@@ -70,7 +70,7 @@ A [fifth test](chase-no-collision-test.md) later broke that run, by design: on a
 
 - Six runs an arm, one scenario, one model, and a criterion written and applied by the same person. Blind scoring removes knowing the arm and nothing else.
 - p = 0.0011 on this criterion, this scenario, this model. It says nothing about a chase scenario with no date clash in it, which none of these twelve runs was. That gap has since been [tested separately](chase-no-collision-test.md) and neither arm invented a collision there.
-- Perfect separation on six a side is easy to over-read. The published arm's zero of six is a single measurement of a cell that moved from one of six to two of six between sessions on the prompt.
+- Perfect separation on six a side is easy to over-read. The zero of six without the step is a single measurement of a cell that moved from one of six to two of six between sessions on the prompt.
 
 ## The Change to Test Next
 

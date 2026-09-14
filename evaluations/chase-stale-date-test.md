@@ -62,7 +62,7 @@ They were right that it was not stated. The conflict followed from the dates on 
 - Six runs an arm. It can reject the hypothesis it was built for, which it did at exactly the threshold set in advance, and it cannot establish a small effect. Four of six against six of six is not a result in the other direction either.
 - One scenario, one model, and the criterion written and applied by the same person. Blind scoring removes knowing which arm a run came from; it does not remove that.
 - The criterion is about naming the commitment, not about handling it well. All ten that named it handled it the way the answer key asks, but that was an observation made afterwards, not a scored measure.
-- One judgement call inside the scoring, recorded because a second scorer could go the other way: one of the two misses does refer to Alex's stated intention to send the transcript, "he said should be able to, subject to internal approval", without ever mentioning the date. Under a criterion about naming the commitment rather than its timing, that run would count as a yes and the published arm would be five of six. The falsification condition fires either way.
+- One judgement call inside the scoring, recorded because a second scorer could go the other way: one of the two misses does refer to Alex's stated intention to send the transcript, "he said should be able to, subject to internal approval", without ever mentioning the date. Under a criterion about naming the commitment rather than its timing, that run would count as a yes and the arm without the widened sentence would be five of six. The falsification condition fires either way.
 
 ## What Changed
 
