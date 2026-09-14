@@ -58,7 +58,7 @@ In the prompt test, none of the six did that. The difference is placement: in th
 
 Whether that matters is a judgement rather than a finding. A collision table is arguably useful to a reader, and the instruction not to print it was written to keep the output clean. It is named at the bottom of this page rather than quietly reworded, since no test here supports either choice.
 
-**This has since replicated.** The [no-collision test](chase-no-collision-test.md) found the same five of six printing it, on a different scenario, so it is a property of the section form of the instruction rather than a one-off.
+**This has since replicated, and then been settled.** The [no-collision test](chase-no-collision-test.md) found the same five of six printing it on a different scenario, so it was a property of the section form rather than a one-off. A [third test](chase-ledger-printing-test.md) then found the printing can be stopped by saying so explicitly, at zero of six against six of six, without costing the date clash the step exists for. The instruction is now the strengthened version.
 
 ## What Did Not Move
 
@@ -76,4 +76,4 @@ A [fifth test](chase-no-collision-test.md) later broke that run, by design: on a
 
 The first of the two things this page named has been done: on a [scenario with no colliding dates](chase-no-collision-test.md), neither arm invented one and the step's own clause about saying nothing collides was followed five times in six.
 
-What is left is whether the ledger should be printed. Two tests now show five of six runs printing it against an instruction saying not to, which needs a criterion about the output a person has to read rather than about a fact appearing at all.
+The second, whether the ledger should be printed, was [tested too](chase-ledger-printing-test.md), by asking first whether the instruction could be made to hold at all. It can, and it now does. That does not settle whether the shorter output is better, but it does put a number on the trade: the printed ledger is about 139 words, roughly a quarter of the output.

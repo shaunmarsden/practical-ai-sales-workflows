@@ -20,7 +20,7 @@ A chase is a decision, not a template applied on a timer. Before drafting anythi
 
 ## Build a Dated Commitment Ledger Before Deciding
 
-Before choosing a move, list every date, deadline or commitment in the supplied material, including any the prospect set for themselves, and separately list every period anyone is stated to be away, unavailable or not monitoring messages. Then check each date in the first list against each period in the second and note which of them fall inside one. Carry that result into the output in words, including when nothing collides. The ledger is a working step, not part of the finished output.
+Before choosing a move, list every date, deadline or commitment in the supplied material, including any the prospect set for themselves, and separately list every period anyone is stated to be away, unavailable or not monitoring messages. Then check each date in the first list against each period in the second and note which of them fall inside one. Carry that result into the output in words, including when nothing collides. Do not put the ledger itself in the output. No list of dates, no table, no section headed with a date check or a collision check: the finding belongs in a sentence inside the first section you produce, and the working that produced it stays out.
 
 ## Decide the Next Move
 

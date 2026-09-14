@@ -10,6 +10,16 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Ledger Instruction Now Holds
+
+- Two tests found five of six runs printing the dated commitment ledger despite the skill saying it is a working step and not part of the output. Both named the next question as one about output quality. **[Tested instead as a question about the instruction](evaluations/chase-ledger-printing-test.md)**, because one that is ignored five times in six is wrong as written whichever way the quality question goes.
+- **Saying so explicitly stops it: zero of six against six of six, p of 0.0011.** The strengthened wording is adopted in the skill.
+- **The veto written into the pre-registration did not fire.** Every run in both arms still stated the date clash, and all six strengthened runs made the point in the first paragraph of their opening section, so suppressing the printing cost nothing on the measure the step exists for.
+- **It puts a number on an argument that had been carried as a worry.** The printed ledger is about 139 words, roughly a quarter of the output, against a visible audit trail of the date check. The instruction changed because it was asserting something untrue, not because the shorter output has been shown to be better, and the page says so.
+- The prompt is not changed. Its paragraph form of the same instruction printed nothing in twelve runs, so there is nothing to fix there.
+- **A scoring mistake is recorded on the page.** My first pass marked one run as not stating the clash; it does, in its opening paragraph, and the search pattern missed the phrasing. That is the third incomplete search in a day, after a case-sensitive check and a rename sweep that each missed real matches. The fix recorded is not a better pattern but reading a count back against the text before it goes anywhere.
+- Six tests and seventy-two runs on this one defect. The step is adopted on both artefacts, tested for harm, and its instruction holds.
+
 ### The Ledger Step Does Not Invent Collisions
 
 - Both ledger tests named the same gap: nothing had tested what a step requiring a collision check does when there is no collision. **[Tested over twelve runs](evaluations/chase-no-collision-test.md), six a side, and neither arm invented one.** The harm condition set beforehand did not fire and the step is kept.
