@@ -29,7 +29,7 @@ Twelve blind runs on the Tarnside scenario, answer key removed at the line its o
 | | Runs | False collisions | Stated that nothing collides |
 | --- | ---: | ---: | ---: |
 | Skill without the step | 6 | **0** | 0 |
-| Skill with the ledger step | 6 | **0** | 5 |
+| Skill with the step | 6 | **0** | 5 |
 
 **No run in either arm invented a collision. The harm condition did not fire, and the step is kept.**
 

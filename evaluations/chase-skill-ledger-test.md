@@ -6,7 +6,7 @@ The [prompt test](chase-dated-commitment-ledger-test.md) adopted a dated commitm
 
 ## The Prediction, Written Down Before Running
 
-I expected the published skill to do better at this than the published prompt did, because the [repeat run findings](repeat-run-findings.md) record two runs of the skill showing this clash on the harder version of the scenario, where it could only be inferred.
+I expected the skill without the step to do better at this than the prompt without it, because the [repeat run findings](repeat-run-findings.md) record two runs of the skill showing this clash on the harder version of the scenario, where it could only be inferred.
 
 **That was wrong in the direction that would have flattered the skill.** It scored zero of six where the prompt scored two of six.
 
@@ -25,22 +25,22 @@ One section inserted before "Decide the Next Move", worded as the prompt's parag
 Both failure conditions were fixed before any run:
 
 - **The step does not transfer**, if the ledger arm states the clash in two or fewer of six.
-- **The step is unnecessary**, if the published skill states it in four or more of six. Adding an instruction for behaviour that is already happening is what the [check requirement test](business-case-check-requirement-test.md) rejected.
+- **The step is unnecessary**, if the skill without the step states it in four or more of six. Adding an instruction for behaviour that is already happening is what the [check requirement test](business-case-check-requirement-test.md) rejected.
 
 ## Method
 
-Twelve blind runs on the current chase scenario, answer key removed at the line its own warning names, same model, a fresh isolated context each time, no rubric and no access to this repository. Six of the published skill, six with the section inserted. Both arms fresh: neither the prompt test's runs nor the two older skill runs were reused. Scored without knowing which arm each run came from.
+Twelve blind runs on the current chase scenario, answer key removed at the line its own warning names, same model, a fresh isolated context each time, no rubric and no access to this repository. Six of the skill as it stood before the step, six with the section inserted. **The skill now carries the step**, so "published" today means the second of those, and the arms below are named for what they contain rather than for what was published at the time. Both arms fresh: neither the prompt test's runs nor the two older skill runs were reused. Scored without knowing which arm each run came from.
 
 ## Result
 
 | | Runs | Stated that the promised date falls inside the leave |
 | --- | ---: | ---: |
-| Skill as published | 6 | **0** |
-| Skill with the ledger section | 6 | **6** |
+| Skill without the step | 6 | **0** |
+| Skill with the step | 6 | **6** |
 
 **Complete separation.** Fisher's exact, one-tailed, gives p = 0.0011. Neither failure condition fired, so the step is adopted into the skill.
 
-This is a stronger result than the prompt's five of six against two of six, and the reason is not that the skill responds better to the step. It is that **the published skill was worse at this to begin with**, so there was more room.
+This is a stronger result than the prompt's five of six against two of six, and the reason is not that the skill responds better to the step. It is that **the skill was worse at this to begin with**, so there was more room.
 
 ## Why the Earlier Record Looked Like the Opposite
 
@@ -64,10 +64,12 @@ Whether that matters is a judgement rather than a finding. A collision table is 
 
 **All twelve runs decided to wait rather than chase**, which makes it forty-eight for forty-eight across the four tests on this thread. Every one of these tests has been about one supporting fact inside a correct decision.
 
+A [fifth test](chase-no-collision-test.md) later broke that run, by design: on a scenario with no stated reason for the silence, all twelve of its runs chose to chase now instead, in both arms.
+
 ## What This Test Cannot Prove
 
 - Six runs an arm, one scenario, one model, and a criterion written and applied by the same person. Blind scoring removes knowing the arm and nothing else.
-- p = 0.0011 on this criterion, this scenario, this model. It says nothing about a chase scenario with no date clash in it, where the instruction asks for a line saying nothing collides. None of these twelve runs was that case, and it is the same gap the prompt test left open.
+- p = 0.0011 on this criterion, this scenario, this model. It says nothing about a chase scenario with no date clash in it, which none of these twelve runs was. That gap has since been [tested separately](chase-no-collision-test.md) and neither arm invented a collision there.
 - Perfect separation on six a side is easy to over-read. The published arm's zero of six is a single measurement of a cell that moved from one of six to two of six between sessions on the prompt.
 
 ## The Change to Test Next

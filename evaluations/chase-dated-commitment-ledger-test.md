@@ -20,26 +20,26 @@ One paragraph inserted before the prompt's section list, and nothing else altere
 
 ## Method
 
-Twelve blind runs on the current chase scenario, answer key removed at the line its own warning names, same model, a fresh isolated context each time, no rubric and no access to this repository. Six of the published prompt, six with the paragraph inserted. Both arms run fresh rather than reusing the previous day's runs. Scored without knowing which arm each run came from.
+Twelve blind runs on the current chase scenario, answer key removed at the line its own warning names, same model, a fresh isolated context each time, no rubric and no access to this repository. Six of the prompt as it stood before the step, six with the paragraph inserted. **The prompt now carries the step**, so "published" today means the second of those, and the arms below are named for what they contain. Both arms run fresh rather than reusing the previous day's runs. Scored without knowing which arm each run came from.
 
 ## Result
 
 | | Runs | Stated that the promised date falls inside the leave |
 | --- | ---: | ---: |
-| Prompt as published | 6 | **2** |
-| Prompt with the ledger step | 6 | **5** |
+| Prompt without the step | 6 | **2** |
+| Prompt with the step | 6 | **5** |
 
 **The falsification condition was not met and the void condition did not fire, so the step is adopted.**
 
 **The evidence is weaker than the table looks.** Fisher's exact on five of six against two of six, one-tailed, gives p = 0.12. That does not reach the level this repository has treated as a result elsewhere, and the pre-registered condition was a threshold rather than a significance test. What can be said is that the mechanism was not falsified, on a thread where two previous changes were.
 
-**A post-hoc calculation, offered as information rather than as the result.** Pooling the previous day's six runs of the published prompt, which produced one of six on the same scenario, gives three of twelve against five of six and p = 0.032. Pooling arms across sessions was not pre-registered, and it is the move criticised on the [stacked figure test](business-case-stacked-figure-test.md), so it is not what this test rests on.
+**A post-hoc calculation, offered as information rather than as the result.** Pooling the previous day's six runs without the step, which produced one of six on the same scenario, gives three of twelve against five of six and p = 0.032. Pooling arms across sessions was not pre-registered, and it is the move criticised on the [stacked figure test](business-case-stacked-figure-test.md), so it is not what this test rests on.
 
 ## What the Mechanism Actually Did
 
 Four of the six ledger runs visibly performed the comparison, opening section 1 with a line like "Checking the dates against that away period" or "Collision check". A fifth stated the clash without showing the working. **The sixth did neither**, never mentioning the promised date at all, so a required step can still be skipped entirely.
 
-The two runs of the published prompt that met the criterion got there without any prompting to compare dates, which is worth remembering before treating the step as the only route to the behaviour.
+The two runs without the step that met the criterion got there without any prompting to compare dates, which is worth remembering before treating the step as the only route to the behaviour.
 
 **The pre-registered observation came back clean.** No run printed the ledger as a table or list. The instruction to treat it as a working step rather than output held in all six.
 
@@ -49,7 +49,7 @@ The two runs of the published prompt that met the criterion got there without an
 
 ## The Baseline Moved Between Sessions
 
-The published prompt produced one of six on this scenario yesterday and two of six today. Both are the same prompt on the same input. **That is the run-to-run movement this repository keeps measuring, showing up inside a six-run cell**, and it is the reason the void condition was written into the pre-registration before the numbers existed.
+The prompt without the step produced one of six on this scenario yesterday and two of six today. Both are the same prompt on the same input. **That is the run-to-run movement this repository keeps measuring, showing up inside a six-run cell**, and it is the reason the void condition was written into the pre-registration before the numbers existed.
 
 ## What This Test Cannot Prove
 
@@ -62,4 +62,4 @@ The published prompt produced one of six on this scenario yesterday and two of s
 
 Both halves of this question have now been answered. On a [scenario built with no collision in it](chase-no-collision-test.md), neither arm invented one, so the step does not manufacture a conflict where there is none.
 
-The first half of this question has been answered: the step was [tested on the skill](chase-skill-ledger-test.md) and separated it completely, six of six against zero of six, p of 0.0011. The published skill turned out to be worse at this than the published prompt, which is the opposite of what I predicted in writing beforehand.
+The first half of this question has been answered: the step was [tested on the skill](chase-skill-ledger-test.md) and separated it completely, six of six against zero of six, p of 0.0011. The skill turned out to be worse at this than the prompt before either carried the step, which is the opposite of what I predicted in writing beforehand.

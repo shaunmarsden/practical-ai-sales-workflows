@@ -18,6 +18,7 @@ Release notes provide the fuller version summaries:
 - **The decision flipped and both arms agree.** All twelve chose to chase now, where all forty-eight runs on the earlier tests chose to wait. The scenario was built to do that, and it shows the step does not distort the decision on a case that is the opposite of the one it was developed on.
 - **The printing behaviour replicated.** Five of six runs printed the ledger against an instruction saying it is a working step, the same five of six as the skill test and on a different scenario. Two tests now agree that the section form gets printed and the paragraph form does not, so that is a property of the instruction rather than a one-off, and deciding whether it is a defect is the change named next.
 - The page says plainly that this closes the gap for false positives only. It measures nothing about whether the step wastes a reader's attention.
+- **The test pages called an arm "as published" and that has stopped meaning what it meant.** The prompt and the skill both carry the step now, so "the published prompt" on a page comparing with and without it now names the wrong side. Every arm on the four chase pages is renamed for what it contains, and the two method sections say which version is published today. The stale-date page got the same treatment for a different reason: the prompt has changed since, for something unrelated to the sentence it was testing.
 
 ### The Same Step on the Skill, and a Prediction I Got Wrong
 
