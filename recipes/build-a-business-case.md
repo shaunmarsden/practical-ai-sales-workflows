@@ -79,6 +79,7 @@ List every figure, claim and section that needs human confirmation, and anything
 Rules:
 
 - Every claim traces to something in my sources, or it is labelled
+- Never multiply two unmeasured figures together and present the product. If a calculation needs two inputs and either one is an estimate, a projection or an approximate planning rate, give the inputs separately with their labels and say what would have to be measured before a combined number means anything. Labelling the product as an estimate does not fix this: one number reads as more solid than the two guesses behind it, and a reader who skims will carry the number and leave the labels behind
 - Do not soften or remove the risk or data section
 - Hyperlinks go on descriptive text. No bare URLs, and never refer to an attachment that was not actually sent
 - No em dashes, no emojis
