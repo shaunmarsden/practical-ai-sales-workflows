@@ -89,4 +89,6 @@ The four pages carrying the wrong claim are corrected in place.
 
 ## The Change to Test Next
 
-Whether the prompt's hard "Three applied examples" causes padding on a source that supports one. Its single run did not pad, and one run is not evidence either way. That is a question about the prompt rather than the skill, and it would need the same blind scoring this test used.
+That was [tested over twelve runs](business-case-padding-test.md) and it does not: no run in either arm produced an ungrounded example, and all twelve produced exactly one and said why there were not three.
+
+That test found something else while looking. **Nine of its twelve runs produced the stacked figure**, the defect the guardrail was written for, because the guardrail is in the skill and not in the prompt. Adding it to the prompt is the change now named next, with nine of twelve as its baseline.
