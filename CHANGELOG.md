@@ -10,6 +10,15 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Stacked-Figure Guardrail Is Now on the Prompt Too
+
+- The padding test found the prompt producing the stacked figure in nine of twelve runs, because the guardrail was in the skill and not in the prompt. **[Tested over twelve fresh runs](evaluations/business-case-prompt-guardrail-test.md) rather than copied across: none of six against five of six, one-tailed p of 0.015.** The line is adopted in the [prompt](templates/business-case-prompt.md) and its inlined copy on the recipe card.
+- Four of the five combined figures were annualised to about £131,000, and two projected roughly £65,000 of reclaimed capacity from an untested gut feel. That is the run the mistakes guide leads with, reproduced twice in six runs of a published artefact.
+- **The test measures a cost the skill's own testing only hinted at.** No run carrying the guardrail gave a reader any aggregate sense of scale, not even the seventy-two analyst-hours a week that the criterion says explicitly is not the defect, where four of six without it did. On this scenario the line is blunter than the criterion asks for, and that is now a count rather than a hint from one scored run.
+- **It is adopted anyway, and the page says why rather than hiding the trade.** Producing £131,000 from two guesses is a worse fault than omitting a legitimate hours total, and the alternative on offer today was the prompt as it stood. What is not claimed is that the line is correctly drawn.
+- Named next with both baselines measured: whether a second line permitting an aggregate built from an estimate and a confirmed count restores the hours total without bringing back the pound figure.
+- Two things did not move across all twelve runs: every one produced exactly one applied example, replicating the padding test, and none invented a product name, price or start date.
+
 ### The Padding Worry Was Unfounded, and the Test Found a Live Defect Instead
 
 - The business case prompt makes "Three applied examples" a required numbered part, on a scenario that establishes one manual task. **[Tested over twelve runs](evaluations/business-case-padding-test.md), six a side: no ungrounded example in either arm.** The falsification condition was met and no change is made.

@@ -56,4 +56,6 @@ That follows a case-sensitive check that made a file look like it lacked a step,
 
 ## The Change to Test Next
 
-Add the stacked-figure guardrail to the business case prompt and re-run this scenario. The criterion is already written, on the [stacked figure test](business-case-stacked-figure-test.md): does a currency figure derived from both the six-hour estimate and the £35 rate appear at all. **The baseline is nine of twelve, measured here, so the comparison would not need a fresh control arm to be readable, though it should have one anyway.**
+That was [done immediately](business-case-prompt-guardrail-test.md), with a fresh control arm rather than this page's nine of twelve. **The guardrail works on the prompt: none of six against five of six, p of 0.015**, and it is adopted.
+
+It also costs something. No run carrying it gave any aggregate sense of scale, not even the seventy-two analyst-hours a week that the criterion explicitly permits, where four of six without it did. That page records it as the open question.

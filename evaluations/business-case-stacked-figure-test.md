@@ -112,7 +112,9 @@ No control arm was needed, and by the contingency set beforehand none was run.
 
 ## The Change to Test Next
 
-Nothing on this thread. The guardrail blocks what it was written to block and permits what it should permit, over twenty-five runs in total.
+Nothing on this thread for the skill. The guardrail blocks what it was written to block and permits what it should permit, over twenty-five runs in total.
+
+**The prompt was a different matter.** It never carried this line, and [twelve runs](business-case-prompt-guardrail-test.md) later found it producing the combined figure in five of six. The guardrail is now on the prompt too, and that test measured a cost this one only hinted at: on this scenario the line also suppresses the aggregate hours total it is supposed to permit.
 
 The one question left open about this skill was the applied examples count, and it was [tested over twelve runs](business-case-applied-examples-test.md) and came to nothing. The skill only ever said three was a good number, the prompt is the artefact that asks for three, and six fresh runs of the published skill each produced the one grounded example the scenario supports.
 
