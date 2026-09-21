@@ -30,7 +30,7 @@ This change took two rounds. The first did not work.
 | Field | Record |
 | --- | --- |
 | Original instruction version | Nothing. Before this failure was found, no file in this skill addressed pronouns or personal characteristics at all. See [commit 51db524](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/51db5242f2da261347d0212910c6e8055b72e20/.agents/skills/opportunity-handover/SKILL.md), which predates this change. |
-| Test case | A fully clean, unprompted rerun, given only the skill file and its supporting files plus the transcript, post-call output and update source, with the skill's own reference file excluded and no reminder about any rule. By this point the source pack and the skill's reference file were both free of answer-key content, but the shared transcript itself still carried its own `Deliberate Test Points` section, discovered only after this run, so this run is also not the one whose score is published. |
+| Test case | A fully clean, unprompted run, given only the skill file and its supporting files plus the transcript, post-call output and update source, with the skill's own reference file excluded and no reminder about any rule. Before this run, the remaining `Deliberate Test Points` section had been removed from the shared transcript and moved into the post-call review, so neither the skill reference material nor the transcript supplied the answer key. This was the run that surfaced the invented-pronoun failure. |
 | Raw outputs | [Commit f118a95's version of the example](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/f118a9518e7007130475caae6cbd002a5adef16/examples/hartwell-opportunity-handover.md) is this run's raw output, dash formatting aside. |
 | Rubric scores | 41 out of 50. Factual accuracy: 2. Hallucination risk: 2. Every other area 4 or 5. **Automatic failure: yes.** |
 | Observed failure | Quoting four instances of an invented pronoun for Alex Morgan, whose gender no source states: "Alex said he would 'chase legal again this week'" (current position); "Alex's email states he is 'moving into a new role'" (people and confirmed roles); "and that he would 'chase legal again this week.' **Source: Alex's email**" (confirmed evidence, cited as if the pronoun were part of what the email confirmed); "referencing Alex's statement that he would chase it" (actions and ownership). The same run separately invented pronouns for Jordan Lee, whose gender is equally unstated. |
@@ -47,7 +47,7 @@ This change took two rounds. The first did not work.
 | Field | Record |
 | --- | --- |
 | Original instruction version | The Round 1 sentence described above, present in `SKILL.md`, `references/output-contract.md` and `checks/checklist.md`, and confirmed not sufficient by Round 1's rerun. |
-| Test case | The same eight-file, no-reminder protocol as every clean run in this history: `SKILL.md`, `references/output-contract.md`, `templates/output-template.md`, `checks/checklist.md`, `METHODOLOGY.md`, the transcript (by now also cleaned of its own `Deliberate Test Points` section), the post-call output, and the update source. |
+| Test case | The same eight-file, no-reminder protocol as the clean Round 1 runs: `SKILL.md`, `references/output-contract.md`, `templates/output-template.md`, `checks/checklist.md`, `METHODOLOGY.md`, the transcript with its `Deliberate Test Points` section already removed, the post-call output, and the update source. |
 | Raw outputs | Recorded in [the main evaluation](hartwell-opportunity-handover-review.md) alongside its score, and preserved as the current `examples/hartwell-opportunity-handover.md` in this pull request. |
 | Rubric scores | See the main evaluation for the full scoring table. |
 | Observed failure (from Round 1, carried forward as the thing this round must fix) | The four quoted instances above, plus the same pattern for Jordan Lee. |
@@ -68,6 +68,6 @@ Run against both changes together, on the most recent clean rerun, before treati
 - A genuine disqualification is not argued with (not applicable to this scenario; no disqualification is present in the evidence).
 - No external action is treated as already completed.
 - Every action has exactly one named internal owner (the Change 1 regression check, now standing).
-- No named person receives an invented gender, pronoun, honorific or other personal characteristic (the Change 2 regression check, currently the open question this history exists to track).
+- No named person receives an invented gender, pronoun, honorific or other personal characteristic (the Change 2 regression check, now standing on the published clean run).
 
 See [the main evaluation](hartwell-opportunity-handover-review.md) for which of these currently hold.
