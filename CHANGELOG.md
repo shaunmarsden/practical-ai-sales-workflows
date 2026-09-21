@@ -304,7 +304,7 @@ Expanded the repository from eight sales jobs to sixteen, added clearer routes f
 
 ### Real Use Findings
 
-Fifteen jobs have a logged finding from sanitised real sales work. Twelve are summarised below, and four have a dedicated file because each carries a caveat worth reading in full. Those do not add to fifteen because Review a Lost Opportunity appears in both: the earlier no-decision summary is below, and the later recovery case has its own file.
+Fifteen jobs have a logged finding from sanitised real sales work, and a sixteenth has a retrospective one, which is a weaker thing and labelled as such in the matrix. Twelve are summarised below, and five have a dedicated file because each carries a caveat worth reading in full. Those do not add to fifteen because Review a Lost Opportunity appears in both: the earlier no-decision summary is below, and the later recovery case has its own file.
 
 - **Find the Next Prospect:** a real first-touch message earned a quick positive reply, while also challenging one confident subject-line rule.
 - **Follow Up After a Sales Call:** comparison with the email actually sent exposed where a generic draft missed useful detail.
@@ -324,6 +324,7 @@ The four with a dedicated file:
 - **Move a Stalled Decision:** [a real-use boundary finding](evaluations/buyer-indecision-real-use-finding.md). A real opportunity was correctly classified as a policy and timing blocker rather than buyer indecision, so this shows the method declining to fire rather than firing well.
 - **Hand Over an Opportunity:** [a real-use finding across eleven handovers](evaluations/opportunity-handover-real-use-finding.md). Evidence for the underlying method, and explicitly not yet a test of the current public skill unchanged.
 - **Review a Lost Opportunity:** [a recovery finding](evaluations/lost-opportunity-recovery-real-use-finding.md), where the review identified a different route and the approved outreach was followed by a reply and a booked call. The no-decision summary above is the same job's earlier finding.
+- **Spot the Real Blocker:** [a retrospective finding](evaluations/real-blocker-real-use-finding.md). The method was frozen and run against a real opportunity before the later evidence was read. It held its central discipline in all six runs, never converting enthusiasm into authority, and only one run in six recommended the step that would have opened a second route to the approvers. No conversion effect, and the page also records a defect in the briefing the test itself used.
 - **Review an Outbound Campaign:** [a real campaign reviewed against the method](evaluations/outbound-campaign-real-use-finding.md). No replies and no calls from 45 prospects, with roughly a fifth of the addresses bouncing, so the finding is mostly about the list and the records rather than the messages.
 
 Real inputs remain private. Only the sanitised finding and any resulting method change are recorded publicly.
