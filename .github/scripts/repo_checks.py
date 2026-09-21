@@ -522,7 +522,10 @@ if os.path.exists(COMPARISON):
 # was published and wrong. A test that measures whether a score holds on a
 # second attempt is the strongest evidence here about how much any single score
 # is worth, so the page that tells a reader what has been tested has to name it.
-REPEAT_MARK = re.compile(r"repeated run|stability test|run again|repeat-run", re.I)
+# "run again" needs the word boundary: without it the alternation also matches
+# "run against", so a page saying a method was "run against a real opportunity"
+# was flagged as an unlisted repeated-run test.
+REPEAT_MARK = re.compile(r"repeated run|stability test|run again\b|repeat-run", re.I)
 if os.path.exists("EVIDENCE-STATUS.md"):
     matrix = read("EVIDENCE-STATUS.md")
     for f in sorted(f for f in MD if f.startswith("evaluations/")):
