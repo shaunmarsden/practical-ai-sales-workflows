@@ -10,6 +10,14 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### A Candidate Workflow Was Tested and Rejected
+
+- Pick the Right Proof Point, choosing between several case studies for a specific buyer, is a real sales job that nothing here covers. Four assets use a proof point without selecting one, the business case skill classifies evidence about the buyer's own situation rather than another customer's result, and the router has no route for it. **[The overlap review said build it. The test said do not.](evaluations/proof-point-selection-test.md)**
+- A method was drafted and tested against the instruction a seller would actually type, ending "be careful not to overclaim". **Twelve runs, six a side, blind-scored under a sealed mapping: identical on every one of the seven failure conditions and all three positive criteria registered in advance.** The plain instruction scored zero failures, which was the pre-registered falsification condition, so no workflow, skill or recipe card was added.
+- Every plain-instruction run refused the confidential entry even unnamed, rejected the confounded one on a device replacement in the same period, declined to scale a twelve-engineer pilot onto a hundred and forty, and named the question no proof point could answer.
+- **One difference, reported as the unregistered observation it is.** Every method run told the seller to confirm the sharing permission was still current before sending; no plain-instruction run did. That is worth a sentence in a guide, not a workflow and the nine prose counts elsewhere that adding a job would make stale.
+- The page says what would change the answer: a scenario whose traps are not all visible on the surface, and two candidates close enough that the choice is a judgement rather than an elimination.
+
 ### CRM Hygiene Now Separates a Missing Field From a Missing Record
 
 - A real opportunity turned out to have no CRM record at all. The intake automation started, the step that creates the opportunity sat behind a delay, and two contact records were merged inside that delay. The opportunity was rebuilt by hand five days later from the surviving trail. **[The finding sets out the verified events](evaluations/crm-hygiene-missing-record-finding.md) and keeps what is inferred apart from what the individual system records confirm.** The causal step, that the merge is what unenrolled the automation, is inferred: the unenrolment is not logged anywhere retrievable, and the merge destroyed the evidence that would settle it.
