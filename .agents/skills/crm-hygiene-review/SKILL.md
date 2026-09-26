@@ -19,6 +19,12 @@ A CRM export or list covering the records to check: company, contact, owner, sta
 
 Work through the export field by field, not deal by deal. Look for what is missing (a blank owner, contact, value, stage or close date) and what is inconsistent (a close date far too soon for an early stage, a company appearing more than once).
 
+## Separate a Missing Field From a Missing Record
+
+A blank field sits on a record that exists. Sometimes the record itself is absent: a contact carries a booked and attended meeting, logged calls and recent correspondence, and no opportunity at all. Do not file that with the blank owners and close dates. Filling in an owner corrects a record; opening an opportunity brings one into existence, and a blank column is not enough to justify it.
+
+Two rows can both show no opportunity and mean opposite things, one with a trail an opportunity would normally follow and one with nothing logged since the enquiry. Say which is which, and never give them the same recommendation. The export cannot say why a record is absent, and why decides what to do, so ask for the evidence that sits outside the export, the booking, the attendance, the call, the correspondence, and any record of the process that should have created it, and say that nothing should be created until a person has checked it against those sources.
+
 ## Flag Records That Are Not Real Prospects At All
 
 Some records are not an incomplete prospect; they are not a prospect at all, a test entry, a practice run, an internal course or demo left behind in the live pipeline. This is different from a missing field (a real prospect with a gap) and from a duplicate (the same real prospect twice). A deal name that reads like a course title, a project name, or an obvious placeholder, especially paired with no stage and no pipeline, is the signal to look for. Flag it separately, and suggest archiving or deleting it rather than treating it as a prospect that merely needs its fields filled in.
@@ -39,6 +45,7 @@ Flag a close date that has passed, or that does not fit the stage, as a structur
 
 - Every finding is a suggestion. Merging duplicates, filling in a missing field, archiving a non-prospect record, or reassigning an owner all stay with a person; nothing is merged, deleted or changed here.
 - Keep confident and uncertain duplicate findings visibly separate at all times.
+- Never recommend creating a record that does not exist. Name the outside evidence a person needs to check first, and leave the decision with them.
 - Never diagnose why a specific deal has stalled or whether it is still alive; only flag that a date or field is structurally unsupported.
 - Where a record has every field present, a realistic close date for its stage, and recent activity, say so. A review that finds a problem on every record will not be trusted on the ones that genuinely have one.
 - No em dashes, no emojis.

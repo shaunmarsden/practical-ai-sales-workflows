@@ -10,6 +10,16 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### CRM Hygiene Now Separates a Missing Field From a Missing Record
+
+- A real opportunity turned out to have no CRM record at all. The intake automation started, the step that creates the opportunity sat behind a delay, and two contact records were merged inside that delay. The opportunity was rebuilt by hand five days later from the surviving trail. **[The finding sets out the verified events](evaluations/crm-hygiene-missing-record-finding.md) and keeps what is inferred apart from what the individual system records confirm.** The causal step, that the merge is what unenrolled the automation, is inferred: the unenrolment is not logged anywhere retrievable, and the merge destroyed the evidence that would settle it.
+- The published method was never run against that case and could not have been, so this is **not logged as real use in the matrix**. The job's existing real-use finding, about test and demo records in a live pipeline, still stands on its own and is a different problem: a row that should not be there, rather than one that should.
+- **The method found the defect and classified it wrongly.** Six blind runs against a [fictional contact-level export](examples/fictional-crm-contact-export.md) carrying eight anomalies: all six flagged the absent opportunity unprompted, all six filed it as a blank field next to a missing owner, none asked why, and none asked for any evidence outside the export. Two of six gave the evidenced row and an unevidenced one the same recommendation. That falsified my own reading, which was that the method had no reach into a record that does not exist.
+- **The change was tested rather than asserted.** Six further runs against the changed skill: none of six filed it as an ordinary missing field where six of six had, six of six named outside evidence to check first where none had, nothing regressed, and the unevidenced row was never wrongly treated as a missing record. One run still re-merged the two rows in its action list, down from two of six.
+- Detection is not comparable between the two sets, because the changed skill names the pattern the input contains. No detection claim rests on the second set.
+- The pasteable prompt is deliberately unchanged, so the recipe card still carries the older behaviour. Whether the step belongs there too is a separate decision with its baseline already measured.
+- The recovered opportunity ran for ten weeks across five people on the employer side and was eventually lost. Recovering the record did not recover a sale, and the finding says so.
+
 ### The Stacked-Figure Guardrail Is Now on the Prompt Too
 
 - The padding test found the prompt producing the stacked figure in nine of twelve runs, because the guardrail was in the skill and not in the prompt. **[Tested over twelve fresh runs](evaluations/business-case-prompt-guardrail-test.md) rather than copied across: none of six against five of six, one-tailed p of 0.015.** The line is adopted in the [prompt](templates/business-case-prompt.md) and its inlined copy on the recipe card.
