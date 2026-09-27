@@ -10,6 +10,14 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Business Case Skill Gets the Same Line
+
+- The prompt's second line was tested on the skill rather than copied across, and this time the control had a real question to answer: whether the skill, with its longer guidance and a footer saying the guardrail "is not too blunt", suppresses the hours total at all. **[It does: none of six](evaluations/business-case-skill-second-line-test.md)**, exactly as the prompt did. With the line, six of six, one-tailed p of 0.0011.
+- **The pound figure stayed at none in all twelve, and no run built an hours-saved figure.** That zero is weaker than the prompt's, and the page says so: the skill's own footer describes this scenario's defect in detail, so every run in both arms had already been warned against it.
+- **The footer is a leak by this repository's own rule** on skill footers, which says a pointer to a test must not say what it hinges on. Recorded and deliberately not changed here, because that would have changed the file under test.
+- **A search failed silently and would have reversed the result.** Its pattern was too complex for the tool, it errored on all twelve files, and the script printed "no total" for each. Taken at face value that scores the total at none of twelve, which is the void condition and the opposite conclusion. Caught because the error messages were in the output; recounted in a way that cannot fail silently, and every hit and miss read.
+- The published skill differs from the file those six runs read by one full stop. Inserting the line moved the guardrail's closing full stop onto the new line, leaving the guardrail the only bullet in its list without one; it was put back after the runs. The skill and the prompt now carry the same guardrail and exception and behave the same way on this scenario.
+
 ### The Business Case Prompt Gets Its Hours Total Back
 
 - The stacked-figure guardrail stopped the prompt producing a pound figure from two guesses, and its own test measured the cost: it also stopped the prompt giving the 72 analyst-hours a week, which that test's criterion says is not the defect. **[One more line, tested over twelve runs](evaluations/business-case-prompt-second-line-test.md), restores it: five of six against none of six**, one-tailed p of 0.0076.
