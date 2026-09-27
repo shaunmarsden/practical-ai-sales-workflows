@@ -526,11 +526,26 @@ if os.path.exists(COMPARISON):
 # "run against", so a page saying a method was "run against a real opportunity"
 # was flagged as an unlisted repeated-run test.
 REPEAT_MARK = re.compile(r"repeated run|stability test|run again\b|repeat-run", re.I)
+# A second trigger, by filename. The phrase test reads only the first six lines
+# for four phrases, so a multi-run test worded any other way got past it: a
+# twelve-run proof point test was merged unlisted because its opening said
+# "tested against a plain instruction" and never used one of them. Fifteen of the
+# sixteen multi-run pages are named *-test.md or *-rerun.md, so the name catches
+# what the wording misses. The phrase test stays for the sixteenth,
+# repeat-run-findings.md, which only it catches. Neither trigger covers all
+# sixteen alone.
+TEST_NAME = re.compile(r"-(test|rerun)\.md$")
 if os.path.exists("EVIDENCE-STATUS.md"):
     matrix = read("EVIDENCE-STATUS.md")
     for f in sorted(f for f in MD if f.startswith("evaluations/")):
+        if os.path.basename(f) in matrix:
+            continue
         head = "\n".join(read(f).splitlines()[:6])
-        if REPEAT_MARK.search(head) and os.path.basename(f) not in matrix:
+        if TEST_NAME.search(f):
+            fail("repeat-test-unlisted", "EVIDENCE-STATUS.md",
+                 f"{f} is named as a test but the evidence matrix does not link "
+                 f"it, so the count of tests there can go stale unnoticed")
+        elif REPEAT_MARK.search(head):
             fail("repeat-test-unlisted", "EVIDENCE-STATUS.md",
                  f"{f} is a repeated-run test the evidence matrix does not link, "
                  f"so a claim about repetition can be made without seeing it")
