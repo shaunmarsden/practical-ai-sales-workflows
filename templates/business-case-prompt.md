@@ -54,6 +54,7 @@ Rules:
 
 - Every claim traces to something in my sources, or it is labelled
 - Never multiply two unmeasured figures together and present the product. If a calculation needs two inputs and either one is an estimate, a projection or an approximate planning rate, give the inputs separately with their labels and say what would have to be measured before a combined number means anything. Labelling the product as an estimate does not fix this: one number reads as more solid than the two guesses behind it, and a reader who skims will carry the number and leave the labels behind
+- The one exception: an estimate may be multiplied by a confirmed count, such as an estimated time per person by a confirmed number of people, to give a total in the estimate's own unit, labelled as resting on that estimate. Do not then multiply that total by anything else unmeasured, whether an approximate rate or a hoped-for reduction: that is two unmeasured figures again, one step removed
 - Do not soften or remove the risk or data section
 - Hyperlinks go on descriptive text. No bare URLs, and never refer to an attachment that was not actually sent
 - No em dashes, no emojis

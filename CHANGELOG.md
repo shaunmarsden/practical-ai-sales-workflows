@@ -10,6 +10,16 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Business Case Prompt Gets Its Hours Total Back
+
+- The stacked-figure guardrail stopped the prompt producing a pound figure from two guesses, and its own test measured the cost: it also stopped the prompt giving the 72 analyst-hours a week, which that test's criterion says is not the defect. **[One more line, tested over twelve runs](evaluations/business-case-prompt-second-line-test.md), restores it: five of six against none of six**, one-tailed p of 0.0076.
+- **The pound figure did not come back.** None of twelve runs produced one, searched as a £ amount and then as amounts in words, in thousands and without a symbol. Nor did any run build an hours-saved figure from the untested "half, maybe more".
+- The line closes both routes back to the defect, not just the one the earlier test measured: multiplying the permitted total by the approximate rate, and multiplying it by the hoped-for reduction. Several runs said in terms that they would go no further than the total.
+- **The published prompt was run again as a same-day control** rather than leaning on the earlier test's runs, since this repository once published a test with reused runs undisclosed. It reproduced the earlier result exactly.
+- The skill carries the same guardrail and may be just as blunt on this scenario, but that is untested, so the skill is unchanged and it is named as the next test.
+- **The check fixed yesterday caught this page on its first real use.** Written deliberately without its listing in the evidence page, it was flagged by the new filename rule; the old phrase-only version would have passed it.
+- Also corrects a paragraph I left stale in the CRM prompt change: the count of instruction comparisons moved to twelve, but the paragraph describing them still said eleven.
+
 ### The CRM Hygiene Prompt Now Carries the Missing-Record Step Too
 
 - The step was added to the skill and deliberately not to the prompt, so the recipe card carried the older behaviour while the skill did not. **[Tested over twelve runs](evaluations/crm-hygiene-prompt-missing-record-test.md) rather than copied across:** none of six filed a record that does not exist as an ordinary missing field, against six of six before, and six of six named the evidence outside the export to check first, against none of six. Nothing regressed, and the decoy row was never wrongly treated as a missing record.
