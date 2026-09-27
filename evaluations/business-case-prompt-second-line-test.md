@@ -62,3 +62,5 @@ Every figure above comes from reading the runs, and the zeros were checked from 
 ## The Change to Test Next
 
 Whether the skill needs the same line. It carries the same guardrail, and this scenario, where nothing is measured, is the one where the guardrail was shown to be too blunt on the prompt. The criterion and both guards transfer unchanged.
+
+Now tested: [it does](business-case-skill-second-line-test.md), and the line was added to the skill.
