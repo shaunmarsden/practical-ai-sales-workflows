@@ -10,6 +10,13 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The CRM Hygiene Prompt Now Carries the Missing-Record Step Too
+
+- The step was added to the skill and deliberately not to the prompt, so the recipe card carried the older behaviour while the skill did not. **[Tested over twelve runs](evaluations/crm-hygiene-prompt-missing-record-test.md) rather than copied across:** none of six filed a record that does not exist as an ordinary missing field, against six of six before, and six of six named the evidence outside the export to check first, against none of six. Nothing regressed, and the decoy row was never wrongly treated as a missing record.
+- **The prompt was worse than the skill, not equally bad.** One published-prompt run wrote that the row was "worth creating the opportunity record rather than treating it as incomplete data". No run of the published skill did that. One instance, not a rate, on the artefact a reader is most likely to paste without reading the page around it.
+- The published prompt is byte-identical to the file those six runs read, and the recipe card was rebuilt from it, so the card and the skill no longer disagree.
+- **A scoring error is recorded on the page.** The first pass at the outside-evidence row was done by pattern and was wrong both ways: two false positives matching the word "calendar" in a note about dates, and one false negative that had named the evidence in different words. Reading the runs corrected all three. Seventh time a count from a search has been wrong until it was read back.
+
 ### A Candidate Workflow Was Tested and Rejected
 
 - Pick the Right Proof Point, choosing between several case studies for a specific buyer, is a real sales job that nothing here covers. Four assets use a proof point without selecting one, the business case skill classifies evidence about the buyer's own situation rather than another customer's result, and the router has no route for it. **[The overlap review said build it. The test said do not.](evaluations/proof-point-selection-test.md)**
