@@ -49,7 +49,7 @@ Both are builder-run, like everything else on this page.
 
 ## Tests With More Than One Run
 
-Sixteen of them. Two ran the same input repeatedly to measure how much a score moves on its own, twelve compared an instruction with and without one change, one compared two versions of a scenario rather than of an instruction, and one compared a drafted method against the plain instruction it would have replaced. The third of those eleven reused runs from the other two as its baseline rather than running its own, and the last nine were scored without knowing which version each run came from.
+Seventeen of them. Two ran the same input repeatedly to measure how much a score moves on its own, thirteen compared an instruction with and without one change, one compared two versions of a scenario rather than of an instruction, and one compared a drafted method against the plain instruction it would have replaced. The third of those eleven reused runs from the other two as its baseline rather than running its own, and the last nine were scored without knowing which version each run came from.
 
 The first two went unlinked from this page for a long time, which is why I was able to claim in the [comparison](COMPARISON.md) that no test had ever been repeated. It had.
 
@@ -72,11 +72,13 @@ The first two went unlinked from this page for a long time, which is why I was a
 
 - **[The CRM hygiene prompt missing-record test](evaluations/crm-hygiene-prompt-missing-record-test.md)**: twelve runs, six a side, on whether the step already added to the skill also transfers to the pasteable prompt. It does: none of six filed a record that does not exist as an ordinary missing field, against six of six before, and six of six named the outside evidence to check where none had. One published-prompt run went further than the skill ever did and told the user to create the record. The page also records a scoring error caught by reading the runs rather than pattern-matching them.
 
+- **[The business case second line test](evaluations/business-case-prompt-second-line-test.md)**: twelve runs, six a side, on whether one more line could restore the hours total the stacked-figure guardrail had suppressed. It did, in five of six against none of six in a same-day control, and the pound figure stayed at none in both arms, as did any hours-saved figure built from the untested reduction. One-tailed p of 0.0076. Scored blind.
+
 Every other scored test on this page is a single run. Where a job above shows two, three or four scored cases, those are separate scenarios rather than repeats of the same one.
 
 Read the first two together rather than separately. Claude's measured spread on this rubric is about three points, so a three-point rise on a repeat is inside the range the nine-run test already found, and the more interesting result there is that a stable total hid an unstable judgement.
 
-The eleven comparisons are worth reading for a different reason. Five supported the change they tested, one of them only weakly, a sixth tested an adopted change for harm rather than benefit and found none, and one rejected its own hypothesis and turned up a live defect that had nothing to do with it. The most recent supported its change and measured a cost of it in the same twelve runs. One was fixing a maintenance problem rather than an output problem. The other three ended with the change not adopted: one hypothesis rejected, one defect that did not reproduce, and one instruction that turned out not to be the cause of the miss it was blamed for. All six record what they got wrong along the way.
+The first eleven comparisons are worth reading for a different reason. Five supported the change they tested, one of them only weakly, a sixth tested an adopted change for harm rather than benefit and found none, and one rejected its own hypothesis and turned up a live defect that had nothing to do with it. The eleventh supported its change and measured a cost of it in the same twelve runs. One was fixing a maintenance problem rather than an output problem. The other three ended with the change not adopted: one hypothesis rejected, one defect that did not reproduce, and one instruction that turned out not to be the cause of the miss it was blamed for. All six record what they got wrong along the way. The two since both supported their change: the missing-record step transferred from the CRM hygiene skill to its prompt, and a second business case line restored the hours total that the eleventh test's guardrail had suppressed, without bringing back the pound figure.
 
 ## What Is Missing
 
