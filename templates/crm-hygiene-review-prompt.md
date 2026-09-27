@@ -15,6 +15,9 @@ Flag likely duplicates (same or near-identical company, a shared contact name, e
 2. Missing critical fields
 Flag any record missing a value, a stage, an owner, a contact, or a close date.
 
+2a. A missing record, as opposed to a missing field
+A blank field sits on a record that exists. Sometimes the record itself is absent: a contact carries a booked and attended meeting, logged calls and recent correspondence, and no opportunity at all. Do not file that with the blank owners and close dates. Two rows can both show no opportunity and mean opposite things, one with a trail an opportunity would normally follow and one with nothing logged since the enquiry. Say which is which, and never give them the same recommendation. The export cannot say why a record is absent, and why decides what to do, so ask for the evidence that sits outside the export, the booking, the attendance, the call, the correspondence, and any record of the process that should have created it, and say that nothing should be created until a person has checked it against those sources.
+
 3. Records that are not real prospects at all
 Flag a record that reads like a test entry, a practice run, an internal course or demo, rather than a real prospect, such as a deal name that looks like a course title or an obvious placeholder, especially with no stage and no pipeline. Keep this separate from a real prospect that is merely missing a field, and suggest archiving or deleting it rather than filling it in.
 
