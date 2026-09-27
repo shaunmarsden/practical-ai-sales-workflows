@@ -49,7 +49,7 @@ Both are builder-run, like everything else on this page.
 
 ## Tests With More Than One Run
 
-Fifteen of them. Two ran the same input repeatedly to measure how much a score moves on its own, eleven compared an instruction with and without one change, one compared two versions of a scenario rather than of an instruction, and one compared a drafted method against the plain instruction it would have replaced. The third of those eleven reused runs from the other two as its baseline rather than running its own, and the last nine were scored without knowing which version each run came from.
+Sixteen of them. Two ran the same input repeatedly to measure how much a score moves on its own, twelve compared an instruction with and without one change, one compared two versions of a scenario rather than of an instruction, and one compared a drafted method against the plain instruction it would have replaced. The third of those eleven reused runs from the other two as its baseline rather than running its own, and the last nine were scored without knowing which version each run came from.
 
 The first two went unlinked from this page for a long time, which is why I was able to claim in the [comparison](COMPARISON.md) that no test had ever been repeated. It had.
 
@@ -69,6 +69,8 @@ The first two went unlinked from this page for a long time, which is why I was a
 - **[The em dash rule test](evaluations/em-dash-rule-test.md)**: thirty-three runs on the least interesting defect here. Twenty-eight runs without the rule all produced em dashes; five with it produced none. It is a maintenance and disclosure fix rather than an output-quality one, and one skill was tested while thirteen were changed, which the page labels as the extrapolation it is.
 
 - **[The proof point selection test](evaluations/proof-point-selection-test.md)**: twelve runs, six a side, on whether a drafted proof-point method beat the instruction a seller would actually type. Identical on all seven pre-registered failure conditions and all three positive criteria, and the plain instruction scoring zero failures was the registered falsification condition, so the workflow was not published. Scored blind. It is the only test here whose result was to add nothing.
+
+- **[The CRM hygiene prompt missing-record test](evaluations/crm-hygiene-prompt-missing-record-test.md)**: twelve runs, six a side, on whether the step already added to the skill also transfers to the pasteable prompt. It does: none of six filed a record that does not exist as an ordinary missing field, against six of six before, and six of six named the outside evidence to check where none had. One published-prompt run went further than the skill ever did and told the user to create the record. The page also records a scoring error caught by reading the runs rather than pattern-matching them.
 
 Every other scored test on this page is a single run. Where a job above shows two, three or four scored cases, those are separate scenarios rather than repeats of the same one.
 
