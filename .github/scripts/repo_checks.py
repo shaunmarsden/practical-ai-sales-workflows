@@ -727,6 +727,53 @@ for f in MD:
                  "it describes the state at the time of a run")
 
 
+
+# 27. Currency figures in the repository's own prose are written in full.
+#
+# The style guide says "Currency figures in full: £18,000, not eighteen
+# thousand pounds." Nothing enforced it, and eight uses built up across seven
+# files before a reader spotted "a projected 840,000 pounds" on the proof point
+# page, which reads as a weight as easily as a sum of money. It is the same
+# unenforced-rule problem that check 25 exists for.
+#
+# Two things are deliberately left alone. Dialogue in a fictional transcript is
+# a person speaking, so "thirty-five pounds an hour" there is what they said,
+# and those lines are test inputs. A bold "Name:" tag alone does not mark
+# speech, because the same format labels prose elsewhere ("What changes as a
+# result:"), so only a speaker line in an examples/*transcript* file, above its
+# re-run warning, is skipped. Text inside double quotation marks is skipped
+# anywhere, so a page quoting speech word for word is not pushed into
+# misquoting it. The style guide's own example of the wrong form is allowed on
+# its exact line.
+MONEY_NUMBER = (
+    r"\d[\d,.]*|one|two|three|four|five|six|seven|eight|nine|ten|eleven|"
+    r"twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|"
+    r"twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|"
+    r"thousand|million")
+MONEY_IN_WORDS = re.compile(
+    rf"\b(?:{MONEY_NUMBER})[\s-]+(?:[a-z]+[\s-]+)?pounds?\b", re.IGNORECASE)
+SPEAKER_LINE = re.compile(r"\s*\*\*[^*]{1,40}:\*\*")
+QUOTED = re.compile(r'"[^"]*"')
+CURRENCY_ALLOWLIST = {
+    ("guides/writing-style-and-formatting.md",
+     "- Currency figures in full: £18,000, not eighteen thousand pounds."),
+}
+for f in CONTENT:
+    lines = read(f).splitlines()
+    speech = set()
+    if f.startswith("examples/") and "transcript" in os.path.basename(f):
+        cut = next((i for i, l in enumerate(lines)
+                    if "Re-running this yourself" in l), len(lines))
+        speech = {i for i, l in enumerate(lines[:cut]) if SPEAKER_LINE.match(l)}
+    for i, line in enumerate(lines):
+        if i in speech or (f, line.strip()) in CURRENCY_ALLOWLIST:
+            continue
+        match = MONEY_IN_WORDS.search(QUOTED.sub('""', line))
+        if match:
+            fail("currency-in-words", f"{f}:{i + 1}",
+                 f"writes a sum of money in words ('{match.group(0)}'); the "
+                 "style guide asks for figures in full, such as £18,000")
+
 # Report
 if failures:
     print(f"Repository checks failed ({len(failures)} issue(s)):\n")
