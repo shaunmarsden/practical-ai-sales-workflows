@@ -10,6 +10,13 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Currency Rule Is Now Enforced
+
+- The [style guide](guides/writing-style-and-formatting.md) has long said "Currency figures in full: £18,000, not eighteen thousand pounds", but nothing checked it, and eight uses built up across seven files before a reader spotted "a projected 840,000 pounds" on the proof point page. **Check 27 now fails any page whose own prose writes a sum of money in words.**
+- **Retro-tested against the commit before those eight were fixed:** it fails on exactly those eight and nowhere else. On current main it passes.
+- **Dialogue is left alone, and narrowly.** A person in a fictional transcript saying "thirty-five pounds an hour" is speech, and those lines are test inputs. A bold "Name:" tag is not enough to mark speech, because the same format labels ordinary prose ("What changes as a result:"), so only a speaker line in a transcript file, above its re-run warning, is skipped. The Aldercroft answer key sits below that line and is checked like any other prose, which is how the retro-test caught it.
+- Text inside quotation marks is skipped anywhere, so a page quoting speech word for word is never pushed into misquoting it. The style guide's own example of the wrong form is allowed on its exact line.
+
 ### The Business Case Skill Stops Describing Its Own Test
 
 - The skill's footer described the Aldercroft scenario's defect in detail: four of six runs multiplying an untimed estimate by an approximate rate into a pound figure. [CONTRIBUTING](CONTRIBUTING.md) says a skill's pointer to a test must not say what the test turns on, because the skill is pasted in alongside the input, so anyone re-running Aldercroft with the skill got an open-book exam. **The footer now names the job, not the difficulty**, matching the other skills: Bramfield and Aldercroft are "two further tests of the same job", and the defect and the test results live on the evaluation pages where they belong.
