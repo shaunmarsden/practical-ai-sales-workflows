@@ -10,7 +10,7 @@ This review scores the [worked business case](../examples/aldercroft-business-ca
 
 | Area | Score | Notes |
 | --- | ---: | --- |
-| Factual accuracy | 5 | The six-hour estimate, the thirty-five-pound blended rate, the twelve-person headcount and the pilot-not-rollout ask all match the transcript exactly |
+| Factual accuracy | 5 | The six-hour estimate, the £35 blended rate, the twelve-person headcount and the pilot-not-rollout ask all match the transcript exactly |
 | Evidence fidelity | 5 | Keeps the "projection, not a measured result" framing present throughout, including in the section headed specifically to say so |
 | Fact separation | 4 | Correctly separates the pilot ask from the rollout ask, but the projected-saving section treats the six-hour estimate as a stable base for the calculation without re-flagging, at the point of the maths itself, that it is also unmeasured, not just the reduction percentage applied to it |
 | Missing information | 4 | Correctly leaves the pilot length and measurement method as unconfirmed, but does not flag that no pilot cost figure exists yet either, which Priya would need alongside the projected saving to actually weigh the ask |

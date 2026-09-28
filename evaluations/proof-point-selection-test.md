@@ -35,7 +35,7 @@ The library holds seven entries, each carrying a trap stated as a neutral fact r
 | Entry | What makes it wrong, or right |
 | --- | --- |
 | Kelbrook Water | Same sector, measured, approved. Contact centre handling time after a billing consolidation, which is not the buyer's problem |
-| Orrindale Energy | A projected 840,000 pounds, built by pre-sales from assumed headcount and salary, never measured in the nineteen months since go-live |
+| Orrindale Energy | A projected £840,000, built by pre-sales from assumed headcount and salary, never measured in the nineteen months since go-live |
 | Pennhallow Facilities | The identical re-keying task, measured, a large drop. The handheld devices were also replaced in the same twelve weeks |
 | Danecourt Logistics | Measured and clean, but the people were depot-based planners at fixed desks on a wired network |
 | Sallowfield Water | Same sector, same task, measured on 110 engineers, no other changes, and the only entry touching the error question. Shared under NDA, not approved for external use, not to be described even without the name |

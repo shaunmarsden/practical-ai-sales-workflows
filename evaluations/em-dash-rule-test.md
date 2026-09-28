@@ -35,7 +35,7 @@ Fisher's exact, one-tailed: p = 0.0000042. None of the five contained an en dash
 
 ## Two Things Checked Alongside
 
-**The stacked-figure guardrail still holds with both rules present.** All five runs cited Finance's thirty-five pound rate, one of them in words rather than with a currency symbol, and none combined it with the untimed six-hour estimate. The two instructions do not interfere.
+**The stacked-figure guardrail still holds with both rules present.** All five runs cited Finance's £35 rate, one of them in words rather than with a currency symbol, and none combined it with the untimed six-hour estimate. The two instructions do not interfere.
 
 **A check now enforces it**, so a skill added later cannot ship without the rule and quietly reintroduce the hand-conversion problem. It was retro-tested against the state before this change and fires on all thirteen.
 
