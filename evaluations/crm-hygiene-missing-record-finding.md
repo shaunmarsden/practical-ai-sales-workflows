@@ -63,7 +63,7 @@ The first row falsified what I expected. I had read the method as having no reac
 
 The reading survived everywhere after detection.
 
-**It classified a record that does not exist as a field that is blank.** All six filed it under a missing-fields heading. One put it directly above "Owner field is blank" and then, in its numbered actions, listed "decide whether these need an Opportunity created" alongside "fill in the Owner". Those are not the same kind of act. Filling in an owner corrects a record; opening an opportunity brings one into existence.
+**It classified a record that does not exist as a field that is blank.** All six filed it under a missing-fields heading. One filed it in the same list as "Owner field is blank" and then, in its numbered actions, listed "Decide whether Brackmoor Group and Felsted Components need an Opportunity created" alongside "Fill in the Owner on the Quillfield Media record". An earlier version of this page misquoted the first of those and said the record sat directly above the blank owner; another row came between them. Those are not the same kind of act. Filling in an owner corrects a record; opening an opportunity brings one into existence.
 
 **It never asked why, and never asked for anything outside the export.** No run mentioned an automation, a workflow, a sync or an integration, and none asked for a booking, an attendance record or correspondence to check against. An automation that failed and a person who has not got round to it are indistinguishable to the published method, and that distinction is exactly what decides whether reconstructing is right.
 
@@ -86,7 +86,7 @@ Detection is not comparable between the two sets, because the changed skill name
 
 One run still re-merged the two rows in its action list after separating them in its findings. The change took that from two of six to one of six. It did not remove it.
 
-The published skill is byte-identical to the file those six runs read. The pasteable prompt was deliberately left unchanged: changing it would be a second untested change, so the recipe card still carries the older behaviour, and whether the step belongs there too is a separate decision with a measured baseline available for it.
+The published skill is byte-identical to the file those six runs read. The pasteable prompt was deliberately left unchanged at the time, because changing it would have been a second untested change. It has since been [tested separately](crm-hygiene-prompt-missing-record-test.md) and now carries the same step, so the recipe card and the skill no longer differ.
 
 ## What This Supports
 
@@ -112,4 +112,4 @@ No employer, company, person or job title appears here. No record identifier, fl
 
 ## Next Evidence
 
-The change is proved on one fictional input. The useful next steps, in order: run the same input against the pasteable prompt, which has a measured baseline and no fix; build a second contact-level input where the trail is genuinely ambiguous rather than clearly strong or clearly absent, since a method that only separates the easy cases has not been tested on the one that matters; and log the next real missing-record case against the changed method, prospectively, so that for once the method is run before the answer is known.
+The change is proved on one fictional input. Running the same input against the pasteable prompt, the first next step this page named, has [since been done](crm-hygiene-prompt-missing-record-test.md), and the prompt now carries the step. The useful next steps, in order: build a second contact-level input where the trail is genuinely ambiguous rather than clearly strong or clearly absent, since a method that only separates the easy cases has not been tested on the one that matters; and log the next real missing-record case against the changed method, prospectively, so that for once the method is run before the answer is known.

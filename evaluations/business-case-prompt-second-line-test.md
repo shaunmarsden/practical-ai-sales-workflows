@@ -49,7 +49,7 @@ The sixth run with the line did not give the total. The line permits it rather t
 
 ## How It Was Scored
 
-Every figure above comes from reading the runs, and the zeros were checked from more than one direction before being trusted. The pound figure was searched as a £ amount, then as amounts written in words, in thousands and without a symbol, before accepting that none of twelve contained one. The seven runs without an hours total were each read for a total written some other way, and each states only the per-analyst six hours. The one hit on "hours saved" was read in context and turned out to describe what the pilot would measure, not a projection.
+Each figure above started as a search for candidates, and every hit was then read in context. A zero cannot be read, because a search that matches nothing leaves nothing to read, so each zero was instead checked from more than one direction before being trusted. The pound figure was searched as a £ amount, then as amounts written in words, in thousands and without a symbol, before accepting that none of twelve contained one. The seven runs without an hours total were each checked by listing every hour figure they state, and each states only the per-analyst six hours. An earlier version of this page said every figure came from reading the runs, which claimed more than was done. The counts were later recounted in Python, which cannot fail silently in the way one search did in the [skill test](business-case-skill-second-line-test.md), and they match. The one hit on "hours saved" was read in context and turned out to describe what the pilot would measure, not a projection.
 
 ## What This Test Cannot Prove
 

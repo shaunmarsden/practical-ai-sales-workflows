@@ -25,11 +25,11 @@ The scratchpad holding the original skill-test input had been reaped by the oper
 | Flagged the absent opportunity at all | 6 of 6 | 6 of 6 |
 | Filed it as an ordinary missing field | 6 of 6 | 0 of 6 |
 | Named evidence outside the export before anything is created | 0 of 6 | 6 of 6 |
-| Treated the evidenced row and the decoy as different kinds of thing | 2 of 6 | 6 of 6 |
+| Treated the evidenced row and the decoy as different kinds of thing | 3 of 6 | 6 of 6 |
 | Wrongly treated the decoy as a record that should exist | 0 of 6 | 0 of 6 |
 | Still caught the six ordinary hygiene problems | 6 of 6 | 6 of 6 |
 
-Every published-prompt run put the absent record in the same summary row as the blank owner: "Missing critical fields, 3". The registered thresholds for adoption were separation and outside evidence both at or above five of six, with no regression and no over-firing. All four were met.
+Every published-prompt run put the absent record in the same summary row as the blank owner: "Missing critical fields, 3". An earlier version of this page gave the published prompt 2 of 6 on treating the two rows as different kinds of thing. Re-read, it is 3 of 6: one run wrote of the decoy: "Looks like it never moved past the initial enquiry." The first scoring missed it. It does not affect the adoption decision. The registered thresholds for adoption were separation and outside evidence both at or above five of six, with no regression and no over-firing. All four were met.
 
 ## The Prompt Was Worse Than the Skill, Not Equally Bad
 
@@ -41,7 +41,7 @@ That is one run of six and not a rate. It is reported because it happened and be
 
 The first pass at scoring the outside-evidence row was done by pattern rather than by reading, and it was wrong in both directions. Two published-prompt runs were marked as naming outside evidence when the only match was the word "calendar" in a note about which date counted as today. One changed-prompt run was marked as not naming it when it had, in different words: "the meeting record, the call and email logs, and whatever process should have created the opportunity". Reading the runs corrected two false positives and one false negative.
 
-The published figures are the ones from reading. This is the seventh time in this repository's testing that a count from a search has been wrong until it was read back, and it is recorded here for the same reason as the other six.
+The published figures are the ones from reading. Counts from searches have gone wrong before in this repository's testing: the [chase ledger test](chase-ledger-printing-test.md) records a third and the [padding test](business-case-padding-test.md) a fourth. This one is recorded for the same reason. An earlier version of this page called it the seventh and referred to six others, but only those two are numbered anywhere in the repository, so it could not show the rest.
 
 ## What This Supports
 

@@ -45,11 +45,11 @@ Twelve blind runs on the [Aldercroft transcript](../examples/aldercroft-business
 
 The control settled the open question. The skill suppresses the total exactly as the prompt did, with none of six giving it, despite its longer guidance and despite a footer that says the guardrail is not too blunt. That footer claim is true of the two scenarios it names, which have confirmed prices; it was never true of this one, where nothing is measured.
 
-The six runs with the line all kept the total in hours and labelled it as resting on the estimate. One said in terms that the reduction "is not combined with the hours estimate above into any single hours saved figure", because that "would rest on two unmeasured inputs at once".
+The six runs with the line all kept the total in hours and labelled it as resting on the estimate. One said in terms that the reduction "is not combined with the hours estimate above into any single 'hours saved' figure", because that combination "would rest on two unmeasured inputs at once". An earlier version of this page dropped the run's own quotation marks around hours saved.
 
 ## A Scoring Failure That Nearly Reversed the Result
 
-The first attempt to count the hours total used a search whose pattern was too complex for the tool. It errored on every one of the twelve files, and the script around it printed "no total" for each, because an error returns nothing and nothing looks like a zero. Taken at face value that would have scored the total at none of twelve, which is the void condition: the test would have concluded the skill needed no change, the opposite of what the runs show.
+The first attempt to count the hours total used a search whose pattern was too complex for the tool. It errored on every one of the twelve files, and the script around it reported no total for each, printing "no 72 / seventy-two / 3,744", because an error returns nothing and nothing looks like a zero. An earlier version of this page gave that output as "no total", which was a paraphrase in quotation marks. Taken at face value that would have scored the total at none of twelve, which is the void condition: the test would have concluded the skill needed no change, the opposite of what the runs show.
 
 The error messages were in the output, which is how it was caught. The count was redone in a way that cannot fail silently, and every hit and every miss was then read. The six runs without a total each state only the per-analyst six hours. This repository has recorded counts from searches going wrong before; this is the first where the search did not return a wrong number but no number at all, dressed as a clean result.
 
