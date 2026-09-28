@@ -28,6 +28,20 @@ Cut "just checking in", "hope you're well", "I'd love to", and anything else tha
 Same sign-off, same date style, same link style, in every draft, not just the ones you remember to check.
 
 <details>
+<summary><strong>What makes writing plain?</strong></summary>
+
+George Orwell set out six rules in his 1946 essay *Politics and the English Language*. In plain words:
+
+1. Drop stock phrases and metaphors you've seen so often you no longer notice them, like "move the needle" or "low-hanging fruit".
+2. Use the short word when it does the job: "use", not "utilise"; "help", not "facilitate".
+3. Cut every word you can. If the sentence still works without it, it goes.
+4. Write in the active voice: "I sent the proposal", not "the proposal was sent".
+5. Use everyday words, not jargon: "decided in advance", not "pre-registered".
+6. Break any of these rules rather than write something clumsy.
+
+</details>
+
+<details>
 <summary><strong>What phrases should I avoid?</strong></summary>
 
 - "Just checking in" or "just circling back"

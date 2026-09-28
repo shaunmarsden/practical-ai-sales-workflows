@@ -10,6 +10,11 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Plainer Writing
+
+- I rewrote the [proof point page](evaluations/proof-point-selection-test.md) because it was too long and hard to read. The prose went from 1,283 words to 759, and the longest sentence from 55 words to 25. Every figure and the tested method are unchanged, and I checked each one afterwards.
+- The [style guide](guides/writing-style-and-formatting.md) now includes George Orwell's six rules for plain writing, in plain words: drop stock phrases, use short words, cut every word you can, write in the active voice, avoid jargon, and break any rule rather than write something clumsy.
+
 ### The Currency Rule Is Now Enforced
 
 - The [style guide](guides/writing-style-and-formatting.md) has long said "Currency figures in full: £18,000, not eighteen thousand pounds", but nothing checked it, and eight uses built up across seven files before a reader spotted "a projected 840,000 pounds" on the proof point page. **Check 27 now fails any page whose own prose writes a sum of money in words.**
