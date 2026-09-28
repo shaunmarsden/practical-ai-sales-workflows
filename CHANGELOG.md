@@ -10,6 +10,13 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Business Case Skill Stops Describing Its Own Test
+
+- The skill's footer described the Aldercroft scenario's defect in detail: four of six runs multiplying an untimed estimate by an approximate rate into a pound figure. [CONTRIBUTING](CONTRIBUTING.md) says a skill's pointer to a test must not say what the test turns on, because the skill is pasted in alongside the input, so anyone re-running Aldercroft with the skill got an open-book exam. **The footer now names the job, not the difficulty**, matching the other skills: Bramfield and Aldercroft are "two further tests of the same job", and the defect and the test results live on the evaluation pages where they belong.
+- The paragraph was added on 8 September and the footer sweep in #187 ran on 10 September, so the sweep missed it rather than it arriving later. The Aldercroft pointer also still said the scenario was "built entirely on pre-pilot projections rather than measured results", a milder version of the same hint, and that goes too.
+- **It also removes a stale claim.** The footer said the guardrail was "the one change to this file a test has actually supported", which stopped being true when #210 added a second. It now says which lines are backed by tests and links to them, without an exhaustive count.
+- The rules a model follows are unchanged. The [skill test page](evaluations/business-case-skill-second-line-test.md), which described the footer in the present tense and said the published skill differed from what was tested by one full stop, is updated to say it now differs in two ways.
+
 ### The Business Case Skill Gets the Same Line
 
 - The prompt's second line was tested on the skill rather than copied across, and this time the control had a real question to answer: whether the skill, with its longer guidance and a footer saying the guardrail "is not too blunt", suppresses the hours total at all. **[It does: none of six](evaluations/business-case-skill-second-line-test.md)**, exactly as the prompt did. With the line, six of six, one-tailed p of 0.0011.

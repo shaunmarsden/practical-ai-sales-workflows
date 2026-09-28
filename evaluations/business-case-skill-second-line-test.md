@@ -6,7 +6,7 @@ The [prompt's second line](business-case-prompt-second-line-test.md) restored th
 
 ## Why This Was a Genuinely Open Question
 
-On the prompt, the guardrail had already been measured suppressing the total before the line was tried. On the skill it had not. One scored run had hinted at it, but that is not a count, and the skill differs from the prompt in ways that could plausibly matter: it is a longer instruction sheet with its own source order, evidence classification and guidance on applied examples, and its own footer says a follow-up "confirmed it is not too blunt". If any of that made the skill give the total unprompted, there would have been nothing for the line to restore.
+On the prompt, the guardrail had already been measured suppressing the total before the line was tried. On the skill it had not. One scored run had hinted at it, but that is not a count, and the skill differs from the prompt in ways that could plausibly matter: it is a longer instruction sheet with its own source order, evidence classification and guidance on applied examples, and its own footer said at the time that a follow-up "confirmed it is not too blunt". If any of that made the skill give the total unprompted, there would have been nothing for the line to restore.
 
 So the control arm had a real job: settle whether the skill suppresses the total at all, before asking whether the line fixes it.
 
@@ -24,11 +24,11 @@ Written before either arm ran, with the three measures copied unchanged from the
 
 ## Contamination, Registered Before Any Run
 
-The skill's own footer describes this scenario's defect in detail: four of six earlier runs multiplying an untimed estimate by an approximate rate into a pound figure, and the guardrail written against it. The skill tells a reader to paste the whole file, so every run in both arms read that.
+The skill's own footer described this scenario's defect in detail at the time of the test: four of six earlier runs multiplying an untimed estimate by an approximate rate into a pound figure, and the guardrail written against it. The skill tells a reader to paste the whole file, so every run in both arms read that.
 
 - **It does not bias the comparison.** The footer is identical in both arms, and the line sits in the rules rather than the footer, so the difference between the arms is the line's.
 - **It does weaken the pound-figure measure.** With the footer already warning against that figure, a zero here is weaker evidence that the line did not reopen the door than the same zero on the prompt was, where no such warning existed.
-- **It is a leak by this repository's own rule**, which says a skill's pointer to a test scenario must not say what the test hinges on. It is recorded here and not changed, because changing it would have changed the file under test.
+- **It is a leak by this repository's own rule**, which says a skill's pointer to a test scenario must not say what the test hinges on. It was recorded here and not changed, because changing it would have changed the file under test. It was [fixed afterwards](#one-difference-from-what-was-tested), in a separate change.
 
 ## Method
 
@@ -43,7 +43,7 @@ Twelve blind runs on the [Aldercroft transcript](../examples/aldercroft-business
 
 **Adopted.** Every registered condition was met and the void condition did not fire. Fisher's exact, one-tailed, on six of six against none of six: p = 0.0011.
 
-The control settled the open question. The skill suppresses the total exactly as the prompt did, with none of six giving it, despite its longer guidance and despite a footer that says the guardrail is not too blunt. That footer claim is true of the two scenarios it names, which have confirmed prices; it was never true of this one, where nothing is measured.
+The control settled the open question. The skill suppresses the total exactly as the prompt did, with none of six giving it, despite its longer guidance and despite a footer that said the guardrail is not too blunt. That footer claim is true of the two scenarios it names, which have confirmed prices; it was never true of this one, where nothing is measured.
 
 The six runs with the line all kept the total in hours and labelled it as resting on the estimate. One said in terms that the reduction "is not combined with the hours estimate above into any single 'hours saved' figure", because that combination "would rest on two unmeasured inputs at once". An earlier version of this page dropped the run's own quotation marks around hours saved.
 
@@ -63,8 +63,10 @@ The error messages were in the output, which is how it was caught. The count was
 
 ## One Difference From What Was Tested
 
-The published skill differs from the file the six runs read by a single full stop. Inserting the line after the guardrail moved the guardrail's closing full stop onto the end of the new line, so the guardrail became the only bullet in its list without one. It was restored after the runs. The words of both bullets are unchanged. The prompt was not affected, because none of its bullets end with a full stop.
+The published skill now differs from the file the six runs read in two ways. The first is a single full stop. Inserting the line after the guardrail moved the guardrail's closing full stop onto the end of the new line, so the guardrail became the only bullet in its list without one. It was restored after the runs. The words of both bullets are unchanged. The prompt was not affected, because none of its bullets end with a full stop.
+
+The second difference is the footer. After this test, the footer was rewritten to remove the leak described above: it no longer describes this scenario's defect or the earlier test results, and it now points to Bramfield and Aldercroft as further tests of the same job rather than saying what each one turns on. The rules the runs followed are unchanged. The footer the runs read is the one that warned them about the pound figure, which is why the pound-figure zero above is weaker than on the prompt.
 
 ## What It Leaves
 
-The skill and the prompt now carry the same guardrail and the same exception, and behave the same way on this scenario. The footer leak described above is still there, and is the one thing this test found that it deliberately did not fix.
+The skill and the prompt now carry the same guardrail and the same exception, and behave the same way on this scenario. The footer leak described above was the one thing this test found and deliberately did not fix at the time. It has since been fixed in a separate change, as described above.
