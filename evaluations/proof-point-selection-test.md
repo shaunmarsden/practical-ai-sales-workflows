@@ -18,7 +18,7 @@ So the job is distinct. That turned out not to be the question that mattered.
 
 ## What Was Tested
 
-A method was drafted to the eight factors the job seems to need: problem similarity, context similarity, whether a result was measured or estimated, whether causation is supported, whether the evidence may be shared, whether using it needs extrapolation, whether it answers the buyer's actual concern, and whether the honest answer is that nothing fits. The full text is in the appendix.
+A method was drafted to the eight factors the job seems to need: problem similarity, context similarity, whether a result was measured or estimated, whether causation is supported, whether the evidence may be shared, whether using it needs extrapolation, whether it answers the buyer's actual concern, and whether the honest answer is that nothing fits. The method is in the appendix, word for word as the six runs read it.
 
 The baseline was not an empty prompt. It was the instruction a competent seller would actually type:
 
@@ -46,7 +46,7 @@ The defensible answer is the least impressive one. Halewood on the hours questio
 
 ## The Result
 
-Every figure below was scored by reading all twelve outputs, not by pattern matching.
+Every figure in the two tables below was scored by reading all twelve outputs, not by pattern matching.
 
 | Failure condition, registered in advance | Plain instruction | The method |
 | --- | ---: | ---: |
@@ -70,13 +70,15 @@ Every figure below was scored by reading all twelve outputs, not by pattern matc
 
 Every run of the method told the seller to confirm the sharing permission was still current before sending, and to stand behind the claim in its final written form. No plain-instruction run did. That is six of six against none of six, on a real point: a proof library goes stale, and permission granted last year may not hold today.
 
-It was not a registered criterion. It is an observation from reading, not a measured claim, and it arrived after the registered criteria came out level, which is precisely when the person who wrote the method is most motivated to find something. It is worth one sentence in a guide. It is not worth a workflow, a skill, a recipe card, a prompt, two example files, an evaluation, a matrix row and the nine prose counts elsewhere in the repository that adding a job would make stale.
+It was first counted with a text search rather than by reading, which is the weaker method this repository keeps being caught out by, so it was later checked again with a much broader search and a positive control. The broader search found the point in all six method runs and in none of the six plain-instruction runs, so the figure stands.
+
+It was not a registered criterion. It is an observation, not a measured claim, and it arrived after the registered criteria came out level, which is precisely when the person who wrote the method is most motivated to find something. It is worth one sentence in a guide. It is not worth a workflow, a skill, a recipe card, a prompt, two example files, an evaluation, a matrix row, and the twenty-two statements across seventeen files that give how many jobs, skills or workflows exist, every one of which adding a job would make wrong. An earlier version of this page said nine. That was wrong when written, and it understated the cost of adding a job, so correcting it strengthens this page's own argument rather than weakening it.
 
 ## Two Defects Seen in Passing
 
 Neither is a registered failure, and both are recorded because they happened.
 
-One run of the method gave the wrong denominator twice, writing "12 of 95 engineers" and "Halewood's full 95-engineer workforce". The scenario says twelve in the pilot and ninety-five not included, so the total is a hundred and seven, which three other runs derived correctly. That is a misreading of the source rather than an invented number.
+One run of the method gave the wrong denominator twice, writing "12 of 95 engineers" and "Halewood's full 95-engineer workforce". The scenario says twelve in the pilot and ninety-five not included, so the total is a hundred and seven, which four other runs derived correctly, three of them plain-instruction runs. An earlier version of this page said three. That is a misreading of the source rather than an invented number.
 
 One plain-instruction run offered a hypothesis line for the error question, framed explicitly as a hypothesis with no measured evidence behind it. That is not forcing a proof point, but it is the closest any run came to softening a gap it had correctly identified.
 
@@ -93,46 +95,76 @@ A scenario where the traps are not all visible on the surface. Two candidates th
 
 ## Appendix: The Method That Was Tested
 
-Not published as a skill. Reproduced so a reader can judge the comparison rather than take it on trust.
+Not published as a skill. This is the method word for word as the six method runs read it, so a reader can judge the comparison rather than take it on trust. An earlier version of this page gave a 330-word paraphrase here and called it the full text; it left out, among other things, the sentence on anonymous disclosure that bears directly on the permission finding. The only change from what was tested is that the targets of its four links are removed. They point at files that were never built, because the method was not published, and this repository's link check reads inside code blocks.
 
 ```text
-Gather the inputs: what the buyer said they are concerned about, in their own
-words where possible, and the candidate proof points with whatever the record
-holds about each.
+---
+name: proof-point-selection
+description: Decide which of several proof points, case studies or past results should be used with a specific buyer, and state exactly what each one entitles you to claim. Use when more than one example is available and you need to choose between them, or when you suspect the most impressive one is not the most defensible. Do not use this to write the follow-up itself, or to judge whether the product fits the buyer at all; use the fit-and-limitations-review skill for that.
+---
 
-Start from the buyer's concern. Write down what the buyer is worried about
-before looking at the library. If they raised more than one concern, take each
-separately. Choosing first and justifying afterwards is the failure this step
-exists to prevent.
+# Pick the Right Proof Point
 
-Separate what was measured from what was estimated. For each candidate say
-plainly which it is: measured before and after by a stated method, estimated or
-modelled from assumptions, reported without measurement, or qualitative only. A
-modelled figure is not a result, whatever its size.
+> Landed here directly rather than clicking through from a guide? This file is the instruction sheet an AI assistant follows, not written for a first read start to finish. What is a sales AI skill? has the plain-English version.
 
-Check whether the result is attributable. A measured change is evidence for your
-product only if nothing else plausible changed at the same time.
+You do not need to install anything to try this once. The lines between the dashes at the very top are just this file's label; leave them in. On GitHub, copy this using the **Raw** button near the top of the page rather than selecting the rendered text, so the tables and links below paste in cleanly. Send the whole file as your first message in any AI chat tool, then follow it with your actual inputs.
 
-Check what you are allowed to share. Confidential or unapproved material stays
-internal, and that covers describing the result without naming the customer.
+This chooses between the proof points you already have, on relevance and evidential strength rather than on size of number, and says what each one does and does not let you claim.
 
-Judge the problem and the context separately. Same industry is not the same
-problem. Ask separately whether the people are comparable: role, working
-conditions, and anything about the setting that plausibly drove the result.
+## Gather the Inputs
 
-Say what the proof entitles you to claim, in the narrowest form the source
-supports. Do not scale a result measured on a small group into a figure for the
-buyer's whole organisation.
+What the buyer actually said they are concerned about, in their own words where possible, and the candidate proof points with whatever the record holds about each: what the customer did, what changed, how that was established, who it happened to, and whether it can be shared.
 
-Be willing to return nothing. Where no candidate is close enough on problem,
-context, evidence and permission, say so plainly and stop.
+## Start From the Buyer's Concern
 
-Guardrails: never present an estimate as measured; never use confidential
-evidence externally, named or unnamed; never attribute a result where the record
-shows another change in the same period; never scale beyond the group measured;
-never invent a figure, quotation, customer or similarity; never choose the most
-impressive candidate over the most defensible one.
+Write down what the buyer is worried about before looking at the library. If they raised more than one concern, take each separately: a proof that answers one does not answer another, and merging them is how a strong result on the wrong question gets through. Choosing first and justifying afterwards is the failure this step exists to prevent.
 
-Require human review: confirm the sharing permission is still current, and that
-you will stand behind the claim in the form it is finally written.
+## Separate What Was Measured From What Was Estimated
+
+For each candidate say plainly which it is: measured before and after by a stated method, estimated or modelled from assumptions, reported by the customer without measurement, or qualitative only. A modelled figure is not a result, whatever its size, and a warm quotation is not a number. Carry that label with the claim every time, so the distinction survives into whatever gets written.
+
+## Check Whether the Result Is Attributable
+
+A measured change is evidence for your product only if nothing else plausible changed at the same time. Where the record shows another change in the same period, the honest reading is that the result cannot be attributed to one cause. Saying so is not a weakness in the proof point; failing to say it is a weakness in the claim.
+
+## Check What You Are Allowed to Share
+
+Some evidence is real, relevant and unusable. Confidential or unapproved material stays internal, and that covers describing the result without naming the customer: an anonymous account of a single identifiable deployment is still a disclosure. If the closest proof is the one that cannot be shared, you have no usable proof for that point, not a quietly reworded version of it.
+
+## Judge the Problem and the Context Separately
+
+Same industry is not the same problem. A result from the buyer's own sector on a different workflow is a worse fit than the same workflow in another sector, and reading "same industry" as relevance is the most common way an unrelated number gets used. Ask separately whether the people are comparable: their role, their working conditions, and anything about the setting that plausibly drove the result. Say which of the two matches and which does not, rather than collapsing both into one impression of closeness.
+
+## Say What the Proof Entitles You to Claim
+
+State the claim in the narrowest form the source supports: what was measured, over what period, for how many people, in what role. Do not scale a result measured on a small group into a figure for the buyer's whole organisation. Where the buyer needs a number for their own organisation, the honest offer is to measure it with them rather than to multiply somebody else's.
+
+## Be Willing to Return Nothing
+
+For any concern where no candidate is close enough on problem, context, evidence and permission, say that plainly and stop. Naming the gap is more useful than a stretched proof, and a buyer who has asked what actually transfers will notice the stretch.
+
+## Apply the Guardrails
+
+- Never present an estimate, a model or a projection as a measured result.
+- Never use confidential or unapproved evidence externally, named or unnamed.
+- Never attribute a result to your product where the record shows another change in the same period.
+- Never scale a result beyond the group it was measured on.
+- Never invent a figure, a quotation, a customer or a similarity.
+- Never choose the most impressive candidate over the most defensible one, and say so when those differ.
+- No em dashes, no emojis.
+
+## Stop When the Task Is Unsafe
+
+Do not produce a selection when:
+
+- The buyer's concern is not established well enough to judge relevance against it
+- The record does not say how any result was arrived at, so measured and estimated cannot be told apart
+- The request is to make one particular proof point fit, rather than to find which one does
+- The request is to use evidence the record marks as confidential or unapproved
+
+## Require Human Review
+
+Selecting a proof point is not sending one. Before anything goes out, a person confirms that the sharing permission is still current, since permission changes and a library goes out of date, and that they will stand behind the claim in the form it is finally written.
+
+Read the fictional proof library and completed selection for a worked test, and the honest evaluation for how it scored.
 ```
