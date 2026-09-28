@@ -55,7 +55,7 @@ This fictional transcript includes information the skill should handle carefully
 
 - No pilot has run. Every saving figure in this call is a projection, built from Tomasz's own unmeasured estimate of current time spent and his own guess at the possible reduction. None of it should be presented with the confidence of a measured pilot result.
 - Tomasz's "half, maybe more" reduction estimate should be treated as his own estimate, not converted into a confirmed percentage, and the more flattering "maybe more" half should not become the headline figure in place of the more conservative "half."
-- The thirty-five-pound blended hourly rate is explicitly described as an approximate planning average, not each analyst's actual salary, and should be labelled that way rather than presented as a precise cost.
+- The £35 blended hourly rate is explicitly described as an approximate planning average, not each analyst's actual salary, and should be labelled that way rather than presented as a precise cost.
 - Tomasz explicitly says to build the case around twelve analysts, not the five additional, unconfirmed analysts that may or may not be approved by Q2. Using seventeen anywhere in the projected saving would misstate a number Tomasz specifically asked to be excluded.
 - The audit-trail point is a real, specific requirement Priya is expected to care about, and the risk or data section should state that the process preserves a full audit trail, not a generic security reassurance that does not address what was actually asked.
 - The accounts payable aside is explicitly out of scope and should not appear in the document.

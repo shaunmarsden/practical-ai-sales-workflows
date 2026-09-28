@@ -22,7 +22,7 @@ The prompt was pasted into a fresh, isolated context with only the [transcript](
 
 | Area | Score | Notes |
 | --- | ---: | --- |
-| Factual accuracy | 5 | The six-hour estimate, the thirty-five-pound blended rate, the twelve-person headcount, the audit-trail requirement and the pilot-not-rollout ask all match the transcript exactly |
+| Factual accuracy | 5 | The six-hour estimate, the £35 blended rate, the twelve-person headcount, the audit-trail requirement and the pilot-not-rollout ask all match the transcript exactly |
 | Evidence fidelity | 5 | Every one of the transcript's conditions survives, including the two most likely to be flattened: the rate stays an approximate planning average and the five unconfirmed analysts stay out of every figure |
 | Fact separation | 5 | A status column labels each summary item, and the six-hour estimate is re-flagged as unmeasured at the point the arithmetic uses it, not only where it is introduced |
 | Missing information | 5 | Names the absent pilot cost, the undefined measurement period, the missing resourcing figure and the fact that no solution name was ever established, which the transcript does not prompt for |
