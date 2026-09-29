@@ -10,7 +10,7 @@ This review scores the [worked weekly report](../examples/fictional-weekly-opera
 
 | Area | Score | Notes |
 | --- | ---: | --- |
-| Factual accuracy | 4 | Accurate once corrected. The first draft counted Shaun's records as five instead of seven. I caught it by recounting the export rather than trusting the earlier claim |
+| Factual accuracy | 4 | Accurate once corrected. The first draft counted my records as five instead of seven. I caught it by recounting the export rather than trusting the earlier claim |
 | Evidence fidelity | 5 | Carries the findings from the pipeline evidence review and the CRM hygiene review through without softening or overstating them |
 | Fact separation | 5 | Keeps "no baseline exists" and "outreach is missing, not zero" as clear, separate statements rather than blurring them into vaguer hedging |
 | Missing information | 5 | Reports outreach activity as unavailable rather than assuming zero, and says plainly that only one meeting was supplied |
@@ -30,7 +30,7 @@ This review scores the [worked weekly report](../examples/fictional-weekly-opera
 
 ## What Needed Checking
 
-- This worked example needed a real correction before scoring. The first draft said five of Shaun's records were his own open deals, when the export shows seven. I caught it by recounting against the export rather than trusting the earlier draft's arithmetic.
+- This worked example needed a real correction before scoring. The first draft said five of my records were my own open deals, when the export shows seven. I caught it by recounting against the export rather than trusting the earlier draft's arithmetic.
 - Building this report also turned up a second error, in the CRM hygiene review it draws on, which I'd already published. That review listed Harbourview's close date as already passed, when it's five days away. I corrected the source review, not just worked around it here, since the report shouldn't quietly inherit a wrong finding from something it cites.
 - The stale-record priority ("decide Thornfield's and Bellcross's fate") points the right way but, like the review it draws from, could commit to one sharper action.
 

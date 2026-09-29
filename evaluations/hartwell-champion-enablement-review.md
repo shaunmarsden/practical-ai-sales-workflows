@@ -18,7 +18,7 @@ This review scores the [worked enablement package](../examples/hartwell-champion
 | Next step clarity | 4 | The internal note to Nadia has one clear ask, but the package doesn't say what Alex's own next step is straight after the QBR |
 | Tone | 5 | Plain, with no made-up urgency. It reads like something a person would say and send |
 | Privacy | 5 | Names no individual account executive anywhere, as Alex asked |
-| Approval discipline | 5 | Says Alex, not Shaun, sends the internal note, and presents nothing as already sent |
+| Approval discipline | 5 | Says Alex, not me, sends the internal note, and presents nothing as already sent |
 | Hallucination risk | 4 | "The one item genuinely gating a full team rollout" is a fair description of how much the compliance item matters. But it's the output's own framing, not something the source material says outright, so a careful reviewer should treat it as an inference, not a quoted fact |
 
 ## What Worked

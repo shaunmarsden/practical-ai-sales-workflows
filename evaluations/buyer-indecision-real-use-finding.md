@@ -2,47 +2,51 @@
 
 ## Status
 
-**Internal real-use boundary finding.** A real opportunity was reviewed against the method and correctly classified as a policy and timing blocker rather than buyer indecision. This is not independent validation and does not show that the method can move a genuinely indecisive buyer.
+**Internal real-use boundary finding.** A real opportunity was reviewed against the method and rightly classed as a policy and timing blocker, not buyer indecision. This isn't independent validation, and it doesn't show the method can move a buyer who really is undecided.
 
 ## What Was Reviewed Privately
 
-A real opportunity initially appeared to be delayed after the buyer had shown positive interest, the kind of pattern this method exists to look at closely rather than accept at face value. Later evidence confirmed that an employer policy prevented the person from proceeding during a probationary period, with the earliest credible review point several months away. The real person, their employer, and the underlying records are not reproduced here and are not described beyond what is needed to explain the classification.
+A real opportunity at first looked delayed after the buyer had shown positive interest. That's the kind of pattern this method exists to look at closely rather than take at face value. Later evidence confirmed that an employer policy stopped the person going ahead during a probation period, and the earliest realistic review point was several months away.
+
+I don't reproduce the real person, their employer or the records here, or describe them beyond what's needed to explain the classification.
 
 ## Classification
 
-A real opportunity initially looked like a delayed decision, but later evidence confirmed that an employer policy prevented progress until a later review point. Applying the method's boundaries produced the correct result: do not use an indecision tactic, do not manufacture urgency, and do not keep chasing while the blocker cannot change.
+The case was reviewed against the public method's classification rules, not run as an unchanged skill call left to itself.
 
-The case was reviewed against the public method's classification boundaries, not run as an unchanged, unattended skill call. The result:
+The review found it wasn't buyer indecision. The confirmed cause was a policy and timing blocker. It recommended keeping a later review point and not using the buyer-indecision playbook. Nothing went to the buyer as part of the review.
 
-- **Classification:** not buyer indecision.
-- **Confirmed driver:** a policy and timing blocker.
-- **Recommended action:** retain a later review point and do not apply the buyer-indecision playbook.
-- **External action:** none. Nothing was sent to the buyer as part of this review.
+So applying the method's rules gave the right result: don't use an indecision tactic, don't create false urgency, and don't keep chasing while the blocker can't change.
 
 ## Why the Method Stopped
 
-The blocker was not something a salesperson could remove by reducing the size of the decision, applying urgency, offering reassurance, proposing a pilot, or chasing more frequently. None of the usual indecision-reduction levers apply to a confirmed policy that has not yet lifted. There was no reliable evidence that fear of making the wrong decision was actually the cause of the delay, which is the specific condition this method requires before it recommends anything. The correct action was to stop chasing and wait until the confirmed blocker could genuinely change.
+A salesperson couldn't remove this blocker by making the decision smaller, adding urgency, offering reassurance, proposing a pilot or chasing more often. None of the usual ways of easing indecision work on a confirmed policy that hasn't lifted yet.
+
+There was no reliable evidence that fear of making the wrong decision caused the delay, and the method needs that before it recommends anything. The right action was to stop chasing and wait until the blocker could change.
 
 ## What This Supports
 
-- The method correctly rejected an inappropriate buyer-indecision diagnosis rather than forcing one onto evidence that did not support it.
-- The workflow's existing stop conditions, ruling out a timing issue with a real reason before treating something as indecision, were commercially useful here, not just a theoretical safeguard.
-- The review prevented a recommendation to push, manufacture urgency, or invent a smaller commercial option where none of those would have helped.
-- A negative classification, this is not indecision, can be a useful result in its own right, not only a diagnosis that leads to a drafted response.
+The method rejected a wrong diagnosis of buyer indecision rather than forcing one onto evidence that didn't support it.
+
+The workflow's existing stop rule, ruling out a timing issue with a real reason before treating something as indecision, was useful in a real deal, not just a safeguard on paper.
+
+The review stopped a recommendation to push, create false urgency or invent a smaller commercial option, when none of those would have helped.
+
+A finding that something isn't indecision can be a useful result in itself, not only a diagnosis that leads to a drafted reply.
 
 ## What This Does Not Support
 
-- It does not show that the method can move a genuinely indecisive buyer; that would need a case where the correct classification actually was indecision and a next step was sent.
-- It does not demonstrate increased conversion, revenue or speed.
-- It does not prove that every apparent delay will be classified correctly; this is one case.
-- This is not an independent external user test.
+- It doesn't show the method can move a buyer who really is undecided. That would need a case where the right classification was indecision and a next step was sent.
+- It doesn't show higher conversion, revenue or speed.
+- It doesn't prove every apparent delay will be classed correctly. This is one case.
+- It isn't an independent external user test.
 - No customer-facing message was sent as part of this review.
-- The real person, employer and underlying records remain private and are not described here beyond what this finding needs.
+- The real person, employer and records stay private, and I don't describe them beyond what this finding needs.
 
 ## Privacy Boundary
 
-This finding does not name the person, their employer, or any identifying detail. No email address, HubSpot link, record identifier, or message ID is included. No exact quotation from the private correspondence is reproduced, and the precise probation wording and the exact future review month are deliberately left out. No sector, location or programme-specific detail is included, and no measured commercial outcome is claimed.
+This finding doesn't name the person, their employer or any identifying detail. It includes no email address, HubSpot link, record identifier or message ID. It quotes nothing from the private correspondence, and I've left out the exact probation wording and the future review month. It includes no sector, location or programme detail, and claims no measured commercial outcome.
 
 ## Next Evidence
 
-The most useful next case is a real opportunity where the correct classification actually is genuine indecision, so the method's response, not just its stop condition, can be tested against real sales work. After that, an independent salesperson trying the workflow on their own stalled decision, and reporting where it helps or fails, is the next evidence beyond what the builder alone can provide.
+The most useful next case is a real opportunity where the right classification is indecision, so the method's response can be tested on real sales work, not just its stop rule. After that, the next evidence beyond what I can provide alone is an independent salesperson trying the workflow on their own stalled decision and reporting where it helps or fails.
