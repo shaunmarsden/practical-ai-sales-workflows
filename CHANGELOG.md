@@ -14,6 +14,8 @@ Release notes provide the fuller version summaries:
 
 - I rewrote the [proof point page](evaluations/proof-point-selection-test.md) because it was too long and hard to read. The prose went from 1,283 words to 759, and the longest sentence from 55 words to 25. Every figure and the tested method are unchanged, and I checked each one afterwards.
 - The [style guide](guides/writing-style-and-formatting.md) now includes George Orwell's six rules for plain writing, in plain words: drop stock phrases, use short words, cut every word you can, write in the active voice, avoid jargon, and break any rule rather than write something clumsy.
+- I then rewrote the prose on 149 more pages the same way: the evaluations, guides, workflows, recipe cards, template notes and top-level pages. Sentences over 30 words fell from 806 to 361, and passive constructions from 602 to 246. Prompts, skills and example files are unchanged, because they're what the tests ran on, and a script confirmed no page lost a figure, quotation or link.
+- [Contributing](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md) now apply these rules to everything here, evaluations included. They used to let evaluations be "a little more procedural", which is how they got wordy.
 
 ### The Currency Rule Is Now Enforced
 
