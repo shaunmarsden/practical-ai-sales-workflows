@@ -1,49 +1,49 @@
 # Future Interfaces
 
-Four ideas from the backlog's Learning Tools and Future Interfaces section, written up as fuller design specs rather than left as short stubs. None of these exist as software. This repository is Markdown, prompts and instructions, read in a chat; building any of the four below is a genuinely separate software project, not a file added here. Writing the spec now, before any of it is built, means a future build has something to check its decisions against, the same reasoning behind writing down the workflow-composition principles elsewhere in this backlog.
+These are four ideas from the Learning Tools and Future Interfaces part of the backlog, written up as fuller designs rather than left as short notes. None of them exists as software. This repository is Markdown, prompts and instructions, read in a chat. Building any of the four would be a separate software project, not a file added here.
 
-Built ahead of the usual real-use-evidence bar, on the project owner's own call. Each spec below stays a spec: what it would do, what it must never do, and what it depends on already existing here. None of it is scoped for who builds it or when.
+I've written the designs now, before anything is built, so a future build has something to check its decisions against. It's the same reason I wrote down the rules for composing longer workflows. I did this before any real use called for it, which is earlier than I'd usually publish. Each design says what it would do, what it must never do, and what it needs to exist here first. None says who would build it or when.
 
 ## Fictional Sales Role-Play Simulator
 
-A fuller version of the [pre-call objection roleplay drill](../templates/pre-call-objection-roleplay-prompt.md), as a proper practice environment rather than a single prompt.
+A fuller version of the [pre-call objection roleplay drill](../templates/pre-call-objection-roleplay-prompt.md): a proper place to practise, not a single prompt.
 
-**What it would do:** the AI plays a fictional prospect, built from fixed source material so the same scenario is repeatable; the salesperson responds in character; the system records which pieces of evidence the salesperson actually uncovered during the exchange, not just whether the conversation felt like it went well; an unsupported claim or an invented commitment made by the salesperson mid-roleplay gets flagged, not rewarded; coaching follows the exercise, tied to specific moments in the transcript.
+The AI would play a fictional prospect, built from fixed source material so the same scenario can be run again. The salesperson replies in character. The system records which pieces of evidence the salesperson uncovered, not just whether the conversation felt good. If the salesperson makes an unsupported claim or invents a commitment mid-roleplay, it gets flagged, not rewarded. Coaching follows, tied to specific moments in the transcript.
 
-**What it must never do:** score or reward closing at any cost. A roleplay that rates "got to yes fastest" above "asked the harder question" would train exactly the wrong instinct. It must also never let the fictional prospect concede a point it was not scripted to concede, since that would teach a salesperson that pressure works rather than that evidence works.
+It must never score or reward closing at any cost. A roleplay that rates "got to yes fastest" above "asked the harder question" would train the wrong instinct. The fictional prospect must also never give up a point it wasn't scripted to give up. That would teach a salesperson that pressure works, not evidence.
 
-**What it depends on:** the same fictional-content discipline as everything else here, a scripted prospect built from fixed source material, not an improvising character with no ground truth to score against; and the [sales AI output rubric](../evaluations/sales-ai-output-rubric.md) or something built specifically for scoring a conversation rather than a document.
+It needs the same rules for fictional content as everything else here: a scripted prospect built from fixed source material, not an improvising character with nothing true to score against. It also needs the [sales AI output rubric](../evaluations/sales-ai-output-rubric.md), or something built to score a conversation rather than a document.
 
 ## Interactive Evidence Workspace
 
-A local interface showing the state of a longer, multi-step workflow run, rather than a single chat transcript a person has to scroll back through.
+A local screen showing the state of a longer workflow run, so a person doesn't have to scroll back through a chat.
 
-**What it would show:** sources loaded; evidence and its source links; facts, inferences, unknowns and conflicts, kept visually distinct; workflow progress; the actual instruction used for this run, not a hidden default; draft outputs; what still needs approval; run and correction history.
+It would show the sources loaded; the evidence and links to its sources; facts, inferences, unknowns and conflicts, each kept visibly apart; how far the workflow has got; the instruction used for this run, not a hidden default; draft outputs; what still needs approval; and the history of the run and its corrections.
 
-**What it must never do:** let anything progress past an approval point without the person present. The whole point of surfacing "approval still required" as its own visible state is to make skipping it a visible, deliberate choice, not something that happens by default because no one was watching.
+It must never let anything move past an approval point without the person there. Showing "approval still required" as its own visible state makes skipping it a visible, deliberate choice. It shouldn't happen by default because nobody was watching.
 
-**What it depends on:** the same working-folder and run-log principles as the rest of this backlog's workflow-composition ideas, since this interface is really those principles given a visual surface rather than a plain-text log; and [Skill Handoff Contracts](skill-handoff-contracts.md), since a multi-step run's evidence state needs to survive a handoff between skills without quietly losing its confirmed/inferred/unknown labels.
+It needs the working-folder and run-log rules from the backlog's ideas on composing workflows, because this screen is those rules made visual instead of a plain-text log. It also needs [Skill Handoff Contracts](skill-handoff-contracts.md), because the evidence in a long run has to pass between skills without quietly losing its confirmed/inferred/unknown labels.
 
 ## Explainable Lead-Qualification View
 
-A visual read on a prospect's fit, built to be inspected rather than trusted on sight.
+A visual read on a prospect's fit, built to be checked, not trusted on sight.
 
-**What it would show:** confirmed fit, possible fit, disqualifying evidence, missing information, and public signals, each in its own visible category, plus what those signals do not prove, shown alongside them rather than left implicit.
+It would show confirmed fit, possible fit, disqualifying evidence, missing information and public signals, each in its own category. Next to them, it would show what those signals don't prove, rather than leaving that unsaid.
 
-**What it must never do:** collapse into a single opaque number. A 0 to 100 fit score with no visible components is exactly the failure mode this exists to avoid: it looks precise and explains nothing. If a score is shown at all, every component, its weight, and its limitation must be visible and configurable, not fixed inside a model nobody can inspect.
+It must never shrink to a single number nobody can see into. A fit score from 0 to 100 with no visible parts is the very failure this exists to avoid: it looks precise and explains nothing. If it shows a score at all, every part, its weight and its limits must be visible and adjustable, not fixed inside a model nobody can inspect.
 
-**What it depends on:** [Fit and Limitations Review](../workflows/13-fit-and-limitations-review.md)'s existing three-way classification (good fit, poor fit, genuinely uncertain) as the categories this view would visualise, not a new classification invented for the interface; and the same discipline used elsewhere in outbound prospecting for stating what a public signal does and does not prove, rather than treating it as settled evidence.
+It needs the three-way sort that [Fit and Limitations Review](../workflows/13-fit-and-limitations-review.md) already uses (good fit, poor fit, genuinely uncertain) as its categories, not a new one made up for the screen. It also needs the rule used in outbound prospecting here: say what a public signal does and doesn't prove, rather than treating it as settled evidence.
 
 ## Before-and-After Instruction Testing Interface
 
-A way to compare two versions of the same instruction against the same fictional case, side by side, rather than trusting memory of how the old version used to behave.
+A way to compare two versions of an instruction on the same fictional case, side by side, instead of trusting your memory of how the old version behaved.
 
-**What it would show:** both instruction versions, both raw outputs, a diff of what actually changed in the output, not just the instruction, scores for each under the [sales AI output rubric](../evaluations/sales-ai-output-rubric.md), and a place for human review notes on what the difference actually means.
+It would show both versions of the instruction, both raw outputs, and what changed in the output, not just in the instruction. It would score each against the [sales AI output rubric](../evaluations/sales-ai-output-rubric.md), with space for a person's notes on what the difference means.
 
-**What it must never do:** present a model's own before-and-after scoring as independent proof that the new version is better. A score generated by the same kind of model being evaluated is a starting point for a person's judgement, not a substitute for it; this interface should support that evaluation, never stand in for it.
+It must never present a model's own before-and-after scores as independent proof that the new version is better. A score from the same kind of model being tested is a starting point for a person's judgement, not a replacement for it. This screen should support that judgement, never stand in for it.
 
-**What it depends on:** the [instruction-change and regression history template](../templates/instruction-change-history-template.md), whose manual version this interface would make faster to use, not a new discipline this invents.
+It needs the [instruction-change and regression history template](../templates/instruction-change-history-template.md). The screen would make the manual version quicker to use; it wouldn't invent a new process.
 
 ## What Ties These Together
 
-All four assume the workflows and skills they visualise or test already exist and already work by hand. None of them is a reason to skip the manual version first; each is explicitly a faster or clearer surface for a discipline already proven here in plain Markdown and a chat window.
+All four assume the workflows and skills they show or test already exist and already work by hand. None is a reason to skip the manual version. Each is a quicker or clearer way to do something already shown to work here in plain Markdown and a chat window.
