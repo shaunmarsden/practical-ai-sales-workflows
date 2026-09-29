@@ -1,10 +1,10 @@
 # Sales AI Output Rubric
 
-A rubric is just a fixed checklist for scoring something the same way every time, instead of judging it by gut feel. "That email looks good" is not the same thing as "that email is accurate, safe, and ready to send." This rubric scores AI-generated sales output against the same ten checks every time, so two different results can be compared fairly, and a weak spot gets caught before it reaches a customer rather than after.
+A rubric is a fixed checklist for scoring something the same way every time, instead of by gut feel. "That email looks good" is not the same thing as "that email is accurate, safe, and ready to send." This one scores AI sales output against the same ten checks every time. That way you can compare two results fairly, and catch a weak spot before it reaches a customer, not after.
 
-New to this and not sure what scoring an output actually looks like? [See it scored against a real output](hartwell-post-call-review.md) first: a real AI-generated follow-up email, scored area by area, with what worked, what needed checking, and the exact prompt change that came out of it.
+New to this and not sure what scoring an output looks like? [See it scored against a real output](hartwell-post-call-review.md) first: a follow-up email an AI wrote, scored area by area, with what worked, what needed checking and the exact prompt change that came out of it.
 
-You do not have to score this by hand. Paste this rubric into your own AI tool, along with the output you want checked, and ask it to fill in a score and a one-line reason for each row below. Read what it comes back with yourself rather than trusting it outright, especially against the automatic failures; an AI scoring its own kind of output is not a substitute for your own judgement.
+You don't have to score by hand. Paste this rubric into your AI tool with the output you want checked, and ask it for a score and a one-line reason for each row below. Read its answer yourself rather than trusting it outright, especially against the automatic failures. An AI scoring its own kind of output doesn't replace your judgement.
 
 Score each area from 1 to 5.
 

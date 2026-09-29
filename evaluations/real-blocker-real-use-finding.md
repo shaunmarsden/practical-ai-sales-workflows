@@ -2,17 +2,17 @@
 
 ## Status
 
-**Retrospective builder-run real-use finding, one case.** The published method was frozen, then run against a real opportunity using only the information that existed at the time, before the later evidence was read. It is not independent validation, it is not a live use, and it shows no effect on conversion. This was the last of the seventeen sales jobs with nothing in the real-use column, which is a reason to be more careful about the claim rather than less.
+**Retrospective builder-run real-use finding, one case.** I froze the published method, then ran it against a real opportunity using only what I knew at the time, before reading what happened later. It isn't independent validation or live use, and it shows no effect on conversion. This was the last of the seventeen sales jobs with nothing in the real-use column, which is a reason to be more careful with the claim, not less.
 
 ## What Was Reviewed Privately
 
-A real discovery call and the email correspondence that followed it, over about a month. One call, two people on it, nobody unexpected. The contact was positive about the proposition, did not claim authority to approve anything, and named two other people they wanted to bring in, one of them a finance decision-maker. The route to both ran through the contact making the introductions. The person, their employer, their sector, the commercial mechanics and every figure are not reproduced here.
+A real discovery call and the emails that followed over about a month. One call, two people, nobody unexpected. The contact liked the proposition, didn't claim authority to approve anything, and named two people they wanted to bring in, one of them a finance decision-maker. The route to both depended on the contact making the introductions. I haven't reproduced the person, their employer, their sector, the commercial terms or any figure.
 
 ## How the Test Was Run
 
-The method was copied aside unchanged before anything ran. The call notes were rewritten into a briefing that keeps what bears on the authority question, the roles, the attendance, what was actually said, the absence of an authority claim and the stated next steps, and drops every identity, the employer, the funding mechanics and all figures. Six runs in total, each in a fresh isolated context with only the method and the briefing, no rubric, no knowledge that this was a test, and no knowledge of what happened afterwards.
+I copied the method aside unchanged before anything ran. I rewrote the call notes into a briefing. It kept what bears on authority: the roles, who attended, what was said, the lack of any authority claim and the agreed next steps. It dropped every identity, the employer, the funding terms and all figures. There were six runs in total. Each ran in a fresh context with only the method and the briefing: no rubric, no hint that it was a test, and nothing about what happened afterwards.
 
-**Three of those six runs used a briefing that was wrong about the contact's role.** The meeting notes record only the size of the team reporting to the contact, and the first briefing turned that into a narrow, team-level job title. The actual title, taken from an email signature, was a level above that. All three of the first runs built their most confident observation on the narrower framing, so the briefing was corrected and three fresh runs were taken. Both sets are reported.
+**Three of the six runs used a briefing that got the contact's role wrong.** The meeting notes only record how big the contact's team is, and my first briefing turned that into a narrow, team-level job title. Their real title, from an email signature, was a level higher. All three first runs built their most confident point on the narrower role. So I corrected the briefing and ran three more. I report both sets.
 
 ## What the Method Got Right
 
@@ -23,47 +23,53 @@ The method was copied aside unchanged before anything ran. The call notes were r
 | Recommended contacting the other stakeholders directly, over the contact's head | 0 of 3 | 0 of 3 |
 | Asserted a hidden motive as fact | 0 of 3 | 0 of 3 |
 
-The two sets are shown apart because three of the six ran on a briefing this page calls wrong. On these four questions they are identical, which is the evidence that the role error does not bear on them rather than an assumption that it does not. It was worth checking: a narrower, more junior role makes "this person is not the decision-maker" an easier call, so pooling the two sets could have flattered the second row in particular. It did not. The error does bear on the two findings below, and those are reported by set as well.
+I show the two sets apart because three of the six ran on the wrong briefing. On these four questions they match, which shows the role error doesn't affect them. I needed to check that rather than assume it. A more junior role makes "this person is not the decision-maker" an easier call, so pooling the sets could have flattered the second row. It didn't. The error does affect the two findings below, so I report those by set too.
 
-Every run stated plainly that the call established an engaged internal champion and not a decision-maker. Every run named the finance confirmation as an open checkable fact rather than treating silence on it as agreement. Several stated explicitly that not pushing back is not the same as confirming.
+Every run said the call found a keen internal champion, not a decision-maker. Every run named the finance sign-off as an open fact to check, rather than taking silence as agreement. Several said that not pushing back isn't the same as agreeing.
 
 ## What the Method Got Wrong, or Did Weakly
 
-**One run in six recommended the step that would have reduced the risk, and it ran on the defective briefing.** That run named the single-thread exposure directly, that this was one call with one attendee and that both next steps depended on the contact forwarding material rather than on any direct contact, and it recommended asking whether the seller could join the finance conversation rather than rely on it being represented second-hand. **None of the three runs on the corrected briefing produced it.** The other five stayed with sending the summary that had already been asked for and putting further questions to the same contact. **The method diagnoses the authority gap reliably, and this page cannot show it recommending the action that would open a second route on a sound briefing at all.** Three-run sets cannot establish a difference in rate between them, so this is a point about where the one instance came from, not a measurement. On that evidence the inconsistency is the weakest part of the method, and the six-run figure understated it.
+**One run in six recommended the step that would have cut the risk, and it ran on the wrong briefing.** It named the single-thread risk: one call, one attendee, and both next steps depending on the contact passing material on rather than on any direct contact. It suggested asking whether the seller could join the finance conversation rather than rely on hearing about it second-hand. **None of the three runs on the corrected briefing did this.** The other five stuck with sending the summary the contact had asked for and asking the same contact more questions.
 
-**Two runs each contained one sentence claiming more than the record supported, and both ran on the first briefing.** One wrote that the record established the contact could very likely authorise a small pilot alone, which the record does not establish; it then recommended asking the contact, which is the correct handling of exactly that gap. Another ranked two speculative explanations for the breadth of their concerns as "most likely", against the method's own instruction to flag a mismatch without inventing the explanation for it. Neither overreach appeared in the corrected set, which cuts the other way from the finding above and is reported for the same reason: with three runs a side, neither difference is a rate.
+**The method spots the authority gap reliably, but this page can't show it recommending a second route on a sound briefing at all.** Three runs a side can't show a difference in rate, so this says only where the one instance came from. It isn't a measurement. On this evidence, this inconsistency is the method's weakest part, and the six-run figure made it look better than it is.
 
-**The mismatch finding survived the correction, so it is not purely an artefact.** All three corrected runs still named a gap between the contact's formal scope and the breadth of what they raised, reframed as a question about influence rather than seniority. The first three runs' version of it rested on a role narrower than the record supports, and that is a defect in the briefing rather than in the method.
+**Two runs each had one sentence that claimed more than the record supported, and both ran on the first briefing.** One said the record showed the contact could very likely approve a small pilot alone. The record doesn't show that, though the run then suggested asking the contact, which is the right way to handle that gap. Another ranked two guesses about why the contact's concerns were so broad as "most likely", against the method's instruction to flag a mismatch without inventing a reason for it. Neither overreach appeared in the corrected set. That cuts the other way from the finding above, and I report it for the same reason. With three runs a side, neither difference is a rate.
+
+**The mismatch finding survived the correction, so it isn't just a product of the wrong briefing.** All three corrected runs still named a gap between the contact's formal remit and how much they raised, recast as a question of influence rather than seniority. The first three runs based their version on a role narrower than the record supports. That was a fault in my briefing, not in the method.
 
 ## What Happened Next, and What It Does and Does Not Prove
 
-A month passed with no report back on the finance conversation, and a chase was needed to get any steer. When the steer came, the contact had resigned the week before. They had still put the material in front of their manager, had a catch-up with the manager and the finance lead in the diary, and reported the manager as keen.
+A month passed with no word on the finance conversation, and it took a chase to get any update. When it came, the contact had resigned the week before. They'd still put the material in front of their manager, booked a catch-up with the manager and the finance lead, and said the manager was keen.
 
-**So the fragility the method pointed at was real and it did materialise, and it did not cost the opportunity.** The single thread went exactly as a single thread can, and the champion made the introduction on the way out anyway. A finding that claimed this case proves the danger of one champion would be overstating it in the method's favour.
+**So the weakness the method pointed at was real, and it happened, but it didn't cost the opportunity.** The single thread broke the way single threads do, and the champion made the introduction on the way out anyway. Claiming this case proves the danger of relying on one champion would overstate it in the method's favour.
 
-**The obstacle that eventually surfaced was not an authority question at all.** It concerned whether staff in other regions would have equivalent access, and how payment would work across them. Nothing in this method points at either, and nothing in it could have.
+**The obstacle that finally came up had nothing to do with authority.** It was about whether staff in other regions would get the same access, and how payment would work across them. Nothing in this method points at either, and nothing in it could have.
 
-**Nobody could have predicted the resignation** from the material available, and this finding does not credit the method with anticipating it. What the method did was recommend confirming the decision route, which happens to be the mitigation for losing a champion, for reasons unconnected to the champion leaving.
+**Nobody could have predicted the resignation** from what was available, and I don't credit the method with seeing it coming. The method recommended confirming the decision route. That happens to protect you if you lose a champion, but it recommended it for other reasons.
 
 ## What This Supports
 
-- Run against a real opportunity, the method held its central discipline six times out of six: it did not convert enthusiasm into authority, and it named the people who would have to confirm it.
-- It correctly identified that no objection had been raised and that the open item was an unverified commercial fact with a named owner, rather than treating a friendly call as an advancing deal.
-- It refused, in every run, to reach past the contact to the people they had named.
+- On a real opportunity, the method held its main discipline six times out of six. It didn't turn enthusiasm into authority, and it named the people who'd have to confirm it.
+- It saw that nobody had raised an objection, and that the open item was an unchecked commercial fact with a named owner. It didn't treat a friendly call as a deal moving forward.
+- In every run, it refused to go past the contact to the people they'd named.
 
 ## What This Does Not Support
 
-- One case, one method, one model, six runs, all scored by the person who wrote the method and ran the test.
+- One case, one method, one model and six runs, all scored by me, the person who wrote the method and ran the test.
 - **No evidence of increased conversion.** The opportunity stalled for a month, needed a chase, and lost its route when the contact left. Nothing here shows the method changed an outcome.
-- No claim that the method will identify decision authority correctly in other opportunities. It was tested against one shape of case: a positive contact who was candid about not deciding. A contact who wrongly believes they decide, or who conceals the real approver, is untested.
-- It is retrospective. The method did not inform the actual handling of this opportunity at the time, so this is use against real work rather than use in real work.
-- The weakest part, the inconsistent recommendation of a second route, is a finding from six runs on one case and not a measured rate. The single instance came from the set built on a defective briefing, so this page cannot show the method producing it on a sound briefing at all, and three runs a side cannot tell a real difference from noise.
-- It is not an independent external test. Nobody outside this project has run this method on their own opportunity.
+- No claim that it will read decision authority correctly on other opportunities. I tested one kind of case: a keen contact who was open about not deciding. A contact who wrongly thinks they decide, or who hides the real approver, is untested.
+- It's retrospective. The method didn't shape how I handled this opportunity at the time, so this is use against real work, not use in real work.
+- The weakest part, recommending a second route only some of the time, comes from six runs on one case and isn't a measured rate. The one instance came from the set with the wrong briefing, so this page can't show the method doing it on a sound briefing at all, and three runs a side can't separate a real difference from noise.
+- It isn't an independent test. Nobody outside this project has run the method on their own opportunity.
 
 ## Privacy Boundary
 
-No person, employer, sector, location, job title, email address, record identifier or private link appears here. The contact's gender is left out too, and neutral wording is used throughout. An earlier version of this page carried it eleven times: it was the one personal attribute a privacy pass that removed the sector, the figures, the funding mechanism and the job title had let through, in a repository whose handover skill carries a guardrail against exactly that. No quotation from the private correspondence is reproduced. The commercial model, the funding mechanism, every figure and the programme detail are all excluded, and none of them was needed to test an authority diagnosis. Exact dates are replaced with relative timing. The briefing given to the runs was pseudonymised before any run took place rather than after, so no customer identity entered a test artefact at any point.
+No person, employer, sector, location, job title, email address, record ID or private link appears here. I've left out the contact's gender and used neutral wording throughout. No quotation from the private emails appears. I've left out the commercial model, the funding terms, every figure and the programme detail, and the test needed none of them. Relative timing replaces exact dates. I made the briefing anonymous before any run, not after, so no customer identity entered a test file at any point.
 
 ## Next Evidence
 
-Two things would be worth more than another retrospective case. A real opportunity where the contact believes they hold authority and does not, which is the shape this test did not cover. And a prospective use, where the method informs the handling at the time and the recommendation about opening a second route is either taken or not, so its value can be observed rather than inferred.
+Two things would be worth more than another retrospective case. First, a real opportunity where the contact believes they hold authority and doesn't, which this test didn't cover. Second, live use, where someone uses the method while handling the deal and either takes the advice about a second route or doesn't, so its value can be seen rather than guessed.
+
+## Corrections
+
+An earlier version of this page gave the contact's gender 11 times. It was the one personal detail that got through a privacy pass that had removed the sector, the figures, the funding terms and the job title. That's in a repository whose handover skill has a guardrail against exactly that.
