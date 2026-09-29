@@ -4,20 +4,20 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Turning call evidence into a tailored business case for the decision maker who was not on the call, built or audited so it could not apply unchanged to a different prospect.
+Turning what you learned on a call into a business case for the decision maker who wasn't there. Whether you build one or check a draft, it should be too specific to reuse for another prospect.
 
 ## You need
 
-- The current call transcript or discovery notes
-- Any existing draft to audit
-- Confirmed commercial detail already agreed (pricing tier, start date, named contact)
+- The call transcript or discovery notes
+- Any draft you want checked
+- Commercial details already agreed (pricing tier, start date, named contact)
 
 ## You'll get
 
-A headed, prose business case, with:
+A business case in prose, under headings, with:
 
 - A personalised title
-- Applied examples grounded in the actual call
+- Examples taken from the call itself
 - A commercial section
 - A risk or data section
 - A time commitment section
@@ -101,23 +101,23 @@ Also: [Audit checklist](../.agents/skills/build-business-case/references/audit-c
 
 ## The AI cannot decide
 
-- Which commercial figures the business is actually prepared to honour
-- Whether the risk or data section is accurate for this prospect's real systems
-- Who the actual reader is, if it is not the prospect
+- Which commercial figures your business will stand by
+- Whether the risk or data section is accurate for this prospect's systems
+- Who will read it, if not the prospect
 
 ## You must check
 
-- Every figure, quote, date or commitment is one that was actually established, not invented
-- The applied examples are specific to this call, not generic enough to fit any prospect
-- Nothing reads as a guarantee of an outcome
+- Every figure, quote, date or commitment is real, not invented
+- The examples are specific to this call and wouldn't fit any prospect
+- Nothing reads as a promised result
 
 ## Then
 
-Confirm every commercial figure and the risk section are accurate, then send it and update the CRM yourself. Sending stays under explicit human approval.
+Check every commercial figure and the risk section, then send it and update the CRM yourself. Nothing is sent without your approval.
 
 ---
 
-Want the fuller method, the evidence classification rules, or further worked tests, including one built entirely on pre-pilot projections rather than measured results? Open the [skill](../.agents/skills/build-business-case/SKILL.md) itself.
+For the fuller method, the rules for sorting evidence and more worked tests, including one built only on projections made before a pilot rather than measured results, open the [skill](../.agents/skills/build-business-case/SKILL.md).
 
 ---
 

@@ -52,19 +52,19 @@ Use the most recent approved sources. Include useful call notes, CRM history, cu
 
 ### 2. Separate Evidence from Interpretation
 
-Keep confirmed facts, customer estimates, your own assumptions and unknowns clearly separated. Preserve conditions such as subject to approval or timing to be confirmed.
+Keep confirmed facts, customer estimates, your own assumptions and unknowns apart. Keep conditions such as subject to approval or timing to be confirmed.
 
 ### 3. Write for the Next Person
 
-Put the current position and next action first. The recipient should not have to read the entire history to understand where things stand.
+Put the current position and next action first. The next person shouldn't have to read the whole history to see where things stand.
 
 ### 4. Link to the Sources
 
-Summarise the evidence, but keep links to the useful records. A handover should help someone navigate the history, not replace it with an unsupported summary.
+Summarise the evidence, but keep links to the useful records. A handover should help someone find their way through the history, not replace it with a summary nobody can check.
 
 ### 5. Complete the Handover Together
 
-Talk through important judgement, risks and gaps. Confirm who owns the next action and what the receiving person still needs to check.
+Talk through the judgement calls, risks and gaps. Confirm who owns the next action and what the new owner still needs to check.
 
 </details>
 
@@ -72,11 +72,11 @@ Talk through important judgement, risks and gaps. Confirm who owns the next acti
 
 - Can someone understand the current position in 30 seconds?
 - Is every important claim supported by a source?
-- Are estimates and assumptions clearly labelled?
+- Are estimates and assumptions labelled?
 - Are tentative stakeholders still described as tentative?
 - Does every action have the right owner and timing?
 - Is the recommended next step appropriate for the evidence?
-- Has the receiving person accepted ownership?
+- Has the new owner accepted it?
 
 ## 📏 What to Measure
 
@@ -86,7 +86,7 @@ Talk through important judgement, risks and gaps. Confirm who owns the next acti
 - Missed actions or duplicated work after the handover
 - Whether the next step happened with the right context
 
-The aim is continuity and good judgement, not a longer summary.
+The aim is a handover where nothing gets lost and the next person can judge well, not a longer summary.
 
 ## 💬 Tried It?
 

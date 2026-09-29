@@ -1,8 +1,8 @@
 # Recipe Cards
 
-Seventeen sales jobs, one page each. Every card covers the same seven things: what it helps with, what you need, what you'll get, the prompt to paste, what the AI cannot decide, what you must check, and what to do next. All seventeen carry the prompt on the card itself, so you never need to open anything else to use one.
+Seventeen sales jobs, one page each. Every card covers the same seven things: what it helps with, what you need, what you'll get, the prompt to paste, what the AI can't decide, what you must check, and what to do next. All seventeen carry the prompt on the card itself, so you never need to open anything else to use one.
 
-If you want the fuller method, the guardrails, or a second worked test for any of these, each card links to the full workflow, prompt, or skill behind it.
+Each card links to the workflow, prompt or skill behind it, if you want the fuller method, the guardrails or a second worked test.
 
 Tried a card? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). It takes about two minutes. Please do not include customer, employer or confidential information.
 
@@ -24,8 +24,8 @@ Tried a card? [Give quick private feedback](https://docs.google.com/forms/d/e/1F
 - 📤 [Review an Outbound Campaign](review-an-outbound-campaign.md)
 - 🕵️ [Spot the Real Blocker](spot-the-real-blocker.md)
 
-Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead. Want all seventeen on one printable page instead of seventeen separate ones? [Open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
+Not sure which job you need, or want the fuller tour first? Start at [Choose a Sales Problem](../README.md#-choose-a-sales-problem) instead. For all seventeen on one printable page, [open the cheat sheet](https://shaunmarsden.github.io/practical-ai-sales-workflows/cheat-sheet.html).
 
-None of these claim a time saved. If you want to know whether one is actually worth using, log your own time honestly with the [time and quality log](../templates/time-and-quality-log.md) rather than trusting that a recipe helped because it reads well.
+None of these claims a time saving. To find out whether one is worth using, log your own time with the [time and quality log](../templates/time-and-quality-log.md). Don't assume a card helped because it reads well.
 
-Every card has a "What you must check" section, and they differ by job rather than repeating one list. [Which AI Mistakes Actually Get Through](../guides/which-ai-mistakes-get-through.md) is why those sections say what they say: it lists the real defects found across every scored run here, sorted by whether a careful reader would have caught them. The ones worth checking for are the ones that read like sourced fact.
+Every card has a "What you must check" section, and each one fits its job rather than repeating one list. They draw on [Which AI Mistakes Actually Get Through](../guides/which-ai-mistakes-get-through.md), which lists the real mistakes found across every scored run here, sorted by whether a careful reader would have caught them. The ones worth checking for are the ones that read like sourced fact.

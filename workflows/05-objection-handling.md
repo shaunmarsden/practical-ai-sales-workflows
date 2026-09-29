@@ -1,21 +1,19 @@
 # Objection Handling
 
-Work out what is actually driving an objection before answering it, so you address the real concern rather than arguing with the surface wording.
+Work out what is behind an objection before you answer it, so you deal with the real concern rather than arguing with the words.
 
 > **Choose the right route**
 >
-> - **Specific objection:** use this workflow.
-> - **Prospect has gone quiet:** use the [chase sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md).
-> - **Legal, unclear or unauthorised issue:** stop and check first.
+> For a specific objection, use this workflow. If the prospect has gone quiet, use the [chase sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md). If the issue is legal, unclear or unauthorised, stop and check first.
 
 ## 👀 At a Glance
 
 | | |
 | --- | --- |
-| **Use this when** | A prospect has raised a specific concern, pushback, or blocker, spoken or written, and you need to respond well rather than react |
+| **Use this when** | A prospect has raised a specific concern, pushback or blocker, spoken or written, and you need to respond well rather than react |
 | **What you need** | The objection as stated, what you know about the person's role and authority, and whether you need a live spoken answer or a written reply |
-| **What you get** | A diagnosis of what is really driving the objection, a structured response, and a proposed pipeline decision |
-| **Your responsibility** | Decide what to actually say or send, and never let a stated objection be answered with an invented fact or an unauthorised commitment |
+| **What you get** | A view of what is really behind the objection, a structured response, and a proposed pipeline decision |
+| **Your responsibility** | Decide what to say or send, and never answer an objection with an invented fact or a commitment nobody approved |
 
 ## 🔄 How It Works
 
@@ -36,17 +34,17 @@ flowchart TB
 - [Read the honest review](../evaluations/hartwell-objection-review.md)
 - [See a harder test: a contractual stop condition](../examples/wrenford-objection-response.md), [and its review](../evaluations/wrenford-objection-review.md)
 - [See a third test: the correct answer to the surface wording is the wrong move](../examples/thornbury-objection-response.md), [and its review](../evaluations/thornbury-objection-review.md)
-- [See a stability test across three models](../evaluations/hartwell-objection-ambiguous-test.md), run nine times on a deliberately unresolvable objection: the guardrails held every time and the diagnosis did not, with one model promoting a different primary driver in each of its three runs
+- [See a stability test across three models](../evaluations/hartwell-objection-ambiguous-test.md). I ran it nine times on an objection built to have no clear answer. The guardrails held every time but the diagnosis didn't: one model picked a different main driver in each of its three runs
 - [Use with AI: the objection-response skill](../.agents/skills/objection-response/SKILL.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>
 
 1. The objection restated exactly as it was raised, without softening it
-2. Which bucket is actually driving it, with the reasoning, not just a label
+2. Which bucket is really driving it, with the reasoning, not just a label
 3. A response built from Acknowledge, Isolate, Reframe, Ask
 4. A specific next step, never an answer that just trails off
-5. An honest pipeline decision, including disqualification where that is the right call
+5. An honest pipeline decision, including disqualification where that's the right call
 
 </details>
 
@@ -55,73 +53,73 @@ flowchart TB
 
 ### 1. Gather the Inputs
 
-Start with the objection quoted or closely paraphrased, not summarised into a vaguer version of itself. Note what you already know about the person's role, authority, and stage in the process, whether you need a fast spoken answer or a considered written reply, and any objection already raised earlier in this deal, so the same one is not re-litigated from scratch.
+Start with the objection quoted or closely paraphrased, not summarised into something vaguer. Note what you know about the person's role, authority and stage in the process. Note whether you need a fast spoken answer or a considered written reply. And note any objection raised earlier in this deal, so you don't argue the same one again from scratch.
 
 ### 2. Identify the Real Driver
 
-The same surface wording can sit in different buckets depending on context. Work out which one is actually driving this objection:
+The same words can sit in different buckets depending on context. Work out which one is driving this objection:
 
-- **Circumstances**: timing, budget, "too busy", "not now"
-- **Other people**: needs sign-off, a stakeholder to convince, someone else to check with
-- **Self**: needs to think it over, wants more information, genuine uncertainty
-- **Competitor or tooling**: already has something in place, sees this as redundant
-- **Information**: a specific factual question, wants proof, wants to understand a risk
-- **Disqualification**: this genuinely does not fit, and is the wrong conversation
+- **Circumstances**, such as timing, budget, "too busy" or "not now"
+- **Other people**, such as needing sign-off, a stakeholder to convince or someone else to check with
+- **Self**, such as needing to think it over, wanting more information, or real uncertainty
+- **Competitor or tooling**, where they already have something in place and see this as redundant
+- **Information**, such as a specific factual question, a request for proof, or wanting to understand a risk
+- **Disqualification**, where this doesn't fit and is the wrong conversation
 
-"I need to check with my manager" from someone who holds real budget authority is a circumstances objection. The same words from someone who was never the decision-maker is closer to a disqualification signal, and deserves a completely different response.
+"I need to check with my manager" from someone who holds real budget authority is a circumstances objection. The same words from someone who was never the decision-maker are closer to a sign of disqualification, and need a completely different response.
 
-Watch in particular for a signal that the *rationale* is shrinking rather than the decision being delayed. An objection that hints the case itself may no longer size up is a different problem from one about timing, and on the nine-run test above it was the sharpest reading available and only one run in nine surfaced it.
+Watch in particular for a sign that the *rationale* is shrinking, rather than the decision being delayed. An objection hinting that the case may no longer add up is a different problem from one about timing. In the nine-run test above, that was the sharpest reading available, and only one run in nine found it.
 
-**Treat the bucket as a hypothesis the reply can test, not a settled answer.** Run the same ambiguous objection twice and the primary driver can move, which is why the response below isolates whether this is the only thing in the way rather than assuming the diagnosis is right.
+**Treat the bucket as a guess the reply can test, not a settled answer.** Run the same unclear objection twice and the main driver can change. That's why the response below checks whether this is the only thing in the way, rather than assuming the diagnosis is right.
 
 ### 3. Respond Using Acknowledge, Isolate, Reframe, Ask
 
-- **Acknowledge**: show the objection was heard, without agreeing it is fatal
-- **Isolate**: confirm whether this is the only thing in the way, or one of several
-- **Reframe**: address the real concern from the bucket above, not the surface wording
-- **Ask**: end with a specific question or concrete next step, never just an explanation
+- **Acknowledge** that you heard the objection, without agreeing it's fatal
+- **Isolate** it: check whether this is the only thing in the way, or one of several
+- **Reframe** it: deal with the real concern from the bucket above, not the words
+- **Ask** a specific question or offer a concrete next step at the end, never just an explanation
 
 ### 4. Apply the Guardrails
 
-- Never invent a fact, statistic, or guarantee to win the objection.
-- Never argue with a genuine disqualification. A prospect who does not fit is not a harder sell, they are the wrong conversation.
-- Do not let a single-issue objection turn into a five-point pitch. Answer what was actually raised.
-- Keep any comparison to a named competitor or existing tool positioning-neutral. Never disparage it by name.
+- Never invent a fact, statistic or guarantee to win the objection.
+- Never argue with a genuine disqualification. A prospect who doesn't fit isn't a harder sell. They're the wrong conversation.
+- Don't let a single objection turn into a five-point pitch. Answer what was raised.
+- Keep any comparison with a named competitor or existing tool neutral. Never run it down by name.
 
 ### 5. Stop When the Task Is Unsafe
 
-Do not produce a confident response when:
+Don't write a confident response when:
 
-- The objection involves a legal, compliance, or contractual question beyond what has already been confirmed
-- The real blocker is still unclear even after trying to identify the bucket
-- A full answer would require a commitment, such as a discount, a guarantee, or a timeline, that has not actually been authorised
+- The objection raises a legal, compliance or contract question beyond what's already confirmed
+- The real blocker is still unclear even after you've tried to find the bucket
+- A full answer would need a commitment, such as a discount, a guarantee or a timeline, that nobody has approved
 
-Flag the gap and say what is needed before a confident answer can be given, rather than answering around it.
+Flag the gap and say what you need before you can answer with confidence, rather than answering around it.
 
 ### 6. End With a Real Next Step
 
-Every objection response should end in one of four places: the conversation progresses, a dated follow-up is agreed, it moves to a longer nurture, or it is honestly disqualified. Answering the objection and then drifting with no next step at all is the most common way a handled objection still loses the deal.
+Every objection response should end in one of four places: the conversation moves on, you agree a dated follow-up, it moves to a longer nurture, or you honestly disqualify it. Answering the objection and then drifting with no next step is the most common way a handled objection still loses the deal.
 
 </details>
 
 ## 👤 Human Review
 
-The AI drafts the response and proposes the pipeline decision. You decide what to actually say or send. Sending a message, and any resulting stage change, stays subject to your explicit approval.
+The AI drafts the response and proposes the pipeline decision. You decide what to say or send. Nothing is sent, and no stage changes, without your approval.
 
 ## ✅ Check Before You Send or Say It
 
-- Have you diagnosed the real driver, or just answered the surface words?
-- Does the bucket you chose actually fit this person's role and authority, not just their phrasing?
-- Is the response answering only what was raised, rather than expanding into a full pitch?
-- Is every claim in it something you can actually stand behind, with no invented fact or guarantee?
-- If a competitor or existing tool is mentioned, is it kept neutral and never disparaged by name?
-- Does it end with a specific next step, and is the pipeline decision honest, including disqualification if that is the truth?
+- Have you found the real driver, or just answered the words?
+- Does the bucket you chose fit this person's role and authority, not just their phrasing?
+- Does the response answer only what was raised, rather than growing into a full pitch?
+- Can you stand behind every claim in it, with no invented fact or guarantee?
+- If a competitor or existing tool comes up, is it kept neutral and never run down by name?
+- Does it end with a specific next step, and is the pipeline decision honest, including disqualification if that's the truth?
 
 ## 📏 What to Measure
 
-- How often the diagnosed driver turns out to differ from the surface wording once the prospect responds
-- How often an objection response actually moves to a clear next step rather than trailing off
-- How often the same objection has to be handled twice because the first answer addressed the wrong driver
+- How often the driver you found turns out to differ from the words, once the prospect responds
+- How often an objection response moves to a clear next step rather than trailing off
+- How often you have to handle the same objection twice because the first answer dealt with the wrong driver
 - How often a genuine disqualification is called honestly, rather than argued with
 
 ## 💬 Tried It?

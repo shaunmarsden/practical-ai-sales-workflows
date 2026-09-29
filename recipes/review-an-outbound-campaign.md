@@ -4,7 +4,7 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Reading what an outbound campaign's actual numbers support once it has run its course, rather than trusting the impression a good-looking reply rate leaves behind.
+Reading what a finished outbound campaign's numbers support, rather than trusting the impression a good reply rate leaves.
 
 ## You need
 
@@ -14,9 +14,9 @@ Reading what an outbound campaign's actual numbers support once it has run its c
 
 ## You'll get
 
-- What actually changed since the last comparable campaign
+- What changed since the last comparable campaign
 - The raw numbers read straight
-- Whether the comparison is genuinely conclusive
+- Whether the comparison is conclusive
 - What to keep, stop, or test next
 
 <!-- prompts:begin -->
@@ -59,21 +59,21 @@ Also: [Prompt](../templates/outbound-campaign-learning-review-prompt.md) · [Wor
 ## The AI cannot decide
 
 - Which specific variable to test next if more than one changed at once
-- What sample size would actually make the next test conclusive
+- What sample size would make the next test conclusive
 
 ## You must check
 
 - Whether more than one thing changed since the last campaign
-- Whether a small or mixed sample has genuinely been marked inconclusive
+- Whether a small or mixed sample has been marked inconclusive
 - Whether the review stopped at a flattering reply rate instead of checking meetings and qualified opportunities too
 
 ## Then
 
-Decide what to actually keep, stop, or test next yourself; this proposes a read of the numbers, not the decision.
+Decide yourself what to keep, stop or test next. This offers a reading of the numbers, not the decision.
 
 ---
 
-Want the fuller method? Open the [workflow](../workflows/14-outbound-campaign-learning-review.md) itself.
+For the fuller method, open the [workflow](../workflows/14-outbound-campaign-learning-review.md).
 
 ---
 

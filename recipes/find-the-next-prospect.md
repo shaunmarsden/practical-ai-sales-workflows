@@ -4,17 +4,17 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Picking a cold target worth approaching and drafting a first-touch message worth a reply, without a generic industry observation or a meeting-led ask.
+Picking a cold prospect worth approaching and drafting a first message worth replying to, without a generic remark about their industry or asking for a meeting straight away.
 
 ## You need
 
 - Your ideal customer profile
-- Whatever tracker or CRM record already exists
-- A specific public signal for the target you have in mind
+- Any tracker or CRM record you already have
+- A specific public signal about the company you have in mind
 
 ## You'll get
 
-A scored read on whether the target is worth approaching, and a short first-touch message built from a real, verifiable signal.
+A score for whether the company is worth approaching, and a short first message built on a real signal you can check.
 
 <!-- prompts:begin -->
 
@@ -60,23 +60,23 @@ Also: [Prompt](../templates/outbound-prospecting-prompt.md) · [Skill](../.agent
 
 ## The AI cannot decide
 
-- Whether a signal is actually specific and verifiable rather than a generic trend
-- Whether the named contact genuinely has authority
-- Whether to actually send the message
+- Whether a signal is specific and checkable, not a general trend
+- Whether the named contact has authority
+- Whether to send the message
 
 ## You must check
 
-- The hook is built from a real, verifiable signal, not a generic observation
-- The contact route has actually been verified, not just guessed
+- The hook comes from a real signal you can check, not a generic remark
+- You've checked the contact route, not guessed it
 - Nothing in the message was invented to sharpen the hook
 
 ## Then
 
-Verify the contact route, confirm every claim, log the send so it never goes out twice, and stop the sequence immediately on any reply.
+Check the contact route and every claim. Log the send so it never goes out twice, and stop the sequence as soon as anyone replies.
 
 ---
 
-Want the fuller method, the guardrails, or the scoring logic? Open the [workflow](../workflows/09-outbound-prospecting.md) itself.
+For the fuller method, the guardrails and how the scoring works, open the [workflow](../workflows/09-outbound-prospecting.md).
 
 ---
 

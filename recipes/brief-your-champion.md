@@ -4,18 +4,18 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Preparing an internal champion to carry a well-evidenced case to other stakeholders, without assuming what they care about from their job title, and without you contacting anyone beyond the champion directly.
+Getting an internal champion ready to make a case, backed by evidence, to other stakeholders. It doesn't guess what they care about from their job title, and you contact no one but the champion.
 
 ## You need
 
-- The evidence already established (the call record, a business case if one exists)
-- Who the champion is actually presenting to
-- Anything genuinely known about that person's concerns
+- What you already know for sure (the call record, and a business case if there is one)
+- Who the champion is presenting to
+- Anything you know about what that person cares about
 
 ## You'll get
 
 - A decision summary the champion can speak from
-- Role-specific evidence per stakeholder
+- Evidence for each stakeholder, matched to their role
 - Honest answers to likely questions
 - An internal note the champion can send in their own name
 
@@ -58,22 +58,22 @@ Also: [Prompt](../templates/champion-enablement-prompt.md) · [Skill](../.agents
 
 ## The AI cannot decide
 
-- What a further stakeholder actually cares about beyond what has genuinely been established
+- What another stakeholder cares about, beyond what you already know
 - How the champion should handle a question that comes up in the room
 
 ## You must check
 
-- Every stakeholder's evidence is grounded in something actually known, not assumed from their job title
-- No outstanding item has been quietly resolved to look more finished
+- Each stakeholder's evidence rests on something you know, not a guess from their job title
+- No open item has been quietly marked as settled to make things look further along
 - Any internal note reads as the champion sending it, never you
 
 ## Then
 
-Give the material to the champion to check and use themselves; nothing here contacts a further stakeholder or presents anything on the champion's behalf.
+Give the material to the champion to check and use. Nothing here contacts another stakeholder or presents anything for the champion.
 
 ---
 
-Want the fuller method or how stakeholder evidence gets mapped without guessing from titles? Open the [workflow](../workflows/12-champion-enablement.md) itself.
+For the fuller method, including how to match evidence to each stakeholder without guessing from titles, open the [workflow](../workflows/12-champion-enablement.md).
 
 ---
 

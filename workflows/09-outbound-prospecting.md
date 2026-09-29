@@ -1,15 +1,15 @@
 # Outbound Prospecting
 
-Pick a target worth approaching and draft a first-touch message worth a reply, without a generic industry observation or a meeting-led ask.
+Pick a prospect worth approaching and draft a first message worth replying to, without a generic remark about their industry or asking for a meeting straight away.
 
 ## 👀 At a Glance
 
 | | |
 | --- | --- |
-| **Use this when** | You need to find and reach a new prospect, rather than follow up with someone already in conversation |
-| **What you need** | Your ideal customer profile, whatever tracker or CRM record already exists, and a specific public signal for the target you have in mind |
-| **What you get** | A scored read on whether the target is worth approaching, and a short first-touch message built from a real, verifiable signal |
-| **Your responsibility** | Verify the contact route, confirm every claim before sending, and approve the send and any CRM entry yourself |
+| **Use this when** | You need to find and reach a new prospect, rather than follow up with someone you're already talking to |
+| **What you need** | Your ideal customer profile, any tracker or CRM record you already have, and a specific public signal about the company you have in mind |
+| **What you get** | A score for whether the company is worth approaching, and a short first message built on a real signal you can check |
+| **Your responsibility** | Check the contact route and every claim before sending, and approve the send and any CRM entry yourself |
 
 ## 🔄 How It Works
 
@@ -34,11 +34,11 @@ flowchart TB
 <details>
 <summary><strong>See exactly what it produces</strong></summary>
 
-1. A target score: what makes this a strong or weak fit, based on a named buyer, a verifiable signal and a workable contact route
-2. A short first-touch message, question-led, tied to the actual signal found
-3. One small, low-friction offer instead of a meeting ask
+1. A score for the company: what makes it a strong or weak fit, based on a named buyer, a signal you can check and a workable contact route
+2. A short first message that opens with a question, tied to the signal found
+3. One small, easy offer instead of asking for a meeting
 4. A single next step, usually a reply
-5. What still needs a person: verifying the contact route, confirming every claim, and approving the send
+5. What still needs a person: checking the contact route, confirming every claim, and approving the send
 
 </details>
 
@@ -47,47 +47,47 @@ flowchart TB
 
 ### 1. Score the Target
 
-A target is worth approaching when it has a named, reachable buyer with plausible authority over this kind of decision, a specific and verifiable public signal tied to the actual problem being solved, not a generic industry trend, and a workable route to a real contact rather than a best-guess address. Score it down when the only available hook is a generic trend with nothing company-specific behind it, or when the company's size makes procurement and internal politics likely to slow everything down without an unusually strong contact route.
+A company is worth approaching when it has three things. First, a named buyer you can reach, who could plausibly make this kind of decision. Second, a specific public signal you can check, tied to the problem you solve, not a general industry trend. Third, a workable route to a real contact, not a best-guess address. Score it down when the only hook is a general trend with nothing about the company behind it. Score it down, too, when its size means buying processes and internal politics will probably slow everything down, unless you have an unusually strong contact route.
 
 ### 2. Draft a Low-Friction First Touch
 
-Open with a question tied to the buyer's actual role and the specific signal found, not a generic observation about the company. Offer something small and genuinely useful that can be produced quickly, a short analysis, a first cut, a relevant example, rather than asking for a meeting straight away. State what that offer is worth to the reader in their own terms. End with a single, low-friction next step, usually a short reply, not a calendar booking, unless a meeting-led approach has been deliberately chosen for this specific prospect.
+Open with a question tied to the buyer's role and the signal you found, not a generic remark about the company. Offer something small and useful you can produce quickly, such as a short analysis, a first cut or a relevant example, rather than asking for a meeting straight away. Say what that offer is worth to the reader in their own terms. End with one easy next step, usually a short reply rather than a calendar booking, unless you've deliberately chosen to lead with a meeting for this prospect.
 
-The offer is a front-end offer, never the actual paid engagement: small enough to produce quickly, and useful to the reader on its own even if nothing else follows. Give the subject line and preview text their own moment of attention too: a few words, lowercase, never naming the actual offer or mechanism, since a subject line that gives the pitch away measurably reduces opens. It should read like an internal message, not a marketing send.
+The offer is a small opening offer, never the paid work itself. It should be quick to produce, and useful to the reader on its own even if nothing else follows. Give the subject line and preview text some thought too. Keep them to a few words, in lowercase, and never name the offer or how it works, because a subject line that gives the pitch away measurably reduces opens. It should read like an internal message, not a marketing email.
 
-There are two valid shapes here, not one. Promise a small offer and ask for a reply if nothing exists yet for this target. Where a genuinely company-specific analysis already exists and can be shared immediately rather than promised for later, a direct ask for time to walk through it is reasonable, since the value has already been delivered rather than dangled. Match the shape to what is actually true; never promise something that already exists, and never ask for a meeting when nothing has actually been shared yet.
+There are two valid shapes here, not one. If nothing exists yet for this company, promise a small offer and ask for a reply. If you already have an analysis specific to the company that you can share now rather than promise for later, it's reasonable to ask directly for time to walk through it, since you've already delivered the value rather than dangled it. Match the shape to what is true. Never promise something that already exists, and never ask for a meeting when you haven't shared anything yet.
 
 ### 3. Handle Whatever Happens Next
 
-A reply, positive or otherwise, stops the cold sequence immediately; never let a second scheduled touch go out into a live reply. A positive reply means building whatever was offered next, not pushing straight for a meeting before it exists. Record every step, sent, bounced, replied, booked, so the same message never goes out twice to the same person.
+Any reply, positive or not, stops the cold sequence at once. Never let a second scheduled message go out after someone has replied. A positive reply means building what you offered, not pushing straight for a meeting before it exists. Record every step (sent, bounced, replied, booked) so the same message never goes out twice to the same person.
 
 ### 4. Apply the Guardrails
 
-- Never fabricate a company signal or hook. If nothing specific and verifiable was found, say so rather than writing a generic opener anyway.
-- Never claim a capability, statistic, or outcome that has not actually been confirmed, even to make the hook sharper.
-- Never imply the reader is already interested, already expecting this message, or already partway into a decision when nothing confirms that.
-- Never invent scarcity, a deadline, or a limited number of slots that is not real.
-- Keep the message short. A first-touch message that reads like a pitch deck gets deleted, not replied to.
+- Never make up a company signal or hook. If you found nothing specific you can check, say so rather than writing a generic opener anyway.
+- Never claim a capability, statistic or outcome that hasn't been confirmed, even to sharpen the hook.
+- Never imply the reader is already interested, already expecting this message or already partway into a decision when nothing confirms it.
+- Never invent scarcity, a deadline or a limited number of slots that isn't real.
+- Keep the message short. A first message that reads like a pitch deck gets deleted, not answered.
 
 </details>
 
 ## ✅ Check Before You Send
 
-- Is the hook built from a real, specific, verifiable signal, not a generic industry observation?
-- Does the named contact have plausible authority over this kind of decision, based on more than their job title alone?
-- Has the contact route actually been verified, not just guessed?
-- Is the first ask genuinely low-friction, a reply, not a meeting, unless that has been deliberately chosen for this prospect?
-- Does every claim in the message reflect something actually confirmed, with nothing invented to sharpen the hook?
-- Is this logged so the same message cannot go out twice, and is the sequence set to stop immediately on any reply?
-- Does the subject line avoid naming the actual offer or mechanism, and does it read like an internal message rather than a marketing send?
-- Does the message avoid implying the reader is already interested, or inventing a deadline or limited number of slots that is not real?
+- Is the hook built from a real, specific signal you can check, not a generic remark about the industry?
+- Could the named contact plausibly make this kind of decision, based on more than their job title?
+- Have you checked the contact route, not guessed it?
+- Is the first ask easy, a reply rather than a meeting, unless you've deliberately chosen a meeting for this prospect?
+- Does every claim in the message reflect something confirmed, with nothing invented to sharpen the hook?
+- Is this logged so the same message can't go out twice, and is the sequence set to stop as soon as anyone replies?
+- Does the subject line avoid naming the offer or how it works, and does it read like an internal message rather than a marketing email?
+- Does the message avoid implying the reader is already interested, or inventing a deadline or limited number of slots that isn't real?
 
 ## 📏 What to Measure
 
-- Reply rate against targets with a specific, verifiable signal, compared with any sent against a weaker or more generic one
-- How often a target scored highly turns out to have a real, reachable buyer once contacted
+- Reply rate for companies with a specific signal you could check, compared with any sent on a weaker or more generic one
+- How often a company you scored highly turns out to have a real buyer you can reach, once contacted
 - How often the same prospect is contacted twice because a reply or an existing record was missed
-- How often a first-touch message needs a meeting-led approach instead of a low-friction reply, and why
+- How often a first message needs to lead with a meeting instead of asking for a reply, and why
 
 ## 💬 Tried It?
 

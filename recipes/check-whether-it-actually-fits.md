@@ -4,16 +4,16 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Working out where an offer is a good fit, a poor fit, or still uncertain for a specific prospect, before building a business case around a use case that was never going to work.
+Working out where your offer is a good fit, a poor fit or still uncertain for one prospect, before you build a business case around a use case that was never going to work.
 
 ## You need
 
-- Every use case the prospect actually described, team by team or role by role
-- Confirmed product capability, not what seems like it should probably work
+- Every use case the prospect described, team by team or role by role
+- What the product is confirmed to do, not what you think it probably could
 
 ## You'll get
 
-Each use case classified as a good fit, a poor fit, or genuinely uncertain, with the specific reason stated plainly rather than softened.
+Each use case marked as a good fit, a poor fit or uncertain, with the reason stated plainly, not softened.
 
 <!-- prompts:begin -->
 
@@ -51,13 +51,13 @@ Also: [Prompt](../templates/fit-and-limitations-review-prompt.md) · [Skill](../
 
 ## The AI cannot decide
 
-- What your product is actually confirmed to do when that itself is unclear
-- What to actually build a business case around, disqualify, or tell the prospect
+- What your product is confirmed to do, when that is unclear
+- What to build a business case around, what to disqualify, and what to tell the prospect
 
 ## You must check
 
-- Every good fit traces to something actually confirmed, not an assumed capability
-- Every poor fit is a real, named mismatch, never reframed as a hidden advantage
+- Every good fit rests on something confirmed, not on what you assume the product can do
+- Every poor fit names a real mismatch and never turns it into a hidden advantage
 - "Uncertain" is used honestly, not as a softer way of saying no
 
 ## Then
@@ -66,7 +66,7 @@ Decide yourself which use cases to build a case around, which to disqualify, and
 
 ---
 
-Want the fuller method or how to classify a mixed case honestly? Open the [workflow](../workflows/13-fit-and-limitations-review.md) itself.
+For the fuller method, including how to sort a mixed case, open the [workflow](../workflows/13-fit-and-limitations-review.md).
 
 ---
 

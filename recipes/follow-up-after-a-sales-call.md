@@ -4,11 +4,11 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Turning a transcript or clear notes into a summary, agreed actions, a follow-up email draft and CRM suggestions, without inventing commitments or momentum that were not actually there.
+Turning a transcript or clear notes into a summary, agreed actions, a follow-up email draft and CRM suggestions, without inventing commitments or progress that weren't there.
 
 ## You need
 
-A transcript or clear notes from the call, plus relevant CRM or email context.
+A transcript or clear notes from the call, plus any relevant CRM records or emails.
 
 ## You'll get
 
@@ -72,24 +72,24 @@ Also: [Prompt](../templates/post-call-follow-up-prompt.md) · [Skills: extract e
 
 ## The AI cannot decide
 
-- Whether a suggestion the prospect made was actually an agreement
-- What tone genuinely sounds like you
-- Whether a CRM field should really change
+- Whether something the prospect suggested was an agreement
+- What tone sounds like you
+- Whether a CRM field should change
 
 ## You must check
 
 - Every important statement is supported by the call
-- Estimates are clearly labelled as estimates
-- No meeting or next step has been invented
+- Estimates are labelled as estimates
+- The AI hasn't invented a meeting or next step
 - The email sounds like you
 
 ## Then
 
-Send the email once you have checked it, and approve any CRM changes yourself; nothing here sends or updates anything on its own.
+Send the email once you've checked it, and approve any CRM changes yourself. Nothing here sends or updates anything on its own.
 
 ---
 
-Want the fuller method, the check-before-you-send list, or the cross-model comparison? Open the [workflow](../workflows/02-post-call-follow-up.md) itself.
+For the fuller method, the check-before-you-send list and the comparison across AI models, open the [workflow](../workflows/02-post-call-follow-up.md).
 
 ---
 

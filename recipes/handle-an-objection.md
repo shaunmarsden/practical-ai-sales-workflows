@@ -4,19 +4,19 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Working out what is actually driving a stated objection, so you respond to the real concern instead of arguing with the surface wording.
+Working out what is behind an objection, so you answer the real concern instead of arguing with the words.
 
 ## You need
 
-- The objection as it was actually said
+- The objection, word for word
 - What you know about the person's role and authority
 - Whether you need a fast spoken answer or a considered written one
 
 ## You'll get
 
-- A diagnosis of the real driver
+- What is really behind it
 - A structured response (Acknowledge, Isolate, Reframe, Ask)
-- An honest pipeline decision, including disqualification where that is the right call
+- An honest decision on the deal, including disqualifying it where that's the right call
 
 <!-- prompts:begin -->
 
@@ -72,15 +72,15 @@ Also: [Prompt](../templates/objection-handling-prompt.md) · [Skill](../.agents/
 
 ## The AI cannot decide
 
-- Which bucket the objection is really in when the evidence is genuinely ambiguous
-- Whether this is truly a disqualification rather than a harder sell
-- What you are actually willing to say or send
+- Which bucket the objection belongs in when the evidence is unclear
+- Whether this is a disqualification or just a harder sell
+- What you're willing to say or send
 
 ## You must check
 
-- The real driver was diagnosed, not just the surface words answered
-- Every claim in the response is one you can stand behind, with nothing invented
-- Any competitor mentioned stays positioning-neutral
+- It found the real cause, not just answered the words
+- You can stand behind every claim in the response, and nothing is invented
+- It stays neutral about any competitor mentioned
 
 ## Then
 
@@ -88,7 +88,7 @@ Send only what you have checked, and end with a dated next step: progress, a fol
 
 ---
 
-Want the fuller method, the guardrails, or a second worked test? Open the [workflow](../workflows/05-objection-handling.md) itself.
+For the fuller method, the guardrails and a second worked test, open the [workflow](../workflows/05-objection-handling.md).
 
 ---
 

@@ -4,16 +4,16 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Pulling pipeline, meetings, outreach and new signals into one honest weekly report, composing what other reviews already found rather than redoing the analysis, and marking anything missing instead of guessing it.
+Pulling pipeline, meetings, outreach and new signals into one honest weekly report. It builds on what your other reviews already found rather than redoing them, and marks anything missing instead of guessing.
 
 ## You need
 
-- Whatever you actually have this week: a CRM export, confirmed meetings, outreach activity if you have it, new signals
-- Any findings from other reviews you have already run
+- Whatever you have this week: a CRM export, confirmed meetings, outreach activity if you have it, new signals
+- Findings from any other reviews you've already run
 
 ## You'll get
 
-One report covering pipeline, meetings, outreach, signals and items needing attention, with missing sections marked as missing, and three evidence-backed priorities for next week.
+One report covering pipeline, meetings, outreach, signals and anything needing attention. Missing sections are marked as missing, and you get three priorities for next week, each backed by evidence.
 
 <!-- prompts:begin -->
 
@@ -65,11 +65,11 @@ Also: [Prompt](../templates/weekly-operating-review-prompt.md) · [Worked exampl
 ## The AI cannot decide
 
 - Whether a section with no data behind it should read as missing or as zero
-- What this week's genuine priorities are if the underlying reviews were not actually run
+- What this week's priorities are, if you haven't run the reviews it draws on
 
 ## You must check
 
-- No movement or trend is claimed without a genuine earlier report to compare against
+- It claims no movement or trend without an earlier report to compare against
 - Every missing section is marked missing, not silently treated as zero
 - The three priorities are specific to this week's findings, not generic advice
 
@@ -79,7 +79,7 @@ Approve every suggested action yourself; nothing here changes a CRM record, send
 
 ---
 
-Want the fuller method or how it composes other reviews instead of re-deriving them? Open the [workflow](../workflows/10-weekly-operating-review.md) itself.
+For the fuller method, including how it builds on other reviews instead of redoing them, open the [workflow](../workflows/10-weekly-operating-review.md).
 
 ---
 

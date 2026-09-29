@@ -4,7 +4,7 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Checking whether the stages, close dates, stakeholders and next steps in your pipeline are actually supported by the evidence you hold, rather than trusting the CRM because it is written down.
+Checking whether the evidence you hold supports the stages, close dates, stakeholders and next steps in your pipeline, rather than trusting the CRM because it's written down.
 
 ## You need
 
@@ -12,7 +12,7 @@ An export or list of your open deals with their recorded stage, value, close dat
 
 ## You'll get
 
-For each deal, the recorded position next to the evidence-supported position, the gap between them, and what to confirm, all read-only.
+For each deal, what the CRM says next to what the evidence supports, the gap between them, and what to confirm. It changes nothing.
 
 <!-- prompts:begin -->
 
@@ -69,13 +69,13 @@ Also: [Prompt](../templates/pipeline-evidence-review-prompt.md) · [Worked examp
 ## The AI cannot decide
 
 - Whether a stakeholder change is real rather than inferred
-- What the true state of a deal is when notes and CRM disagree and neither is checked against the other
+- What the true state of a deal is when the notes and the CRM disagree and no one has checked one against the other
 
 ## You must check
 
-- Every record actually belongs in your own pipeline, not just something you attended a meeting on
+- Every record belongs in your own pipeline, not just a deal you sat in on a meeting for
 - Each field is judged against real evidence, not how the deal feels
-- Genuinely healthy deals are called healthy, not just the problems
+- It calls healthy deals healthy, not just the problems
 
 ## Then
 
@@ -83,7 +83,7 @@ Approve or reject each suggested change yourself and update the CRM directly; no
 
 ---
 
-Want the fuller method or the working states used instead of the recorded stage? Open the [workflow](../workflows/06-pipeline-evidence-review.md) itself.
+For the fuller method and the working states it uses instead of the recorded stage, open the [workflow](../workflows/06-pipeline-evidence-review.md).
 
 ---
 
