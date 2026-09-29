@@ -49,7 +49,7 @@ I ran both myself, like everything else on this page.
 
 ## Tests With More Than One Run
 
-There are 18. Two ran the same input several times to see how much a score moves with nothing changed. Fourteen compared an instruction with and without one change. One compared two versions of a scenario rather than of an instruction. One compared a method I'd drafted with the plain instruction it would have replaced. The third of those eleven reused runs from the other two for its comparison instead of running its own. I scored the last nine without knowing which version produced each run.
+There are 18. Two ran the same input several times to see how much a score moves with nothing changed. Fourteen compared an instruction with and without one change. One compared two versions of a scenario rather than of an instruction. One compared a method I'd drafted with the plain instruction it would have replaced. The [stacked figure test](evaluations/business-case-stacked-figure-test.md) reused three runs from the [check requirement test](evaluations/business-case-check-requirement-test.md) for its plain baseline instead of running its own. I scored 12 of the tests without knowing which version produced each run: the applied examples test and every later one except the CRM hygiene prompt test.
 
 For a long time this page didn't link the first two. That's how I came to claim in the [comparison](COMPARISON.md) that no test had ever been repeated. It had.
 
@@ -76,9 +76,9 @@ Every other scored test on this page is a single run. Where a job above shows tw
 
 Read the first two together. Claude's spread on this rubric is about three points, so a three-point rise on a repeat is within the range the nine-run test already found. The more interesting result there is that a steady total hid an unsteady judgement.
 
-The first eleven comparisons are worth reading for a different reason. Five supported the change they tested, one of them only weakly. A sixth tested an adopted change for harm rather than benefit, and found none. One rejected the idea it was testing and turned up a live fault that had nothing to do with it. The eleventh supported its change and measured a cost of it in the same 12 runs. One fixed an upkeep problem, not an output problem. The other three ended with the change not adopted: one idea rejected, one fault that didn't happen again, and one instruction that turned out not to cause the miss it was blamed for. All six record what they got wrong along the way.
+The 16 comparisons are worth reading for a different reason. Nine supported the change they tested, one of them only weakly. One tested an adopted change for harm rather than benefit, and found none. Six didn't support the change they tested: one rejected the idea and turned up a live fault that had nothing to do with it, three ended with the change not adopted, one didn't produce the behaviour it was after, and the proof point method added nothing. One of the nine fixed an upkeep problem, not an output problem, and one measured a cost of its change in the same 12 runs. Several of these pages record a mistake of mine along the way.
 
-The three since all supported their change. The missing-record step carried over from the CRM hygiene skill to its prompt. And a second business case line brought back the hours total that the eleventh test's guardrail had suppressed, without bringing back the pound figure, first on the prompt and then on the skill.
+The last three all supported their change. The missing-record step carried over from the CRM hygiene skill to its prompt. And a second business case line brought back the hours total that the guardrail in the [prompt guardrail test](evaluations/business-case-prompt-guardrail-test.md) had suppressed, without bringing back the pound figure, first on the prompt and then on the skill.
 
 ## What Is Missing
 

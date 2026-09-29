@@ -34,7 +34,7 @@ Two more rules, fixed in advance. If both versions score six of six, the pass ma
 
 Twelve runs on the [Aldercroft transcript](../examples/aldercroft-business-case-transcript.md), with its answer key removed at the line its own warning names. Same model, a fresh isolated context each time, no rubric and no access to this repository. Six used the skill as published, and six had that one line changed. I made every run for this test.
 
-I scored the runs without knowing which version each came from. I copied the twelve inputs to neutrally named files under a mapping that was generated but never displayed, and opened the mapping only after scoring all twelve. This is new here. I scored every earlier comparison on this page knowing which version I was reading. A first attempt printed the mapping, so I threw it away and made a new one.
+I scored the runs without knowing which version each came from. I copied the twelve outputs to neutrally named files under a mapping that was generated but never displayed, and opened the mapping only after scoring all twelve. This is new here. I scored every earlier comparison on this page knowing which version I was reading. A first attempt printed the mapping, so I threw it away and made a new one.
 
 ## Result
 

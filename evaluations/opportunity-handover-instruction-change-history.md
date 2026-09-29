@@ -19,7 +19,7 @@ I haven't tidied any of this up. I threw out two runs as contaminated before eit
 | What improved | All six actions in the rerun had exactly one named owner, five for the incoming salesperson and one for the outgoing one. The external dependency (for example, Hartwell's legal team clearing an approval) sat in the status and evidence columns rather than creeping back into the owner column as a compound name. |
 | What did not | The rerun's problem with tone and repetition, the same three cautions repeated across five or more sections, didn't change, since the change wasn't aimed at it. |
 
-I treat this change as resolved. It held again, cleanly, in the final published run in [the main evaluation](hartwell-opportunity-handover-review.md#final-run-fully-clean-unprompted), where all seven actions had one named owner with no reminder about ownership at all.
+I treat this change as resolved. It held again, cleanly, in the final published run in [the main evaluation](hartwell-opportunity-handover-review.md#published-run-fully-clean-unprompted-after-the-mechanism), where all four actions had one named owner with no reminder about ownership at all.
 
 ## Change 2: Pronouns and Personal References
 
