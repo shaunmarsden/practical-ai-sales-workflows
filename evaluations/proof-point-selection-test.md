@@ -34,7 +34,7 @@ The library has seven proof points. Each has a catch.
 | Orrindale Energy | A projected £840,000 a year, worked out by pre-sales and never measured |
 | Pennhallow Facilities | Same task and a big drop, but they replaced their handhelds at the same time |
 | Danecourt Logistics | Measured and clean, but the people were planners at desks, not engineers in the field |
-| Sallowfield Water | The best match, and the only one with error figures, but it's under NDA and can't be described even without the name |
+| Sallowfield Water | The best match, measured on 110 engineers, and the only one with error figures, but it's under NDA and can't be described even without the name |
 | Braylock Gas | Praise from a customer, with no numbers |
 | Halewood Water | Same industry, task and people, measured with nothing else changed, and cleared to share, but only a pilot of 12 engineers, with the other 95 not measured |
 
@@ -69,7 +69,7 @@ It's worth a line in a guide. It isn't worth a new workflow, skill, recipe card 
 
 ## Two Small Mistakes
 
-One method run got Halewood's size wrong. It treated the 95 unmeasured engineers as the whole workforce. The real total is 107, and four other runs got it right, three of them plain-instruction runs.
+One method run got Halewood's size wrong. It wrote "12 of 95 engineers" and "Halewood's full 95-engineer workforce", treating the 95 unmeasured ones as the whole workforce. The real total is 107, and four other runs got it right, three of them plain-instruction runs.
 
 One plain-instruction run offered a guess about errors, clearly labelled as untested. That isn't a failure, but no other run came closer to guessing.
 
