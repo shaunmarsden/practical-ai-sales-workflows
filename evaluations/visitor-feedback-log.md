@@ -2,7 +2,7 @@
 
 This is the public record of what people found useful, what got in their way and what changed as a result.
 
-The quick feedback form keeps responses private by default. This page will summarise useful patterns without publishing names, email addresses, employers, customers or confidential information.
+The quick feedback form keeps responses private by default. I'll summarise useful patterns here without publishing names, email addresses, employers, customers or confidential information.
 
 ## Current Status
 
@@ -10,7 +10,7 @@ The feedback invitation went live on 29 July 2026. No visitor findings have been
 
 ## What Will Be Recorded
 
-For each useful finding, I will record:
+For each useful finding, I'll record:
 
 - what the person was trying to do;
 - what worked or caused confusion;
@@ -18,7 +18,7 @@ For each useful finding, I will record:
 - anything I chose not to change, and why;
 - the pull request or commit that shows the change.
 
-Conflicting feedback will stay visible rather than being averaged into a neat answer that nobody actually gave.
+I'll keep conflicting feedback visible rather than average it into a neat answer nobody gave.
 
 ## Findings
 

@@ -1,8 +1,8 @@
 # Usability Test: Round One
 
-This is a controlled test of whether a salesperson who did not help build this repository can find, use and check one workflow without coaching.
+This tests whether a salesperson who didn't help build this repository can find, use and check one workflow without coaching.
 
-It tests the repository experience, not the participant or their AI knowledge. Three to five participants can reveal usability problems. They cannot prove that the repository works reliably for every salesperson or organisation.
+It tests the repository, not the participant or what they know about AI. Three to five people can show up usability problems. They can't prove the repository works reliably for every salesperson or organisation.
 
 Looking for the quickest route instead? [Give quick private feedback](https://docs.google.com/forms/d/e/1FAIpQLSdBC8yOUiylKemlvzrZc2FJ9QD0Pjz592ebPaItAubBRwCUbA/viewform) or [share public feedback](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions/new?category=feedback). This page is for volunteers happy to do a deeper test.
 
@@ -14,13 +14,13 @@ Can a participant:
 2. Find the right workflow?
 3. Use it without being shown where to click?
 4. Check the AI output properly?
-5. Produce something they would genuinely use?
+5. Produce something they'd use for real?
 
-Round one uses the same fictional post-call task for every participant. This makes the sessions comparable and avoids collecting customer, employer or confidential information.
+Round one uses the same fictional post-call task for every participant. That makes the sessions comparable, and means no customer, employer or confidential information gets collected.
 
 ## Participants
 
-Recruit three to five B2B salespeople who were not involved in building the repository.
+Recruit three to five B2B salespeople who weren't involved in building the repository.
 
 Record only:
 
@@ -29,7 +29,7 @@ Record only:
 - their approximate AI experience: new, occasional, regular or advanced;
 - the general AI product they used.
 
-Do not record their employer, customers, prospects or live opportunities.
+Don't record their employer, customers, prospects or live opportunities.
 
 ## Format
 
@@ -39,10 +39,10 @@ Do not record their employer, customers, prospects or live opportunities.
 - Give them the [fictional Hartwell call transcript](../examples/hartwell-post-call-transcript.md).
 - Let them use their preferred general AI assistant.
 - Ask them to think aloud.
-- Do not explain the repository before they begin.
+- Don't explain the repository before they begin.
 - Use the [session log](../templates/usability-test-session-log.md) to record what happens.
 
-Recording is optional and requires the participant's permission. Do not publish a recording or transcript containing personal information.
+Recording is optional and needs the participant's permission. Don't publish a recording or transcript that contains personal information.
 
 ## Task Given to the Participant
 
@@ -61,13 +61,13 @@ Recording is optional and requires the participant's permission. Do not publish 
 
 ## Moderator Rules
 
-- Do not point towards a guide, recipe, workflow, prompt or skill.
-- Do not explain unfamiliar repository language unless the participant cannot continue.
-- Allow up to three minutes of genuine difficulty before intervening.
-- Record every intervention.
-- Never treat participant confusion as participant error.
-- Do not collect real customer or employer information.
-- Do not send the finished email or make a CRM change.
+- Don't point towards a guide, recipe, workflow, prompt or skill.
+- Don't explain unfamiliar repository language unless the participant can't carry on.
+- Allow up to three minutes of real difficulty before stepping in.
+- Record every time you step in.
+- Never treat a participant's confusion as their mistake.
+- Don't collect real customer or employer information.
+- Don't send the finished email or make a CRM change.
 
 ## What to Observe
 
@@ -79,7 +79,7 @@ Record:
 - whether the participant understood what information was needed;
 - whether they knew what to copy or provide to their AI;
 - points where they hesitated, went backwards or opened competing routes;
-- help required;
+- help needed;
 - total setup and running time;
 - checking and correction time;
 - unsupported claims or mistaken commitments in the output;
@@ -104,7 +104,7 @@ Record:
 Record:
 
 - task completed without help: yes or no;
-- number of moderator interventions;
+- number of times the moderator stepped in;
 - time to a relevant starting point;
 - total task time;
 - checking time;
@@ -114,16 +114,16 @@ Record:
 - confidence using it again from 1 to 5;
 - would use again: yes, maybe or no.
 
-These measures describe this small test only. They are not productivity, ROI or quality claims.
+These measures describe this small test only. They aren't claims about productivity, ROI or quality.
 
 ## How Findings Become Changes
 
-- If two or more participants struggle at the same point, treat it as a repository problem worth investigating.
-- Any privacy, fabricated-evidence or unauthorised-action failure receives immediate attention.
-- Do not redesign something around one person's preference unless other evidence supports it.
-- Preserve conflicting feedback rather than averaging it into a false consensus.
-- Record what changed, what did not change and why.
-- Run the same test again after material navigation or instruction changes.
+- If two or more participants struggle at the same point, treat it as a repository problem worth looking into.
+- Deal straight away with any failure on privacy, made-up evidence or unapproved actions.
+- Don't redesign something around one person's preference unless other evidence supports it.
+- Keep conflicting feedback as it is, rather than averaging it into an agreement nobody reached.
+- Record what changed, what didn't and why.
+- Run the same test again after any big change to navigation or instructions.
 
 ## Round-One Evaluation
 
@@ -138,4 +138,4 @@ After the sessions, publish an anonymised evaluation covering:
 - feedback deliberately not acted on;
 - remaining limitations.
 
-Do not publish participant names, employers, recordings, customer information or identifiable quotations.
+Don't publish participant names, employers, recordings, customer information or quotations that could identify anyone.

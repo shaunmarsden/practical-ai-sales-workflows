@@ -1,6 +1,6 @@
 # Model Run Metadata Template
 
-Copy this for each individual run when doing a repeated or cross-model evaluation. The point is just enough detail that someone else could tell what conditions produced this output, without collecting metadata that is not actually available to a normal user (most consumer AI tools do not expose temperature, seed, or exact model checksum).
+Copy this for each individual run when doing a repeated or cross-model evaluation. Record just enough for someone else to tell what conditions produced the output. Don't try to collect details a normal user can't see: most consumer AI tools don't show temperature, seed or exact model checksum.
 
 | Field | Value |
 | --- | --- |
@@ -14,5 +14,5 @@ Copy this for each individual run when doing a repeated or cross-model evaluatio
 
 ## Notes
 
-- "Fresh conversation" matters more than it looks. A model with your prior context, custom instructions, or an established style already primed will not perform the same as one starting cold. Say which one you tested.
-- If a run had to be restarted, reworded, or split up to work at all, that is itself a finding. Record it rather than quietly using the version that worked.
+- "Fresh conversation" matters more than it looks. A model with your earlier context, custom instructions or an established style already in place won't behave the same as one starting cold. Say which one you tested.
+- If a run had to be restarted, reworded or split up to work at all, that's a finding in itself. Record it rather than quietly using the version that worked.
