@@ -2,7 +2,7 @@
 
 Copy the prompt below, then paste in your open deals with their recorded stage, value, close date and last activity, followed by whatever notes or evidence you hold on each. The more honest the notes, the more useful the review.
 
-If you are pulling deals from meeting notes or a call log rather than an actual CRM export, check each one genuinely belongs to your own pipeline first. Attending a meeting is not the same as owning the deal.
+If you're pulling deals from meeting notes or a call log rather than a CRM export, check each one belongs to your own pipeline first. Being at a meeting isn't the same as owning the deal.
 
 ```text
 Act as a careful, honest pipeline reviewer.
@@ -43,7 +43,7 @@ Rules:
 
 ## Before You Use the Output
 
-- Check each flagged gap against your own knowledge before changing anything; the review only sees what you pasted in
-- Correct overdue or unsupported close dates first, since they distort any forecast built from this data
-- Make every CRM change yourself; the review does not, and should not, touch your system of record
-- Treat any inferred departure or stakeholder change as something to confirm, not as a settled fact
+- Check each flagged gap against what you know before you change anything. The review only sees what you pasted in
+- Fix overdue or unsupported close dates first, since they skew any forecast built from this data
+- Make every CRM change yourself. The review doesn't, and shouldn't, touch your CRM
+- Treat any departure or stakeholder change it infers as something to confirm, not a settled fact

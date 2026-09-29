@@ -37,5 +37,5 @@ Rules:
 
 - Check any high-confidence pattern against your own memory of those deals before acting on it
 - Do not build a playbook item or a prepared answer from a pattern flagged as low confidence or mixed
-- Keep growing the same log over time rather than starting a fresh one each review, so confidence can genuinely improve as the sample grows
-- Decide yourself whether a confirmed pattern is worth building something for; the review only tells you what the data supports
+- Keep adding to the same log rather than starting a new one each review, so confidence can grow with the sample
+- Decide yourself whether a confirmed pattern is worth building something for. The review only tells you what the data supports

@@ -31,7 +31,7 @@ Rules:
 
 ## Before You Use the Output
 
-- Verify the contact's email or route through an actual safe method; do not send to a guessed address
-- Confirm every product claim in the message is something you can actually stand behind
+- Check the contact's email or route by a safe method, and don't send to a guessed address
+- Confirm you can stand behind every product claim in the message
 - Log the target and the send in your CRM or tracker yourself, so the same message never goes out twice
-- Watch for any reply and stop the sequence immediately if one arrives; sending and any CRM entry are your call, not automatic
+- Watch for a reply and stop the sequence as soon as one arrives. Sending and any CRM entry are your call, not automatic

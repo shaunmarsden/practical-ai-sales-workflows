@@ -1,8 +1,8 @@
 # Outbound Campaign Learning Review Prompt
 
-> This is the prompt behind the [outbound campaign learning review workflow](../workflows/14-outbound-campaign-learning-review.md), which now has its own fictional test and scored evaluation. Use it on a real campaign, then decide honestly whether it actually led to a better next test or just produced a tidy-looking report; that judgement still matters more than the fictional test does.
+> This is the prompt behind the [outbound campaign learning review workflow](../workflows/14-outbound-campaign-learning-review.md), which now has its own fictional test and scored evaluation. Try it on a real campaign, then ask whether it led to a better next test or just a tidy report. That matters more than the fictional test.
 
-Copy the prompt below, then add what you actually have: the audience, the signal or list source used, the message and offer, what changed between this campaign and the last one, and the raw numbers.
+Copy the prompt below, then add what you have: the audience, the signal or list source, the message and offer, what changed since the last campaign, and the raw numbers.
 
 ```text
 Act as a careful reviewer of an outbound campaign's actual result, not its impression.
@@ -28,7 +28,7 @@ Rules:
 
 ## Before You Use the Output
 
-- Check that only one meaningful variable is actually being credited, not several changes bundled together
-- Confirm a small or mixed sample has genuinely been marked inconclusive, not quietly treated as a result
-- Decide what to actually keep, stop, or test next yourself; this proposes a read of the numbers, not the decision
-- If this structure genuinely helped you plan a better next test, that is worth logging in the [time and quality log](time-and-quality-log.md); if it just produced a tidy report with nothing actionable in it, that is worth knowing too
+- Check that only one real change gets the credit, not several changes bundled together
+- Confirm a small or mixed sample has been marked inconclusive, not quietly treated as a result
+- Decide yourself what to keep, stop or test next. This suggests a reading of the numbers, not the decision
+- If it helped you plan a better next test, log that in the [time and quality log](time-and-quality-log.md). If it only produced a tidy report with nothing to act on, that's worth knowing too

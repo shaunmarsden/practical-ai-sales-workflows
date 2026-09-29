@@ -1,10 +1,10 @@
 # Interactive AI Sales Setup Prompt
 
-A different route to the same result as the [About Me Worksheet](about-me-worksheet.md) and the [AI Sales Setup Prompt](ai-sales-setup-prompt.md). Those ask you to fill in a worksheet yourself, then replace every bracket by hand. This one does the opposite: paste it into a brand new conversation, and the AI interviews you, question by question, then writes the finished, tailored setup prompt for you to paste into your own standing instructions afterwards.
+This gets you to the same place as the [About Me Worksheet](about-me-worksheet.md) and the [AI Sales Setup Prompt](ai-sales-setup-prompt.md). With those, you fill in a worksheet and replace every bracket by hand. With this one, you paste it into a new conversation and the AI interviews you, one question at a time. It then writes a finished setup prompt, fitted to your answers, for you to paste into your standing instructions.
 
-Use whichever route suits you. Filling in the worksheet yourself gives you more control over the exact wording. Being interviewed is faster if you would rather answer questions than write from a blank page.
+Use whichever suits you. The worksheet gives you more control over the exact wording. The interview is faster if you'd rather answer questions than start from a blank page.
 
-This works the same way in Claude, ChatGPT, Gemini, Copilot or any other AI chat tool. Paste it into a **new, one-off conversation**, not your standing instructions; the output of that conversation is what goes into your standing instructions afterwards.
+It works the same way in Claude, ChatGPT, Gemini, Copilot or any other AI chat tool. Paste it into a **new, one-off conversation**, not your standing instructions. What that conversation produces is what goes into your standing instructions.
 
 ## The Prompt
 
@@ -74,7 +74,7 @@ Fill in every bracket with my real answers. If I left something unknown, write "
 
 ## After the Interview
 
-- Copy the finished prompt out of the conversation and paste it into your AI tool's standing instructions, custom instructions, or system prompt field, not a message that scrolls out of view. See [Set Up Your Own AI for Sales](../guides/set-up-your-ai-for-sales.md) for where that field lives in Claude, ChatGPT, Gemini and Copilot.
-- Check every bracket was actually filled in with something real. A prompt with an unfilled placeholder, or a guessed answer standing in for one you skipped, is worse than no prompt at all.
-- This is a starting point, not a finished document. Update it yourself as your product, tone or process changes.
-- If your company has an approved or enterprise AI tool, check what you are allowed to paste into it before adding real company or prospect information anywhere, including in this interview.
+- Copy the finished prompt out of the conversation and paste it into your AI tool's standing instructions, custom instructions or system prompt field, not a message that scrolls out of view. [Set Up Your Own AI for Sales](../guides/set-up-your-ai-for-sales.md) shows where that field is in Claude, ChatGPT, Gemini and Copilot.
+- Check every bracket was filled in with something real. A prompt with a blank placeholder, or a guess standing in for an answer you skipped, is worse than no prompt.
+- It's a starting point, not a finished document. Update it yourself as your product, tone or process changes.
+- If your company has an approved or enterprise AI tool, check what you're allowed to paste into it before you add real company or prospect information anywhere, this interview included.

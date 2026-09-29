@@ -1,6 +1,6 @@
 # Fit and Limitations Review Prompt
 
-Copy the prompt below, then add every use case the prospect actually described and what your product is actually confirmed to do.
+Copy the prompt below, then add every use case the prospect described and what your product is confirmed to do.
 
 ```text
 Act as a careful reviewer of whether an offer genuinely fits a prospect's actual use cases, not a generic pitch writer.
@@ -23,6 +23,6 @@ Rules:
 
 ## Before You Use the Output
 
-- Check every good fit traces to something actually confirmed, not an assumed capability
-- Check every poor fit is stated as a real mismatch, not softened into something that reads as a bonus
-- Decide yourself what to actually build a business case around, disqualify, or raise with the prospect directly
+- Check every good fit traces back to something confirmed, not an assumed capability
+- Check every poor fit is stated as a real mismatch, not softened into something that sounds like a bonus
+- Decide yourself what to build a business case around, what to disqualify and what to raise with the prospect directly

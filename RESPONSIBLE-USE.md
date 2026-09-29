@@ -1,6 +1,6 @@
 # Responsible Use
 
-This is a public learning project. It is not a place for customer data, private company information or copied internal processes.
+This is a public learning project. Customer data, private company information and copied internal processes don't belong here.
 
 ## What Belongs Here
 
@@ -21,20 +21,20 @@ This is a public learning project. It is not a place for customer data, private 
 
 ## Human Review
 
-AI output must be checked before it is sent externally or added to a system of record.
+Check AI output before you send it outside the company or add it to a system of record.
 
-This includes emails, CRM notes, account plans, business cases and recommendations about what to do next.
+That includes emails, CRM notes, account plans, business cases and advice on what to do next.
 
 ## Evidence and Claims
 
-Do not present an assumption as a fact. Do not invent customer intent, urgency, authority, ROI or agreement.
+Don't present an assumption as a fact. Don't invent customer intent, urgency, authority, ROI or agreement.
 
-When information is missing or contradictory, say so.
+When information is missing or contradicts itself, say so.
 
-This is not a hypothetical risk. A commercial detail drafted with AI assistance, a stated change in pricing terms, was sent to a real prospect without being checked against the actual current terms first, and it turned out to be wrong. Treat every commercial figure in an AI-drafted message as something to verify before it sends, not something to trust because it reads confidently.
+This has happened. An AI-assisted draft stated a change in pricing terms. It went to a real prospect before anyone checked it against the current terms, and it was wrong. Check every commercial figure in an AI-drafted message before it goes. Don't trust it because it sounds sure of itself.
 
 ## Independent Project Boundary
 
-General methods, fictional examples and original evaluation frameworks can be shared publicly. Employer confidential information and proprietary internal processes stay internal.
+I can share general methods, fictional examples and my own evaluation frameworks in public. My employer's confidential information and internal processes stay internal.
 
-If ownership or permission is unclear, do not publish it.
+If you're not sure who owns something or whether you have permission, don't publish it.

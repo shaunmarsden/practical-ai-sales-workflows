@@ -1,8 +1,8 @@
 # Gemini Visual Style Prompt
 
-Use this prompt to create a practical visual for this repository. The approved direction is the utility style in [How I Approach It](../assets/diagrams/how-i-approach-it.svg), not the previous illustration style.
+Use this prompt to make a practical diagram for this repository. The approved style is the plain, functional one in [How I Approach It](../assets/diagrams/how-i-approach-it.svg), not the older illustrated style.
 
-Every image still needs checking for missing words, spelling mistakes, small text, contrast and visual drift before publication.
+Before you publish any image, check it for missing words, spelling mistakes, small text, contrast and drift from the style.
 
 ## Reusable Prompt
 
@@ -87,8 +87,8 @@ Important distinction:
 ## Before Publishing
 
 - Compare the text in the graphic against the source wording
-- Check it at the approximate width used in the README
+- Check it at about the width the README uses
 - Check both light and dark backgrounds
 - Reject missing words, rewritten labels, small text and decorative clutter
 - Confirm the visual helps a visitor make a choice, understand evidence or take a next step
-- Add concise alt text that explains the information, not the layout
+- Add short alt text that explains the information, not the layout

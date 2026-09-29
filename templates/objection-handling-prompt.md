@@ -1,6 +1,6 @@
 # Objection Handling Prompt
 
-Copy the prompt below, then add the objection as it was actually raised, what you know about the person's role and authority, and whether you need a spoken answer or a written reply.
+Copy the prompt below, then add the objection in the buyer's own words, what you know about the person's role and authority, and whether you need a spoken answer or a written reply.
 
 ```text
 Act as a careful sales objection handler.
@@ -41,7 +41,7 @@ Rules:
 
 ## Before You Use the Output
 
-- Check the diagnosed driver actually fits this person's role and authority, not just their phrasing
-- Confirm every claim in the response is something you can stand behind, with nothing invented
-- Make sure it answers only what was raised, rather than expanding into a pitch
-- Decide the actual next step yourself; the draft proposes one, but sending it and any stage change is your call
+- Check the cause it diagnoses fits this person's role and authority, not just their phrasing
+- Confirm you can stand behind every claim in the response, and that nothing is invented
+- Make sure it answers only what was raised and doesn't turn into a pitch
+- Decide the next step yourself. The draft suggests one, but sending it and any stage change are your call

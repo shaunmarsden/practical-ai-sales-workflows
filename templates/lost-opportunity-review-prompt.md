@@ -37,7 +37,7 @@ Rules:
 
 ## Before You Use the Output
 
-- Check that the classification actually matches the words used, not just the overall mood of the message
-- Decide for yourself what any vague future timing should mean on your own calendar; do not let a vague answer become an invented date
-- Confirm whether any reusable evidence identified is genuinely still current
+- Check the classification matches the words used, not just the overall mood of the message
+- Decide for yourself what any vague future timing means for your own calendar. Don't let a vague answer become a made-up date
+- Check any reusable evidence it finds is still current
 - Update your CRM stage and notes yourself; nothing here does that for you

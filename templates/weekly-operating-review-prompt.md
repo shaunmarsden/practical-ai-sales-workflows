@@ -1,6 +1,6 @@
 # Weekly Operating Review Prompt
 
-Copy the prompt below, then paste in whatever you actually have this week: a CRM export, confirmed meetings, an outreach log if you have one, notes on new signals, and the findings from any other review you have already run, such as a pipeline evidence review or a CRM hygiene review.
+Copy the prompt below, then paste in whatever you have this week: a CRM export, confirmed meetings, an outreach log if you keep one, notes on new signals, and the findings from any other review you've already run, such as a pipeline evidence review or a CRM hygiene review.
 
 ```text
 Act as a careful, honest weekly operating reviewer.
@@ -37,6 +37,6 @@ Rules:
 ## Before You Use the Output
 
 - Check every "missing" section really is missing, not something you have but forgot to include
-- Confirm each of the three priorities is specific enough to actually act on, not generic enough to reuse next week unchanged
-- Keep this week's report to compare the next one against, so movement can genuinely be shown once a second week exists
+- Confirm each of the three priorities is specific enough to act on, not so generic you could reuse it next week unchanged
+- Keep this week's report to compare against the next one, so the second week can show what moved
 - Approve or reject every suggested action yourself; nothing here changes a CRM record or sends anything
