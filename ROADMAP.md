@@ -9,7 +9,7 @@ I keep this page short. It shows what I'm working on now, what evidence could mo
 - Keep the proof in view. Update the [evidence-status matrix](EVIDENCE-STATUS.md) and [visitor feedback log](evaluations/visitor-feedback-log.md) when the evidence changes.
 - Get someone outside the project to test the sales-copilot method. The public example has a fictional scored run and one real-use finding from my own build, with private details removed. What's missing is someone else adapting the template with their own approved information, not more command modes.
 
-The gaps are simple. Nobody has used the feedback form or Discussions yet. One job, Spot the Real Blocker, still has no logged real-work test. The sales-copilot method still has no outside test. Move a Stalled Decision now has a real-use finding, but it's a boundary case: a real delay, rightly classed as *not* indecision. I still need a case with a buyer who really is indecisive. No sales job has had a logged test by an outside user.
+The gaps are simple. Nobody has used the feedback form or Discussions yet. The sales-copilot method still has no outside test. Move a Stalled Decision now has a real-use finding, but it's a boundary case: a real delay, rightly classed as *not* indecision. I still need a case with a buyer who really is indecisive. No sales job has had a logged test by an outside user.
 
 ## Next, Based on User Evidence
 
