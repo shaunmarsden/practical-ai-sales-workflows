@@ -32,7 +32,7 @@ This review scores the [worked business case](../examples/bramfield-business-cas
 
 ## What Needed Checking
 
-- The commercial section is harder to misread here than in the Hartwell case, since two totals sit side by side. A person should read the conditional wording once more before this goes to Meera. A Finance reader skimming quickly is the one most likely to take the cheaper total as guaranteed.
+- The commercial section is safer here than in the Hartwell case, because both totals sit side by side with the condition attached. A person should still read the conditional wording once more before this goes to Meera, since a Finance reader skimming quickly is the one most likely to take the cheaper total as guaranteed.
 - I should confirm the rollout timing with Ravi, and update the document once Meera's own budget cycle is known.
 - The compliance confirmation needs chasing, and the document updating once it arrives.
 
