@@ -1,6 +1,6 @@
 # About Me Worksheet
 
-Fill this in before writing your own [AI Sales Setup Prompt](ai-sales-setup-prompt.md). Answering these properly is the actual difference between a generic assistant and one that sounds like you and knows your job.
+Fill this in before you write your own [AI Sales Setup Prompt](ai-sales-setup-prompt.md). Good answers here are what turn a generic assistant into one that sounds like you and knows your job.
 
 ## Who I Am
 
@@ -41,4 +41,4 @@ Fill this in before writing your own [AI Sales Setup Prompt](ai-sales-setup-prom
 -
 -
 
-Common answers here: sending an email, updating the CRM, quoting a price, or promising a date, without me reviewing it first.
+Common answers: sending an email, updating the CRM, quoting a price or promising a date without me checking first.

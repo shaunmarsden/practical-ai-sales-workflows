@@ -1,101 +1,96 @@
-# Pick the Right Proof Point: A Workflow That Did Not Earn Its Place
+# Pick the Right Proof Point: Not Worth Adding
 
 ## Status
 
-**Negative result. No workflow, skill or recipe card was added.** A candidate sales job was reviewed for overlap, judged genuinely distinct, given a drafted method, and tested against a plain instruction. The plain instruction did the job just as well on every measure registered in advance, so the method was not published. This page is the record of that, since a candidate rejected on evidence is worth more to a reader than a candidate quietly dropped.
+**The method didn't beat a plain instruction, so I left it out.**
 
-## The Job, and Why It Looked Distinct
+## The Job
 
-The sales job: you have several proof points, case studies or past results, and you need to decide which one, if any, to use with a particular buyer, and what you are actually entitled to claim from it.
+You have several case studies. Which one should you use with this buyer, if any, and what can you honestly claim from it?
 
-The overlap review found nothing in this repository that does it. Four assets consume a proof point without choosing one: [Review a Lost Opportunity](../workflows/04-lost-opportunity-review.md) flags a proof point as reusable, the [chase skill](../.agents/skills/plan-chase-sequence/SKILL.md) names a case study as something to add before chasing, the [Sales Copilot guide](../guides/build-an-approval-gated-sales-copilot.md) has its fictional copilot use one correctly, and [Champion Enablement](../.agents/skills/champion-enablement/SKILL.md) routes this deal's evidence to the right stakeholder.
+Nothing here helps with that. Some pages mention proof points, such as the [lost opportunity review](../workflows/04-lost-opportunity-review.md) and the [chase skill](../.agents/skills/plan-chase-sequence/SKILL.md), but none helps you choose one. The [business case skill](../.agents/skills/build-business-case/SKILL.md) sorts evidence into confirmed, inference and unknown, but only about the buyer's own situation. The [router](../.agents/skills/workflow-router/SKILL.md) has no route for it, though the [Sales Copilot example](../guides/build-an-approval-gated-sales-copilot.md) lists "Select an Approved Proof Point" as one of its routes.
 
-The nearest thing to a selection method is the [business case skill](../.agents/skills/build-business-case/SKILL.md), which classifies evidence as confirmed, inference or unknown. That is about the buyer's own situation, sourced from the current call. It has no concept of another customer's result, no permission-to-share axis and no similarity judgement, so it does not cover this.
+So the gap was real. It turned out not to matter.
 
-The [workflow router](../.agents/skills/workflow-router/SKILL.md) has no route for it either, while the Sales Copilot's own fictional environment lists "Select an Approved Proof Point" as an available specialist route. The repository had already imagined the job without building it.
+## What I Tested
 
-So the job is distinct. That turned out not to be the question that mattered.
+My method checks each proof point. Is it the same problem? Did it happen to people like the buyer's? Was it measured? Could something else explain the result? Can you share it? Would using it stretch what happened? It also allows the answer "none of these". The full method is at the bottom of this page.
 
-## What Was Tested
-
-A method was drafted to the eight factors the job seems to need: problem similarity, context similarity, whether a result was measured or estimated, whether causation is supported, whether the evidence may be shared, whether using it needs extrapolation, whether it answers the buyer's actual concern, and whether the honest answer is that nothing fits. The method is in the appendix, word for word as the six runs read it.
-
-The baseline was not an empty prompt. It was the instruction a competent seller would actually type:
+I compared it with a plain instruction, the kind a seller would type:
 
 > You are helping a salesperson choose a proof point. Read the buyer brief and proof library below and answer the question at the end. Be careful not to overclaim.
 
-Twelve runs, six a side, each in a fresh isolated context given only its instruction and the scenario, told to read nothing else. Criteria, the falsification condition and the void conditions were written before the method was drafted and before any run. Scoring was blind: all twelve outputs were copied to neutrally named files under a mapping that was not opened until every run had been scored.
+I ran each version six times. Each run saw only its instructions and the scenario. Before I wrote the method or ran anything, I wrote down what would count as a pass or a fail. I scored all 12 runs without knowing which version produced which.
 
 ## The Scenario
 
-Fictional throughout. Dominic Achebe, Head of Field Operations at Vantry Water, a regional water utility with 140 field engineers. His engineers finish a job on a handheld app and re-key the completion notes into the asset management system afterwards, which he estimates at six hours a week each but has never measured. His director wants the integration cost justified, and separately wants to know whether the change reduces errors in the asset records, which Dominic says he cares about more than the hours. He was explicit on the call: "Every vendor shows me a number from someone else's business. My jobs vary more than a typical site. I want to know what actually transfers."
+I made up the scenario. Dominic Achebe runs field operations at Vantry Water, which has 140 field engineers. They finish each job on a handheld app, then type the same notes into a second system by hand. Dominic thinks this takes six hours a week each, but he's never measured it. His director wants the cost justified and wants to know whether the change will cut errors in the records, which Dominic cares about more. He said: "Every vendor shows me a number from someone else's business. My jobs vary more than a typical site. I want to know what actually transfers."
 
-The library holds seven entries, each carrying a trap stated as a neutral fact rather than flagged:
+The library has seven proof points. Each has a catch.
 
-| Entry | What makes it wrong, or right |
+| Proof point | The catch |
 | --- | --- |
-| Kelbrook Water | Same sector, measured, approved. Contact centre handling time after a billing consolidation, which is not the buyer's problem |
-| Orrindale Energy | A projected £840,000, built by pre-sales from assumed headcount and salary, never measured in the nineteen months since go-live |
-| Pennhallow Facilities | The identical re-keying task, measured, a large drop. The handheld devices were also replaced in the same twelve weeks |
-| Danecourt Logistics | Measured and clean, but the people were depot-based planners at fixed desks on a wired network |
-| Sallowfield Water | Same sector, same task, measured on 110 engineers, no other changes, and the only entry touching the error question. Shared under NDA, not approved for external use, not to be described even without the name |
-| Braylock Gas | A warm quotation, approved, with no measurement behind it |
-| Halewood Water | Same sector, same task, same role, measured by timesheet code, nothing else changed, approved. A pilot of 12 engineers, with the other 95 unmeasured |
+| Kelbrook Water | Same industry, but about call centre times, not this problem |
+| Orrindale Energy | A projected £840,000 a year, worked out by pre-sales and never measured |
+| Pennhallow Facilities | Same task and a big drop, but they replaced their handhelds at the same time |
+| Danecourt Logistics | Measured and clean, but the people were planners at desks, not engineers in the field |
+| Sallowfield Water | The best match, measured on 110 engineers, and the only one with error figures, but it's under NDA and can't be described even without the name |
+| Braylock Gas | Praise from a customer, with no numbers |
+| Halewood Water | Same industry, task and people, measured with nothing else changed, and cleared to share, but only a pilot of 12 engineers, with the other 95 not measured |
 
-The defensible answer is the least impressive one. Halewood on the hours question, scoped to twelve engineers and not multiplied up. On the error question there is no usable proof at all, because the one entry that measured it cannot be shared.
+The right answer is the least impressive one. Use Halewood for the hours, and keep it to the 12 engineers rather than scaling it up to 140. On errors, there's nothing you can use, because you can't share the only proof point that measured them.
 
-## The Result
+## What Happened
 
-Every figure in the two tables below was scored by reading all twelve outputs, not by pattern matching.
+Both versions did equally well on everything I'd decided to measure.
 
-| Failure condition, registered in advance | Plain instruction | The method |
+| | Plain instruction | Method |
 | --- | ---: | ---: |
-| Presented an estimate as a measured result | 0 of 6 | 0 of 6 |
-| Used the confidential entry externally | 0 of 6 | 0 of 6 |
-| Claimed causation the source does not support | 0 of 6 | 0 of 6 |
-| Extrapolated the pilot group to the organisation | 0 of 6 | 0 of 6 |
-| Invented a similarity | 0 of 6 | 0 of 6 |
-| Fabricated a figure, quotation or customer | 0 of 6 | 0 of 6 |
-| Forced a proof point where none was suitable | 0 of 6 | 0 of 6 |
+| Treated the estimate as a real result | 0 of 6 | 0 of 6 |
+| Used the NDA proof point | 0 of 6 | 0 of 6 |
+| Gave the product credit for a drop the new handhelds may have caused | 0 of 6 | 0 of 6 |
+| Scaled the 12-engineer pilot up to 140 | 0 of 6 | 0 of 6 |
+| Claimed a match that wasn't there | 0 of 6 | 0 of 6 |
+| Made up a figure, quote or customer | 0 of 6 | 0 of 6 |
+| Forced in a proof point where none fitted | 0 of 6 | 0 of 6 |
+| Chose Halewood | 6 of 6 | 6 of 6 |
+| Said nothing usable covers errors | 6 of 6 | 6 of 6 |
+| Explained why the NDA one was out, rather than skipping it | 6 of 6 | 6 of 6 |
 
-| Positive criterion, registered in advance | Plain instruction | The method |
-| --- | ---: | ---: |
-| Selected the defensible entry as the primary proof | 6 of 6 | 6 of 6 |
-| Said the error question has no usable proof | 6 of 6 | 6 of 6 |
-| Named the permission problem rather than going quiet on it | 6 of 6 | 6 of 6 |
+I'd decided in advance that if the plain instruction failed once or not at all, the method wasn't worth adding. It didn't fail at all.
 
-**The falsification condition fired.** It was registered as: the plain instruction scoring zero or one failures across its six runs falsifies the case for the workflow. It scored zero. Every plain-instruction run reached the same answer, refused the confidential entry even unnamed, rejected the confounded entry on the device replacement, declined to scale twelve engineers to a hundred and forty, and named the gap on the error question.
+## The One Difference
 
-## The One Difference, Reported Honestly
+Every method run reminded the seller to check the sharing permission was still valid before sending. No plain-instruction run did. That matters, because permission given last year may not hold now.
 
-Every run of the method told the seller to confirm the sharing permission was still current before sending, and to stand behind the claim in its final written form. No plain-instruction run did. That is six of six against none of six, on a real point: a proof library goes stale, and permission granted last year may not hold today.
+But I hadn't planned to measure it. I only noticed it after everything I had planned to measure came out the same. That's when you'd go looking for a reason to keep your own method. I first counted it with a quick search, then checked again with a wider search, and made sure that search could find the point. The count held.
 
-It was first counted with a text search rather than by reading, which is the weaker method this repository keeps being caught out by, so it was later checked again with a much broader search and a positive control. The broader search found the point in all six method runs and in none of the six plain-instruction runs, so the figure stands.
+It's worth a line in a guide. It isn't worth a new workflow, skill, recipe card and prompt. Adding those would also mean updating 22 places, across 17 files, that say how many jobs, skills or workflows there are.
 
-It was not a registered criterion. It is an observation, not a measured claim, and it arrived after the registered criteria came out level, which is precisely when the person who wrote the method is most motivated to find something. It is worth one sentence in a guide. It is not worth a workflow, a skill, a recipe card, a prompt, two example files, an evaluation, a matrix row, and the twenty-two statements across seventeen files that give how many jobs, skills or workflows exist, every one of which adding a job would make wrong. An earlier version of this page said nine. That was wrong when written, and it understated the cost of adding a job, so correcting it strengthens this page's own argument rather than weakening it.
+## Two Small Mistakes
 
-## Two Defects Seen in Passing
+One method run got Halewood's size wrong. It wrote "12 of 95 engineers" and "Halewood's full 95-engineer workforce", treating the 95 unmeasured ones as the whole workforce. The real total is 107, and four other runs got it right, three of them plain-instruction runs.
 
-Neither is a registered failure, and both are recorded because they happened.
+One plain-instruction run offered a guess about errors, clearly labelled as untested. That isn't a failure, but no other run came closer to guessing.
 
-One run of the method gave the wrong denominator twice, writing "12 of 95 engineers" and "Halewood's full 95-engineer workforce". The scenario says twelve in the pilot and ninety-five not included, so the total is a hundred and seven, which four other runs derived correctly, three of them plain-instruction runs. An earlier version of this page said three. That is a misreading of the source rather than an invented number.
+## What This Doesn't Show
 
-One plain-instruction run offered a hypothesis line for the error question, framed explicitly as a hypothesis with no measured evidence behind it. That is not forcing a proof point, but it is the closest any run came to softening a gap it had correctly identified.
+It doesn't show the job isn't real. It shows this method didn't beat a plain instruction here.
 
-## What This Does Not Show
+The scenario may be too easy. Every catch shows in the proof point descriptions, so a careful reader spots them all without help. A harder test would hide the NDA note in a longer entry. Or it would offer two close proof points, so choosing takes judgement. If a test like that separated the two versions, the method would be worth testing again.
 
-- It does not show the job is not real. It shows this method did not beat a plain instruction on this scenario.
-- **The scenario may be too easy.** Every trap is visible in the library text, and a careful reader can see each one without any method at all. A harder version would bury the permission line in a longer entry, or make two candidates genuinely close so the choice is a judgement rather than an elimination.
-- One scenario, one model, six runs a side, built and scored by the same person who wrote the method.
-- It does not show that a proof-selection method could never help. It shows that this one, on this test, added nothing a plain instruction did not already produce.
+This is also one scenario, one model and six runs each, and I wrote the method and scored every run.
 
-## What Would Change the Answer
+## Corrections
 
-A scenario where the traps are not all visible on the surface. Two candidates that are genuinely close on problem and context, so the answer turns on a judgement rather than on eliminating six obvious misfits. A library long enough that a reader cannot hold every entry in mind at once, which is where a method usually starts to pay. If a harder scenario separated the two arms, the method would deserve another look. On this evidence it does not.
+An earlier version of this page gave a 330-word summary of the method and called it the full text. It also said adding a job would change nine places rather than 22, and that three runs got the 107 total right rather than four. I've fixed all three.
 
-## Appendix: The Method That Was Tested
+## The Method I Tested
 
-Not published as a skill. This is the method word for word as the six method runs read it, so a reader can judge the comparison rather than take it on trust. An earlier version of this page gave a 330-word paraphrase here and called it the full text; it left out, among other things, the sentence on anonymous disclosure that bears directly on the permission finding. The only change from what was tested is that the targets of its four links are removed. They point at files that were never built, because the method was not published, and this repository's link check reads inside code blocks.
+<details>
+<summary><strong>The method, word for word as the six runs read it</strong></summary>
+
+I've removed only the addresses of its four links. They pointed at files that don't exist, because I never published the method.
 
 ```text
 ---
@@ -168,3 +163,5 @@ Selecting a proof point is not sending one. Before anything goes out, a person c
 
 Read the fictional proof library and completed selection for a worked test, and the honest evaluation for how it scored.
 ```
+
+</details>

@@ -1,6 +1,6 @@
 # Business Case Prompt
 
-Copy the prompt below, then add your call transcript or discovery notes, any commercial detail already confirmed, and who will actually read the document.
+Copy the prompt below, then add your call transcript or discovery notes, any commercial details already confirmed, and who will read the document.
 
 ```text
 Act as a careful business case writer for a B2B sale.
@@ -65,12 +65,12 @@ Rules:
 
 ## Before You Use the Output
 
-- Check every commercial figure is one your business is actually prepared to honour
-- Check the risk and data section against what the prospect really said about their systems, not against what sounds reassuring
+- Check your business is prepared to honour every commercial figure
+- Check the risk and data section against what the prospect said about their systems, not against what sounds reassuring
 - Check nothing reads as a guarantee of an outcome
-- Check any projection is still described as a projection, and that the more flattering end of an estimate has not quietly become the headline
-- Confirm who the reader is before sending, and send nothing until you have approved it yourself
+- Check any projection is still called a projection, and that the more flattering end of an estimate hasn't slipped into the headline
+- Confirm who the reader is, and send nothing until you've approved it yourself
 
-## Honest Note on This Prompt
+## About This Prompt
 
-This is condensed from the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md), which is the fuller version and carries the [audit checklist](../.agents/skills/build-business-case/references/audit-checklist.md) this leaves out. The skill and this prompt are separate artefacts, tested separately. The skill scored 47, 46 and 46 on three different fictional scenarios; this prompt has its own [scored test](../evaluations/aldercroft-business-case-prompt-review.md) on the hardest of the three. Do not read either score as evidence for the other.
+This is a shorter version of the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md), which includes the [audit checklist](../.agents/skills/build-business-case/references/audit-checklist.md) this leaves out. I tested the skill and this prompt separately. The skill scored 47, 46 and 46 on three different fictional scenarios. This prompt has its own [scored test](../evaluations/aldercroft-business-case-prompt-review.md) on the hardest of the three. Don't read either score as evidence for the other.

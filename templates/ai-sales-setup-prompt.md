@@ -1,10 +1,10 @@
 # AI Sales Setup Prompt
 
-This is different from the other prompts in this repository. It is not for one task, it is standing context you set up once so every conversation afterwards already knows who you are, what you sell and how you like to work.
+Unlike the other prompts here, this one isn't for a single task. You set it up once, and every conversation after that knows who you are, what you sell and how you like to work.
 
-Fill in your own answers using the [About Me Worksheet](about-me-worksheet.md) first, then replace every bracket below and paste the whole thing into your AI tool's standing instructions, not a one-off message. See [Set Up Your Own AI for Sales](../guides/set-up-your-ai-for-sales.md) for where that is in Claude, ChatGPT, Gemini and Copilot.
+First fill in the [About Me Worksheet](about-me-worksheet.md). Then replace every bracket below and paste the whole thing into your AI tool's standing instructions, not into a one-off message. [Set Up Your Own AI for Sales](../guides/set-up-your-ai-for-sales.md) shows where those are in Claude, ChatGPT, Gemini and Copilot.
 
-Would rather answer questions than fill in a worksheet yourself? Use the [Interactive Setup Prompt](interactive-setup-prompt.md) instead. It asks you the same questions in conversation and writes this same structure for you.
+Rather answer questions than fill in a worksheet? Use the [Interactive Setup Prompt](interactive-setup-prompt.md). It asks the same questions in conversation and writes this structure for you.
 
 ```text
 You are my AI sales assistant. This is my standing context. Use it for every sales task I bring you, unless I say otherwise for that specific conversation.
@@ -51,7 +51,7 @@ This gets you a capable, well-briefed assistant for general use. For a specific 
 
 ## Before You Use This
 
-- Fill in every bracket. A prompt with unfilled placeholders is worse than no prompt at all.
-- Paste it somewhere standing, your AI tool's custom instructions, project instructions, or system prompt field, not a message that will scroll out of view.
-- Update it when your product, tone, or process changes. This is a living document, not a one-time setup.
-- If your company has an approved or enterprise AI tool, check what you're allowed to paste into it before adding real company or prospect information anywhere, including in this prompt itself.
+- Fill in every bracket. A prompt with blanks left in is worse than no prompt.
+- Paste it somewhere that stays put, such as your AI tool's custom instructions, project instructions or system prompt field. A message will scroll out of view.
+- Update it whenever your product, tone or process changes.
+- If your company has an approved or enterprise AI tool, check what you're allowed to paste into it before you add real company or prospect information anywhere, this prompt included.

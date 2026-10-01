@@ -1,40 +1,40 @@
 # Applied Examples: A Twelve-Run Test That Corrects Its Own Premise
 
-The [stacked figure test](business-case-stacked-figure-test.md) named this as the next question about the Build a Business Case skill. Reading the wording before running anything showed that half the question was my own reporting error, and twelve blind runs then showed the other half is not there either.
+The [stacked figure test](business-case-stacked-figure-test.md) named this as the next question about the Build a Business Case skill. Reading the wording before running anything showed that half the question was my own reporting error. Twelve runs, scored without knowing which version was which, then showed the other half isn't there either.
 
 ## What This Repository Said, and What the Files Say
 
-Two pages here said that the skill and the prompt both ask for three applied examples, and that across six runs the instruction was never followed.
+Two pages here said the skill and the prompt both ask for three applied examples, and that across six runs the instruction was never followed.
 
-**The prompt does ask for three.** In a numbered list headed "Produce the document with these parts", item three is "Three applied examples".
+The prompt does ask for three. In a numbered list headed "Produce the document with these parts", item three is "Three applied examples".
 
-**The skill does not.** Its bullet says "**Applied examples**: three is a good number", in a list where other items say "always present" and "present, with a real figure". The softer wording is doing deliberate work, and the skill also has a stop condition for when the confirmed detail is too thin to personalise the examples at all.
+The skill doesn't. Its bullet says "**Applied examples**: three is a good number", in a list where other items say "always present" and "present, with a real figure". The softer wording is deliberate. The skill also has a stop condition for when the confirmed detail is too thin to tailor the examples at all.
 
-**All six runs in that earlier test were runs of the skill.** So "an instruction that has never once been followed" was measuring compliance with an instruction that artefact does not contain. The prompt's one run produced a single grounded example and said plainly why the other two were absent, which [its own review](aldercroft-business-case-prompt-review.md) recorded as a strength rather than a failure.
+All six runs in that earlier test were runs of the skill. So "an instruction that has never once been followed" was measuring whether the skill obeyed an instruction it doesn't contain. The prompt's one run produced a single grounded example and said plainly why the other two were missing. [Its own review](aldercroft-business-case-prompt-review.md) recorded that as a strength, not a failure.
 
-Four pages carried some version of the wrong claim. They are corrected.
+Four pages carried some version of the wrong claim. I've corrected them.
 
-## The Gap That Was Actually Left
+## The Gap That Was Left
 
-The earlier counts were one, zero, zero, one, zero and one. **Three of those six runs produced no applied example at all**, on a scenario that establishes one manual task in depth. A business case with no worked example has dropped the part that connects a cost to the work, so that is what this test went after.
+The earlier counts were one, zero, zero, one, zero and one. **Three of those six runs produced no applied example at all**, on a scenario that sets out one manual task in depth. A business case with no worked example has dropped the part that links a cost to the work, so that's what this test went after.
 
 ## The Change and the Criterion
 
-One line replaced, and nothing else altered:
+I replaced one line and changed nothing else:
 
 > **Applied examples**: at least one is required, and one for each distinct manual task the sources establish in enough detail to describe. Three is a good number when the source material supports three. If it supports fewer, produce the ones it supports and say plainly which detail is missing, rather than padding to a number or leaving the section out.
 
-**The criterion, written down before any run:** does the output contain at least one applied example that names the specific manual task the transcript establishes, its cost, what the proposed solution addresses, and what changes as a result? All four, which is what the bullet asks of an example. A cost section stating the six-hour estimate is not an applied example, and a sentence mentioning reconciliation in passing is not one either.
+The pass mark, written down before any run: does the output contain at least one applied example that names the specific manual task the transcript sets out, its cost, what the proposed solution addresses, and what changes as a result? It needs all four, because that's what the bullet asks of an example. A cost section giving the six-hour estimate isn't an applied example. Nor is a sentence that mentions reconciliation in passing.
 
-**The falsification condition, also fixed in advance:** if the skill as published produces at least one such example in five or six of its six runs, the earlier three in six was inside its own variation, the change is not needed, and it is not adopted.
+What would count against the change, also fixed in advance: if the published skill produces at least one such example in five or six of its six runs, the earlier three in six was normal variation. Then the change isn't needed, and I don't adopt it.
 
-**Two contingencies, fixed in advance.** If both arms produce six of six, the criterion was too easy, and no further runs get added to rescue a result. Any example that would read the same in another prospect's document is recorded as padding whether or not it meets the criterion.
+Two more rules, fixed in advance. If both versions score six of six, the pass mark was too easy, and I add no runs to rescue a result. Any example that would read the same in another prospect's document counts as padding, whether or not it meets the pass mark.
 
 ## Method
 
-Twelve blind runs on the [Aldercroft transcript](../examples/aldercroft-business-case-transcript.md) with its answer key removed at the line its own warning names, same model, a fresh isolated context each time, no rubric and no access to this repository. Six of the skill as published, six with that one line changed. Every run was made for this test.
+Twelve runs on the [Aldercroft transcript](../examples/aldercroft-business-case-transcript.md), with its answer key removed at the line its own warning names. Same model, a fresh isolated context each time, no rubric and no access to this repository. Six used the skill as published, and six had that one line changed. I made every run for this test.
 
-**The runs were scored without knowing which arm each came from.** The twelve inputs were copied to neutrally named files under a mapping that was generated and never displayed, and the mapping was opened only after all twelve had been scored. This is new here, and it exists because every earlier comparison on this page was scored by someone who knew which version he was reading. A first attempt printed the mapping, so it was thrown away and regenerated.
+I scored the runs without knowing which version each came from. I copied the twelve outputs to neutrally named files under a mapping that was generated but never displayed, and opened the mapping only after scoring all twelve. This is new here. I scored every earlier comparison on this page knowing which version I was reading. A first attempt printed the mapping, so I threw it away and made a new one.
 
 ## Result
 
@@ -43,52 +43,52 @@ Twelve blind runs on the [Aldercroft transcript](../examples/aldercroft-business
 | Skill as published | 6 | **6** |
 | Skill with the line | 6 | **6** |
 
-**Twelve of twelve. The falsification condition was met and the change is not adopted.** No Fisher test is offered, because there is nothing to test: both arms passed completely.
+**12 of 12. The published skill passed often enough that the change isn't needed, so I'm not adopting it.** There's no significance test to run, because both versions passed completely.
 
-**No run produced a second or third example.** Zero padding across twelve runs, which is the one thing the guardrail against generic examples was there to prevent.
+No run produced a second or third example. There was no padding in any of the 12, and padding is the one thing the guardrail against generic examples was there to prevent.
 
-## What the Runs Actually Did
+## What the Runs Did
 
-Every one built a single example around reconciliation matching: the twelve analysts, the six-hour estimate labelled as Tomasz's own untimed observation, the line-by-line matching as the work the pilot would take over, and the half-or-more reduction as a gut feel formed from a demo. Seven gave it an "Applied example" heading of its own. Five put the same four things under a heading about the manual task instead, which the criterion counts, because the criterion was about content rather than labelling.
+Every run built a single example around reconciliation matching: the 12 analysts, the six-hour estimate labelled as Tomasz's own untimed observation, the line-by-line matching as the work the pilot would take over, and the reduction of half or more as a gut feel formed from a demo. Seven gave it its own "Applied example" heading. Five put the same four things under a heading about the manual task instead. The pass mark counts those, because it was about content, not labels.
 
-The weakest of the twelve against the criterion never states what the proposed solution addresses in its own words, describing the problem, the two cost inputs and the expected reduction instead. It is the run a second scorer is most likely to mark differently, and it turned out to be in the arm carrying the changed line.
+The weakest of the twelve never says in its own words what the proposed solution addresses. It describes the problem, the two cost inputs and the expected reduction instead. It's the run a second scorer would most likely mark differently, and it turned out to use the changed line.
 
-## A Post-Hoc Observation With No Claim Attached
+## Something I Noticed Afterwards, With No Claim Attached
 
-Six of the twelve said explicitly why there is only one example, usually naming the accounts payable aside that was ruled out on the call. Split by arm that is four of six with the changed line against two of six without it, one-tailed p of 0.28.
+Six of the 12 said why there's only one example, usually naming the accounts payable aside that was ruled out on the call. By version, that's four of six with the changed line and two of six without it, a one-tailed p of 0.28.
 
-**This was not the criterion, it was noticed afterwards, and six runs a side cannot separate it from nothing.** It is recorded here rather than acted on because the last test on this skill produced a published claim from exactly this kind of cell and had to be corrected. If it is worth testing, it needs its own pre-registration and its own runs.
+**This wasn't the pass mark, I noticed it afterwards, and six runs a side can't tell it from chance.** I've recorded it rather than acted on it, because the last test on this skill turned exactly this kind of cell into a published claim that later had to be corrected. If it's worth testing, it needs its own pass mark decided in advance, and its own runs.
 
 ## Why the Earlier Count Cannot Be Rechecked
 
-The earlier counts were counts of how many of three appeared. On this test's criterion that is three of six, against six of six here.
+The earlier counts were of how many of three appeared. On this test's pass mark, that's three of six, against six of six here.
 
-**That is not a before-and-after comparison and no p value is offered for one.** Five of those six outputs were never published, so whether the three zeros were real cannot now be checked. The skill has also changed since, gaining the stacked figure guardrail, the em dash rule and the human check line, so the two sets of runs were given different files.
+**That isn't a before-and-after comparison, and I offer no p value for one.** Five of those six outputs were never published, so I can't now check whether the three zeros were real. The skill has also changed since, gaining the stacked figure guardrail, the em dash rule and the human check line, so the two sets of runs read different files.
 
-What can be checked is that all three published Aldercroft outputs contain an applied example: the [prompt output](../examples/aldercroft-business-case-prompt-output.md) under a heading of its own, the [check requirement output](../examples/aldercroft-business-case-check-requirement-output.md) likewise, and the [guardrail output](../examples/aldercroft-business-case-guardrail-output.md) under headings about the problem and what the pilot would test.
+What I can check is that all three published Aldercroft outputs contain an applied example: the [prompt output](../examples/aldercroft-business-case-prompt-output.md) under its own heading, the [check requirement output](../examples/aldercroft-business-case-check-requirement-output.md) too, and the [guardrail output](../examples/aldercroft-business-case-guardrail-output.md) under headings about the problem and what the pilot would test.
 
 ## Two Things the Input Carried, Recorded Before Running
 
-Both arms carried them identically, so neither is a differential confound, and neither mentions applied examples.
+Both versions carried them the same way, so neither can explain a difference between them, and neither mentions applied examples.
 
-- **The skill's own evidence footer** tells the model that the Aldercroft scenario's live traps are an unmeasured time estimate and an unconfirmed future headcount, and describes the stacked figure defect and its guardrail. This is the dual-purpose problem the [stacked figure test](business-case-stacked-figure-test.md) already recorded: documentation written for a human reader reaches the model.
-- **The transcript's fictional-disclosure blockquote names those same two traps, and it sits above the re-run line.** Anyone following the instruction to copy everything above that line hands the model part of the answer key. That is a defect in the re-run instruction rather than in the skill, and it affects every earlier test on this transcript. Scoping it properly afterwards found the same thing in fifteen published inputs and six skill footers, all now fixed.
+- The skill's own evidence footer tells the model that the Aldercroft scenario's live traps are an unmeasured time estimate and an unconfirmed future headcount, and describes the stacked figure defect and its guardrail. The [stacked figure test](business-case-stacked-figure-test.md) already recorded this problem: notes written for a human reader reach the model.
+- The fictional-disclosure blockquote in the transcript names the same two traps, and it sits above the re-run line. Anyone who copies everything above that line, as told, hands the model part of the answer key. That's a fault in the re-run instruction, not the skill, and it affects every earlier test on this transcript. When I checked properly afterwards, I found the same thing in 15 published inputs and six skill footers. All are now fixed.
 
 ## What This Test Cannot Prove
 
-- One scenario, one model. Aldercroft establishes one manual task in depth, so this says nothing about a source that genuinely supports three examples.
-- Twelve runs on a criterion both arms passed completely establishes that the change is unnecessary here. It does not establish that the current wording is the best available.
-- Blind scoring removes one bias and leaves the others. I wrote the criterion, wrote the change, and scored every run.
-- It says nothing about the prompt, which is the artefact that actually asks for three.
+- One scenario, one model. Aldercroft sets out one manual task in depth, so this says nothing about a source that really supports three examples.
+- Twelve runs on a pass mark both versions passed completely show the change isn't needed here. They don't show the current wording is the best there is.
+- Scoring without knowing the version removes one bias and leaves the others. I wrote the pass mark, wrote the change and scored every run.
+- It says nothing about the prompt, which is the file that asks for three.
 
 ## What Changed
 
-**Nothing in the skill.** "Three is a good number" stays exactly as it is, and the case for changing it rested on a defect that six fresh runs did not reproduce once.
+**Nothing in the skill.** "Three is a good number" stays as it is. The case for changing it rested on a fault that six fresh runs didn't reproduce once.
 
-The four pages carrying the wrong claim are corrected in place.
+I've corrected the four pages that carried the wrong claim.
 
 ## The Change to Test Next
 
-That was [tested over twelve runs](business-case-padding-test.md) and it does not: no run in either arm produced an ungrounded example, and all twelve produced exactly one and said why there were not three.
+The next question was whether the prompt's firm "Three applied examples" causes padding on a source that supports only one. I [tested that over 12 runs](business-case-padding-test.md), and it doesn't. No run in either version produced an ungrounded example, and all 12 produced exactly one and said why there weren't three.
 
-That test found something else while looking. **Nine of its twelve runs produced the stacked figure**, the defect the guardrail was written for, because the guardrail is in the skill and not in the prompt. Adding it to the prompt is the change now named next, with nine of twelve as its baseline.
+That test found something else along the way. **Nine of its 12 runs produced the stacked figure**, the fault the guardrail was written for, because the guardrail is in the skill but not the prompt. Adding it to the prompt is now the next change to test, starting from nine of 12.

@@ -4,7 +4,7 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Auditing a CRM export for the structural problems that quietly make it unreliable: duplicates, missing fields, stale records and dates that do not fit the stage, without touching anything or judging why a specific deal has stalled.
+Checking a CRM export for the problems that quietly make it unreliable: duplicates, missing fields, stale records and dates that don't fit the stage. It changes nothing and doesn't judge why a deal has stalled.
 
 ## You need
 
@@ -12,7 +12,7 @@ A CRM export or list covering the records you want checked: company, contact, ow
 
 ## You'll get
 
-Likely and possible duplicates kept clearly separate, records missing critical fields, stale records, and dates that do not fit their stage, all flagged for a person to act on.
+Likely and possible duplicates kept apart, records missing key fields, stale records, and dates that don't fit their stage, all flagged for a person to act on.
 
 <!-- prompts:begin -->
 
@@ -69,22 +69,22 @@ Also: [Prompt](../templates/crm-hygiene-review-prompt.md) · [Worked example](..
 
 ## The AI cannot decide
 
-- Whether two similar-looking records are actually the same company
-- Whether a record that looks complete is genuinely current rather than stale
+- Whether two similar-looking records are the same company
+- Whether a record that looks complete is current or stale
 
 ## You must check
 
-- Every likely duplicate is confident, based on more than a similar-sounding name
-- Possible duplicates are kept separate and flagged for your check, not merged
-- The review stops at flagging a date, not diagnosing why the deal stalled
+- Every likely duplicate rests on more than a similar-sounding name
+- Possible duplicates are kept apart and flagged for you to check, not merged
+- The review flags a date and stops there, without guessing why the deal stalled
 
 ## Then
 
-Confirm any suggested duplicate yourself before merging, and make every field correction and CRM change directly; nothing here merges, deletes or changes a record on its own.
+Confirm any suggested duplicate yourself before merging, and make every correction in the CRM yourself. Nothing here merges, deletes or changes a record on its own.
 
 ---
 
-Want the fuller method or where this stops and the pipeline evidence review starts? Open the [workflow](../workflows/08-crm-hygiene-review.md) itself.
+For the fuller method, and where this stops and the pipeline evidence review starts, open the [workflow](../workflows/08-crm-hygiene-review.md).
 
 ---
 

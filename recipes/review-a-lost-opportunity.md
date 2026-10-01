@@ -4,7 +4,7 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Working out honestly whether a deal that did not close is actually over, or just blocked, before deciding whether there is a real way back in.
+Working out whether a deal that didn't close is over or just blocked, before you decide whether there's a real way back in.
 
 ## You need
 
@@ -12,7 +12,7 @@ CRM history, the final message or stated reason, and anything you know about wha
 
 ## You'll get
 
-- What was actually said kept separate from what is being assumed
+- What was said, kept apart from what is assumed
 - The most likely reason it did not close
 - Whether the underlying problem still exists
 - What, if anything, would justify approaching it again
@@ -67,21 +67,21 @@ Also: [Prompt](../templates/lost-opportunity-review-prompt.md) · [Skill](../.ag
 
 ## The AI cannot decide
 
-Whether this is genuinely a disqualification versus a paused opportunity, when the stated reason blends more than one factor together.
+Whether this is a disqualification or a paused opportunity, when the stated reason mixes more than one factor.
 
 ## You must check
 
 - The stated reason is kept separate from what you are inferring
-- A genuine disqualification is labelled that only because the evidence actually supports it
+- Anything labelled a disqualification is labelled that because the evidence supports it
 - Any reason to revisit later is specific, not vague hope
 
 ## Then
 
-Decide whether and when to re-approach yourself; do not let this become a reason to chase someone who has clearly said no.
+Decide yourself whether and when to go back. Don't let this become a reason to chase someone who has clearly said no.
 
 ---
 
-Want the fuller method or how to classify the type of loss? Open the [workflow](../workflows/04-lost-opportunity-review.md) itself.
+For the fuller method, including how to sort the type of loss, open the [workflow](../workflows/04-lost-opportunity-review.md).
 
 ---
 

@@ -1,18 +1,18 @@
 # The Ledger Step on the Skill: A Twelve-Run Test
 
-The [prompt test](chase-dated-commitment-ledger-test.md) adopted a dated commitment ledger step at five of six against two of six, and named the obvious limit: the step was in the prompt only, and the skill is a different artefact with a longer instruction sheet. This tests it there.
+The [prompt test](chase-dated-commitment-ledger-test.md) adopted a dated commitment ledger step, at five of six against two of six. It also named the obvious limit: the step was only in the prompt, and the skill is a different thing with longer instructions. This page tests it in the skill.
 
-**It is the clearest result on this thread, and it also shows a prediction I wrote down and got wrong.**
+**It's the clearest result on this thread, and it shows a prediction I wrote down and got wrong.**
 
 ## The Prediction, Written Down Before Running
 
-I expected the skill without the step to do better at this than the prompt without it, because the [repeat run findings](repeat-run-findings.md) record two runs of the skill showing this clash on the harder version of the scenario, where it could only be inferred.
+I expected the skill without the step to beat the prompt without it. The [repeat run findings](repeat-run-findings.md) record two runs of the skill spotting this clash on the harder version of the scenario, where it could only be inferred.
 
-**That was wrong in the direction that would have flattered the skill.** It scored zero of six where the prompt scored two of six.
+**I was wrong, in the direction that would have flattered the skill.** It scored zero of six where the prompt scored two of six.
 
 ## The Change
 
-One section inserted before "Decide the Next Move", worded as the prompt's paragraph is:
+I added one section before "Decide the Next Move", worded like the prompt's paragraph:
 
 > ## Build a Dated Commitment Ledger Before Deciding
 >
@@ -20,16 +20,16 @@ One section inserted before "Decide the Next Move", worded as the prompt's parag
 
 ## The Criterion and Two Ways to Fail
 
-**The criterion** is the one used for the prompt test and the weekday re-run, so all three are comparable: does the output state that the promised Thursday afternoon falls inside Alex's leave, or that the leave began before the promised date, as a fact drawn from the dates? Naming it as an unknown to confirm is not a yes.
+**The pass mark** is the same as in the prompt test and the weekday re-run, so all three compare. Does the output say that the promised Thursday afternoon falls inside Alex's leave, or that the leave began before the promised date, as a fact taken from the dates? Naming it as an unknown to confirm doesn't count.
 
-Both failure conditions were fixed before any run:
+I set both ways to fail before any run:
 
-- **The step does not transfer**, if the ledger arm states the clash in two or fewer of six.
-- **The step is unnecessary**, if the skill without the step states it in four or more of six. Adding an instruction for behaviour that is already happening is what the [check requirement test](business-case-check-requirement-test.md) rejected.
+- **The step doesn't carry over**, if the version with the ledger states the clash in two or fewer of six.
+- **The step isn't needed**, if the skill without it states the clash in four or more of six. Adding an instruction for something already happening is what the [check requirement test](business-case-check-requirement-test.md) rejected.
 
 ## Method
 
-Twelve blind runs on the current chase scenario, answer key removed at the line its own warning names, same model, a fresh isolated context each time, no rubric and no access to this repository. Six of the skill as it stood before the step, six with the section inserted. **The skill now carries the step**, so "published" today means the second of those, and the arms below are named for what they contain rather than for what was published at the time. Both arms fresh: neither the prompt test's runs nor the two older skill runs were reused. Scored without knowing which arm each run came from.
+Twelve runs on the current chase scenario, with the answer key removed at the line its own warning names. Same model, a fresh context each time, no rubric and no access to this repository. Six used the skill as it stood before the step, and six had the new section. **The skill now has the step**, so "published" today means the second of those. I've named the versions below for what they contain, not for what was published at the time. Both sets were fresh: I didn't reuse the prompt test's runs or the two older skill runs. I scored them without knowing which version each came from.
 
 ## Result
 
@@ -38,42 +38,42 @@ Twelve blind runs on the current chase scenario, answer key removed at the line 
 | Skill without the step | 6 | **0** |
 | Skill with the step | 6 | **6** |
 
-**Complete separation.** Fisher's exact, one-tailed, gives p = 0.0011. Neither failure condition fired, so the step is adopted into the skill.
+**The two sets didn't overlap at all.** A one-tailed Fisher's exact test gives p = 0.0011. Neither way to fail happened, so the skill now has the step.
 
-This is a stronger result than the prompt's five of six against two of six, and the reason is not that the skill responds better to the step. It is that **the skill was worse at this to begin with**, so there was more room.
+This beats the prompt's five of six against two of six. That's not because the skill responds better to the step. **The skill was worse at this to start with**, so it had more room to improve.
 
 ## Why the Earlier Record Looked Like the Opposite
 
-The repeat run findings say the skill "showed the conflict between the promised Thursday transcript and the leave dates rather than calling the transcript overdue". That reads like a contradiction of zero of six, so the published output was checked directly rather than reasoned about.
+The repeat run findings say the skill "showed the conflict between the promised Thursday transcript and the leave dates rather than calling the transcript overdue". That seems to contradict zero of six, so I checked the published output itself rather than reasoning about it.
 
-[It says](../examples/hartwell-chase-output.md): "Whether the earlier Thursday timing still stands. The later leave dates suggest it does not, but Alex has not confirmed that directly." That is under a heading of things to confirm, and it is exactly the hedged form this criterion counts as a no.
+[It says](../examples/hartwell-chase-output.md): "Whether the earlier Thursday timing still stands. The later leave dates suggest it does not, but Alex has not confirmed that directly." That sits under a heading of things to confirm. It's exactly the hedged form this pass mark counts as a no.
 
-**So the earlier scoring was looser than this criterion, not a different result.** Both records are accurate about what they measured, and the [repeat run findings](repeat-run-findings.md) now says so.
+**So the earlier scoring was looser than this pass mark. It wasn't a different result.** Both records are accurate about what they measured, and the [repeat run findings](repeat-run-findings.md) now say so.
 
 ## The Step Worked and Half Its Instruction Did Not
 
-**Five of the six ledger runs printed the ledger**, as a numbered list of dates followed by a "Collisions" section, despite the instruction saying it is a working step and not part of the finished output.
+**Five of the six ledger runs printed the ledger**, as a numbered list of dates followed by a "Collisions" section. The instruction says it's a working step and not part of the finished output.
 
-In the prompt test, none of the six did that. The difference is placement: in the prompt the step is a paragraph above the list of output sections, and in the skill it is a `##` section among other `##` sections that do describe output. **The same words in a different position produced the opposite behaviour on that half of the instruction.**
+In the prompt test, none of the six did that. The difference is where the step sits. In the prompt it's a paragraph above the list of output sections. In the skill it's a `##` section among other `##` sections that do describe output. **The same words in a different place produced the opposite result on that half of the instruction.**
 
-Whether that matters is a judgement rather than a finding. A collision table is arguably useful to a reader, and the instruction not to print it was written to keep the output clean. It is named at the bottom of this page rather than quietly reworded, since no test here supports either choice.
+Whether that matters is a judgement, not a finding. A table of clashes may help a reader, and I wrote the instruction not to print it to keep the output clean. I've named it at the bottom of this page rather than quietly rewording it, since no test here backs either choice.
 
-**This has since replicated, and then been settled.** The [no-collision test](chase-no-collision-test.md) found the same five of six printing it on a different scenario, so it was a property of the section form rather than a one-off. A [third test](chase-ledger-printing-test.md) then found the printing can be stopped by saying so explicitly, at zero of six against six of six, without costing the date clash the step exists for. The instruction is now the strengthened version.
+**This has since happened again, and been settled.** The [no-collision test](chase-no-collision-test.md) found the same five of six printing it on a different scenario, so it came from the section format, not chance. A [third test](chase-ledger-printing-test.md) found that saying so outright stops the printing, at zero of six against six of six, without losing the date clash the step is there to catch. The skill now uses the stronger wording.
 
 ## What Did Not Move
 
-**All twelve runs decided to wait rather than chase**, which makes it forty-eight for forty-eight across the four tests on this thread. Every one of these tests has been about one supporting fact inside a correct decision.
+**All 12 runs decided to wait rather than chase.** That makes it 48 out of 48 across the four tests on this thread. Every one of these tests has been about one supporting fact inside a correct decision.
 
-A [fifth test](chase-no-collision-test.md) later broke that run, by design: on a scenario with no stated reason for the silence, all twelve of its runs chose to chase now instead, in both arms.
+A [fifth test](chase-no-collision-test.md) later broke that streak on purpose. On a scenario with no stated reason for the silence, all 12 of its runs chose to chase now instead, in both versions.
 
 ## What This Test Cannot Prove
 
-- Six runs an arm, one scenario, one model, and a criterion written and applied by the same person. Blind scoring removes knowing the arm and nothing else.
-- p = 0.0011 on this criterion, this scenario, this model. It says nothing about a chase scenario with no date clash in it, which none of these twelve runs was. That gap has since been [tested separately](chase-no-collision-test.md) and neither arm invented a collision there.
-- Perfect separation on six a side is easy to over-read. The zero of six without the step is a single measurement of a cell that moved from one of six to two of six between sessions on the prompt.
+- Six runs a version, one scenario, one model, and I wrote and applied the pass mark myself. Scoring without knowing the version removes that one bias and nothing else.
+- p = 0.0011 holds for this pass mark, this scenario and this model. It says nothing about a chase scenario with no date clash, and none of these 12 runs had one. I've since [tested that separately](chase-no-collision-test.md), and neither version invented a clash there.
+- A perfect split on six a side is easy to over-read. The zero of six without the step is one measurement of a result that moved from one of six to two of six between sessions on the prompt.
 
 ## The Change to Test Next
 
-The first of the two things this page named has been done: on a [scenario with no colliding dates](chase-no-collision-test.md), neither arm invented one and the step's own clause about saying nothing collides was followed five times in six.
+I've done the first of the two things this page named. On a [scenario with no clashing dates](chase-no-collision-test.md), neither version invented one, and the step's clause about saying when nothing clashes was followed five times in six.
 
-The second, whether the ledger should be printed, was [tested too](chase-ledger-printing-test.md), by asking first whether the instruction could be made to hold at all. It can, and it now does. That does not settle whether the shorter output is better, but it does put a number on the trade: the printed ledger is about 139 words, roughly a quarter of the output.
+The second, whether the ledger should be printed, I [tested too](chase-ledger-printing-test.md), by first asking whether the instruction could be made to hold at all. It can, and now does. That doesn't settle whether the shorter output is better, but it puts a number on the trade: the printed ledger is about 139 words, roughly a quarter of the output.

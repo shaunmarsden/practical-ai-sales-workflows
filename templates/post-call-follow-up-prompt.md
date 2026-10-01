@@ -43,6 +43,6 @@ Rules:
 
 - Check every name, number and date
 - Check the action owner
-- Remove anything the customer did not actually say
+- Remove anything the customer didn't say
 - Replace any email placeholders
 - Approve the email and CRM notes yourself

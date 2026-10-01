@@ -1,46 +1,46 @@
 # Selective Installation
 
-Seventeen skills, fifteen workflows, and growing. Loading the entire `.agents/skills/` folder into one assistant, project, or Custom GPT works, but it means every conversation carries instructions for jobs that conversation was never going to need, which can crowd out the instruction that actually matters for the task at hand. This guide is about loading less, deliberately, rather than everything by default.
+Seventeen skills, fifteen workflows, and more coming. Loading the whole `.agents/skills/` folder into one assistant, project or Custom GPT works. But then every conversation carries instructions for jobs it was never going to need, and they can crowd out the one that matters for the task. This guide is about choosing to load less, rather than loading everything by default.
 
-This is a mechanical, per-platform question, not a "which skills should I use" one. For that decision, use [Choose Your Route by Role](role-based-routes.md) if you want a subset grouped by job title. Once a specific set of skills is chosen, this guide covers how to actually load only those into a given tool.
+This is a practical question about each platform, not a "which skills should I use" one. For that choice, use [Choose Your Route by Role](role-based-routes.md) if you want a set grouped by job title. Once you've chosen your skills, this guide covers how to load only those into your tool.
 
 ## Why This Matters More As the Library Grows
 
-A single skill's core `SKILL.md`, kept short and pushing deeper material into supporting files, is not the problem on its own. The problem is loading all seventeen at once into a context a single conversation will only ever use one or two of. Two concrete costs:
+One skill's core `SKILL.md`, kept short with the deeper material in supporting files, isn't the problem. The problem is loading all seventeen at once when a conversation will only ever use one or two. That costs you in two ways:
 
-- **Relevance dilution.** An assistant asked to draft a follow-up email, with all seventeen skills loaded, has sixteen irrelevant instruction sets competing for attention against the one that actually applies.
-- **A skill meant to stop a task can get missed.** A guardrail buried in skill six of seventeen is easier to miss than one in the only skill loaded for this specific job.
+- The right instructions get drowned out. Ask an assistant with all seventeen skills loaded to draft a follow-up email, and 16 irrelevant sets of instructions compete for its attention with the one that applies.
+- A skill meant to stop a task can get missed. A guardrail buried in skill six of seventeen is easier to miss than one in the only skill loaded for this job.
 
 ## How to Load a Subset, by Platform
 
 <details>
 <summary><strong>Claude</strong></summary>
 
-Attach only the specific skill folders you actually need to a Project's knowledge, rather than the whole `.agents/skills/` directory. A skill's `references/`, `templates/` and `checks/` subfolders belong with it; attach the whole skill folder, not just its `SKILL.md`, or the skill will be missing the material it explicitly tells the assistant to load.
+Attach only the skill folders you need to a Project's knowledge, not the whole `.agents/skills/` directory. A skill's `references/`, `templates/` and `checks/` subfolders belong with it. Attach the whole skill folder, not just its `SKILL.md`, or the skill will be missing the material it tells the assistant to load.
 
 </details>
 
 <details>
 <summary><strong>ChatGPT</strong></summary>
 
-Upload only the relevant skill's Markdown files to a Custom GPT's knowledge, in the same complete-folder way as above. A Custom GPT built around one specific job, for example chase-sequence planning, only needs that skill's own files, not the rest of the library.
+Upload only the skill's Markdown files to a Custom GPT's knowledge, taking the whole folder as above. A Custom GPT built around one job, such as planning a chase sequence, only needs that skill's files, not the rest of the library.
 
 </details>
 
 <details>
 <summary><strong>Gemini</strong></summary>
 
-Build a Gem around one task and attach only that task's skill files. A Gem is already a natural fit for "one Gem per job" rather than one Gem carrying the entire library.
+Build a Gem around one task and attach only that task's skill files. Gems already suit "one Gem per job" better than one Gem carrying the whole library.
 
 </details>
 
 <details>
 <summary><strong>Copilot</strong></summary>
 
-If your organisation allows building a custom agent, scope its knowledge the same way: the specific skill's files, not the full folder. If a custom agent is not available to you, a saved prompt built from one skill's own instructions works as a lighter equivalent.
+If your organisation lets you build a custom agent, limit its knowledge the same way: one skill's files, not the full folder. If you can't build a custom agent, a saved prompt made from one skill's instructions is a lighter way to do the same thing.
 
 </details>
 
 ## When Loading Everything Is Still Fine
 
-None of this is a rule against ever loading the full library. Exploring the repository, or deciding which skills actually fit your role before narrowing down, are both good reasons to have everything available for a session. The [workflow router](workflow-router.md) is itself a single, small skill file that only needs its own routing table loaded, not the rest of the library, so using it does not conflict with loading a narrow subset everywhere else. The guidance above is for the steady-state case: a Project, Custom GPT, or Gem used every day for one or two specific jobs, where the rest of the library is dead weight in every single conversation.
+None of this means you should never load the full library. Exploring the repository, or working out which skills fit your role before you narrow down, are both good reasons to have everything to hand for a session. The [workflow router](workflow-router.md) is one small skill file that only needs its own routing table, not the rest of the library, so using it doesn't clash with loading a narrow set everywhere else. The advice above is for everyday use: a Project, Custom GPT or Gem used daily for one or two jobs, where the rest of the library is dead weight in every conversation.

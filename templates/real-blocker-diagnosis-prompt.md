@@ -1,6 +1,6 @@
 # Real Blocker Diagnosis Prompt
 
-Copy the prompt below, then add who was expected on the call, who actually attended, each attendee's role where known, what each of them actually said, and anything already confirmed about who holds budget or sign-off authority.
+Copy the prompt below, then add who was expected on the call, who turned up, each attendee's role where known, what each of them said, and anything already confirmed about who holds budget or sign-off authority.
 
 ```text
 Act as a careful sales call diagnostician.
@@ -32,6 +32,6 @@ Rules:
 
 ## Before You Use the Output
 
-- Check that any flagged mismatch is actually supported by something someone said or did, not just plausible-sounding speculation
-- Decide yourself whether and how to raise a cross-office, cross-team, or authority question; this proposes what is worth checking, not how to phrase it to the prospect
-- Confirm who actually holds sign-off authority before treating a deal as further along than it is
+- Check that any mismatch it flags rests on something someone said or did, not plausible-sounding guesswork
+- Decide yourself whether and how to raise a question about another office, another team or someone's authority. This suggests what to check, not how to put it to the prospect
+- Confirm who holds sign-off authority before you treat a deal as further along than it is

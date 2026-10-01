@@ -4,7 +4,7 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Passing an opportunity to another person, team or stage without losing useful context or making the deal sound further along than it actually is.
+Passing an opportunity to another person, team or stage without losing useful context or making the deal sound further along than it is.
 
 ## You need
 
@@ -88,7 +88,7 @@ Also: [Prompt](../templates/opportunity-handover-prompt.md) · [Skill](../.agent
 ## The AI cannot decide
 
 - Whether a stakeholder's interest is as firm as it reads in the notes
-- What the receiving person still genuinely needs to check before taking this on
+- What the new owner still needs to check before taking it on
 
 ## You must check
 
@@ -98,11 +98,11 @@ Also: [Prompt](../templates/opportunity-handover-prompt.md) · [Skill](../.agent
 
 ## Then
 
-Talk it through with the receiving person, confirm they have accepted ownership of the next action, and correct any gaps together before it is treated as complete.
+Talk it through with the new owner. Confirm they've taken on the next action, and fill any gaps together before you treat the handover as done.
 
 ---
 
-Want the fuller method or what a complete handover should actually contain? Open the [workflow](../workflows/03-opportunity-handover.md) itself.
+For the fuller method, including what a complete handover should contain, open the [workflow](../workflows/03-opportunity-handover.md).
 
 ---
 

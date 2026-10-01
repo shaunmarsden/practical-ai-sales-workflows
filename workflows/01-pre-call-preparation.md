@@ -8,7 +8,7 @@ Turn scattered account information into one short call card you can use during t
 | --- | --- |
 | **Use this when** | You have a sales call and the useful context is spread across different places |
 | **What you need** | Contact details, meeting purpose, relevant notes and approved public information |
-| **What you get** | A concise call card with facts, gaps, questions and conversation paths |
+| **What you get** | A short call card with facts, gaps, questions and conversation paths |
 | **Your responsibility** | Check the facts and decide what is appropriate to use |
 
 ## 🔄 How It Works
@@ -26,7 +26,7 @@ flowchart TB
 - [Use the Pre Call Card template](../templates/pre-call-card.md)
 - [Use the reusable Prepare for a Sales Call skill](../.agents/skills/prepare-for-sales-call/SKILL.md)
 - [See the completed Hartwell skill output](../examples/hartwell-pre-call-skill-output.md) and its [honest review](../evaluations/hartwell-pre-call-review.md)
-- Once your card is done, [practise pushback before the call](../templates/pre-call-objection-roleplay-prompt.md), optional, [see what it produces](../examples/hartwell-pre-call-roleplay.md)
+- Once your card is done, you can [practise pushback before the call](../templates/pre-call-objection-roleplay-prompt.md) if you like, and [see what it produces](../examples/hartwell-pre-call-roleplay.md)
 
 <details>
 <summary><strong>See the information you need</strong></summary>
@@ -48,27 +48,27 @@ Do not include passwords, payment information, sensitive personal data, confiden
 
 ### 1. Define the Job of the Call
 
-Write one sentence describing what a good outcome looks like. For an early conversation, this may simply be confirming whether a problem is important enough to explore further.
+Write one sentence saying what a good outcome looks like. For an early conversation, that may just be finding out whether a problem matters enough to explore.
 
 ### 2. Build a Compact Account Snapshot
 
 Organise the approved inputs into confirmed company facts, contact context, relevant previous interactions and missing information.
 
-Require links or source labels for public claims. If something cannot be verified, label it as an assumption.
+Ask for a link or source for every public claim. If you can't check something, label it as an assumption.
 
 ### 3. Form a Relevance Hypothesis
 
-Create a short, testable idea connecting the prospect's likely situation to the problem you help solve.
+Write a short idea you can test, linking the prospect's likely situation to the problem you solve.
 
 **Avoid:** "They need AI."
 
 **Try:** "If the revenue operations team is manually consolidating call notes and CRM updates, reducing that administration may be worth exploring."
 
-The hypothesis is a starting point for a question, not a claim about the prospect.
+This idea is the start of a question, not a claim about the prospect.
 
 ### 4. Prepare the Conversation Paths
 
-Prepare three lightweight routes:
+Prepare three simple routes:
 
 - The contact recognises the problem
 - The initial idea is wrong or not a priority
@@ -76,7 +76,7 @@ Prepare three lightweight routes:
 
 ### 5. Run the Human Check
 
-Confirm the person and company are correct, factual claims have sources, assumptions are labelled and the questions invite discovery.
+Confirm the person and company are correct, factual claims have sources, assumptions are labelled and the questions help you find things out.
 
 </details>
 
@@ -91,7 +91,7 @@ Create a concise pre call card using the supplied template. Separate confirmed f
 Keep the card practical enough to scan during a live call. The salesperson will verify the output and decide what to use.
 ```
 
-Attach the completed template and your approved source material beneath the instruction.
+Paste the completed template and your approved sources underneath the instruction.
 
 </details>
 
@@ -99,7 +99,7 @@ Attach the completed template and your approved source material beneath the inst
 
 - Is the named person and company correct?
 - Can you trace every factual claim to a source?
-- Are assumptions clearly labelled?
+- Are assumptions labelled?
 - Do the questions sound natural?
 - Is the next step right for this stage?
 
@@ -108,9 +108,9 @@ Attach the completed template and your approved source material beneath the inst
 - Preparation time
 - Factual corrections needed
 - Whether the card helped produce a clear next step
-- Which parts you actually used during the call
+- Which parts you used during the call
 
-The aim is better preparation with less avoidable effort, not more text.
+The aim is better preparation with less wasted effort, not more text.
 
 ## 💬 Tried It?
 

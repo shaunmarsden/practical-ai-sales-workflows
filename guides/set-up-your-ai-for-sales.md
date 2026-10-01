@@ -1,6 +1,6 @@
 # Set Up Your Own AI for Sales
 
-Most people get a fraction of what a modern AI tool can do because every conversation starts from a blank page. Setting it up once with real context about you and your job changes that, and it is a one-sitting task, not an ongoing commitment.
+Most people get a fraction of what an AI tool can do, because every conversation starts from a blank page. Setting it up once with real context about you and your job changes that. It takes one sitting, not an ongoing effort.
 
 ```mermaid
 flowchart TB
@@ -14,15 +14,15 @@ flowchart TB
 
 ### 🧩 Set Up Once, Reuse Every Conversation
 
-This is not a prompt you retype each time. It is standing context that applies automatically, the same way a good new starter briefing only has to happen once.
+This isn't a prompt you retype each time. It's standing context that applies by itself, just as a good briefing for a new starter only has to happen once.
 
 ### 🗣️ Generic Input Gets Generic Output
 
-An AI tool told nothing about your product, your buyer, or your tone will write like a template. The [About Me Worksheet](../templates/about-me-worksheet.md) is what fixes that, not a cleverer prompt.
+An AI tool told nothing about your product, your buyer or your tone will write like a template. The [About Me Worksheet](../templates/about-me-worksheet.md) fixes that. A cleverer prompt doesn't.
 
 ### 🔐 Check What You're Allowed to Paste
 
-Standing instructions are a good place for your own tone and process. They are not automatically a safe place for real company or customer information. Check your employer's policy before adding anything beyond your own working style.
+Standing instructions are a good place for your own tone and process. That doesn't make them a safe place for real company or customer information. Check your employer's policy before adding anything beyond your own working style.
 
 ## Do This
 
@@ -34,31 +34,31 @@ Standing instructions are a good place for your own tone and process. They are n
 <details>
 <summary><strong>Where do I paste this in Claude?</strong></summary>
 
-Inside a Claude Project, the project's custom instructions field. Anything there applies to every conversation inside that project. Exact menu wording changes from time to time, so look for "instructions" or "how Claude should behave" in your project's settings.
+Inside a Claude Project, use the project's custom instructions field. Anything there applies to every conversation in that project. Menu wording changes from time to time, so look for "instructions" or "how Claude should behave" in your project's settings.
 
 </details>
 
 <details>
 <summary><strong>Where do I paste this in ChatGPT?</strong></summary>
 
-Either the account-wide custom instructions setting, which applies to every new conversation, or a Custom GPT's own instructions field, which applies only inside that GPT. Use the account-wide setting unless you specifically want a separate, dedicated assistant.
+Use either the account-wide custom instructions setting, which applies to every new conversation, or a Custom GPT's instructions field, which applies only inside that GPT. Use the account-wide setting unless you want a separate assistant just for this.
 
 </details>
 
 <details>
 <summary><strong>Where do I paste this in Gemini?</strong></summary>
 
-Saved information or a Gem's own instructions, depending on which Gemini surface you use. A Gem behaves like a dedicated assistant built around this prompt, similar to a Custom GPT.
+Use saved information or a Gem's instructions, depending on which version of Gemini you use. A Gem works like a separate assistant built around this prompt, much like a Custom GPT.
 
 </details>
 
 <details>
 <summary><strong>Where do I paste this in Copilot?</strong></summary>
 
-Saved instructions or a custom agent's instructions, depending on your organisation's setup. If Copilot is the only AI tool your company gives you, that is genuinely common and everything in this guide still applies; the main difference is that whoever administers Copilot at your company controls more of the setup than you would in a personal ChatGPT or Claude account, so it is worth asking them directly what is already available rather than assuming the option does not exist.
+Use saved instructions or a custom agent's instructions, depending on how your organisation has set it up. If Copilot is the only AI tool your company gives you, that's common, and everything in this guide still applies. The main difference is that whoever runs Copilot at your company controls more of the setup than you would in a personal ChatGPT or Claude account. Ask them what's already available rather than assuming the option doesn't exist.
 
 </details>
 
 ## Once You're Set Up
 
-The setup prompt gets you a capable, well-briefed general assistant. For a specific task you want done the same way every time, with its own checklist and known failure modes already worked out, move on to [where to start](where-to-start.md) or straight to the [skills library](what-is-a-sales-ai-skill.md#try-the-skills-library).
+The setup prompt gets you a capable, well-briefed general assistant. For a task you want done the same way every time, with its own checklist and known failure points already worked out, move on to [where to start](where-to-start.md) or straight to the [skills library](what-is-a-sales-ai-skill.md#try-the-skills-library).

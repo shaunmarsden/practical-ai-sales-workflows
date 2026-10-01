@@ -4,7 +4,7 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Turning scattered account information into one short call card you can actually scan during the conversation.
+Turning scattered account information into one short call card you can scan during the call.
 
 ## You need
 
@@ -15,7 +15,7 @@ Turning scattered account information into one short call card you can actually 
 
 ## You'll get
 
-- A concise call card with confirmed facts kept separate from assumptions
+- A short call card, with confirmed facts kept apart from assumptions
 - Missing information flagged
 - Discovery questions and conversation paths for the call
 
@@ -130,23 +130,23 @@ Also: [Skill](../.agents/skills/prepare-for-sales-call/SKILL.md) · [Card templa
 
 ## The AI cannot decide
 
-- Whether a public claim is actually reliable enough to use
+- Whether a public claim is reliable enough to use
 - What is appropriate to raise with this specific contact
-- Which conversation path to actually take live
+- Which conversation path to take on the call
 
 ## You must check
 
 - The named person and company are correct
 - Every factual claim traces back to a source
-- Assumptions are clearly labelled, not stated as fact
+- Assumptions are labelled, not stated as fact
 
 ## Then
 
-Correct or remove anything wrong, decide what is actually appropriate to use, and optionally practise pushback with the roleplay prompt before the call.
+Correct or remove anything wrong and decide what is fit to use. If you like, practise handling pushback with the roleplay prompt before the call.
 
 ---
 
-Want the fuller method or the full information checklist? Open the [workflow](../workflows/01-pre-call-preparation.md) itself.
+For the fuller method and the full checklist of what to gather, open the [workflow](../workflows/01-pre-call-preparation.md).
 
 ---
 

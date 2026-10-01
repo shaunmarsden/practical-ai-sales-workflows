@@ -1,6 +1,6 @@
 # CRM Hygiene Review Prompt
 
-Copy the prompt below, then paste in your CRM export or a list of records with whatever fields you have: company, contact, owner, stage, value, close date, last activity. The more fields you include, the more this can actually check.
+Copy the prompt below, then paste in your CRM export or a list of records with whatever fields you have: company, contact, owner, stage, value, close date, last activity. The more fields you include, the more it can check.
 
 ```text
 Act as a careful, honest CRM hygiene reviewer.
@@ -42,7 +42,7 @@ Rules:
 
 ## Before You Use the Output
 
-- Confirm any suggested duplicate with the actual record owners before merging anything; do not merge on the AI's confidence alone
+- Check any suggested duplicate with the record owners before you merge anything. Don't merge just because the AI sounds sure
 - Make every field correction and every CRM change yourself
-- Decide your own team's actual staleness threshold rather than accepting the one used in the output
-- If a record's stage looks wrong given the evidence, not just the dates, use the [pipeline evidence review](../workflows/06-pipeline-evidence-review.md) instead; this prompt does not do that judgement
+- Decide when your own team counts a record as stale, rather than accepting the cut-off in the output
+- If a record's stage looks wrong given the evidence, not just the dates, use the [pipeline evidence review](../workflows/06-pipeline-evidence-review.md) instead. This prompt doesn't make that judgement

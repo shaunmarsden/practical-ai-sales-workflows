@@ -10,6 +10,14 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Plainer Writing
+
+- I rewrote the [proof point page](evaluations/proof-point-selection-test.md) because it was too long and hard to read. The prose went from 1,283 words to 759, and the longest sentence from 55 words to 25. Every figure and the tested method are unchanged, and I checked each one afterwards.
+- The [style guide](guides/writing-style-and-formatting.md) now includes George Orwell's six rules for plain writing, in plain words: drop stock phrases, use short words, cut every word you can, write in the active voice, avoid jargon, and break any rule rather than write something clumsy.
+- I then rewrote the prose on 149 more pages the same way: the evaluations, guides, workflows, recipe cards, template notes and top-level pages. Sentences over 30 words fell from 806 to 361, and passive constructions from 602 to 246. Prompts, skills and example files are unchanged, because they're what the tests ran on, and a script confirmed no page lost a figure, quotation or link.
+- [Contributing](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md) now apply these rules to everything here, evaluations included. They used to let evaluations be "a little more procedural", which is how they got wordy.
+- I corrected the counts in [EVIDENCE-STATUS.md](EVIDENCE-STATUS.md) that the rewrite showed didn't add up. There are 16 comparisons, not eleven, and I scored 12 of the tests without knowing which version produced each run, not nine. The reused runs belong to the stacked figure test, not to an unnamed third test. I also fixed a broken link and a wrong action count in the [handover change history](evaluations/opportunity-handover-instruction-change-history.md).
+
 ### The Currency Rule Is Now Enforced
 
 - The [style guide](guides/writing-style-and-formatting.md) has long said "Currency figures in full: £18,000, not eighteen thousand pounds", but nothing checked it, and eight uses built up across seven files before a reader spotted "a projected 840,000 pounds" on the proof point page. **Check 27 now fails any page whose own prose writes a sum of money in words.**

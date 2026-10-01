@@ -1,6 +1,6 @@
 # Buyer Indecision Prompt
 
-Copy the prompt below, then paste in the recent exchanges, what you know about the buyer's authority, and any objection or missing information already raised. The goal is to work out whether this is genuine indecision, and if so how to make the decision feel safer.
+Copy the prompt below, then paste in the recent exchanges, what you know about the buyer's authority, and any objection or missing information already raised. It helps you work out whether this is real indecision and, if it is, how to make the decision feel safer.
 
 ```text
 Act as a careful sales adviser who understands the difference between an objection and indecision.
@@ -42,7 +42,7 @@ Rules:
 
 ## Before You Use the Output
 
-- Sanity-check the diagnosis against what you know; a real approval gate or objection needs a different response
-- Confirm any smaller first step it suggests is genuinely something you can offer before you offer it
-- Do not let a vague "after the quarter" become an invented specific date
-- Send nothing without reading it; the draft is a starting point, not a decision
+- Check the diagnosis against what you know. A real approval gate or objection needs a different response
+- If it suggests a smaller first step, make sure you can offer it before you do
+- Don't let a vague "after the quarter" turn into a made-up date
+- Read everything before you send it. The draft is a starting point, not a decision

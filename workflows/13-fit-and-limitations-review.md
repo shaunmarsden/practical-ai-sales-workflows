@@ -1,15 +1,15 @@
 # Fit and Limitations Review
 
-Work out where an offer is a good fit, a poor fit, or still uncertain for a specific prospect, before building a business case around a use case that was never actually going to work.
+Work out where your offer is a good fit, a poor fit or still uncertain for one prospect, before you build a business case around a use case that was never going to work.
 
 ## 👀 At a Glance
 
 | | |
 | --- | --- |
-| **Use this when** | A discovery call has surfaced more than one team, role or use case, and it matters which parts genuinely fit before you commit to building a case around them |
-| **What you need** | Every use case the prospect actually described, and confirmed product capability, not what seems like it should probably work |
-| **What you get** | Each use case classified as a good fit, a poor fit, or genuinely uncertain, with the reasoning stated plainly rather than softened |
-| **Your responsibility** | Decide what to actually build a case around, what to disqualify, and what to tell the prospect |
+| **Use this when** | A discovery call has turned up more than one team, role or use case, and you need to know which parts fit before you build a case around them |
+| **What you need** | Every use case the prospect described, and what the product is confirmed to do, not what you think it probably could |
+| **What you get** | Each use case marked as a good fit, a poor fit or uncertain, with the reasoning stated plainly, not softened |
+| **Your responsibility** | Decide what to build a case around, what to disqualify, and what to tell the prospect |
 
 ## 🔄 How It Works
 
@@ -34,9 +34,9 @@ flowchart TB
 <summary><strong>See exactly what it produces</strong></summary>
 
 1. Every use case the prospect raised, listed separately, not blended into one overall impression
-2. A classification for each: good fit, poor fit, or uncertain, with the specific reason
-3. Poor fits stated as real mismatches, never reframed as hidden advantages
-4. Uncertain cases named honestly as genuinely undecided, not a soft version of poor fit
+2. A verdict for each: good fit, poor fit or uncertain, with the specific reason
+3. Poor fits stated as real mismatches, never turned into hidden advantages
+4. Uncertain cases named honestly as undecided, not a soft version of a poor fit
 5. What still needs a person: deciding what to build a case around, what to disqualify, and what to tell the prospect
 
 </details>
@@ -46,35 +46,35 @@ flowchart TB
 
 ### 1. List Every Use Case Raised
 
-Work from what the prospect actually described, team by team or role by role, in their own words. Do not blend several different use cases into one overall fit judgement.
+Work from what the prospect described, team by team or role by role, in their own words. Don't blend several use cases into one overall verdict.
 
 ### 2. Classify Against Confirmed Capability
 
-For each use case, check it against what the offer is actually confirmed to do, not against a reasonable-sounding extension of that capability. A good fit is a direct match. A poor fit is a specific, named mismatch. Uncertain means there is not yet enough evidence, and stays a real category rather than a euphemism for poor fit.
+Check each use case against what the offer is confirmed to do, not against a plausible stretch of it. A good fit is a direct match. A poor fit is a specific, named mismatch. Uncertain means there isn't enough evidence yet. It stays a real category, not a polite word for a poor fit.
 
-Watch for a specific version of this: a stakeholder's general description of a role, such as calling it clinical or interpretive, sometimes conflicts with the specific, structured tasks described for that same role. Name that conflict directly rather than quietly picking whichever version makes the classification easier, the tasks that support a good fit or the characterisation that supports the objection.
+Watch for one version of this in particular. A stakeholder's general description of a role, such as calling it clinical or interpretive, sometimes clashes with the specific, structured tasks described for that same role. Name that clash directly. Don't quietly pick whichever version makes the verdict easier, whether that's the tasks that support a good fit or the description that supports the objection.
 
 ### 3. Never Spin a Limitation Into a Strength
 
-The most common failure here is not missing a poor fit outright; it is describing one so favourably that it reads as a bonus. State the actual mismatch plainly. A team's shared, ownerless structure is a genuine integration problem to solve, not evidence that the offer's adoption will spread itself.
+The most common failure here isn't missing a poor fit outright. It's describing one so kindly that it reads as a bonus. State the mismatch plainly. A team with a shared structure and no owner has a real integration problem to solve. That isn't evidence the offer will spread on its own.
 
 </details>
 
 ## ✅ Check Before You Use It
 
-- Is every use case classified separately, rather than one overall impression standing in for all of them?
-- Does every good fit trace to a direct match with confirmed capability, not an assumed one?
-- Is every poor fit stated as a real, specific mismatch, not reframed as a hidden advantage?
-- Is "uncertain" used honestly, for cases where the evidence genuinely does not exist yet, not as a softer way of saying no?
-- If a stakeholder's general description of a role conflicts with the specific tasks described for it, is that conflict named rather than quietly resolved one way?
-- Would anything here need contacting the prospect to confirm capability that was actually just assumed?
+- Is every use case judged separately, rather than one overall impression standing in for all of them?
+- Does every good fit match something the product is confirmed to do, not something assumed?
+- Is every poor fit stated as a real, specific mismatch, not turned into a hidden advantage?
+- Is "uncertain" used honestly, for cases where the evidence doesn't exist yet, not as a softer way of saying no?
+- If a stakeholder's general description of a role clashes with the specific tasks described for it, is that clash named rather than quietly settled one way?
+- Would anything here need you to contact the prospect to confirm a capability you'd only assumed?
 
 ## 📏 What to Measure
 
-- How often a use case classified as a good fit turns out, once built into a business case, to actually be genuinely solid
-- How often a poor fit correctly disqualified here would have caused a problem later if it had been built into a case instead
-- How often "uncertain" resolves to good fit or poor fit once more evidence exists, and how long that takes
-- Whether a prospect ever pushes back on a classification, and what that reveals about the evidence it was based on
+- How often a use case marked as a good fit turns out to be solid once it's built into a business case
+- How often a poor fit rightly disqualified here would have caused a problem later if it had gone into a case instead
+- How often "uncertain" turns into a good fit or a poor fit once there's more evidence, and how long that takes
+- Whether a prospect ever pushes back on a verdict, and what that shows about the evidence behind it
 
 ## 💬 Tried It?
 

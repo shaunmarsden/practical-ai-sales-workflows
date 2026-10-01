@@ -4,15 +4,15 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Helping a willing, unblocked buyer who keeps finding new soft reasons to delay the final yes, by reducing the risk of deciding rather than selling harder.
+Helping a buyer who wants to go ahead, with nothing blocking them, but keeps finding new soft reasons to put off the final yes. You make deciding less risky rather than selling harder.
 
 ## You need
 
-The recent exchanges, what you know about the buyer's actual authority, and any objection or missing information already raised.
+The recent exchanges, what you know about the buyer's authority, and any objection or missing information already raised.
 
 ## You'll get
 
-A diagnosis of whether this is genuine indecision, and if so, a response that shrinks the decision instead of pushing on it, plus a low-stakes next step.
+Whether this really is indecision. If it is, a reply that makes the decision smaller instead of pushing harder, and a low-stakes next step.
 
 <!-- prompts:begin -->
 
@@ -69,21 +69,21 @@ Also: [Prompt](../templates/buyer-indecision-prompt.md) · [Skill](../.agents/sk
 
 ## The AI cannot decide
 
-Whether this is genuinely indecision rather than an objection, an approval gate, or a disqualification, when the evidence could support more than one reading.
+Whether this is indecision rather than an objection, an approval gate, a timing issue or a disqualification, when the evidence could be read more than one way.
 
 ## You must check
 
-- It is actually confirmed as indecision, not one of those other four things
-- Every term offered (a shorter first term, a phased start) genuinely exists
-- No urgency, discount or guarantee has been manufactured
+- It is confirmed as indecision, not one of those other four things
+- Every term offered (a shorter first term, a phased start) is real
+- Nothing invents urgency, a discount or a guarantee
 
 ## Then
 
-Send only the safe, low-stakes next step, and recognise when to stop pushing if the buyer still defers after a genuine attempt to shrink the decision.
+Send only the safe, low-stakes next step. If the buyer still puts it off after a real attempt to shrink the decision, stop pushing.
 
 ---
 
-Want the fuller method or how to rule out the four things indecision is often mistaken for? Open the [workflow](../workflows/07-buyer-indecision.md) itself.
+For the fuller method, including how to rule out the four things often mistaken for indecision, open the [workflow](../workflows/07-buyer-indecision.md).
 
 ---
 

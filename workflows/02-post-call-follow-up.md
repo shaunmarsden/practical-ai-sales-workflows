@@ -1,6 +1,6 @@
 # Post Call Follow Up
 
-Turn a transcript or clear notes into the things you need after a sales call, without inventing commitments or momentum.
+Turn a transcript or clear notes into the things you need after a sales call, without inventing commitments or progress.
 
 ## 👀 At a Glance
 
@@ -59,7 +59,7 @@ Write a short email that sounds like the salesperson. Include only agreed action
 
 ### 4. Suggest CRM Updates
 
-Prepare CRM notes and fields for review. Clearly label them as suggestions and do not claim they have been saved.
+Prepare CRM notes and fields for review. Label them as suggestions and don't claim they've been saved.
 
 ### 5. Run the Human Check
 
@@ -70,7 +70,7 @@ Check every important statement, estimate, date and commitment before using the 
 ## ✅ Check Before You Use It
 
 - Is every important statement supported by the call?
-- Are estimates clearly labelled?
+- Are estimates labelled?
 - Are dates, owners and commitments exact?
 - Has the AI invented a meeting or next step?
 - Does the email sound like you?

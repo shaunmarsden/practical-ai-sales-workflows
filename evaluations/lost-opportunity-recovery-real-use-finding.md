@@ -2,51 +2,54 @@
 
 ## Status
 
-**Internal real-use finding. Not independent validation, and not a test of the public skill run unchanged.** A real opportunity that had stopped responding was reviewed against this method, a different route was identified, and outreach the salesperson approved was followed by a positive reply and a booked call. One case does not show that the method caused either.
+**Internal real-use finding. Not independent validation, and not a test of the public skill run unchanged.** A real opportunity had stopped responding. A review against this method found a different route, and outreach the salesperson approved led to a positive reply and a booked call. One case can't show that the method caused either.
 
-This is the second real-use finding for this job. The first, recorded in the [changelog](../CHANGELOG.md#real-use-findings), was a stalled deal that exposed a missing classification, no decision at all. That one is about what the review correctly refuses to do. This one is about a review that led somewhere.
+This is the second real-use finding for this job. The first, in the [changelog](../CHANGELOG.md#real-use-findings), was a stalled deal that showed a missing category: no decision at all. That one is about what the review rightly refuses to do. This one is about a review that led somewhere.
 
 ## What Was Reviewed Privately
 
-A real opportunity had gone quiet. Ordinary follow-up to the original contact had already produced no response, so the situation was past the point where another chase was the obvious move.
+A real opportunity had gone quiet. Normal follow-up to the original contact had already got no response, so another chase was no longer the obvious move.
 
-The case was reviewed against this method's questions rather than run as an unchanged, unattended skill call. The review looked at whether the opportunity was genuinely over or blocked, and whether the original route was the only one.
+The case was reviewed against this method's questions, not run as an unchanged skill call left to itself. The review asked whether the opportunity was over or just blocked, and whether the original route was the only one.
 
-The real person, their employer, sector, the correspondence and the underlying records are not reproduced here, and are not described beyond what this finding needs.
+I don't reproduce the real person, their employer, sector, the correspondence or the records here, or describe them beyond what this finding needs.
 
 ## What Happened
 
-- The review identified a different and more senior route into the same organisation as worth considering, rather than treating the silence on the original route as the end of the opportunity.
-- Contact enrichment and the proposed first outreach were reviewed by the salesperson before anything went out.
-- Approving and sending stayed with the salesperson, as the public method requires.
-- The outreach was sent.
-- The new contact replied positively.
-- A call was booked after that reply.
+1. The review suggested a different, more senior route into the same organisation, rather than treating silence on the original route as the end.
+2. The salesperson checked the contact details found and the proposed first message before anything went out.
+3. Approving and sending stayed with the salesperson, as the public method requires.
+4. The message was sent.
+5. The new contact replied positively.
+6. A call was booked after that reply.
 
-What happened after the call is not recorded here, and nothing about the opportunity closing is claimed.
+I don't record what happened after the call, and I make no claim about the opportunity closing.
 
 ## What This Supports
 
-- A review after silence can produce a different route rather than only a verdict on whether the deal is dead. That is the part of this method the earlier no-decision finding did not exercise.
-- Treating an unanswered original contact as a routing question, not only as a signal of lost interest, was useful in this case.
-- The method's human-approval boundary held under real conditions. Enrichment and a drafted first message were prepared, and a person still reviewed and sent them.
-- The sequence is observable rather than inferred: outreach sent, reply received, call booked.
+A review after silence can find a different route, not just a verdict on whether the deal is dead. The earlier no-decision finding didn't test that part of the method.
+
+In this case it helped to treat an unanswered original contact as a question of route, not only as a sign of lost interest.
+
+The method's human-approval line held in real use. Contact details and a first message were prepared, and a person still checked and sent them.
+
+The sequence was seen, not inferred: message sent, reply received, call booked.
 
 ## What This Does Not Support
 
-- It does not show that AI caused the positive reply. A more senior contact may simply have been the right person to ask, and the same approach could have been reached without any AI involvement.
-- It does not show that the method caused the meeting.
-- It does not demonstrate improved conversion, revenue, pipeline value or speed. None of those were measured.
-- It does not show that the method will recover comparable opportunities. This is one case.
-- It does not mean every quiet opportunity should be reopened, or that a more senior route is generally the answer. In the earlier finding the correct result was to stop.
-- It does not show the public skill was used unchanged. The case was reviewed against the method's questions, not run as an unattended skill call.
-- It says nothing about whether the opportunity ultimately closed.
-- It is not an independent external user test.
+- It doesn't show that AI caused the positive reply. A more senior contact may simply have been the right person to ask, and someone could have reached the same approach without AI.
+- It doesn't show that the method caused the meeting.
+- It doesn't show better conversion, revenue, pipeline value or speed. None of those were measured.
+- It doesn't show that the method will recover similar opportunities. This is one case.
+- It doesn't mean every quiet opportunity should be reopened, or that a more senior route is usually the answer. In the earlier finding the right result was to stop.
+- It doesn't show the public skill was used unchanged. The case was reviewed against the method's questions, not run as a skill call left to itself.
+- It says nothing about whether the opportunity closed.
+- It isn't an independent external user test.
 
 ## Privacy Boundary
 
-This finding does not name the person, either contact, their employer, their sector or their location. No email address, message wording, subject line, HubSpot link, record identifier or message ID is included. No commercial detail, value, programme detail or date is included, and the roles of the two contacts are described only as original and more senior, which is the minimum needed to explain what the review changed. Nothing here is a real case with the names swapped: the specifics are left out rather than replaced.
+This finding doesn't name the person, either contact, their employer, their sector or their location. It includes no email address, message wording, subject line, HubSpot link, record identifier or message ID. It includes no commercial detail, value, programme detail or date. I describe the two contacts' roles only as original and more senior, the least needed to explain what the review changed. Nothing here is a real case with the names swapped: I've left the specifics out rather than replaced them.
 
 ## Next Evidence
 
-The useful next case is one where this method identifies a different route and the outreach gets no reply, so the finding is not only drawn from the case that worked. Beyond that, an independent salesperson running the review on their own stalled opportunity and reporting where it helped or failed is the evidence a builder cannot produce alone.
+The useful next case is one where this method finds a different route and the message gets no reply, so the finding doesn't only come from the case that worked. Beyond that, the evidence I can't produce alone is an independent salesperson running the review on their own stalled opportunity and reporting where it helped or failed.

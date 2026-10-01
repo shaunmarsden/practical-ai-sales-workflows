@@ -1,6 +1,6 @@
 # Champion Enablement Prompt
 
-Copy the prompt below, then add the evidence already established, who the champion is actually presenting to, and anything genuinely known about that person's concerns.
+Copy the prompt below, then add the evidence you've already established, who the champion is presenting to, and anything you know about that person's concerns.
 
 ```text
 Act as a careful sales assistant helping an internal champion prepare to carry a case to other stakeholders.
@@ -26,7 +26,7 @@ Rules:
 
 ## Before You Use the Output
 
-- Confirm every claim is one the champion is actually prepared to stand behind in the room
-- Check that no outstanding or unconfirmed item has been quietly resolved
-- Make sure any internal note reads as the champion sending it, never you
-- Decide yourself what to actually present, forward, or send; this proposes the material, not the decision
+- Confirm the champion is prepared to stand behind every claim in the room
+- Check that nothing open or unconfirmed has quietly been treated as settled
+- Make sure any internal note reads as if the champion wrote it, never you
+- Decide yourself what to present, forward or send. This suggests the material, not the decision

@@ -1,6 +1,6 @@
 # Getting Started with AI at Work
 
-For anyone who has not used an AI assistant seriously yet, or tried once and did not get much out of it. Read this before [what a sales AI skill is](what-is-a-sales-ai-skill.md); this one is about the tools themselves, that one is about the structured version this repository builds on top of them.
+This is for anyone who hasn't used an AI assistant much yet, or tried once and didn't get much out of it. Read it before [what a sales AI skill is](what-is-a-sales-ai-skill.md). This page is about the tools themselves. That one is about the structured version this repository builds on top of them.
 
 ```mermaid
 flowchart TB
@@ -12,23 +12,23 @@ flowchart TB
 
 ## What These Tools Actually Are
 
-AI assistants such as Claude and ChatGPT are text based. You type something in, they respond. They are good at a specific set of tasks: drafting, summarising, structuring ideas, explaining something clearly, working through large amounts of text quickly.
+AI assistants such as Claude and ChatGPT work in text. You type something in, and they reply. They're good at a certain set of tasks: drafting, summarising, organising ideas, explaining something clearly, and getting through a lot of text quickly.
 
-They are not search engines and they are not magic. What they produce depends almost entirely on how well you ask.
+They aren't search engines and they aren't magic. What you get out depends almost entirely on how well you ask.
 
 ## Remember These Three Things
 
 ### ✍️ They Are Strong at Drafting and Structure
 
-Turning rough notes into something coherent, rewriting for tone or length, spotting a gap in an argument.
+Turning rough notes into something that hangs together, rewriting for tone or length, spotting a gap in an argument.
 
 ### 🔍 They Are Weak Without Verification
 
-They can state a figure or a fact confidently and be wrong. Anything specific needs checking before it goes anywhere real.
+They can state a figure or a fact with confidence and be wrong. Check anything specific before it goes anywhere real.
 
 ### 🎯 The Biggest Gain Is Specificity, Not Cleverness
 
-Moving from a vague request to a specific one improves the output more than any other single change.
+Going from a vague request to a specific one improves the output more than any other single change.
 
 **Vague:** "Write an email about the project update."
 **Specific:** "Write a two paragraph email to my team lead saying the migration is two weeks behind because of a vendor delay. Direct and calm, not alarmed."
@@ -36,51 +36,51 @@ Moving from a vague request to a specific one improves the output more than any 
 <details>
 <summary><strong>What are they good at, in practice?</strong></summary>
 
-- Drafting emails, summaries, and proposals
-- Rewriting something already written to be clearer or shorter
+- Drafting emails, summaries and proposals
+- Rewriting something to make it clearer or shorter
 - Turning rough notes into a structured document
-- Comparing options and laying out the trade-offs
-- Doing the same task consistently across multiple pieces of content
+- Comparing options and setting out the trade-offs
+- Doing the same task the same way across several pieces of content
 
 </details>
 
 <details>
 <summary><strong>What are they not good at?</strong></summary>
 
-- Giving you a figure or fact without checking it first
-- Real time information, unless a search feature is explicitly enabled
-- Replacing your judgement about what is right for your situation
-- Genuinely novel thinking; they recombine patterns from existing material
+- Giving you a figure or fact you can use without checking
+- Up-to-date information, unless a search feature is switched on
+- Replacing your judgement about what's right for your situation
+- New thinking; they recombine patterns from existing material
 
 </details>
 
 <details>
 <summary><strong>How do I set up standing context?</strong></summary>
 
-Most AI tools let you set custom instructions or a system prompt that applies to every conversation. Once it is set, you stop re-explaining yourself each time.
+Most AI tools let you set custom instructions or a system prompt that applies to every conversation. Once it's set, you stop explaining yourself each time.
 
 Worth including:
 
-- What you actually do day to day, not just your job title
-- Your preferred tone for written communication
+- What you do day to day, not just your job title
+- The tone you like for written work
 - Phrases or formats you want avoided
-- Recurring tasks you want handled the same way each time
+- Tasks you do often and want handled the same way each time
 
-This repository's own [writing style guide](writing-style-and-formatting.md) is one example of standing context, written up as a document you can paste in directly.
+This repository's [writing style guide](writing-style-and-formatting.md) is one example of standing context, written as a document you can paste straight in.
 
 </details>
 
 <details>
 <summary><strong>How do I actually start?</strong></summary>
 
-Pick one task you already do regularly that involves writing or structuring information, something that takes longer than it should or that you do on autopilot.
+Pick one task you already do often that involves writing or organising information. Choose something that takes longer than it should, or that you do on autopilot.
 
-Try it once with an AI tool. If the result is not right, say what is wrong and ask again: "too formal", "make the second paragraph shorter", "more direct." Two or three rounds usually gets close.
+Try it once with an AI tool. If the result isn't right, say what's wrong and ask again: "too formal", "make the second paragraph shorter", "more direct." Two or three rounds usually get close.
 
-Before pasting anything in, check what your organisation's policy says about sharing information with third-party AI tools, and use fictional or anonymised detail wherever the real version is not necessary to get a useful answer.
+Before you paste anything in, check what your organisation's policy says about sharing information with outside AI tools. Use made-up or anonymised detail wherever you don't need the real version to get a useful answer.
 
 </details>
 
 ## Where This Repository Picks Up
 
-Once a task is worth doing the same way every time, a plain conversation stops being enough on its own; that is what [a sales AI skill](what-is-a-sales-ai-skill.md) is for.
+Once a task is worth doing the same way every time, a plain conversation isn't enough on its own. That's what [a sales AI skill](what-is-a-sales-ai-skill.md) is for.

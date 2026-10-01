@@ -4,21 +4,21 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Checking whether the person on a call is actually the decision-maker, and whether their stated objection is the real one or standing in for something unstated, using only what was actually said.
+Checking whether the person on a call is the decision-maker, and whether their objection is the real one or a cover for something unsaid. It uses only what was said.
 
 ## You need
 
-- Who was expected on the call, and who actually attended
+- Who you expected on the call, and who came
 - Each attendee's role, where known
-- What each attendee actually said, especially anything raised as a concern
+- What each attendee said, especially any concern they raised
 - Anything already confirmed about who holds sign-off authority
 
 ## You'll get
 
-- Who was actually on the call, with any unplanned attendee named explicitly
-- Each attendee's role checked against what they actually said
-- The stated reason kept separate from what would actually resolve it
-- An honest read on who actually decides
+- Who was on the call, with anyone unexpected named
+- Each attendee's role checked against what they said
+- The stated reason, kept apart from what would resolve it
+- An honest view of who decides
 - A specific next question, not a generic follow-up
 
 <!-- prompts:begin -->
@@ -66,23 +66,23 @@ Also: [Prompt](../templates/real-blocker-diagnosis-prompt.md) · [Skill](../.age
 
 ## The AI cannot decide
 
-- What an attendee's real, unstated motive actually is, if one exists
-- Whether a named further approver is genuinely the real blocker or just the first name mentioned
-- How, or whether, to actually raise a flagged mismatch with the prospect
+- What an attendee's real, unspoken motive is, if they have one
+- Whether another approver they named is the real blocker or just the first name mentioned
+- Whether, and how, to raise a flagged mismatch with the prospect
 
 ## You must check
 
 - Every flagged mismatch is supported by something someone said or did, not speculation
 - A concern that shifted partway through the call is still treated as open, not folded into the one that got answered
-- Nobody's authority is being assumed from enthusiasm or being the point of contact
+- No one's authority is assumed because they're keen or because they're the main contact
 
 ## Then
 
-Decide yourself whether and how to raise anything flagged, and confirm authority directly before treating the deal as further along than it is; nothing here contacts anyone.
+Decide yourself whether and how to raise anything flagged. Confirm authority directly before treating the deal as further along than it is. Nothing here contacts anyone.
 
 ---
 
-Want the fuller method or the worked Rowcastle test? Open the [workflow](../workflows/15-real-blocker-diagnosis.md) itself.
+For the fuller method and the worked Rowcastle test, open the [workflow](../workflows/15-real-blocker-diagnosis.md).
 
 ---
 

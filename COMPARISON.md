@@ -1,10 +1,10 @@
 # Comparison With Similar Projects
 
-Public repositories offering reusable AI instructions for B2B sales are not scarce, and several are far more popular than this one. If you are deciding whether to use this repository, you should be able to see how it differs without taking my word for it.
+There are plenty of public repositories of reusable AI instructions for B2B sales, and several are far more popular than this one. If you're deciding whether to use this one, you should be able to see how it differs without taking my word for it.
 
-So this page compares by structure rather than by quality: whether a repository publishes a worked example, a score for its own output, the rubric behind that score, evidence from real work, and a score from somebody other than its author. Those are checkable. Whether the writing is any good is not something I can fairly judge about other people's work.
+So this page compares structure, not quality. Does a repository publish a worked example, a score for its own output, the rubric behind that score, evidence from real work, and a score from someone other than its author? You can check those. I can't fairly judge whether other people's writing is any good.
 
-Star counts and structure as I found them on 4 September 2026. Method: I read each repository's file tree, then opened up to eight of its skill files and searched the text inside them, because a first pass that only looked at file and folder names got one of these rows wrong. A dash means I could not find it, not that it does not exist.
+Star counts and structure are as I found them on 4 September 2026. I read each repository's file tree, then opened up to eight of its skill files and searched the text inside them. A dash means I couldn't find it, not that it isn't there.
 
 | Project | Stars | Shape | Worked example | Published score | Stated rubric | Real-use log | Outside scoring |
 | --- | ---: | --- | --- | --- | --- | --- | --- |
@@ -16,36 +16,42 @@ Star counts and structure as I found them on 4 September 2026. Method: I read ea
 | [TheCraigHewitt/sales-skills](https://github.com/TheCraigHewitt/sales-skills) | 21 | 21 skills across the B2B sales lifecycle | **Yes, inline in the skill files, 4 of 8 I sampled** | Not found | Not found | Not found | Not found |
 | [Prospeda/gtm-skills](https://github.com/Prospeda/gtm-skills) | 21 | About 2,500 prompts for sales and go-to-market | Not found | Not found | Not found | Not found | Not found |
 
-## Honest Notes
+## Notes on Each Project
 
-**vonarmen-wq/forward-deployed-selling** does the worked-example discipline properly, and in one respect better than I do. Its canonical example labels itself a teaching artifact, states that the company is fictional, and says outright that its citations are placeholders showing where real sources would attach. That last sentence is more careful than most of what is published in this space, mine included in places.
+**vonarmen-wq/forward-deployed-selling** does worked examples properly, and in one way better than I do. Its main example calls itself a teaching artifact, says the company is fictional, and says plainly that its citations are placeholders showing where real sources would go. That last sentence is more careful than most of what's published in this space, some of mine included.
 
-**matteotitta/genesys-skills** ships the only scoring machinery in the table: a deterministic harness that scores a finished artifact out of 100 and returns pass or fail. Two honest qualifications. It expects a per-skill `rubric.json` that you supply, and I found no rubric files in the repository, so the criteria are yours rather than published. And it scores a different thing from my rubric, structural completeness rather than evidence fidelity. A repeatable gate on output shape is still a real piece of engineering that this repository does not have.
+**matteotitta/genesys-skills** has the only scoring machinery in the table: a harness that scores a finished artifact out of 100 the same way every time and returns pass or fail. Two catches. It expects you to supply a `rubric.json` for each skill, and I found no rubric files in the repository, so you set the criteria; they aren't published. And it scores something different from my rubric: whether the structure is complete, not whether the output sticks to the evidence. Still, a repeatable check on output shape is real engineering that this repository doesn't have.
 
-**OneWave-AI/claude-skills** and **w95/awesome-claude-corporate-skills** are far larger and far more used than this repository, roughly a hundredfold on stars. Breadth is a real service: somebody looking for a skill they can use today is better served by 200 than by 17.
+**OneWave-AI/claude-skills** and **w95/awesome-claude-corporate-skills** are far bigger and far more used than this repository, about a hundred times more on stars. Breadth matters: if you want a skill you can use today, 200 serve you better than 17.
 
-**TheCraigHewitt/sales-skills** is the closest in shape to this one, a set of named sales jobs with an instruction for each, and it does the worked-example discipline inside its skill files rather than in a separate folder. One of its examples is explicitly labelled the quality bar for the output, which is a good idea I have not used.
+**TheCraigHewitt/sales-skills** is the closest in shape to this one: a set of named sales jobs with an instruction for each. It puts its worked examples inside its skill files rather than in a separate folder. One example is labelled as the quality bar for the output, which is a good idea I haven't used.
 
-The two repositories overlap less than I first assumed, and I checked rather than guessing. Clear equivalents are objection handling, pipeline review and win-loss against my lost-opportunity review, with call debrief close to my post-call follow up. Theirs then goes wider than mine on outbound channels and commercial mechanics: cold call, direct mail, event networking, referral intros, negotiation, proposal pricing, sales comp, forecasting and demo scripts have no equivalent here. Mine goes deeper into mid-deal diagnosis: briefing a champion, CRM honesty, spotting the real blocker, a stalled decision, an opportunity handover and a fit check have no equivalent there. About a third of either list maps onto the other.
+The two repositories overlap less than I first thought, and I checked rather than guessed. The clear matches are objection handling, pipeline review, and their win-loss against my lost-opportunity review. Their call debrief is close to my post-call follow up. Theirs then goes wider than mine on outbound channels and deal mechanics: cold call, direct mail, event networking, referral intros, negotiation, proposal pricing, sales comp, forecasting and demo scripts have no match here. Mine goes deeper into what's going wrong mid-deal: briefing a champion, CRM honesty, spotting the real blocker, a stalled decision, an opportunity handover and a fit check have no match there. About a third of each list maps onto the other.
 
-**Prospeda/gtm-skills** is the volume play, about 2,500 prompts across sales and go-to-market.
+**Prospeda/gtm-skills** goes for volume, with about 2,500 prompts across sales and go-to-market.
 
 ## Where This Repository Loses
 
-**Outside scoring: nobody has done it, here or anywhere in the table.** Every score in this repository was produced by one person, me, scoring against a rubric I wrote, having also run the test. That is the single largest limitation of everything here, it is stated in [Evidence Status](EVIDENCE-STATUS.md) and in every evaluation, and no amount of further self-testing addresses it. I have not solved a problem the rest of the niche has; I have written mine down.
+**No outside scoring, here or anywhere in the table.** I produced every score in this repository myself, against a rubric I wrote, after running the test myself. That's the biggest weakness of everything here. [Evidence Status](EVIDENCE-STATUS.md) and every evaluation say so, and more testing by me can't fix it. I haven't solved a problem the rest of the field has; I've written mine down.
 
-**Two stars.** Popularity is not evidence of quality, but it is evidence of use, and use is how problems get found. The repositories above it in the table have had far more contact with real readers than this one has.
+**Two stars.** Popularity doesn't prove quality, but it does show use, and use is how problems get found. The repositories above this one have had far more contact with real readers.
 
-**Fewer jobs than most.** Seventeen against 21, 166, 168 and about 200. If you want coverage, this is not the repository with the most of it.
+**Fewer jobs than most.** Seventeen against 21, 166, 168 and about 200. If you want the most coverage, this isn't the repository for it.
 
-**Most of the fictional tests here are single runs.** An earlier version of this page said none had ever been run twice. That was wrong, and it is worth leaving the correction visible: the [ambiguous objection stability test](evaluations/hartwell-objection-ambiguous-test.md) had already run one input nine times, three each across three models, and found Claude scoring 46 to 49 while promoting a different primary diagnosis in every run, where ChatGPT and Gemini stayed on the same one. Three more tests have since been [repeated once each](evaluations/repeat-run-findings.md): one held exactly, two came out higher. Everything else is a single run, and where a job shows two, three or four scored cases those are separate scenarios rather than repeats.
+**Most of the fictional tests here are single runs.** The [ambiguous objection stability test](evaluations/hartwell-objection-ambiguous-test.md) ran one input nine times, three each across three models. Claude scored 46 to 49 but picked a different main diagnosis in every run, while ChatGPT and Gemini stayed on the same one. Three more tests have since been [repeated once each](evaluations/repeat-run-findings.md): one held exactly and two came out higher. Everything else is a single run. Where a job shows two, three or four scored cases, those are separate scenarios, not repeats.
 
 ## What This Repository Has That the Others Do Not
 
-One thing, and it is narrow: **published scores for its own outputs, against a stated rubric, with the failures written down.** Every one of the seventeen jobs has at least one scored evaluation showing what the output got wrong as well as right, and fourteen have a logged finding from real sales work.
+One thing, and it's narrow: **published scores for its own outputs, against a stated rubric, with the failures written down.** Every one of the seventeen jobs has at least one scored evaluation showing what the output got wrong as well as right, and fourteen have a logged finding from real sales work.
 
-That is worth exactly what one person's scoring is worth, which is the point of the previous section.
+That's worth exactly what one person's scoring is worth, as the last section says.
 
 ## If I Have Got Something Wrong
 
-If your project is in this table and I have mischaracterised it, or it belongs here and is missing, [open an issue](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new) or [say so in Discussions](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) and I will correct it. My method is described at the top and it is still a sample: a file tree plus up to eight skill files read per repository. A first version of this page looked only at file and folder names and got a row wrong, marking a repository as having no worked example when four of its eight skill files carried one inline. If I have made the same kind of mistake somewhere I have not looked, tell me and I will fix it rather than defend it.
+If your project is in this table and I've described it wrongly, or it belongs here and isn't, [open an issue](https://github.com/shaunmarsden/practical-ai-sales-workflows/issues/new) or [say so in Discussions](https://github.com/shaunmarsden/practical-ai-sales-workflows/discussions) and I'll correct it. My method is at the top, and it's still a sample: a file tree plus up to eight skill files per repository. If I've made a mistake somewhere I haven't looked, tell me and I'll fix it rather than defend it.
+
+## Corrections
+
+An earlier version of this page said none of the tests here had ever been run twice. That was wrong: the ambiguous objection stability test had already run one input nine times.
+
+A first version of this page looked only at file and folder names. It got a row wrong, marking a repository as having no worked example when four of its eight skill files had one inline. That's why I now open the skill files as well.

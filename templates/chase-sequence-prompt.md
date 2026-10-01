@@ -1,6 +1,6 @@
 # Chase Sequence Prompt
 
-Copy the prompt below, then add what the prospect said on the original call, what you have already sent and when, anything that has happened since (an out of office reply, a changed role, a public event at the company, silence with no signal either way), and how many chases have already gone out.
+Copy the prompt below, then add what the prospect said on the original call and what you've sent since, with dates. Add anything that has happened since then, such as an out of office reply, a changed role, a public event at the company, or silence with no signal either way. Say how many chases have already gone out.
 
 ```text
 Act as a careful sales chase adviser.
@@ -55,12 +55,12 @@ Rules:
 
 ## Before You Use the Output
 
-- Check the decision against what you actually know, especially whether any task or date it relied on is still current
-- Check the anchor is something real from the prospect's side, not your own pipeline
-- Confirm a second contact is genuinely a route before switching to them, rather than someone who was mentioned once
-- Check the message does not remind the prospect you have already emailed, unless it is the close-out
-- Send nothing, and change no record, until you have approved it yourself
+- Check the decision against what you know, especially whether any task or date it relied on is still current
+- Check the anchor is something real on the prospect's side, not your own pipeline
+- Before you switch to a second contact, confirm they're a real route in, not someone mentioned once
+- Check the message doesn't remind the prospect you've already emailed, unless it's the close-out
+- Send nothing, and change no record, until you've approved it yourself
 
-## Honest Note on This Prompt
+## About This Prompt
 
-This is condensed from the [Plan a Chase Sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md), which is the fuller version and carries the sequence detail this leaves out. The skill and this prompt are separate artefacts and were tested separately: the skill scored 48 out of 50 on the fictional Hartwell scenario and held at 48 on a blind repeat, and this prompt has its own [scored test](../evaluations/hartwell-chase-prompt-review.md) on the same scenario. Do not read either score as evidence for the other.
+This is a shorter version of the [Plan a Chase Sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md), which includes the sequence detail this leaves out. I tested the skill and this prompt separately. The skill scored 48 out of 50 on the fictional Hartwell scenario, and 48 again when I repeated it and scored without knowing which run was which. This prompt has its own [scored test](../evaluations/hartwell-chase-prompt-review.md) on the same scenario. Don't read either score as evidence for the other.

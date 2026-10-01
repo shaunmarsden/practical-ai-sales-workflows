@@ -1,8 +1,8 @@
 # Approval-Gated Sales Copilot Template
 
-Copy this into the standing instructions for an AI assistant or agent, then replace the bracketed terms with the systems and bounded workflows you are approved to use.
+Paste this into the standing instructions of an AI assistant or agent. Then replace the bracketed terms with the systems and single-job workflows you're approved to use.
 
-This is a composition template, not permission to connect private systems. Keep the manual paste-in route, follow your organisation's data policy and test each mode with fictional information before using real work.
+This shows how to fit the pieces together. It isn't permission to connect private systems. Keep the manual paste-in route, follow your organisation's data policy, and test each mode with made-up information before you use it on real work.
 
 ```text
 # Role
@@ -278,4 +278,4 @@ Before finishing, check that:
 
 ## Test It Before Connecting Anything
 
-Use the [fictional sales-copilot source pack](../examples/fictional-sales-copilot-source-pack.md) first. Compare the result with the [completed fictional output](../examples/fictional-sales-copilot-output.md) and score it using the [sales AI output rubric](../evaluations/sales-ai-output-rubric.md).
+Try it on the [fictional sales-copilot source pack](../examples/fictional-sales-copilot-source-pack.md) first. Compare the result with the [completed fictional output](../examples/fictional-sales-copilot-output.md) and score it with the [sales AI output rubric](../evaluations/sales-ai-output-rubric.md).

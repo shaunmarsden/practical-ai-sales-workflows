@@ -1,6 +1,6 @@
 # Workflow Router Prompt
 
-Copy the prompt below, then describe the actual sales situation in your own words: what you are trying to achieve, what evidence you have, and what is blocking you, if anything.
+Copy the prompt below, then describe the sales situation in your own words: what you're trying to achieve, what evidence you have, and what's blocking you, if anything.
 
 ```text
 Act as a router across the seventeen existing routes in the practical-ai-sales-workflows repository. Do not solve my situation yourself; recommend which existing workflow fits, and why.
@@ -41,6 +41,6 @@ If nothing above genuinely fits, say so rather than forcing the closest match.
 
 ## Before You Use the Output
 
-- Check the reasoning for the route, not just the recommendation; if two workflows sounded similar, confirm the distinguishing detail actually applies to your situation
-- If told nothing fits, do not force it into the nearest workflow; that is a real signal worth treating as one
-- Open the recommended workflow yourself and follow its own inputs and checks; this prompt only gets you to the right door
+- Check the reasoning for the route, not just the recommendation. If two workflows sounded similar, confirm the detail that separates them applies to your situation
+- If it says nothing fits, don't force it into the nearest workflow. Treat that as a real answer
+- Open the recommended workflow yourself and follow its own inputs and checks. This prompt only tells you which one to open

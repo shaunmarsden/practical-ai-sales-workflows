@@ -10,34 +10,34 @@ This review scores the [worked enablement package](../examples/hartwell-champion
 
 | Area | Score | Notes |
 | --- | ---: | --- |
-| Factual accuracy | 5 | Every figure and fact traces to what was already established in the business case transcript and output |
-| Evidence fidelity | 5 | Priya's evidence is built from the actual confirmed CRM-visibility concern, not a generic pitch |
-| Fact separation | 5 | The outstanding compliance confirmation is kept clearly unconfirmed throughout, including in the likely-questions table |
-| Missing information | 4 | Correctly flags the unconfirmed QBR date and the outstanding compliance item, but does not prepare Alex for the case where Priya raises a genuinely new concern beyond the two already on record |
-| Commercial usefulness | 5 | The decision summary and internal note are both directly usable, not generic templates with brackets to fill in |
-| Next step clarity | 4 | The internal note to Nadia has one clear ask; the package as a whole does not state what Alex's own next step is immediately after the QBR itself |
-| Tone | 5 | Plain, no manufactured urgency, reads like something a person would actually say and send |
-| Privacy | 5 | No individual account executive is named anywhere, consistent with Alex's own instruction |
-| Approval discipline | 5 | Explicitly states Alex, not Shaun, sends the internal note, and nothing is presented as already sent |
-| Hallucination risk | 4 | "The one item genuinely gating a full team rollout" is a reasonable characterisation of the compliance item's importance, but it is the output's own framing, not something stated outright in the source material, and a careful reviewer should treat it as an inference rather than a quoted fact |
+| Factual accuracy | 5 | Every figure and fact matches what the business case transcript and output had already established |
+| Evidence fidelity | 5 | Priya's evidence comes from her confirmed concern about CRM visibility, not a generic pitch |
+| Fact separation | 5 | Keeps the outstanding compliance confirmation clearly unconfirmed throughout, including in the table of likely questions |
+| Missing information | 4 | Rightly flags the unconfirmed QBR date and the outstanding compliance item, but doesn't prepare Alex for Priya raising a new concern beyond the two on record |
+| Commercial usefulness | 5 | The decision summary and internal note are both ready to use, not generic templates with brackets to fill in |
+| Next step clarity | 4 | The internal note to Nadia has one clear ask, but the package doesn't say what Alex's own next step is straight after the QBR |
+| Tone | 5 | Plain, with no made-up urgency. It reads like something a person would say and send |
+| Privacy | 5 | Names no individual account executive anywhere, as Alex asked |
+| Approval discipline | 5 | Says Alex, not me, sends the internal note, and presents nothing as already sent |
+| Hallucination risk | 4 | "The one item genuinely gating a full team rollout" is a fair description of how much the compliance item matters. But it's the output's own framing, not something the source material says outright, so a careful reviewer should treat it as an inference, not a quoted fact |
 
 ## What Worked
 
-- Priya's role-specific evidence is built entirely from her actual confirmed concern, the Monday pipeline meeting and CRM visibility lag, correctly avoiding the tempting but unsupported assumption that a Sales Director's real interest is AE quota or deal velocity.
-- The compliance confirmation is treated as genuinely outstanding everywhere it appears, including in the answer to the question "has compliance actually confirmed this?", rather than being softened to make Alex look more prepared than the evidence supports.
-- The internal note to Nadia reads as Alex's own voice asking a colleague for a status update, not as the seller reaching around the champion to contact a further stakeholder directly.
-- The customer success extension, explicitly flagged elsewhere as a passing thought, correctly does not appear anywhere in the QBR material.
+- Priya's evidence for her role comes entirely from her confirmed concern, the Monday pipeline meeting and the lag in CRM visibility. It avoids the tempting but unsupported guess that a Sales Director really cares about AE quota or deal speed.
+- It treats the compliance confirmation as outstanding everywhere, including in the answer to "has compliance actually confirmed this?" It doesn't soften it to make Alex look better prepared than the evidence allows.
+- The internal note to Nadia reads as Alex asking a colleague for an update in Alex's own voice. It doesn't read as the seller going round the champion to contact another stakeholder.
+- The customer success extension, flagged elsewhere as a passing thought, rightly appears nowhere in the QBR material.
 
 ## What Needed Checking
 
-- The characterisation of the compliance item as "genuinely gating" the rollout is the output's own reasonable inference from what Nadia's team asked for; it should be checked against Alex's own view before he repeats it as though it were a quoted fact.
-- The package does not address what happens if Priya raises a concern that is not the CRM-visibility one already on record; a careful reviewer should treat the current role-specific evidence as a starting point, not a complete script for every question that might come up.
-- The QBR date remains an estimate at roughly three weeks out and should be confirmed before this package is treated as final.
+- Calling the compliance item "genuinely gating" the rollout is the output's own fair inference from what Nadia's team asked for. Check it against Alex's view before Alex repeats it as if it were a quoted fact.
+- The package doesn't cover Priya raising a concern other than the CRM visibility one on record. A careful reviewer should treat the evidence for her role as a starting point, not a full script for every question.
+- The QBR date is still an estimate, roughly three weeks away, and needs confirming before anyone treats this package as final.
 
 ## What I Changed in the Prompt
 
-Nothing needed changing in the skill for this run. The guardrail against assuming a stakeholder's priority from their job title was the one most directly tested, and it held without needing a new rule.
+Nothing, for this run. This run tested most directly the guardrail against assuming a stakeholder's priority from their job title, and it held without a new rule.
 
 ## Next Test
 
-Run a scenario with a third further stakeholder whose actual concern is genuinely unknown, nothing beyond their job title has been established, to confirm the skill says so plainly rather than filling the gap with a plausible-sounding guess.
+Run a scenario with a third stakeholder whose real concern is unknown, with nothing established beyond their job title. That would confirm the skill says so plainly rather than filling the gap with a guess that sounds right.

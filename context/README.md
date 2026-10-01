@@ -1,24 +1,24 @@
 # Private Sales Context
 
-This folder lets the repository understand your sales role without putting your company information into the public project.
+This folder tells the AI about your sales role without putting your company's information in the public project.
 
-The public Hartwell examples are fictional and the same for everyone. Your private sales context describes how you work, what your company sells and which rules the AI should follow for your role.
+The Hartwell examples are fictional and the same for everyone. Your private sales context says how you work, what your company sells and which rules the AI should follow for your role.
 
 ## Create Your Private File
 
-The easiest route is to open the repository in Codex or Claude Code and say:
+The easiest way is to open the repository in Codex or Claude Code and say:
 
 > Help me set up my private sales context.
 
-The agent will copy `sales-context.md.example` to `sales-context.md` and ask only for the information needed to begin.
+The agent copies `sales-context.md.example` to `sales-context.md` and asks only for what it needs to start.
 
-If you are comfortable using a terminal, you can make the copy yourself from the repository folder:
+If you're happy using a terminal, you can make the copy yourself from the repository folder:
 
 ```text
 cp context/sales-context.md.example context/sales-context.md
 ```
 
-The new `context/sales-context.md` file is ignored by Git. The example and this guide remain public.
+Git ignores the new `context/sales-context.md` file. The example and this guide stay public.
 
 ## What May Be Safe to Include
 
@@ -26,15 +26,15 @@ The new `context/sales-context.md` file is ignored by Git. The example and this 
 - A plain English description of what the company sells
 - General customer types and problems you solve
 - Your preferred writing style
-- Your normal sales stages, if your company permits this
-- Tools you use and the actions that require your approval
-- Links to approved public or internal sources, if your company permits them
+- Your normal sales stages, if your company allows it
+- Tools you use and the actions that need your approval
+- Links to approved public or internal sources, if your company allows them
 
 Use the [About Me Worksheet](../templates/about-me-worksheet.md) to gather the basics. Use the [AI Sales Setup Prompt](../templates/ai-sales-setup-prompt.md) if you also want standing instructions for another AI tool.
 
 ## What Should Stay Elsewhere
 
-Do not use this file as a customer database.
+Don't use this file as a customer database.
 
 Keep these in approved company systems:
 
@@ -43,45 +43,45 @@ Keep these in approved company systems:
 - Private pricing or commercial terms
 - Passwords, API keys and secrets
 - Confidential contracts, policies or internal links
-- Information your employer does not allow in the AI tool you are using
+- Information your employer doesn't allow in the AI tool you're using
 
-Use the minimum information needed. A useful role description is better than a copy of the entire CRM.
+Give it the least you can. A useful description of your role beats a copy of the whole CRM.
 
 ## Optional: Map Your Own Qualification Method
 
-If you use a named qualification method (MEDDIC, BANT, a custom internal framework) or your own pipeline stage names, and your employer allows it, [the sales methodology overlay](sales-methodology-overlay.md.example) lets a workflow like pipeline evidence review or objection handling use your own language and criteria instead of a generic one. Copy it the same way:
+You might use a named qualification method (MEDDIC, BANT, a custom internal framework) or your own names for pipeline stages. If your employer allows it, [the sales methodology overlay](sales-methodology-overlay.md.example) lets a workflow such as pipeline evidence review or objection handling use your language and criteria instead of generic ones. Copy it the same way:
 
 ```text
 cp context/sales-methodology-overlay.md.example context/sales-methodology-overlay.md
 ```
 
-This file is also ignored by Git and is entirely optional; every workflow in this repository works without it.
+Git ignores this file too. It's optional: every workflow here works without it.
 
 ## How the Agent Uses It
 
-The agent reads the file when a task needs your company or role context. It uses confirmed information directly, keeps inferences labelled and leaves missing information as unknown.
+The agent reads the file when a task needs your company or role context. It uses confirmed information as it stands, labels anything it infers and leaves missing information as unknown.
 
-You can still tour the repository, read guides and run fictional examples without creating this file.
+You can still tour the repository, read guides and run fictional examples without this file.
 
-If you choose not to create it, provide the minimum context manually in one conversation. That information should not be written into tracked repository files.
+If you'd rather not create it, give the minimum context by hand in one conversation. Don't write that information into tracked repository files.
 
 ## Public Research Still Needs Your Confirmation
 
-You may give the agent your company name and public website. It can use public research to draft parts of the context when browsing is available.
+You can give the agent your company name and public website. If it can browse, it can use public research to draft parts of the context.
 
-Public information is not proof of an internal sales problem, process, price or policy. The agent must label research as inferred until you confirm it. Your corrections take priority.
+Public information doesn't prove an internal sales problem, process, price or policy. The agent must label research as inferred until you confirm it. Your corrections come first.
 
 ## Update or Remove It
 
 Ask the agent to review the context when your role, product, process or writing style changes. It should update only the sections you confirm.
 
-To remove it, delete `context/sales-context.md` from your local repository. The public example will remain available if you want to set it up again later.
+To remove it, delete `context/sales-context.md` from your local copy. The public example stays, so you can set it up again later.
 
 ## Never Commit These
 
-Do not add `context/sales-context.md` or `context/sales-methodology-overlay.md` to a commit, pull request or public repository.
+Don't add `context/sales-context.md` or `context/sales-methodology-overlay.md` to a commit, pull request or public repository.
 
-Before publishing a change, check that Git still ignores them:
+Before you publish a change, check that Git still ignores them:
 
 ```text
 git check-ignore -v context/sales-context.md context/sales-methodology-overlay.md

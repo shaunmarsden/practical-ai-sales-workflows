@@ -2,71 +2,71 @@
 
 ## Status
 
-**Builder-reported internal use. Not independent validation.**
+**Internal use, reported by me as the builder. Not independent validation.**
 
-I report that my private sales copilot is in use. This finding is based on that statement and a review of its current private instruction set on 5th August 2026. No real customer records, messages, transcripts, employer process or private agent instructions are reproduced here.
+My private sales copilot is in use, on my own report. This finding rests on that and on my review of its current private instructions on 5th August 2026. I haven't reproduced any real customer records, messages, transcripts, employer process or private agent instructions.
 
-## What Was Directly Inspected
+## What I Checked Directly
 
-The private instruction set describes a composition agent that can:
+The private instructions describe an agent that brings several workflows together. It can:
 
-- interpret several sales command modes;
-- retrieve approved evidence from calendar, email, CRM, meeting notes and documents;
-- choose among bounded specialist workflows;
+- understand several sales command modes;
+- pull approved evidence from calendar, email, CRM, meeting notes and documents;
+- choose among specialist workflows, each with fixed limits;
 - separate facts, estimates, inferences, unknowns and conflicts;
 - prepare meeting plans, follow-up work and proposed CRM changes;
-- require explicit approval before external writes;
-- stop when the evidence supports waiting, verification or no action.
+- require approval before writing to any outside system;
+- stop when the evidence points to waiting, checking or doing nothing.
 
-This supports classifying it as an **approval-gated orchestration agent**, not a single skill or a seventeenth sales job.
+That supports calling it an **approval-gated orchestration agent**, not a single skill or a seventeenth sales job.
 
 ## What Internal Use Supports
 
 - A private agent exists.
-- I report using it in live sales work.
-- The intended use covers more than one sales job and more than one evidence source.
-- The operating model keeps external actions under human approval.
-- The private method is mature enough to extract a public, vendor-neutral design pattern.
+- I say I use it in live sales work.
+- It's meant to cover more than one sales job and more than one source of evidence.
+- The way it runs keeps external actions under human approval.
+- The private method is mature enough to draw out a public design pattern that doesn't depend on any vendor.
 
 ## What It Does Not Support
 
-- No frequency of use is logged publicly.
+- No public log shows how often it's used.
 - No measured time saving is available.
-- No conversion, revenue or productivity outcome is attributed to the agent.
-- One sanitised live run has now been published as a formal finding, see below, but it is one run, by me, not a pattern of use.
-- No independent external user has tested the public template.
-- The instruction set alone does not prove that every connector, permission or specialist route works as written.
+- No conversion, revenue or productivity outcome is credited to the agent.
+- I've now published one cleaned live run as a formal finding (see below), but it's one run, by me, not a pattern of use.
+- No outside user has tested the public template.
+- The instructions alone don't prove every connector, permission or specialist route works as written.
 
 ## Findings From the Instruction Audit
 
 ### Strong Controls
 
-- Fast commands have bounded output, including one action or no more than three priorities.
-- Retrieval is meant to be narrow rather than a default search of every connected system.
-- Fixed commitments and explicit timing boundaries take priority over stale activity.
-- Specialist work is routed rather than duplicated inside one large instruction.
-- Facts, estimates, assumptions and unknowns are separated.
-- Customer communication, CRM changes and other writes require exact approval.
-- The agent is allowed to wait, stop or archive rather than default to another chase.
+- Fast commands have limited output, such as one action or no more than three priorities.
+- Retrieval is meant to be narrow, not a default search of every connected system.
+- Fixed commitments and stated timing limits come before stale activity.
+- Specialist work goes to the right workflow rather than being repeated inside one large instruction.
+- Facts, estimates, assumptions and unknowns are kept apart.
+- Customer messages, CRM changes and other writes need exact approval.
+- The agent may wait, stop or archive rather than default to another chase.
 
 ### Hard Controls Added to the Public Method After Review
 
-These five controls are confirmed present in the public guide, template and fictional test that came out of this review. I believe I had also applied equivalent changes to the private agent's own instructions, but that private, saved configuration was not independently verified as part of this review.
+I've confirmed these five controls are in the public guide, template and fictional test that came out of this review. I believe I also made matching changes to the private agent's own instructions, but this review didn't independently check that private, saved setup.
 
-- Every named specialist route must be confirmed installed and available before use. A missing route must be reported explicitly, not hidden behind a generic fallback.
-- Written instructions and connected-app permissions must both be checked. Customer-facing, record-changing and difficult-to-reverse actions remain approval-gated even when a tool could technically perform them.
-- Qualification and eligibility language has a hard stop while budget, authority, timeline, procurement or another material condition remains unresolved.
-- When sources disagree, the agent must use the stated source hierarchy and show the contradiction rather than defaulting to the first source checked.
-- Every external write requires an instruction naming the exact action, including in-system drafts, CRM writes, tasks, stage moves, calendar changes, message actions and document edits.
+- Every named specialist route must be confirmed as installed and available before use. A missing route must be reported, not hidden behind a generic fallback.
+- Both the written instructions and the connected-app permissions must be checked. Actions that face customers, change records or are hard to undo still need approval, even when a tool could technically do them.
+- Qualification and eligibility language has a hard stop while budget, authority, timeline, procurement or another major condition is unresolved.
+- When sources disagree, the agent must follow the stated order of sources and show the contradiction, rather than default to the first source it checked.
+- Every external write needs an instruction that names the exact action. That includes drafts inside a system, CRM writes, tasks, stage moves, calendar changes, message actions and document edits.
 
 ### Controls That Still Need Ongoing Checking
 
-- Two private route names could not be verified against the currently available specialist list during this review.
-- A formal regression pack is still needed for missing tools, conflicting records, near-starting meetings and unsupported proof claims.
+- During this review I couldn't check two private route names against the specialist list currently available.
+- It still needs a formal set of repeatable tests for missing tools, conflicting records, meetings about to start and unsupported proof claims.
 
 ## Public Method Extracted
 
-The general method is now documented in:
+The general method is now written up in:
 
 - [Build an Approval-Gated Sales Copilot](../guides/build-an-approval-gated-sales-copilot.md)
 - [Approval-Gated Sales Copilot Template](../templates/approval-gated-sales-copilot-template.md)
@@ -77,4 +77,4 @@ The general method is now documented in:
 
 ## Next Evidence
 
-The next major gap is an independent attempt: a salesperson outside this project adapting the public template with their own approved information and reporting where it helps or fails, rather than another internal run by me.
+The next big gap is an independent attempt, not another internal run by me: a salesperson outside this project adapting the public template with their own approved information, and reporting where it helps or fails.

@@ -4,19 +4,19 @@ One job, one page, with the prompt on it. Nothing else in the repository is requ
 
 ## Helps with
 
-Deciding what, if anything, to send next when a prospect has gone quiet, rather than working through a fixed run of increasingly persistent emails on a timer.
+Deciding what to send next, if anything, when a prospect goes quiet, rather than sending a fixed run of ever pushier emails on a timer.
 
 ## You need
 
 - The original call detail
 - What has already been sent and when
 - Anything that has happened since (an out-of-office reply, a changed role, silence with no signal)
-- How many chases have already gone out
+- How many chases you've already sent
 
 ## You'll get
 
 - A decision: chase now, wait, change the stakeholder, add evidence first, reframe, close the loop, or stop pursuing
-- Only once that decision is made, a message anchored to something real from the call
+- Once that's decided, and only then, a message built on something real from the call
 
 <!-- prompts:begin -->
 
@@ -86,22 +86,22 @@ Also: [Sequence stages in detail](../.agents/skills/plan-chase-sequence/referenc
 
 ## The AI cannot decide
 
-Whether a signal (a stated reorganisation, a quiet stretch, an explicit no) is genuinely a reason to wait, change tack or stop, when the evidence itself is ambiguous.
+Whether a signal (a reorganisation they mentioned, a quiet stretch, a clear no) is a reason to wait, change tack or stop, when the evidence could go either way.
 
 ## You must check
 
-- The anchor is something real from the prospect's side, never your own pipeline pressure
-- There is no manufactured urgency or scarcity
-- It does not remind the prospect you have already emailed them, unless this is the final close-out message
-- A live reply has not been mistaken for silence
+- The reason for the message comes from the prospect's side, never your own pipeline pressure
+- There's no made-up urgency or scarcity
+- It doesn't remind the prospect you've already emailed, unless it's the final close-out message
+- You haven't mistaken a live reply for silence
 
 ## Then
 
-Send only once you agree with the decision made, and check the CRM for the deal's actual current state before sending anything, not just the notes or last email.
+Send only once you agree with the decision. Before sending anything, check the deal's current state in the CRM, not just the notes or last email.
 
 ---
 
-Want the fuller method, the sequence shapes, or the guardrails for when not to chase at all? Open the [skill](../.agents/skills/plan-chase-sequence/SKILL.md) itself.
+For the fuller method, the sequence shapes and the rules on when not to chase at all, open the [skill](../.agents/skills/plan-chase-sequence/SKILL.md).
 
 ---
 
