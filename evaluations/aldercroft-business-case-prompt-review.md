@@ -1,18 +1,14 @@
 # Aldercroft Business Case Prompt Review
 
-> **Correction.** This review argued that the prompt's required human-check section was the most likely reason it caught a gap the skill missed. I [tested that over six runs](business-case-check-requirement-test.md) and it was wrong. Two of three fresh runs of the unchanged skill caught the same gap, so the skill's published miss was normal variation. All three also produced a check section without being told to. The section below headed "Why This Scored Higher Than the Skill" is wrong on that point and says so.
+> **Correction.** This review argued that the prompt's required human-check section was the most likely reason it caught a gap the skill missed. I [tested that over six runs](business-case-check-requirement-test.md) and it was wrong. Two of three fresh runs of the unchanged skill caught the same gap. The section headed "Why This Scored Higher Than the Skill" says so too.
 
-This review scores the [worked business case](../examples/aldercroft-business-case-prompt-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md). It tests the [business case prompt](../templates/business-case-prompt.md). That's a different thing from the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md), which the [Aldercroft business case review](aldercroft-business-case-review.md) scores. I cut the prompt down from the skill, so neither score is evidence for the other.
+This review scores the [worked business case](../examples/aldercroft-business-case-prompt-output.md) against the [sales AI output rubric](sales-ai-output-rubric.md). It tests the [business case prompt](../templates/business-case-prompt.md), which I cut down from the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md). The [Aldercroft business case review](aldercroft-business-case-review.md) scores the skill, so neither score is evidence for the other.
 
-I wrote the prompt because the [Build a Business Case recipe card](../recipes/build-a-business-case.md) had nothing to paste. It was the last of the seventeen cards in that position.
-
-I chose Aldercroft because it's the hardest of the three business case scenarios here. The whole case has to rest on forecasts made before any pilot. It has an unmeasured time estimate, a rough average hourly rate, a future headcount nobody has confirmed that the champion asked to leave out, and a side remark that's out of scope.
+I wrote the prompt because the [Build a Business Case recipe card](../recipes/build-a-business-case.md) had nothing to paste. I chose Aldercroft because it's the hardest of the three business case scenarios here. The whole case rests on forecasts made before any pilot, with an unmeasured time estimate, a rough hourly rate, a future headcount nobody has confirmed, and an out-of-scope side remark.
 
 ## Method Note
 
-I pasted the prompt into a fresh context with only the [transcript](../examples/aldercroft-business-case-transcript.md) below it. I removed the transcript's answer key first, as its own warning says to. The run didn't know it was a test, didn't see the rubric and had no access to this repository.
-
-**The order I worked in matters for how much the total is worth.** I wrote the prompt from the skill file, ran the test, and only then read the skill's own Aldercroft review so I could score the same way. I didn't write the prompt to avoid the weaknesses that review names. But one difference between the two is my doing, and it matters. See the section on it below.
+I pasted the prompt into a fresh context with only the [transcript](../examples/aldercroft-business-case-transcript.md) below it, with its answer key removed. The run didn't see the rubric and had no access to this repository. I wrote the prompt from the skill file, ran the test, and only then read the skill's own Aldercroft review. I didn't write the prompt to avoid that review's weaknesses, but one difference between the two is my doing. See the next section.
 
 ## Result
 
@@ -35,7 +31,7 @@ I pasted the prompt into a fresh context with only the [transcript](../examples/
 
 ## Why This Scored Higher Than the Skill, and Why That Is Not a Result
 
-The skill scored 46 on this scenario. Three of its four lost marks are ones this run kept:
+The skill scored 46 on this scenario and lost four marks. This run didn't lose three of them:
 
 | Area | Skill's run | This run |
 | --- | --- | --- |
@@ -44,37 +40,34 @@ The skill scored 46 on this scenario. Three of its four lost marks are ones this
 | Hallucination risk | 4, two unmeasured inputs stacked into a confident-looking yearly figure | 5, no combined figure at all |
 | Next step clarity | 4, nobody named to own the pilot scope decision | 4, the same gap |
 
-**A three-point gap doesn't show the prompt is better than the skill.** I've seen identical prompts on identical inputs move by one to three points between runs, and a [nine-run test](hartwell-objection-ambiguous-test.md) where the same model reached a different main diagnosis each time. One run of each on one scenario can't tell a real difference from that.
+**A three-point gap doesn't show the prompt is better than the skill.** Identical prompts on identical inputs have moved by one to three points between runs, and in a [nine-run test](hartwell-objection-ambiguous-test.md) the same model reached a different main diagnosis each time.
 
-**I thought one of the three points came from my design choice, not the model's judgement.** The skill lists eight things a document must contain, and a human-review section wasn't one of them. My prompt makes it a numbered, required section. I wrote that this was the most likely reason the pilot-cost gap got caught here and not there, and that I could test it by adding the same requirement to the skill.
+**I thought one of the three points came from my design choice.** The skill lists eight things a document must contain, and a human-review section wasn't one of them. My prompt requires one. I wrote that this was the most likely reason the pilot-cost gap got caught here and not there.
 
-**I tested it [over six runs](business-case-check-requirement-test.md), and I was wrong.** Two of three fresh runs of the unchanged skill named the missing pilot cost. So the published miss was normal variation in the skill, not the result of a missing instruction. All three unchanged runs also produced a human-check section unprompted. The section was always there. What changes is what goes in it.
-
-That leaves the duller reading. **Three points between one run of each, on one scenario, can't be told apart from noise, and none of my explanations for it survived testing.**
+**I tested it [over six runs](business-case-check-requirement-test.md), and I was wrong.** Two of three fresh runs of the unchanged skill named the missing pilot cost, and all three produced a human-check section unprompted. So the published miss was normal variation, and none of my explanations for the gap survived testing.
 
 ## What Worked
 
-- It kept the forecast honest both ways. The cautious "half" stayed the anchor, the more flattering "maybe more" never became the headline, and the whole document argues for running a pilot rather than promising a result.
-- It didn't pad. Asked for three applied examples, it wrote one, based on the only manual task the call covers in depth. It said why the other two were missing and flagged the missing detail, rather than writing two paragraphs that would read the same in any other prospect's document. That's what the prompt's instruction about generic examples is for. It's also where a second scorer would most likely disagree with me: marking it down for not delivering a requested section would be fair.
+- It kept the forecast honest both ways. The cautious "half" stayed the anchor, and "maybe more" never became the headline.
+- It didn't pad. Asked for three applied examples, it wrote one, based on the only manual task the call covers in depth, and said why the other two were missing. A second scorer would most likely disagree with me here, since marking it down for not delivering a requested section would be fair.
 - It caught something the answer key doesn't list. Nobody named a solution or product on the call, and the document says so rather than quietly naming one.
-- The commercial section is an empty, marked gap, with an instruction not to fill it from internal pricing. On a document going to a CFO, that's the right kind of blank.
+- The commercial section is an empty, marked gap, with an instruction not to fill it from internal pricing. For a CFO, that's the right kind of blank.
 
 ## What Needed Checking
 
-- Nobody owns agreeing the pilot's length and measures. The document says it must happen before the pilot starts and leaves it there.
-- Neither this run nor the skill's run produced three applied examples. The prompt asks for three. The skill only says three is a good number, so this is a gap against the prompt, not both. The skill's review didn't flag it either way, and it should have. [Twelve later runs](business-case-applied-examples-test.md) found the skill producing the one grounded example this scenario supports every time.
-- The out-of-scope accounts payable remark appears in the check list, to confirm it's been kept out. The case itself is clean, and the skill's run did the same and scored 5, so this is consistent, not lenient. But a document sent on without its check list removed would carry that line.
+- Nobody owns agreeing the pilot's length and measures.
+- Neither this run nor the skill's run produced three applied examples. The prompt asks for three and the skill only says three is a good number, so this is a gap against the prompt alone. [Twelve later runs](business-case-applied-examples-test.md) found the skill producing the one grounded example this scenario supports every time.
+- The out-of-scope accounts payable remark appears in the check list, to confirm it's been kept out. The case itself is clean, and the skill's run did the same and scored 5, but a document sent on without its check list removed would carry that line.
 
 ## What This Test Cannot Prove
 
-- One run, one scenario, scored by me, the person who wrote the prompt. Nobody outside this project has scored anything, for any job.
-- It says nothing about the other two business case scenarios. Hartwell and Bramfield have a different commercial shape and a measured pilot behind them. There the pressure is on the reader and voice rules, not on labelling forecasts.
-- It says nothing about reviewing an existing draft, since the prompt got a transcript. The skill does both, and this test covered one.
+- One run, one scenario, scored by me, the person who wrote the prompt. Nobody outside this project has scored anything.
+- It says nothing about the other two scenarios, which have a measured pilot behind them, or about reviewing an existing draft, since the prompt got a transcript.
 
 ## The Change to Test Next
 
-**I tested this one and rejected it.** The change was to add the human-check requirement to the skill and run it again on this scenario. If that caught the pilot-cost gap, the difference would be the instruction, not the skill versus the prompt. [Six runs](business-case-check-requirement-test.md) said no: two of three unchanged runs already caught the gap, and all three produced a check section without being told to. I kept the line as a clarification with weak evidence behind it, not as a proven fix.
+The human-check change is tested and rejected. I kept the line in the skill as a clarification with weak evidence behind it, not as a proven fix.
 
-The other open question about this skill, whether it drops its applied examples, is [also closed](business-case-applied-examples-test.md). The worry about this prompt was that its firm requirement for three applied examples might cause padding when the source supports only one. I [tested that over twelve runs](business-case-padding-test.md), and it didn't happen here. This run wasn't luck: twelve of twelve produce one grounded example and say why there aren't three.
+The worry about this prompt was that its firm requirement for three applied examples might cause padding when the source supports only one. I [tested that over twelve runs](business-case-padding-test.md), and it didn't happen: all twelve produce one grounded example and say why there aren't three.
 
-That test found a different fault in this prompt. **Nine of twelve runs produced a pound figure built from two unmeasured inputs**, because the guardrail against that is in the skill and not here.
+That test found a different fault. **Nine of twelve runs produced a pound figure built from two unmeasured inputs**, because the guardrail against that is in the skill and not here.

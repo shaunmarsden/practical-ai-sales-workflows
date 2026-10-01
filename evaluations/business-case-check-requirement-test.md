@@ -1,29 +1,25 @@
 # Business Case Check Requirement: A Six-Run Test
 
-This test didn't support the change I wrote it for, and it corrects something I published two days of work earlier.
+This test didn't support the change I wrote it for, and it corrects something I published earlier.
 
 ## What Was Being Tested
 
-The [business case prompt review](aldercroft-business-case-prompt-review.md) said the prompt probably beat the skill by three points on the Aldercroft scenario because of my design choice, not the model's judgement. The prompt makes a human-check section a required, numbered part. The skill didn't list one. The skill's one published run didn't flag that nobody had set a pilot cost, and the prompt's run did.
+The [business case prompt review](aldercroft-business-case-prompt-review.md) said the prompt probably beat the skill by three points on the Aldercroft scenario because of my design choice, not the model's judgement. The prompt makes a human-check section a required part. The skill didn't list one, and its one published run didn't flag that nobody had set a pilot cost.
 
 So I added one line to the skill's list of required document parts:
 
 > **Human check section**: present, and it must list every figure, claim and section a person has to confirm before the document is sent, plus anything left as an `unknown`. A figure the sources never established counts as something to confirm even when no section of the document is currently claiming it, so an absent price, rate or date belongs on this list rather than being left silent.
 
-Then I tested it rather than assuming it worked.
-
 ## Method
 
-Six runs on the same [Aldercroft transcript](../examples/aldercroft-business-case-transcript.md), each starting cold: same model, a fresh context each time, no rubric, no access to this repository. I removed the transcript's answer key first, as its own warning says to.
+Six runs on the same [Aldercroft transcript](../examples/aldercroft-business-case-transcript.md), with its answer key removed: same model, a fresh context each time, no rubric, no access to this repository.
 
 - Three runs with the skill exactly as published before the change
 - Three runs with the skill plus that one line, and nothing else changed
 
-I ran three of each, not one, because one against one can't separate the instruction from normal variation between runs. I've already seen identical prompts on identical input [move by one to three points](repeat-run-findings.md), and a [nine-run test](hartwell-objection-ambiguous-test.md) where the same model reached a different main diagnosis every time.
+I ran three of each because identical prompts on identical input have already [moved by one to three points](repeat-run-findings.md), and one against one can't separate the instruction from that.
 
-**I wrote down the pass mark before any run, and it's here unchanged:** does the output say anywhere that no pilot cost, price or commercial figure was set, or otherwise name the missing pilot cost as something a person must confirm? A document that just leaves out a commercial section without comment counts as a no.
-
-**I also decided in advance what would prove me wrong:** if the unchanged skill flags the missing pilot cost in two or three of its runs, the original miss was a one-off and the new line isn't what changed it.
+**The pass mark, written down before any run:** does the output say anywhere that no pilot cost, price or commercial figure was set, or otherwise name the missing pilot cost as something a person must confirm? Leaving out a commercial section without comment counts as a no. **What would prove me wrong:** if the unchanged skill flags it in two or three of its runs, the original miss was a one-off and the new line isn't what changed it.
 
 ## Result
 
@@ -36,45 +32,29 @@ I ran three of each, not one, because one against one can't separate the instruc
 | 2 | With the line | Yes |
 | 3 | With the line | Yes |
 
-**Two of three unchanged runs already flagged it. That's what I'd said would prove me wrong, so I rejected the idea.**
-
-The miss in the published Aldercroft record was normal variation in the skill. A missing instruction didn't cause it, and the new line isn't what fixed it.
+**Two of three unchanged runs already flagged it. That's what I'd said would prove me wrong, so I rejected the idea.** The published miss was normal variation. A missing instruction didn't cause it.
 
 ## The Claim This Corrects
 
-The business case prompt review said the required check section was "the most likely reason the pilot-cost gap got caught here and not there". That was wrong, and wrong in the direction that made my new prompt look better than the older skill.
-
-It was also wrong about how it worked. The review said the skill "leaves that to be produced voluntarily", implying the section itself was sometimes missing. **All three unchanged runs produced a human-check section without being told to.** They were headed "Figures to Confirm Before This Goes to Priya", "For Confirmation Before This Goes to Priya" and "Before This Is Sent, Internal Confirmation Checklist". The section was always there. What changes is what goes in it.
+The prompt review said the required check section was "the most likely reason the pilot-cost gap got caught here and not there". That was wrong, in the direction that flattered my new prompt. It also implied the skill's section was sometimes missing. **All three unchanged runs produced a human-check section without being told to.**
 
 ## What the Six Runs Did Show
 
-**A worse failure than the one I was chasing, in the published skill.** Run 3 of the unchanged skill missed the pilot cost. It also produced a yearly figure of £131,000 from two unmeasured inputs: Tomasz's untimed six-hour estimate multiplied by Finance's rough planning rate. That's the biggest made-up-looking number in any of the six, and it came from the published version of the skill.
+**A worse failure than the one I was chasing.** Unchanged run 3 missed the pilot cost. It also produced a yearly figure of £131,000 from two unmeasured inputs: Tomasz's untimed six-hour estimate multiplied by Finance's rough planning rate. It came from the published skill.
 
-**The stacked figure isn't variation. It's the norm.** Four of the six runs multiplied the two unmeasured inputs into a pound figure: two of three before the change and two of three after. The new line doesn't address that and didn't change it. The published Aldercroft review lost a hallucination-risk mark for exactly this, on a £65,520 figure. The fault has now shown up four times in six runs.
+**The stacked figure isn't variation. It's the norm.** Four of the six runs multiplied the two unmeasured inputs into a pound figure, two of three before the change and two of three after. The published Aldercroft review lost a hallucination-risk mark for exactly this, on a £65,520 figure.
 
-**All six runs used em dashes, and that matters for every published output here.** The counts were thirteen, fourteen, fifteen, seventeen, twenty and twenty-three. This skill didn't tell the model to avoid them, and at the time only four of the seventeen skills and four of the twenty-one prompt templates did. The [chase sequence prompt](../templates/chase-sequence-prompt.md) has the rule, and its own run produced none.
+**All six runs used em dashes**, thirteen to twenty-three each. The skill didn't tell the model to avoid them, and at the time only four of the seventeen skills did. A CI check bans them from every tracked file, and the published Aldercroft output from this skill has none. Nothing in `examples/` says a punctuation change was made. I can't prove anyone edited a published output, and I'm not saying they did. The model produces the character reliably and CI can't let it through.
 
-This repository's style rule bans em dashes, and a CI check enforces it on every tracked Markdown and HTML file, published outputs included. The published Aldercroft output from this same skill has none. Six fresh runs out of six produced between thirteen and twenty-three, so it's unlikely that run really produced zero. And **no example file here says a punctuation change was made.** I can't prove anyone edited a published output, and I'm not saying they did. What I can state is the arithmetic: the character can't get through CI, the model produces it reliably, and nothing in `examples/` says it was removed. The equivalent page in the sibling repository does say so, in one sentence.
-
-The [output published alongside this test](../examples/aldercroft-business-case-check-requirement-output.md) says so, and says which replacements were my judgement rather than a straight swap.
-
-I acted on this. All seventeen skills now carry the rule, [tested over thirty-three runs](em-dash-rule-test.md), and a check stops a new skill shipping without it.
-
-**Nothing produces three applied examples.** Across six runs the counts were one, zero, zero, one, zero and one. The published Aldercroft review never flagged this, which the prompt review already recorded as a gap in my scoring, not in any output.
-
-> **Correction.** This section first said that both the skill and the prompt ask for three, and treated the counts as the model ignoring an instruction. Only the prompt asks for three. The skill says "three is a good number", and all six of these runs used the skill. Six later fresh runs of the published skill each produced at least one grounded example, so the gap didn't come back. See the [applied examples test](business-case-applied-examples-test.md).
+The [output published alongside this test](../examples/aldercroft-business-case-check-requirement-output.md) says which replacements were my judgement. All seventeen skills now carry the rule, [tested over thirty-three runs](em-dash-rule-test.md), and a check stops a new skill shipping without it.
 
 ## What Happened to the Change
 
-**I kept the line, and I label it as weakly evidenced, not as a fix.**
-
-Keeping it is a judgement call. Against it: I rejected the idea that led to it, and three runs each can't tell three from three apart from two from three. For it: run 3 of the unchanged skill is a real case of exactly the failure the line describes, a missing price left unmentioned, and the changed runs didn't repeat it.
-
-So it stays as a clarification of something the skill's evidence labels already imply, not as a proven improvement. If you'd rather this repository carried no unproven changes at all, reverting one line is the whole cost.
+**I kept the line, and I label it as weakly evidenced, not as a fix.** Against it: I rejected the idea that led to it, and three runs each can't tell three from three apart from two from three. For it: unchanged run 3 is a real case of the failure the line describes, and the changed runs didn't repeat it. Reverting it is one line.
 
 ## One Modified Run, Scored in Full
 
-I scored the run I'd named in advance, not the best of the three: [the first modified run](../examples/aldercroft-business-case-check-requirement-output.md).
+I scored the run I'd named in advance, not the best: [the first modified run](../examples/aldercroft-business-case-check-requirement-output.md).
 
 **Score: 48 out of 50**
 
@@ -95,12 +75,14 @@ I scored the run I'd named in advance, not the best of the three: [the first mod
 
 ## What This Test Cannot Prove
 
-- Three runs per version. It can reject a strong claim, which it did, but it can't show a small effect. Three from three against two from three isn't a result.
-- One scenario, one model, and I scored every run, having also written the change being tested. Nobody outside this project has scored anything.
+- Three runs per version can reject a strong claim, which it did, but can't show a small effect.
+- One scenario, one model, and I scored every run and wrote the change.
 - It says nothing about the other two business case scenarios, or about reviewing an existing draft, since all six runs got a transcript.
 
-## The Change to Test Next, With Evidence Behind It
+## The Change to Test Next
 
-Four of six runs multiplied an untimed estimate by a rough planning rate to get a pound figure, and one turned it into £131,000 a year. That's a repeated fault, not a guess. Add a guardrail against combining two unmeasured inputs into one headline figure, and run this scenario again. The pass mark is obvious and should be written down first: does a pound figure built from both estimates appear at all?
+The next change was a guardrail against combining two unmeasured inputs into one headline figure, with the pass mark written down first: does a pound figure built from both estimates appear at all? **I did that.** [Nineteen runs](business-case-stacked-figure-test.md), with the pass mark decided in advance. None of the ten with the guardrail produced a combined figure, against four of the nine without. A six-run follow-up confirmed it doesn't block sound arithmetic. It's the one change to this skill that a test has supported.
 
-**I did that.** [Nineteen runs](business-case-stacked-figure-test.md), with the pass mark decided in advance. None of the ten with the guardrail produced a combined figure, against four of the nine without. A six-run follow-up confirmed it doesn't block sound arithmetic. It's the one change to this skill that a test has supported.
+## Corrections
+
+An earlier version of this page said that both the skill and the prompt ask for three applied examples, and that across six runs the counts (one, zero, zero, one, zero, one) showed the model ignoring an instruction. Only the prompt asks for three. The skill says "three is a good number", and all six of these runs used the skill. Six later fresh runs of the published skill each produced at least one grounded example. See the [applied examples test](business-case-applied-examples-test.md).
