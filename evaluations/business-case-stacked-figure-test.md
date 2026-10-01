@@ -1,6 +1,6 @@
 # Business Case Stacked Figure: A Nineteen-Run Test
 
-The [previous test](business-case-check-requirement-test.md) found a different defect from the one it was looking for. In four of six runs, the Build a Business Case skill multiplied Tomasz's untimed estimate of six hours a week by Finance's rough £35 planning rate to get a single figure in pounds. One run turned that into £131,000 a year. This page tests a guardrail against that. It's the first change to this repository that a test has supported.
+The [previous test](business-case-check-requirement-test.md) found a defect it wasn't looking for. In four of six runs, the Build a Business Case skill multiplied Tomasz's untimed estimate of six hours a week by Finance's rough £35 planning rate to get a single figure in pounds. One run turned that into £131,000 a year. This page tests a guardrail against that, the first change to this repository that a test has supported.
 
 ## The Guardrail
 
@@ -10,15 +10,13 @@ I added one line to the skill's guardrails:
 
 ## Method
 
-I ran the skill 19 times on the same [Aldercroft transcript](../examples/aldercroft-business-case-transcript.md), with the same model and a fresh context each time. Each run had no rubric and no access to this repository. I removed the transcript's answer key first, as its own warning says to.
+I ran the skill 19 times on the same [Aldercroft transcript](../examples/aldercroft-business-case-transcript.md), with the same model, a fresh context each time, no rubric and no access to this repository. I removed the transcript's answer key first.
 
-I made 16 of the 19 runs for this test. The other three are the previous test's three unchanged runs. I reused them because they had neither the guardrail nor the warning note, so they belong with the plain skill. Two of those three had the defect. Every count on this page includes them.
+I made 16 of the runs for this test. The other three are the previous test's unchanged runs, which had neither the guardrail nor the warning note. Two had the defect. Every count here includes them.
 
-Before any run, I wrote down the test: does the output contain a pound figure worked out from both the six-hour estimate and the £35 rate? Any such figure counts, weekly or yearly, however many caveats surround it, because producing the number at all is the defect. Quoting the £35 rate alone doesn't count. Nor does quoting 72 analyst-hours a week, since that's one estimate multiplied by a confirmed headcount, not by another estimate.
+The test, written down before any run: does the output contain a pound figure worked out from both the six-hour estimate and the £35 rate? Any such figure counts, weekly or yearly, whatever the caveats. The £35 rate alone doesn't. Nor do 72 analyst-hours a week, which is one estimate times a confirmed headcount.
 
-I had to change the design partway through. The first nine runs compared the published skill with the skill plus the guardrail. Both had a note, added in the previous test, warning a human reader about this defect. People paste these files into a model as instructions, so a note for a reader reaches the model too. The published version wasn't a clean comparison.
-
-So I added seven runs: five with the guardrail and no warning, and two more with neither. That took the plain skill from three runs to five.
+I changed the design partway through. The first nine runs compared the published skill with the skill plus the guardrail, but both carried a note, added in the previous test, warning a human reader about this defect. A model reads that note too, so the comparison wasn't clean. I added seven runs: five with the guardrail and no warning, and two with neither.
 
 ## Result
 
@@ -33,29 +31,23 @@ Nineteen runs. Fisher's exact test, one-tailed:
 - Guardrail against no guardrail, with or without the warning: 0 of 10 against 4 of 9. p = 0.033.
 - The warning alone, against the plain skill: 1 of 4 against 3 of 5. p = 0.357.
 
-**I'm keeping the guardrail.** Ten runs had it and none produced a combined figure. Nine didn't and four did.
+**I'm keeping the guardrail.** None of the ten runs with it produced a combined figure. Four of the nine without it did.
 
-I can't tell the warning note's effect from chance, so I make no claim for it. It stays in the skill because it's useful documentation for a reader, not because it did anything.
+I can't tell the warning note's effect from chance, so I make no claim for it. It stays as documentation for a reader.
 
-I read five of the ten guardrail runs in full. None avoided the figures. Each quoted the six-hour estimate and the £35 rate and kept them apart with their own labels. Four said why they weren't combining them. The fifth listed them as separate inputs and never multiplied them, which is the same thing without the comment.
+I read five of the ten guardrail runs in full. Each quoted the six-hour estimate and the £35 rate under separate labels. Four said why they weren't combining them.
 
 ## A Mistake I Made Inside This Test
 
-After the first nine runs I reported that the warning note "appears to have suppressed the defect on its own", and that it might have done more than the guardrail. That was wrong.
-
-I'd compared the warning version's 1 of 4 with the previous test's three unchanged runs, 2 of 3. Two more plain runs moved that to 3 of 5, and 1 of 4 against 3 of 5 means nothing. I read too much into three runs, the error this line of testing exists to avoid, while running the test designed to avoid it.
-
-It's still true that documentation in a skill file reaches the model. It isn't true that it changed the result here.
+After the first nine runs I reported that the warning note "appears to have suppressed the defect on its own". That was wrong. I'd compared its 1 of 4 with the previous test's three plain runs, 2 of 3. Two more plain runs made that 3 of 5, and 1 of 4 against 3 of 5 means nothing. I'd read too much into three runs.
 
 ## The Worst Run of the Nineteen
 
-One plain run produced £2,520 a week, turned it into £131,000 a year, then projected £65,000 a year of freed-up time from Tomasz's untested "half, maybe more". That's three figures from two unmeasured inputs and a hunch, labelled as illustrative and put in front of a CFO.
-
-That run used the skill as it was before the guardrail. It's the clearest reason the change is worth having.
+One plain run produced £2,520 a week, turned it into £131,000 a year, then projected £65,000 a year of freed-up time from Tomasz's untested "half, maybe more". That's three figures from two unmeasured inputs and a hunch, in front of a CFO.
 
 ## One Guardrail Run, Scored in Full
 
-[The first guardrail run](../examples/aldercroft-business-case-guardrail-output.md), picked by the same rule as last time: the first run, not the best.
+[The first guardrail run](../examples/aldercroft-business-case-guardrail-output.md), picked as last time: the first run, not the best.
 
 **Score: 48 out of 50**
 
@@ -74,50 +66,40 @@ That run used the skill as it was before the guardrail. It's the clearest reason
 | Approval discipline | 5 | Titled as a draft needing human review, with a checkbox list rather than assertions |
 | Hallucination risk | 5 | Produces no combined figure, invents no product name, and says there is nothing in the sources to draw one from |
 
-The usefulness mark is where a second scorer would most likely disagree with me. Refusing to combine the figures is what the guardrail asks for. This run went further and kept the two inputs well apart, which arguably costs the reader something the guardrail never meant to take away.
+A second scorer would most likely disagree with me on the usefulness mark. The guardrail asks for refusing to combine the figures, not for keeping them well apart, which arguably costs the reader.
 
 ## What This Test Cannot Prove
 
 - One scenario, one model, and I scored every run after writing the guardrail. Nobody outside this project has scored anything.
-- **The input wasn't as clean as the method above says.** I cut the answer key where the transcript's warning says to, but that left in a blockquote saying the example was fictional. It called the champion's time estimate a live trap, and that estimate is one of the two figures under test. It was the same in all four groups, so the comparison holds, but the overall rates may differ from a clean input. I never recorded where the pasted input started and stopped, so I can only infer that these 19 runs carried that sentence. I've since [fixed the blockquote](../examples/aldercroft-business-case-transcript.md).
-- Three of the 19 weren't made for this test. They fit the plain group because they had neither change, but they were made for a different question, and the first version of this page didn't say so.
-- Nineteen runs is enough to support a change and nowhere near enough to measure the size of the effect. The guardrail version scored zero of ten, which fits a defect that is rare rather than gone.
-- It says nothing about the other two business case scenarios. There the pilot has run and measured figures exist, so there may be nothing unmeasured to combine.
-- It says nothing about whether the guardrail costs anything elsewhere. The usefulness mark above is one run's hint that it might.
+- **The input wasn't as clean as the method says.** After I cut the answer key, a blockquote remained that called the champion's time estimate, one of the two figures under test, a live trap. It was the same in all four groups, so the comparison holds, but the overall rates may differ on a clean input. I never recorded where the pasted input started and stopped, so I can only infer these runs carried that sentence. I've since [fixed the blockquote](../examples/aldercroft-business-case-transcript.md).
+- Nineteen runs is enough to support a change, not to measure its size. Zero of ten fits a defect that is rare rather than gone.
+- It says nothing about the other two business case scenarios, where measured figures exist, so there may be nothing unmeasured to combine.
 
 ## Follow-Up: Is the Guardrail Too Blunt?
 
-I named this above as the next thing to test, and I've tested it.
+The scored Aldercroft run left a CFO with no sense of scale. If the guardrail also blocks sound arithmetic, it costs more than it saves. Aldercroft had nothing measured, so I used Hartwell and Bramfield, which both have a confirmed seat count and price per seat. The skill's Hartwell reference file says "the annual total can be calculated from it", so the repository expects the sum.
 
-The scored Aldercroft run kept the two inputs in separate sections and left a CFO with no sense of scale. If the guardrail also blocks sound arithmetic, it costs more than it saves.
-
-Aldercroft had nothing measured, so I used Hartwell and Bramfield. Both have a confirmed seat count and a confirmed price per seat. The skill's own reference file for Hartwell says "the annual total can be calculated from it", so the repository expects the sum, not just me.
-
-Before any run I fixed the test: does the output state a total cost worked out from the confirmed seat count and price per seat? A run that gives both numbers and never combines them fails. I also decided in advance that if any run left out the sum, I'd add runs without the guardrail, because otherwise I couldn't blame the guardrail for the gap.
-
-I ran the published skill, guardrail included, six times: three on each scenario.
+The test, fixed beforehand: does the output state a total cost worked out from the confirmed seat count and price? A run that gives both numbers and never combines them fails. If any did, I'd add runs without the guardrail. I ran the published skill, guardrail included, six times: three on each scenario.
 
 | Scenario | Confirmed arithmetic produced | Figures given |
 | --- | ---: | --- |
 | Hartwell | 3 of 3 | £4,320 a year in all three, £360 a month in one |
 | Bramfield | 3 of 3 | £18,720 year one in all three, £16,200 year two in two, £1,560 a month in two, £34,920 across both years in two |
 
-**The guardrail isn't too blunt.** All six produced the combined total, and every figure is correct: eight at forty five is £360 a month and £4,320 a year; thirty at fifty two is £1,560 and £18,720; thirty at forty five is £1,350 and £16,200; the two years together are £34,920.
+**The guardrail isn't too blunt.** All six produced the combined total, and every figure is correct: eight at forty five is £360 a month and £4,320 a year; thirty at fifty two is £1,560 and £18,720; thirty at forty five is £1,350 and £16,200; the two years together are £34,920. None left out the sum, so by my rule I ran none without the guardrail.
 
-No runs without the guardrail were needed, so by the rule I set beforehand I ran none.
+All three Bramfield runs also tied the two-year condition to the year-two rate, the scenario's main trap. None of the six combined an unmeasured figure with money, so the guardrail still blocks what it should. The Aldercroft run's 4 for commercial usefulness was the scenario's doing, not the guardrail's. I blamed the instruction, and that looks wrong.
 
-I checked two other things while the outputs were open. All three Bramfield runs tied the two-year condition to the year-two rate. That's the scenario's main trap, and its reference file warns that dropping it misstates the commercial terms. And none of the six combined an unmeasured figure with money, so the guardrail still blocks what it should.
-
-This changes how I read the earlier usefulness mark. The Aldercroft run scored 4 for commercial usefulness because a CFO got no sense of scale. On this evidence the scenario caused that, not the guardrail. Aldercroft has nothing measured to combine, so refusing was right. I blamed the instruction, and that looks wrong.
-
-The limits: six runs, one model, scored by me against a test I wrote, though the Hartwell sum is the repository's expectation, not mine. I haven't published the six outputs. The finding is the counts, and five more business case documents in `examples/` would be clutter, not evidence. I kept the raw outputs while scoring.
+The limits: six runs, one model, scored by me against a test I wrote, though the Hartwell sum is the repository's expectation, not mine. I haven't published the six outputs, since they'd be clutter in `examples/`.
 
 ## The Change to Test Next
 
-Nothing more on this for the skill. Over 25 runs in total, the guardrail blocks what it was written to block and allows what it should.
+Nothing more for the skill. Across 25 runs in total, the guardrail blocks what it was written to block and allows what it should.
 
-**The prompt was different.** It never had this line, and [12 runs](business-case-prompt-guardrail-test.md) later found it producing the combined figure in five of six. The prompt now has the guardrail too. That test measured a cost this one only hinted at: on this scenario the line also blocks the total hours figure it's meant to allow.
+The prompt never had this line, and [12 runs](business-case-prompt-guardrail-test.md) later found it producing the combined figure in five of six. The prompt now has the guardrail too. That test also found a cost this one only hinted at: on that scenario the line blocks the total hours figure it's meant to allow.
 
-The one open question about this skill was the number of applied examples. I [tested it over 12 runs](business-case-applied-examples-test.md) and found nothing. The skill only ever said three was a good number, the prompt is what asks for three, and six fresh runs of the published skill each produced the one grounded example the scenario supports.
+I [tested the number of applied examples over 12 runs](business-case-applied-examples-test.md) and found nothing. Only the prompt asks for three, and six fresh runs of the skill each produced the one grounded example the scenario supports. The next change to test is on the prompt: whether its demand for three leads to padding on a source that supports one. Its single run didn't pad, and one run proves nothing.
 
-**The next change to test is on the prompt, not the skill:** whether its strict demand for three applied examples leads to padding on a source that supports one. Its single run didn't pad, and one run proves nothing either way.
+## Corrections
+
+The first version of this page didn't say that three of the 19 runs came from the previous test.

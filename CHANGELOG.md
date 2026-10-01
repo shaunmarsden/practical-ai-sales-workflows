@@ -18,6 +18,10 @@ Release notes provide the fuller version summaries:
 - [Contributing](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md) now apply these rules to everything here, evaluations included. They used to let evaluations be "a little more procedural", which is how they got wordy.
 - I corrected the counts in [EVIDENCE-STATUS.md](EVIDENCE-STATUS.md) that the rewrite showed didn't add up. There are 16 comparisons, not eleven, and I scored 12 of the tests without knowing which version produced each run, not nine. The reused runs belong to the stacked figure test, not to an unnamed third test. I also fixed a broken link and a wrong action count in the [handover change history](evaluations/opportunity-handover-instruction-change-history.md).
 
+### Harder Cuts to the Longest Evaluations
+
+- I cut the 15 longest evaluation pages by about 31% of their prose, from 19,015 words to 13,098. What went: results stated more than once, method narration, limits that repeated each other and quotes that illustrated a point already made. Every table, score, automatic-failure review, finding, limit and figure that another page cites stayed. Three pages gained a short Corrections section where an inline correction used to sit in the text. The plainer-writing pass made pages easier to read. This one made them shorter.
+
 ### The Currency Rule Is Now Enforced
 
 - The [style guide](guides/writing-style-and-formatting.md) has long said "Currency figures in full: £18,000, not eighteen thousand pounds", but nothing checked it, and eight uses built up across seven files before a reader spotted "a projected 840,000 pounds" on the proof point page. **Check 27 now fails any page whose own prose writes a sum of money in words.**

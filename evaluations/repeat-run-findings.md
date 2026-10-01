@@ -1,10 +1,10 @@
 # Repeat-Run Findings
 
-I ran three of the scored tests here a second time, in fresh runs that saw only the input, and scored them against the same rubric. This page records what happened.
+I ran three of the scored tests here a second time, in fresh runs that saw only the input, and scored them against the same rubric. None of the three went down.
 
-> A later, larger test sits alongside this one: [the business case check requirement test](business-case-check-requirement-test.md) ran the same scenario six times, three on each side of a one-line change, and used the result to reject a claim I'd already published. It's a better example of what repeat runs are for.
+> A later, larger test shows better what repeat runs are for: [the business case check requirement test](business-case-check-requirement-test.md) used six runs to reject a claim I'd already published.
 
-This page also corrects something. [Comparison With Similar Projects](../COMPARISON.md) said that no fictional test here had ever been run twice. That was wrong when I published it. The [ambiguous objection stability test](hartwell-objection-ambiguous-test.md) had already run the same input nine times, three on each of three models. Neither the evidence matrix nor the comparison page linked it, so I claimed something was missing that was sitting in this folder. Its results matter for reading mine, so I set them out first.
+This page also corrects something. [Comparison With Similar Projects](../COMPARISON.md) said that no fictional test here had ever been run twice. That was wrong. The [ambiguous objection stability test](hartwell-objection-ambiguous-test.md) had already run the same input nine times, and neither the evidence matrix nor the comparison linked it.
 
 ## Result
 
@@ -14,11 +14,9 @@ This page also corrects something. [Comparison With Similar Projects](../COMPARI
 | [CRM hygiene review](fictional-crm-hygiene-review-eval.md) | 46/50 | 49/50 | Up 3 |
 | [Post-call evidence](hartwell-post-call-review.md) | 48/50 | 50/50 | Up 2 |
 
-None of the three went down. That means less than it sounds, and the next section says why.
-
 ## The Nine-Run Test That Already Existed
 
-The [ambiguous objection stability test](hartwell-objection-ambiguous-test.md) tells you more about variation than this page does. It ran one deliberately ambiguous objection from scratch, three times on each of three models:
+The nine-run test ran one deliberately ambiguous objection three times on each of three models:
 
 | Model | Scores | Primary driver diagnosed |
 | --- | --- | --- |
@@ -26,37 +24,31 @@ The [ambiguous objection stability test](hartwell-objection-ambiguous-test.md) t
 | ChatGPT | 47, 47, 47 | The same one all three times |
 | Gemini | 45, 45, 46 | The same one all three times |
 
-Two things follow for my three repeats.
+**Claude's scores on this rubric vary by about three points** on the same input with nothing changed, so the three-point rise I found sits inside a range already measured.
 
-**Claude's scores on this rubric vary by about three points.** Forty-six to forty-nine, on the same input, with nothing changed. So the three-point rise I found sits inside a range already measured. I shouldn't call it a finding without saying so.
+**The score is the less interesting half.** Claude put a different primary driver first in each run while scoring within three points every time. A steady total can hide a shifting judgement.
 
-**The score is the less interesting half.** Claude put a different primary driver first in each run, while scoring within three points every time. A steady total can hide a shifting judgement. That's what a repeat run is for, and a single score never shows it.
+## Why Two Scores Went Up
 
-## Why Two Scores Went Up, and What That Might Mean
+The two that went up lost marks for mistakes I made while writing the worked example, not for weak methods.
 
-The two that went up weren't marked down for weak methods. They were marked down for mistakes I made while writing the worked example, and the reviews say so.
+The [CRM hygiene review](fictional-crm-hygiene-review-eval.md) records that its first draft found only two of the four rows with a blank contact, and counted a departed contact as a missing one. It also carried a wrong close date I caught later. The published 46 keeps those as a permanent deduction. The fresh run listed all four blank-contact rows first time, kept the departed contact apart, and got all eight day counts right.
 
-The [CRM hygiene review](fictional-crm-hygiene-review-eval.md) records that its first draft found only two of the four rows with a blank contact, and counted a departed contact as a missing one. It also carried a wrong close date that I only caught later, while building the weekly operating review. The published 46 keeps those corrections as a permanent deduction.
+So **a published score can measure how I wrote the example rather than the method.** A hand-written example, corrected twice, then scored, differs from a clean run of the same instruction, which is closer to what a reader gets.
 
-The fresh run made none of those mistakes. It listed all four blank-contact rows first time, kept the departed contact apart from the blank ones, and got all eight of its day counts right. I checked them.
-
-That suggests **a published score can measure how I wrote the example rather than the method.** A worked example written by hand, corrected twice, then scored, is different from a clean run of the same instruction on the same input. The first records how I built the example. The second is closer to what a reader would get.
-
-I believe that explanation because the review's own text records the corrections. But the nine-run test means these numbers can't prove it. A three-point rise is inside Claude's normal range on this rubric, so my drafting history and ordinary variation predict the same result, and this test can't tell them apart. Both readings stand.
-
-The direction isn't in doubt. None of the three went down, and the two that rose are the two whose reviews record errors I made while writing.
+But a three-point rise is inside Claude's normal range, so my drafting history and ordinary variation predict the same result, and this test can't tell them apart. The two that rose are the two whose reviews record my errors.
 
 ## What the Repeat Runs Got Right
 
 The three fresh runs caught every trap in their inputs.
 
-**Chase decision.** It declined to chase on a CRM task set before the automatic reply. It treated the out of office as the reason for the silence, not as lost interest. It refused to switch to Priya, because an out of office doesn't say a contact is the wrong route. And it showed the clash between the promised Thursday transcript and the leave dates, rather than calling the transcript overdue.
+**Chase decision.** It declined to chase, treated the out of office as the reason for the silence, refused to switch to Priya, and showed the clash between the promised Thursday transcript and the leave dates.
 
-I've since changed that scenario to name its weekdays, so the Thursday clash can now be checked rather than inferred. Both runs above were scored against the version without them. **I read "showed the conflict" more loosely here than a later test did.** The published output says the later leave dates "suggest" the Thursday timing doesn't stand, under a heading of things to confirm. A [twelve-run test](chase-skill-ledger-test.md) that counted only stated facts scored the published skill zero of six. Both records are accurate about what they measured.
+I've since changed that scenario to name its weekdays. Both runs above were scored against the version without them. **I read "showed the conflict" more loosely here than a later test did.** The published output says the later leave dates "suggest" the Thursday timing doesn't stand, under a heading of things to confirm. A [twelve-run test](chase-skill-ledger-test.md) that counted only stated facts scored the published skill zero of six. Both records are accurate about what they measured.
 
-**CRM hygiene review.** It rated the Hartwell duplicate as confident, because of a shared contact, and the Fenmoor/Fenmore pair as uncertain, with nothing to confirm it. It refused to merge on a name. It kept the departed contact apart from the blanks and named the records with nothing wrong in their structure. It raised, then dismissed, a false duplicate based on the word "Analytics" alone. It also stayed out of judging whether stages were accurate and pointed to the pipeline evidence review for that, which is the line the skill should hold.
+**CRM hygiene review.** It rated the Hartwell duplicate confident and the Fenmoor/Fenmore pair uncertain, refused to merge on a name, and dismissed a false duplicate based on the word "Analytics" alone.
 
-**Post-call evidence.** It labelled the fifteen-to-thirty-minute admin figure as the customer's own unmeasured estimate. Then it flagged it in its human-check list as the number most likely to harden quietly into a fact. It recorded the proposed Tuesday meeting as not agreed and kept the transcript commitment conditional. It marked one stakeholder's involvement as an inference. It refused to guess why sharing the transcript needed an internal check, saying not to assume it is a data protection, legal or consent question.
+**Post-call evidence.** It labelled the fifteen-to-thirty-minute admin figure as the customer's own unmeasured estimate, and flagged it as the number most likely to harden quietly into a fact. It recorded the proposed Tuesday meeting as not agreed.
 
 ## Where Each Repeat Run Lost Marks
 
@@ -113,29 +105,21 @@ I've since changed that scenario to name its weekdays, so the Thursday clash can
 
 A clean fifty doesn't mean the output is perfect. It means I found nothing in it that the rubric's ten areas ask about, and I wrote the rubric.
 
-## A Problem With Repeating These Tests At All
+## Repeating These Tests
 
-The published inputs aren't clean test material. Two of the three have a section headed "Deliberate Test Points" that names, in order, every trap in the scenario.
+Two of the three published inputs have a section headed "Deliberate Test Points" that names every trap in the scenario. Anyone who pastes the published input is sitting an open-book exam.
 
-That helps a reader see what the example is for. It also means anyone who repeats one of these tests by pasting the published input is sitting an open-book exam. They'll get a better result than the original run for reasons that have nothing to do with the method.
-
-For these three runs I removed that section, and any line saying the file exists to test a skill, before the input went anywhere. Each run got the skill instruction and the scenario only.
-
-All twenty-four inputs with an answer key now have a line above it telling you to stop copying there. A check makes sure that warning stays, above the key, so a file can't quietly lose it. That fixes it for the next person. It doesn't change the three runs here, which I stripped by hand.
+For these three runs I removed that section, and any line saying the file exists to test a skill. All twenty-four inputs with an answer key now have a line above it telling you to stop copying there, and a check makes sure that warning stays.
 
 ## Method
 
-Three runs, each in a fresh context, each given the skill file as a reader would paste it plus the stripped scenario. No run saw the rubric, the published score, the test points, or any sign that this was a test or a comparison.
+Three runs, each in a fresh context, each given the skill file as a reader would paste it plus the stripped scenario. No run saw the rubric, the published score, the test points, or any sign that this was a test. All three used Claude Opus 5. The published examples I compared them with were made earlier, by hand, and I corrected them while writing.
 
-All three used Claude Opus 5. The published examples I compared them with were made earlier, by hand, and I corrected them while writing. That difference is what this page is mostly about.
-
-The outputs had em dashes, en dashes and currency symbols that this repository's style rules exclude. That's formatting, not scoring, and the rubric doesn't ask about it. But a raw run needs cleaning before it can be published here.
-
-The usual limit applies: I designed the scenarios, wrote the rubric, ran the repeats and scored them. One repeat of each of three tests doesn't measure variation, and the nine-run test above is better evidence on that. This rules out only the chance that these three published scores were wild.
+I designed the scenarios, wrote the rubric, ran the repeats and scored them. One repeat of each of three tests doesn't measure variation, and the nine-run test is better evidence on that. This rules out only the chance that the three published scores were wild.
 
 ## What Would Make This Worth More
 
 Repeating a test the same way again adds very little now. Two things would add a lot:
 
 - Somebody else scoring these three fresh outputs against the same rubric, without seeing my scores. That's the gap named in [Evidence Status](../EVIDENCE-STATUS.md). It's the only way to tell whether a 49 and a 46 differ because the outputs differ or because I scored them on different days.
-- Rescoring the published worked examples as they stand now, apart from how they were written. If the CRM example scores 46 because of two drafting errors I later fixed, the current file may deserve a different number.
+- Rescoring the published worked examples as they stand now. If the CRM example scores 46 because of two drafting errors I later fixed, the current file may deserve a different number.
