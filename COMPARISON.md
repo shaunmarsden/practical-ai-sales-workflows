@@ -8,7 +8,7 @@ Star counts and structure are as I found them on 4 September 2026. I read each r
 
 | Project | Stars | Shape | Worked example | Published score | Stated rubric | Real-use log | Outside scoring |
 | --- | ---: | --- | --- | --- | --- | --- | --- |
-| **practical-ai-sales-workflows** (this) | 2 | 17 sales jobs, 17 skills, 15 workflows | Yes, fictional, [linked from every job](EVIDENCE-STATUS.md) | Yes, one to four scored cases per job, [listed in the matrix](EVIDENCE-STATUS.md) | Yes, [ten areas out of 50](evaluations/sales-ai-output-rubric.md) | Yes, [14 of 17 jobs](CHANGELOG.md#real-use-findings) | **No, none** |
+| **practical-ai-sales-workflows** (this) | 2 | 17 sales jobs, 17 skills, 15 workflows | Yes, fictional, [linked from every job](EVIDENCE-STATUS.md) | Yes, one to four scored cases per job, [listed in the matrix](EVIDENCE-STATUS.md) | Yes, [ten areas out of 50](evaluations/sales-ai-output-rubric.md) | Yes, [16 of 17 jobs](CHANGELOG.md#real-use-findings) | **No, none** |
 | [OneWave-AI/claude-skills](https://github.com/OneWave-AI/claude-skills) | 285 | About 200 skills across sales, marketing, design, engineering | Reference material inside skills | Not found | Rubrics the skills apply, not for scoring output | Not found | Not found |
 | [w95/awesome-claude-corporate-skills](https://github.com/w95/awesome-claude-corporate-skills) | 189 | 166 skills grouped by corporate role | `examples/` folders, holding instructions rather than outputs | Not found | Not found | Not found | Not found |
 | [vonarmen-wq/forward-deployed-selling](https://github.com/vonarmen-wq/forward-deployed-selling) | 74 | Enterprise sales methodology, capabilities and references | **Yes, a labelled teaching artifact on a fictional company** | Not found | Not found | Not found | Not found |
@@ -42,7 +42,7 @@ The two repositories overlap less than I first thought, and I checked rather tha
 
 ## What This Repository Has That the Others Do Not
 
-One thing, and it's narrow: **published scores for its own outputs, against a stated rubric, with the failures written down.** Every one of the seventeen jobs has at least one scored evaluation showing what the output got wrong as well as right, and fourteen have a logged finding from real sales work.
+One thing, and it's narrow: **published scores for its own outputs, against a stated rubric, with the failures written down.** Every one of the seventeen jobs has at least one scored evaluation showing what the output got wrong as well as right, and sixteen have a logged finding from real sales work.
 
 That's worth exactly what one person's scoring is worth, as the last section says.
 
