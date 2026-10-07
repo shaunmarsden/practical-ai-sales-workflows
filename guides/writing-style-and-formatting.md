@@ -14,7 +14,7 @@ flowchart TB
 
 ### 🗣️ Say It Plainly
 
-Direct, plain, human. Short sentences. Contractions. Don't hedge or over-qualify.
+Direct, plain, human. Short sentences. Contractions. Don't hedge or over-qualify, but don't state more than you know.
 
 Not: "I just wanted to reach out to see if you might have had a chance to look at the resources I sent over."
 Yes: "Did the business case land? Happy to answer anything before you share it on."

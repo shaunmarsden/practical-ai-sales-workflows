@@ -325,7 +325,7 @@ When the user asks you to improve the repository:
 5. Keep the branch and pull request to one piece of work.
 6. Review the full diff.
 7. Validate relative links.
-8. Keep confirmed facts, estimates, inferences, unknowns and conflicting evidence separate.
+8. Keep confirmed facts, estimates, inferences, unknowns and conflicting evidence separate, and keep them so when you rewrite. Check that the new wording hasn't made a claim stronger, firmer or more causal than the evidence supports. The full rule is under House Style in [CONTRIBUTING.md](CONTRIBUTING.md#house-style).
 9. Test existing material before adding more categories.
 10. Never merge unless I tell you to.
 
