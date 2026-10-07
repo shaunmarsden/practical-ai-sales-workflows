@@ -33,9 +33,11 @@ So there's no A and no B. No two prospects got the same mix, so the campaign cou
 | Meetings attended | not tracked |
 | Qualified opportunities | not tracked |
 
-Two of those rows need a caveat.
+Three notes apply to those rows.
 
 **Delivery can't be established.** The tracker records bounces, not deliveries, and doesn't separate hard bounces from soft ones. The other 35 prospects are not recorded as bounced, which isn't the same as delivered.
+
+**One prospect has no round 1 attempt on record.** The table shows 44 round 1 attempts against 45 prospects. The tracker doesn't record why one is missing, so this page doesn't explain it.
 
 **Meetings attended and qualified opportunities aren't tracked at all.** They're two of the six numbers this method asks for. Their absence isn't a zero. It's a gap, so the campaign couldn't have shown a later result even if replies had come in.
 
