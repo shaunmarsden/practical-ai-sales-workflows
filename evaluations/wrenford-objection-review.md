@@ -31,8 +31,8 @@ This review scores the [worked response](../examples/wrenford-objection-response
 ## What Needed Checking
 
 - The line calling the clause "tied specifically to one client's data" matches what Aisha was told. But repeating it quite confidently, even with a hedge, leans towards the reassuring reading this test exists to catch. Worth watching for in other runs.
-- Whether anyone at Wrenford has ever tested or interpreted the clause is a separate unknown the source notes raise, and the response doesn't list it as its own open question.
-- It names nobody at Wrenford to ask. That's right, since nobody was identified, but the next step would be stronger with a named role to send it to once one exists.
+- Whether anyone at Wrenford has ever tested or interpreted the clause is a separate unknown the source notes raise. The output lists it inside its Isolate bullet, but the draft reply never asks it as a question of its own.
+- It names a function, "whoever handles compliance or contracts at Wrenford", but no individual. That's right, since nobody was identified, but the next step would be stronger with a named person to send it to once one exists.
 
 ## What I Changed in the Prompt
 

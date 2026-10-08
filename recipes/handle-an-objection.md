@@ -88,7 +88,7 @@ Send only what you have checked, and end with a dated next step: progress, a fol
 
 ---
 
-For the fuller method, the guardrails and a second worked test, open the [workflow](../workflows/05-objection-handling.md).
+For the fuller method, the guardrails and the harder worked tests, open the [workflow](../workflows/05-objection-handling.md).
 
 ---
 

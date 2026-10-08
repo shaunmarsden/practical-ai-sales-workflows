@@ -8,7 +8,7 @@ Both ledger tests, [on the prompt](chase-dated-commitment-ledger-test.md) and [o
 
 I checked every published input first. Only the Hartwell chase scenario has both dates and a stated time when someone is away, and there they overlap by design, so there was nothing to test the step against.
 
-I wrote [Tarnside Freight](../examples/tarnside-chase-input.md) for this and published it with the test. It's the mirror of the existing chase scenario, on purpose. Ruth Alderman promised exception forms by Friday 5th June, and today is Thursday 11th June. She mentioned two times she'd be unavailable: a depot system freeze from 15th to 26th June, and a conference on the 30th and 1st. Both are in the future and cover neither date. **Nothing collides, and saying so is the right answer.**
+I wrote [Tarnside Freight](../examples/tarnside-chase-input.md) for this and published it with the test. It's the mirror of the existing chase scenario, on purpose. Ruth Alderman promised exception forms by Friday 5th June, and today is Thursday 11th June. She mentioned two dates of her own: a depot system freeze from 15th to 26th June, and a conference on the 30th and 1st. Both are in the future and cover neither date. **Nothing collides, and saying so is the right answer.**
 
 There's also no stated reason for the silence, the opposite of the Hartwell case, so the right decision changes too.
 

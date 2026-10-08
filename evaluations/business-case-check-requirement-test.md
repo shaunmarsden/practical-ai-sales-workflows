@@ -81,7 +81,7 @@ I scored the run I'd named in advance, not the best: [the first modified run](..
 
 ## The Change to Test Next
 
-The next change was a guardrail against combining two unmeasured inputs into one headline figure, with the pass mark written down first: does a pound figure built from both estimates appear at all? **I did that.** [Nineteen runs](business-case-stacked-figure-test.md), with the pass mark decided in advance. None of the ten with the guardrail produced a combined figure, against four of the nine without. A six-run follow-up confirmed it doesn't block sound arithmetic. It's the one change to this skill that a test has supported.
+The next change was a guardrail against combining two unmeasured inputs into one headline figure, with the pass mark written down first: does a pound figure built from both estimates appear at all? **I did that.** [Nineteen runs](business-case-stacked-figure-test.md), with the pass mark decided in advance. None of the ten with the guardrail produced a combined figure, against four of the nine without. A six-run follow-up confirmed it doesn't block sound arithmetic. It was the first change to this skill that a test supported.
 
 ## Corrections
 

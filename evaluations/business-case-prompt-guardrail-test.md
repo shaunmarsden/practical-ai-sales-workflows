@@ -29,13 +29,13 @@ I made 12 runs on the [Aldercroft transcript](../examples/aldercroft-business-ca
 | Prompt without the guardrail | 6 | **5** | 4 | 4 |
 | Prompt with the guardrail | 6 | **0** | 0 | **0** |
 
-**Neither rule was triggered, so I adopted the guardrail.** Fisher's exact test, one-tailed, on five of six against none of six: p = 0.015. The plain prompt's five of six fits the nine of 12 from the previous test on the same prompt and scenario.
+**Neither rule was triggered, so I adopted the guardrail.** Fisher's exact test, one-tailed, on five of six against none of six: p = 0.0076. The plain prompt's five of six fits the nine of 12 from the previous test on the same prompt and scenario.
 
 Four of the five combined figures were turned into a yearly figure of about £131,000. Two went on to project roughly £65,000 a year of freed-up time from an untested "half, maybe more". That's the run the [mistakes guide](../guides/which-ai-mistakes-get-through.md) opens with, repeated here twice in six runs of a published prompt.
 
 ## The Cost, Now Measured
 
-**No guardrail run gave a reader any overall sense of scale.** It rightly left out the combined pound figure. But it also left out the 72 analyst-hours a week, which is one estimate multiplied by a confirmed headcount, and which my own test says isn't the defect. Four of the six runs without the guardrail gave it. One-tailed p = 0.061.
+**No guardrail run gave a reader any overall sense of scale.** It rightly left out the combined pound figure. But it also left out the 72 analyst-hours a week, which is one estimate multiplied by a confirmed headcount, and which my own test says isn't the defect. Four of the six runs without the guardrail gave it. One-tailed p = 0.030.
 
 The [stacked figure test](business-case-stacked-figure-test.md) hinted at this from one scored run, which lost a usefulness mark because a CFO got no sense of size. Its follow-up then found the guardrail wasn't too blunt on the two scenarios with measured prices. **On this scenario it's blunter than my test asks for**, and that's now a count, not a hint.
 
@@ -51,9 +51,9 @@ I still adopted the guardrail. Producing £131,000 from two guesses is worse tha
 
 - Six runs a version, one scenario, one model, and I wrote and applied the test myself.
 - It says nothing about the Hartwell or Bramfield scenarios, where confirmed prices exist and the skill's version of this guardrail didn't block sound arithmetic. The cost here may be specific to a scenario with nothing measured.
-- I planned to count the overall scale in advance, but it wasn't the test, and p = 0.061 on six a side isn't a result.
+- I planned to count the overall scale in advance, but it wasn't the test, and a one-tailed p = 0.030 on six a side for a secondary count isn't a result.
 - It says nothing about whether a reader would rather have the hours total. That's a judgement about the document. This measures only whether one appears.
 
 ## The Change to Test Next
 
-Whether a second line brings back the hours total without bringing back the pound figure. It would allow a total built from an estimate and a confirmed count, while still forbidding one built from two estimates. The test is already written for both versions, and this page gives the starting point for both.
+Whether a second line brings back the hours total without bringing back the pound figure. It would allow a total built from an estimate and a confirmed count, while still forbidding one built from two estimates. The test is already written for both versions, and this page gives the starting point for both. I [ran it on the prompt](business-case-prompt-second-line-test.md), and it works.

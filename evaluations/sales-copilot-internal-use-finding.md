@@ -18,7 +18,7 @@ The private instructions describe an agent that brings several workflows togethe
 - require approval before writing to any outside system;
 - stop when the evidence points to waiting, checking or doing nothing.
 
-That supports calling it an **approval-gated orchestration agent**, not a single skill or a seventeenth sales job.
+That supports calling it an **approval-gated orchestration agent**, not a single skill or a separate sales job.
 
 ## What Internal Use Supports
 

@@ -28,4 +28,4 @@ Not sure which job you need, or want the fuller tour first? Start at [Choose a S
 
 None of these claims a time saving. To find out whether one is worth using, log your own time with the [time and quality log](../templates/time-and-quality-log.md). Don't assume a card helped because it reads well.
 
-Every card has a "What you must check" section, and each one fits its job rather than repeating one list. They draw on [Which AI Mistakes Actually Get Through](../guides/which-ai-mistakes-get-through.md), which lists the real mistakes found across every scored run here, sorted by whether a careful reader would have caught them. The ones worth checking for are the ones that read like sourced fact.
+Every card has a "You must check" section, and each one fits its job rather than repeating one list. They draw on [Which AI Mistakes Actually Get Through](../guides/which-ai-mistakes-get-through.md), which lists real mistakes found in scored runs here, sorted by whether a careful reader would have caught them. The ones worth checking for are the ones that read like sourced fact.

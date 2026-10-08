@@ -34,7 +34,7 @@ This review scores the [worked diagnosis](../examples/oakriven-real-blocker-outp
 
 - Rina may not be the final approver either. Nothing in the scenario says whether another sign-off sits above her, and the diagnosis doesn't raise this as an open question the way the Rowcastle test raised "Group Ops."
 - "Ask Rina promptly" would be stronger with a day or short window attached, given the deadline the scenario describes.
-- The wording for the authority gap leans towards doubting Rina's authority in particular, rather than saying plainly that nobody has tested it yet either way.
+- I think the Hallucination risk note above overstates this. Section 4 of the output says plainly that nobody has confirmed Rina's authority and nobody has confirmed she lacks it, and that it hasn't been tested. Only the closing line, "neither, on current evidence, is anyone else yet", could be read as doubting her.
 
 ## What I Changed in the Prompt
 

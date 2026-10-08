@@ -37,6 +37,8 @@ It didn't invent a return date where Priya only gave a vague one.
 
 It's worth checking whether Priya's own role or authority at Hartwell has changed, alongside the Head of Revenue Operations question.
 
+The analysis says Alex left "shortly before this email arrived". The evidence gives no date for the move, and only says I noticed it on LinkedIn, so the departure is unconfirmed and the timing is the analysis's own addition.
+
 I should decide for myself what "later in the year" means on my own calendar, since the analysis rightly declines to invent a date.
 
 It's worth checking now and then whether the pilot evidence would still land with a new stakeholder, or whether it needs updating.

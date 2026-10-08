@@ -1,6 +1,6 @@
 # Score This Yourself
 
-I gave every score in this repository myself, using a rubric I wrote, on outputs I produced. The [evidence status](../EVIDENCE-STATUS.md) page marks External User Test as "Not yet" for all seventeen sales jobs, and every evaluation here ends by asking for the same thing: someone else scoring the same output against the same rubric, without seeing my numbers first.
+I gave every score in this repository myself, using a rubric I wrote, on outputs I produced. The [evidence status](../EVIDENCE-STATUS.md) page marks External User Test as "Not yet" for all seventeen sales jobs, and the gap I keep naming is the same one: someone else scoring the same output against the same rubric, without seeing my numbers first.
 
 This page is that request, made as small as I can make it. It should take about 15 minutes.
 
@@ -10,7 +10,7 @@ You don't need to be a sales expert, use the workflows, install anything or agre
 
 Three files, in this order.
 
-1. **The source material:** [the fictional Kellow scenario](../examples/kellow-fit-review-input.md). Around 400 words, plus a 200 word answer key at the end that you should also read, for the reason below. It's all made up, so there's nothing confidential in it.
+1. **The source material:** [the fictional Kellow scenario](../examples/kellow-fit-review-input.md). Around 400 words, plus a 160 word answer key at the end that you should also read, for the reason below. It's all made up, so there's nothing confidential in it.
 2. **The output being scored:** [the Kellow fit and limitations review](../examples/kellow-fit-review-output.md). Around 500 words.
 3. **The rubric:** [the sales AI output rubric](sales-ai-output-rubric.md). Ten areas, one to five each, out of 50.
 

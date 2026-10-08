@@ -34,6 +34,7 @@ This review scores the [worked business case](../examples/aldercroft-business-ca
 - The projected saving combines two unmeasured numbers into one figure: six hours a week, observed but not timed, and a guessed reduction percentage. Each is labelled as an estimate, but a person should check that the combined £65,520 doesn't read as more solid than either input once it reaches Priya.
 - The call didn't establish a pilot cost, and the document doesn't flag this as a gap. Priya would reasonably want a rough pilot cost next to the projected saving before approving it, even as a line marked to be confirmed.
 - Nobody is named as owning the follow-up to agree the pilot's length and how it will be measured before it starts.
+- The output's Time Commitment section says each analyst would get a short onboarding session before the measurement period. Nothing on the call says that, so my "invents no fact" note above is too strong. A person should cut the line or confirm it with Tomasz.
 
 ## What I Changed in the Prompt
 

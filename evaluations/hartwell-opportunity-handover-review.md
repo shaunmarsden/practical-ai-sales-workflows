@@ -8,12 +8,13 @@ The person reference mechanism worked, but the output still needs the same comme
 
 ## Runs Excluded Entirely, or Kept as Partial Evidence Only
 
-Four earlier runs aren't the published result:
+Five earlier runs aren't the published result:
 
 - One scored 47/50, but its source pack and a skill reference file both stated the right conclusions outright. I excluded it.
 - One scored 46/50 without that answer key, but its transcript still had a `Deliberate Test Points` section. I kept it only because it found a real defect: three of six actions had no single owner.
 - One scored 48/50 after an ownership fix, but I'd reminded it to watch ownership, and it read the same spoiled transcript. I kept it only to show the fix worked for that behaviour.
 - One scored 41 out of 50 with an automatic failure. It was clean and unprompted, but it gave Alex Morgan a gender four times, once inside its own Confirmed Evidence section, and did the same for Jordan Lee. See below.
+- A second clean run, after my first pronoun fix, scored 41 out of 50 with the same automatic failure. I kept it as evidence that the one-sentence fix didn't work.
 
 ## Before Change: The 41/50 Automatic Failure
 

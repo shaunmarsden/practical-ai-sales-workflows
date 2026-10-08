@@ -2,7 +2,7 @@
 
 A rubric is a fixed checklist for scoring something the same way every time, instead of by gut feel. "That email looks good" is not the same thing as "that email is accurate, safe, and ready to send." This one scores AI sales output against the same ten checks every time. That way you can compare two results fairly, and catch a weak spot before it reaches a customer, not after.
 
-New to this and not sure what scoring an output looks like? [See it scored against a real output](hartwell-post-call-review.md) first: a follow-up email an AI wrote, scored area by area, with what worked, what needed checking and the exact prompt change that came out of it.
+New to this and not sure what scoring an output looks like? [See it scored against a worked example](hartwell-post-call-review.md) first: an AI-written follow-up pack from a fictional call, scored area by area, with what worked, what needed checking and what changed in the prompt.
 
 You don't have to score by hand. Paste this rubric into your AI tool with the output you want checked, and ask it for a score and a one-line reason for each row below. Read its answer yourself rather than trusting it outright, especially against the automatic failures. An AI scoring its own kind of output doesn't replace your judgement.
 

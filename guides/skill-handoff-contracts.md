@@ -31,7 +31,7 @@ This uses the fictional [Hartwell post-call transcript](../examples/hartwell-pos
 
 **What still requires a person:** me checking my own diary before those times go in the email. Alex's internal approval before the transcript is shared. Whether to send the email at all.
 
-All six are already in the Final Accuracy Check section of the [worked output](../examples/hartwell-post-call-output.md). The contract isn't new content. It spells out, at the point where one skill hands to the next, what the finished output already had to get right by the end.
+Most of this is already in the [worked output](../examples/hartwell-post-call-output.md), across its Confirmed Facts, Estimate, Missing Information and Final Accuracy Check sections and the Evidence column of its actions table. The contract isn't new content. It spells out, at the point where one skill hands to the next, what the finished output already had to get right by the end.
 
 ## Where This Applies Now
 

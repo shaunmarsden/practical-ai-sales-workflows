@@ -28,7 +28,7 @@ One [model-run-metadata-template.md](model-run-metadata-template.md) block per r
 
 ## Where Runs Agreed
 
-What stayed consistent across every run, regardless of model or attempt. This is the part of the workflow you can trust.
+What stayed consistent across every run, regardless of model or attempt. This is the part of the workflow you have the most reason to trust.
 
 ## Where Runs Disagreed
 

@@ -8,7 +8,7 @@ Star counts and structure are as I found them on 4 September 2026. I read each r
 
 | Project | Stars | Shape | Worked example | Published score | Stated rubric | Real-use log | Outside scoring |
 | --- | ---: | --- | --- | --- | --- | --- | --- |
-| **practical-ai-sales-workflows** (this) | 2 | 17 sales jobs, 17 skills, 15 workflows | Yes, fictional, [linked from every job](EVIDENCE-STATUS.md) | Yes, one to four scored cases per job, [listed in the matrix](EVIDENCE-STATUS.md) | Yes, [ten areas out of 50](evaluations/sales-ai-output-rubric.md) | Yes, [16 of 17 jobs](CHANGELOG.md#real-use-findings) | **No, none** |
+| **practical-ai-sales-workflows** (this) | 2 | 17 sales jobs, 15 workflows, 17 skills (15 jobs have one, and the 17 include the router and a second follow-up skill) | Yes, fictional, [linked from every job](EVIDENCE-STATUS.md) | Yes, one to four scored cases per job, [listed in the matrix](EVIDENCE-STATUS.md) | Yes, [ten areas out of 50](evaluations/sales-ai-output-rubric.md) | Yes, [16 of 17 jobs](CHANGELOG.md#real-use-findings) | **No, none** |
 | [OneWave-AI/claude-skills](https://github.com/OneWave-AI/claude-skills) | 285 | About 200 skills across sales, marketing, design, engineering | Reference material inside skills | Not found | Rubrics the skills apply, not for scoring output | Not found | Not found |
 | [w95/awesome-claude-corporate-skills](https://github.com/w95/awesome-claude-corporate-skills) | 189 | 166 skills grouped by corporate role | `examples/` folders, holding instructions rather than outputs | Not found | Not found | Not found | Not found |
 | [vonarmen-wq/forward-deployed-selling](https://github.com/vonarmen-wq/forward-deployed-selling) | 74 | Enterprise sales methodology, capabilities and references | **Yes, a labelled teaching artifact on a fictional company** | Not found | Not found | Not found | Not found |
@@ -18,7 +18,7 @@ Star counts and structure are as I found them on 4 September 2026. I read each r
 
 ## Notes on Each Project
 
-**vonarmen-wq/forward-deployed-selling** does worked examples properly, and in one way better than I do. Its main example calls itself a teaching artifact, says the company is fictional, and says plainly that its citations are placeholders showing where real sources would go. That last sentence is more careful than most of what's published in this space, some of mine included.
+**vonarmen-wq/forward-deployed-selling** does worked examples properly, and in one way better than I do. Its main example calls itself a teaching artifact, says the company is fictional, and says plainly that its citations are placeholders showing where real sources would go. That last sentence is more careful than most of what I read for this page, some of mine included.
 
 **matteotitta/genesys-skills** has the only scoring machinery in the table: a harness that scores a finished artifact out of 100 the same way every time and returns pass or fail. Two catches. It expects you to supply a `rubric.json` for each skill, and I found no rubric files in the repository, so you set the criteria; they aren't published. And it scores something different from my rubric: whether the structure is complete, not whether the output sticks to the evidence. Still, a repeatable check on output shape is real engineering that this repository doesn't have.
 
@@ -34,11 +34,11 @@ The two repositories overlap less than I first thought, and I checked rather tha
 
 **No outside scoring, here or anywhere in the table.** I produced every score in this repository myself, against a rubric I wrote, after running the test myself. That's the biggest weakness of everything here. [Evidence Status](EVIDENCE-STATUS.md) and every evaluation say so, and more testing by me can't fix it. I haven't solved a problem the rest of the field has; I've written mine down.
 
-**Two stars.** Popularity doesn't prove quality, but it does show use, and use is how problems get found. The repositories above this one have had far more contact with real readers.
+**Few stars.** The table shows two on 4 September 2026, and GitHub showed four on 8 October 2026. Popularity doesn't prove quality, but it does show use, and use is how problems get found. The repositories above this one have had far more contact with real readers.
 
 **Fewer jobs than most.** Seventeen against 21, 166, 168 and about 200. If you want the most coverage, this isn't the repository for it.
 
-**Most of the fictional tests here are single runs.** The [ambiguous objection stability test](evaluations/hartwell-objection-ambiguous-test.md) ran one input nine times, three each across three models. Claude scored 46 to 49 but picked a different main diagnosis in every run, while ChatGPT and Gemini stayed on the same one. Three more tests have since been [repeated once each](evaluations/repeat-run-findings.md): one held exactly and two came out higher. Everything else is a single run. Where a job shows two, three or four scored cases, those are separate scenarios, not repeats.
+**Most of the fictional tests here are single runs.** The [ambiguous objection stability test](evaluations/hartwell-objection-ambiguous-test.md) ran one input nine times, three each across three models. Claude scored 46 to 49 but picked a different main diagnosis in every run, while ChatGPT and Gemini stayed on the same one. Three more tests have been [repeated once each](evaluations/repeat-run-findings.md): one held exactly and two came out higher. A further 16 compared an instruction with and without one change, mostly on the business case and chase jobs, usually with six runs a version. [Evidence Status](EVIDENCE-STATUS.md) lists all 18. Everything else is a single run. Where a job shows two, three or four scored cases, those are separate scenarios, not repeats.
 
 ## What This Repository Has That the Others Do Not
 

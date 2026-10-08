@@ -75,4 +75,4 @@ Both versions carried them equally, so neither explains a difference between the
 
 I [tested whether the prompt's firm "Three applied examples" causes padding](business-case-padding-test.md) on a source that supports only one. It doesn't. All 12 runs produced exactly one example and said why there weren't three.
 
-That test found something else. **Nine of its 12 runs produced the stacked figure**, because the guardrail is in the skill but not the prompt. Adding it to the prompt is the next change to test, starting from nine of 12.
+That test found something else. **Nine of its 12 runs produced the stacked figure**, because the guardrail is in the skill but not the prompt. Adding it to the prompt was the next change to test, starting from nine of 12. I [did that](business-case-prompt-guardrail-test.md).

@@ -116,7 +116,7 @@ The biggest gap: nobody has used the [feedback form](https://docs.google.com/for
 
 Got 15 minutes to disagree with me? [Score one output yourself](evaluations/score-this-yourself.md). Every score here is mine. One score from someone else would be the most useful thing anyone could add.
 
-Wondering how this compares with other public AI sales repositories? [Comparison With Similar Projects](COMPARISON.md) puts it in a table with six of them, including where this one loses: two stars, fewer jobs than most, and no score from anyone but me.
+Wondering how this compares with other public AI sales repositories? [Comparison With Similar Projects](COMPARISON.md) puts it in a table with six of them, including where this one loses: few stars, fewer jobs than most, and no score from anyone but me.
 
 ## 🧪 See One Complete Test
 
@@ -126,7 +126,7 @@ The Hartwell example follows one fictional sales call through to the finished fo
 
 You can also score your own result with the [sales AI output rubric](evaluations/sales-ai-output-rubric.md), and [log the time you save](guides/measure-time-and-quality.md) rather than assuming a workflow helps because it reads well.
 
-**Wondering which AI mistakes are worth guarding against?** [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md) lists every real fault found in the scored runs here, sorted by whether a careful reader would have noticed. The ones that are easy to laugh at cost nothing. An invented pronoun repeated four times inside a Confirmed Evidence section is the expensive kind.
+**Wondering which AI mistakes are worth guarding against?** [Which AI Mistakes Actually Get Through](guides/which-ai-mistakes-get-through.md) lists real faults found in the scored runs, sorted by whether a careful reader would have noticed. The ones that are easy to laugh at cost nothing. An invented pronoun used four times, once inside a Confirmed Evidence section, is the expensive kind.
 
 Does the model matter? [See the same test run in Claude, ChatGPT and Gemini with no other context](evaluations/cross-model-post-call-comparison.md), scored the same way.
 

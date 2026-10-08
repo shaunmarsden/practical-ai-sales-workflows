@@ -39,6 +39,8 @@ It left the passing comment about a possible customer success team expansion out
 
 I should confirm the QBR date with Alex and update the document before it goes to Priya.
 
+Rereading the output against both transcripts, I found three claims they don't support. The Time Commitment section promises a thirty-minute onboarding session per person, and nobody mentions that on either call. The same-day CRM visibility paragraph says the suggested updates were ready on the day of the call, but Alex only said they were "genuinely useful". The pilot section says two changes were measured directly and then lists three, when only the admin time was timed. Those lines should come out before the document goes to Priya, and they sit awkwardly beside the "no invented" notes in the table above.
+
 The compliance confirmation should be chased, and the document updated once it arrives. If it hasn't arrived, the outstanding line stays.
 
 A short tone pass would help the document sound like my own writing rather than a generic business case.

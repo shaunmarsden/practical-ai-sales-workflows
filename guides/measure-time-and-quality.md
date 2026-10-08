@@ -36,7 +36,7 @@ Use the [time and quality log](../templates/time-and-quality-log.md). Record the
 
 If you don't know how long something would have taken by hand, say so. Don't invent a precise-sounding number to make the comparison look better. "Roughly twenty minutes, not timed" is a fair entry. A guessed "35 minutes" passed off as a measurement isn't.
 
-Watch for the opposite bias too. Your first go at a new workflow is usually slower than your fifth, because you're learning it and checking it more carefully. Note which attempt it is, so nobody reads a slow first entry as a slow workflow.
+Watch for the opposite bias too. Your first go at a new workflow is often slower than your fifth, because you're learning it and checking it more carefully. Note which attempt it is, so nobody reads a slow first entry as a slow workflow.
 
 </details>
 
