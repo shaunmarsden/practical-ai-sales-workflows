@@ -40,4 +40,4 @@ Nothing needed changing for this run. The isolate step already guards against th
 
 ## Next Test
 
-Run an ambiguous objection, one with real mixed signals where you can't clearly work out the driver from context, several times on the same model using the [test run template](test-run-template.md). Check whether the diagnosis stays the same across runs or swings between buckets. A single clean pass like this one shows the workflow can diagnose well. It doesn't yet show it diagnoses consistently when the signals are mixed.
+Run an ambiguous objection, one with real mixed signals where you can't clearly work out the driver from context, several times on the same model using the [test run template](test-run-template.md). Check whether the diagnosis stays the same across runs or swings between buckets. A single clean pass like this one shows the workflow can diagnose well. It doesn't yet show it diagnoses consistently when the signals are mixed. I've since run that test: see the [ambiguous objection stability test](hartwell-objection-ambiguous-test.md).

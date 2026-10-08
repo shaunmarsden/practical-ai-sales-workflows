@@ -68,6 +68,8 @@ One plain run produced £2,520 a week, turned it into £131,000 a year, then pro
 
 A second scorer would most likely disagree with me on the usefulness mark. The guardrail asks for refusing to combine the figures, not for keeping them well apart, which arguably costs the reader.
 
+Two of my notes don't match the output. I said the out-of-scope aside stayed out of the case, but its Scope section names the accounts payable team and its matching problem. And the usefulness note says a CFO gets not even the inputs side by side, when the cost inputs list gives the six hours, the reduction and the £35 rate together. What's missing is any total.
+
 ## What This Test Cannot Prove
 
 - One scenario, one model, and I scored every run after writing the guardrail. Nobody outside this project has scored anything.
@@ -94,11 +96,11 @@ The limits: six runs, one model, scored by me against a test I wrote, though the
 
 ## The Change to Test Next
 
-Nothing more for the skill. Across 25 runs in total, the guardrail blocks what it was written to block and allows what it should.
+Nothing more for the skill at the time. Across 25 runs in total, the guardrail blocks what it was written to block and allows what it should.
 
-The prompt never had this line, and [12 runs](business-case-prompt-guardrail-test.md) later found it producing the combined figure in five of six. The prompt now has the guardrail too. That test also found a cost this one only hinted at: on that scenario the line blocks the total hours figure it's meant to allow.
+The prompt never had this line, and [12 runs](business-case-prompt-guardrail-test.md) later found it producing the combined figure in five of six. The prompt now has the guardrail too. That test also found a cost this one only hinted at: on that scenario the line blocks the total hours figure it's meant to allow. The skill turned out to do the same, and a [second line](business-case-skill-second-line-test.md) fixed it there too.
 
-I [tested the number of applied examples over 12 runs](business-case-applied-examples-test.md) and found nothing. Only the prompt asks for three, and six fresh runs of the skill each produced the one grounded example the scenario supports. The next change to test is on the prompt: whether its demand for three leads to padding on a source that supports one. Its single run didn't pad, and one run proves nothing.
+I [tested the number of applied examples over 12 runs](business-case-applied-examples-test.md) and found nothing. Only the prompt asks for three, and six fresh runs of the skill each produced the one grounded example the scenario supports. The next change to test is on the prompt: whether its demand for three leads to padding on a source that supports one. Its single run didn't pad, and one run proves nothing. I [tested that over 12 runs](business-case-padding-test.md) and it doesn't pad.
 
 ## Corrections
 

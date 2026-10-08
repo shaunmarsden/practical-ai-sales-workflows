@@ -56,7 +56,7 @@ Watch for one version of this in particular. A stakeholder's general description
 
 ### 3. Never Spin a Limitation Into a Strength
 
-The most common failure here isn't missing a poor fit outright. It's describing one so kindly that it reads as a bonus. State the mismatch plainly. A team with a shared structure and no owner has a real integration problem to solve. That isn't evidence the offer will spread on its own.
+A common failure here isn't missing a poor fit outright. It's describing one so kindly that it reads as a bonus. State the mismatch plainly. A team with a shared structure and no owner has a real integration problem to solve. That isn't evidence the offer will spread on its own.
 
 </details>
 

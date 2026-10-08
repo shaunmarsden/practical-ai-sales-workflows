@@ -33,6 +33,7 @@ This review scores the [worked diagnosis](../examples/rowcastle-real-blocker-out
 
 - The authority question could have been split more precisely: authority over a Leeds-only trial, against authority over the wider commercial number Naomi mentioned. The scenario leaves both open, and the output only fully covers the second.
 - "Group Ops has not been identified by name, role or contact route" fairly sums up what's missing. But it reads a little more like a finding about Rowcastle's structure than a note of what this call didn't establish. Worth rewording if the pattern comes up again.
+- The output says Naomi "sounded ready to proceed". The scenario never describes how she sounded, so that detail is the output's own, and the 5 for factual accuracy above is a little generous.
 
 ## What I Changed in the Prompt
 

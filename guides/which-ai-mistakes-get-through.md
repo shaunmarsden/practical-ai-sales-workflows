@@ -1,6 +1,6 @@
 # Which AI Mistakes Actually Get Through
 
-A real AI tool made every mistake on this page, on a real run recorded in this repository. Every row links to the scored evaluation it came from. None of it is made up to illustrate a point.
+A real AI tool made every mistake on this page, on a real run recorded in this repository or one of its sibling repositories. Every row links to the scored evaluation it came from. None of it is made up to illustrate a point.
 
 I've sorted them by one thing: **whether a person reading the output carefully would have noticed.**
 
@@ -28,7 +28,7 @@ Every one of these reads as if it came from a source. That's what makes them exp
 | --- | --- | --- |
 | **Invented a person's gender and used it four times**, once inside its own Confirmed Evidence section, cited as if the pronoun were part of what the email confirmed. It did the same for a second named person. | Nobody proofreads a pronoun. It carries no figure, no date and no claim, so there's nothing to check it against. | [Handover review, 41/50, automatic failure](../evaluations/hartwell-opportunity-handover-review.md) |
 | **Multiplied an untimed estimate by a rough planning rate**, turned it into a yearly £131,000, then projected £65,000 a year of time won back from an untested "half, maybe more". Labelled it illustrative. | Three figures, each built on guesses and carrying their labels, and a reader who skims takes the number and leaves the labels. | [Stacked figure test](../evaluations/business-case-stacked-figure-test.md) |
-| **Signed an outreach email with a sender's name the case never gave.** Two of four runs on the same case did it; two didn't. | A signature is the last thing you read and the first thing you assume is yours. | [Bench, Marlow pre-call](https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/README.md) |
+| **Signed an outreach email with a sender's name the case never gave.** Two of the four Claude runs on the same case did it; two didn't. | A signature is the last thing you read and the first thing you assume is yours. | [Bench, Marlow pre-call](https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/README.md) |
 | **Invented a price, "£900", that appears nowhere in the source.** | A number in a document about money looks like it came from the pricing page. | [Bench, Osmond objection](https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/README.md) |
 | **Stated "this should take 2-3 weeks" as fact**, with nothing in the notes to back it. | It reads like something the customer said. | [Bench, Hartwell follow-up](https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/README.md) |
 | **Turned a passing worry into a rating**, logging "Account Risk / Sensitivity: High" from a comment that was caution, not a score. | Once it's in a labelled field, it looks like data. | [Bench, Hartwell follow-up](https://github.com/shaunmarsden/sales-proof-bench/blob/main/results/README.md) |
@@ -50,7 +50,7 @@ That's the difference that matters, and it isn't about how good the model is. On
 
 **Telling the model not to do it doesn't always work.** After the invented pronoun, I added a plain sentence to the skill saying not to invent gender or pronouns. A second clean rerun scored exactly the same, 41 out of 50, with the same automatic failure. What worked in the end was a step, not a rule. The skill now has to list every named person before drafting, then scan for certain words before showing its answer. The whole sequence, including the attempt that failed, is [recorded as it happened](../evaluations/opportunity-handover-instruction-change-history.md).
 
-**Editing isn't checking.** The one real-work failure recorded across these repositories was [a report that went out with a wrong figure](https://github.com/shaunmarsden/practical-ai-adoption/blob/main/evidence/real-use-ai-assisted-fact-check-failure.md) after an ordinary editing pass. Making a sentence read better tells you nothing about whether the number in it is right. Those are two different jobs, and only one of them was being done.
+**Editing isn't checking.** One real-work failure recorded across these repositories was [a report that went out with a wrong figure](https://github.com/shaunmarsden/practical-ai-adoption/blob/main/evidence/real-use-ai-assisted-fact-check-failure.md) after an ordinary editing pass. Making a sentence read better tells you nothing about whether the number in it is right. Those are two different jobs, and only one of them was being done.
 
 ## Where This Page Falls Short
 

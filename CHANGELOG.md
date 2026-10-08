@@ -10,6 +10,13 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Corrections From a Check of the Whole Repository
+
+- Three p-values on two evaluation pages were two-tailed figures labelled one-tailed. I recomputed each with an exact test. The [prompt guardrail test](evaluations/business-case-prompt-guardrail-test.md), 5 of 6 against 0 of 6, is p = 0.0076, not 0.015, and 4 of 6 against 0 of 6 is 0.030, not 0.061. The [stale date test](evaluations/chase-stale-date-test.md), 0 of 6 against 2 of 6, is 0.23, not 0.45. No conclusion changes. The pages and the [evidence status](EVIDENCE-STATUS.md) now carry the right values. The older entries further down still show the old values, because they record what I published then.
+- Several reviews now note what an example output invented that the review had called clean: an onboarding session and a date in the Aldercroft and Bramfield documents, a compliance confirmation described as in progress, and a few smaller details. The scores are unchanged.
+- The [evidence status](EVIDENCE-STATUS.md) now says the proof point test is the only test of a whole new method, not the only test that changed nothing, and says the weekday re-run fell below the threshold I set beforehand. The [SKILL.md line counts](guides/progressive-disclosure.md) are current. The [comparison page](COMPARISON.md) says the repo has "few stars" with dated counts, and that 15 of the 17 jobs have a skill.
+- Two workflow pages now link the evaluation that bears on them, and one card lists all five things that look like indecision.
+
 ### Plainer Writing
 
 - I rewrote the [proof point page](evaluations/proof-point-selection-test.md) because it was too long and hard to read. The prose went from 1,283 words to 759, and the longest sentence from 55 words to 25. Every figure and the tested method are unchanged, and I checked each one afterwards.

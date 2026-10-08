@@ -37,7 +37,7 @@ The core diagnosis is an inference. The six-week pattern supports it well, but a
 
 The "shorter initial term / phased start" is the move everything rests on, and it only works if I can offer it. If I can't, the reply needs reworking around a different safe first step.
 
-The review treated "Run it past the team" as Tom seeking comfort, not a real approval gate. That's the likely read, but it's worth confirming it isn't a real dependency.
+The response treated "Run it past the team" as Tom seeking comfort, not a real approval gate. That's the likely read, but it's worth confirming it isn't a real dependency.
 
 ## What I Changed in the Prompt
 

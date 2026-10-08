@@ -28,6 +28,7 @@ flowchart TB
 - [Read the honest review](../evaluations/hartwell-lost-opportunity-review.md)
 - [Use with AI: the review-lost-opportunity skill](../.agents/skills/review-lost-opportunity/SKILL.md)
 - [Read the real-use finding](../CHANGELOG.md#real-use-findings): a real stalled deal showed that one type of loss, no decision at all, was missing
+- [Read the recovery finding](../evaluations/lost-opportunity-recovery-real-use-finding.md): a real opportunity that had gone quiet was reviewed, a different route in was found, and approved outreach got a reply and a booked call
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

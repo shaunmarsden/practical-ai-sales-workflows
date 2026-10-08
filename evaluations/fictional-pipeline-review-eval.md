@@ -39,6 +39,8 @@ The judgements on what the evidence supports ("paused", "likely stalled", "block
 
 The Meridian next step could be sharper. Suggesting a message is right, but drafting the actual either-or line would be more useful.
 
+The output repeats the snapshot's claim that Cedarwell's close date is nine working days away. From 15 to 31 October is at least 10 working days in any year, so the figure is wrong, though the point that the date is unsupported stands.
+
 The review sees only what was pasted in. A deal that looks stalled here may have context in my head that the notes didn't capture, and the output rightly defers to that.
 
 ## What I Changed in the Prompt

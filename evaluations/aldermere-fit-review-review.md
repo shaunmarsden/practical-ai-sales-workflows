@@ -35,7 +35,7 @@ Regulatory Affairs' uncertain classification doesn't consider one risk. If their
 
 The commercial field team's recommendation would be stronger with a named owner and rough timeframe for starting the data processing agreement, rather than an action with no owner.
 
-A reviewer should check Daniel's claim, rather than take it on trust, that no vendor of this type has completed GxP validation for any of Aldermere's manufacturing systems. It's his account of the market, and this call didn't verify it.
+A reviewer should check the claim, which the scenario gives to Aldermere's IT team and not to Daniel, that no vendor of this type has completed GxP validation for any of Aldermere's manufacturing systems. It's their account of the market, and this call didn't verify it.
 
 ## What I Changed in the Prompt
 

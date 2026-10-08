@@ -58,7 +58,7 @@ This is the right workflow only when a positive buyer, with nothing blocking the
 
 ### 2. Understand Why Pressure Backfires
 
-A buyer stuck in indecision is usually afraid of making the wrong call, not unconvinced. Pushing harder, adding urgency or offering a discount or guarantee tends to confirm their fear that they're being rushed into a mistake. The goal is to make the decision feel smaller and safer, not more urgent.
+A buyer stuck in indecision is often afraid of making the wrong call, not unconvinced. Pushing harder, adding urgency or offering a discount or guarantee tends to confirm their fear that they're being rushed into a mistake. The goal is to make the decision feel smaller and safer, not more urgent.
 
 ### 3. Reduce the Risk of Deciding
 
@@ -75,7 +75,7 @@ End with a specific, low-stakes next step, not more pressure. If the buyer still
 
 ## ✅ Check Before You Send
 
-- Have you confirmed this is indecision, not an objection, an approval gate, a timing issue or a disqualification?
+- Have you confirmed this is indecision, not an objection, an approval gate, a prospect who has gone quiet, a timing issue or a disqualification?
 - Does the response make deciding less risky, rather than add pressure to decide?
 - Is every term you offer, such as a shorter first term or a phased start, really available, not invented to close?
 - Have you avoided inventing urgency, a discount, a guarantee or a deadline that doesn't exist?

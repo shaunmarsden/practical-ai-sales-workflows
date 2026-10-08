@@ -56,7 +56,8 @@ The skill scored 46 on this scenario and lost four marks. This run didn't lose t
 ## What Needed Checking
 
 - Nobody owns agreeing the pilot's length and measures.
-- Neither this run nor the skill's run produced three applied examples. The prompt asks for three and the skill only says three is a good number, so this is a gap against the prompt alone. [Twelve later runs](business-case-applied-examples-test.md) found the skill producing the one grounded example this scenario supports every time.
+- Neither this run nor the skill's run produced three applied examples. The prompt asks for three and the skill only says three is a good number, so this is a gap against the prompt alone. [Twelve later runs](business-case-applied-examples-test.md) found the skill, published or with one line changed, producing the one grounded example this scenario supports every time.
+- The output puts a date on the document, 8th September 2026, which the call never gave. Its own check list asks a person to confirm it, but my "invents nothing" note above is too strong.
 - The out-of-scope accounts payable remark appears in the check list, to confirm it's been kept out. The case itself is clean, and the skill's run did the same and scored 5, but a document sent on without its check list removed would carry that line.
 
 ## What This Test Cannot Prove

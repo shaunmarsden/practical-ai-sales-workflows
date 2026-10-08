@@ -35,7 +35,7 @@ I scored without knowing which version each run came from, as in the [applied ex
 | Prompt without the widened sentence | 6 | **4** |
 | Prompt with the sentence widened | 6 | **6** |
 
-**The plain prompt hit my threshold exactly, so I didn't adopt the change, and the prompt stays as published.** The original miss was ordinary variation. Fisher's exact test on the misses, zero of six against two of six, one-tailed: p = 0.45.
+**The plain prompt hit my threshold exactly, so I didn't adopt the change, and the prompt stays as published.** The original miss was ordinary variation. Fisher's exact test on the misses, zero of six against two of six, one-tailed: p = 0.23.
 
 It's the second time running the plain version proved "the wording caused it" wrong. The [check requirement test](business-case-check-requirement-test.md) was the first.
 

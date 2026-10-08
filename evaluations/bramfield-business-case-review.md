@@ -35,6 +35,7 @@ This review scores the [worked business case](../examples/bramfield-business-cas
 - The commercial section is safer here than in the Hartwell case, because both totals sit side by side with the condition attached. A person should still read the conditional wording once more before this goes to Meera, since a Finance reader skimming quickly is the one most likely to take the cheaper total as guaranteed.
 - I should confirm the rollout timing with Ravi, and update the document once Meera's own budget cycle is known.
 - The compliance confirmation needs chasing, and the document updating once it arrives.
+- The output adds details the call doesn't give. It says handlers document calls with "varying levels of consistency", that the process narrows the gap between newer and more experienced handlers, and that rollout needs "a single onboarding session per person". It also says the written compliance confirmation "has been requested and is in progress", when I only said I'd request it that day. I should have counted these under hallucination risk, not only the pricing wording.
 
 ## What I Changed in the Prompt
 

@@ -55,7 +55,7 @@ The prompt without the step got one of six on this scenario yesterday and two of
 
 - Six runs a version, one scenario, one model, and I wrote and applied the test myself. Scoring without knowing the version removes that one bias and nothing else.
 - p = 0.12 supports adopting a change that costs one paragraph. It wouldn't support a claim that the step reliably produces the behaviour.
-- **The step is in the prompt only.** The [Plan a Chase Sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md) doesn't have it and hasn't been tested with it. The em dash rule is the warning against changing many files on the strength of one test.
+- **The step was in the prompt only when I ran this.** The [Plan a Chase Sequence skill](../.agents/skills/plan-chase-sequence/SKILL.md) didn't have it and hadn't been tested with it. The em dash rule is the warning against changing many files on the strength of one test.
 - It says nothing about whether the ledger helps on an input with no date clash, where the instruction asks for a line saying nothing collides. None of these 12 runs was that case.
 
 ## The Change to Test Next

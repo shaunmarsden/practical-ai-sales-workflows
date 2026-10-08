@@ -53,6 +53,7 @@ I built the fictional transcript to include information a workflow should handle
 - The transcript doesn't include the call date, so relative timings can't be safely turned into dates.
 - The email needs real meeting options before it can be sent.
 - I should make a final pass on tone so the email sounds exactly like me.
+- The actions table says Alex "should be able to send it" and "said he would check". The transcript never gives Alex's gender. I missed that when I scored it, and the [handover review](hartwell-opportunity-handover-review.md) treats the same slip as an automatic failure.
 
 ## What I Changed in the Prompt
 

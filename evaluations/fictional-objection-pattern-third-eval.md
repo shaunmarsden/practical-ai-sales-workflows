@@ -2,7 +2,7 @@
 
 This review scores the [third worked analysis](../examples/fictional-objection-pattern-review-three.md) against the [sales AI output rubric](sales-ai-output-rubric.md). The [first](fictional-objection-pattern-review-eval.md) and [second](fictional-objection-pattern-second-eval.md) evaluations are still available.
 
-I built this test around two decoy entries. On the surface they look like the real pattern, because someone else's input is needed, but the cause is different.
+I built this test around two decoy entries. On the surface they look like the real pattern, one because someone else's input is needed and the other because the stage and outcome match, but the cause is different in both.
 
 ## Result
 

@@ -34,6 +34,8 @@ This test turns the series' usual trap around. Before, similar wording hid diffe
 ## What Needed Checking
 
 - It doesn't consider the lead source or marketing channel for either legitimacy-pattern entry. That could point to a cause worth checking further back, before assuming it's purely each person's reaction to the funding structure.
+- The output says it covers seven occurrences but never mentions Thackray Media, the applicant who simply asked detailed questions and went ahead.
+- The log has an applicant asked for a National Insurance number and date of birth at discovery stage, and the review doesn't ask whether that request is needed so early. That's a data minimisation question a person should check.
 - There's no owner or review point for "watch for a third case," so the finding could be noted once and forgotten rather than tracked.
 - The "opposite ends of the same spectrum" framing is well supported, but it should stay a working idea until a third case turns up, not a settled reading of two data points.
 

@@ -40,7 +40,7 @@ But a three-point rise is inside Claude's normal range, so my drafting history a
 
 ## What the Repeat Runs Got Right
 
-The three fresh runs caught every trap in their inputs.
+The three fresh runs caught the main traps in their inputs. The misses are in the score tables below.
 
 **Chase decision.** It declined to chase, treated the out of office as the reason for the silence, refused to switch to Priya, and showed the clash between the promised Thursday transcript and the leave dates.
 
@@ -109,7 +109,7 @@ A clean fifty doesn't mean the output is perfect. It means I found nothing in it
 
 Two of the three published inputs have a section headed "Deliberate Test Points" that names every trap in the scenario. Anyone who pastes the published input is sitting an open-book exam.
 
-For these three runs I removed that section, and any line saying the file exists to test a skill. All twenty-four inputs with an answer key now have a line above it telling you to stop copying there, and a check makes sure that warning stays.
+For these three runs I removed that section, and any line saying the file exists to test a skill. All 25 inputs with an answer key now have a line above it telling you to stop copying there, and a check makes sure that warning stays.
 
 ## Method
 

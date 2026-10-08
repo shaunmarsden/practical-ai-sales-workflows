@@ -28,7 +28,7 @@ You haven't used ChatGPT, Claude or a similar tool much yet, or you tried once a
 
 1. [Getting Started with AI](getting-started-with-ai.md): what these tools are, and how to get a useful answer out of one
 2. [Set Up Your Own AI for Sales](set-up-your-ai-for-sales.md): give it real context about you and your job, once, instead of starting from a blank page every time
-3. [Prepare for a Sales Call](../recipes/prepare-for-a-sales-call.md): the simplest job here and a good first real task, with the prompt on the card so there's nothing else to open
+3. [Prepare for a Sales Call](../recipes/prepare-for-a-sales-call.md): the simplest job here and a good first real task, with the prompt on the card so there's nothing else to open. Check what your company lets you paste into an AI tool before you use real account details
 4. Come back to this page once that feels easy
 
 ### 🌿 Used It a Bit
@@ -56,7 +56,7 @@ AI is already part of how you work. What you want is more consistency and less e
 You're already comfortable building and adapting AI workflows, and you might want to adapt this repository rather than just use it as it is.
 
 1. [Get More From Your AI](get-more-from-your-ai.md): if you haven't already, connect real reference material and live tools rather than working from a single prompt
-2. Read a couple of the [evaluations](../evaluations/) next to their outputs, to see how I review results, including where one fell short. Or read [Which AI Mistakes Actually Get Through](which-ai-mistakes-get-through.md) for what all of them found, in one place
+2. Read a couple of the [evaluations](../evaluations/) next to their outputs, to see how I review results, including where one fell short. Or read [Which AI Mistakes Actually Get Through](which-ai-mistakes-get-through.md) for many of the faults they found, in one place
 3. [Responsible Use](../RESPONSIBLE-USE.md) and [Methodology](../METHODOLOGY.md): the guardrails and reasons worth keeping if you adapt any of this for your own role
 4. Adapt a skill for yourself: the "How do I adapt one for my sales process?" section in [What Is a Sales AI Skill?](what-is-a-sales-ai-skill.md) takes you through it
 5. There's nothing left to come back for on this page. Go to [Contributing](../CONTRIBUTING.md) if you want to change something here, not only adapt it

@@ -1,6 +1,6 @@
 # Set Up Your Own AI for Sales
 
-Most people get a fraction of what an AI tool can do, because every conversation starts from a blank page. Setting it up once with real context about you and your job changes that. It takes one sitting, not an ongoing effort.
+Many people get a fraction of what an AI tool can do, because every conversation starts from a blank page. Setting it up once with real context about you and your job changes that. It takes one sitting, not an ongoing effort.
 
 ```mermaid
 flowchart TB

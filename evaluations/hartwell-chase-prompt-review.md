@@ -42,12 +42,14 @@ I pasted the prompt into a fresh, isolated context with only the [scenario](../e
 
 The skill's run on the same scenario did raise it, and its review scored evidence fidelity 5 partly for that. So on this one point the shorter file did worse.
 
+**A smaller slip.** The output paraphrases Alex's automatic reply as responding "only if something is urgent". The notice says he'll answer non-urgent messages when he's back. It doesn't change the decision, but it's a misstatement against the "nothing misstated" note above.
+
 **What I can't tell you is why.** The prompt does say "If a task, reminder or date was set before something later changed the picture, say so rather than treating it as current", which covers Alex's Thursday commitment as much as the CRM task. The run applied it to one and not the other. It could be that the wording reads too easily as being about reminders only, or that one run simply missed it. Telling those apart needs another run, and I've run this test once.
 
 ## What This Test Cannot Prove
 
 - One run, one fictional scenario, scored by me, and I wrote the prompt. There's no second scorer, and [nobody outside this project has scored anything](../EVIDENCE-STATUS.md).
-- It says nothing about whether a second run of the same prompt would miss the same thing, catch it, or miss something else. I've already measured identical prompts on identical inputs moving by [one to three points between runs](repeat-run-findings.md), and a [nine-run test](hartwell-objection-ambiguous-test.md) where the same model named a different primary driver each time.
+- It says nothing about whether a second run of the same prompt would miss the same thing, catch it, or miss something else. I've already measured identical prompts on identical inputs moving by [up to three points between runs](repeat-run-findings.md), and a [nine-run test](hartwell-objection-ambiguous-test.md) where the same model named a different primary driver each time.
 - **The two-point gap against the skill's 48 isn't evidence the prompt is worse.** It's within the run-to-run movement I've already measured. The named miss above is worth more than the difference in totals.
 - The scenario rewards sending nothing. A scenario where chasing is the right call would test the drafting rules, the stage shapes and the anchor rule. This run didn't have to use any of them.
 

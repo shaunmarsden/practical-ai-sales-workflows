@@ -32,6 +32,7 @@ This review scores the [worked response](../examples/thornbury-objection-respons
 
 - It doesn't address Rosalind's position at all. The source material describes her as "still keen" and waiting to hear something, and the response says nothing about what, if anything, I or Grace should tell her while this gets worked out.
 - The "no internal announcement" option should be checked against Thornbury's real HR and payroll process before it's offered as fully quiet. Ordinary admin for a new apprenticeship may be visible internally, whatever anyone announces.
+- The draft ends with "What would actually make this easier for you right now?", not a request to choose between the two options. It also never asks whether the timing is the only concern, although the output's own Isolate step says to confirm that.
 - It proposes no deadline for Grace's reply, so the open-ended "a few months" pattern in the objection could repeat in the follow-up.
 
 ## What I Changed in the Prompt

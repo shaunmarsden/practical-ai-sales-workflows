@@ -24,7 +24,7 @@ This review scores the [worked pattern analysis](../examples/fictional-objection
 ## What Worked
 
 - The workflow's core rule, keeping an observed count apart from an assumed cause, works correctly on the one finding built to test it. The review doesn't fall into averaging outcomes across unlike situations.
-- Reusing two objections already on record (Hartwell's Copilot and price objections), rather than inventing new ones, keeps the fictional world consistent. It also shows the same data read a second way for a new purpose.
+- Reusing three objections already on record (Hartwell's Copilot and price objections, and Bramfield's compliance question), rather than inventing new ones, keeps the fictional world consistent. It also shows the same data read a second way for a new purpose.
 - It rates the compliance pattern high confidence because the need underneath is the same each time, not because the wording is similar. That's the right basis for the judgement.
 - It won't give a loss rate or win rate from six entries, which is right given how easily a small number gets misread as a statistic.
 
@@ -32,6 +32,7 @@ This review scores the [worked pattern analysis](../examples/fictional-objection
 
 - The three entries near Copilot come from only two industries (professional services, underwriting), plus the original Hartwell case, which is close to SaaS. A broader review should note that this limits how confidently "no single pattern" can be said to hold in sectors not represented here.
 - The Copilot finding's recommendation, "have a ready, honest answer available," points the right way but is softer than the compliance recommendation. A sharper version might say what that answer should contain.
+- The output never mentions entry 2, Hartwell's price-looking objection, though it counts six data points.
 - This log is small on purpose (six entries) so the test can be traced by hand. A real pattern review would need a much larger sample before either finding counts as settled.
 
 ## What I Changed in the Prompt

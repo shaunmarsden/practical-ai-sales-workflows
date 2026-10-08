@@ -76,7 +76,7 @@ A second fresh agent then ran the revised skill against a different fictional co
 - avoided hyphenated titles, em dashes and bold labels inside bullets; and
 - kept the suggested mapping exercise conditional rather than agreed with the customer.
 
-This shows the instruction worked beyond the Hartwell wording. It doesn't prove it works reliably across models or real users.
+I haven't kept the Northbridge scenario or its output in this repository, so you can't check those points yourself. This shows the instruction worked beyond the Hartwell wording. It doesn't prove it works reliably across models or real users.
 
 ## Next Test
 

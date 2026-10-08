@@ -8,7 +8,7 @@
 
 You have several case studies. Which one should you use with this buyer, if any, and what can you honestly claim from it?
 
-Nothing here helps with that. Some pages mention proof points, such as the [lost opportunity review](../workflows/04-lost-opportunity-review.md) and the [chase skill](../.agents/skills/plan-chase-sequence/SKILL.md), but none helps you choose one. The [business case skill](../.agents/skills/build-business-case/SKILL.md) sorts evidence into confirmed, inference and unknown, but only about the buyer's own situation. The [router](../.agents/skills/workflow-router/SKILL.md) has no route for it, though the [Sales Copilot example](../guides/build-an-approval-gated-sales-copilot.md) lists "Select an Approved Proof Point" as one of its routes.
+Nothing here helps with that. Some pages mention proof points, such as the [lost opportunity review](../workflows/04-lost-opportunity-review.md) and the [chase skill](../.agents/skills/plan-chase-sequence/SKILL.md), but none helps you choose one. The [business case skill](../.agents/skills/build-business-case/SKILL.md) sorts evidence into confirmed, inference and unknown, but only about the buyer's own situation. The [router](../.agents/skills/workflow-router/SKILL.md) has no route for it, though the [Sales Copilot example](../examples/fictional-sales-copilot-output.md) lists "Select an Approved Proof Point" as one of its routes.
 
 So the gap was real. It turned out not to matter.
 

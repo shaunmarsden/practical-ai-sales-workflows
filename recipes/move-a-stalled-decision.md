@@ -69,11 +69,11 @@ Also: [Prompt](../templates/buyer-indecision-prompt.md) · [Skill](../.agents/sk
 
 ## The AI cannot decide
 
-Whether this is indecision rather than an objection, an approval gate, a timing issue or a disqualification, when the evidence could be read more than one way.
+Whether this is indecision rather than an objection, an approval gate, a prospect who has gone quiet, a timing issue or a disqualification, when the evidence could be read more than one way.
 
 ## You must check
 
-- It is confirmed as indecision, not one of those other four things
+- It is confirmed as indecision, not one of those other five things
 - Every term offered (a shorter first term, a phased start) is real
 - Nothing invents urgency, a discount or a guarantee
 
@@ -83,7 +83,7 @@ Send only the safe, low-stakes next step. If the buyer still puts it off after a
 
 ---
 
-For the fuller method, including how to rule out the four things often mistaken for indecision, open the [workflow](../workflows/07-buyer-indecision.md).
+For the fuller method, including how to rule out the five things often mistaken for indecision, open the [workflow](../workflows/07-buyer-indecision.md).
 
 ---
 

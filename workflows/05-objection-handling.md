@@ -98,7 +98,7 @@ Flag the gap and say what you need before you can answer with confidence, rather
 
 ### 6. End With a Real Next Step
 
-Every objection response should end in one of four places: the conversation moves on, you agree a dated follow-up, it moves to a longer nurture, or you honestly disqualify it. Answering the objection and then drifting with no next step is the most common way a handled objection still loses the deal.
+Every objection response should end in one of four places: the conversation moves on, you agree a dated follow-up, it moves to a longer nurture, or you honestly disqualify it. Answering the objection and then drifting with no next step is a common way a handled objection still loses the deal.
 
 </details>
 

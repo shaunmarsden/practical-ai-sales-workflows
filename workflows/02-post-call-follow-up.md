@@ -27,6 +27,7 @@ flowchart TB
 - [Read the fictional Hartwell transcript](../examples/hartwell-post-call-transcript.md)
 - [See the completed output](../examples/hartwell-post-call-output.md)
 - [Read the scored review](../evaluations/hartwell-post-call-review.md)
+- [See the same transcript run in Claude, ChatGPT and Gemini](../evaluations/cross-model-post-call-comparison.md)
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>

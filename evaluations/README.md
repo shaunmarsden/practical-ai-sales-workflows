@@ -1,6 +1,6 @@
 # How Evaluations Work Here
 
-I score every worked example in this repo, not just show it. This folder sets out the standard, so a new evaluation compares with an old one instead of depending on whoever wrote it that day.
+I score the worked examples in this repo, not just show them. This folder sets out the standard, so a new evaluation compares with an old one instead of depending on whoever wrote it that day.
 
 ## The Rubric
 
