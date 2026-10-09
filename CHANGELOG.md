@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Outbound Prompt Stops
+
+- The [outbound prospecting prompt](templates/outbound-prospecting-prompt.md) now stops, without drafting, for a company outside the ideal customer profile, and no longer treats a message to a guessed email address as ready to send. The [test](evaluations/outbound-prospecting-prompt-stop-test.md) took three steps, and the page says where my first rules were missed. The recipe card carries the same text. The skill already had both stops and didn't change.
+
 ### Outbound Qualification Stop Test
 
 - I ran the test the [Cedarwell review](evaluations/cedarwell-outbound-review.md) left open: [54 runs on nine fictional targets](evaluations/outbound-qualification-stop-test.md), the published prompt against the published skill. Both declined every target with no usable signal. For a company outside the profile, the prompt wrote a message in nine of nine runs and the skill in none. I haven't changed the skill or the prompt.
@@ -17,6 +21,7 @@ Release notes provide the fuller version summaries:
 
 ### Corrections From a Check of the Whole Repository
 
+- The "Plainer Writing" entry below says a script confirmed no page lost a figure, quotation or link. That script was never published. A script of the same kind, [edit_drift.py](https://github.com/shaunmarsden/practical-ai-adoption/blob/main/scripts/edit_drift.py), is now in my adoption repository. I haven't reproduced that earlier check with it.
 - Three p-values on two evaluation pages were two-tailed figures labelled one-tailed. I recomputed each with an exact test. The [prompt guardrail test](evaluations/business-case-prompt-guardrail-test.md), 5 of 6 against 0 of 6, is p = 0.0076, not 0.015, and 4 of 6 against 0 of 6 is 0.030, not 0.061. The [stale date test](evaluations/chase-stale-date-test.md), 0 of 6 against 2 of 6, is 0.23, not 0.45. No conclusion changes. The pages and the [evidence status](EVIDENCE-STATUS.md) now carry the right values. The older entries further down still show the old values, because they record what I published then.
 - Several reviews now note what an example output invented that the review had called clean: an onboarding session and a date in the Aldercroft and Bramfield documents, a compliance confirmation described as in progress, and a few smaller details. The scores are unchanged.
 - The [evidence status](EVIDENCE-STATUS.md) now says the proof point test is the only test of a whole new method, not the only test that changed nothing, and says the weekday re-run fell below the threshold I set beforehand. The [SKILL.md line counts](guides/progressive-disclosure.md) are current. The [comparison page](COMPARISON.md) says the repo has "few stars" with dated counts, and that 15 of the 17 jobs have a skill.

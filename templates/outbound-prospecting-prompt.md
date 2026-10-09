@@ -15,6 +15,8 @@ Assess whether this is worth approaching:
 
 Score it down if the only hook is a generic trend with nothing company-specific behind it, or if the company's size makes procurement and politics likely to slow everything down without an unusually strong contact route.
 
+If the target doesn't fit the ideal customer profile I gave you, say so and stop. Don't draft a message, however strong the signal is.
+
 2. Draft the first-touch message
 - Open with a question tied to the buyer's actual role and the specific signal found, not a generic observation.
 - Offer something small and genuinely useful that can be produced quickly, not a meeting ask.
@@ -26,7 +28,7 @@ Rules:
 - Never lead with a meeting ask unless I have told you that is the deliberate approach for this prospect
 - Keep the message short; it should not read like a pitch deck
 - Never claim a capability, statistic, or outcome that has not actually been confirmed
-- If the contact's email is an unverified guess, say so rather than treating it as confirmed
+- If the contact's email is an unverified guess, say so, and don't treat the message as ready to send until the address has been checked
 ```
 
 ## Before You Use the Output

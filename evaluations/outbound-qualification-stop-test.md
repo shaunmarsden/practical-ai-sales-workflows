@@ -74,4 +74,4 @@ Counting the rows where a stop was right: the prompt had one false positive in 2
 
 ## What I'd Do Next
 
-I haven't changed the skill or the prompt. The test shows the prompt has no hard stop for a company outside the profile, and that it drafts anyway. The next test is to add the skill's third stop condition to the prompt and rerun the nine runs on Penhallow, Brenmoor and Larkfield. I'd adopt it only if all nine come out with no message, and I'd report it either way.
+I hadn't changed the skill or the prompt when I wrote this page. The test showed the prompt has no hard stop for a company outside the profile, and that it drafts anyway. I then added the stops and tested them, in the [outbound prompt stop test](outbound-prospecting-prompt-stop-test.md). The prompt now has them. The skill didn't change.
