@@ -10,6 +10,11 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Outbound Qualification Stop Test
+
+- I ran the test the [Cedarwell review](evaluations/cedarwell-outbound-review.md) left open: [54 runs on nine fictional targets](evaluations/outbound-qualification-stop-test.md), the published prompt against the published skill. Both declined every target with no usable signal. For a company outside the profile, the prompt wrote a message in nine of nine runs and the skill in none. I haven't changed the skill or the prompt.
+- The nine targets are in a new [input](examples/outbound-qualification-input.md), with the answer key below its re-run warning.
+
 ### Corrections From a Check of the Whole Repository
 
 - Three p-values on two evaluation pages were two-tailed figures labelled one-tailed. I recomputed each with an exact test. The [prompt guardrail test](evaluations/business-case-prompt-guardrail-test.md), 5 of 6 against 0 of 6, is p = 0.0076, not 0.015, and 4 of 6 against 0 of 6 is 0.030, not 0.061. The [stale date test](evaluations/chase-stale-date-test.md), 0 of 6 against 2 of 6, is 0.23, not 0.45. No conclusion changes. The pages and the [evidence status](EVIDENCE-STATUS.md) now carry the right values. The older entries further down still show the old values, because they record what I published then.

@@ -47,4 +47,4 @@ I later added a subject-line rule to the skill after reviewing real cold-email t
 
 ## Next Test
 
-Run a target with a weaker signal: a company with only a general industry-fit reason and no specific public signal anyone can check. That confirms whether the skill says so and declines to write a confident message anyway, rather than reaching for a softer version of the same hook.
+Run a target with a weaker signal: a company with only a general industry-fit reason and no specific public signal anyone can check. That confirms whether the skill says so and declines to write a confident message anyway, rather than reaching for a softer version of the same hook. I ran it in the [outbound qualification stop test](outbound-qualification-stop-test.md). The skill and the prompt both declined.
