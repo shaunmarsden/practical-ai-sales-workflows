@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Outbound One-Paragraph Test
+
+- I tested whether [one 250-word paragraph](evaluations/outbound-one-paragraph-test.md) can do what the outbound skill does, in 27 runs on the nine qualification targets. It kept every stop and wrote no message it shouldn't have, but held back on a good fit the skill drafted for, so by my readings it's a partial match. I haven't changed the skill or the prompt.
+
 ### Strip Test Pointers When Testing
 
 - [Contributing](CONTRIBUTING.md) now says to cut a skill's closing pointers to tests and evaluations, and a prompt's "I tested this" note, before feeding either to a test run, for every arm. A read of the other skill-against-prompt tests found no second one that needed a rerun for this reason. The outbound qualification test was the one where only one arm had them.
