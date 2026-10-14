@@ -41,6 +41,24 @@ If your organisation lets you build a custom agent, limit its knowledge the same
 
 </details>
 
+<details>
+<summary><strong>Claude Code and other terminal agents</strong></summary>
+
+If you work in a terminal agent, Vercel's `skills` command-line tool can install one skill from this repository. It's an optional route. Pasting a skill into a chat works everywhere and needs none of this.
+
+```bash
+npx skills add shaunmarsden/practical-ai-sales-workflows --skill outbound-prospecting
+```
+
+Add `--list` to see all seventeen skills without installing any, and `-a claude-code` to choose the agent. The tool is MIT licensed and `npx` downloads and runs it, so read what you're about to install first. It says so itself: installed skills run with full agent permissions. I wrote [a review of Vercel's own `find-skills` skill](https://github.com/shaunmarsden/skill-author/tree/main/example-three) if you want an idea of what to look for.
+
+I tried this once on 14 October 2026, with version 1.7.2, in an empty folder and with Claude Code as the agent. It found all seventeen skills. It copied the whole `outbound-prospecting` folder, including `references/` and `agents/`, into `.claude/skills/`, and the copy matched this repository file for file. Two things to know:
+
+- Four links in `SKILL.md` point to a guide, a workflow, an example and an evaluation outside the skill's folder, so they don't resolve in the installed copy. The skill itself doesn't need them.
+- I tested one skill and one agent. Other agents use other folders, and I haven't tried them.
+
+</details>
+
 ## When Loading Everything Is Still Fine
 
 None of this means you should never load the full library. Exploring the repository, or working out which skills fit your role before you narrow down, are both good reasons to have everything to hand for a session. The [workflow router](workflow-router.md) is one small skill file that only needs its own routing table, not the rest of the library, so using it doesn't clash with loading a narrow set everywhere else. The advice above is for everyday use: a Project, Custom GPT or Gem used daily for one or two jobs, where the rest of the library is dead weight in every conversation.
