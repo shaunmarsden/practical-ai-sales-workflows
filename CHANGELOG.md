@@ -17,6 +17,7 @@ Release notes provide the fuller version summaries:
 ### Outbound Qualification Stop Test
 
 - I ran the test the [Cedarwell review](evaluations/cedarwell-outbound-review.md) left open: [54 runs on nine fictional targets](evaluations/outbound-qualification-stop-test.md), the published prompt against the published skill. Both declined every target with no usable signal. For a company outside the profile, the prompt wrote a message in nine of nine runs and the skill in none. I haven't changed the skill or the prompt.
+- I found that the skill's input carried a paragraph linking scored evaluations, which the prompt's didn't, and which could have told the AI it was in a test. I reran the 27 skill runs without it, with the readings written first. Every label came out the same, so the result stands. The page has the [rerun](evaluations/outbound-qualification-stop-test.md#rerun-without-the-evaluation-paragraph).
 - The nine targets are in a new [input](examples/outbound-qualification-input.md), with the answer key below its re-run warning.
 
 ### Corrections From a Check of the Whole Repository

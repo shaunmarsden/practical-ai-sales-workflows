@@ -31,7 +31,7 @@ I didn't add runs after seeing a result.
 
 ## Method
 
-I made 54 runs on 9 October 2026: nine targets, two versions, three runs each, each in a fresh conversation. The prompt version got the prompt's code block. The skill version got `SKILL.md` without its reference pages. Both got the same short introduction, the ideal customer profile and one target with its source text. Nothing else changed.
+I made 54 runs on 9 October 2026: nine targets, two versions, three runs each, each in a fresh conversation. The prompt version got the prompt's code block. The skill version got `SKILL.md` without its reference pages, but with one paragraph that I've since found was a problem (see the rerun below). Both got the same short introduction, the ideal customer profile and one target with its source text. Nothing else changed.
 
 The runs were Claude Code subagents. I asked a separate subagent on the same setting for its model ID, and it said `claude-opus-5-5`. That's self-reported. Each run read its input from a file and wrote its reply to another, and the tool logs show nothing else for all 54. I scored the replies grouped by target and didn't open the file that says which version made which run. The replies often named "the skill" or "your brief", so I could sometimes guess. The labels were mostly clear-cut, which limits what that could change.
 
@@ -63,12 +63,36 @@ Counting the rows where a stop was right: the prompt had one false positive in 2
 
 **Length.** Prompt replies averaged 625 words and skill replies 564. On the three outside-profile targets, the prompt's averaged 594 and the skill's 437. That's the extra message and the decision about whether to use it.
 
+## Rerun Without the Evaluation Paragraph
+
+After the page was merged I read the skill arm's input again and found a flaw in my own test. `SKILL.md` ends its guardrails section with a paragraph that links a fictional test, a scored evaluation, a "deliberately weak version" of the message and a real campaign review. The runs couldn't open those links. But the paragraph told the AI it might be inside a test, and the prompt arm had no such text. It could have made the skill stop more often than it would for a seller.
+
+I wrote the readings before the rerun. I took the same 27 skill inputs and removed that one paragraph, and nothing else. The stop rules stayed. I used the same setting, which again reported `claude-opus-5-5`, fresh subagents and the same instruction, on 14 October 2026.
+
+- The stop result holds if at least 8 of the 9 runs on the three outside-profile targets wrote no message, at most 1 of the 21 runs where a stop was right wrote a sendable message, and at least 5 of the 6 good-fit runs did.
+- If 3 or more of the 9 outside-profile runs wrote a message, the paragraph had been helping, and I'd say so.
+- Anything between I'd report as partial.
+
+I added no runs, and no run was unusable.
+
+| Skill, three runs each | Original | Without the paragraph |
+| --- | --- | --- |
+| Ardmoor, Pellwick (draft) | A A A, A A A | A A A, A A A |
+| Penhallow, Brenmoor, Larkfield (outside the profile) | C C C each | C C C each |
+| Wexcombe, Ferrow and Lind, Kestrelby | C C C each | C C C each |
+| Oldacre, guessed email | B B B | B B B |
+
+Every label is the same as before. All 9 outside-profile runs wrote no message, none of the 21 should-stop runs wrote a sendable one, and all 6 good fits did. By my readings the stop result holds, and the paragraph wasn't what made the skill stop. The prompt-against-skill table above stands.
+
+The limits are the same as for the main test. The model ID is self-reported, the runs sit inside a coding tool, there are three runs a target, and I scored by reading and can usually tell the arm. I didn't inspect the rerun's tool logs as closely as the first set.
+
 ## What Went Wrong, and What I Can't Tell
 
 - **Two replies claimed an outcome nobody had confirmed.** One skill run on Ardmoor promised "fewer chances for a date to be copied wrong". One prompt run on Oldacre said "minutes rather than a slice of every day", and flagged it as too strong itself. Both guardrails forbid unconfirmed outcome claims.
 - **One run signed with my first name.** The input never gave one. It came from the run's environment, so these runs weren't as clean as a blank chat.
 - **My scenario had flaws.** Three of six Ardmoor runs asked whether a conveyancing firm counts as business-to-business, which I'd called a good fit. Four of six Pellwick runs said the pasted blog excerpt doesn't show the email address my notes call confirmed. And I can't say whether Oldacre's contact form counts as a safer route.
 - **I found no invented facts about a target in any message.** I read every reply but didn't check each line with a tool.
+- **The skill arm carried a cue that the prompt arm didn't.** The paragraph described above. I removed it and reran, and the result didn't change.
 - **The two versions differ in more than the stop rule.** They also differ in length and detail, so the split isn't proof that the missing stop caused it. I expected the difference before I ran, because I'd read both files.
 - **It's nine targets and three runs each.** I wrote the key, ran the tests and scored them, with one model, on fictional companies. It says nothing about real false-positive rates, and it doesn't test live research, which is where enrichment tools go wrong.
 
