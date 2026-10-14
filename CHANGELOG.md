@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Strip Test Pointers When Testing
+
+- [Contributing](CONTRIBUTING.md) now says to cut a skill's closing pointers to tests and evaluations, and a prompt's "I tested this" note, before feeding either to a test run, for every arm. A read of the other skill-against-prompt tests found no second one that needed a rerun for this reason. The outbound qualification test was the one where only one arm had them.
+
 ### Outbound Prompt Stops
 
 - The [outbound prospecting prompt](templates/outbound-prospecting-prompt.md) now stops, without drafting, for a company outside the ideal customer profile, and no longer treats a message to a guessed email address as ready to send. The [test](evaluations/outbound-prospecting-prompt-stop-test.md) took three steps, and the page says where my first rules were missed. The recipe card carries the same text. The skill already had both stops and didn't change.
