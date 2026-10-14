@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Terminal Install Route
+
+- The [selective installation guide](guides/selective-installation.md) now has an optional route for terminal agents: Vercel's `npx skills add` tool. I tried it once, on one skill with Claude Code, and the installed copy matched the repository. Four links in the skill point outside its folder and don't resolve after install.
+
 ### Outbound One-Paragraph Test
 
 - I tested whether [one 250-word paragraph](evaluations/outbound-one-paragraph-test.md) can do what the outbound skill does, in 27 runs on the nine qualification targets. It kept every stop and wrote no message it shouldn't have, but held back on a good fit the skill drafted for, so by my readings it's a partial match. I haven't changed the skill or the prompt.
