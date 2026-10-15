@@ -40,13 +40,13 @@ For Build a Business Case and Chase a Quiet Prospect, the skill is the main reus
 
 ## Evidence That Is Not Per Job
 
-The matrix covers the seventeen sales jobs. Two things I tested sit outside it, and you'd miss both if you took the table as the whole picture.
+The matrix covers the seventeen sales jobs. These tests and a review of what they found sit outside it.
 
-- [Cross-model post-call comparison](evaluations/cross-model-post-call-comparison.md). I ran the same Hartwell transcript and post-call prompt through several AI tools on 19 July 2026. I compared them on how many corrections each needed, not on which answer read best. Along with the ambiguous objection test below, it's the only evidence here on whether a method holds up when the tool changes.
+- [Cross-model post-call comparison](evaluations/cross-model-post-call-comparison.md). I ran the same Hartwell transcript and post-call prompt through several AI tools on 19th July 2026. I compared them on how many corrections each needed, not on which answer read best. The ambiguous objection test and the two post-call comparisons below also use more than one model setting.
 - The sales copilot method, which chains several skills instead of running one. It has [a scored fictional review](evaluations/fictional-sales-copilot-review.md) against the same rubric, [a finding from my own internal use](evaluations/sales-copilot-internal-use-finding.md) and [a real-use finding](evaluations/sales-copilot-live-run-finding.md) covering one real request. The [roadmap](ROADMAP.md) names a test by someone else as its gap.
 - [Do the skills need their length?](evaluations/do-the-skills-need-their-length.md) pulls four tests together, with no new runs. A short paragraph matched the full skill on most of what I measured, and the bare request did on some of it. Where instructions made a difference, each was a single rule naming a mistake the AI makes by default.
 
-I ran both myself, like everything else on this page.
+I ran and scored the underlying tests myself, like everything else on this page.
 
 ## Tests With More Than One Run
 
@@ -82,9 +82,9 @@ Every other scored test on this page is a single run. Where a job above shows tw
 
 Read the first two together. Claude's spread on this rubric is about three points, so a three-point rise on a repeat is within the range the nine-run test already found. The more interesting result there is that a steady total hid an unsteady judgement.
 
-The 17 comparisons are worth reading for a different reason. Ten supported the change they tested, one of them only weakly and one only after its first version fell short of the rule I'd set. One tested an adopted change for harm rather than benefit, and found none. Six didn't support the change they tested: one rejected the idea and turned up a live fault that had nothing to do with it, three ended with the change not adopted, one didn't produce the behaviour it was after, and the proof point method added nothing. One of the nine fixed an upkeep problem, not an output problem, and one measured a cost of its change in the same 12 runs. Several of these pages record a mistake of mine along the way.
+The comparisons ask different questions. Some supported a change, some rejected one, and one checked an adopted change for harm rather than benefit. The proof point method added nothing on its test. The two post-call comparisons found little or no difference between a full skill, a short paragraph and the bare request. Several pages also record a mistake of mine along the way. Read each result against the question it tested, rather than counting every comparison as evidence for adding instructions.
 
-The last three all supported their change. The missing-record step carried over from the CRM hygiene skill to its prompt. And a second business case line brought back the hours total that the guardrail in the [prompt guardrail test](evaluations/business-case-prompt-guardrail-test.md) had suppressed, without bringing back the pound figure, first on the prompt and then on the skill.
+The CRM missing-record test and the two business case second-line tests all supported their change. The missing-record step carried over from the CRM hygiene skill to its prompt. And a second business case line brought back the hours total that the guardrail in the [prompt guardrail test](evaluations/business-case-prompt-guardrail-test.md) had suppressed, without bringing back the pound figure, first on the prompt and then on the skill.
 
 ## What Is Missing
 
