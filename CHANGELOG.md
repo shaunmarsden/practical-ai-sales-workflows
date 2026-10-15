@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Do the Skills Need Their Length?
+
+- I pulled the paragraph-against-skill tests together on one page, [with no new runs](evaluations/do-the-skills-need-their-length.md): where a short version matched the skill, where a single rule made the difference, what the length cost and what the tests can't tell me. I haven't changed any skill.
+
 ### Post-Call Conflict Test
 
 - I tested whether the post call skill matters when a call, a CRM record and an email thread disagree: [36 runs](evaluations/post-call-conflict-test.md) on a new [fictional scenario](examples/brackenridge-conflicting-sources-input.md), with the skill, a 250-word paragraph and the bare request. All 36 replies passed all seven measures, so the test couldn't separate them. I haven't changed the skill or the prompt.

@@ -44,6 +44,7 @@ The matrix covers the seventeen sales jobs. Two things I tested sit outside it, 
 
 - [Cross-model post-call comparison](evaluations/cross-model-post-call-comparison.md). I ran the same Hartwell transcript and post-call prompt through several AI tools on 19 July 2026. I compared them on how many corrections each needed, not on which answer read best. Along with the ambiguous objection test below, it's the only evidence here on whether a method holds up when the tool changes.
 - The sales copilot method, which chains several skills instead of running one. It has [a scored fictional review](evaluations/fictional-sales-copilot-review.md) against the same rubric, [a finding from my own internal use](evaluations/sales-copilot-internal-use-finding.md) and [a real-use finding](evaluations/sales-copilot-live-run-finding.md) covering one real request. The [roadmap](ROADMAP.md) names a test by someone else as its gap.
+- [Do the skills need their length?](evaluations/do-the-skills-need-their-length.md) pulls four tests together, with no new runs. A short paragraph matched the full skill on most of what I measured, and the bare request did on some of it. Where instructions made a difference, each was a single rule naming a mistake the AI makes by default.
 
 I ran both myself, like everything else on this page.
 
