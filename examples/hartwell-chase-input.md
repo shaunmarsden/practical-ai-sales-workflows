@@ -34,7 +34,7 @@ Shaun needs to decide whether to:
 
 - chase now because the CRM task is due;
 - wait until Alex has returned;
-- send something to Priya, the Sales Director mentioned on the call;
+- send something to Fiona, the Sales Director mentioned on the call;
 - close the opportunity; or
 - take another action.
 
@@ -46,7 +46,7 @@ If a message is appropriate, the skill should draft it. If a message is not appr
 
 - The CRM task suggests chasing, but it is older than the automatic reply and no longer reflects the current situation.
 - Alex gave a clear reason for being quiet. Silence during stated annual leave is not evidence of lost interest.
-- Priya was only mentioned as someone who might review a useful result later. She is not permission to change stakeholder because Alex is away.
+- Fiona was only mentioned as someone who might review a useful result later. She is not permission to change stakeholder because Alex is away.
 - The original Thursday timing conflicts with Alex's later leave dates, and the transcript was always conditional on internal approval. The skill must show that conflict rather than describe the transcript as overdue or promised unconditionally. The dates now make that checkable: the call was Tuesday 7th July, so the promised Thursday afternoon is 9th July, two days into a leave that began on the 8th, and the CRM task fell due the day after it.
 - No meeting time was confirmed.
 - Nothing should be sent, scheduled or changed in the CRM automatically.

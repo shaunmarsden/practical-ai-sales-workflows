@@ -22,7 +22,7 @@ When a test finds a real failure and the fix changes a skill's instructions, use
 
 ## Adding a New Evaluation
 
-1. Run the workflow against a realistic fictional scenario (Hartwell Analytics / Alex Morgan / Priya Chen, or Cedarwell Group for outbound).
+1. Run the workflow against a realistic fictional scenario (Hartwell Analytics / Alex Morgan / Fiona Prescott, or Cedarwell Group for outbound).
 2. Score it against the rubric, area by area, with a one-line reason for each score, not just a number.
 3. Record what worked, what needed checking, and what you'd change next time. Give weak scores as they are, rather than rounding up.
 4. If this is a repeated or cross-model run, use the templates in this folder so the metadata is comparable across runs.

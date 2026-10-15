@@ -11,11 +11,11 @@ This page scores the [worked analysis](../examples/hartwell-lost-opportunity-ana
 | Area | Score | Notes |
 | --- | ---: | --- |
 | Factual accuracy | 5 | Names, roles and what the email says match the evidence exactly |
-| Evidence fidelity | 5 | Keeps "This cycle" and "later in the year" as Priya's own conditional wording, not flattened into a firm no |
+| Evidence fidelity | 5 | Keeps "This cycle" and "later in the year" as Fiona's own conditional wording, not flattened into a firm no |
 | Fact separation | 5 | Clearly labels Alex's departure as a possible factor, an inference, not a fact |
-| Missing information | 4 | Rightly flags the unknown about a new Head of Revenue Operations, though it could also ask whether Priya's own role or authority has changed |
+| Missing information | 4 | Rightly flags the unknown about a new Head of Revenue Operations, though it could also ask whether Fiona's own role or authority has changed |
 | Commercial usefulness | 5 | Gives me a read I can act on rather than a general "circle back later" |
-| Next step clarity | 4 | The next step is clear in spirit, but "a point later in the year" is vague on purpose, matching Priya's vagueness rather than resolving it |
+| Next step clarity | 4 | The next step is clear in spirit, but "a point later in the year" is vague on purpose, matching Fiona's vagueness rather than resolving it |
 | Tone | 5 | Measured and honest, neither falsely hopeful nor needlessly bleak |
 | Privacy | 5 | Includes nothing beyond what matters to the sales decision |
 | Approval discipline | 5 | Presents nothing as decided, and leaves the CRM and calendar suggestions for me |
@@ -23,7 +23,7 @@ This page scores the [worked analysis](../examples/hartwell-lost-opportunity-ana
 
 ## What Worked
 
-It kept the three mixed-together factors in Priya's email apart, rather than boiling them down to one tidy reason.
+It kept the three mixed-together factors in Fiona's email apart, rather than boiling them down to one tidy reason.
 
 It treated Alex's departure as a likely but unconfirmed factor, not the confirmed cause.
 
@@ -31,11 +31,11 @@ It saw the pilot's measured result as lasting evidence that survives losing the 
 
 Its classification, timing with a secondary change of stakeholder, matched the wording used rather than defaulting to a harsher or softer read.
 
-It didn't invent a return date where Priya only gave a vague one.
+It didn't invent a return date where Fiona only gave a vague one.
 
 ## What Needed Checking
 
-It's worth checking whether Priya's own role or authority at Hartwell has changed, alongside the Head of Revenue Operations question.
+It's worth checking whether Fiona's own role or authority at Hartwell has changed, alongside the Head of Revenue Operations question.
 
 The analysis says Alex left "shortly before this email arrived". The evidence gives no date for the move, and only says I noticed it on LinkedIn, so the departure is unconfirmed and the timing is the analysis's own addition.
 

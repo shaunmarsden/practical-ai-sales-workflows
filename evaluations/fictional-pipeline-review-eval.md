@@ -11,7 +11,7 @@ This page scores the [worked pipeline review](../examples/fictional-pipeline-rev
 | Area | Score | Notes |
 | --- | ---: | --- |
 | Factual accuracy | 5 | Recorded fields and dated events match the snapshot exactly, and it spots both passed close dates |
-| Evidence fidelity | 5 | Keeps Priya's "this cycle" pause and the six weeks of Meridian silence as stated, not rounded into something firmer |
+| Evidence fidelity | 5 | Keeps Fiona's "this cycle" pause and the six weeks of Meridian silence as stated, not rounded into something firmer |
 | Fact separation | 5 | Labels the Harbourview departure an inference from LinkedIn, kept apart from the confirmed CRM fields |
 | Missing information | 5 | Each deal names what to confirm, and the Harbourview "who owns this now" unknown stays open rather than filled |
 | Commercial usefulness | 5 | Gives an honest, usable read on each deal and flags that overdue dates distort the pipeline total |

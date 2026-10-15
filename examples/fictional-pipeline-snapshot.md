@@ -21,7 +21,7 @@ Today's date for this snapshot is 15 October.
 ### Hartwell Analytics
 
 - The pilot succeeded, with a measured drop from around twenty-five minutes to under ten minutes of post-call admin per account executive (see the [business case output](hartwell-business-case-output.md)).
-- Priya Chen, the Sales Director and decision-maker, said in writing she was not proceeding "this cycle" because of a tighter budget and a team reorganisation, and would "keep this in mind for later in the year."
+- Fiona Prescott, the Sales Director and decision-maker, said in writing she was not proceeding "this cycle" because of a tighter budget and a team reorganisation, and would "keep this in mind for later in the year."
 - The recorded close date of 30 September has already passed. No activity since 12 September.
 - The stage still reads Negotiation. Nothing in the evidence shows an active negotiation. The last real event was a paused decision.
 

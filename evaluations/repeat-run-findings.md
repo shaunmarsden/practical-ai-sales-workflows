@@ -42,7 +42,7 @@ But a three-point rise is inside Claude's normal range, so my drafting history a
 
 The three fresh runs caught the main traps in their inputs. The misses are in the score tables below.
 
-**Chase decision.** It declined to chase, treated the out of office as the reason for the silence, refused to switch to Priya, and showed the clash between the promised Thursday transcript and the leave dates.
+**Chase decision.** It declined to chase, treated the out of office as the reason for the silence, refused to switch to Fiona, and showed the clash between the promised Thursday transcript and the leave dates.
 
 I've since changed that scenario to name its weekdays. Both runs above were scored against the version without them. **I read "showed the conflict" more loosely here than a later test did.** The published output says the later leave dates "suggest" the Thursday timing doesn't stand, under a heading of things to confirm. A [twelve-run test](chase-skill-ledger-test.md) that counted only stated facts scored the published skill zero of six. Both records are accurate about what they measured.
 

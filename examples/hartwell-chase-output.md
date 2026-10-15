@@ -31,7 +31,7 @@ Alex has given a current, explicit reason for being quiet: he is away until 20th
 ## Why the Other Options Do Not Fit
 
 - **Chase now:** the due CRM task is stale. Sending during stated leave would prioritise an internal reminder over the prospect's current information.
-- **Change the stakeholder:** Priya may review a useful result later, but she was not introduced as an alternative route and Alex has not become unresponsive without explanation.
+- **Change the stakeholder:** Fiona may review a useful result later, but she was not introduced as an alternative route and Alex has not become unresponsive without explanation.
 - **Close the opportunity:** annual leave is not evidence that the need has disappeared.
 - **Stop pursuing:** there is no explicit no, loss of authority or loss of interest.
 

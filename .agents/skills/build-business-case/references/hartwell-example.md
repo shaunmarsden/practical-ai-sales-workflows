@@ -4,12 +4,12 @@ Use the fictional [Hartwell business case transcript](../../../../examples/hartw
 
 ## Task
 
-Build a business case for Priya Chen, Hartwell's Sales Director, who was not on either call and controls the budget. Write it as a proposal she reads herself, not a message to Alex.
+Build a business case for Fiona Prescott, Hartwell's Sales Director, who was not on either call and controls the budget. Write it as a proposal she reads herself, not a message to Alex.
 
 ## Deliberate Traps
 
 - The pilot's timed twenty-five-to-under-ten-minute admin saving is confirmed, unlike the earlier call's unmeasured fifteen-to-thirty-minute estimate. The two should not be treated the same way.
-- Priya, not Alex, is the actual reader. The document needs the third person, not the second person.
+- Fiona, not Alex, is the actual reader. The document needs the third person, not the second person.
 - The £45 per seat per month, eight-seat, billed-annually figure was confirmed in a prior email and again on this call. The annual total can be calculated from it.
 - Compliance confirmation on data handling has been requested but not received. Shaun gave a real, specific answer on the call, but written sign-off is still outstanding.
 - The QBR date is explicitly unconfirmed, an estimate of Alex's, not a fixed date.
@@ -38,7 +38,7 @@ Build a business case for Priya Chen, Hartwell's Sales Director, who was not on 
 - The QBR is on a specific date.
 - Compliance confirmation has already been provided.
 - The twenty-five-to-under-ten-minute figure is an estimate, the same as the earlier call's fifteen-to-thirty-minute guess.
-- Priya is reading a message addressed to Alex.
+- Fiona is reading a message addressed to Alex.
 - Expansion to the customer success team is part of this proposal.
 - Any individual account executive is named.
 

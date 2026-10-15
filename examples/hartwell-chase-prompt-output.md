@@ -40,12 +40,12 @@ What to prepare for later:
 What to watch for:
 - Any personal reply from Alex, before or after 20th July, which would change the timing regardless of the plan above.
 - Whether internal approval for the transcript is mentioned anywhere in that reply, since that was the condition Alex himself attached to it.
-- Whether Priya is raised again in a way that makes her an actual alternative route, rather than a name mentioned once on the call.
+- Whether Fiona is raised again in a way that makes her an actual alternative route, rather than a name mentioned once on the call.
 
 ## 4. What must not be assumed
 
 - That Alex will resume monitoring email precisely on 20th July rather than needing a few days to catch up. Unknown.
 - That internal approval for sharing the anonymised transcript has been granted. Unknown.
 - That Alex saw the test outline and review times before he went away. Unknown.
-- That Priya is a viable alternative stakeholder. She was mentioned on the call but has not been identified as a route forward, so switching to her is not supported by the evidence here.
+- That Fiona is a viable alternative stakeholder. She was mentioned on the call but has not been identified as a route forward, so switching to her is not supported by the evidence here.
 - That the CRM task's original 10th July due date reflects genuine urgency rather than a default follow-up interval set before the away notice was known.

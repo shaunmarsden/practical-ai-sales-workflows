@@ -32,7 +32,7 @@
 | Alex | Confirm that an anonymised transcript is safe to share | Before sharing it | Alex said internal confirmation is required |
 | Alex | Send the anonymised transcript if approved | Thursday afternoon, relative to the call | Alex said he should be able to send it by then, subject to approval |
 | Alex | Check the recording package and whether it provides full transcripts | No date agreed | Alex said this still needs checking |
-| Alex | Check whether Priya wants anything specific included | No date agreed | Alex said he would check |
+| Alex | Check whether Fiona wants anything specific included | No date agreed | Alex said he would check |
 
 ## 4. Missing Information and Checks
 
@@ -41,7 +41,7 @@
 - Shaun needs to check his diary before offering times.
 - Alex needs internal approval before sharing an anonymised transcript.
 - The recording tool and package are unknown.
-- Priya has not asked to join the first test and her requirements are unknown.
+- Fiona has not asked to join the first test and her requirements are unknown.
 
 ## 5. Follow Up Email Draft
 
@@ -80,7 +80,7 @@ Inconsistent post call administration is reducing visibility and creating extra 
 ### Stakeholders
 
 - Alex Morgan, Head of Revenue Operations and current contact
-- Priya, Sales Director, may review the result later but is not confirmed for the first test
+- Fiona, Sales Director, may review the result later but is not confirmed for the first test
 
 ### Risks and Unknowns
 
@@ -93,5 +93,5 @@ Inconsistent post call administration is reducing visibility and creating extra 
 
 - Thursday afternoon is conditional on approval and is not an unconditional commitment.
 - Next Tuesday morning was discussed, but no meeting time was agreed.
-- Priya may review the result later, but has not agreed to participate.
+- Fiona may review the result later, but has not agreed to participate.
 - The administration time is Alex's estimate, not measured evidence.

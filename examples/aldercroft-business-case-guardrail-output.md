@@ -1,6 +1,6 @@
 # Aldercroft Business Case Output, Skill With the Stacked-Figure Guardrail
 
-> This is a worked output created from the fictional [Aldercroft pre-pilot transcript](aldercroft-business-case-transcript.md) using the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md) with the guardrail against combining two unmeasured figures. Aldercroft Group, Tomasz Nowicki, Priya Deshmukh and every figure are invented. Nothing has been sent, approved or changed in a CRM.
+> This is a worked output created from the fictional [Aldercroft pre-pilot transcript](aldercroft-business-case-transcript.md) using the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md) with the guardrail against combining two unmeasured figures. Aldercroft Group, Tomasz Nowicki, Carys Maddox and every figure are invented. Nothing has been sent, approved or changed in a CRM.
 
 This is the first of the guardrail runs in the [stacked figure test](../evaluations/business-case-stacked-figure-test.md), chosen by the same rule used last time, the first run rather than the best. The skill and the transcript went into a fresh isolated context with the transcript's answer key removed first, as its own warning instructs.
 
@@ -20,7 +20,7 @@ This is the first of the guardrail runs in the [stacked figure test](../evaluati
 |---|---|
 | Company | Aldercroft Group |
 | Prospect / role | Tomasz Nowicki, Operations Director (reconciliation team) |
-| Reader of this document | Priya Deshmukh, CFO: was not on the discovery call |
+| Reader of this document | Carys Maddox, CFO: was not on the discovery call |
 | Product / programme | `unknown`: not named on the call |
 | Ask | Budget approval for a paid pilot, reconciliation team only, with a defined measurement period |
 | Start date | `unknown`: not discussed |
@@ -29,7 +29,7 @@ This is the first of the guardrail runs in the [stacked figure test](../evaluati
 
 ## Business Case: Reconciliation Pilot for Operations Directors Running Manual Transaction Matching
 
-*For Priya Deshmukh, CFO, Aldercroft Group*
+*For Carys Maddox, CFO, Aldercroft Group*
 
 Tomasz Nowicki, Operations Director, is asking for budget to run a paid pilot testing whether an automated matching solution can reduce the manual effort his team currently puts into transaction reconciliation. This document sets out what his team does today, what the pilot would test, and what it does not yet know, so that the pilot, not this document, is what produces the numbers a fuller business case would eventually rely on.
 
@@ -62,7 +62,7 @@ These are given separately, with their sources, deliberately. Multiplying them t
 
 ### Risk, data and audit trail
 
-The data involved is transaction and invoice data, amounts, supplier names, and reference numbers. Tomasz was clear there is no customer personal data and no card numbers involved. Separately, he flagged that Priya will specifically want to know whether the process preserves a clear, reviewable audit trail of what was matched and by whom, since this work feeds Aldercroft's own financial reporting. That requirement is noted here as something the pilot must demonstrate, not something already shown. No audit trail capability has been verified yet, only described as a requirement to design for and confirm during the pilot.
+The data involved is transaction and invoice data, amounts, supplier names, and reference numbers. Tomasz was clear there is no customer personal data and no card numbers involved. Separately, he flagged that Carys will specifically want to know whether the process preserves a clear, reviewable audit trail of what was matched and by whom, since this work feeds Aldercroft's own financial reporting. That requirement is noted here as something the pilot must demonstrate, not something already shown. No audit trail capability has been verified yet, only described as a requirement to design for and confirm during the pilot.
 
 ### Scope
 
@@ -74,11 +74,11 @@ This case covers the reconciliation team only. Tomasz separately mentioned that 
 
 ### Time or resource commitment
 
-`unknown`, the call did not establish what running the pilot would require from Aldercroft's side (analyst time, IT involvement, data access setup, or duration). This needs to be confirmed before the document goes to Priya.
+`unknown`, the call did not establish what running the pilot would require from Aldercroft's side (analyst time, IT involvement, data access setup, or duration). This needs to be confirmed before the document goes to Carys.
 
 ### Next steps
 
-The ask to Priya is for budget approval to run a paid pilot, scoped to the reconciliation team only, with a defined measurement period. The explicit purpose of that pilot is to produce Aldercroft's own numbers, a real baseline and a real reduction, so that any future case for a wider rollout is built on measured results rather than the projections in this document. Approving budget for the pilot is the next step; it is not itself a decision to proceed to a full rollout, and sending this document does not complete or replace that decision. It is the basis for a conversation Priya and Tomasz still need to have.
+The ask to Carys is for budget approval to run a paid pilot, scoped to the reconciliation team only, with a defined measurement period. The explicit purpose of that pilot is to produce Aldercroft's own numbers, a real baseline and a real reduction, so that any future case for a wider rollout is built on measured results rather than the projections in this document. Approving budget for the pilot is the next step; it is not itself a decision to proceed to a full rollout, and sending this document does not complete or replace that decision. It is the basis for a conversation Carys and Tomasz still need to have.
 
 ### Links
 
@@ -86,7 +86,7 @@ None. No attachment, deck, or supporting document was referenced or sent as part
 
 ---
 
-## Human check: confirm before this goes to Priya
+## Human check: confirm before this goes to Carys
 
 - [ ] The six-hours-per-analyst-per-week figure is Tomasz's own unmeasured estimate, confirm it should appear in the case at all, and that it is clearly labelled as an estimate, not fact
 - [ ] The "roughly half, possibly more" reduction figure is Tomasz's gut feel from a demo, untested on Aldercroft's own data, confirm it is not being read as a promised outcome
@@ -99,6 +99,6 @@ None. No attachment, deck, or supporting document was referenced or sent as part
 - [ ] Pilot time/resource commitment from Aldercroft's side: `unknown`, needs to be supplied
 - [ ] Audit trail requirement, currently described only as a requirement to meet, not a demonstrated capability; confirm this is accurate before it goes to a CFO who will specifically ask about it
 - [ ] Confirm accounts payable has not been folded into this document anywhere (Tomasz explicitly asked for it to stay out)
-- [ ] Confirm the ask stated to Priya is pilot budget only, not a full rollout ask
+- [ ] Confirm the ask stated to Carys is pilot budget only, not a full rollout ask
 
-**This draft has not been checked by a person and must not be sent to Aldercroft, or to Priya specifically, until every item above is confirmed.**
+**This draft has not been checked by a person and must not be sent to Aldercroft, or to Carys specifically, until every item above is confirmed.**

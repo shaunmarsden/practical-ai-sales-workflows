@@ -19,7 +19,7 @@ Each deal shows the **recorded** position (what the CRM says) next to the **evid
 ## Hartwell Analytics
 
 - **Recorded**: Negotiation, £48,000, close date 30 September (passed).
-- **Evidence-supported**: paused. Priya confirmed in writing this is not proceeding this cycle, citing budget and a reorganisation, and pointed to "later in the year".
+- **Evidence-supported**: paused. Fiona confirmed in writing this is not proceeding this cycle, citing budget and a reorganisation, and pointed to "later in the year".
 - **Gap**: the stage reads as an active negotiation, which the evidence does not support. The close date is overdue and needs resetting to a realistic point or clearing.
 - **Separate and still true**: the pilot's measured result remains valid regardless of the pause, so the underlying case is not lost, only delayed.
 - **To confirm and, if Shaun agrees, update**: move the stage to whatever your CRM uses for a paused or nurture state, and reset the close date to a realistic later-in-year point rather than a passed date. This is Shaun's decision, not an automatic change.
@@ -64,5 +64,5 @@ Each deal shows the **recorded** position (what the CRM says) next to the **evid
 
 ## Notes for Human Review
 
-- The only confirmed facts here are the recorded CRM fields and the dated events. Priya's pause is confirmed in writing; the Harbourview departure is an inference from LinkedIn and is labelled as such.
+- The only confirmed facts here are the recorded CRM fields and the dated events. Fiona's pause is confirmed in writing; the Harbourview departure is an inference from LinkedIn and is labelled as such.
 - Two deals (Hartwell, Meridian) have close dates that have already passed. Those are the most urgent to correct, because an overdue date quietly distorts any pipeline total built from this data.

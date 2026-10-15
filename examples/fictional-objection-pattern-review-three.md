@@ -6,7 +6,7 @@
 
 The log contains eight occurrences across seven distinct applicants or deals. Bellhaven Group appears twice, entries 4 and 5, so those two are not independent examples of the same finding.
 
-Each entry includes exact wording, stage, role, a diagnosed driver with its evidence, the response and the outcome. Two entries, Corvane Digital and Priya Anand, explicitly state a different reason in the applicant's own words rather than relying on an inferred driver.
+Each entry includes exact wording, stage, role, a diagnosed driver with its evidence, the response and the outcome. Two entries, Corvane Digital and Greta Lindholm, explicitly state a different reason in the applicant's own words rather than relying on an inferred driver.
 
 The sample is small and deliberately selected for this test. It cannot support a pipeline-wide rate, and it was drawn entirely from self-funded individual applicants, so it says nothing about employer-sponsored or company-account enrolments.
 
@@ -35,16 +35,16 @@ This is worth acting on, subject to human approval. Making the employer attestat
 Two entries could be mistaken for belonging to the attestation pattern because both involve another party being consulted, but neither actually shares its driver:
 
 - Corvane Digital's applicant said she would check with her partner about the cost. The other party is a spouse, not an employer, and the stated reason is a household budget decision. The employer attestation requirement was never mentioned in this conversation.
-- Priya Anand explicitly said her silence was due to starting a new job, and explicitly said it had nothing to do with the programme's own terms. Her own stated reason rules out the attestation driver directly; there is no inference required here, only reading what she actually said.
+- Greta Lindholm explicitly said her silence was due to starting a new job, and explicitly said it had nothing to do with the programme's own terms. Her own stated reason rules out the attestation driver directly; there is no inference required here, only reading what she actually said.
 
-Neither entry should be grouped with the genuine pattern above. Corvane's "checking with someone" is superficially similar in shape (someone else's input needed) but a different party and a different reason entirely. Priya's case shares the stage and outcome shape but was explicitly and directly attributed elsewhere by the applicant herself.
+Neither entry should be grouped with the genuine pattern above. Corvane's "checking with someone" is superficially similar in shape (someone else's input needed) but a different party and a different reason entirely. Greta's case shares the stage and outcome shape but was explicitly and directly attributed elsewhere by the applicant herself.
 
 ## Suggested Actions for Human Approval
 
 1. Decide whether to add a clear statement of the employer attestation requirement earlier in the discovery conversation or public-facing materials, before a self-funded applicant invests more time.
 2. Confirm with the five identified applicants, where still reachable, whether an earlier, clearer explanation would have changed their decision, rather than assuming it would have.
 3. Keep Corvane Digital's follow-up on its own track as a normal circumstances-based deferral, not folded into the attestation finding.
-4. Take Priya Anand's stated reason at face value and follow up on the timing she gave, rather than revisiting the attestation question with her.
+4. Take Greta Lindholm's stated reason at face value and follow up on the timing she gave, rather than revisiting the attestation question with her.
 
 ## What This Sample Cannot Tell You
 
@@ -52,4 +52,4 @@ Neither entry should be grouped with the genuine pattern above. Corvane's "check
 - Whether employer-sponsored applicants, who were not included in this log, encounter the same or a different gap
 - Whether an earlier explanation would actually prevent the stall, or only move it earlier in the conversation
 - Whether Corvane's deal will progress once she has checked with her partner
-- Whether Priya will return once her new role settles
+- Whether Greta will return once her new role settles

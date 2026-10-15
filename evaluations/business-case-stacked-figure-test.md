@@ -60,7 +60,7 @@ One plain run produced £2,520 a week, turned it into £131,000 a year, then pro
 | Fact separation | 5 | Marks unknowns with a literal `unknown` label in a table, and heads its cost section "kept separate, not combined into a headline" |
 | Missing information | 5 | Names product name, start date, pricing, resourcing and how the audit trail works as unknown |
 | Commercial usefulness | 4 | Asks for the right size of pilot and is honest about what it's for, but a CFO gets no sense of cost at all, not even the two inputs side by side to combine herself |
-| Next step clarity | 4 | Says the document doesn't replace Priya's decision, but names nobody as owning the measurement period |
+| Next step clarity | 4 | Says the document doesn't replace Carys's decision, but names nobody as owning the measurement period |
 | Tone | 5 | Third person, headed DRAFT, hedged in line with material that is almost entirely unmeasured |
 | Privacy | 5 | No personal data, no analyst named, out-of-scope aside kept out of the case |
 | Approval discipline | 5 | Titled as a draft needing human review, with a checkbox list rather than assertions |

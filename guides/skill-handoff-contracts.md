@@ -23,7 +23,7 @@ This uses the fictional [Hartwell post-call transcript](../examples/hartwell-pos
 
 **Estimate:** Alex's own figure of 15 to 30 minutes of admin per call, which Alex said wasn't measured. It goes forward as an estimate, not as a measured fact.
 
-**Missing:** the date of the call, so relative timings can't be turned into calendar dates. Whether Priya wants anything specific included. What the recording package supports.
+**Missing:** the date of the call, so relative timings can't be turned into calendar dates. Whether Fiona wants anything specific included. What the recording package supports.
 
 **Source per point:** each point above traces to a specific line in the transcript or something Alex said on the call, not a summary written from memory.
 
