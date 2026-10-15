@@ -27,13 +27,13 @@ I pasted the prompt into a fresh, isolated context with only the [scenario](../e
 | Tone | 5 | Plain and direct, with no filler and no hedging that hides the decision |
 | Privacy | 5 | Uses only the fictional information supplied and adds no unneeded personal detail |
 | Approval discipline | 4 | Nothing is treated as sent or changed, and it writes "No message yet". But it proposes moving the CRM due date without saying in that line that a person must approve it |
-| Hallucination risk | 5 | Invents nothing. It won't promote Priya from a name mentioned once to a real route, and labels the revisit date as a plan, not an agreement |
+| Hallucination risk | 5 | Invents nothing. It won't promote Fiona from a name mentioned once to a real route, and labels the revisit date as a plan, not an agreement |
 
 ## What Worked
 
 - It didn't obey the stale CRM task. It noticed the task was created before the automatic reply arrived, and said the later information replaces it.
 - It told an out-of-office notice apart from a reply waiting for an answer. The prompt's own stop condition depends on that difference.
-- It refused to treat Priya as another stakeholder to try, and said why: she was mentioned but never named as a route.
+- It refused to treat Fiona as another stakeholder to try, and said why: she was mentioned but never named as a route.
 - It chose not to draft a message at all, which is the harder answer on this scenario, and still produced something useful for later.
 
 ## What It Missed

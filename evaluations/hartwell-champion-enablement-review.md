@@ -11,9 +11,9 @@ This review scores the [worked enablement package](../examples/hartwell-champion
 | Area | Score | Notes |
 | --- | ---: | --- |
 | Factual accuracy | 5 | Every figure and fact matches what the business case transcript and output had already established |
-| Evidence fidelity | 5 | Priya's evidence comes from her confirmed concern about CRM visibility, not a generic pitch |
+| Evidence fidelity | 5 | Fiona's evidence comes from her confirmed concern about CRM visibility, not a generic pitch |
 | Fact separation | 5 | Keeps the outstanding compliance confirmation clearly unconfirmed throughout, including in the table of likely questions |
-| Missing information | 4 | Rightly flags the unconfirmed QBR date and the outstanding compliance item, but doesn't prepare Alex for Priya raising a new concern beyond the two on record |
+| Missing information | 4 | Rightly flags the unconfirmed QBR date and the outstanding compliance item, but doesn't prepare Alex for Fiona raising a new concern beyond the two on record |
 | Commercial usefulness | 5 | The decision summary and internal note are both ready to use, not generic templates with brackets to fill in |
 | Next step clarity | 4 | The internal note to Nadia has one clear ask, but the package doesn't say what Alex's own next step is straight after the QBR |
 | Tone | 5 | Plain, with no made-up urgency. It reads like something a person would say and send |
@@ -23,7 +23,7 @@ This review scores the [worked enablement package](../examples/hartwell-champion
 
 ## What Worked
 
-- Priya's evidence for her role comes entirely from the concern recorded for her, the Monday pipeline meeting and the lag in CRM visibility. It avoids the tempting but unsupported guess that a Sales Director really cares about AE quota or deal speed.
+- Fiona's evidence for her role comes entirely from the concern recorded for her, the Monday pipeline meeting and the lag in CRM visibility. It avoids the tempting but unsupported guess that a Sales Director really cares about AE quota or deal speed.
 - It treats the compliance confirmation as outstanding everywhere, including in the answer to "has compliance actually confirmed this?" It doesn't soften it to make Alex look better prepared than the evidence allows.
 - The internal note to Nadia reads as Alex asking a colleague for an update in Alex's own voice. It doesn't read as the seller going round the champion to contact another stakeholder.
 - The customer success extension, flagged elsewhere as a passing thought, rightly appears nowhere in the QBR material.
@@ -31,8 +31,8 @@ This review scores the [worked enablement package](../examples/hartwell-champion
 ## What Needed Checking
 
 - Calling the compliance item "genuinely gating" the rollout is the output's own fair inference from what Nadia's team asked for. Check it against Alex's view before Alex repeats it as if it were a quoted fact.
-- The package doesn't cover Priya raising a concern other than the CRM visibility one on record. A careful reviewer should treat the evidence for her role as a starting point, not a full script for every question.
-- Priya wasn't on either call. Alex raised the CRM lag and the Monday meeting problem, so the package builds her role evidence on his concern, not hers. Alex should confirm she shares it before he leads with it. The "same-day visibility improvement" also comes from the business case output, and the pilot transcript doesn't support the same-day claim (see the [business case review](hartwell-business-case-review.md)).
+- The package doesn't cover Fiona raising a concern other than the CRM visibility one on record. A careful reviewer should treat the evidence for her role as a starting point, not a full script for every question.
+- Fiona wasn't on either call. Alex raised the CRM lag and the Monday meeting problem, so the package builds her role evidence on his concern, not hers. Alex should confirm she shares it before he leads with it. The "same-day visibility improvement" also comes from the business case output, and the pilot transcript doesn't support the same-day claim (see the [business case review](hartwell-business-case-review.md)).
 - The QBR date is still an estimate, roughly three weeks away, and needs confirming before anyone treats this package as final.
 
 ## What I Changed in the Prompt

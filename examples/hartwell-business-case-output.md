@@ -1,6 +1,6 @@
 # Hartwell Business Case Output
 
-> This is a worked business case created from the fictional [pilot review transcript](hartwell-business-case-transcript.md) and the earlier [post-call transcript](hartwell-post-call-transcript.md). It is written for Priya Chen, Hartwell's Sales Director, who was not on either call. Nothing has been sent or approved.
+> This is a worked business case created from the fictional [pilot review transcript](hartwell-business-case-transcript.md) and the earlier [post-call transcript](hartwell-post-call-transcript.md). It is written for Fiona Prescott, Hartwell's Sales Director, who was not on either call. Nothing has been sent or approved.
 
 ---
 
@@ -38,7 +38,7 @@ No change to the reps' day-to-day workload beyond what the pilot already used. R
 
 ### Next Steps
 
-Alex Morgan will present this proposal to Priya Chen at the team's next quarterly business review. The exact date has not yet been confirmed and depends on Priya's diary; Alex will confirm it directly. Rollout to the full team would begin once budget is approved and the outstanding compliance confirmation has been received, not before.
+Alex Morgan will present this proposal to Fiona Prescott at the team's next quarterly business review. The exact date has not yet been confirmed and depends on Fiona's diary; Alex will confirm it directly. Rollout to the full team would begin once budget is approved and the outstanding compliance confirmation has been received, not before.
 
 ---
 

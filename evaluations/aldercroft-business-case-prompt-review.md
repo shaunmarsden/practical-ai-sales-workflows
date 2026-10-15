@@ -23,7 +23,7 @@ I pasted the prompt into a fresh context with only the [transcript](../examples/
 | Fact separation | 5 | A status column labels each summary item, and the six-hour estimate is flagged again as unmeasured where the arithmetic uses it, not only where it first appears |
 | Missing information | 5 | Names the missing pilot cost, the undefined measurement period, the missing resourcing figure and the fact that nobody named a solution, which the transcript doesn't prompt for |
 | Commercial usefulness | 5 | Sizes the ask correctly as a paid pilot with a measurement period, which is what the champion asked for, and gives the reader the two figures without welding them into one |
-| Next step clarity | 4 | Names Priya as the approver and says clearly that sending doesn't finish the process, but names nobody to own agreeing the pilot's length and measures |
+| Next step clarity | 4 | Names Carys as the approver and says clearly that sending doesn't finish the process, but names nobody to own agreeing the pilot's length and measures |
 | Tone | 5 | Third person throughout, which is right, because the reader is the CFO, not the person on the call. Hedged in line with how weak the material is, without sounding evasive |
 | Privacy | 5 | Names no analyst, has no customer personal data, and keeps the out-of-scope accounts payable remark out of the case |
 | Approval discipline | 5 | Says plainly that it's still a draft for the champion to review, leaves the commercial section as a marked gap rather than filling it, and treats nothing as sent or agreed |

@@ -4,15 +4,15 @@
 
 ## The Situation
 
-A discovery call with Priya Malde, Head of Commercial Operations at Kellow Distribution Group, a mid-size distribution business, covered three different teams as possible candidates for the same AI-assisted post-call and admin workflow used elsewhere in this repository. Priya wants a recommendation on which teams to actually build a business case around before she takes anything further internally.
+A discovery call with Tamsin Halloran, Head of Commercial Operations at Kellow Distribution Group, a mid-size distribution business, covered three different teams as possible candidates for the same AI-assisted post-call and admin workflow used elsewhere in this repository. Tamsin wants a recommendation on which teams to actually build a business case around before she takes anything further internally.
 
 ## What Was Actually Described
 
-**Regional Account Managers (10 people).** Each account manager owns a named set of client accounts and speaks to them one to one, by phone or video call, with their own CRM record per client. Priya described post-call admin as "the same problem everywhere," each account manager writing up notes and updating the CRM in their own way, with the same one- to two-day lag problem seen elsewhere in this repository's examples.
+**Regional Account Managers (10 people).** Each account manager owns a named set of client accounts and speaks to them one to one, by phone or video call, with their own CRM record per client. Tamsin described post-call admin as "the same problem everywhere," each account manager writing up notes and updating the CRM in their own way, with the same one- to two-day lag problem seen elsewhere in this repository's examples.
 
-**Central Order Support (15 people).** A shared team that answers a single incoming queue for order queries. Calls are not owned by a named person; whoever is free takes the next call. Order details are recorded in a separate order management system, not the CRM at all. Priya was not able to say whether that order management system has any way to receive information from an external tool; she has not asked her IT team.
+**Central Order Support (15 people).** A shared team that answers a single incoming queue for order queries. Calls are not owned by a named person; whoever is free takes the next call. Order details are recorded in a separate order management system, not the CRM at all. Tamsin was not able to say whether that order management system has any way to receive information from an external tool; she has not asked her IT team.
 
-**Field Service Engineers (8 people).** Engineers visit client sites for equipment servicing. Priya mentioned this team almost in passing, "they probably have the same kind of admin problem," but the call did not cover what their actual after-visit process looks like, what system they use, or whether their work involves anything resembling a call at all.
+**Field Service Engineers (8 people).** Engineers visit client sites for equipment servicing. Tamsin mentioned this team almost in passing, "they probably have the same kind of admin problem," but the call did not cover what their actual after-visit process looks like, what system they use, or whether their work involves anything resembling a call at all.
 
 ## What Is Actually Confirmed About the Product
 

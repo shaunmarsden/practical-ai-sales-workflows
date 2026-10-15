@@ -10,7 +10,7 @@ Claude ran the three Claude runs, each in a fresh conversation. I ran the ChatGP
 
 ## Scenario
 
-Priya Chen's reply after the QBR is unclear. It mixes timing, a sign the reason to buy may be shrinking (AE roles "up in the air"), resistance to change ("a new tool they have to learn"), and a possible soft no ("let me sit with it"), with no date and no clear blocker. The full input is in the [scenario file](../examples/hartwell-objection-ambiguous-input.md). There's no single "correct" primary driver, only better and worse ways of handling not knowing.
+Fiona Prescott's reply after the QBR is unclear. It mixes timing, a sign the reason to buy may be shrinking (AE roles "up in the air"), resistance to change ("a new tool they have to learn"), and a possible soft no ("let me sit with it"), with no date and no clear blocker. The full input is in the [scenario file](../examples/hartwell-objection-ambiguous-input.md). There's no single "correct" primary driver, only better and worse ways of handling not knowing.
 
 ## The Headline: Primary Driver Diagnosed, Per Run
 
@@ -48,7 +48,7 @@ Run 2 led with the shrinking case: *"If the team is contracting, this is not a t
 
 ## ChatGPT, Per Model
 
-All three runs scored 47/50, the most disciplined and neutral of the three models. Each picked circumstances (timing) as the main driver, and ruled out an "other people" objection because Priya holds the budget, as the workflow intends.
+All three runs scored 47/50, the most disciplined and neutral of the three models. Each picked circumstances (timing) as the main driver, and ruled out an "other people" objection because Fiona holds the budget, as the workflow intends.
 
 ChatGPT 2 came closest of any ChatGPT or Gemini run to the sharpest reading, with a two-way question: *"the business case still stands but the timing is wrong; or something emerged in the QBR that has weakened the case."* It put the cause on the QBR, not on the "AE roles up in the air" signal.
 
@@ -60,14 +60,14 @@ Runs scored 45, 45 and 46. Gemini was as stable on timing, and good at naming un
 
 It lost points for the same two things every time:
 
-- The reframe leaned persuasive. Every Gemini run pushed a version of "adopting now would actually relieve pressure during the reorg," which gently argues *against* the timing concern Priya had just raised. It isn't a hard failure, since a reframe may offer another view, but it's the one place any model edged towards arguing with the stated driver. It cost a point on hallucination risk (a slightly overclaimed benefit) and on tone.
-- It chose its own cadence. Each run set an internal "2 to 3 week" follow-up. That's acceptable, as it isn't a promise to Priya and the reply still asks her for timing, but Claude and ChatGPT left the cadence to be agreed.
+- The reframe leaned persuasive. Every Gemini run pushed a version of "adopting now would actually relieve pressure during the reorg," which gently argues *against* the timing concern Fiona had just raised. It isn't a hard failure, since a reframe may offer another view, but it's the one place any model edged towards arguing with the stated driver. It cost a point on hallucination risk (a slightly overclaimed benefit) and on tone.
+- It chose its own cadence. Each run set an internal "2 to 3 week" follow-up. That's acceptable, as it isn't a promise to Fiona and the reply still asks her for timing, but Claude and ChatGPT left the cadence to be agreed.
 
 ## Where All Nine Runs Agreed
 
 - No run made up a fact. None decided the reorg outcome, the headcount direction or the QBR result. All nine treated those as unknown.
 - No run offered a discount or disqualified the deal, and none pushed to close straight away.
-- All nine isolated the objection rather than assume. Every run ended by asking Priya to confirm the real blocker. This is the most important result, because it's what makes the differences below safe.
+- All nine isolated the objection rather than assume. Every run ended by asking Fiona to confirm the real blocker. This is the most important result, because it's what makes the differences below safe.
 - All nine settled on a dated follow-up.
 
 ## Where Runs Disagreed

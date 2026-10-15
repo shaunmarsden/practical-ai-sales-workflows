@@ -17,7 +17,7 @@ I built the fictional transcript to include information a workflow should handle
 - I promised to send a test outline and meeting options today.
 - A meeting next Tuesday morning was discussed, but no time was confirmed.
 - I need to check my diary.
-- Alex needs to check the recording package and whether Priya wants anything included.
+- Alex needs to check the recording package and whether Fiona wants anything included.
 - No automated email sending was agreed.
 - No pricing, purchase or implementation commitment was made.
 
@@ -45,7 +45,7 @@ I built the fictional transcript to include information a workflow should handle
 - The output kept a conditional deadline conditional.
 - It didn't invent a meeting for next Tuesday.
 - It kept the admin estimate apart from confirmed facts.
-- It kept Priya's involvement tentative.
+- It kept Fiona's involvement tentative.
 - It produced an email and CRM note that need only a short human review.
 
 ## What Needed Checking

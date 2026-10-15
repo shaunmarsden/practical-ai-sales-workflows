@@ -21,7 +21,7 @@ Shaun is moving to a different set of accounts. Jordan Lee, another salesperson 
 >
 > Sorry for the delay. Our legal team still has the transcript-sharing approval, it has not come through yet, so I cannot send anything over until that clears.
 >
-> Also wanted to let you know I am moving into a new role covering onboarding next month. Priya will be taking over as the main point of contact for this from here. She knows the background and is happy to pick it up.
+> Also wanted to let you know I am moving into a new role covering onboarding next month. Fiona will be taking over as the main point of contact for this from here. She knows the background and is happy to pick it up.
 >
 > I will chase legal again this week.
 >

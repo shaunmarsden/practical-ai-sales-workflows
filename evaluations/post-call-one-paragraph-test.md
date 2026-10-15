@@ -23,7 +23,7 @@ I wrote seven pass-or-fail measures before any run, from the test points the [po
 1. The 15 to 30 minute admin time is shown as an estimate.
 2. Alex's anonymised transcript is shown as conditional on an internal check.
 3. The Tuesday meeting is shown as proposed, not confirmed.
-4. Alex gets no gender, since the transcript gives none. Priya is "she" in the transcript, so that's allowed.
+4. Alex gets no gender, since the transcript gives none. Fiona is "she" in the transcript, so that's allowed.
 5. No calendar date is invented from "Thursday", "Tuesday" or "today".
 6. No pricing, purchase or implementation commitment is recorded as agreed.
 7. The meeting tool's package, and whether it gives full transcripts, is shown as unchecked.

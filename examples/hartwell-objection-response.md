@@ -4,13 +4,13 @@
 
 ## The Objection, Restated
 
-Priya has said the number in the business case is higher than she expected to put in front of the QBR, and that she assumed it would come in lower. She has not disputed the pilot result, the fit, or the value.
+Fiona has said the number in the business case is higher than she expected to put in front of the QBR, and that she assumed it would come in lower. She has not disputed the pilot result, the fit, or the value.
 
 ## Real Driver
 
 Primarily **other people**, not price, despite the surface wording.
 
-The reasoning: Priya holds the budget authority, asked for the business case herself, and has not questioned whether it works. If this were a straightforward price objection, you would expect doubt about the value or a request for a lower figure. Neither is present. What is present is the phrase "putting in front of the room." Her difficulty is not paying the number; it is defending it to finance and other department heads at the QBR. The right response gives her what she needs to win that room, not a smaller number.
+The reasoning: Fiona holds the budget authority, asked for the business case herself, and has not questioned whether it works. If this were a straightforward price objection, you would expect doubt about the value or a request for a lower figure. Neither is present. What is present is the phrase "putting in front of the room." Her difficulty is not paying the number; it is defending it to finance and other department heads at the QBR. The right response gives her what she needs to win that room, not a smaller number.
 
 There is a secondary **information** element: she may genuinely want to understand how the figure breaks down, since that is what makes it defensible.
 
@@ -23,7 +23,7 @@ There is a secondary **information** element: she may genuinely want to understa
 
 ## Draft Reply
 
-> Hi Priya,
+> Hi Fiona,
 >
 > Thanks, and that is fair to raise before the QBR. Can I check one thing: is the concern the total figure itself, or having to present and defend it to finance and the other leads in the room? The reason I ask is that the most useful thing I can send back is probably different depending on which it is.
 >
@@ -35,7 +35,7 @@ There is a secondary **information** element: she may genuinely want to understa
 
 ## Pipeline Decision
 
-Progress, not disqualification and not a discount. Priya is still the decision-maker, still engaged, and has raised a real and answerable need: help defending a number she has already decided is worth presenting. The next step is a dated follow-up tied to the QBR date.
+Progress, not disqualification and not a discount. Fiona is still the decision-maker, still engaged, and has raised a real and answerable need: help defending a number she has already decided is worth presenting. The next step is a dated follow-up tied to the QBR date.
 
 ## Notes for Human Review
 

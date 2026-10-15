@@ -1,6 +1,6 @@
 # Aldercroft Business Case Output
 
-> This is a worked business case created from the fictional [Aldercroft pre-pilot discovery transcript](aldercroft-business-case-transcript.md). It is written for Priya Deshmukh, Aldercroft's CFO, who was not on the call. No pilot has run. Nothing here has been sent or approved.
+> This is a worked business case created from the fictional [Aldercroft pre-pilot discovery transcript](aldercroft-business-case-transcript.md). It is written for Carys Maddox, Aldercroft's CFO, who was not on the call. No pilot has run. Nothing here has been sent or approved.
 
 ---
 
@@ -30,7 +30,7 @@ Because no measurement has taken place with Aldercroft's own team or data, this 
 
 ### Data and Audit Trail
 
-The reconciliation work involves transaction amounts, supplier names and reference numbers. It does not involve customer personal data or card numbers. Because this work feeds Aldercroft's own financial reporting, the process preserves a full audit trail of what was matched and by whom, directly addressing the audit-trail requirement Tomasz identified as something Priya would specifically want confirmed, rather than a general security assurance.
+The reconciliation work involves transaction amounts, supplier names and reference numbers. It does not involve customer personal data or card numbers. Because this work feeds Aldercroft's own financial reporting, the process preserves a full audit trail of what was matched and by whom, directly addressing the audit-trail requirement Tomasz identified as something Carys would specifically want confirmed, rather than a general security assurance.
 
 ### Time Commitment
 
@@ -38,13 +38,13 @@ A defined pilot period with the twelve-person reconciliation team, including a s
 
 ### Next Steps
 
-Tomasz Nowicki will present this case to Priya Deshmukh for approval to run a paid pilot with the reconciliation team. The pilot's purpose is to replace this projection with a measured result before any wider rollout is proposed. Timing for Priya's review has not been confirmed.
+Tomasz Nowicki will present this case to Carys Maddox for approval to run a paid pilot with the reconciliation team. The pilot's purpose is to replace this projection with a measured result before any wider rollout is proposed. Timing for Carys's review has not been confirmed.
 
 ---
 
 ## Notes for Human Review
 
-- Every saving figure in this document is a projection from Tomasz's own unmeasured estimate and Aldercroft Finance's approximate blended rate, not a measured pilot result. This should stay visibly labelled as a projection throughout, not tightened into a confident number as the document moves toward Priya.
+- Every saving figure in this document is a projection from Tomasz's own unmeasured estimate and Aldercroft Finance's approximate blended rate, not a measured pilot result. This should stay visibly labelled as a projection throughout, not tightened into a confident number as the document moves toward Carys.
 - The projection deliberately uses the conservative half of "half, maybe more" as its headline figure. If a more optimistic figure is ever substituted, it should be labelled as the upside case, not the expected outcome.
 - The projection uses twelve analysts, the current headcount, not seventeen. The five additional analysts Aldercroft hopes to hire by Q2 are not confirmed and must not be added into any saving figure until that headcount is actually approved.
 - The £35 per hour rate is Aldercroft Finance's own approximate planning average, not a precise per-analyst salary figure, and should be described that way if quoted elsewhere.

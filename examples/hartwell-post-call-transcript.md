@@ -55,7 +55,7 @@
 
 **Shaun:** Before we finish, is anyone else likely to need to see the result?
 
-**Alex:** Probably our Sales Director, Priya. She does not need to join the first test, but I would share the output with her if it looks useful. I will check whether she wants anything specific included.
+**Alex:** Probably our Sales Director, Fiona. She does not need to join the first test, but I would share the output with her if it looks useful. I will check whether she wants anything specific included.
 
 **Shaun:** Understood. I will keep the first test focused on the call summary, actions, follow up email and suggested CRM updates.
 

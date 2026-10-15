@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Varied Names in the Fictional Examples
+
+- Four fictional characters in these examples shared one first name. I gave each a different one, in 56 files: the Hartwell Sales Director, the Aldercroft approver, a lost applicant in an objection log and the Kellow contact. Each keeps the same role, pronouns and story. The tests were run with the earlier names, and nothing else in these files changed.
+
 ### Build Your Own Skill With an AI Coding Agent
 
 - New guide, [Build Your Own Skill With an AI Coding Agent](guides/build-your-own-skill-with-an-ai-coding-agent.md), with a brief to paste into Claude Code or Codex that takes a task you repeat through a skill, three test cases and a marked run, stopping for you at each step. I tested the brief [three times in Claude](evaluations/build-your-own-skill-brief-test.md) with me playing the user, and every run did what the guide says. I haven't tried Codex.

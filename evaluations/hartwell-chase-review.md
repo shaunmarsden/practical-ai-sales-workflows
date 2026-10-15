@@ -29,7 +29,7 @@ This review scores the [worked decision](../examples/hartwell-chase-output.md) a
 
 - The skill didn't blindly follow an out-of-date CRM task. It compared that task with the newer automatic reply and went with the current evidence.
 - It saw that silence with a known reason isn't the same as lost interest.
-- It didn't use Priya's name as licence to go round Alex.
+- It didn't use Fiona's name as licence to go round Alex.
 - It kept the condition attached to the transcript instead of calling it overdue.
 - It kept the clashing dates in view rather than quietly picking the one that supported a chase.
 - The draft for later rests on Hartwell's real problem and avoids filler or made-up urgency.

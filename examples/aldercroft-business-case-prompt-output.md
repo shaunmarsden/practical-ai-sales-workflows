@@ -1,6 +1,6 @@
 # Aldercroft Business Case Prompt Output
 
-> This is a worked output created from the fictional [Aldercroft pre-pilot transcript](aldercroft-business-case-transcript.md) using the [business case prompt](../templates/business-case-prompt.md), not the skill. Aldercroft Group, Tomasz Nowicki, Priya Deshmukh and every figure are invented. Nothing has been sent, approved or changed in a CRM.
+> This is a worked output created from the fictional [Aldercroft pre-pilot transcript](aldercroft-business-case-transcript.md) using the [business case prompt](../templates/business-case-prompt.md), not the skill. Aldercroft Group, Tomasz Nowicki, Carys Maddox and every figure are invented. Nothing has been sent, approved or changed in a CRM.
 
 The prompt was pasted into a fresh, isolated context with only the transcript below it. The transcript's answer key was removed first, as its own warning instructs, so the run did not see the traps it was being tested on. The output is reproduced unedited, including the date it put on the document itself.
 
@@ -8,11 +8,11 @@ The prompt was pasted into a fresh, isolated context with only the transcript be
 
 # Business Case for a Reconciliation Pilot in Aldercroft Group's Operations Team
 
-Prepared for: Priya Deshmukh, Chief Financial Officer
+Prepared for: Carys Maddox, Chief Financial Officer
 Prepared by: Tomasz Nowicki, Operations Director
 Date: 8th September 2026
 
-*A note on how this was written: Tomasz Nowicki is the person who spoke to us. Priya Deshmukh is the budget holder who will actually read this document. Because the reader is not the person we spoke to, the case below is written in the third person, about the reconciliation team's situation, rather than addressed directly to "you."*
+*A note on how this was written: Tomasz Nowicki is the person who spoke to us. Carys Maddox is the budget holder who will actually read this document. Because the reader is not the person we spoke to, the case below is written in the third person, about the reconciliation team's situation, rather than addressed directly to "you."*
 
 ---
 
@@ -41,13 +41,13 @@ No pilot has yet run with Aldercroft's own data. During the discovery conversati
 
 Aldercroft is also expecting to add up to five more analysts to this team by Q2. That number is unconfirmed, subject to a hiring committee decision, and could be reduced depending on the wider budget round. On Tomasz's explicit instruction, this case is built only around the twelve analysts in post today, and no figures in this document assume the larger, unconfirmed headcount.
 
-The ask that follows is deliberately scoped. Tomasz does not consider Aldercroft ready for a full rollout decision. What this case supports is budget to run a paid pilot, over a defined measurement period, so that any future case to Priya Deshmukh is built on Aldercroft's own measured numbers rather than a vendor demonstration.
+The ask that follows is deliberately scoped. Tomasz does not consider Aldercroft ready for a full rollout decision. What this case supports is budget to run a paid pilot, over a defined measurement period, so that any future case to Carys Maddox is built on Aldercroft's own measured numbers rather than a vendor demonstration.
 
 ---
 
 ## 3. Applied Examples
 
-The discovery call established one manual task in enough depth to build a grounded, Aldercroft-specific example. It did not establish two further distinct manual tasks with their own cost and impact detail. Rather than fill this section with generic examples that would read the same in any other prospect's document, one example is set out in full below, and the missing detail needed for a second and third example is flagged in Section 8 for Tomasz to provide if a fuller set is wanted before this goes to Priya.
+The discovery call established one manual task in enough depth to build a grounded, Aldercroft-specific example. It did not establish two further distinct manual tasks with their own cost and impact detail. Rather than fill this section with generic examples that would read the same in any other prospect's document, one example is set out in full below, and the missing detail needed for a second and third example is flagged in Section 8 for Tomasz to provide if a fuller set is wanted before this goes to Carys.
 
 ### Example 1: Manual transaction-to-invoice matching
 
@@ -65,7 +65,7 @@ The discovery call established one manual task in enough depth to build a ground
 
 No pricing, commercial terms, or pilot cost were discussed on the call this business case is based on. Nothing in this section should be treated as agreed or offered.
 
-[PILOT COST AND COMMERCIAL TERMS: TO BE CONFIRMED. No figure has been shared with or agreed by Aldercroft. This must be filled in with terms Tomasz and Priya have actually seen before the document is sent.]
+[PILOT COST AND COMMERCIAL TERMS: TO BE CONFIRMED. No figure has been shared with or agreed by Aldercroft. This must be filled in with terms Tomasz and Carys have actually seen before the document is sent.]
 
 Internal pricing mechanics that have not been shared externally should not be added here to fill this gap. If a commercial figure exists, it needs to be one Aldercroft has actually seen.
 
@@ -75,7 +75,7 @@ Internal pricing mechanics that have not been shared externally should not be ad
 
 The data involved in this process is transaction and invoice data: amounts, supplier names, and reference numbers. Tomasz was specific that no customer personal data and no card numbers are part of this workflow.
 
-Tomasz flagged that Priya, as CFO, will care specifically about audit trail, because this reconciliation process feeds Aldercroft's own financial reporting. Her concern, as described, is whether the process preserves a clear record of what was matched and by whom. This case should state plainly that the proposed process maintains a full audit trail of matching activity, rather than relying on a general statement that the process is "secure." The specific audit trail mechanics (what is logged, how it is retained, and for how long) were not covered on the call and are listed as an open item in Section 8.
+Tomasz flagged that Carys, as CFO, will care specifically about audit trail, because this reconciliation process feeds Aldercroft's own financial reporting. Her concern, as described, is whether the process preserves a clear record of what was matched and by whom. This case should state plainly that the proposed process maintains a full audit trail of matching activity, rather than relying on a general statement that the process is "secure." The specific audit trail mechanics (what is logged, how it is retained, and for how long) were not covered on the call and are listed as an open item in Section 8.
 
 This section should not be softened, generalised, or removed. It should also not be extended to claims Tomasz did not make, such as compliance certifications or data residency commitments, none of which came up on the call.
 
@@ -91,9 +91,9 @@ What has not been established is the resource commitment Aldercroft's team would
 
 ## 7. Next Steps
 
-This document is intended to support a specific, limited ask: budget approval from Priya Deshmukh for a paid pilot with a defined measurement period. It does not ask for approval of a full rollout, and it should not be read or presented as though it does.
+This document is intended to support a specific, limited ask: budget approval from Carys Maddox for a paid pilot with a defined measurement period. It does not ask for approval of a full rollout, and it should not be read or presented as though it does.
 
-Sending this document does not complete the process. If Priya approves the budget, the next step is to define the pilot's scope, duration, and success measures with Aldercroft before it starts. The output of that pilot, measured on Aldercroft's own data, is what a future business case for a wider rollout would be built on, not the projections in this document.
+Sending this document does not complete the process. If Carys approves the budget, the next step is to define the pilot's scope, duration, and success measures with Aldercroft before it starts. The output of that pilot, measured on Aldercroft's own data, is what a future business case for a wider rollout would be built on, not the projections in this document.
 
 ---
 
@@ -103,11 +103,11 @@ Sending this document does not complete the process. If Priya approves the budge
 - Confirm the pilot's cost and commercial terms. None were discussed, and the commercial section currently contains a placeholder that must not go out unfilled or guessed at.
 - Confirm the proposed pilot duration and the specific metrics that will define success, including how the current six-hour weekly estimate will be measured during the pilot. Only "a defined measurement period" was agreed in principle; no dates or metrics were set.
 - Decide whether to send this case with one detailed applied example, or go back to Tomasz for a second and third manual task with their own cost and impact detail before adding more examples. Do not add generic examples to reach three.
-- Confirm the £35 per hour loaded rate with Finance and Priya before it appears in a document going to the CFO, given Finance itself has described it as an approximate planning average, not an exact figure.
+- Confirm the £35 per hour loaded rate with Finance and Carys before it appears in a document going to the CFO, given Finance itself has described it as an approximate planning average, not an exact figure.
 - Confirm it is acceptable to present the six-hours-a-week figure as Tomasz's own estimate, not a formally timed measurement.
 - Confirm it is acceptable to present the "half or more" time saving as an unverified, demo-based projection used to justify a pilot, not as a committed or expected outcome.
 - Confirm the case uses only the current headcount of 12, and does not reference the unconfirmed future headcount of up to 17, in line with Tomasz's explicit instruction.
-- Confirm the exact audit trail requirements with Priya or Tomasz. The call established that audit trail matters and why, but not the specific mechanics (what is logged, retention, access).
+- Confirm the exact audit trail requirements with Carys or Tomasz. The call established that audit trail matters and why, but not the specific mechanics (what is logged, retention, access).
 - Confirm the accounts payable team's similar manual matching problem has been kept out of this document entirely, as Tomasz explicitly asked.
 - Confirm the resourcing Aldercroft's own team would need to commit to run the pilot (analyst time, IT or data access support), which was not covered on the call and is currently unfilled.
-- Confirm the date and that this remains a draft for Tomasz's review, not a document ready to send to Priya as is.
+- Confirm the date and that this remains a draft for Tomasz's review, not a document ready to send to Carys as is.

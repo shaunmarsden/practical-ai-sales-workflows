@@ -10,7 +10,7 @@ Each account manager owns named client accounts, speaks to them one to one, and 
 
 ## Central Order Support: Poor Fit
 
-This team's shared queue means no call is owned by a named person, which is the opposite of what the product is built around: one call, tied to one contact, updating one CRM record. On top of that structural mismatch, this team's order details live in a separate order management system, and whether that system can receive anything from this tool has not been confirmed, Priya has not asked her IT team.
+This team's shared queue means no call is owned by a named person, which is the opposite of what the product is built around: one call, tied to one contact, updating one CRM record. On top of that structural mismatch, this team's order details live in a separate order management system, and whether that system can receive anything from this tool has not been confirmed, Tamsin has not asked her IT team.
 
 This is a real mismatch, not a smaller version of the good fit above. It is tempting to describe the shared-queue structure as an advantage, one adoption reaching fifteen people rather than one, but that framing hides the actual problem: there is no confirmed way for this tool to attach its output to anything in this team's system, and no single owner for it to attach to even if there were. State the mismatch plainly rather than reframing it as a bonus.
 
@@ -18,12 +18,12 @@ This is a real mismatch, not a smaller version of the good fit above. It is temp
 
 ## Field Service Engineers: Uncertain
 
-Nothing about this team's actual after-visit process, the system they use, or whether their work involves anything resembling a call was established on this call. Priya's own comment, "they probably have the same kind of admin problem," is a reasonable hypothesis worth checking, not evidence of a good fit or a poor one.
+Nothing about this team's actual after-visit process, the system they use, or whether their work involves anything resembling a call was established on this call. Tamsin's own comment, "they probably have the same kind of admin problem," is a reasonable hypothesis worth checking, not evidence of a good fit or a poor one.
 
-**Do not build a case around this team yet, and do not disqualify it either.** The next step is a short conversation with someone on this team, or with Priya about their actual workflow, before this can be classified either way.
+**Do not build a case around this team yet, and do not disqualify it either.** The next step is a short conversation with someone on this team, or with Tamsin about their actual workflow, before this can be classified either way.
 
 ## Notes for Human Review
 
 - Confirm with product or engineering whether any integration with Kellow's order management system is realistic before this classification for Central Order Support is revisited.
 - The Field Service Engineers classification should be revisited the moment real evidence exists, not left as a permanent unknown.
-- Nothing here should be presented to Priya as a finished business case; it is the input to deciding which one, if any, to actually build.
+- Nothing here should be presented to Tamsin as a finished business case; it is the input to deciding which one, if any, to actually build.

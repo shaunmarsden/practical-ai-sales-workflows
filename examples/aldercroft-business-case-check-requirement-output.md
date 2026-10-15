@@ -1,6 +1,6 @@
 # Aldercroft Business Case Output, Skill With the Check Requirement
 
-> This is a worked output created from the fictional [Aldercroft pre-pilot transcript](aldercroft-business-case-transcript.md) using the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md) after one line was added to it. Aldercroft Group, Tomasz Nowicki, Priya Deshmukh and every figure are invented. Nothing has been sent, approved or changed in a CRM.
+> This is a worked output created from the fictional [Aldercroft pre-pilot transcript](aldercroft-business-case-transcript.md) using the [Build a Business Case skill](../.agents/skills/build-business-case/SKILL.md) after one line was added to it. Aldercroft Group, Tomasz Nowicki, Carys Maddox and every figure are invented. Nothing has been sent, approved or changed in a CRM.
 
 This is the first of the three modified-skill runs in the [check requirement test](../evaluations/business-case-check-requirement-test.md), chosen for the record by a rule set before any run happened rather than picked afterwards. The skill and the transcript went into a fresh isolated context, with the transcript's answer key removed first as its own warning instructs.
 
@@ -10,11 +10,11 @@ This is the first of the three modified-skill runs in the [check requirement tes
 
 # A Pilot Business Case for Operations Directors Running Manual Transaction Reconciliation
 
-*Prepared by Tomasz Nowicki, Operations Director, for Priya Deshmukh, Chief Financial Officer*
+*Prepared by Tomasz Nowicki, Operations Director, for Carys Maddox, Chief Financial Officer*
 
 | Company | Role | Programme | Start date |
 |---|---|---|---|
-| Aldercroft Group | Operations Director (Tomasz Nowicki), presenting to CFO Priya Deshmukh | Paid pilot: automated matching of internal transaction records against supplier invoices | **UNKNOWN: not agreed on the call; to be confirmed once budget is approved** |
+| Aldercroft Group | Operations Director (Tomasz Nowicki), presenting to CFO Carys Maddox | Paid pilot: automated matching of internal transaction records against supplier invoices | **UNKNOWN: not agreed on the call; to be confirmed once budget is approved** |
 
 ---
 
@@ -42,13 +42,13 @@ Twelve analysts each spend roughly six hours a week on manual line-by-line recon
 
 ## Commercial Ask
 
-This case asks for budget approval to run a defined, paid pilot with the current reconciliation team of twelve, not a full rollout. Tomasz was explicit that the next case to Priya should be built on Aldercroft's own measured numbers, not on the projections above.
+This case asks for budget approval to run a defined, paid pilot with the current reconciliation team of twelve, not a full rollout. Tomasz was explicit that the next case to Carys should be built on Aldercroft's own measured numbers, not on the projections above.
 
-**The specific pilot investment figure was not discussed on the call and is not included here.** It needs to be agreed and inserted before this goes to Priya. See the Human Check section below.
+**The specific pilot investment figure was not discussed on the call and is not included here.** It needs to be agreed and inserted before this goes to Carys. See the Human Check section below.
 
 ## Risk, Data and Compliance
 
-The data involved is transaction and invoice data: amounts, supplier names, and reference numbers. No customer personal data and no card numbers are part of this process. Priya's stated concern, as relayed by Tomasz, is audit trail. She will want a clear record of what was matched and by whom, since this process feeds directly into Aldercroft's own financial reporting. Any solution proposed here needs to preserve a full audit trail against that specific requirement, not a general assurance about security that doesn't speak to what she actually asked about.
+The data involved is transaction and invoice data: amounts, supplier names, and reference numbers. No customer personal data and no card numbers are part of this process. Carys's stated concern, as relayed by Tomasz, is audit trail. She will want a clear record of what was matched and by whom, since this process feeds directly into Aldercroft's own financial reporting. Any solution proposed here needs to preserve a full audit trail against that specific requirement, not a general assurance about security that doesn't speak to what she actually asked about.
 
 ## Time and Resource Commitment
 
@@ -58,9 +58,9 @@ The pilot would run against the team's current headcount of twelve analysts, wit
 
 ## Next Steps
 
-This document is what Tomasz will bring to Priya to request pilot budget. Sending it does not itself constitute approval. If Priya approves, the next steps are to agree a start date and measurement period, run the pilot against the current team of twelve, and measure the indicators above. A second business case, built on Aldercroft's own measured results rather than the projections in this one, would follow before any decision on a wider rollout.
+This document is what Tomasz will bring to Carys to request pilot budget. Sending it does not itself constitute approval. If Carys approves, the next steps are to agree a start date and measurement period, run the pilot against the current team of twelve, and measure the indicators above. A second business case, built on Aldercroft's own measured results rather than the projections in this one, would follow before any decision on a wider rollout.
 
-## Human Check: Confirm Before This Goes to Priya
+## Human Check: Confirm Before This Goes to Carys
 
 - [ ] **Pilot investment figure: UNKNOWN.** Not discussed on the call. Must be added before this document is usable.
 - [ ] **Pilot start date: UNKNOWN.**
@@ -71,8 +71,8 @@ This document is what Tomasz will bring to Priya to request pilot budget. Sendin
 - [ ] The derived £2,520/week cost estimate and £1,260+/week projected reduction are both built on the two unverified figures above, confirm it's acceptable to include this calculation, or whether it should be cut and left qualitative.
 - [ ] Confirm scope stays limited to the reconciliation team only. Tomasz flagged a similar manual-matching problem in accounts payable purely as a future thought and was explicit it should not be folded into this document. It isn't, and it should stay that way.
 - [ ] Confirm the current headcount of twelve is what appears throughout. The possible Q2 increase to seventeen analysts is unconfirmed and must not appear anywhere in this case, per Tomasz's explicit instruction on the call.
-- [ ] Confirm the audit-trail wording above actually matches what Priya needs to see for financial-reporting sign-off. This document repeats what Tomasz relayed of her concern, not her own words.
-- [ ] Confirm correct spelling and titles for Tomasz Nowicki and Priya Deshmukh, and the correct formal name for Aldercroft Group, before external use.
+- [ ] Confirm the audit-trail wording above actually matches what Carys needs to see for financial-reporting sign-off. This document repeats what Tomasz relayed of her concern, not her own words.
+- [ ] Confirm correct spelling and titles for Tomasz Nowicki and Carys Maddox, and the correct formal name for Aldercroft Group, before external use.
 
 ---
 

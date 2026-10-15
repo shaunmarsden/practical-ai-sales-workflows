@@ -1,17 +1,17 @@
 # Hartwell Example
 
-Continues the [Hartwell business case story](../../../../examples/hartwell-business-case-transcript.md). Priya Chen, Hartwell's Sales Director, has now reviewed the business case ahead of the QBR and replied to Shaun by email.
+Continues the [Hartwell business case story](../../../../examples/hartwell-business-case-transcript.md). Fiona Prescott, Hartwell's Sales Director, has now reviewed the business case ahead of the QBR and replied to Shaun by email.
 
 ## Task
 
-Priya's email says: "Thanks for this. We've actually already rolled out Copilot to the account executive team, so I'm not totally sure this adds enough on top of that to justify more spend right now."
+Fiona's email says: "Thanks for this. We've actually already rolled out Copilot to the account executive team, so I'm not totally sure this adds enough on top of that to justify more spend right now."
 
 Diagnose the objection and produce an email reply.
 
 ## Deliberate Traps
 
 - The surface wording points to `competitor-or-tooling` (Copilot), but the phrase "right now" and "more spend" is also a `circumstances` signal, budget timing around the QBR, not just a tooling comparison. A response that only argues Copilot vs this solution, without checking the timing angle, has answered half the objection.
-- Priya has not said no. She has raised a real question, not disqualified the deal.
+- Fiona has not said no. She has raised a real question, not disqualified the deal.
 - The pilot's own measured result (see the business case output) is the strongest evidence available and should be used, not a generic "we're different from Copilot" argument.
 - Hartwell's QBR timing means "right now" may really mean "not this budget cycle," which changes the right next step from a rebuttal to a timing question.
 
@@ -30,12 +30,12 @@ Primarily `competitor-or-tooling`, with a secondary `circumstances` (budget timi
 
 ### Pipeline decision
 
-Async follow-up, not disqualification. Priya has raised a real, answerable question and has not said no.
+Async follow-up, not disqualification. Fiona has raised a real, answerable question and has not said no.
 
 ## Conclusions the Skill Must Not Make
 
-- Priya has rejected the proposal.
-- Copilot and this solution are functionally identical, or completely unrelated; neither claim is supported by what Priya said.
+- Fiona has rejected the proposal.
+- Copilot and this solution are functionally identical, or completely unrelated; neither claim is supported by what Fiona said.
 - The QBR timing issue does not exist, when "right now" is a real signal worth checking.
 - A discount or a guarantee is needed to save the deal; nothing in the objection asked for one.
 

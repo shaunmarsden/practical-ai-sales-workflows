@@ -21,7 +21,7 @@ Some records appear in more than one row above; Row 9, for example, is both stal
 
 ## Likely Exact Duplicate
 
-**Rows 1 and 2, Hartwell Analytics / Hartwell Analytics Ltd.** Same contact, Priya Chen, at what reads as the same company with a suffix added. Different owners, stages and values suggest this was entered twice rather than updated once, most likely a marketing-sourced lead re-entered without checking for an existing record.
+**Rows 1 and 2, Hartwell Analytics / Hartwell Analytics Ltd.** Same contact, Fiona Prescott, at what reads as the same company with a suffix added. Different owners, stages and values suggest this was entered twice rather than updated once, most likely a marketing-sourced lead re-entered without checking for an existing record.
 
 - **Confidence:** high. Same named contact at what is very likely the same company is a strong signal.
 - **Suggested action:** merge, with Shaun's row kept as the primary since it is the more advanced of the two (Negotiation versus Qualification), though Marcus Webb's row is the more recently active and should be checked for anything worth carrying over, such as a newer contact detail, before it is archived. A person should confirm this is genuinely one company before merging.

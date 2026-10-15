@@ -13,7 +13,7 @@ Extract a reliable evidence pack that could support a follow up email and sugges
 - Thursday afternoon is likely timing, not an unconditional promise.
 - A review next Tuesday morning was discussed, but no time was confirmed.
 - Shaun must check his diary before offering meeting times.
-- Priya may review the result later, but her involvement is not confirmed.
+- Fiona may review the result later, but her involvement is not confirmed.
 - No purchase, pricing or implementation commitment was made.
 
 ## Abbreviated Good Output
@@ -39,13 +39,13 @@ Extract a reliable evidence pack that could support a follow up email and sugges
 - The call date
 - The meeting time for next Tuesday
 - The recording package and transcript capability
-- Whether Priya wants anything specific included
+- Whether Fiona wants anything specific included
 
 ## Conclusions the Skill Must Not Make
 
 - A review meeting has been booked.
 - Alex has unconditional approval to share the transcript.
-- Priya is part of the first test.
+- Fiona is part of the first test.
 - Hartwell has committed to buy or implement anything.
 - The estimated administration time is measured evidence.
 

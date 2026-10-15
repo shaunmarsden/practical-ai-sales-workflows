@@ -14,7 +14,7 @@ I built this test around two decoy entries. On the surface they look like the re
 | --- | ---: | --- |
 | Factual accuracy | 5 | Counts eight occurrences across seven separate deals correctly, including the Bellhaven duplicate |
 | Evidence fidelity | 5 | Groups the five differently worded entries about the attestation surprise by their shared cause, and keeps both decoys out even though they look alike |
-| Fact separation | 5 | Keeps the applicants' own stated reasons, Corvane's household budget and Priya's new job, as stated facts rather than inferred causes |
+| Fact separation | 5 | Keeps the applicants' own stated reasons, Corvane's household budget and Greta's new job, as stated facts rather than inferred causes |
 | Missing information | 4 | Rightly flags that the sample is only self-funded applicants, but doesn't ask whether the five affected deals share a lead source or piece of marketing that might explain the cluster before discovery even starts |
 | Commercial usefulness | 5 | The suggested action, explaining the attestation requirement earlier, aims at when the gap in expectations opens, not at a generic messaging fix |
 | Next step clarity | 4 | The suggested actions are concrete, but none names who owns checking back with the five applicants, or by when |
@@ -26,7 +26,7 @@ I built this test around two decoy entries. On the surface they look like the re
 ## What Worked
 
 - It left out Corvane Digital. It saw that "checking with someone else" looks like the real pattern on the surface, but involves a different person (a partner, not an employer) and a different reason (household budget).
-- It left out Priya Anand by taking her stated reason at face value, rather than inferring the attestation cause just because the stage and outcome matched.
+- It left out Greta Lindholm by taking her stated reason at face value, rather than inferring the attestation cause just because the stage and outcome matched.
 - It didn't let the Bellhaven duplicate inflate the count of separate deals, as in the second test.
 - It recommended a specific action aimed at timing, explaining the requirement earlier, rather than a generic "improve messaging" suggestion.
 
@@ -42,4 +42,4 @@ Nothing, for this run. The instruction to check the cause, not just the words, a
 
 ## Next Test
 
-Run a case where a decoy entry doesn't state its own different reason, unlike Corvane and Priya here. The skill would then have to infer a different cause from thinner evidence. Check whether it still resists merging them, or reports the cause as unclear rather than guessing either way.
+Run a case where a decoy entry doesn't state its own different reason, unlike Corvane and Greta here. The skill would then have to infer a different cause from thinner evidence. Check whether it still resists merging them, or reports the cause as unclear rather than guessing either way.
