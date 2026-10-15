@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### An n8n Example in the Automations Layer
+
+- The [Get More From Your AI](guides/get-more-from-your-ai.md) guide now has one worked example for the automations layer: a new-lead flow in n8n that drafts a first-touch email, pauses for my approval and saves a draft instead of sending. It says n8n isn't open source and that I haven't built or run the flow.
+
 ### Do the Skills Need Their Length?
 
 - I pulled the paragraph-against-skill tests together on one page, [with no new runs](evaluations/do-the-skills-need-their-length.md): where a short version matched the skill, where a single rule made the difference, what the length cost and what the tests can't tell me. I haven't changed any skill.
