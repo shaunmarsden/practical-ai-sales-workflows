@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Build Your Own Skill With an AI Coding Agent
+
+- New guide, [Build Your Own Skill With an AI Coding Agent](guides/build-your-own-skill-with-an-ai-coding-agent.md), with a brief to paste into Claude Code or Codex that takes a task you repeat through a skill, three test cases and a marked run, stopping for you at each step. I tested the brief [three times in Claude](evaluations/build-your-own-skill-brief-test.md) with me playing the user, and every run did what the guide says. I haven't tried Codex.
+
 ### An n8n Example in the Automations Layer
 
 - The [Get More From Your AI](guides/get-more-from-your-ai.md) guide now has one worked example for the automations layer: a new-lead flow in n8n that drafts a first-touch email, pauses for my approval and saves a draft instead of sending. It says n8n isn't open source and that I haven't built or run the flow.

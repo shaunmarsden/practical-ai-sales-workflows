@@ -40,7 +40,7 @@ When one setup prompt is no longer enough, [Get More From Your AI](guides/get-mo
 
 Already running several workflows with approved connected tools? [Build an Approval-Gated Sales Copilot](guides/build-an-approval-gated-sales-copilot.md) shows how to combine them, with a reusable template, a fictional test and what the evidence does and doesn't show.
 
-**Already use Codex or Claude Code?** The repository can guide you, set up private sales context, run a fictional example or route you to the right workflow. [See the coding agent guide](guides/run-this-repository-with-an-ai-coding-agent.md).
+**Already use Codex or Claude Code?** The repository can guide you, set up private sales context, run a fictional example or route you to the right workflow. [See the coding agent guide](guides/run-this-repository-with-an-ai-coding-agent.md). To build your own skill with one, see [Build Your Own Skill With an AI Coding Agent](guides/build-your-own-skill-with-an-ai-coding-agent.md).
 
 ## 🎯 Choose a Sales Problem
 
