@@ -105,6 +105,25 @@ This layer also has the least room for error. The ground rules from the [setup p
 - Never let anything that reaches a customer run unsupervised until you've watched it do the task by hand, correctly, several times
 - Give it the narrowest trigger and the narrowest job you can. "Draft a reply when this specific kind of email arrives" is safer and more useful than "handle my inbox"
 
+### One Tool You Could Use: n8n
+
+[n8n](https://n8n.io) is a workflow tool. You build a flow from boxes: a trigger, some steps and a place to pause for a person. You can run it on a computer you control or pay for its hosted version. I picked it for this page because the self-hosted version has no licence fee and its approval step is in its own documentation. Zapier and Make do similar jobs, and I haven't compared the three.
+
+Two things to know before you start:
+
+- **It isn't open source.** Its licence is n8n's own [Sustainable Use License](https://docs.n8n.io/n8n-community-license/community-license/license-faq). Self-hosting is free if only you or people in your organisation build the flows, and there are limits on reselling it. The hosted version is a separate paid subscription.
+- **The approval step may depend on your plan.** n8n's [documentation for human review](https://docs.n8n.io/advanced-ai/human-in-the-loop-tools) says an AI step can pause before it runs a chosen action. It sends a person the action and what the AI wants to do, by Slack, Teams, Gmail, Outlook and others. If you approve, the action runs. If you deny it, nothing happens. The page I read doesn't say whether the free self-hosted version includes this, so check before you build around it.
+
+Here is the flow I mean, in order:
+
+1. **Trigger:** a new lead appears in your CRM.
+2. **Draft:** an AI step reads the lead and drafts a first-touch email, using the rules from your [outbound skill](../.agents/skills/outbound-prospecting/SKILL.md).
+3. **Pause:** the draft comes to you in Slack or email with the lead's details. Nothing has gone anywhere.
+4. **Your decision:** you approve, edit or reject it. Only an approval lets the flow carry on.
+5. **Save, don't send:** the flow saves the approved draft in your email tool. Sending is still your click.
+
+I haven't built or run this flow. It's a description from n8n's documentation, not a tested recipe. Try it on made-up leads first and watch it several times, as the ground rules above say. Someone has to keep it running, updated and secure, and a flow that reads your CRM holds a login for it, so ask your IT team before you connect it to real customer records.
+
 <details>
 <summary><strong>Where is this in each tool?</strong></summary>
 
