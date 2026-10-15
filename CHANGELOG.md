@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Post-Call Conflict Test
+
+- I tested whether the post call skill matters when a call, a CRM record and an email thread disagree: [36 runs](evaluations/post-call-conflict-test.md) on a new [fictional scenario](examples/brackenridge-conflicting-sources-input.md), with the skill, a 250-word paragraph and the bare request. All 36 replies passed all seven measures, so the test couldn't separate them. I haven't changed the skill or the prompt.
+
 ### Post-Call One-Paragraph Test
 
 - I tested whether [a 200-word paragraph](evaluations/post-call-one-paragraph-test.md) can do what the post call evidence skill does, in 36 runs on the Hartwell transcript, with a one-line request as a floor. Six of seven measures passed in every usable reply. The seventh, giving Alex a gender the transcript doesn't, failed in all three versions. By my readings the paragraph matches the skill, and so does the one-line request. I haven't changed the skill or the prompt.
