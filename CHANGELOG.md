@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### Post-Call One-Paragraph Test
+
+- I tested whether [a 200-word paragraph](evaluations/post-call-one-paragraph-test.md) can do what the post call evidence skill does, in 36 runs on the Hartwell transcript, with a one-line request as a floor. Six of seven measures passed in every usable reply. The seventh, giving Alex a gender the transcript doesn't, failed in all three versions. By my readings the paragraph matches the skill, and so does the one-line request. I haven't changed the skill or the prompt.
+
 ### Terminal Install Route
 
 - The [selective installation guide](guides/selective-installation.md) now has an optional route for terminal agents: Vercel's `npx skills add` tool. I tried it once, on one skill with Claude Code, and the installed copy matched the repository. Four links in the skill point outside its folder and don't resolve after install.
