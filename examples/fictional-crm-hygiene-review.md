@@ -31,7 +31,7 @@ Some records appear in more than one row above; Row 9, for example, is both stal
 **Rows 10 and 11, Fenmoor Retail Solutions / Fenmore Retail Solutions.** Similar but not identical names, no contact name recorded on either row, different owners, different stages and values. This could be the same company entered twice with a typo, or two separate companies that happen to sound alike.
 
 - **Confidence:** low. There is not enough here, no shared contact, no shared detail beyond a similar name, to call this a duplicate with any certainty.
-- **Suggested action:** ask Priti Shah and Marcus Webb directly whether these are the same account before touching either record. Do not merge on name similarity alone.
+- **Suggested action:** ask Cordelia Marsh and Marcus Webb directly whether these are the same account before touching either record. Do not merge on name similarity alone.
 
 ## Missing Critical Fields
 

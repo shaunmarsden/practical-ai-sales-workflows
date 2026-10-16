@@ -16,7 +16,7 @@ This page scores the [worked CRM hygiene review](../examples/fictional-crm-hygie
 | Evidence fidelity | 5 | Treats the Hartwell duplicate's shared contact name as strong evidence, and the Fenmoor/Fenmore possible duplicate as weak, since it shares no contact and only a similar name |
 | Fact separation | 5 | Keeps a blank contact field (rows 3, 9, 10, 11) apart from a contact who left but is still recorded (row 5), rather than putting both under "missing" |
 | Missing information | 4 | Good coverage of blank fields, though the first draft undercounted the blank-contact rows and counted row 5 as missing when it's out of date, not blank. Also fixed |
-| Commercial usefulness | 5 | Gives specific, named actions (ask Priti Shah and Marcus Webb directly, correct Aldermoor's close date) rather than a general "review your data" |
+| Commercial usefulness | 5 | Gives specific, named actions (ask Cordelia Marsh and Marcus Webb directly, correct Aldermoor's close date) rather than a general "review your data" |
 | Next step clarity | 4 | Actions are specific for most findings. The stale-record suggestion ("re-engage or close") is the weakest of the set |
 | Tone | 5 | Matter-of-fact, no blame, in line with the rest of the repository |
 | Privacy | 5 | All fictional, no real company or person |
