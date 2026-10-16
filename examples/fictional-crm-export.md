@@ -17,12 +17,12 @@ This export covers the whole fictional sales team, not just Shaun's own deals, s
 | 7 | Calderwood Group | Tom Whitfield | Shaun | Negotiation | £40,000 | 15 Aug | 19 Jul |
 | 8 | Bramfield Insurance Group | Ravi Patel | Marcus Webb | (blank) | £34,920 | (blank) | (blank) |
 | 9 | Thornfield Manufacturing | (blank) | (blank) | Discovery | £22,000 | 31 Mar | 14 Feb |
-| 10 | Fenmoor Retail Solutions | (blank) | Priti Shah | Proposal Sent | £26,000 | 30 Nov | 3 Oct |
+| 10 | Fenmoor Retail Solutions | (blank) | Cordelia Marsh | Proposal Sent | £26,000 | 30 Nov | 3 Oct |
 | 11 | Fenmore Retail Solutions | (blank) | Marcus Webb | Discovery | £24,500 | 15 Dec | 28 Sep |
-| 12 | Riverside Logistics Partners | Head of Ops | Priti Shah | Proposal Sent | £38,000 | 15 Nov | 14 Oct |
+| 12 | Riverside Logistics Partners | Head of Ops | Cordelia Marsh | Proposal Sent | £38,000 | 15 Nov | 14 Oct |
 | 13 | Aldermoor Facilities | Facilities Lead | Shaun | Discovery | £15,000 | 20 Oct | 10 Oct |
 | 14 | Westgate Analytics | Ops Director | Marcus Webb | Qualification | (blank) | 15 Dec | 8 Oct |
-| 15 | Bellcross Insurance | Head of Claims | Priti Shah | Negotiation | £20,000 | 30 Jun | 2 Apr |
+| 15 | Bellcross Insurance | Head of Claims | Cordelia Marsh | Negotiation | £20,000 | 30 Jun | 2 Apr |
 
 > **Re-running this yourself?** Copy everything above this line and stop here. The section below is the answer key: it names the traps the scenario contains, so including it turns the test into an open-book exam and the result will look better than it should.
 
