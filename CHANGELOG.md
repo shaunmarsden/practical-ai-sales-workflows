@@ -20,6 +20,7 @@ Release notes provide the fuller version summaries:
 - Four fictional characters in these examples shared one first name. I gave each a different one, in 56 files: the Hartwell Sales Director, the Aldercroft approver, a lost applicant in an objection log and the Kellow contact. Each keeps the same role, pronouns and story. The tests were run with the earlier names, and nothing else in these files changed.
 - One more name was close to a name I'd already changed, so I replaced it too: a rep who owns accounts in the fictional CRM export and the review and evaluation built on it, in 3 files. Same role and pronouns. The runs used the earlier name.
 - The Hartwell Head of IT and Compliance shared a name with characters in other repos, so I gave that character a different name, in 4 files. I did the same for two characters in the sales conversation gym and two in the adoption repo. Same roles and pronouns. The runs used the earlier names.
+- Sixteen characters across eight repos shared a name or a surname with other characters. I gave each a different name, one of them here: the Rowcastle Group Compliance Director, in 4 files. Same roles and pronouns. The runs used the earlier names.
 
 ### Build Your Own Skill With an AI Coding Agent
 
