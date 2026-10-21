@@ -24,7 +24,7 @@ I ran each version six times. Each run saw only its instructions and the scenari
 
 ## The Scenario
 
-I made up the scenario. Dominic Achebe runs field operations at Vantry Water, which has 140 field engineers. They finish each job on a handheld app, then type the same notes into a second system by hand. Dominic thinks this takes six hours a week each, but he's never measured it. His director wants the cost justified and wants to know whether the change will cut errors in the records, which Dominic cares about more. He said: "Every vendor shows me a number from someone else's business. My jobs vary more than a typical site. I want to know what actually transfers."
+I made up the scenario. Crispin Achebe runs field operations at Vantry Water, which has 140 field engineers. They finish each job on a handheld app, then type the same notes into a second system by hand. Crispin thinks this takes six hours a week each, but he's never measured it. His director wants the cost justified and wants to know whether the change will cut errors in the records, which Crispin cares about more. He said: "Every vendor shows me a number from someone else's business. My jobs vary more than a typical site. I want to know what actually transfers."
 
 The library has seven proof points. Each has a catch.
 
