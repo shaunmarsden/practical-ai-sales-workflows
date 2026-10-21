@@ -39,7 +39,13 @@ Every `SKILL.md` in this repository, as it stood on 8th October 2026:
 | [opportunity-handover](../.agents/skills/opportunity-handover/SKILL.md) | 88 | Output contract, template, checklist, fictional example |
 | [extract-post-call-evidence](../.agents/skills/extract-post-call-evidence/SKILL.md) | 94 | Output schema, fictional example |
 
-Every core file is under 100 lines, and the longest is extract-post-call-evidence at 94. Every skill with deeper material, such as an example, a template or a checklist, keeps it in a separate file rather than inside `SKILL.md`. Most files have grown since I first wrote this, because every skill picked up the same raw copy and front matter instruction, and later the no em dashes rule. No supporting file was folded back in, and nothing here fails the pattern. The audit's real use is as something to check the next skill against, so a longer `SKILL.md` gets caught at review rather than growing unnoticed.
+Every core file is under 100 lines, and the longest is extract-post-call-evidence at 94. Every skill with deeper material, such as an example, a template or a checklist, keeps it in a separate file rather than inside `SKILL.md`. Most files have grown since I first wrote this, because every skill picked up the same raw copy and front matter instruction, and later the no em dashes rule. With one exception, described below, no supporting file was folded back in, and nothing here fails the pattern. The audit's real use is as something to check the next skill against, so a longer `SKILL.md` gets caught at review rather than growing unnoticed.
+
+## One Exception
+
+On 20 October 2026 I wrote the output template into the `SKILL.md` of [identify-buyer-indecision](../.agents/skills/identify-buyer-indecision/SKILL.md). The README tells you to paste a `SKILL.md` into a chat, and a pasted file can't open a link. In [a twelve-run test](../evaluations/buyer-indecision-template-test.md), none of 6 replies to the linked version used the template's structure, and all 6 did once the template was in the file. The template file stays, because the [downloadable package](downloadable-skill-packages.md) ships it. The template now lives in two places, so if I change one I change the other.
+
+I haven't tested a run from a folder, where the AI can open the linked file, so I can't say the pattern above fails there. I haven't made the same change to any other skill. Each would need its own test.
 
 ## What to Watch For
 

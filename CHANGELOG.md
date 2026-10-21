@@ -10,6 +10,10 @@ Release notes provide the fuller version summaries:
 
 ## Unreleased
 
+### The Output Template Written Into One Skill
+
+- The `SKILL.md` for [identify-buyer-indecision](.agents/skills/identify-buyer-indecision/SKILL.md) now carries its output template instead of linking to it, because a pasted skill can't open a link. In a [twelve-run test](evaluations/buyer-indecision-template-test.md), none of 6 replies to the linked version used the template's structure, and all 6 did with it written in. The classification, the boundaries and the quotes held. The [progressive disclosure guide](guides/progressive-disclosure.md) records the exception. No other skill has changed.
+
 ### Varied Names in the Fictional Examples
 
 - Four fictional characters in these examples shared one first name. I gave each a different one, in 56 files: the Hartwell Sales Director, the Aldercroft approver, a lost applicant in an objection log and the Kellow contact. Each keeps the same role, pronouns and story. The tests were run with the earlier names, and nothing else in these files changed.
