@@ -11,6 +11,7 @@ Release notes provide the fuller version summaries:
 ## Unreleased
 
 ### The Output Template Written Into One Skill
+- [Contributing](CONTRIBUTING.md) now says to write a skill's output template into `SKILL.md` and not link to it, because a pasted file can't open a link. Two tests behind it, one here and one in another repo.
 
 - The `SKILL.md` for [identify-buyer-indecision](.agents/skills/identify-buyer-indecision/SKILL.md) now carries its output template instead of linking to it, because a pasted skill can't open a link. In a [twelve-run test](evaluations/buyer-indecision-template-test.md), none of 6 replies to the linked version used the template's structure, and all 6 did with it written in. The classification, the boundaries and the quotes held. The [progressive disclosure guide](guides/progressive-disclosure.md) records the exception. No other skill has changed.
 
