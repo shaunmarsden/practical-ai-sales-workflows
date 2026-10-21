@@ -13,7 +13,7 @@ This review scores the [worked diagnosis](../examples/rowcastle-real-blocker-out
 | --- | ---: | --- |
 | Factual accuracy | 5 | Every attendee, role and stated question traces exactly to the scenario notes |
 | Evidence fidelity | 5 | Keeps the answered data question apart from the consistency question that's still open, rather than merging them into one settled outcome |
-| Fact separation | 5 | States each concern exactly as given, then separates it from what would resolve it, and refuses to guess at Marcus's motive |
+| Fact separation | 5 | States each concern exactly as given, then separates it from what would resolve it, and refuses to guess at Julian's motive |
 | Missing information | 4 | Rightly flags that Naomi's authority is unconfirmed. But it doesn't split authority over a Leeds-only trial from authority over the wider commercial figure, and the scenario notes that difference as open |
 | Commercial usefulness | 5 | Gives two separate next steps you can act on, rather than one generic "follow up" |
 | Next step clarity | 4 | Both next steps are specific, but neither says who should ask them or by when |
@@ -24,9 +24,9 @@ This review scores the [worked diagnosis](../examples/rowcastle-real-blocker-out
 
 ## What Worked
 
-- It named Marcus as an unplanned attendee straight away, not only once his questions turned out to matter.
+- It named Julian as an unplanned attendee straight away, not only once his questions turned out to matter.
 - It saw that the data-handling question was answered and not pressed, and flagged the cross-office question as the one still open. It didn't treat the exchange as settled once the first question got a clean answer.
-- It refused to guess why cross-office consistency mattered to Marcus. It also refused to claim Naomi lacks real authority, or that Group Ops is confirmed as the blocker.
+- It refused to guess why cross-office consistency mattered to Julian. It also refused to claim Naomi lacks real authority, or that Group Ops is confirmed as the blocker.
 - It gave two separate next steps rather than one vague "circle back."
 
 ## What Needed Checking
