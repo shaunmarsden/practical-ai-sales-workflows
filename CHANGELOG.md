@@ -21,6 +21,7 @@ Release notes provide the fuller version summaries:
 - One more name was close to a name I'd already changed, so I replaced it too: a rep who owns accounts in the fictional CRM export and the review and evaluation built on it, in 3 files. Same role and pronouns. The runs used the earlier name.
 - The Hartwell Head of IT and Compliance shared a name with characters in other repos, so I gave that character a different name, in 4 files. I did the same for two characters in the sales conversation gym and two in the adoption repo. Same roles and pronouns. The runs used the earlier names.
 - Sixteen characters across eight repos shared a name or a surname with other characters. I gave each a different name, one of them here: the Rowcastle Group Compliance Director, in 4 files. Same roles and pronouns. The runs used the earlier names.
+- A second pass fixed the remaining repeats: fifteen more characters across eight repos, two of them here (the Oakriven Operations Coordinator and the proof point selection test's operations lead). Same roles and pronouns. The runs used the earlier names.
 
 ### Build Your Own Skill With an AI Coding Agent
 
