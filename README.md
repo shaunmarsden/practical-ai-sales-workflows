@@ -149,6 +149,8 @@ For sales teams rather than one seller, [AI for Commercial Teams](https://github
 
 Beyond sales, [Practical AI Adoption](https://github.com/shaunmarsden/practical-ai-adoption) takes the same evidence-first approach to using AI well at work in general.
 
+For plainer emails, notes, reports and posts, [Say It Plainly](https://github.com/shaunmarsden/say-it-plainly) has five skills and a private checker that runs in your browser.
+
 ## What I Want to Try Next
 
 Right now I want to keep testing these workflows on real sales work as it comes up, and hear from salespeople who try them.
