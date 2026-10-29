@@ -37,7 +37,7 @@ This review scores the [second worked analysis](../examples/fictional-objection-
 
 ## Why the Skill Is Worth Adding
 
-The original prompt already scored 47 out of 50. The skill doesn't claim to rescue a broken method. It packages the proven method for repeated use, adds explicit counting of duplicate deals, and makes the stop conditions easier to apply when the evidence for a driver is missing.
+The original prompt already scored 47 out of 50. The skill doesn't claim to rescue a broken method. It packages a method that scored well in one fictional run for repeated use, adds explicit counting of duplicate deals, and makes the stop conditions easier to apply when the evidence for a driver is missing.
 
 ## Independent Forward Test
 
