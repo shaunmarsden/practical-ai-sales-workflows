@@ -1,20 +1,22 @@
 # Cross-Model Post-Call Comparison
 
-Run 19 July 2026. I pasted the same [Hartwell transcript](../examples/hartwell-post-call-transcript.md) and the same [post-call follow-up prompt](../templates/post-call-follow-up-prompt.md) as one message into a fresh conversation in Claude, ChatGPT and Gemini, with no earlier context in any of them. I scored each output against the same [sales AI output rubric](sales-ai-output-rubric.md).
+In this run on 19th July 2026, I gave Claude, ChatGPT and Gemini the same fictional call and follow-up prompt. ChatGPT received the highest recorded score. This was one run per tool, not evidence that one model is generally better.
 
-This compares how many corrections each needed, not which reads most polished. A fluent answer that quietly invents a confirmed meeting is worse than a plainer one that says the time is still pending.
+Start with the [Hartwell transcript](../examples/hartwell-post-call-transcript.md) to see what the outputs needed to preserve. The comparison uses the [post-call follow-up prompt](../templates/post-call-follow-up-prompt.md) and the [sales AI output rubric](sales-ai-output-rubric.md).
+
+**Evidence limit:** the three full outputs are not stored in this repository. The scores and quoted excerpts below are my recorded review, not a comparison a reader can independently re-score from the files here. The linked prompt and transcript are the current versions; this page does not pin the exact revisions used in July.
 
 ## Method Note
 
-I ran Claude in a new conversation, separate from any earlier one, so the result wasn't Claude repeating an answer it had already been told. I ran ChatGPT and Gemini directly, because this environment's browser tools can't reach either site, and pasted the raw outputs back unedited before scoring.
+I recorded using one message containing the same transcript and prompt in a fresh conversation for each tool, then pasting the raw outputs back unedited before scoring. This page does not record the exact model versions, settings or whether any standing account instructions were active. A fresh conversation alone does not establish that those conditions matched.
 
-**Microsoft Copilot isn't in this run.** A full comparison would cover it. It's often the only AI tool a salesperson has, because plenty of organisations limit the choice to whatever IT has already rolled out. Copilot users deserve the same evidence as everyone else, not an assumption that the other three are the default. It's missing for a plain reason: I didn't have access to it, and this environment couldn't reach it, so I couldn't run the test fairly. If that changes, it's the first thing to add.
+**Microsoft Copilot isn't in this run.** I didn't have access to run it. These results say nothing about Copilot or tools outside the three tested here.
 
-## Result
+## Recorded Result
 
 ![Bar chart comparing ChatGPT, Claude and Gemini's overall scores out of 50, and their score on each of the ten rubric criteria, for the same post-call follow-up run.](assets/cross-model-comparison.svg)
 
-The chart shows the same numbers as the tables below. It doesn't replace them.
+The chart shows the same recorded numbers as the tables below. It doesn't replace them or establish how reliable the scores are.
 
 | Model | Score |
 | --- | ---: |
@@ -22,7 +24,7 @@ The chart shows the same numbers as the tables below. It doesn't replace them.
 | Claude | 46 / 50 |
 | Gemini | 42 / 50 |
 
-**Automatic failure: none of the three.** No model invented a confirmed meeting, claimed an external action as done, or presented an estimate as measured fact.
+**Recorded automatic failure: none of the three.** I have kept that original verdict, not revalidated it. The Claude diary claim discussed below needs checking against the rubric's rule on claiming an external action as completed. The full output is needed to review that verdict properly.
 
 ## Scoring Detail
 
@@ -39,36 +41,40 @@ The chart shows the same numbers as the tables below. It doesn't replace them.
 | Approval discipline | 5 | 5 | 5 |
 | Hallucination risk | 5 | 4 | 4 |
 
-## What All Three Got Right
+## What I Recorded Across All Three
+
+These are findings from the original review. Without the full outputs, I cannot check each claim again.
 
 - Labelled the 15 to 30 minute admin figure as Alex's own unmeasured estimate, in every section where it appeared.
-- Kept every conditional word. The transcript approval, Thursday afternoon and Tuesday morning all stayed pending rather than turning into firm commitments.
+- Kept transcript sharing subject to approval and treated Thursday afternoon and Tuesday morning as pending. The meeting wording still needed the corrections below.
 - Didn't invent a product, price or implementation date, and noticed the transcript never names what I'm selling.
 - Framed every CRM update and email draft as a suggestion for human review, not a completed action.
-- No em dashes, no invented urgency and no filler phrases in any of the three follow-up emails.
+- Avoided invented urgency and filler phrases in the follow-up emails.
 
 ## Where Each Model Differed
 
-### Claude: one real self-check miss
+### Claude: an unsupported diary claim
 
-Claude's email draft opens the meeting-time paragraph with "I have checked my diary and can offer the following slots," and follows it straight away with a placeholder: "[INSERT CONFIRMED TIME OPTIONS BEFORE SENDING.]" The two lines contradict each other. The diary hasn't been checked yet, which is the whole reason for the placeholder. Claude's own "Final Accuracy Check" section caught several other risks but not this one. It's a real flaw, and a reminder that having a self-check section doesn't make the check thorough.
+My review records this sentence in Claude's email draft: "I have checked my diary and can offer the following slots," followed by "[INSERT CONFIRMED TIME OPTIONS BEFORE SENDING.]" The transcript says the diary check is still needed. It does not support a claim that the check is complete, and a placeholder does not make that claim safe to send. I recorded that Claude's own "Final Accuracy Check" missed it.
 
-### Gemini: thinnest missing-information section, one soft overreach
+### Gemini: recorded gaps and firmer meeting wording
 
-Gemini's "Missing Information" section listed four items, against ChatGPT's ten and Claude's eight. It didn't flag that the call date itself is unknown, so relative timings can't be turned into calendar dates, a rule the prompt states directly. Nor did it notice that no product or service is named anywhere in the transcript.
+I recorded four items in Gemini's "Missing Information" section, against ChatGPT's ten and Claude's eight. Those counts cannot be recounted from the files here, and more items would not, by itself, mean a better answer. The recorded gaps were the missing call date and the unnamed product or service. Both matter: the prompt says not to convert relative timings into calendar dates without the call date.
 
-Separately, Gemini's email sign-off reads "I look forward to reviewing the results together next week," which is milder than Claude's diary error but still overstates things. No meeting is confirmed, and "next week" sounds firmer than "a review was proposed, pending a time." Gemini's own accuracy check didn't catch this either.
+The review also quotes Gemini's email: "I look forward to reviewing the results together next week," which I judged too firm for an unconfirmed meeting. The transcript proposes a review but leaves its time pending. I recorded that Gemini's own accuracy check missed this wording too.
 
-### ChatGPT: most thorough, one minor clarity blur
+### ChatGPT: the highest recorded score
 
-ChatGPT's actions table listed Alex and me as joint owners on two rows: running the example together, and reviewing the result together. That's a fair description of those steps, but it's less clear on "who owns the next move" than a single-owner row. That cost it a point on next step clarity, the only area where it didn't score 5.
+I recorded joint ownership for Alex and me on two ChatGPT action rows: running the example together and reviewing the result together. That describes shared participation, but does not identify who makes the next move. I deducted one point for next step clarity, its only score below 5.
 
-Otherwise this was the strongest run. It cited the prompt's own call-date rule. It added an "Inferences: none relied upon" line, showing it had checked itself for hidden assumptions. And its Final Accuracy Check used a consistent "this would overstate it, corrected to X" structure that matched real risks rather than restating obvious rules.
+The review records that ChatGPT cited the call-date rule and added "Inferences: none relied upon". That line states a conclusion; it does not prove that the output contained no hidden assumptions. I also noted specific corrections in its Final Accuracy Check. Without the full output, I cannot independently confirm their coverage.
 
 ## What This Suggests
 
-In this one run, ChatGPT needed the fewest corrections, Claude needed one real one, and Gemini needed a couple, including a self-check that missed what its own email got slightly wrong. That isn't the same as "ChatGPT is better at this task." It's one transcript, one prompt and one run per model, with no control over each provider's default settings, reasoning effort or model version when I ran mine.
+ChatGPT received the highest score in my original review. The page does not include a separate correction log, so the score gap is not a measured count of corrections, editing time or effort saved. The missing outputs and run settings also limit what can be concluded. This is a historical observation, not a recommendation to choose one model by default.
 
 ## Caveat and Next Test
 
-This is one data point. Before drawing any real conclusion about which model to use by default for this work, the comparison needs repeating with three changes. Use a different transcript, ideally one with an unclear or messy signal rather than another clean case made only of traps. Run each model more than once, to see how much the corrections vary between runs of the same model. And note the exact model version and any relevant settings for each provider, since these change often enough that a comparison from July 2026 may not hold in a few months.
+The useful next step is to recover the original outputs, if they still exist, without reconstructing them from this review. Keep the recorded scores until a separate review can check every category and automatic-failure rule against those outputs. If the outputs cannot be recovered, say so rather than replacing them with a new run labelled as the old one.
+
+For a new comparison, decide the scoring and failure rules before running it. Use a different fictional transcript, run each tool more than once and record the model version and visible settings with the [run metadata template](model-run-metadata-template.md). Save the exact inputs and unedited outputs. Have the reviewer score them without seeing the model names where practical. Keep those new results separate from this July record.
